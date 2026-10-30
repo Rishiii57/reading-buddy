@@ -1,0 +1,107 @@
+{
+ "events": [
+  {
+   "t": 0.058,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.244,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.297,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "latency": 130,
+   "audio_duration_ms": 2548.0
+  },
+  {
+   "t": 3.867,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.631,
+   "type": "transcript",
+   "text": "દેડકા મીઠું ગીત બોલે",
+   "latency": 129,
+   "audio_duration_ms": 2260.0
+  },
+  {
+   "t": 7.124,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.603,
+   "type": "transcript",
+   "text": "છોકરા પાણીમાં રમે",
+   "latency": 126,
+   "audio_duration_ms": 2036.0
+  },
+  {
+   "t": 9.276,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.795,
+   "type": "transcript",
+   "text": "કાગળની હોડી ડોલે",
+   "latency": 132,
+   "audio_duration_ms": 2004.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-varsad",
+  "language": "gu-IN",
+  "variant": "clean_b",
+  "voice": "Devansh",
+  "duration": 12.44,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.08,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.68,
+    "end": 5.28,
+    "words": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.88,
+    "end": 8.4,
+    "words": [
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.0,
+    "end": 10.44,
+    "words": [
+     13,
+     14,
+     15
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

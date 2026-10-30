@@ -1,0 +1,107 @@
+{
+ "events": [
+  {
+   "t": 0.047,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.232,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.743,
+   "type": "transcript",
+   "text": "મારો પતંગ લાલને પીળો",
+   "latency": 100,
+   "audio_duration_ms": 2036.0
+  },
+  {
+   "t": 3.247,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.019,
+   "type": "transcript",
+   "text": "આકાશે ઊડે રંગીલો",
+   "latency": 99,
+   "audio_duration_ms": 2272.0
+  },
+  {
+   "t": 6.643,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.34,
+   "type": "transcript",
+   "text": "પવન સાથે નાચે ગાય",
+   "latency": 98,
+   "audio_duration_ms": 2228.0
+  },
+  {
+   "t": 8.784,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.134,
+   "type": "transcript",
+   "text": "ઊંચે ઊંચે ઊડતો જાય",
+   "latency": 99,
+   "audio_duration_ms": 1792.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-patang",
+  "language": "gu-IN",
+  "variant": "clean_b",
+  "voice": "Devansh",
+  "duration": 11.8,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.44,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.04,
+    "end": 4.8,
+    "words": [
+     5,
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.4,
+    "end": 8.0,
+    "words": [
+     8,
+     9,
+     10,
+     11
+    ],
+    "line": 2
+   },
+   {
+    "start": 8.6,
+    "end": 9.8,
+    "words": [
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

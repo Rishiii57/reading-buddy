@@ -1,0 +1,55 @@
+{
+ "text_id": "hi-baarish",
+ "language": "hi-IN",
+ "variant": "clean_b",
+ "voice": "Devansh",
+ "duration": 13.0,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.08,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.68,
+   "end": 5.12,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "line": 1
+  },
+  {
+   "start": 6.72,
+   "end": 8.48,
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 9.08,
+   "end": 11.0,
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 3
+  }
+ ],
+ "truth": []
+}

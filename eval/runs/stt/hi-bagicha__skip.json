@@ -1,0 +1,126 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.202,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.724,
+   "type": "transcript",
+   "text": "मीना के घर के पीछे एक बगीचा है।",
+   "latency": 101,
+   "audio_duration_ms": 2996.0
+  },
+  {
+   "t": 4.177,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.376,
+   "type": "transcript",
+   "text": "उसमें लाल और फूल खिलते हैं",
+   "latency": 111,
+   "audio_duration_ms": 2688.0
+  },
+  {
+   "t": 7.859,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.386,
+   "type": "transcript",
+   "text": "मीना हर सुबह पौधों को पानी देती है।",
+   "latency": 112,
+   "audio_duration_ms": 2964.0
+  },
+  {
+   "t": 10.958,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.014,
+   "type": "transcript",
+   "text": "उसे अपने बगीचे से बहुत प्यार है।",
+   "latency": 130,
+   "audio_duration_ms": 2612.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-bagicha",
+  "language": "hi-IN",
+  "variant": "skip",
+  "voice": "Devansh",
+  "duration": 14.68,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.32,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.92,
+    "end": 6.08,
+    "words": [
+     8,
+     9,
+     10,
+     12,
+     13,
+     14
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.68,
+    "end": 10.08,
+    "words": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ],
+    "line": 2
+   },
+   {
+    "start": 10.68,
+    "end": 12.68,
+    "words": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "skip",
+    "word": 11,
+    "segment_end": 6.08
+   }
+  ]
+ }
+}

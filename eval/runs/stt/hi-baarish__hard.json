@@ -1,0 +1,157 @@
+{
+ "events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.276,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.407,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 137,
+   "audio_duration_ms": 1620.0
+  },
+  {
+   "t": 4.059,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.958,
+   "type": "transcript",
+   "text": "बारिश आई",
+   "latency": 128,
+   "audio_duration_ms": 1396.0
+  },
+  {
+   "t": 5.5,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.702,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा",
+   "latency": 113,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 7.739,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.388,
+   "type": "transcript",
+   "text": "मेरे",
+   "latency": 85,
+   "audio_duration_ms": 1140.0
+  },
+  {
+   "t": 9.819,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.847,
+   "type": "transcript",
+   "text": "मेंढक गाती",
+   "latency": 129,
+   "audio_duration_ms": 1524.0
+  },
+  {
+   "t": 11.707,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.75,
+   "type": "transcript",
+   "text": "ते मीठे खाने",
+   "latency": 110,
+   "audio_duration_ms": 1524.0
+  },
+  {
+   "t": 13.469,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.577,
+   "type": "transcript",
+   "text": "बच्चे निकले",
+   "latency": 81,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 16.307,
+   "type": "speech_start"
+  },
+  {
+   "t": 17.306,
+   "type": "transcript",
+   "text": "नाव चलाने।",
+   "latency": 84,
+   "audio_duration_ms": 1556.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-baarish",
+  "language": "hi-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 18.92,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.61,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0,
+    "hesitation_s": 1.53
+   },
+   {
+    "start": 5.21,
+    "end": 8.016,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "line": 1,
+    "hesitation_s": 1.37
+   },
+   {
+    "start": 9.616,
+    "end": 12.598,
+    "words": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2,
+    "hesitation_s": 1.22
+   },
+   {
+    "start": 13.198,
+    "end": 16.916,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3,
+    "hesitation_s": 1.8
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

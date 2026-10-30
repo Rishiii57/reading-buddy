@@ -1,0 +1,61 @@
+{
+ "text_id": "gu-varsad",
+ "language": "gu-IN",
+ "variant": "sub",
+ "voice": "Riyaa",
+ "duration": 14.38,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.311,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "line": 0
+  },
+  {
+   "start": 4.111,
+   "end": 6.067,
+   "words": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.667,
+   "end": 9.533,
+   "words": [
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 10.333,
+   "end": 12.378,
+   "words": [
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 12,
+   "said": "રોજ",
+   "segment_end": 9.533
+  }
+ ]
+}

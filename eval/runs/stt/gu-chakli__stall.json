@@ -1,0 +1,150 @@
+{
+ "events": [
+  {
+   "t": 0.07,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.212,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.042,
+   "type": "transcript",
+   "text": "એક નાની ચકલી હતી",
+   "latency": 193,
+   "audio_duration_ms": 2260.0
+  },
+  {
+   "t": 3.679,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.989,
+   "type": "transcript",
+   "text": "તે રોજ સવારે દાણા શોધવા જતી",
+   "latency": 99,
+   "audio_duration_ms": 2836.0
+  },
+  {
+   "t": 7.452,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.488,
+   "type": "transcript",
+   "text": "એક દિવસ તેને ઘણા બધા દાણા મળ્યા",
+   "latency": 118,
+   "audio_duration_ms": 3476.0
+  },
+  {
+   "t": 11.101,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.035,
+   "type": "transcript",
+   "text": "ચકલીએ",
+   "latency": 96,
+   "audio_duration_ms": 1428.0
+  },
+  {
+   "t": 12.094,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.94,
+   "type": "transcript",
+   "text": "તે દાણા",
+   "latency": 77,
+   "audio_duration_ms": 960.0
+  },
+  {
+   "t": 18.013,
+   "type": "speech_start"
+  },
+  {
+   "t": 19.748,
+   "type": "transcript",
+   "text": "તેના બચ્ચાને ખવડાવ્યા",
+   "latency": 98,
+   "audio_duration_ms": 2228.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-chakli",
+  "language": "gu-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 21.33,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.6,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.4,
+    "end": 5.622,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.222,
+    "end": 10.067,
+    "words": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 2
+   },
+   {
+    "start": 10.867,
+    "end": 12.733,
+    "words": [
+     17,
+     18,
+     19
+    ],
+    "line": 3
+   },
+   {
+    "start": 17.733,
+    "end": 19.333,
+    "words": [
+     20,
+     21,
+     22
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 20,
+    "start": 12.733,
+    "end": 17.733
+   }
+  ]
+ }
+}

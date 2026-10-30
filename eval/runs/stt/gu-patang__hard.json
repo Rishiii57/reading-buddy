@@ -1,0 +1,156 @@
+{
+ "events": [
+  {
+   "t": 0.058,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.245,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.57,
+   "type": "transcript",
+   "text": "મારો પતંગ લાલને",
+   "latency": 98,
+   "audio_duration_ms": 1812.0
+  },
+  {
+   "t": 3.164,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.781,
+   "type": "transcript",
+   "text": "હેલો",
+   "latency": 71,
+   "audio_duration_ms": 1172.0
+  },
+  {
+   "t": 4.286,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.269,
+   "type": "transcript",
+   "text": "આકાશે",
+   "latency": 55,
+   "audio_duration_ms": 1504.0
+  },
+  {
+   "t": 6.43,
+   "type": "speech_start"
+  },
+  {
+   "t": 7.444,
+   "type": "transcript",
+   "text": "કૂડે રંગીલો",
+   "latency": 52,
+   "audio_duration_ms": 1588.0
+  },
+  {
+   "t": 9.085,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.933,
+   "type": "transcript",
+   "text": "બવન સાત",
+   "latency": 74,
+   "audio_duration_ms": 1396.0
+  },
+  {
+   "t": 10.685,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.844,
+   "type": "transcript",
+   "text": "થે નાચે ગાય",
+   "latency": 52,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 12.368,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.247,
+   "type": "transcript",
+   "text": "ઊંચું ઉંચે",
+   "latency": 96,
+   "audio_duration_ms": 1440.0
+  },
+  {
+   "t": 14.141,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.704,
+   "type": "transcript",
+   "text": "તો જાય",
+   "latency": 78,
+   "audio_duration_ms": 1108.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-patang",
+  "language": "gu-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 16.43,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.452,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0,
+    "hesitation_s": 1.01
+   },
+   {
+    "start": 4.052,
+    "end": 7.235,
+    "words": [
+     5,
+     6,
+     7
+    ],
+    "line": 1,
+    "hesitation_s": 1.42
+   },
+   {
+    "start": 8.835,
+    "end": 11.482,
+    "words": [
+     8,
+     9,
+     10,
+     11
+    ],
+    "line": 2,
+    "hesitation_s": 1.05
+   },
+   {
+    "start": 12.082,
+    "end": 14.434,
+    "words": [
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 3,
+    "hesitation_s": 1.15
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

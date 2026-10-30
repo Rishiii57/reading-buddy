@@ -1,0 +1,120 @@
+{
+ "events": [
+  {
+   "t": 0.047,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.268,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.995,
+   "type": "transcript",
+   "text": "peter patter falls the rain",
+   "latency": 163,
+   "audio_duration_ms": 2164.0
+  },
+  {
+   "t": 3.353,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.117,
+   "type": "transcript",
+   "text": "on the roof and window pane",
+   "latency": 137,
+   "audio_duration_ms": 2176.0
+  },
+  {
+   "t": 6.679,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.852,
+   "type": "transcript",
+   "text": "frogs are happy ducks can",
+   "latency": 161,
+   "audio_duration_ms": 2644.0
+  },
+  {
+   "t": 9.265,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.176,
+   "type": "transcript",
+   "text": "the rain has come to stay today",
+   "latency": 139,
+   "audio_duration_ms": 2272.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-rain",
+  "language": "en-IN",
+  "variant": "skip",
+  "voice": "Devansh",
+  "duration": 12.76,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.52,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.12,
+    "end": 4.88,
+    "words": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.48,
+    "end": 8.48,
+    "words": [
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.08,
+    "end": 10.76,
+    "words": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "skip",
+    "word": 16,
+    "segment_end": 8.48
+   }
+  ]
+ }
+}

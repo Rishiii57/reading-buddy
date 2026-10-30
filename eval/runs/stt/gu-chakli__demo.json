@@ -1,0 +1,156 @@
+{
+ "events": [
+  {
+   "t": 0.002,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.201,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.988,
+   "type": "transcript",
+   "text": "એક નાની ચકલી હતી",
+   "latency": 152,
+   "audio_duration_ms": 2260.0
+  },
+  {
+   "t": 3.713,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.813,
+   "type": "transcript",
+   "text": "તે પળે સવારે દાણા શોધવા જતી",
+   "latency": 194,
+   "audio_duration_ms": 3572.0
+  },
+  {
+   "t": 8.146,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.243,
+   "type": "transcript",
+   "text": "એક દિવસ તેને ઘણા બધા દાણા મળ્યા",
+   "latency": 194,
+   "audio_duration_ms": 3508.0
+  },
+  {
+   "t": 11.828,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.777,
+   "type": "transcript",
+   "text": "ચકલીએ",
+   "latency": 152,
+   "audio_duration_ms": 1396.0
+  },
+  {
+   "t": 12.787,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.678,
+   "type": "transcript",
+   "text": "તેદાણા",
+   "latency": 113,
+   "audio_duration_ms": 960.0
+  },
+  {
+   "t": 18.707,
+   "type": "speech_start"
+  },
+  {
+   "t": 20.464,
+   "type": "transcript",
+   "text": "તેના બચ્ચાને ખવડાવ્યા",
+   "latency": 153,
+   "audio_duration_ms": 2228.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-chakli",
+  "language": "gu-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 22.04,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.6,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.4,
+    "end": 6.333,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.933,
+    "end": 10.778,
+    "words": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 2
+   },
+   {
+    "start": 11.578,
+    "end": 13.444,
+    "words": [
+     17,
+     18,
+     19
+    ],
+    "line": 3
+   },
+   {
+    "start": 18.444,
+    "end": 20.044,
+    "words": [
+     20,
+     21,
+     22
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "sub",
+    "word": 5,
+    "said": "પડે",
+    "segment_end": 6.333
+   },
+   {
+    "type": "stall",
+    "word": 20,
+    "start": 13.444,
+    "end": 18.444
+   }
+  ]
+ }
+}

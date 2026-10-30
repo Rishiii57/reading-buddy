@@ -1,0 +1,81 @@
+{
+ "text_id": "gu-chakli",
+ "language": "gu-IN",
+ "variant": "demo",
+ "voice": "Riyaa",
+ "duration": 22.04,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.6,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.4,
+   "end": 6.333,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.933,
+   "end": 10.778,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 2
+  },
+  {
+   "start": 11.578,
+   "end": 13.444,
+   "words": [
+    17,
+    18,
+    19
+   ],
+   "line": 3
+  },
+  {
+   "start": 18.444,
+   "end": 20.044,
+   "words": [
+    20,
+    21,
+    22
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 5,
+   "said": "પડે",
+   "segment_end": 6.333
+  },
+  {
+   "type": "stall",
+   "word": 20,
+   "start": 13.444,
+   "end": 18.444
+  }
+ ]
+}

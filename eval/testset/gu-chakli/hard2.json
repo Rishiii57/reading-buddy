@@ -1,0 +1,66 @@
+{
+ "text_id": "gu-chakli",
+ "language": "gu-IN",
+ "variant": "hard2",
+ "voice": "Riyaa",
+ "duration": 24.17,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 4.187,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0,
+   "hesitation_s": 1.59
+  },
+  {
+   "start": 7.187,
+   "end": 10.697,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1,
+   "hesitation_s": 1.29
+  },
+  {
+   "start": 12.296,
+   "end": 16.188,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 2,
+   "hesitation_s": 1.05
+  },
+  {
+   "start": 16.988,
+   "end": 22.169,
+   "words": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "line": 3,
+   "hesitation_s": 1.63
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

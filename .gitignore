@@ -1,0 +1,11 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+cache/sessions/
+cache/usage.json
+cache/tts/*.part
+# synthetic test audio is rebuilt from the TTS cache by eval/make_testset.py (no API calls)
+eval/testset/*/*.wav

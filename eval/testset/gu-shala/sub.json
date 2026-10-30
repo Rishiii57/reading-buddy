@@ -1,0 +1,67 @@
+{
+ "text_id": "gu-shala",
+ "language": "gu-IN",
+ "variant": "sub",
+ "voice": "Riyaa",
+ "duration": 16.07,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.222,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 4.022,
+   "end": 6.778,
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 8.378,
+   "end": 10.778,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 2
+  },
+  {
+   "start": 11.578,
+   "end": 14.067,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 14,
+   "said": "નાચે",
+   "segment_end": 10.778
+  }
+ ]
+}

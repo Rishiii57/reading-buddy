@@ -1,0 +1,75 @@
+{
+ "text_id": "hi-baarish",
+ "language": "hi-IN",
+ "variant": "demo",
+ "voice": "Riyaa",
+ "duration": 20.44,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.489,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 4.289,
+   "end": 6.067,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.667,
+   "end": 9.444,
+   "words": [
+    9,
+    10
+   ],
+   "line": 2
+  },
+  {
+   "start": 14.444,
+   "end": 15.778,
+   "words": [
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 16.578,
+   "end": 18.444,
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 6,
+   "said": "आती",
+   "segment_end": 6.067
+  },
+  {
+   "type": "stall",
+   "word": 11,
+   "start": 9.444,
+   "end": 14.444
+  }
+ ]
+}

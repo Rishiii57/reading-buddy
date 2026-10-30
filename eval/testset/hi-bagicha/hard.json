@@ -1,0 +1,73 @@
+{
+ "text_id": "hi-bagicha",
+ "language": "hi-IN",
+ "variant": "hard",
+ "voice": "Devansh",
+ "duration": 21.21,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 5.117,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 0,
+   "hesitation_s": 1.8
+  },
+  {
+   "start": 5.716,
+   "end": 9.789,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "line": 1,
+   "hesitation_s": 1.67
+  },
+  {
+   "start": 11.389,
+   "end": 15.355,
+   "words": [
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "line": 2,
+   "hesitation_s": 1.57
+  },
+  {
+   "start": 15.955,
+   "end": 19.207,
+   "words": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "line": 3,
+   "hesitation_s": 1.25
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

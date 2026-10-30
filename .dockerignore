@@ -1,0 +1,7 @@
+.venv
+.env
+cache/sessions
+cache/usage.json
+**/__pycache__
+.claude
+eval/testset/*/*.wav

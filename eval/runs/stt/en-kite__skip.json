@@ -1,0 +1,125 @@
+{
+ "events": [
+  {
+   "t": 0.046,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.214,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.095,
+   "type": "transcript",
+   "text": "i have a kite of red and blue",
+   "latency": 119,
+   "audio_duration_ms": 2324.0
+  },
+  {
+   "t": 3.668,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.893,
+   "type": "transcript",
+   "text": "it flies up high the whole day through",
+   "latency": 123,
+   "audio_duration_ms": 2708.0
+  },
+  {
+   "t": 7.353,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.381,
+   "type": "transcript",
+   "text": "it dances with the morning breeze",
+   "latency": 121,
+   "audio_duration_ms": 2452.0
+  },
+  {
+   "t": 9.785,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.894,
+   "type": "transcript",
+   "text": "above the and tall green trees",
+   "latency": 89,
+   "audio_duration_ms": 2624.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-kite",
+  "language": "en-IN",
+  "variant": "skip",
+  "voice": "Devansh",
+  "duration": 13.56,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.84,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.44,
+    "end": 5.52,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.12,
+    "end": 8.96,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.56,
+    "end": 11.56,
+    "words": [
+     22,
+     23,
+     25,
+     26,
+     27,
+     28
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "skip",
+    "word": 24,
+    "segment_end": 11.56
+   }
+  ]
+ }
+}

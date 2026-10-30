@@ -1,0 +1,157 @@
+{
+ "events": [
+  {
+   "t": 0.046,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.321,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.367,
+   "type": "transcript",
+   "text": "मेरी गुड़िया",
+   "latency": 125,
+   "audio_duration_ms": 1556.0
+  },
+  {
+   "t": 3.185,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.115,
+   "type": "transcript",
+   "text": "प्यारी है",
+   "latency": 124,
+   "audio_duration_ms": 1364.0
+  },
+  {
+   "t": 4.517,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.941,
+   "type": "transcript",
+   "text": "सबसे न्यारी न्यारी",
+   "latency": 127,
+   "audio_duration_ms": 1888.0
+  },
+  {
+   "t": 7.154,
+   "type": "speech_start"
+  },
+  {
+   "t": 7.755,
+   "type": "transcript",
+   "text": "दृश्य",
+   "latency": 95,
+   "audio_duration_ms": 1044.0
+  },
+  {
+   "t": 9.4,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.764,
+   "type": "transcript",
+   "text": "लाल चुनरी ओढ़ती",
+   "latency": 149,
+   "audio_duration_ms": 1844.0
+  },
+  {
+   "t": 11.699,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.371,
+   "type": "transcript",
+   "text": "क्या थी",
+   "latency": 93,
+   "audio_duration_ms": 1204.0
+  },
+  {
+   "t": 12.946,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.902,
+   "type": "transcript",
+   "text": "मीठे मीठे",
+   "latency": 144,
+   "audio_duration_ms": 1396.0
+  },
+  {
+   "t": 15.217,
+   "type": "speech_start"
+  },
+  {
+   "t": 16.099,
+   "type": "transcript",
+   "text": "ठिकाने गाने",
+   "latency": 144,
+   "audio_duration_ms": 1364.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-gudiya",
+  "language": "hi-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 17.95,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.68,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0,
+    "hesitation_s": 1.32
+   },
+   {
+    "start": 4.28,
+    "end": 7.558,
+    "words": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 1,
+    "hesitation_s": 1.68
+   },
+   {
+    "start": 9.158,
+    "end": 12.147,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2,
+    "hesitation_s": 1.31
+   },
+   {
+    "start": 12.747,
+    "end": 15.953,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3,
+    "hesitation_s": 1.77
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

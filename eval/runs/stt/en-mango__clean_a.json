@@ -1,0 +1,123 @@
+{
+ "events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.237,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.875,
+   "type": "transcript",
+   "text": "ravi has a mango tree in his garden",
+   "latency": 156,
+   "audio_duration_ms": 3028.0
+  },
+  {
+   "t": 4.307,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.081,
+   "type": "transcript",
+   "text": "every summer the tree is full of sweet mangoes",
+   "latency": 168,
+   "audio_duration_ms": 4148.0
+  },
+  {
+   "t": 9.431,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.087,
+   "type": "transcript",
+   "text": "ravi shares the mangoes with his friends",
+   "latency": 157,
+   "audio_duration_ms": 3188.0
+  },
+  {
+   "t": 14.775,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.029,
+   "type": "transcript",
+   "text": "they sit under the tree and laugh together",
+   "latency": 157,
+   "audio_duration_ms": 3700.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-mango",
+  "language": "en-IN",
+  "variant": "clean_a",
+  "voice": "Riyaa",
+  "duration": 19.6,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.311,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.111,
+    "end": 7.578,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 1
+   },
+   {
+    "start": 9.178,
+    "end": 11.578,
+    "words": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "line": 2
+   },
+   {
+    "start": 14.578,
+    "end": 17.6,
+    "words": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

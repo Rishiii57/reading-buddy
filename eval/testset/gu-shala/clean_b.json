@@ -1,0 +1,60 @@
+{
+ "text_id": "gu-shala",
+ "language": "gu-IN",
+ "variant": "clean_b",
+ "voice": "Devansh",
+ "duration": 13.48,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.76,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.36,
+   "end": 5.36,
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 6.96,
+   "end": 8.8,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 2
+  },
+  {
+   "start": 9.4,
+   "end": 11.48,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 3
+  }
+ ],
+ "truth": []
+}

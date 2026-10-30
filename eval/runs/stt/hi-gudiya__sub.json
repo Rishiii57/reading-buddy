@@ -1,0 +1,115 @@
+{
+ "events": [
+  {
+   "t": 0.05,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.283,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.929,
+   "type": "transcript",
+   "text": "मेरी गुड़िया प्यारी है",
+   "latency": 125,
+   "audio_duration_ms": 2228.0
+  },
+  {
+   "t": 3.602,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.653,
+   "type": "transcript",
+   "text": "सबसे न्यारी न्यारी है",
+   "latency": 125,
+   "audio_duration_ms": 2548.0
+  },
+  {
+   "t": 7.153,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.321,
+   "type": "transcript",
+   "text": "लाल मेंढक ओढ़ के आती",
+   "latency": 124,
+   "audio_duration_ms": 2580.0
+  },
+  {
+   "t": 9.811,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.769,
+   "type": "transcript",
+   "text": "मीठे मीठे गाने गाती",
+   "latency": 126,
+   "audio_duration_ms": 2388.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-gudiya",
+  "language": "hi-IN",
+  "variant": "sub",
+  "voice": "Riyaa",
+  "duration": 13.31,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.6,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.4,
+    "end": 5.356,
+    "words": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.956,
+    "end": 8.822,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.622,
+    "end": 11.311,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "sub",
+    "word": 9,
+    "said": "मेंढक",
+    "segment_end": 8.822
+   }
+  ]
+ }
+}

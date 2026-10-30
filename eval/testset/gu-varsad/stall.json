@@ -1,0 +1,68 @@
+{
+ "text_id": "gu-varsad",
+ "language": "gu-IN",
+ "variant": "stall",
+ "voice": "Riyaa",
+ "duration": 20.0,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.311,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "line": 0
+  },
+  {
+   "start": 4.111,
+   "end": 5.356,
+   "words": [
+    6,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 10.356,
+   "end": 11.6,
+   "words": [
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 13.2,
+   "end": 15.156,
+   "words": [
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 15.956,
+   "end": 18.0,
+   "words": [
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "stall",
+   "word": 8,
+   "start": 5.356,
+   "end": 10.356
+  }
+ ]
+}

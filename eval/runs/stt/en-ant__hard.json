@@ -1,0 +1,207 @@
+{
+ "events": [
+  {
+   "t": 0.05,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.335,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.618,
+   "type": "transcript",
+   "text": "a small ant walk",
+   "latency": 119,
+   "audio_duration_ms": 1844.0
+  },
+  {
+   "t": 3.621,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.829,
+   "type": "transcript",
+   "text": "across the floor",
+   "latency": 119,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 5.311,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.714,
+   "type": "transcript",
+   "text": "it carried a grain of",
+   "latency": 118,
+   "audio_duration_ms": 1888.0
+  },
+  {
+   "t": 7.808,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.015,
+   "type": "transcript",
+   "text": "price on its back",
+   "latency": 117,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 10.718,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.805,
+   "type": "transcript",
+   "text": "the rice was",
+   "latency": 120,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 13.213,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.456,
+   "type": "transcript",
+   "text": "bigger than the ant",
+   "latency": 119,
+   "audio_duration_ms": 1748.0
+  },
+  {
+   "t": 15.005,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.963,
+   "type": "transcript",
+   "text": "and",
+   "latency": 118,
+   "audio_duration_ms": 1460.0
+  },
+  {
+   "t": 17.086,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.227,
+   "type": "transcript",
+   "text": "did not give up",
+   "latency": 110,
+   "audio_duration_ms": 1588.0
+  },
+  {
+   "t": 18.636,
+   "type": "speech_start"
+  },
+  {
+   "t": 20.154,
+   "type": "transcript",
+   "text": "it walked slowly",
+   "latency": 120,
+   "audio_duration_ms": 1952.0
+  },
+  {
+   "t": 21.473,
+   "type": "speech_start"
+  },
+  {
+   "t": 22.776,
+   "type": "transcript",
+   "text": "and reached its home",
+   "latency": 121,
+   "audio_duration_ms": 1780.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-ant",
+  "language": "en-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 24.37,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.442,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "line": 0,
+    "hesitation_s": 1.36
+   },
+   {
+    "start": 5.042,
+    "end": 8.81,
+    "words": [
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 1,
+    "hesitation_s": 1.45
+   },
+   {
+    "start": 10.41,
+    "end": 14.149,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ],
+    "line": 2,
+    "hesitation_s": 1.74
+   },
+   {
+    "start": 14.749,
+    "end": 17.802,
+    "words": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "line": 3,
+    "hesitation_s": 1.37
+   },
+   {
+    "start": 18.401,
+    "end": 22.368,
+    "words": [
+     30,
+     31,
+     32,
+     33,
+     34,
+     35,
+     36
+    ],
+    "line": 4,
+    "hesitation_s": 1.41
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

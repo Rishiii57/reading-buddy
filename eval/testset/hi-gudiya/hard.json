@@ -1,0 +1,60 @@
+{
+ "text_id": "hi-gudiya",
+ "language": "hi-IN",
+ "variant": "hard",
+ "voice": "Devansh",
+ "duration": 17.95,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.68,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0,
+   "hesitation_s": 1.32
+  },
+  {
+   "start": 4.28,
+   "end": 7.558,
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 1,
+   "hesitation_s": 1.68
+  },
+  {
+   "start": 9.158,
+   "end": 12.147,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 2,
+   "hesitation_s": 1.31
+  },
+  {
+   "start": 12.747,
+   "end": 15.953,
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 3,
+   "hesitation_s": 1.77
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

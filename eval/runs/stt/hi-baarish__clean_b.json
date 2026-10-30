@@ -1,0 +1,119 @@
+{
+ "events": [
+  {
+   "t": 0.045,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.212,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.366,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 112,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 2.458,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.43,
+   "type": "transcript",
+   "text": "बारिश आई।",
+   "latency": 108,
+   "audio_duration_ms": 1088.0
+  },
+  {
+   "t": 3.985,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.508,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा भी आई।",
+   "latency": 115,
+   "audio_duration_ms": 2004.0
+  },
+  {
+   "t": 6.907,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.66,
+   "type": "transcript",
+   "text": "मेंढक गाते मीठे गाने।",
+   "latency": 115,
+   "audio_duration_ms": 2260.0
+  },
+  {
+   "t": 9.306,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.448,
+   "type": "transcript",
+   "text": "बच्चे निकले नाव चलाने।",
+   "latency": 117,
+   "audio_duration_ms": 2644.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-baarish",
+  "language": "hi-IN",
+  "variant": "clean_b",
+  "voice": "Devansh",
+  "duration": 13.0,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.08,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.68,
+    "end": 5.12,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.72,
+    "end": 8.48,
+    "words": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.08,
+    "end": 11.0,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

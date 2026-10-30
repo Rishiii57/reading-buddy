@@ -1,0 +1,144 @@
+{
+ "events": [
+  {
+   "t": 0.051,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.204,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.467,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 110,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 2.481,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.579,
+   "type": "transcript",
+   "text": "बारिश आई।",
+   "latency": 61,
+   "audio_duration_ms": 1152.0
+  },
+  {
+   "t": 4.561,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.492,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा भी आई।",
+   "latency": 133,
+   "audio_duration_ms": 2452.0
+  },
+  {
+   "t": 8.02,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.257,
+   "type": "transcript",
+   "text": "मेंढक गाते",
+   "latency": 84,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 14.801,
+   "type": "speech_start"
+  },
+  {
+   "t": 16.2,
+   "type": "transcript",
+   "text": "मीठे गाने",
+   "latency": 101,
+   "audio_duration_ms": 1876.0
+  },
+  {
+   "t": 16.945,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.921,
+   "type": "transcript",
+   "text": "बच्चे निकले नाव चलाने।",
+   "latency": 112,
+   "audio_duration_ms": 2484.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-baarish",
+  "language": "hi-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 20.62,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.489,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.289,
+    "end": 6.244,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.844,
+    "end": 9.622,
+    "words": [
+     9,
+     10
+    ],
+    "line": 2
+   },
+   {
+    "start": 14.622,
+    "end": 15.956,
+    "words": [
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 16.756,
+    "end": 18.622,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 11,
+    "start": 9.622,
+    "end": 14.622
+   }
+  ]
+ }
+}

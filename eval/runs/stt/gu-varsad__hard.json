@@ -1,0 +1,156 @@
+{
+ "events": [
+  {
+   "t": 0.046,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.21,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.367,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ",
+   "latency": 97,
+   "audio_duration_ms": 1684.0
+  },
+  {
+   "t": 3.742,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.895,
+   "type": "transcript",
+   "text": "ટપ વરસાદ પડ્યો",
+   "latency": 97,
+   "audio_duration_ms": 1684.0
+  },
+  {
+   "t": 5.684,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.678,
+   "type": "transcript",
+   "text": "તડકા મીઠ",
+   "latency": 96,
+   "audio_duration_ms": 1492.0
+  },
+  {
+   "t": 7.725,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.658,
+   "type": "transcript",
+   "text": "તું ગીત બોલે",
+   "latency": 52,
+   "audio_duration_ms": 1588.0
+  },
+  {
+   "t": 10.17,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.059,
+   "type": "transcript",
+   "text": "છોકરા",
+   "latency": 95,
+   "audio_duration_ms": 1364.0
+  },
+  {
+   "t": 12.157,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.143,
+   "type": "transcript",
+   "text": "પાણીમાં રમે",
+   "latency": 57,
+   "audio_duration_ms": 1556.0
+  },
+  {
+   "t": 13.851,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.72,
+   "type": "transcript",
+   "text": "કાગળની",
+   "latency": 95,
+   "audio_duration_ms": 1396.0
+  },
+  {
+   "t": 15.805,
+   "type": "speech_start"
+  },
+  {
+   "t": 16.673,
+   "type": "transcript",
+   "text": "ઓડી ટોલ",
+   "latency": 98,
+   "audio_duration_ms": 1396.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-varsad",
+  "language": "gu-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 18.44,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.754,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "line": 0,
+    "hesitation_s": 1.67
+   },
+   {
+    "start": 5.354,
+    "end": 8.369,
+    "words": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1,
+    "hesitation_s": 1.42
+   },
+   {
+    "start": 9.969,
+    "end": 13.001,
+    "words": [
+     10,
+     11,
+     12
+    ],
+    "line": 2,
+    "hesitation_s": 1.51
+   },
+   {
+    "start": 13.601,
+    "end": 16.441,
+    "words": [
+     13,
+     14,
+     15
+    ],
+    "line": 3,
+    "hesitation_s": 1.4
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

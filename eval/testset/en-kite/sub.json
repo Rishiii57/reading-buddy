@@ -1,0 +1,74 @@
+{
+ "text_id": "en-kite",
+ "language": "en-IN",
+ "variant": "sub",
+ "voice": "Riyaa",
+ "duration": 15.8,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.778,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.578,
+   "end": 6.067,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.667,
+   "end": 9.978,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 2
+  },
+  {
+   "start": 10.778,
+   "end": 13.8,
+   "words": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 9,
+   "said": "Pitter",
+   "segment_end": 6.067
+  }
+ ]
+}

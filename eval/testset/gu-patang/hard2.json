@@ -1,0 +1,59 @@
+{
+ "text_id": "gu-patang",
+ "language": "gu-IN",
+ "variant": "hard2",
+ "voice": "Riyaa",
+ "duration": 21.96,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 4.427,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0,
+   "hesitation_s": 1.47
+  },
+  {
+   "start": 7.427,
+   "end": 10.642,
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "line": 1,
+   "hesitation_s": 1.53
+  },
+  {
+   "start": 12.242,
+   "end": 15.783,
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "line": 2,
+   "hesitation_s": 1.5
+  },
+  {
+   "start": 16.583,
+   "end": 19.96,
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 3,
+   "hesitation_s": 1.78
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

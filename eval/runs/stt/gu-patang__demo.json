@@ -1,0 +1,149 @@
+{
+ "events": [
+  {
+   "t": 0.024,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.237,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.336,
+   "type": "transcript",
+   "text": "મારું પતંગલાલને પીળો",
+   "latency": 266,
+   "audio_duration_ms": 2484.0
+  },
+  {
+   "t": 4.024,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.104,
+   "type": "transcript",
+   "text": "આકાશે",
+   "latency": 126,
+   "audio_duration_ms": 1524.0
+  },
+  {
+   "t": 5.239,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.288,
+   "type": "transcript",
+   "text": "ટપ રંગીલો",
+   "latency": 99,
+   "audio_duration_ms": 1216.0
+  },
+  {
+   "t": 7.928,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.309,
+   "type": "transcript",
+   "text": "પવન સાથે",
+   "latency": 129,
+   "audio_duration_ms": 1876.0
+  },
+  {
+   "t": 14.204,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.482,
+   "type": "transcript",
+   "text": "નાચે ગાય",
+   "latency": 126,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 16.249,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.004,
+   "type": "transcript",
+   "text": "ઊંચે ઊંચે ઊડતો જાય",
+   "latency": 128,
+   "audio_duration_ms": 2260.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-patang",
+  "language": "gu-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 19.56,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.956,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.756,
+    "end": 6.067,
+    "words": [
+     5,
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.667,
+    "end": 9.0,
+    "words": [
+     8,
+     9
+    ],
+    "line": 2
+   },
+   {
+    "start": 14.0,
+    "end": 15.156,
+    "words": [
+     10,
+     11
+    ],
+    "line": 2
+   },
+   {
+    "start": 15.956,
+    "end": 17.556,
+    "words": [
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "sub",
+    "word": 6,
+    "said": "ટપ",
+    "segment_end": 6.067
+   },
+   {
+    "type": "stall",
+    "word": 10,
+    "start": 9.0,
+    "end": 14.0
+   }
+  ]
+ }
+}

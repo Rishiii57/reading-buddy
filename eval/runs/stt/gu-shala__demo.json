@@ -1,0 +1,155 @@
+{
+ "events": [
+  {
+   "t": 0.047,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.177,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.478,
+   "type": "transcript",
+   "text": "મારી શાળા",
+   "latency": 102,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 3.196,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.423,
+   "type": "transcript",
+   "text": "મારી શાળા",
+   "latency": 99,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 10.299,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.761,
+   "type": "transcript",
+   "text": "બહુ સુંદર છે",
+   "latency": 125,
+   "audio_duration_ms": 1908.0
+  },
+  {
+   "t": 12.347,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.651,
+   "type": "transcript",
+   "text": "શાળામાં એક મોટું પીળો છે",
+   "latency": 94,
+   "audio_duration_ms": 2836.0
+  },
+  {
+   "t": 16.058,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.65,
+   "type": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "latency": 156,
+   "audio_duration_ms": 3060.0
+  },
+  {
+   "t": 19.258,
+   "type": "speech_start"
+  },
+  {
+   "t": 21.725,
+   "type": "transcript",
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "latency": 108,
+   "audio_duration_ms": 2964.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-shala",
+  "language": "gu-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 23.56,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 5.089,
+    "words": [
+     0,
+     1
+    ],
+    "line": 0
+   },
+   {
+    "start": 10.089,
+    "end": 11.333,
+    "words": [
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 12.133,
+    "end": 14.267,
+    "words": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 15.867,
+    "end": 18.267,
+    "words": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 2
+   },
+   {
+    "start": 19.067,
+    "end": 21.555,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 2,
+    "start": 5.089,
+    "end": 10.089
+   },
+   {
+    "type": "sub",
+    "word": 8,
+    "said": "પીળો",
+    "segment_end": 14.267
+   }
+  ]
+ }
+}

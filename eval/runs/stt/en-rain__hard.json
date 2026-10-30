@@ -1,0 +1,164 @@
+{
+ "events": [
+  {
+   "t": 0.048,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.302,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.252,
+   "type": "transcript",
+   "text": "bitter patter",
+   "latency": 143,
+   "audio_duration_ms": 1492.0
+  },
+  {
+   "t": 3.546,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.62,
+   "type": "transcript",
+   "text": "falls the rain",
+   "latency": 120,
+   "audio_duration_ms": 1492.0
+  },
+  {
+   "t": 5.021,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.92,
+   "type": "transcript",
+   "text": "on the roof",
+   "latency": 132,
+   "audio_duration_ms": 1376.0
+  },
+  {
+   "t": 7.162,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.308,
+   "type": "transcript",
+   "text": "in window game",
+   "latency": 119,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 9.945,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.091,
+   "type": "transcript",
+   "text": "frogs are happy",
+   "latency": 119,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 12.152,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.36,
+   "type": "transcript",
+   "text": "ducks can play",
+   "latency": 121,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 13.72,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.104,
+   "type": "transcript",
+   "text": "the rain has come to stop",
+   "latency": 120,
+   "audio_duration_ms": 1728.0
+  },
+  {
+   "t": 16.553,
+   "type": "speech_start"
+  },
+  {
+   "t": 17.329,
+   "type": "transcript",
+   "text": "day today",
+   "latency": 120,
+   "audio_duration_ms": 1300.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-rain",
+  "language": "en-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 18.94,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.168,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0,
+    "hesitation_s": 1.65
+   },
+   {
+    "start": 4.768,
+    "end": 8.082,
+    "words": [
+     5,
+     6,
+     7,
+     8,
+     9,
+     10
+    ],
+    "line": 1,
+    "hesitation_s": 1.55
+   },
+   {
+    "start": 9.682,
+    "end": 12.876,
+    "words": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 2,
+    "hesitation_s": 1.03
+   },
+   {
+    "start": 13.476,
+    "end": 16.942,
+    "words": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "line": 3,
+    "hesitation_s": 1.79
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

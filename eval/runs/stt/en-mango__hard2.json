@@ -1,0 +1,172 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.354,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.808,
+   "type": "transcript",
+   "text": "ravi has a mango",
+   "latency": 121,
+   "audio_duration_ms": 2004.0
+  },
+  {
+   "t": 3.803,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.075,
+   "type": "transcript",
+   "text": "tree in his garden",
+   "latency": 120,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 5.657,
+   "type": "speech_start"
+  },
+  {
+   "t": 7.822,
+   "type": "transcript",
+   "text": "every summer the tree is",
+   "latency": 122,
+   "audio_duration_ms": 2644.0
+  },
+  {
+   "t": 8.746,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.477,
+   "type": "transcript",
+   "text": "full of sweet mangoes",
+   "latency": 144,
+   "audio_duration_ms": 2228.0
+  },
+  {
+   "t": 11.897,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.005,
+   "type": "transcript",
+   "text": "ravi says",
+   "latency": 62,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 14.041,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.834,
+   "type": "transcript",
+   "text": "the mangoes with his friends",
+   "latency": 63,
+   "audio_duration_ms": 2356.0
+  },
+  {
+   "t": 18.717,
+   "type": "speech_start"
+  },
+  {
+   "t": 20.553,
+   "type": "transcript",
+   "text": "they sit under the tree",
+   "latency": 106,
+   "audio_duration_ms": 2356.0
+  },
+  {
+   "t": 21.465,
+   "type": "speech_start"
+  },
+  {
+   "t": 22.904,
+   "type": "transcript",
+   "text": "and laugh together",
+   "latency": 91,
+   "audio_duration_ms": 1972.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-mango",
+  "language": "en-IN",
+  "variant": "hard2",
+  "voice": "Riyaa",
+  "duration": 24.52,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.667,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0,
+    "hesitation_s": 1.36
+   },
+   {
+    "start": 5.467,
+    "end": 10.11,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 1,
+    "hesitation_s": 1.18
+   },
+   {
+    "start": 11.71,
+    "end": 15.474,
+    "words": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "line": 2,
+    "hesitation_s": 1.36
+   },
+   {
+    "start": 18.474,
+    "end": 22.516,
+    "words": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ],
+    "line": 3,
+    "hesitation_s": 1.02
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

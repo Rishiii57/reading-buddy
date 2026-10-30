@@ -1,0 +1,138 @@
+{
+ "events": [
+  {
+   "t": 0.032,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.232,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.943,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "latency": 373,
+   "audio_duration_ms": 2964.0
+  },
+  {
+   "t": 4.271,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.59,
+   "type": "transcript",
+   "text": "દેડકા મીઠું",
+   "latency": 131,
+   "audio_duration_ms": 1812.0
+  },
+  {
+   "t": 10.544,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.708,
+   "type": "transcript",
+   "text": "ગીત બોલે",
+   "latency": 135,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 13.454,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.379,
+   "type": "transcript",
+   "text": "છોકરા બચ્ચાને રમે",
+   "latency": 134,
+   "audio_duration_ms": 2356.0
+  },
+  {
+   "t": 16.044,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.168,
+   "type": "transcript",
+   "text": "કાગળની હોડી ડોલે",
+   "latency": 135,
+   "audio_duration_ms": 2612.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-varsad",
+  "language": "gu-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 19.82,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.311,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.111,
+    "end": 5.356,
+    "words": [
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 10.356,
+    "end": 11.6,
+    "words": [
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 13.2,
+    "end": 14.978,
+    "words": [
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 15.778,
+    "end": 17.822,
+    "words": [
+     13,
+     14,
+     15
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 8,
+    "start": 5.356,
+    "end": 10.356
+   },
+   {
+    "type": "sub",
+    "word": 11,
+    "said": "બચ્ચાંને",
+    "segment_end": 14.978
+   }
+  ]
+ }
+}

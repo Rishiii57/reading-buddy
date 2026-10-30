@@ -1,0 +1,74 @@
+{
+ "text_id": "gu-patang",
+ "language": "gu-IN",
+ "variant": "demo",
+ "voice": "Riyaa",
+ "duration": 19.56,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.956,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.756,
+   "end": 6.067,
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.667,
+   "end": 9.0,
+   "words": [
+    8,
+    9
+   ],
+   "line": 2
+  },
+  {
+   "start": 14.0,
+   "end": 15.156,
+   "words": [
+    10,
+    11
+   ],
+   "line": 2
+  },
+  {
+   "start": 15.956,
+   "end": 17.556,
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 6,
+   "said": "ટપ",
+   "segment_end": 6.067
+  },
+  {
+   "type": "stall",
+   "word": 10,
+   "start": 9.0,
+   "end": 14.0
+  }
+ ]
+}

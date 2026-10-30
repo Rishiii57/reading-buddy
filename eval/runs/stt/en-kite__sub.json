@@ -1,0 +1,127 @@
+{
+ "events": [
+  {
+   "t": 0.038,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.268,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.141,
+   "type": "transcript",
+   "text": "i have a kite of red and blue",
+   "latency": 126,
+   "audio_duration_ms": 2356.0
+  },
+  {
+   "t": 3.827,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.287,
+   "type": "transcript",
+   "text": "it pit her up high the whole day through",
+   "latency": 125,
+   "audio_duration_ms": 2900.0
+  },
+  {
+   "t": 7.899,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.256,
+   "type": "transcript",
+   "text": "it dances with the morning breeze",
+   "latency": 126,
+   "audio_duration_ms": 2868.0
+  },
+  {
+   "t": 11.045,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.0,
+   "type": "transcript",
+   "text": "above the roofs and tall green trees",
+   "latency": 158,
+   "audio_duration_ms": 3444.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-kite",
+  "language": "en-IN",
+  "variant": "sub",
+  "voice": "Riyaa",
+  "duration": 15.8,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.778,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.578,
+    "end": 6.067,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 1
+   },
+   {
+    "start": 7.667,
+    "end": 9.978,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 2
+   },
+   {
+    "start": 10.778,
+    "end": 13.8,
+    "words": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "sub",
+    "word": 9,
+    "said": "Pitter",
+    "segment_end": 6.067
+   }
+  ]
+ }
+}

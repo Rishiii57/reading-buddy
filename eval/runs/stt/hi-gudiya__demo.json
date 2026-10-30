@@ -1,0 +1,139 @@
+{
+ "events": [
+  {
+   "t": 0.043,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.208,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.933,
+   "type": "transcript",
+   "text": "मेरी गुड़िया प्यारी है",
+   "latency": 124,
+   "audio_duration_ms": 2228.0
+  },
+  {
+   "t": 3.651,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.591,
+   "type": "transcript",
+   "text": "सबसे बादल न्यारी है",
+   "latency": 126,
+   "audio_duration_ms": 2484.0
+  },
+  {
+   "t": 6.971,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.1,
+   "type": "transcript",
+   "text": "लाल चुनरी ओढ़ के आती",
+   "latency": 143,
+   "audio_duration_ms": 2612.0
+  },
+  {
+   "t": 9.719,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.164,
+   "type": "transcript",
+   "text": "मीठे मीठे।",
+   "latency": 124,
+   "audio_duration_ms": 1876.0
+  },
+  {
+   "t": 15.902,
+   "type": "speech_start"
+  },
+  {
+   "t": 17.281,
+   "type": "transcript",
+   "text": "गाने गाती",
+   "latency": 143,
+   "audio_duration_ms": 1780.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-gudiya",
+  "language": "hi-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 18.93,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.6,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.4,
+    "end": 5.178,
+    "words": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 6.778,
+    "end": 8.733,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 9.533,
+    "end": 10.689,
+    "words": [
+     13,
+     14
+    ],
+    "line": 3
+   },
+   {
+    "start": 15.689,
+    "end": 16.933,
+    "words": [
+     15,
+     16
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "sub",
+    "word": 5,
+    "said": "बादल",
+    "segment_end": 5.178
+   },
+   {
+    "type": "stall",
+    "word": 15,
+    "start": 10.689,
+    "end": 15.689
+   }
+  ]
+ }
+}

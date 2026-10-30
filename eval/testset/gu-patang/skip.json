@@ -1,0 +1,59 @@
+{
+ "text_id": "gu-patang",
+ "language": "gu-IN",
+ "variant": "skip",
+ "voice": "Devansh",
+ "duration": 11.48,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.44,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.04,
+   "end": 4.48,
+   "words": [
+    5,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 6.08,
+   "end": 7.68,
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "line": 2
+  },
+  {
+   "start": 8.28,
+   "end": 9.48,
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "skip",
+   "word": 6,
+   "segment_end": 4.48
+  }
+ ]
+}

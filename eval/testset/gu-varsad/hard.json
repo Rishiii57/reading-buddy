@@ -1,0 +1,59 @@
+{
+ "text_id": "gu-varsad",
+ "language": "gu-IN",
+ "variant": "hard",
+ "voice": "Devansh",
+ "duration": 18.44,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 4.754,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "line": 0,
+   "hesitation_s": 1.67
+  },
+  {
+   "start": 5.354,
+   "end": 8.369,
+   "words": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1,
+   "hesitation_s": 1.42
+  },
+  {
+   "start": 9.969,
+   "end": 13.001,
+   "words": [
+    10,
+    11,
+    12
+   ],
+   "line": 2,
+   "hesitation_s": 1.51
+  },
+  {
+   "start": 13.601,
+   "end": 16.441,
+   "words": [
+    13,
+    14,
+    15
+   ],
+   "line": 3,
+   "hesitation_s": 1.4
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

@@ -1,0 +1,60 @@
+{
+ "text_id": "hi-baarish",
+ "language": "hi-IN",
+ "variant": "hard2",
+ "voice": "Riyaa",
+ "duration": 22.59,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 5.063,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0,
+   "hesitation_s": 1.57
+  },
+  {
+   "start": 8.063,
+   "end": 11.491,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "line": 1,
+   "hesitation_s": 1.47
+  },
+  {
+   "start": 13.091,
+   "end": 16.405,
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 2,
+   "hesitation_s": 1.36
+  },
+  {
+   "start": 17.205,
+   "end": 20.586,
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 3,
+   "hesitation_s": 1.51
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

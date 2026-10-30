@@ -1,0 +1,113 @@
+{
+ "events": [
+  {
+   "t": 0.047,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.264,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.543,
+   "type": "transcript",
+   "text": "મારી શાળા બહુ સુંદર છે",
+   "latency": 92,
+   "audio_duration_ms": 2868.0
+  },
+  {
+   "t": 4.249,
+   "type": "speech_start"
+  },
+  {
+   "t": 7.184,
+   "type": "transcript",
+   "text": "શાળામાં એક મોટું મેદાન છે",
+   "latency": 151,
+   "audio_duration_ms": 3380.0
+  },
+  {
+   "t": 8.605,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.177,
+   "type": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "latency": 151,
+   "audio_duration_ms": 3060.0
+  },
+  {
+   "t": 13.985,
+   "type": "speech_start"
+  },
+  {
+   "t": 16.439,
+   "type": "transcript",
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "latency": 122,
+   "audio_duration_ms": 2964.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-shala",
+  "language": "gu-IN",
+  "variant": "clean_a",
+  "voice": "Riyaa",
+  "duration": 18.27,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.222,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.022,
+    "end": 6.778,
+    "words": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 8.378,
+    "end": 10.778,
+    "words": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 2
+   },
+   {
+    "start": 13.778,
+    "end": 16.267,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

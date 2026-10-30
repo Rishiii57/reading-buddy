@@ -1,0 +1,145 @@
+{
+ "events": [
+  {
+   "t": 0.045,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.269,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.147,
+   "type": "transcript",
+   "text": "i have a kite of red and blue",
+   "latency": 126,
+   "audio_duration_ms": 2356.0
+  },
+  {
+   "t": 3.764,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.833,
+   "type": "transcript",
+   "text": "it flies up high the whole day through",
+   "latency": 155,
+   "audio_duration_ms": 3540.0
+  },
+  {
+   "t": 8.437,
+   "type": "speech_start"
+  },
+  {
+   "t": 10.804,
+   "type": "transcript",
+   "text": "it dances with the morning breeze",
+   "latency": 127,
+   "audio_duration_ms": 2868.0
+  },
+  {
+   "t": 11.574,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.913,
+   "type": "transcript",
+   "text": "above the roofs",
+   "latency": 124,
+   "audio_duration_ms": 1876.0
+  },
+  {
+   "t": 17.819,
+   "type": "speech_start"
+  },
+  {
+   "t": 19.923,
+   "type": "transcript",
+   "text": "and tall green trees",
+   "latency": 93,
+   "audio_duration_ms": 2708.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-kite",
+  "language": "en-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 21.6,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.778,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 3.578,
+    "end": 6.6,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 1
+   },
+   {
+    "start": 8.2,
+    "end": 10.511,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 2
+   },
+   {
+    "start": 11.311,
+    "end": 12.556,
+    "words": [
+     22,
+     23,
+     24
+    ],
+    "line": 3
+   },
+   {
+    "start": 17.556,
+    "end": 19.6,
+    "words": [
+     25,
+     26,
+     27,
+     28
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 25,
+    "start": 12.556,
+    "end": 17.556
+   }
+  ]
+ }
+}

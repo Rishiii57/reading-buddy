@@ -1,0 +1,152 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.22,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.729,
+   "type": "transcript",
+   "text": "मीना के घर के",
+   "latency": 119,
+   "audio_duration_ms": 2068.0
+  },
+  {
+   "t": 7.752,
+   "type": "speech_start"
+  },
+  {
+   "t": 9.445,
+   "type": "transcript",
+   "text": "पीछे एक बगीचा है।",
+   "latency": 119,
+   "audio_duration_ms": 2164.0
+  },
+  {
+   "t": 10.034,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.95,
+   "type": "transcript",
+   "text": "उसमें लाल और उसमें फूल खिलते हैं",
+   "latency": 150,
+   "audio_duration_ms": 3316.0
+  },
+  {
+   "t": 14.226,
+   "type": "speech_start"
+  },
+  {
+   "t": 17.341,
+   "type": "transcript",
+   "text": "मीना हर सुबह पौधों को पानी देती है।",
+   "latency": 150,
+   "audio_duration_ms": 3508.0
+  },
+  {
+   "t": 17.872,
+   "type": "speech_start"
+  },
+  {
+   "t": 20.558,
+   "type": "transcript",
+   "text": "उसे अपने बगीचे से बहुत प्यार है।",
+   "latency": 121,
+   "audio_duration_ms": 3188.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-bagicha",
+  "language": "hi-IN",
+  "variant": "demo",
+  "voice": "Riyaa",
+  "duration": 22.31,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 2.422,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 7.422,
+    "end": 9.022,
+    "words": [
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 9.822,
+    "end": 12.4,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14
+    ],
+    "line": 1
+   },
+   {
+    "start": 14.0,
+    "end": 16.844,
+    "words": [
+     15,
+     16,
+     17,
+     18,
+     19,
+     20,
+     21,
+     22
+    ],
+    "line": 2
+   },
+   {
+    "start": 17.644,
+    "end": 20.311,
+    "words": [
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 4,
+    "start": 2.422,
+    "end": 7.422
+   },
+   {
+    "type": "sub",
+    "word": 11,
+    "said": "उसने",
+    "segment_end": 12.4
+   }
+  ]
+ }
+}

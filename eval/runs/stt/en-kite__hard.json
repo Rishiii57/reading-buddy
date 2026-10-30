@@ -1,0 +1,169 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.291,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.347,
+   "type": "transcript",
+   "text": "i have a kite of",
+   "latency": 102,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 3.484,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.465,
+   "type": "transcript",
+   "text": "red and blue",
+   "latency": 117,
+   "audio_duration_ms": 1492.0
+  },
+  {
+   "t": 5.114,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.167,
+   "type": "transcript",
+   "text": "it flies up",
+   "latency": 104,
+   "audio_duration_ms": 1556.0
+  },
+  {
+   "t": 7.116,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.424,
+   "type": "transcript",
+   "text": "high the whole day through",
+   "latency": 77,
+   "audio_duration_ms": 2004.0
+  },
+  {
+   "t": 9.977,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.041,
+   "type": "transcript",
+   "text": "it dances with",
+   "latency": 100,
+   "audio_duration_ms": 1588.0
+  },
+  {
+   "t": 12.089,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.352,
+   "type": "transcript",
+   "text": "the morning breeze",
+   "latency": 102,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 13.871,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.08,
+   "type": "transcript",
+   "text": "above the roofs",
+   "latency": 101,
+   "audio_duration_ms": 1792.0
+  },
+  {
+   "t": 16.498,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.115,
+   "type": "transcript",
+   "text": "and tall green trees",
+   "latency": 103,
+   "audio_duration_ms": 2196.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-kite",
+  "language": "en-IN",
+  "variant": "hard",
+  "voice": "Devansh",
+  "duration": 19.73,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 4.31,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0,
+    "hesitation_s": 1.47
+   },
+   {
+    "start": 4.91,
+    "end": 8.138,
+    "words": [
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 1,
+    "hesitation_s": 1.15
+   },
+   {
+    "start": 9.738,
+    "end": 12.987,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 2,
+    "hesitation_s": 1.41
+   },
+   {
+    "start": 13.587,
+    "end": 17.731,
+    "words": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28
+    ],
+    "line": 3,
+    "hesitation_s": 1.5
+   }
+  ],
+  "truth": [],
+  "noise_snr_db": 10
+ }
+}

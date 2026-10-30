@@ -1,0 +1,90 @@
+{
+ "text_id": "en-mango",
+ "language": "en-IN",
+ "variant": "demo",
+ "voice": "Riyaa",
+ "duration": 22.58,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.311,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 0
+  },
+  {
+   "start": 4.111,
+   "end": 5.711,
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "line": 1
+  },
+  {
+   "start": 10.711,
+   "end": 12.667,
+   "words": [
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 1
+  },
+  {
+   "start": 14.267,
+   "end": 16.756,
+   "words": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+   ],
+   "line": 2
+  },
+  {
+   "start": 17.556,
+   "end": 20.578,
+   "words": [
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "stall",
+   "word": 12,
+   "start": 5.711,
+   "end": 10.711
+  },
+  {
+   "type": "sub",
+   "word": 23,
+   "said": "Above",
+   "segment_end": 16.756
+  }
+ ]
+}

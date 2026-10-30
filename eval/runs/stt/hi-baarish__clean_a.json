@@ -1,0 +1,119 @@
+{
+ "events": [
+  {
+   "t": 0.008,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.201,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.47,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 114,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 2.481,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.67,
+   "type": "transcript",
+   "text": "बारिश आई।",
+   "latency": 83,
+   "audio_duration_ms": 1152.0
+  },
+  {
+   "t": 6.824,
+   "type": "speech_start"
+  },
+  {
+   "t": 8.714,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा भी आई।",
+   "latency": 117,
+   "audio_duration_ms": 2452.0
+  },
+  {
+   "t": 10.226,
+   "type": "speech_start"
+  },
+  {
+   "t": 12.309,
+   "type": "transcript",
+   "text": "मेंढक गाते मीठे गाने।",
+   "latency": 62,
+   "audio_duration_ms": 2644.0
+  },
+  {
+   "t": 12.978,
+   "type": "speech_start"
+  },
+  {
+   "t": 14.958,
+   "type": "transcript",
+   "text": "बच्चे निकले नाव चलाने।",
+   "latency": 115,
+   "audio_duration_ms": 2484.0
+  }
+ ],
+ "meta": {
+  "text_id": "hi-baarish",
+  "language": "hi-IN",
+  "variant": "clean_a",
+  "voice": "Riyaa",
+  "duration": 16.67,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.489,
+    "words": [
+     0,
+     1,
+     2,
+     3
+    ],
+    "line": 0
+   },
+   {
+    "start": 6.489,
+    "end": 8.444,
+    "words": [
+     4,
+     5,
+     6,
+     7,
+     8
+    ],
+    "line": 1
+   },
+   {
+    "start": 10.044,
+    "end": 12.0,
+    "words": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 12.8,
+    "end": 14.667,
+    "words": [
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 3
+   }
+  ],
+  "truth": []
+ }
+}

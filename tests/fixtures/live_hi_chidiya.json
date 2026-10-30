@@ -1,0 +1,94 @@
+{
+ "text_id": "hi-chidiya",
+ "note": "Live microphone reading by a team member (adult), 30 Oct 2026. Includes off-text chatter at 26-28 s.",
+ "stt_events": [
+  {
+   "t": 4.002,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.814,
+   "type": "transcript",
+   "text": "एक पेड़ पर",
+   "latency": 143,
+   "audio_duration_ms": 2292.0
+  },
+  {
+   "t": 11.65,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.082,
+   "type": "transcript",
+   "text": "एक पेड़ पर एक छोटी चिड़िया थी उसके से एक सुंदर घोसलू बनाया",
+   "latency": 182,
+   "audio_duration_ms": 6868.0
+  },
+  {
+   "t": 25.027,
+   "type": "speech_start"
+  },
+  {
+   "t": 26.188,
+   "type": "transcript",
+   "text": "चलते हैं",
+   "latency": 118,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 26.241,
+   "type": "speech_start"
+  },
+  {
+   "t": 26.712,
+   "type": "transcript",
+   "text": "हाँ",
+   "latency": 88,
+   "audio_duration_ms": 544.0
+  },
+  {
+   "t": 26.785,
+   "type": "speech_start"
+  },
+  {
+   "t": 28.176,
+   "type": "transcript",
+   "text": "मतलब पीछे से पढ़ते हैं",
+   "latency": 139,
+   "audio_duration_ms": 1440.0
+  },
+  {
+   "t": 34.881,
+   "type": "speech_start"
+  },
+  {
+   "t": 37.981,
+   "type": "transcript",
+   "text": "तिनकों से एक सुंदर घोंसला बनाया",
+   "latency": 151,
+   "audio_duration_ms": 3572.0
+  },
+  {
+   "t": 38.02,
+   "type": "speech_start"
+  },
+  {
+   "t": 38.416,
+   "type": "transcript",
+   "text": "वो",
+   "latency": 79,
+   "audio_duration_ms": 512.0
+  },
+  {
+   "t": 39.555,
+   "type": "speech_start"
+  },
+  {
+   "t": 45.061,
+   "type": "transcript",
+   "text": "घोंसले में तीन छोटे अंडे थे चिड़िया रोज अपने बच्चों के लिए दाना डालती थी",
+   "latency": 181,
+   "audio_duration_ms": 5908.0
+  }
+ ]
+}

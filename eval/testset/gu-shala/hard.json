@@ -1,0 +1,65 @@
+{
+ "text_id": "gu-shala",
+ "language": "gu-IN",
+ "variant": "hard",
+ "voice": "Devansh",
+ "duration": 18.42,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.954,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0,
+   "hesitation_s": 1.19
+  },
+  {
+   "start": 4.553,
+   "end": 7.578,
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1,
+   "hesitation_s": 1.02
+  },
+  {
+   "start": 9.178,
+   "end": 12.389,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 2,
+   "hesitation_s": 1.37
+  },
+  {
+   "start": 12.989,
+   "end": 16.421,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 3,
+   "hesitation_s": 1.35
+  }
+ ],
+ "truth": [],
+ "noise_snr_db": 10
+}

@@ -1,0 +1,69 @@
+{
+ "text_id": "hi-gudiya",
+ "language": "hi-IN",
+ "variant": "stall",
+ "voice": "Riyaa",
+ "duration": 19.11,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.6,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.4,
+   "end": 5.356,
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 6.956,
+   "end": 8.911,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 9.711,
+   "end": 10.867,
+   "words": [
+    13,
+    14
+   ],
+   "line": 3
+  },
+  {
+   "start": 15.867,
+   "end": 17.111,
+   "words": [
+    15,
+    16
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "stall",
+   "word": 15,
+   "start": 10.867,
+   "end": 15.867
+  }
+ ]
+}

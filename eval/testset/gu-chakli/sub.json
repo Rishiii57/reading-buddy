@@ -1,0 +1,68 @@
+{
+ "text_id": "gu-chakli",
+ "language": "gu-IN",
+ "variant": "sub",
+ "voice": "Riyaa",
+ "duration": 16.87,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.6,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.4,
+   "end": 6.067,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 7.667,
+   "end": 10.511,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 2
+  },
+  {
+   "start": 11.311,
+   "end": 14.867,
+   "words": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [
+  {
+   "type": "sub",
+   "word": 6,
+   "said": "વરસાદ",
+   "segment_end": 6.067
+  }
+ ]
+}

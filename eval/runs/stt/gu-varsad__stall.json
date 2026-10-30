@@ -1,0 +1,132 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.285,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.684,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "latency": 100,
+   "audio_duration_ms": 2964.0
+  },
+  {
+   "t": 4.285,
+   "type": "speech_start"
+  },
+  {
+   "t": 5.627,
+   "type": "transcript",
+   "text": "દેડકા મીઠું",
+   "latency": 97,
+   "audio_duration_ms": 1812.0
+  },
+  {
+   "t": 10.555,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.765,
+   "type": "transcript",
+   "text": "ગીત બોલે",
+   "latency": 98,
+   "audio_duration_ms": 1652.0
+  },
+  {
+   "t": 13.434,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.592,
+   "type": "transcript",
+   "text": "છોકરા પાણીમાં રમે",
+   "latency": 99,
+   "audio_duration_ms": 2612.0
+  },
+  {
+   "t": 16.25,
+   "type": "speech_start"
+  },
+  {
+   "t": 18.335,
+   "type": "transcript",
+   "text": "કાગળની હોડી ડોલે",
+   "latency": 97,
+   "audio_duration_ms": 2612.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-varsad",
+  "language": "gu-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 20.0,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.311,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.111,
+    "end": 5.356,
+    "words": [
+     6,
+     7
+    ],
+    "line": 1
+   },
+   {
+    "start": 10.356,
+    "end": 11.6,
+    "words": [
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 13.2,
+    "end": 15.156,
+    "words": [
+     10,
+     11,
+     12
+    ],
+    "line": 2
+   },
+   {
+    "start": 15.956,
+    "end": 18.0,
+    "words": [
+     13,
+     14,
+     15
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 8,
+    "start": 5.356,
+    "end": 10.356
+   }
+  ]
+ }
+}

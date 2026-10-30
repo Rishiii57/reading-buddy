@@ -1,0 +1,148 @@
+{
+ "events": [
+  {
+   "t": 0.047,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.292,
+   "type": "speech_start"
+  },
+  {
+   "t": 3.788,
+   "type": "transcript",
+   "text": "ravi has a mango tree in his garden",
+   "latency": 148,
+   "audio_duration_ms": 3028.0
+  },
+  {
+   "t": 4.441,
+   "type": "speech_start"
+  },
+  {
+   "t": 6.063,
+   "type": "transcript",
+   "text": "every summer the tree",
+   "latency": 121,
+   "audio_duration_ms": 2196.0
+  },
+  {
+   "t": 10.931,
+   "type": "speech_start"
+  },
+  {
+   "t": 13.107,
+   "type": "transcript",
+   "text": "is full of sweet mangoes",
+   "latency": 123,
+   "audio_duration_ms": 2676.0
+  },
+  {
+   "t": 14.449,
+   "type": "speech_start"
+  },
+  {
+   "t": 17.223,
+   "type": "transcript",
+   "text": "ravi shares the mangoes with his friends",
+   "latency": 151,
+   "audio_duration_ms": 3188.0
+  },
+  {
+   "t": 17.651,
+   "type": "speech_start"
+  },
+  {
+   "t": 20.881,
+   "type": "transcript",
+   "text": "they sit under the tree and laugh together",
+   "latency": 121,
+   "audio_duration_ms": 3732.0
+  }
+ ],
+ "meta": {
+  "text_id": "en-mango",
+  "language": "en-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 22.49,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 3.311,
+    "words": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "line": 0
+   },
+   {
+    "start": 4.111,
+    "end": 5.711,
+    "words": [
+     8,
+     9,
+     10,
+     11
+    ],
+    "line": 1
+   },
+   {
+    "start": 10.711,
+    "end": 12.667,
+    "words": [
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "line": 1
+   },
+   {
+    "start": 14.267,
+    "end": 16.667,
+    "words": [
+     17,
+     18,
+     19,
+     20,
+     21,
+     22,
+     23
+    ],
+    "line": 2
+   },
+   {
+    "start": 17.467,
+    "end": 20.489,
+    "words": [
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30,
+     31
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 12,
+    "start": 5.711,
+    "end": 10.711
+   }
+  ]
+ }
+}

@@ -1,0 +1,149 @@
+{
+ "events": [
+  {
+   "t": 0.044,
+   "type": "connected",
+   "message": "STT service ready — VAD service connected"
+  },
+  {
+   "t": 1.18,
+   "type": "speech_start"
+  },
+  {
+   "t": 2.444,
+   "type": "transcript",
+   "text": "મારી શાળા",
+   "latency": 109,
+   "audio_duration_ms": 1780.0
+  },
+  {
+   "t": 3.201,
+   "type": "speech_start"
+  },
+  {
+   "t": 4.393,
+   "type": "transcript",
+   "text": "મારી શાળા",
+   "latency": 109,
+   "audio_duration_ms": 1716.0
+  },
+  {
+   "t": 10.301,
+   "type": "speech_start"
+  },
+  {
+   "t": 11.692,
+   "type": "transcript",
+   "text": "બહુ સુંદર છે",
+   "latency": 109,
+   "audio_duration_ms": 1908.0
+  },
+  {
+   "t": 12.348,
+   "type": "speech_start"
+  },
+  {
+   "t": 15.261,
+   "type": "transcript",
+   "text": "શાળામાં એક મોટું મેદાન છે",
+   "latency": 127,
+   "audio_duration_ms": 3412.0
+  },
+  {
+   "t": 16.755,
+   "type": "speech_start"
+  },
+  {
+   "t": 19.231,
+   "type": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "latency": 128,
+   "audio_duration_ms": 3028.0
+  },
+  {
+   "t": 19.955,
+   "type": "speech_start"
+  },
+  {
+   "t": 22.344,
+   "type": "transcript",
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "latency": 108,
+   "audio_duration_ms": 2996.0
+  }
+ ],
+ "meta": {
+  "text_id": "gu-shala",
+  "language": "gu-IN",
+  "variant": "stall",
+  "voice": "Riyaa",
+  "duration": 24.18,
+  "segments": [
+   {
+    "start": 1.0,
+    "end": 5.089,
+    "words": [
+     0,
+     1
+    ],
+    "line": 0
+   },
+   {
+    "start": 10.089,
+    "end": 11.333,
+    "words": [
+     2,
+     3,
+     4
+    ],
+    "line": 0
+   },
+   {
+    "start": 12.133,
+    "end": 14.889,
+    "words": [
+     5,
+     6,
+     7,
+     8,
+     9
+    ],
+    "line": 1
+   },
+   {
+    "start": 16.489,
+    "end": 18.889,
+    "words": [
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "line": 2
+   },
+   {
+    "start": 19.689,
+    "end": 22.178,
+    "words": [
+     16,
+     17,
+     18,
+     19,
+     20,
+     21
+    ],
+    "line": 3
+   }
+  ],
+  "truth": [
+   {
+    "type": "stall",
+    "word": 2,
+    "start": 5.089,
+    "end": 10.089
+   }
+  ]
+ }
+}
