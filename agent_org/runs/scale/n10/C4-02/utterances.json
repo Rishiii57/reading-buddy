@@ -1,0 +1,986 @@
+{
+ "utterances": [
+  {
+   "t": 28.13,
+   "said": "A small ana ant walked across the floor",
+   "stt": "A small ana ant walked across the floor",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 33.92,
+   "said": "It carried a grain grain of rice on its back",
+   "stt": "It carried a grain grain of rice on its back",
+   "stt_notes": [],
+   "words": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.38,
+   "said": "tha ran rice was bigger than the ant",
+   "stt": "tha ran rice was bigger than the ant",
+   "stt_notes": [],
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.97,
+   "said": "The",
+   "stt": "The",
+   "stt_notes": [],
+   "words": [
+    16
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 58.49,
+   "said": "tha rice waa was bigger than the ant",
+   "stt": "tha rice waa was bigger than the ant",
+   "stt_notes": [],
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 63.32,
+   "said": "The",
+   "stt": "The",
+   "stt_notes": [],
+   "words": [
+    16
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 73.88,
+   "said": "The red was bigger than ant",
+   "stt": "The red was bigger than ant",
+   "stt_notes": [],
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.76,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    21
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.29,
+   "said": "the ant",
+   "stt": "the ant",
+   "stt_notes": [],
+   "words": [
+    21,
+    22
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 89.94,
+   "said": "rice",
+   "stt": "rice",
+   "stt_notes": [],
+   "words": [
+    17
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 99.14,
+   "said": "The red rice was bigger",
+   "stt": "The red rice was bigger",
+   "stt_notes": [],
+   "words": [
+    16,
+    17,
+    18,
+    19
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 102.67,
+   "said": "than the ant",
+   "stt": "than the ant",
+   "stt_notes": [],
+   "words": [
+    20,
+    21,
+    22
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 112.11,
+   "said": "But the ana ant did not give ua up",
+   "stt": "But the ana ant did not give ua up",
+   "stt_notes": [],
+   "words": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 116.11,
+   "said": "It walked slowly and reached home",
+   "stt": "It walked slowly and reached home",
+   "stt_notes": [],
+   "words": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 118.93,
+   "said": "ita its he",
+   "stt": "ita its he",
+   "stt_notes": [],
+   "words": [
+    35,
+    36
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 123.31,
+   "said": "its",
+   "stt": "its",
+   "stt_notes": [],
+   "words": [
+    35
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 125.86,
+   "said": "home",
+   "stt": "home",
+   "stt_notes": [],
+   "words": [
+    36
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.13,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "1": [
+   {
+    "t": 28.13,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "2": [
+   {
+    "t": 28.13,
+    "target": "ant",
+    "said": "ana ant",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "3": [
+   {
+    "t": 28.13,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "4": [
+   {
+    "t": 28.13,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "5": [
+   {
+    "t": 28.13,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "6": [
+   {
+    "t": 28.13,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana ant walked across the floor"
+   }
+  ],
+  "7": [
+   {
+    "t": 33.92,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "8": [
+   {
+    "t": 33.92,
+    "target": "carried",
+    "said": "carried",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "9": [
+   {
+    "t": 33.92,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "10": [
+   {
+    "t": 33.92,
+    "target": "grain",
+    "said": "grain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "11": [
+   {
+    "t": 33.92,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "12": [
+   {
+    "t": 33.92,
+    "target": "rice",
+    "said": "rice",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "13": [
+   {
+    "t": 33.92,
+    "target": "on",
+    "said": "on",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "14": [
+   {
+    "t": 33.92,
+    "target": "its",
+    "said": "its",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "15": [
+   {
+    "t": 33.92,
+    "target": "back",
+    "said": "back",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It carried a grain grain of rice on its back"
+   }
+  ],
+  "16": [
+   {
+    "t": 41.38,
+    "target": "The",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 46.97,
+    "target": "The",
+    "said": "The",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The",
+    "drill": true
+   },
+   {
+    "t": 58.49,
+    "target": "The",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 63.32,
+    "target": "The",
+    "said": "The",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The",
+    "drill": true
+   },
+   {
+    "t": 73.88,
+    "target": "The",
+    "said": "The",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 99.14,
+    "target": "The",
+    "said": "The",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red rice was bigger"
+   }
+  ],
+  "17": [
+   {
+    "t": 41.38,
+    "target": "rice",
+    "said": "ran rice",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "rice",
+    "said": "rice",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "rice",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 89.94,
+    "target": "rice",
+    "said": "rice",
+    "correct": true,
+    "kind": "ok",
+    "stt": "rice",
+    "drill": true
+   },
+   {
+    "t": 99.14,
+    "target": "rice",
+    "said": "red rice",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "The red rice was bigger"
+   }
+  ],
+  "18": [
+   {
+    "t": 41.38,
+    "target": "was",
+    "said": "was",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "was",
+    "said": "waa was",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "was",
+    "said": "was",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 99.14,
+    "target": "was",
+    "said": "was",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red rice was bigger"
+   }
+  ],
+  "19": [
+   {
+    "t": 41.38,
+    "target": "bigger",
+    "said": "bigger",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "bigger",
+    "said": "bigger",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "bigger",
+    "said": "bigger",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 99.14,
+    "target": "bigger",
+    "said": "bigger",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red rice was bigger"
+   }
+  ],
+  "20": [
+   {
+    "t": 41.38,
+    "target": "than",
+    "said": "than",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "than",
+    "said": "than",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "than",
+    "said": "than",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 102.67,
+    "target": "than",
+    "said": "than",
+    "correct": true,
+    "kind": "ok",
+    "stt": "than the ant"
+   }
+  ],
+  "21": [
+   {
+    "t": 41.38,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 75.76,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the"
+   },
+   {
+    "t": 82.29,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the ant"
+   },
+   {
+    "t": 102.67,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "than the ant"
+   }
+  ],
+  "22": [
+   {
+    "t": 41.38,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha ran rice was bigger than the ant"
+   },
+   {
+    "t": 58.49,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha rice waa was bigger than the ant"
+   },
+   {
+    "t": 73.88,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "The red was bigger than ant"
+   },
+   {
+    "t": 82.29,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the ant"
+   },
+   {
+    "t": 102.67,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "than the ant"
+   }
+  ],
+  "23": [
+   {
+    "t": 112.11,
+    "target": "But",
+    "said": "But",
+    "correct": true,
+    "kind": "ok",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "24": [
+   {
+    "t": 112.11,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "25": [
+   {
+    "t": 112.11,
+    "target": "ant",
+    "said": "ana ant",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "26": [
+   {
+    "t": 112.11,
+    "target": "did",
+    "said": "did",
+    "correct": true,
+    "kind": "ok",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "27": [
+   {
+    "t": 112.11,
+    "target": "not",
+    "said": "not",
+    "correct": true,
+    "kind": "ok",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "28": [
+   {
+    "t": 112.11,
+    "target": "give",
+    "said": "give",
+    "correct": true,
+    "kind": "ok",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "29": [
+   {
+    "t": 112.11,
+    "target": "up",
+    "said": "ua up",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "But the ana ant did not give ua up"
+   }
+  ],
+  "30": [
+   {
+    "t": 116.11,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   }
+  ],
+  "31": [
+   {
+    "t": 116.11,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   }
+  ],
+  "32": [
+   {
+    "t": 116.11,
+    "target": "slowly",
+    "said": "slowly",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   }
+  ],
+  "33": [
+   {
+    "t": 116.11,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   }
+  ],
+  "34": [
+   {
+    "t": 116.11,
+    "target": "reached",
+    "said": "reached",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   }
+  ],
+  "35": [
+   {
+    "t": 116.11,
+    "target": "its",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "It walked slowly and reached home"
+   },
+   {
+    "t": 118.93,
+    "target": "its",
+    "said": "ita its",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ita its he"
+   },
+   {
+    "t": 123.31,
+    "target": "its",
+    "said": "its",
+    "correct": true,
+    "kind": "ok",
+    "stt": "its"
+   }
+  ],
+  "36": [
+   {
+    "t": 116.11,
+    "target": "home",
+    "said": "home",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It walked slowly and reached home"
+   },
+   {
+    "t": 118.93,
+    "target": "home",
+    "said": "he",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ita its he"
+   },
+   {
+    "t": 125.86,
+    "target": "home",
+    "said": "home",
+    "correct": true,
+    "kind": "ok",
+    "stt": "home"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 9.98,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 34.17,
+   "type": "say",
+   "kind": "praise",
+   "text": "Very nice! Keep going.",
+   "spans": []
+  },
+  {
+   "t": 41.42,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. The",
+   "spans": [
+    [
+     16,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 47.08,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.",
+   "spans": [
+    [
+     16,
+     23
+    ]
+   ]
+  },
+  {
+   "t": 58.57,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. The",
+   "spans": [
+    [
+     16,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 64.21,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.",
+   "spans": [
+    [
+     16,
+     23
+    ]
+   ]
+  },
+  {
+   "t": 75.99,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 83.0,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. rice",
+   "spans": [
+    [
+     17,
+     18
+    ]
+   ]
+  },
+  {
+   "t": 90.05,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.",
+   "spans": [
+    [
+     16,
+     23
+    ]
+   ]
+  },
+  {
+   "t": 103.03,
+   "type": "say",
+   "kind": "praise",
+   "text": "Wonderful! Let's move to the next line.",
+   "spans": []
+  },
+  {
+   "t": 119.02,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 125.93,
+   "type": "say",
+   "kind": "finish",
+   "text": "Well done! You have finished your poem!",
+   "spans": []
+  }
+ ]
+}

@@ -154,6 +154,7 @@ def main(argv=None):
     ap.add_argument("--parallel", type=int, default=2)
     ap.add_argument("--retries", type=int, default=1)
     ap.add_argument("--seed", type=int, help="override every persona's seed")
+    ap.add_argument("--seed-offset", type=int, default=0, help="add to each persona's own seed (repeat runs)")
     ap.add_argument("--port", type=int, default=8790)
     ap.add_argument("--app-root", default=str(ROOT), help="checkout to test (repo root or a git worktree)")
     ap.add_argument("--base-url", help="use an already-running app instead of starting one")
@@ -169,22 +170,27 @@ def main(argv=None):
     out.mkdir(parents=True, exist_ok=True)
     commit = subprocess.run(["git", "rev-parse", "--short", "HEAD"], cwd=a.app_root, capture_output=True, text=True).stdout.strip()
     meta = {"cycle": a.cycle, "label": a.label, "app_root": a.app_root, "app_commit": commit,
-            "personas": [p.id for p in personas], "parallel": a.parallel, "seed": a.seed,
+            "personas": [p.id for p in personas], "parallel": a.parallel, "seed": a.seed, "seed_offset": a.seed_offset,
             "started": time.strftime("%Y-%m-%dT%H:%M:%S")}
     (out / "run.json").write_text(json.dumps(meta, indent=1))
     print(f"[{a.cycle}/{a.label}] {len(personas)} agents, parallel {a.parallel}, app {commit} -> {out}", flush=True)
     t0 = time.monotonic()
     run_id = f"{a.cycle}-{a.label}"
+    seed = a.seed
+    if a.seed_offset:
+        for p in personas:
+            p.seed += a.seed_offset
     if a.base_url:
-        reports = asyncio.run(run_batch(personas, a.base_url, out, run_id, a.parallel, a.retries, a.seed, not a.no_screens))
+        reports = asyncio.run(run_batch(personas, a.base_url, out, run_id, a.parallel, a.retries, seed, not a.no_screens))
     else:
         with AppServer(Path(a.app_root), a.port, out / "server.log") as srv:
-            reports = asyncio.run(run_batch(personas, srv.url, out, run_id, a.parallel, a.retries, a.seed, not a.no_screens))
+            reports = asyncio.run(run_batch(personas, srv.url, out, run_id, a.parallel, a.retries, seed, not a.no_screens))
     summary = summarise(reports, personas, time.monotonic() - t0, "sim")
     meta.update(finished=time.strftime("%Y-%m-%dT%H:%M:%S"), summary=summary)
     (out / "run.json").write_text(json.dumps(meta, indent=1))
     (out / "ledger.json").write_text(json.dumps(summary["ledger"], indent=1))
     print(json.dumps(summary, indent=1))
+    return out
 
 
 if __name__ == "__main__":

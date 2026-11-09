@@ -1,0 +1,602 @@
+{
+ "id": "20261109-181442-ca35ed",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 6,
+  "words_helped": 5,
+  "words_to_practise": [
+   "On",
+   "the",
+   "window"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 106.5,
+  "words_per_minute": 6.2
+ },
+ "log": [
+  {
+   "t": 0.032,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.03,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 14.479,
+   "event": "transcript",
+   "text": "run"
+  },
+  {
+   "t": 16.038,
+   "event": "pause"
+  },
+  {
+   "t": 18.0,
+   "event": "resume"
+  },
+  {
+   "t": 23.066,
+   "event": "transcript",
+   "text": "Pitter patter falls rain"
+  },
+  {
+   "t": 23.066,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 26.115,
+   "event": "transcript",
+   "text": "the run"
+  },
+  {
+   "t": 26.115,
+   "event": "uncertain",
+   "text": "rain the run"
+  },
+  {
+   "t": 26.115,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 29.332,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.551,
+   "event": "transcript",
+   "text": "rain"
+  },
+  {
+   "t": 33.959,
+   "event": "transcript",
+   "text": "tha"
+  },
+  {
+   "t": 33.959,
+   "event": "uncertain",
+   "text": "rain tha"
+  },
+  {
+   "t": 35.614,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 35.614,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 41.453,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.035,
+   "event": "transcript",
+   "text": "the rain"
+  },
+  {
+   "t": 44.035,
+   "event": "progress",
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 44.035,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 47.107,
+   "event": "transcript",
+   "text": "On ran"
+  },
+  {
+   "t": 47.107,
+   "event": "uncertain",
+   "text": "on ran"
+  },
+  {
+   "t": 47.107,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 50.323,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 55.717,
+   "event": "transcript",
+   "text": "oa roof and we pane"
+  },
+  {
+   "t": 55.717,
+   "event": "progress",
+   "frm": 5,
+   "to": 11
+  },
+  {
+   "t": 55.717,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5,
+    6,
+    9
+   ]
+  },
+  {
+   "t": 55.717,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 61.532,
+   "event": "transcript",
+   "text": "oa"
+  },
+  {
+   "t": 61.532,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "oa"
+  },
+  {
+   "t": 66.797,
+   "event": "silence",
+   "word": 5
+  },
+  {
+   "t": 72.06,
+   "event": "silence",
+   "word": 5
+  },
+  {
+   "t": 75.523,
+   "event": "transcript",
+   "text": "On"
+  },
+  {
+   "t": 75.523,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 75.523,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 83.411,
+   "event": "silence",
+   "word": 6
+  },
+  {
+   "t": 86.018,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 86.018,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 86.018,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 91.691,
+   "event": "transcript",
+   "text": "window"
+  },
+  {
+   "t": 91.691,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 91.691,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 98.804,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 101.9,
+   "event": "transcript",
+   "text": "On On roof"
+  },
+  {
+   "t": 101.9,
+   "event": "progress",
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 103.961,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    6
+   ]
+  },
+  {
+   "t": 103.961,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.18,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 14.479,
+   "type": "transcript",
+   "text": "run",
+   "latency": 120,
+   "audio_duration_ms": 810,
+   "message": null
+  },
+  {
+   "t": 19.364,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.066,
+   "type": "transcript",
+   "text": "Pitter patter falls rain",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 23.907,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.115,
+   "type": "transcript",
+   "text": "the run",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 30.159,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.551,
+   "type": "transcript",
+   "text": "rain",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 32.568,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.959,
+   "type": "transcript",
+   "text": "tha",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 41.788,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.035,
+   "type": "transcript",
+   "text": "the rain",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 44.937,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.107,
+   "type": "transcript",
+   "text": "On ran",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 51.249,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.717,
+   "type": "transcript",
+   "text": "oa roof and we pane",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 60.137,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.532,
+   "type": "transcript",
+   "text": "oa",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 74.126,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.523,
+   "type": "transcript",
+   "text": "On",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 84.619,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.018,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 90.299,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.691,
+   "type": "transcript",
+   "text": "window",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 98.912,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 101.9,
+   "type": "transcript",
+   "text": "On On roof",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter patter falls the run",
+   "heard": "run",
+   "muted_words": 4,
+   "duration_s": 4.05
+  },
+  {
+   "text": "Pitter patter falls rain",
+   "heard": "Pitter patter falls rain",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "the run",
+   "heard": "the run",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "rain",
+   "heard": "rain",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "tha",
+   "heard": "tha",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "the rain",
+   "heard": "the rain",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "On ran",
+   "heard": "On ran",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "oa roof and we pane",
+   "heard": "oa roof and we pane",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "oa",
+   "heard": "oa",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "On",
+   "heard": "On",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "window",
+   "heard": "window",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "On On roof",
+   "heard": "On On roof",
+   "muted_words": 0,
+   "duration_s": 2.51
+  }
+ ],
+ "tts_offline": 50
+}

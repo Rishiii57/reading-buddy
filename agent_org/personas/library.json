@@ -1,106 +1,2969 @@
 {
- "version": 1,
+ "version": 2,
  "note": "Synthetic testing personas (children, Nursery to Class 4). Not real children.",
  "personas": [
   {
-   "id": "N01", "name": "Aarav", "grade": "Nursery", "age": 3.5,
-   "reading_proficiency": "pre_reader", "language_preference": "en-IN",
-   "languages": {"en-IN": {"speak": 0.6, "read": 0.0}, "hi-IN": {"speak": 0.7, "read": 0.0}},
-   "ui_english_reading": 0.0, "vocabulary_level": "very small (simple nouns)",
-   "pronunciation": {"accuracy": 0.6, "notes": "drops final consonants, 'r' sounds like 'w'"},
-   "attention_span_s": 120, "confidence": 0.5, "patience": 3.0,
-   "learning_preferences": ["needs_audio_for_everything", "likes_pictures", "likes_praise"],
-   "common_mistakes": ["drops_endings", "word_by_word"],
+   "id": "N01",
+   "name": "Aarav",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.6,
+     "read": 0.0
+    },
+    "hi-IN": {
+     "speak": 0.7,
+     "read": 0.0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "very small (simple nouns)",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "drops final consonants, 'r' sounds like 'w'"
+   },
+   "attention_span_s": 120,
+   "confidence": 0.5,
+   "patience": 3.0,
+   "learning_preferences": [
+    "needs_audio_for_everything",
+    "likes_pictures",
+    "likes_praise"
+   ],
+   "common_mistakes": [
+    "drops_endings",
+    "word_by_word"
+   ],
    "technology_familiarity": 0.4,
    "interaction_style": "taps big colourful things; repeats what he hears; cannot read any text",
-   "testing_objectives": ["Can a non-reader start a session alone?", "Does Buddy's audio guidance carry a pre-reader through a line?"],
-   "journey": "discover_and_start", "grown_up_setup": false,
+   "testing_objectives": [
+    "Can a non-reader start a session alone?",
+    "Does Buddy's audio guidance carry a pre-reader through a line?"
+   ],
+   "journey": "discover_and_start",
+   "grown_up_setup": false,
    "profile_note": "Cannot read yet. Copies words he has just heard.",
-   "behaviour": {"words_per_s": 0.9, "word_accuracy": 0.0, "echo_skill": 0.55, "can_decode": false,
-     "p_skip_small": 0.5, "p_hesitate": 0.6, "hesitation_s": [2.0, 5.0], "p_self_correct": 0.0,
-     "p_repeat_word": 0.15, "volume": 0.7, "p_talk_over_buddy": 0.25, "p_off_task_click": 0.12,
-     "p_tap_mic_to_talk": 0.35, "says_tired_after_s": 70, "max_nav_clicks": 8},
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.55,
+    "can_decode": false,
+    "p_skip_small": 0.5,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.25,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.35,
+    "says_tired_after_s": 70,
+    "max_nav_clicks": 8
+   },
    "seed": 101
   },
   {
-   "id": "L01", "name": "Ishita", "grade": "LKG", "age": 4.5,
-   "reading_proficiency": "emergent", "language_preference": "hi-IN",
-   "languages": {"hi-IN": {"speak": 0.85, "read": 0.25}, "en-IN": {"speak": 0.4, "read": 0.1}},
-   "ui_english_reading": 0.05, "vocabulary_level": "small, everyday Hindi words",
-   "pronunciation": {"accuracy": 0.65, "notes": "confuses ब/व and श/स; similar-looking letters"},
-   "attention_span_s": 150, "confidence": 0.45, "patience": 3.5,
-   "learning_preferences": ["listen_first", "likes_praise"],
-   "common_mistakes": ["letter_confusion", "guesses_from_first_letter", "word_by_word"],
+   "id": "N02",
+   "name": "Anaya",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.8,
+     "read": 0
+    },
+    "en-IN": {
+     "speak": 0.3,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "loves listening, rarely speaks up; whispers when she does"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.25,
+   "patience": 3.0,
+   "learning_preferences": [
+    "listen_first",
+    "likes_songs"
+   ],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "loves listening, rarely speaks up; whispers when she does",
+   "testing_objectives": [
+    "Listen to the poem first, then read it"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
+   "profile_note": "Enjoys rhymes read to her but is shy about speaking.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.45,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.8,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.4,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1000
+  },
+  {
+   "id": "N03",
+   "name": "Vihaan",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.8,
+     "read": 0
+    },
+    "hi-IN": {
+     "speak": 0.3,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "taps everything on the screen, fast and often"
+   },
+   "attention_span_s": 60,
+   "confidence": 0.6,
+   "patience": 2.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.55,
+   "interaction_style": "taps everything on the screen, fast and often",
+   "testing_objectives": [
+    "Discover how to start reading without help"
+   ],
+   "journey": "discover_and_start",
+   "grown_up_setup": false,
+   "profile_note": "Very curious with tablets; short attention.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.5,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.25,
+    "p_tap_mic_to_talk": 0.5,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1017
+  },
+  {
+   "id": "N04",
+   "name": "Saanvi",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.75,
+     "read": 0
+    },
+    "hi-IN": {
+     "speak": 0.6,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "loud and eager, says words as soon as he hears them"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.9,
+   "patience": 3.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "loud and eager, says words as soon as he hears them",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Knows many nursery rhymes by heart; repeats eagerly.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.8,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.4,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1034
+  },
+  {
+   "id": "N05",
+   "name": "Reyansh",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.75,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "very quiet, long silences before answering"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.2,
+   "patience": 3.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "very quiet, long silences before answering",
+   "testing_objectives": [
+    "Discover how to start reading without help"
+   ],
+   "journey": "discover_and_start",
+   "grown_up_setup": true,
+   "profile_note": "Shy; speaks in a whisper.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.5,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.9,
+    "hesitation_s": [
+     3.0,
+     7.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.35,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1051
+  },
+  {
+   "id": "N06",
+   "name": "Diya",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.85,
+     "read": 0
+    },
+    "en-IN": {
+     "speak": 0.1,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "asks for things to be said again"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.6,
+   "patience": 3.0,
+   "learning_preferences": [
+    "wants_replay",
+    "needs_audio_for_everything"
+   ],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "asks for things to be said again",
+   "testing_objectives": [
+    "Hear a line again when unsure"
+   ],
+   "journey": "replay_line",
+   "grown_up_setup": true,
+   "profile_note": "Speaks only Gujarati at home; wants to hear things twice.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.55,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1068
+  },
+  {
+   "id": "N07",
+   "name": "Arjun",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.55,
+     "read": 0
+    },
+    "hi-IN": {
+     "speak": 0.8,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "gets tired quickly and says so"
+   },
+   "attention_span_s": 80,
+   "confidence": 0.6,
+   "patience": 3.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "gets tired quickly and says so",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "English-medium school, Hindi at home; tires fast.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.5,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 45,
+    "max_nav_clicks": 8
+   },
+   "seed": 1085
+  },
+  {
+   "id": "N08",
+   "name": "Myra",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.7,
+     "read": 0
+    },
+    "en-IN": {
+     "speak": 0.5,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.6,
+    "notes": "mixes Hindi and English words, repeats words"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.6,
+   "patience": 3.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "adds_words",
+    "repeats_words"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "mixes Hindi and English words, repeats words",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": false,
+   "profile_note": "Code-mixes Hindi and English.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.5,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.3,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1102
+  },
+  {
+   "id": "N09",
+   "name": "Advik",
+   "grade": "Nursery",
+   "age": 3.5,
+   "reading_proficiency": "pre_reader",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.6,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small, spoken",
+   "pronunciation": {
+    "accuracy": 0.45,
+    "notes": "patient; speech sounds still developing"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.6,
+   "patience": 5.0,
+   "learning_preferences": [
+    "listen_first"
+   ],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.4,
+   "interaction_style": "patient; speech sounds still developing",
+   "testing_objectives": [
+    "Listen to the poem first, then read it"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
+   "profile_note": "Speech sounds still developing (r/l, s/sh).",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.0,
+    "echo_skill": 0.4,
+    "can_decode": false,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1119
+  },
+  {
+   "id": "N10",
+   "name": "Kiara",
+   "grade": "Nursery",
+   "age": 4.2,
+   "reading_proficiency": "emergent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.1
+    },
+    "hi-IN": {
+     "speak": 0.4,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.0,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "knows some letters, likes doing things again"
+   },
+   "attention_span_s": 110,
+   "confidence": 0.6,
+   "patience": 3.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.6,
+   "interaction_style": "knows some letters, likes doing things again",
+   "testing_objectives": [
+    "Finish, then read the same text again"
+   ],
+   "journey": "restart_session",
+   "grown_up_setup": true,
+   "profile_note": "Recognises a few letters; loves repeating favourites.",
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.2,
+    "echo_skill": 0.7,
+    "can_decode": true,
+    "p_skip_small": 0.4,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     2.0,
+     5.0
+    ],
+    "p_self_correct": 0.0,
+    "p_repeat_word": 0.15,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.2,
+    "p_off_task_click": 0.12,
+    "p_tap_mic_to_talk": 0.3,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 8
+   },
+   "seed": 1136
+  },
+  {
+   "id": "L01",
+   "name": "Ishita",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.85,
+     "read": 0.25
+    },
+    "en-IN": {
+     "speak": 0.4,
+     "read": 0.1
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small, everyday Hindi words",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "confuses ब/व and श/स; similar-looking letters"
+   },
+   "attention_span_s": 150,
+   "confidence": 0.45,
+   "patience": 3.5,
+   "learning_preferences": [
+    "listen_first",
+    "likes_praise"
+   ],
+   "common_mistakes": [
+    "letter_confusion",
+    "guesses_from_first_letter",
+    "word_by_word"
+   ],
    "technology_familiarity": 0.5,
    "interaction_style": "waits for instructions, gets upset when told to repeat a word many times",
-   "testing_objectives": ["Listen first then read", "How word practice treats letter confusions"],
-   "journey": "listen_then_read", "grown_up_setup": true,
+   "testing_objectives": [
+    "Listen first then read",
+    "How word practice treats letter confusions"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
    "profile_note": "Knows a few Hindi letters; mixes up letters that look or sound alike.",
-   "behaviour": {"words_per_s": 0.7, "word_accuracy": 0.45, "echo_skill": 0.7, "can_decode": true,
-     "p_skip_small": 0.25, "p_hesitate": 0.7, "hesitation_s": [2.0, 4.5], "p_self_correct": 0.1,
-     "p_repeat_word": 0.1, "volume": 0.6, "p_talk_over_buddy": 0.1, "p_off_task_click": 0.06,
-     "p_tap_mic_to_talk": 0.15, "says_tired_after_s": 0, "max_nav_clicks": 10},
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.45,
+    "echo_skill": 0.7,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.7,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.6,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.15,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
    "seed": 201
   },
   {
-   "id": "U01", "name": "Dhruv", "grade": "UKG", "age": 5.5,
-   "reading_proficiency": "early", "language_preference": "gu-IN",
-   "languages": {"gu-IN": {"speak": 0.9, "read": 0.5}, "en-IN": {"speak": 0.5, "read": 0.3}, "hi-IN": {"speak": 0.5, "read": 0.1}},
-   "ui_english_reading": 0.2, "vocabulary_level": "growing Gujarati vocabulary",
-   "pronunciation": {"accuracy": 0.75, "notes": "drops matras in longer words"},
-   "attention_span_s": 180, "confidence": 0.55, "patience": 4.0,
-   "learning_preferences": ["likes_poems", "likes_praise"],
-   "common_mistakes": ["word_by_word", "matra_errors", "loses_place"],
+   "id": "L02",
+   "name": "Ayaan",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.7,
+     "read": 0.25
+    },
+    "hi-IN": {
+     "speak": 0.6,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "mixes up b/d and p/q"
+   },
+   "attention_span_s": 140,
+   "confidence": 0.6,
+   "patience": 3.3,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "letter_confusion",
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "mixes up b/d and p/q",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Confuses letters that look alike.",
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.65,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1153
+  },
+  {
+   "id": "L03",
+   "name": "Aadhya",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.85,
+     "read": 0.2
+    },
+    "en-IN": {
+     "speak": 0.3,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "chatty, guesses words from pictures"
+   },
+   "attention_span_s": 140,
+   "confidence": 0.6,
+   "patience": 3.3,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "guesses_from_first_letter"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "chatty, guesses words from pictures",
+   "testing_objectives": [
+    "Discover how to start reading without help"
+   ],
+   "journey": "discover_and_start",
+   "grown_up_setup": false,
+   "profile_note": "Guesses words from the picture or first letter.",
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.65,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.25,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.4,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1170
+  },
+  {
+   "id": "L04",
+   "name": "Vivaan",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.3
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "fast and impatient, wants to finish quickly"
+   },
+   "attention_span_s": 90,
+   "confidence": 0.85,
+   "patience": 2.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "fast and impatient, wants to finish quickly",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Impatient; dislikes waiting.",
+   "behaviour": {
+    "words_per_s": 1.2,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1187
+  },
+  {
+   "id": "L05",
+   "name": "Prisha",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.85,
+     "read": 0.3
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "careful and slow, long pauses between words"
+   },
+   "attention_span_s": 140,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "careful and slow, long pauses between words",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Careful, sounds out each letter.",
+   "behaviour": {
+    "words_per_s": 0.5,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.85,
+    "hesitation_s": [
+     3.0,
+     6.0
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1204
+  },
+  {
+   "id": "L06",
+   "name": "Krish",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.8,
+     "read": 0.15
+    },
+    "hi-IN": {
+     "speak": 0.6,
+     "read": 0.05
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "likes to hear things first"
+   },
+   "attention_span_s": 140,
+   "confidence": 0.6,
+   "patience": 3.3,
+   "learning_preferences": [
+    "listen_first",
+    "wants_replay"
+   ],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "likes to hear things first",
+   "testing_objectives": [
+    "Listen to the poem first, then read it"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
+   "profile_note": "Bilingual Gujarati-Hindi; reads very little yet.",
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.65,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1221
+  },
+  {
+   "id": "L07",
+   "name": "Anvi",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.7,
+     "read": 0.2
+    },
+    "gu-IN": {
+     "speak": 0.5,
+     "read": 0
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "loves praise, tries hard, many mistakes"
+   },
+   "attention_span_s": 140,
+   "confidence": 0.9,
+   "patience": 3.3,
+   "learning_preferences": [
+    "likes_praise"
+   ],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "loves praise, tries hard, many mistakes",
+   "testing_objectives": [
+    "Finish, then read the same text again"
+   ],
+   "journey": "restart_session",
+   "grown_up_setup": true,
+   "profile_note": "Very motivated by stars and praise.",
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.35,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.65,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 9
+   },
+   "seed": 1238
+  },
+  {
+   "id": "L08",
+   "name": "Shaurya",
+   "grade": "LKG",
+   "age": 4.5,
+   "reading_proficiency": "emergent",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.8,
+     "read": 0.25
+    }
+   },
+   "ui_english_reading": 0.05,
+   "vocabulary_level": "small",
+   "pronunciation": {
+    "accuracy": 0.65,
+    "notes": "says when tired"
+   },
+   "attention_span_s": 100,
+   "confidence": 0.6,
+   "patience": 3.3,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.5,
+   "interaction_style": "says when tired",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Gets tired after a minute of reading.",
+   "behaviour": {
+    "words_per_s": 0.7,
+    "word_accuracy": 0.4,
+    "echo_skill": 0.65,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.65,
+    "hesitation_s": [
+     2.0,
+     4.5
+    ],
+    "p_self_correct": 0.05,
+    "p_repeat_word": 0.1,
+    "volume": 0.7,
+    "p_talk_over_buddy": 0.15,
+    "p_off_task_click": 0.08,
+    "p_tap_mic_to_talk": 0.2,
+    "says_tired_after_s": 55,
+    "max_nav_clicks": 9
+   },
+   "seed": 1255
+  },
+  {
+   "id": "U01",
+   "name": "Dhruv",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.5
+    },
+    "en-IN": {
+     "speak": 0.5,
+     "read": 0.3
+    },
+    "hi-IN": {
+     "speak": 0.5,
+     "read": 0.1
+    }
+   },
+   "ui_english_reading": 0.2,
+   "vocabulary_level": "growing Gujarati vocabulary",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "drops matras in longer words"
+   },
+   "attention_span_s": 180,
+   "confidence": 0.55,
+   "patience": 4.0,
+   "learning_preferences": [
+    "likes_poems",
+    "likes_praise"
+   ],
+   "common_mistakes": [
+    "word_by_word",
+    "matra_errors",
+    "loses_place"
+   ],
    "technology_familiarity": 0.6,
    "interaction_style": "reads one word at a time with long gaps between words",
-   "testing_objectives": ["Word-by-word reading with pauses", "Is a slow reader interrupted?"],
-   "journey": "read_whole_poem", "grown_up_setup": true,
+   "testing_objectives": [
+    "Word-by-word reading with pauses",
+    "Is a slow reader interrupted?"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
    "profile_note": "Can read single Gujarati words but struggles to string them into a sentence.",
-   "behaviour": {"words_per_s": 0.8, "word_accuracy": 0.7, "echo_skill": 0.8, "can_decode": true,
-     "p_skip_small": 0.15, "p_hesitate": 0.9, "hesitation_s": [2.0, 4.0], "p_self_correct": 0.2,
-     "p_repeat_word": 0.15, "volume": 0.8, "p_talk_over_buddy": 0.05, "p_off_task_click": 0.04,
-     "p_tap_mic_to_talk": 0.1, "says_tired_after_s": 0, "max_nav_clicks": 10},
+   "behaviour": {
+    "words_per_s": 0.8,
+    "word_accuracy": 0.7,
+    "echo_skill": 0.8,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.9,
+    "hesitation_s": [
+     2.0,
+     4.0
+    ],
+    "p_self_correct": 0.2,
+    "p_repeat_word": 0.15,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.05,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.1,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
    "seed": 301
   },
   {
-   "id": "C2-01", "name": "Kabir", "grade": "Class 2", "age": 7.5,
-   "reading_proficiency": "developing", "language_preference": "en-IN",
-   "languages": {"en-IN": {"speak": 0.85, "read": 0.75}, "hi-IN": {"speak": 0.8, "read": 0.5}},
-   "ui_english_reading": 0.7, "vocabulary_level": "age-typical English",
-   "pronunciation": {"accuracy": 0.7, "notes": "rushes and blurs longer words"},
-   "attention_span_s": 200, "confidence": 0.9, "patience": 4.0,
-   "learning_preferences": ["likes_speed", "dislikes_repeating"],
-   "common_mistakes": ["reads_too_fast", "guesses_from_first_letter", "drops_endings", "skips_small_words"],
+   "id": "U02",
+   "name": "Navya",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.75,
+     "read": 0.5
+    },
+    "hi-IN": {
+     "speak": 0.5,
+     "read": 0.1
+    }
+   },
+   "ui_english_reading": 0.15,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "reads single words but struggles to join them"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 3.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word",
+    "skips_small_words"
+   ],
+   "technology_familiarity": 0.55,
+   "interaction_style": "reads single words but struggles to join them",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Can read words, not yet sentences.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.35,
+    "p_hesitate": 0.8,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1272
+  },
+  {
+   "id": "U03",
+   "name": "Atharv",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.85,
+     "read": 0.5
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "drops and swaps matras"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 3.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "matra_errors",
+    "nasal_errors"
+   ],
+   "technology_familiarity": 0.55,
+   "interaction_style": "drops and swaps matras",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Mixes up short and long vowel signs.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1289
+  },
+  {
+   "id": "U04",
+   "name": "Riya",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.85,
+     "read": 0.45
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "gets upset quickly; taps mic to talk"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 2.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "conjunct_errors",
+    "loses_place"
+   ],
+   "technology_familiarity": 0.55,
+   "interaction_style": "gets upset quickly; taps mic to talk",
+   "testing_objectives": [
+    "Discover how to start reading without help"
+   ],
+   "journey": "discover_and_start",
+   "grown_up_setup": false,
+   "profile_note": "Struggles with joined letters; low frustration tolerance.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.25,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1306
+  },
+  {
+   "id": "U05",
+   "name": "Hridaan",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.9,
+     "read": 0.5
+    },
+    "en-IN": {
+     "speak": 0.4,
+     "read": 0.2
+    }
+   },
+   "ui_english_reading": 0.15,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "wants to choose a story herself"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 3.8,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.55,
+   "interaction_style": "wants to choose a story herself",
+   "testing_objectives": [
+    "Explore the library and pick something suitable, then read"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": true,
+   "profile_note": "Wants to pick her own story.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1323
+  },
+  {
+   "id": "U06",
+   "name": "Tara",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.85,
+     "read": 0.5
+    }
+   },
+   "ui_english_reading": 0.35,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "tech-savvy; explores every button"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 3.8,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.9,
+   "interaction_style": "tech-savvy; explores every button",
+   "testing_objectives": [
+    "Explore the library and pick something suitable, then read"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": true,
+   "profile_note": "Uses a tablet daily; explores.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.15,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1340
+  },
+  {
+   "id": "U07",
+   "name": "Yash",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.8,
+     "read": 0.5
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "reads in a whisper"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.3,
+   "patience": 3.8,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.55,
+   "interaction_style": "reads in a whisper",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Low confidence, reads very softly.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.1,
+    "p_repeat_word": 0.1,
+    "volume": 0.4,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1357
+  },
+  {
+   "id": "U08",
+   "name": "Pari",
+   "grade": "UKG",
+   "age": 5.5,
+   "reading_proficiency": "early",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.85,
+     "read": 0.5
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "repeats words, corrects himself"
+   },
+   "attention_span_s": 170,
+   "confidence": 0.6,
+   "patience": 3.8,
+   "learning_preferences": [
+    "wants_replay"
+   ],
+   "common_mistakes": [
+    "repeats_words",
+    "self_corrects"
+   ],
+   "technology_familiarity": 0.55,
+   "interaction_style": "repeats words, corrects himself",
+   "testing_objectives": [
+    "Hear a line again when unsure"
+   ],
+   "journey": "replay_line",
+   "grown_up_setup": true,
+   "profile_note": "Repeats words while thinking.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.6,
+    "echo_skill": 0.75,
+    "can_decode": true,
+    "p_skip_small": 0.2,
+    "p_hesitate": 0.6,
+    "hesitation_s": [
+     1.8,
+     4.0
+    ],
+    "p_self_correct": 0.3,
+    "p_repeat_word": 0.2,
+    "volume": 0.8,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.06,
+    "p_tap_mic_to_talk": 0.12,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 10
+   },
+   "seed": 1374
+  },
+  {
+   "id": "C1-01",
+   "name": "Rudra",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.85,
+     "read": 0.65
+    }
+   },
+   "ui_english_reading": 0.35,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "skips small words like 'a' and 'the'"
+   },
+   "attention_span_s": 190,
+   "confidence": 0.6,
+   "patience": 4.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "skips_small_words"
+   ],
+   "technology_familiarity": 0.65,
+   "interaction_style": "skips small words like 'a' and 'the'",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Frequently skips small words.",
+   "behaviour": {
+    "words_per_s": 1.3,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.45,
+    "p_hesitate": 0.45,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 11
+   },
+   "seed": 1391
+  },
+  {
+   "id": "C1-02",
+   "name": "Ira",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.9,
+     "read": 0.65
+    },
+    "en-IN": {
+     "speak": 0.5,
+     "read": 0.3
+    }
+   },
+   "ui_english_reading": 0.35,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "confuses ब/व, श/स"
+   },
+   "attention_span_s": 190,
+   "confidence": 0.6,
+   "patience": 4.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "letter_confusion"
+   ],
+   "technology_familiarity": 0.65,
+   "interaction_style": "confuses ब/व, श/स",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Confuses similar Hindi letters.",
+   "behaviour": {
+    "words_per_s": 1.3,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.45,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 11
+   },
+   "seed": 1408
+  },
+  {
+   "id": "C1-03",
+   "name": "Dev",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.6
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "slow, word by word"
+   },
+   "attention_span_s": 190,
+   "confidence": 0.6,
+   "patience": 4.0,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.65,
+   "interaction_style": "slow, word by word",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Slow, careful Gujarati reader.",
+   "behaviour": {
+    "words_per_s": 0.9,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.7,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 11
+   },
+   "seed": 1425
+  },
+  {
+   "id": "C1-04",
+   "name": "Jiya",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.45,
+     "read": 0.55
+    },
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.4
+    }
+   },
+   "ui_english_reading": 0.35,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "reads English letters but follows spoken English with difficulty"
+   },
+   "attention_span_s": 190,
+   "confidence": 0.6,
+   "patience": 4.0,
+   "learning_preferences": [
+    "listen_first"
+   ],
+   "common_mistakes": [],
+   "technology_familiarity": 0.65,
+   "interaction_style": "reads English letters but follows spoken English with difficulty",
+   "testing_objectives": [
+    "Listen to the poem first, then read it"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
+   "profile_note": "Gujarati at home; English-medium school.",
+   "behaviour": {
+    "words_per_s": 1.3,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.45,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 11
+   },
+   "seed": 1442
+  },
+  {
+   "id": "C1-05",
+   "name": "Om",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.9,
+     "read": 0.7
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "confident, races ahead, talks over Buddy"
+   },
+   "attention_span_s": 190,
+   "confidence": 0.95,
+   "patience": 4.0,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.65,
+   "interaction_style": "confident, races ahead, talks over Buddy",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": false,
+   "profile_note": "Confident Hindi reader for his age.",
+   "behaviour": {
+    "words_per_s": 1.9,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.45,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.3,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 11
+   },
+   "seed": 1459
+  },
+  {
+   "id": "C1-06",
+   "name": "Siya",
+   "grade": "Class 1",
+   "age": 6.5,
+   "reading_proficiency": "early",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.6
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "growing",
+   "pronunciation": {
+    "accuracy": 0.75,
+    "notes": "tires after a couple of minutes"
+   },
+   "attention_span_s": 120,
+   "confidence": 0.6,
+   "patience": 4.0,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.65,
+   "interaction_style": "tires after a couple of minutes",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Tires quickly in the evening.",
+   "behaviour": {
+    "words_per_s": 1.3,
+    "word_accuracy": 0.72,
+    "echo_skill": 0.85,
+    "can_decode": true,
+    "p_skip_small": 0.25,
+    "p_hesitate": 0.45,
+    "hesitation_s": [
+     1.5,
+     3.5
+    ],
+    "p_self_correct": 0.15,
+    "p_repeat_word": 0.06,
+    "volume": 0.85,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.04,
+    "p_tap_mic_to_talk": 0.08,
+    "says_tired_after_s": 70,
+    "max_nav_clicks": 11
+   },
+   "seed": 1476
+  },
+  {
+   "id": "C2-01",
+   "name": "Kabir",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.85,
+     "read": 0.75
+    },
+    "hi-IN": {
+     "speak": 0.8,
+     "read": 0.5
+    }
+   },
+   "ui_english_reading": 0.7,
+   "vocabulary_level": "age-typical English",
+   "pronunciation": {
+    "accuracy": 0.7,
+    "notes": "rushes and blurs longer words"
+   },
+   "attention_span_s": 200,
+   "confidence": 0.9,
+   "patience": 4.0,
+   "learning_preferences": [
+    "likes_speed",
+    "dislikes_repeating"
+   ],
+   "common_mistakes": [
+    "reads_too_fast",
+    "guesses_from_first_letter",
+    "drops_endings",
+    "skips_small_words"
+   ],
    "technology_familiarity": 0.85,
    "interaction_style": "confident, reads fast, talks over Buddy, impatient with corrections",
-   "testing_objectives": ["Make mistakes on purpose", "Do corrections make sense to a fast reader?"],
-   "journey": "make_mistakes", "grown_up_setup": false,
+   "testing_objectives": [
+    "Make mistakes on purpose",
+    "Do corrections make sense to a fast reader?"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": false,
    "profile_note": "Reads quickly and guesses words from the first letter.",
-   "behaviour": {"words_per_s": 3.2, "word_accuracy": 0.75, "echo_skill": 0.9, "can_decode": true,
-     "p_skip_small": 0.3, "p_hesitate": 0.1, "hesitation_s": [0.8, 1.5], "p_self_correct": 0.25,
-     "p_repeat_word": 0.05, "volume": 1.0, "p_talk_over_buddy": 0.35, "p_off_task_click": 0.03,
-     "p_tap_mic_to_talk": 0.05, "says_tired_after_s": 0, "max_nav_clicks": 12},
+   "behaviour": {
+    "words_per_s": 3.2,
+    "word_accuracy": 0.75,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.3,
+    "p_hesitate": 0.1,
+    "hesitation_s": [
+     0.8,
+     1.5
+    ],
+    "p_self_correct": 0.25,
+    "p_repeat_word": 0.05,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.35,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
    "seed": 501
   },
   {
-   "id": "C4-01", "name": "Meera", "grade": "Class 4", "age": 9.5,
-   "reading_proficiency": "fluent", "language_preference": "hi-IN",
-   "languages": {"hi-IN": {"speak": 0.95, "read": 0.9}, "en-IN": {"speak": 0.8, "read": 0.8}, "gu-IN": {"speak": 0.3, "read": 0.1}},
-   "ui_english_reading": 0.9, "vocabulary_level": "rich Hindi and English",
-   "pronunciation": {"accuracy": 0.92, "notes": "accurate; flat rhythm and intonation"},
-   "attention_span_s": 300, "confidence": 0.8, "patience": 5.0,
-   "learning_preferences": ["wants_challenge", "wants_rhythm_feedback"],
-   "common_mistakes": ["monotone", "self_corrects"],
+   "id": "C2-02",
+   "name": "Neel",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.9,
+     "read": 0.8
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "accurate but flat"
+   },
+   "attention_span_s": 210,
+   "confidence": 0.6,
+   "patience": 4.2,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "monotone"
+   ],
+   "technology_familiarity": 0.75,
+   "interaction_style": "accurate but flat",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Reads accurately without expression.",
+   "behaviour": {
+    "words_per_s": 1.8,
+    "word_accuracy": 0.8,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     1.2,
+     3.0
+    ],
+    "p_self_correct": 0.25,
+    "p_repeat_word": 0.05,
+    "volume": 0.9,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
+   "seed": 1493
+  },
+  {
+   "id": "C2-03",
+   "name": "Avni",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.4
+    },
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.75
+    }
+   },
+   "ui_english_reading": 0.6,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "speaks Gujarati well, reads it poorly"
+   },
+   "attention_span_s": 210,
+   "confidence": 0.6,
+   "patience": 4.2,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "matra_errors",
+    "guesses_from_first_letter"
+   ],
+   "technology_familiarity": 0.75,
+   "interaction_style": "speaks Gujarati well, reads it poorly",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Reads English better than Gujarati.",
+   "behaviour": {
+    "words_per_s": 1.8,
+    "word_accuracy": 0.8,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     1.2,
+     3.0
+    ],
+    "p_self_correct": 0.25,
+    "p_repeat_word": 0.05,
+    "volume": 0.9,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
+   "seed": 1510
+  },
+  {
+   "id": "C2-04",
+   "name": "Kian",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.85,
+     "read": 0.7
+    }
+   },
+   "ui_english_reading": 0.6,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "loses place and restarts lines"
+   },
+   "attention_span_s": 210,
+   "confidence": 0.6,
+   "patience": 4.2,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "loses_place",
+    "repeats_words"
+   ],
+   "technology_familiarity": 0.75,
+   "interaction_style": "loses place and restarts lines",
+   "testing_objectives": [
+    "Finish, then read the same text again"
+   ],
+   "journey": "restart_session",
+   "grown_up_setup": true,
+   "profile_note": "Loses his place.",
+   "behaviour": {
+    "words_per_s": 1.8,
+    "word_accuracy": 0.8,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     1.2,
+     3.0
+    ],
+    "p_self_correct": 0.25,
+    "p_repeat_word": 0.05,
+    "volume": 0.9,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
+   "seed": 1527
+  },
+  {
+   "id": "C2-05",
+   "name": "Mahi",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.9,
+     "read": 0.75
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "adds words, corrects herself"
+   },
+   "attention_span_s": 210,
+   "confidence": 0.6,
+   "patience": 4.2,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "adds_words",
+    "self_corrects"
+   ],
+   "technology_familiarity": 0.75,
+   "interaction_style": "adds words, corrects herself",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Self-corrects a lot.",
+   "behaviour": {
+    "words_per_s": 1.8,
+    "word_accuracy": 0.8,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     1.2,
+     3.0
+    ],
+    "p_self_correct": 0.5,
+    "p_repeat_word": 0.05,
+    "volume": 0.9,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
+   "seed": 1544
+  },
+  {
+   "id": "C2-06",
+   "name": "Parth",
+   "grade": "Class 2",
+   "age": 7.5,
+   "reading_proficiency": "developing",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.7
+    },
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.7
+    }
+   },
+   "ui_english_reading": 0.6,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "independent; reads the screen"
+   },
+   "attention_span_s": 210,
+   "confidence": 0.6,
+   "patience": 4.2,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.85,
+   "interaction_style": "independent; reads the screen",
+   "testing_objectives": [
+    "Explore the library and pick something suitable, then read"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": false,
+   "profile_note": "Uses the app alone.",
+   "behaviour": {
+    "words_per_s": 1.8,
+    "word_accuracy": 0.8,
+    "echo_skill": 0.9,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.3,
+    "hesitation_s": [
+     1.2,
+     3.0
+    ],
+    "p_self_correct": 0.25,
+    "p_repeat_word": 0.05,
+    "volume": 0.9,
+    "p_talk_over_buddy": 0.12,
+    "p_off_task_click": 0.03,
+    "p_tap_mic_to_talk": 0.05,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 12
+   },
+   "seed": 1561
+  },
+  {
+   "id": "C3-01",
+   "name": "Zoya",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.9,
+     "read": 0.85
+    }
+   },
+   "ui_english_reading": 0.75,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "fluent but no expression"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [
+    "wants_rhythm_feedback"
+   ],
+   "common_mistakes": [
+    "monotone"
+   ],
+   "technology_familiarity": 0.8,
+   "interaction_style": "fluent but no expression",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Struggles with reading expression.",
+   "behaviour": {
+    "words_per_s": 2.1,
+    "word_accuracy": 0.87,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 13
+   },
+   "seed": 1578
+  },
+  {
+   "id": "C3-02",
+   "name": "Rohan",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.95,
+     "read": 0.8
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "trips on joined letters"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "conjunct_errors"
+   ],
+   "technology_familiarity": 0.8,
+   "interaction_style": "trips on joined letters",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Trips on conjunct consonants.",
+   "behaviour": {
+    "words_per_s": 2.1,
+    "word_accuracy": 0.87,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 13
+   },
+   "seed": 1595
+  },
+  {
+   "id": "C3-03",
+   "name": "Nisha",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.95,
+     "read": 0.85
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "rushes, drops endings, talks over Buddy"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "reads_too_fast",
+    "drops_endings"
+   ],
+   "technology_familiarity": 0.8,
+   "interaction_style": "rushes, drops endings, talks over Buddy",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Rushes through text.",
+   "behaviour": {
+    "words_per_s": 3.0,
+    "word_accuracy": 0.87,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.3,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 13
+   },
+   "seed": 1612
+  },
+  {
+   "id": "C3-04",
+   "name": "Aarush",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.9,
+     "read": 0.6
+    }
+   },
+   "ui_english_reading": 0.7,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "reverses letters; very persistent"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 5.5,
+   "learning_preferences": [
+    "listen_first"
+   ],
+   "common_mistakes": [
+    "letter_confusion",
+    "word_by_word"
+   ],
+   "technology_familiarity": 0.8,
+   "interaction_style": "reverses letters; very persistent",
+   "testing_objectives": [
+    "Listen to the poem first, then read it"
+   ],
+   "journey": "listen_then_read",
+   "grown_up_setup": true,
+   "profile_note": "Reverses letters (dyslexia-like pattern).",
+   "behaviour": {
+    "words_per_s": 1.1,
+    "word_accuracy": 0.7,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 13
+   },
+   "seed": 1629
+  },
+  {
+   "id": "C3-05",
+   "name": "Esha",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.95,
+     "read": 0.85
+    },
+    "gu-IN": {
+     "speak": 0.2,
+     "read": 0.05
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "likes to hear model reading"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [
+    "wants_replay"
+   ],
+   "common_mistakes": [],
+   "technology_familiarity": 0.8,
+   "interaction_style": "likes to hear model reading",
+   "testing_objectives": [
+    "Hear a line again when unsure"
+   ],
+   "journey": "replay_line",
+   "grown_up_setup": true,
+   "profile_note": "Strong Hindi reader.",
+   "behaviour": {
+    "words_per_s": 2.1,
+    "word_accuracy": 0.87,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 13
+   },
+   "seed": 1646
+  },
+  {
+   "id": "C3-06",
+   "name": "Veer",
+   "grade": "Class 3",
+   "age": 8.5,
+   "reading_proficiency": "developing",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.9,
+     "read": 0.8
+    },
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.75
+    }
+   },
+   "ui_english_reading": 0.75,
+   "vocabulary_level": "age-typical",
+   "pronunciation": {
+    "accuracy": 0.82,
+    "notes": "independent; tires after a while"
+   },
+   "attention_span_s": 240,
+   "confidence": 0.6,
+   "patience": 4.5,
+   "learning_preferences": [],
+   "common_mistakes": [],
+   "technology_familiarity": 0.8,
+   "interaction_style": "independent; tires after a while",
+   "testing_objectives": [
+    "Explore the library and pick something suitable, then read"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": false,
+   "profile_note": "Explores the app without a grown-up.",
+   "behaviour": {
+    "words_per_s": 2.1,
+    "word_accuracy": 0.87,
+    "echo_skill": 0.93,
+    "can_decode": true,
+    "p_skip_small": 0.1,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.35,
+    "p_repeat_word": 0.04,
+    "volume": 0.95,
+    "p_talk_over_buddy": 0.1,
+    "p_off_task_click": 0.02,
+    "p_tap_mic_to_talk": 0.02,
+    "says_tired_after_s": 110,
+    "max_nav_clicks": 13
+   },
+   "seed": 1663
+  },
+  {
+   "id": "C4-01",
+   "name": "Meera",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.95,
+     "read": 0.9
+    },
+    "en-IN": {
+     "speak": 0.8,
+     "read": 0.8
+    },
+    "gu-IN": {
+     "speak": 0.3,
+     "read": 0.1
+    }
+   },
+   "ui_english_reading": 0.9,
+   "vocabulary_level": "rich Hindi and English",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": "accurate; flat rhythm and intonation"
+   },
+   "attention_span_s": 300,
+   "confidence": 0.8,
+   "patience": 5.0,
+   "learning_preferences": [
+    "wants_challenge",
+    "wants_rhythm_feedback"
+   ],
+   "common_mistakes": [
+    "monotone",
+    "self_corrects"
+   ],
    "technology_familiarity": 0.9,
    "interaction_style": "independent; explores the whole app; reads at natural pace with line-end pauses",
-   "testing_objectives": ["Use the app independently", "Explore poems for her grade", "Is there feedback on rhythm and expression?"],
-   "journey": "explore_and_read", "grown_up_setup": false,
+   "testing_objectives": [
+    "Use the app independently",
+    "Explore poems for her grade",
+    "Is there feedback on rhythm and expression?"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": false,
    "profile_note": "Reads Hindi fluently; wants to sound good reading poems aloud.",
-   "behaviour": {"words_per_s": 2.4, "word_accuracy": 0.96, "echo_skill": 0.97, "can_decode": true,
-     "p_skip_small": 0.03, "p_hesitate": 0.25, "hesitation_s": [1.0, 2.5], "p_self_correct": 0.6,
-     "p_repeat_word": 0.02, "volume": 1.0, "p_talk_over_buddy": 0.05, "p_off_task_click": 0.01,
-     "p_tap_mic_to_talk": 0.0, "says_tired_after_s": 0, "max_nav_clicks": 14},
+   "behaviour": {
+    "words_per_s": 2.4,
+    "word_accuracy": 0.96,
+    "echo_skill": 0.97,
+    "can_decode": true,
+    "p_skip_small": 0.03,
+    "p_hesitate": 0.25,
+    "hesitation_s": [
+     1.0,
+     2.5
+    ],
+    "p_self_correct": 0.6,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.05,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
    "seed": 701
+  },
+  {
+   "id": "C4-02",
+   "name": "Trisha",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.95,
+     "read": 0.95
+    }
+   },
+   "ui_english_reading": 0.85,
+   "vocabulary_level": "rich",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": "fluent; needs help with rhythm and intonation"
+   },
+   "attention_span_s": 280,
+   "confidence": 0.6,
+   "patience": 4.8,
+   "learning_preferences": [
+    "wants_rhythm_feedback"
+   ],
+   "common_mistakes": [
+    "monotone"
+   ],
+   "technology_familiarity": 0.85,
+   "interaction_style": "fluent; needs help with rhythm and intonation",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Fluent; rhythm needs work.",
+   "behaviour": {
+    "words_per_s": 2.4,
+    "word_accuracy": 0.92,
+    "echo_skill": 0.96,
+    "can_decode": true,
+    "p_skip_small": 0.05,
+    "p_hesitate": 0.2,
+    "hesitation_s": [
+     1.0,
+     2.2
+    ],
+    "p_self_correct": 0.45,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.08,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
+   "seed": 1680
+  },
+  {
+   "id": "C4-03",
+   "name": "Manav",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.95,
+     "read": 0.9
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "rich",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": "careful, self-corrects"
+   },
+   "attention_span_s": 280,
+   "confidence": 0.6,
+   "patience": 4.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "self_corrects"
+   ],
+   "technology_familiarity": 0.85,
+   "interaction_style": "careful, self-corrects",
+   "testing_objectives": [
+    "Make reading mistakes and understand the corrections"
+   ],
+   "journey": "make_mistakes",
+   "grown_up_setup": true,
+   "profile_note": "Careful Gujarati reader.",
+   "behaviour": {
+    "words_per_s": 2.4,
+    "word_accuracy": 0.92,
+    "echo_skill": 0.96,
+    "can_decode": true,
+    "p_skip_small": 0.05,
+    "p_hesitate": 0.2,
+    "hesitation_s": [
+     1.0,
+     2.2
+    ],
+    "p_self_correct": 0.7,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.08,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
+   "seed": 1697
+  },
+  {
+   "id": "C4-04",
+   "name": "Khushi",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "en-IN",
+   "languages": {
+    "en-IN": {
+     "speak": 0.95,
+     "read": 0.95
+    },
+    "hi-IN": {
+     "speak": 0.8,
+     "read": 0.7
+    }
+   },
+   "ui_english_reading": 0.85,
+   "vocabulary_level": "rich",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": "gets bored with easy texts"
+   },
+   "attention_span_s": 120,
+   "confidence": 0.6,
+   "patience": 2.5,
+   "learning_preferences": [
+    "wants_challenge"
+   ],
+   "common_mistakes": [],
+   "technology_familiarity": 0.85,
+   "interaction_style": "gets bored with easy texts",
+   "testing_objectives": [
+    "Explore the library and pick something suitable, then read"
+   ],
+   "journey": "explore_and_read",
+   "grown_up_setup": true,
+   "profile_note": "Finds most texts too easy.",
+   "behaviour": {
+    "words_per_s": 2.4,
+    "word_accuracy": 0.92,
+    "echo_skill": 0.96,
+    "can_decode": true,
+    "p_skip_small": 0.05,
+    "p_hesitate": 0.2,
+    "hesitation_s": [
+     1.0,
+     2.2
+    ],
+    "p_self_correct": 0.45,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.08,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
+   "seed": 1714
+  },
+  {
+   "id": "C4-05",
+   "name": "Laksh",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "hi-IN",
+   "languages": {
+    "hi-IN": {
+     "speak": 0.95,
+     "read": 0.9
+    }
+   },
+   "ui_english_reading": 0.1,
+   "vocabulary_level": "rich",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": ""
+   },
+   "attention_span_s": 280,
+   "confidence": 0.6,
+   "patience": 4.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "reads_too_fast",
+    "skips_small_words"
+   ],
+   "technology_familiarity": 0.85,
+   "interaction_style": "",
+   "testing_objectives": [
+    "Finish, then read the same text again"
+   ],
+   "journey": "restart_session",
+   "grown_up_setup": true,
+   "profile_note": "Very fast reader.",
+   "behaviour": {
+    "words_per_s": 3.0,
+    "word_accuracy": 0.92,
+    "echo_skill": 0.96,
+    "can_decode": true,
+    "p_skip_small": 0.15,
+    "p_hesitate": 0.2,
+    "hesitation_s": [
+     1.0,
+     2.2
+    ],
+    "p_self_correct": 0.45,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.08,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
+   "seed": 1731
+  },
+  {
+   "id": "C4-06",
+   "name": "Ritika",
+   "grade": "Class 4",
+   "age": 9.5,
+   "reading_proficiency": "fluent",
+   "language_preference": "gu-IN",
+   "languages": {
+    "gu-IN": {
+     "speak": 0.85,
+     "read": 0.5
+    },
+    "en-IN": {
+     "speak": 0.95,
+     "read": 0.9
+    }
+   },
+   "ui_english_reading": 0.85,
+   "vocabulary_level": "rich",
+   "pronunciation": {
+    "accuracy": 0.92,
+    "notes": "English-medium; Gujarati reading weaker"
+   },
+   "attention_span_s": 280,
+   "confidence": 0.6,
+   "patience": 4.8,
+   "learning_preferences": [],
+   "common_mistakes": [
+    "matra_errors",
+    "conjunct_errors"
+   ],
+   "technology_familiarity": 0.85,
+   "interaction_style": "English-medium; Gujarati reading weaker",
+   "testing_objectives": [
+    "Read an entire poem"
+   ],
+   "journey": "read_whole_poem",
+   "grown_up_setup": true,
+   "profile_note": "Reads English better than Gujarati.",
+   "behaviour": {
+    "words_per_s": 2.4,
+    "word_accuracy": 0.92,
+    "echo_skill": 0.96,
+    "can_decode": true,
+    "p_skip_small": 0.05,
+    "p_hesitate": 0.2,
+    "hesitation_s": [
+     1.0,
+     2.2
+    ],
+    "p_self_correct": 0.45,
+    "p_repeat_word": 0.02,
+    "volume": 1.0,
+    "p_talk_over_buddy": 0.08,
+    "p_off_task_click": 0.01,
+    "p_tap_mic_to_talk": 0.0,
+    "says_tired_after_s": 0,
+    "max_nav_clicks": 14
+   },
+   "seed": 1748
   }
  ]
 }

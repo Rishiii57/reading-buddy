@@ -36,6 +36,9 @@ QUOTES = {
     "BREAK_REQUEST_IGNORED": ("I'm tired but it kept going.", "I said I was tired but Buddy didn't stop."),
     "LEFT_READING_BY_ACCIDENT": ("Where did my poem go?", "I pressed something and the poem went away."),
     "SESSION_STOPPED_UNEXPECTEDLY": ("It just stopped.", "It stopped by itself."),
+    "NO_REPLAY_CONTROL": ("I want to hear it again!", "I wanted Buddy to read the line again but there was no button."),
+    "RESTART_NOT_FOUND": ("Again!", "I wanted to read it again but couldn't."),
+    "RESTART_FAILED": ("It didn't start again.", "I pressed read again but it didn't work."),
 }
 POSITIVE = {
     "praise": ("Buddy said yay! I liked that.", "I liked it when Buddy said well done."),

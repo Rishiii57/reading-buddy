@@ -1,0 +1,224 @@
+{
+ "utterances": [
+  {
+   "t": 29.63,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.28,
+   "said": "he",
+   "stt": "he",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 42.8,
+   "said": "kite of red",
+   "stt": "kite of red",
+   "stt_notes": [],
+   "words": [
+    3,
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.23,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 59.53,
+   "said": "I",
+   "stt": "I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 64.43,
+   "said": "have",
+   "stt": "have",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.63,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 50.23,
+    "target": "I",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a",
+    "drill": true
+   },
+   {
+    "t": 59.53,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 35.28,
+    "target": "have",
+    "said": "he",
+    "correct": false,
+    "kind": "sub",
+    "stt": "he"
+   },
+   {
+    "t": 64.43,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "have",
+    "drill": true
+   }
+  ],
+  "2": [
+   {
+    "t": 35.28,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "he"
+   }
+  ],
+  "3": [
+   {
+    "t": 42.8,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "kite of red"
+   }
+  ],
+  "4": [
+   {
+    "t": 42.8,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "kite of red"
+   }
+  ],
+  "5": [
+   {
+    "t": 42.8,
+    "target": "red",
+    "said": "red",
+    "correct": true,
+    "kind": "ok",
+    "stt": "kite of red"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.11,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 44.92,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 50.29,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 59.54,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! have",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 64.44,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! a",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ]
+}

@@ -138,7 +138,8 @@ def _spread(ps: list[Persona], n: int) -> list[Persona]:
     buckets: dict[tuple, list] = {}
     for p in ps:
         buckets.setdefault((p.grade, p.language_preference), []).append(p)
-    keys = sorted(buckets, key=lambda k: (GRADES.index(k[0]), k[1]))
+    # alternate grades first, rotating the language, so a small sample covers the whole range
+    keys = sorted(buckets, key=lambda k: ((LANGS.index(k[1]) - GRADES.index(k[0])) % len(LANGS), GRADES.index(k[0])))
     out, i = [], 0
     while len(out) < n:
         k = keys[i % len(keys)]

@@ -68,7 +68,7 @@ class ChildAgent:
         self.run_id = run_id
         self.seed = persona.seed if seed is None else seed
         self.rng = random.Random(self.seed)
-        self.token = f"{run_id}-{persona.id}-{self.seed}".replace(" ", "")
+        self.token = re.sub(r"[^A-Za-z0-9_-]", "_", f"{run_id}-{persona.id}-{self.seed}")
         self.affect = Affect(persona.patience)
         self.t0 = time.monotonic()
         self.trace: list[dict] = []
@@ -383,6 +383,7 @@ class ChildAgent:
             return
         lines = sorted({w["line"] for w in self.words})
         tired_done = False
+        replay_looked = False
         drill_said_at = -1.0
         line_tapped: set = set()
         while True:
@@ -393,6 +394,8 @@ class ChildAgent:
                 self.outcome = "completed" if (self.summary or {}).get("finished") else "ended_early"
                 await asyncio.sleep(1.0)
                 await self.shot(page, "summary")
+                if self.p.journey == "restart_session":
+                    await self.restart_from_summary(page)
                 break
             if v != "view-reader":
                 self.outcome = "left_session"
@@ -444,6 +447,10 @@ class ChildAgent:
             if self.rng.random() < b.p_off_task_click * 0.3:
                 await self.off_task(page, o)
                 continue
+            if (self.p.journey == "replay_line" or "wants_replay" in self.p.learning_preferences) and not replay_looked \
+                    and any(s.get("kind") in ("intro", "repeat_line", "stall_rest") for s in self.buddy_said):
+                replay_looked = True
+                await self.look_for_replay(o)
             # the child's turn
             line_now = self.line_of(o.get("target") if o.get("target") is not None else o.get("current"))
             if (line_now not in line_tapped and self.rng.random() < b.p_tap_mic_to_talk):
@@ -559,7 +566,7 @@ class ChildAgent:
             if self.p.speaks(lang) < 0.5:
                 self.issue("BUDDY_LANGUAGE_NOT_UNDERSTOOD", f"Buddy spoke in {lang}, which this child understands "
                            f"poorly ({self.p.speaks(lang):.1f}).", {"kind": k, "said": (s.get("text") or "")[:80]})
-                self.affect.add("not_understood", self.now(), kind=k)
+                self.affect.add("not_understood", self.now(), say_kind=k)
 
     async def speak(self, text: str, duration: float) -> dict:
         async with httpx.AsyncClient(base_url=self.base, timeout=duration + 20) as c:
@@ -719,6 +726,42 @@ class ChildAgent:
                 self.affect.add("stuck", self.now(), what="paused")
                 await self.abandon(page, o2, "stuck_paused")
                 return
+
+    async def look_for_replay(self, o):
+        """The child wants to hear the line again. Is there a control for that during reading?"""
+        want = re.compile(r"again|replay|repeat|hear|listen", re.I)
+        hit = [c for c in o["clickables"] if want.search(c["text"] + " " + c["aria"]) and c["id"] != "micBtn"]
+        self.log("looked_for_replay", found=[c["text"][:30] for c in hit])
+        if not hit:
+            self.issue("NO_REPLAY_CONTROL", "Wanted Buddy to read the line again, but there is no button for that "
+                       "while reading ('Listen first' is switched off during a session).", {"visible": [c["text"][:20] for c in o["clickables"]][:8]})
+
+    async def restart_from_summary(self, page):
+        """Read the same text again from the summary screen."""
+        o = await self.observe(page)
+        again = next((c for c in o["clickables"] if c["id"] == "againBtn"), None)
+        if not again:
+            self.issue("RESTART_NOT_FOUND", "Wanted to read it again but found no way from the end screen.", {})
+            return
+        await self.tap(page, again, "wants to read it again")
+        await asyncio.sleep(1.2)
+        o = await self.observe(page)
+        if o.get("view") != "view-reader":
+            self.issue("RESTART_FAILED", f"'Read this again' led to {o.get('view')}.", {"view": o.get("view")})
+            return
+        mic = next((c for c in o["clickables"] if c["id"] == "micBtn"), None)
+        if mic:
+            await self.tap(page, mic, "starting again")
+            t = self.now()
+            while self.now() - t < 25:
+                o = await self.observe(page)
+                if o.get("dock") in ("listening", "hearing"):
+                    self.log("restart_ok", after_s=round(self.now() - t, 1))
+                    self.metrics["restart_ok"] = True
+                    return
+                await asyncio.sleep(0.4)
+            self.issue("RESTART_FAILED", "After 'Read this again' the new session did not get to the child's turn in 25 s.",
+                       {"dock": o.get("dock")})
 
     async def say_tired(self, page, lang):
         self.metrics["tired_said"] = True
