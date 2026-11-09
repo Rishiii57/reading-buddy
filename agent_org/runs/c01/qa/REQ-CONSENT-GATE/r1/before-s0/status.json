@@ -7,14 +7,18 @@
    "since": "20:32:20"
   },
   "N03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:32:20"
+   "since": "20:32:20",
+   "outcome": "left_before_start",
+   "issues": 5
   },
   "N08": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:32:20"
+   "since": "20:32:20",
+   "outcome": "left_before_start",
+   "issues": 3
   },
   "L03": {
    "state": "running",
@@ -22,10 +26,14 @@
    "since": "20:32:20"
   },
   "U04": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:35"
   },
   "C1-05": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:39"
   },
   "C2-01": {
    "state": "queued"
