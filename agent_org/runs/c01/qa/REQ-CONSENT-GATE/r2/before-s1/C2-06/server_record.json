@@ -1,0 +1,493 @@
+{
+ "id": "20261109-210205-fdb65e",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [
+   "એક"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 87.7,
+  "words_per_minute": 2.7
+ },
+ "log": [
+  {
+   "t": 0.035,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.227,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.727,
+   "event": "transcript",
+   "text": "નાની ચકલી હતી"
+  },
+  {
+   "t": 18.727,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 18.727,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 18.727,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 24.782,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 24.782,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "હતી"
+  },
+  {
+   "t": 28.311,
+   "event": "transcript",
+   "text": "એ"
+  },
+  {
+   "t": 28.311,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "એ"
+  },
+  {
+   "t": 32.997,
+   "event": "transcript",
+   "text": "એ"
+  },
+  {
+   "t": 32.997,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "એ"
+  },
+  {
+   "t": 37.835,
+   "event": "transcript",
+   "text": "એક"
+  },
+  {
+   "t": 37.835,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 37.835,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 46.332,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.665,
+   "event": "transcript",
+   "text": "નાની ચકલી"
+  },
+  {
+   "t": 48.665,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 52.375,
+   "event": "transcript",
+   "text": "હથી હથી"
+  },
+  {
+   "t": 52.375,
+   "event": "uncertain",
+   "text": "હથી હથી"
+  },
+  {
+   "t": 52.375,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 55.933,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 57.972,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 57.972,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 57.972,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 57.972,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 63.593,
+   "event": "transcript",
+   "text": "એક"
+  },
+  {
+   "t": 63.593,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 63.593,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 69.916,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 73.435,
+   "event": "transcript",
+   "text": "ચકલિ ચકલી હથી હતી"
+  },
+  {
+   "t": 73.435,
+   "event": "uncertain",
+   "text": "ચકલિ ચકલી હથી હતી"
+  },
+  {
+   "t": 73.435,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 76.833,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 79.706,
+   "event": "transcript",
+   "text": "એક એક"
+  },
+  {
+   "t": 79.706,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 82.784,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 82.784,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.436,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.727,
+   "type": "transcript",
+   "text": "નાની ચકલી હતી",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 23.652,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.782,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 706,
+   "message": null
+  },
+  {
+   "t": 27.102,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.311,
+   "type": "transcript",
+   "text": "એ",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 31.815,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.997,
+   "type": "transcript",
+   "text": "એ",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 36.628,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.835,
+   "type": "transcript",
+   "text": "એક",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 46.374,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.665,
+   "type": "transcript",
+   "text": "નાની ચકલી",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 50.643,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.375,
+   "type": "transcript",
+   "text": "હથી હથી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 56.678,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.972,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 62.371,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.593,
+   "type": "transcript",
+   "text": "એક",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 70.411,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.435,
+   "type": "transcript",
+   "text": "ચકલિ ચકલી હથી હતી",
+   "latency": 120,
+   "audio_duration_ms": 2727,
+   "message": null
+  },
+  {
+   "t": 77.931,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.706,
+   "type": "transcript",
+   "text": "એક એક",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "નાની ચકલી હતી",
+   "heard": "નાની ચકલી હતી",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "એક ણાની નાની ચકલી હતી",
+   "heard": "હતી",
+   "muted_words": 4,
+   "duration_s": 3.53
+  },
+  {
+   "text": "એ",
+   "heard": "એ",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "એ",
+   "heard": "એ",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "એક",
+   "heard": "એક",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "નાની ચકલી",
+   "heard": "નાની ચકલી",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "હથી હથી",
+   "heard": "હથી હથી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "હતી",
+   "heard": "હતી",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "એક",
+   "heard": "એક",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ણાની ણાની ચકલિ ચકલી હથી હતી",
+   "heard": "ચકલિ ચકલી હથી હતી",
+   "muted_words": 2,
+   "duration_s": 4.09
+  },
+  {
+   "text": "એક એક",
+   "heard": "એક એક",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 64
+}

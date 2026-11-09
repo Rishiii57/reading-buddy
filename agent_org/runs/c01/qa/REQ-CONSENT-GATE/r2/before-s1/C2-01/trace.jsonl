@@ -1,0 +1,18 @@
+{"t": 2.34, "kind": "open_app", "brief": "Kabir, Class 2 (about 7.5 years). Prefers en-IN. Reads quickly and guesses words from the first letter."}
+{"t": 2.38, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.65, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.67, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.46, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.28, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 12.16, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.67, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 14.5, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 15.36, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 16.92, "kind": "session_started", "tries": 1}
+{"t": 23.9, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 29.07, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 49.35, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 71.63, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 120.35, "kind": "off_task_tap", "target": "Library"}
+{"t": 120.37, "kind": "tap", "target": "Library", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 121.19, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Library' left the reading page."}

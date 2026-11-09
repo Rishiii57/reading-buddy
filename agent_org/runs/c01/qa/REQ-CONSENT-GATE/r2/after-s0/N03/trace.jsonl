@@ -1,0 +1,16 @@
+{"t": 2.01, "kind": "open_app", "brief": "Vihaan, Nursery (about 3.5 years). Prefers gu-IN. Very curious with tablets; short attention."}
+{"t": 2.05, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.91, "kind": "tap", "target": "Reading Buddy", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 3.87, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.73, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.09, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 9.03, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 9.03, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 2-4' text, made for children who already read."}
+{"t": 13.91, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.22, "kind": "session_started", "tries": 1}
+{"t": 17.26, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 29.41, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.75, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 36.71, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.89 s thinking pause."}
+{"t": 36.71, "kind": "abandon", "why": "frustration", "frustration": 2.65}
+{"t": 37.0, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

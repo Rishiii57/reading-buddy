@@ -1,0 +1,878 @@
+{
+ "utterances": [
+  {
+   "t": 23.9,
+   "said": "I I have a kite red and blue",
+   "stt": "I I have a kite red and blue",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 8,
+   "over_buddy": true
+  },
+  {
+   "t": 35.29,
+   "said": "is I have kite of red and blue",
+   "stt": "is I have kite of red and blue",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.45,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 49.35,
+   "said": "I have a kite one red blue",
+   "stt": "I have a kite one red blue",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 58.06,
+   "said": "I have a kite of ran red and blu",
+   "stt": "I have a kite of ran red and blu",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.87,
+   "said": "blue",
+   "stt": "blue",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 67.61,
+   "said": "It fish up high the whole down day throug",
+   "stt": "It fish up high the whole down day throug",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.63,
+   "said": "flies ua high the whole dog through",
+   "stt": "flies ua high the whole dog through",
+   "stt_notes": [],
+   "words": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 7,
+   "over_buddy": true
+  },
+  {
+   "t": 73.87,
+   "said": "flies",
+   "stt": "flies",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 83.59,
+   "said": "flies high the whole down through",
+   "stt": "flies high the whole down through",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 88.6,
+   "said": "It",
+   "stt": "It",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 95.51,
+   "said": "flies",
+   "stt": "flies",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 100.97,
+   "said": "up",
+   "stt": "up",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 112.64,
+   "said": "day",
+   "stt": "day",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 23.9,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "I",
+    "said": "is I",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "1": [
+   {
+    "t": 23.9,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "2": [
+   {
+    "t": 23.9,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 40.45,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a",
+    "drill": true
+   },
+   {
+    "t": 49.35,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "3": [
+   {
+    "t": 23.9,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "4": [
+   {
+    "t": 23.9,
+    "target": "of",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "of",
+    "said": "one",
+    "correct": false,
+    "kind": "sub",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "5": [
+   {
+    "t": 23.9,
+    "target": "red",
+    "said": "red",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "red",
+    "said": "red",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "red",
+    "said": "red",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "red",
+    "said": "ran red",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "6": [
+   {
+    "t": 23.9,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite of ran red and blu"
+   }
+  ],
+  "7": [
+   {
+    "t": 23.9,
+    "target": "blue",
+    "said": "blue",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I have a kite red and blue"
+   },
+   {
+    "t": 35.29,
+    "target": "blue",
+    "said": "blue",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is I have kite of red and blue"
+   },
+   {
+    "t": 49.35,
+    "target": "blue",
+    "said": "blue",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have a kite one red blue"
+   },
+   {
+    "t": 58.06,
+    "target": "blue",
+    "said": "blu",
+    "correct": false,
+    "kind": "sub",
+    "stt": "I have a kite of ran red and blu"
+   },
+   {
+    "t": 59.87,
+    "target": "blue",
+    "said": "blue",
+    "correct": true,
+    "kind": "ok",
+    "stt": "blue"
+   }
+  ],
+  "8": [
+   {
+    "t": 67.61,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 83.59,
+    "target": "It",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "flies high the whole down through"
+   },
+   {
+    "t": 88.6,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It",
+    "drill": true
+   }
+  ],
+  "9": [
+   {
+    "t": 67.61,
+    "target": "flies",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "flies",
+    "said": "flies",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 73.87,
+    "target": "flies",
+    "said": "flies",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies",
+    "drill": true
+   },
+   {
+    "t": 83.59,
+    "target": "flies",
+    "said": "flies",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies high the whole down through"
+   },
+   {
+    "t": 95.51,
+    "target": "flies",
+    "said": "flies",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies",
+    "drill": true
+   }
+  ],
+  "10": [
+   {
+    "t": 67.61,
+    "target": "up",
+    "said": "up",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "up",
+    "said": "ua",
+    "correct": false,
+    "kind": "sub",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "up",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "flies high the whole down through"
+   },
+   {
+    "t": 100.97,
+    "target": "up",
+    "said": "up",
+    "correct": true,
+    "kind": "ok",
+    "stt": "up",
+    "drill": true
+   }
+  ],
+  "11": [
+   {
+    "t": 67.61,
+    "target": "high",
+    "said": "high",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "high",
+    "said": "high",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "high",
+    "said": "high",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies high the whole down through"
+   }
+  ],
+  "12": [
+   {
+    "t": 67.61,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies high the whole down through"
+   }
+  ],
+  "13": [
+   {
+    "t": 67.61,
+    "target": "whole",
+    "said": "whole",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "whole",
+    "said": "whole",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "whole",
+    "said": "whole",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies high the whole down through"
+   }
+  ],
+  "14": [
+   {
+    "t": 67.61,
+    "target": "day",
+    "said": "down day",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "day",
+    "said": "dog",
+    "correct": false,
+    "kind": "sub",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "day",
+    "said": "down",
+    "correct": false,
+    "kind": "sub",
+    "stt": "flies high the whole down through"
+   },
+   {
+    "t": 112.64,
+    "target": "day",
+    "said": "day",
+    "correct": true,
+    "kind": "ok",
+    "stt": "day",
+    "drill": true
+   }
+  ],
+  "15": [
+   {
+    "t": 67.61,
+    "target": "through",
+    "said": "throug",
+    "correct": false,
+    "kind": "sub",
+    "stt": "It fish up high the whole down day throug"
+   },
+   {
+    "t": 71.63,
+    "target": "through",
+    "said": "through",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies ua high the whole dog through"
+   },
+   {
+    "t": 83.59,
+    "target": "through",
+    "said": "through",
+    "correct": true,
+    "kind": "ok",
+    "stt": "flies high the whole down through"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.14,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 35.85,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. a",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 40.81,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! I have a kite of red and blue Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 50.05,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 60.09,
+   "type": "say",
+   "kind": "praise",
+   "text": "Wonderful! Let's move to the next line.",
+   "spans": []
+  },
+  {
+   "t": 67.76,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. flies",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 74.44,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! It flies up high the whole day through. Now you say the whole line.",
+   "spans": [
+    [
+     8,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 83.67,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. It",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 88.73,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! flies",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 96.92,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! up",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 101.02,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! day",
+   "spans": [
+    [
+     14,
+     15
+    ]
+   ]
+  },
+  {
+   "t": 112.64,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! It flies up high the whole day through. Now you say the whole line.",
+   "spans": [
+    [
+     8,
+     16
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,368 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-before-s0",
+ "agent_id": "C2-01",
+ "seed": 501,
+ "persona": {
+  "id": "C2-01",
+  "name": "Kabir",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.85,
+  "patience": 4.0,
+  "attention_span_s": 200
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_SELF_APPROVED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 17.86,
+    "details": [
+     "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."
+    ],
+    "evidence": [
+     {
+      "t": 17.86,
+      "grade": "Class 2"
+     }
+    ],
+    "child_quote": "There was a box for parents, so I just ticked it myself.",
+    "child_severity": "risk"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 25.35,
+    "details": [
+     "7 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 25.35,
+      "said": "A small ant walk across tree floor",
+      "heard": ""
+     },
+     {
+      "t": 58.32,
+      "said": "red rice on is big back",
+      "heard": ""
+     },
+     {
+      "t": 112.77,
+      "said": "It",
+      "heard": ""
+     },
+     {
+      "t": 116.17,
+      "said": "It carried grain rice its back",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 59.12,
+    "details": [
+     "Read 'rice' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 59.12,
+      "word": "rice",
+      "child_said": "ric rice",
+      "speech_model_wrote": "ric rice its back"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 104.51,
+    "details": [
+     "Asked to say 'It' 3 times.",
+     "Asked to say 'rice' 3 times.",
+     "Asked to say 'on' 3 times.",
+     "Asked to say 'on' 4 times."
+    ],
+    "evidence": [
+     {
+      "t": 104.51,
+      "word": "It",
+      "times": 3
+     },
+     {
+      "t": 126.91,
+      "word": "rice",
+      "times": 3
+     },
+     {
+      "t": 145.93,
+      "word": "on",
+      "times": 3
+     },
+     {
+      "t": 149.8,
+      "word": "on",
+      "times": 4
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 4.75,
+  "frustration_events": [
+   {
+    "t": 25.35,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 25.35,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 33.82,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 37.66,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 45.72,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 48.88,
+    "kind": "progress",
+    "frustration": 0.05
+   },
+   {
+    "t": 54.55,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 58.32,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 58.32,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 59.12,
+    "kind": "false_correction",
+    "frustration": 1.85,
+    "word": "rice"
+   },
+   {
+    "t": 68.91,
+    "kind": "praise",
+    "frustration": 1.45
+   },
+   {
+    "t": 85.79,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 88.21,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 103.05,
+    "kind": "dead_click",
+    "frustration": 1.65,
+    "target": "Listening"
+   },
+   {
+    "t": 104.51,
+    "kind": "drill_repeat",
+    "frustration": 2.35,
+    "word": "It"
+   },
+   {
+    "t": 106.16,
+    "kind": "praise",
+    "frustration": 1.95
+   },
+   {
+    "t": 112.77,
+    "kind": "unheard_speech",
+    "frustration": 2.75
+   },
+   {
+    "t": 112.77,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 116.17,
+    "kind": "unheard_speech",
+    "frustration": 3.4
+   },
+   {
+    "t": 116.17,
+    "kind": "progress",
+    "frustration": 3.25
+   },
+   {
+    "t": 122.4,
+    "kind": "progress",
+    "frustration": 3.1
+   },
+   {
+    "t": 126.91,
+    "kind": "drill_repeat",
+    "frustration": 3.8,
+    "word": "rice"
+   },
+   {
+    "t": 128.19,
+    "kind": "praise",
+    "frustration": 3.4
+   },
+   {
+    "t": 142.68,
+    "kind": "progress",
+    "frustration": 3.25
+   },
+   {
+    "t": 145.93,
+    "kind": "drill_repeat",
+    "frustration": 3.95,
+    "word": "on"
+   },
+   {
+    "t": 149.8,
+    "kind": "drill_repeat",
+    "frustration": 4.65,
+    "word": "on"
+   },
+   {
+    "t": 150.84,
+    "kind": "praise",
+    "frustration": 4.25
+   },
+   {
+    "t": 153.21,
+    "kind": "dead_click",
+    "frustration": 4.75,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 2,
+  "nav_clicks": 3,
+  "praise_heard": 4,
+  "interruptions": 0,
+  "unheard_words": 20,
+  "buddy_talk_s": 64.5,
+  "child_talk_s": 27.0,
+  "tired_said": false,
+  "time_to_text_s": 3.4,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 3.4,
+  "intro_s": 11.4,
+  "session_s": 135.2,
+  "words_total": 37,
+  "words_attempted": 16,
+  "words_said_wrong": 2,
+  "corrections": 4,
+  "buddy_turns": 17,
+  "stall_prompts": 0,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 11,
+  "words_helped": 5,
+  "words_to_practise": [
+   "It",
+   "of",
+   "rice",
+   "on",
+   "its"
+  ],
+  "words_practised": 7,
+  "correction_attempts": 8,
+  "lines_total": 5,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 4,
+  "seconds": 135.2,
+  "words_per_minute": 7.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 2,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-abandon.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 82,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

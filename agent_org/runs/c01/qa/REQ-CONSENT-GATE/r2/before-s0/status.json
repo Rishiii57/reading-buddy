@@ -44,24 +44,32 @@
    "issues": 3
   },
   "C2-01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:57:12"
+   "since": "20:57:12",
+   "outcome": "abandoned_frustration",
+   "issues": 4
   },
   "C2-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:57:19"
+   "since": "20:57:19",
+   "outcome": "abandoned_attention",
+   "issues": 6
   },
   "C3-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:57:22"
+   "since": "20:57:22",
+   "outcome": "completed",
+   "issues": 3
   },
   "C4-01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:57:50"
+   "since": "20:57:50",
+   "outcome": "completed",
+   "issues": 4
   }
  }
 }

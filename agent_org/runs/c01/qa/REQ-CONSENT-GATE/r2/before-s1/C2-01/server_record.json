@@ -1,0 +1,575 @@
+{
+ "id": "20261109-210156-bb068f",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 11,
+  "words_helped": 5,
+  "words_to_practise": [
+   "a",
+   "It",
+   "flies",
+   "up",
+   "day"
+  ],
+  "words_practised": 6,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 105.8,
+  "words_per_minute": 9.1
+ },
+ "log": [
+  {
+   "t": 0.231,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.898,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.491,
+   "event": "transcript",
+   "text": "is I have kite of red and blue"
+  },
+  {
+   "t": 20.491,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 20.491,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 20.491,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 25.663,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 25.663,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 25.663,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 32.737,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 34.562,
+   "event": "transcript",
+   "text": "kite one red blue"
+  },
+  {
+   "t": 34.562,
+   "event": "uncertain",
+   "text": "kite one red blue"
+  },
+  {
+   "t": 34.562,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 38.649,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 43.232,
+   "event": "transcript",
+   "text": "I have a kite of ran red and blu"
+  },
+  {
+   "t": 43.232,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 45.077,
+   "event": "transcript",
+   "text": "blue"
+  },
+  {
+   "t": 45.077,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 45.077,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 45.077,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 49.222,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.817,
+   "event": "transcript",
+   "text": "It fish up high the whole down day throug"
+  },
+  {
+   "t": 52.817,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 52.817,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    9
+   ]
+  },
+  {
+   "t": 52.817,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 59.075,
+   "event": "transcript",
+   "text": "flies"
+  },
+  {
+   "t": 59.075,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 59.075,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 66.205,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 68.764,
+   "event": "transcript",
+   "text": "flies high the whole down through"
+  },
+  {
+   "t": 68.764,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 68.764,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    9,
+    10,
+    14
+   ]
+  },
+  {
+   "t": 68.764,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 73.792,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 73.792,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 73.792,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 80.714,
+   "event": "transcript",
+   "text": "flies"
+  },
+  {
+   "t": 80.714,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 80.714,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 86.181,
+   "event": "transcript",
+   "text": "up"
+  },
+  {
+   "t": 86.181,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 86.181,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 97.761,
+   "event": "transcript",
+   "text": "day"
+  },
+  {
+   "t": 97.761,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 97.761,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 104.288,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.357,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.491,
+   "type": "transcript",
+   "text": "is I have kite of red and blue",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 24.72,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.663,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 32.773,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.562,
+   "type": "transcript",
+   "text": "kite one red blue",
+   "latency": 120,
+   "audio_duration_ms": 1366,
+   "message": null
+  },
+  {
+   "t": 39.775,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.232,
+   "type": "transcript",
+   "text": "I have a kite of ran red and blu",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 44.145,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.077,
+   "type": "transcript",
+   "text": "blue",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 49.384,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.817,
+   "type": "transcript",
+   "text": "It fish up high the whole down day throug",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 57.994,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.075,
+   "type": "transcript",
+   "text": "flies",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 66.261,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.764,
+   "type": "transcript",
+   "text": "flies high the whole down through",
+   "latency": 120,
+   "audio_duration_ms": 2080,
+   "message": null
+  },
+  {
+   "t": 72.795,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.792,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 79.753,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.714,
+   "type": "transcript",
+   "text": "flies",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 85.249,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.181,
+   "type": "transcript",
+   "text": "up",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 96.762,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.761,
+   "type": "transcript",
+   "text": "day",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "I I have a kite red and blue",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 2.7
+  },
+  {
+   "text": "is I have kite of red and blue",
+   "heard": "is I have kite of red and blue",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I have a kite one red blue",
+   "heard": "kite one red blue",
+   "muted_words": 3,
+   "duration_s": 2.39
+  },
+  {
+   "text": "I have a kite of ran red and blu",
+   "heard": "I have a kite of ran red and blu",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "blue",
+   "heard": "blue",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "It fish up high the whole down day throug",
+   "heard": "It fish up high the whole down day throug",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "flies ua high the whole dog through",
+   "heard": "",
+   "muted_words": 7,
+   "duration_s": 2.39
+  },
+  {
+   "text": "flies",
+   "heard": "flies",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "flies high the whole down through",
+   "heard": "flies high the whole down through",
+   "muted_words": 0,
+   "duration_s": 2.08
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "flies",
+   "heard": "flies",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "up",
+   "heard": "up",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "day",
+   "heard": "day",
+   "muted_words": 0,
+   "duration_s": 0.51
+  }
+ ],
+ "tts_offline": 68
+}

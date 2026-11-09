@@ -1,0 +1,7 @@
+{"t": 15.24, "type": "ready", "message": null}
+{"t": 15.46, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 32.14, "type": "speech"}
+{"t": 36.52, "type": "heard", "text": "A sun sun"}
+{"t": 36.52, "type": "speech"}
+{"t": 36.52, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 37.51, "type": "summary", "summary": {"words_total": 37, "words_read": 0, "words_helped": 0, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 0, "seconds": 22.2, "words_per_minute": 0.0}}

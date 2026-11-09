@@ -1,0 +1,337 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-after-s0",
+ "agent_id": "L03",
+ "seed": 1170,
+ "persona": {
+  "id": "L03",
+  "name": "Aadhya",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "discover_and_start",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-shala",
+  "title": "મારી શાળા",
+  "tags": [
+   "Gujarati",
+   "Grade 3-4"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 5.38,
+    "details": [
+     "LKG child landed on a 'Grade 3-4' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 5.38,
+      "title": "મારી શાળા",
+      "grade_tag": "Grade 3-4"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 24.44,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 24.44,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 52.99,
+    "details": [
+     "Asked to say 'બહુ' 3 times.",
+     "Asked to say 'મારી' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 52.99,
+      "word": "બહુ",
+      "times": 3
+     },
+     {
+      "t": 130.97,
+      "word": "મારી",
+      "times": 3
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 72.2,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 72.2,
+      "said": "મારી શાળા બહુ",
+      "heard": "શાળા બહુ"
+     },
+     {
+      "t": 95.87,
+      "said": "મારી શાળા વહુ સુંદર",
+      "heard": "સુંદર"
+     },
+     {
+      "t": 142.73,
+      "said": "મારી",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 80.69,
+    "details": [
+     "Read 'મારી' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 80.69,
+      "word": "મારી",
+      "child_said": "મારી",
+      "speech_model_wrote": "મારી શાળા બહુ"
+     }
+    ],
+    "child_quote": "But I said it right!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'છે' as 'છૈ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "છે",
+      "child_said": "છૈ",
+      "kind": "sub",
+      "speech_model_wrote": "માડી બહુ સુંદર છૈ"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that."
+  ],
+  "frustration_peak": 3.9,
+  "frustration_events": [
+   {
+    "t": 24.44,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 35.4,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 46.87,
+    "kind": "dead_click",
+    "frustration": 0.75,
+    "target": "Listening"
+   },
+   {
+    "t": 52.99,
+    "kind": "drill_repeat",
+    "frustration": 1.45,
+    "word": "બહુ"
+   },
+   {
+    "t": 55.15,
+    "kind": "praise",
+    "frustration": 1.05
+   },
+   {
+    "t": 72.2,
+    "kind": "unheard_speech",
+    "frustration": 1.85
+   },
+   {
+    "t": 72.2,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 75.1,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 79.89,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 80.69,
+    "kind": "false_correction",
+    "frustration": 2.6,
+    "word": "મારી"
+   },
+   {
+    "t": 95.87,
+    "kind": "unheard_speech",
+    "frustration": 3.4
+   },
+   {
+    "t": 95.87,
+    "kind": "progress",
+    "frustration": 3.25
+   },
+   {
+    "t": 99.78,
+    "kind": "progress",
+    "frustration": 3.1
+   },
+   {
+    "t": 110.46,
+    "kind": "progress",
+    "frustration": 2.95
+   },
+   {
+    "t": 121.73,
+    "kind": "progress",
+    "frustration": 2.8
+   },
+   {
+    "t": 130.97,
+    "kind": "drill_repeat",
+    "frustration": 3.5,
+    "word": "મારી"
+   },
+   {
+    "t": 133.43,
+    "kind": "praise",
+    "frustration": 3.1
+   },
+   {
+    "t": 142.73,
+    "kind": "unheard_speech",
+    "frustration": 3.9
+   },
+   {
+    "t": 142.73,
+    "kind": "progress",
+    "frustration": 3.75
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 0,
+  "unheard_words": 5,
+  "buddy_talk_s": 57.4,
+  "child_talk_s": 40.4,
+  "tired_said": false,
+  "time_to_text_s": 2.1,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.0,
+  "time_to_first_word_s": 14.0,
+  "session_s": 131.2,
+  "words_total": 22,
+  "words_attempted": 5,
+  "words_said_wrong": 2,
+  "corrections": 3,
+  "buddy_turns": 14,
+  "stall_prompts": 0,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [
+   "મારી",
+   "શાળા",
+   "બહુ",
+   "સુંદર"
+  ],
+  "words_practised": 5,
+  "correction_attempts": 8,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 133.6,
+  "words_per_minute": 2.2
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 2,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 80,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

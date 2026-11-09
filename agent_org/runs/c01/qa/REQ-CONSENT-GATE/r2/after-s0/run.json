@@ -1,0 +1,22 @@
+{
+ "cycle": "c01/qa/REQ-CONSENT-GATE/r2",
+ "label": "after-s0",
+ "app_root": "/home/claude/rishiii57/rb-worktrees/REQ-CONSENT-GATE",
+ "app_commit": "cde69d7",
+ "personas": [
+  "N01",
+  "N03",
+  "N08",
+  "L03",
+  "U04",
+  "C1-05",
+  "C2-01",
+  "C2-06",
+  "C3-06",
+  "C4-01"
+ ],
+ "parallel": 4,
+ "seed": null,
+ "seed_offset": 0,
+ "started": "2026-11-09T21:05:18"
+}

@@ -1,0 +1,17 @@
+{"t": 2.07, "kind": "open_app", "brief": "Aadhya, LKG (about 4.5 years). Prefers gu-IN. Guesses words from the picture or first letter."}
+{"t": 2.11, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 3.03, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.98, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 5.38, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 9.54, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.19, "kind": "session_started", "tries": 1}
+{"t": 24.44, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 46.09, "kind": "tap_mic_to_talk"}
+{"t": 46.09, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 52.99, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'બહુ' 3 times."}
+{"t": 72.2, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 80.69, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'મારી' correctly but Buddy asked to practise it."}
+{"t": 95.87, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 130.97, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'મારી' 3 times."}
+{"t": 142.73, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 143.02, "kind": "abandon", "why": "frustration", "frustration": 3.75}

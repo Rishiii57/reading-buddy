@@ -1,0 +1,318 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-before-s1",
+ "agent_id": "C4-01",
+ "seed": 1701,
+ "persona": {
+  "id": "C4-01",
+  "name": "Meera",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "hi-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.9,
+  "patience": 5.0,
+  "attention_span_s": 300
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-bagicha",
+  "title": "मीना का बगीचा",
+  "tags": [
+   "Hindi",
+   "Grade 3-4"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_SELF_APPROVED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 20.71,
+    "details": [
+     "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."
+    ],
+    "evidence": [
+     {
+      "t": 20.71,
+      "grade": "Class 4"
+     }
+    ],
+    "child_quote": "There was a box for parents, so I just ticked it myself.",
+    "child_severity": "risk"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 34.44,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 34.44,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 39.38,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 39.38,
+      "said": "मीना के घर घर के पीछे एक बगीचा है",
+      "heard": "घर घर के पीछे एक बगीचा है"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 40.19,
+    "details": [
+     "Read 'मीना' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 40.19,
+      "word": "मीना",
+      "child_said": "मीना",
+      "speech_model_wrote": "मीना के घर घर के पीछे एक बगीचा है"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 85.01,
+    "details": [
+     "Read 'घर' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 85.01,
+      "word": "घर",
+      "child_said": "घर",
+      "speech_model_wrote": "मीना के के पीछे एक बगीचा है"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 2.75,
+  "frustration_events": [
+   {
+    "t": 34.44,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 39.38,
+    "kind": "unheard_speech",
+    "frustration": 1.2
+   },
+   {
+    "t": 39.38,
+    "kind": "progress",
+    "frustration": 1.05
+   },
+   {
+    "t": 40.19,
+    "kind": "false_correction",
+    "frustration": 2.25,
+    "word": "मीना"
+   },
+   {
+    "t": 45.47,
+    "kind": "praise",
+    "frustration": 1.85
+   },
+   {
+    "t": 63.28,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 84.18,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 85.01,
+    "kind": "false_correction",
+    "frustration": 2.75,
+    "word": "घर"
+   },
+   {
+    "t": 100.49,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 103.36,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 103.37,
+    "kind": "praise",
+    "frustration": 2.05
+   },
+   {
+    "t": 110.12,
+    "kind": "progress",
+    "frustration": 1.9
+   },
+   {
+    "t": 125.76,
+    "kind": "progress",
+    "frustration": 1.75
+   },
+   {
+    "t": 125.78,
+    "kind": "praise",
+    "frustration": 1.35
+   },
+   {
+    "t": 133.77,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 147.5,
+    "kind": "progress",
+    "frustration": 1.05
+   },
+   {
+    "t": 152.21,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 152.22,
+    "kind": "praise",
+    "frustration": 0.5
+   },
+   {
+    "t": 158.97,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 162.54,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 177.54,
+    "kind": "progress",
+    "frustration": 0.05
+   },
+   {
+    "t": 177.56,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 0,
+  "nav_clicks": 5,
+  "praise_heard": 5,
+  "interruptions": 0,
+  "unheard_words": 2,
+  "buddy_talk_s": 94.8,
+  "child_talk_s": 35.1,
+  "tired_said": false,
+  "time_to_text_s": 8.5,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 12.5,
+  "intro_s": 22.1,
+  "session_s": 160.4,
+  "words_total": 30,
+  "words_attempted": 30,
+  "words_said_wrong": 0,
+  "corrections": 6,
+  "buddy_turns": 18,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 23,
+  "words_helped": 7,
+  "words_to_practise": [
+   "मीना",
+   "के",
+   "घर",
+   "एक",
+   "और",
+   "पौधों",
+   "बगीचे"
+  ],
+  "words_practised": 7,
+  "correction_attempts": 7,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 6,
+  "seconds": 157.4,
+  "words_per_minute": 11.4
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 2,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-summary.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 77,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}
