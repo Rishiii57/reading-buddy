@@ -1,0 +1,203 @@
+{
+ "utterances": [
+  {
+   "t": 24.94,
+   "said": "Ravi has mango the in his good good",
+   "stt": "Ravi has mango the in his good good",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 8,
+   "over_buddy": true
+  },
+  {
+   "t": 37.91,
+   "said": "Ravi Ravi has a mango tree his",
+   "stt": "Ravi Ravi has a mango tree his",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 24.94,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "1": [
+   {
+    "t": 24.94,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "2": [
+   {
+    "t": 24.94,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "3": [
+   {
+    "t": 24.94,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "4": [
+   {
+    "t": 24.94,
+    "target": "tree",
+    "said": "the",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "5": [
+   {
+    "t": 24.94,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "in",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "6": [
+   {
+    "t": 24.94,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   },
+   {
+    "t": 37.91,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi has a mango tree his"
+   }
+  ],
+  "7": [
+   {
+    "t": 24.94,
+    "target": "garden",
+    "said": "good",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.47,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 40.99,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. in",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  }
+ ]
+}

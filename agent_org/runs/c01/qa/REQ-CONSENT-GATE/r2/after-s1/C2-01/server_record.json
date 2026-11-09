@@ -1,0 +1,1082 @@
+{
+ "id": "20261109-211041-01b438",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 6,
+  "words_helped": 10,
+  "words_to_practise": [
+   "I",
+   "have",
+   "a",
+   "kite",
+   "of",
+   "and",
+   "It",
+   "flies",
+   "up",
+   "the"
+  ],
+  "words_practised": 12,
+  "correction_attempts": 14,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [
+   {
+    "line": 1,
+    "text": "I have a kite of red and blue,",
+    "mistakes": 12,
+    "words": [
+     "I",
+     "have",
+     "a",
+     "kite",
+     "of",
+     "and"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 7,
+  "seconds": 169.3,
+  "words_per_minute": 5.7
+ },
+ "log": [
+  {
+   "t": 0.011,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.221,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.676,
+   "event": "transcript",
+   "text": "I have"
+  },
+  {
+   "t": 15.676,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 18.863,
+   "event": "transcript",
+   "text": "a kite red and blue"
+  },
+  {
+   "t": 18.863,
+   "event": "progress",
+   "frm": 2,
+   "to": 8
+  },
+  {
+   "t": 18.863,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 18.863,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 24.14,
+   "event": "transcript",
+   "text": "of"
+  },
+  {
+   "t": 24.14,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 24.14,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 30.78,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 32.762,
+   "event": "transcript",
+   "text": "of red all blue"
+  },
+  {
+   "t": 32.762,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 32.762,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    6
+   ]
+  },
+  {
+   "t": 32.762,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 40.815,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 46.307,
+   "event": "transcript",
+   "text": "I"
+  },
+  {
+   "t": 46.307,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 46.307,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 50.624,
+   "event": "transcript",
+   "text": "have"
+  },
+  {
+   "t": 50.624,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 50.624,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 55.169,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 55.169,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 55.169,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 59.719,
+   "event": "transcript",
+   "text": "kit kite"
+  },
+  {
+   "t": 59.719,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 59.719,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 64.175,
+   "event": "transcript",
+   "text": "and"
+  },
+  {
+   "t": 64.175,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 64.175,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 71.081,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 74.774,
+   "event": "transcript",
+   "text": "I have a a kite one red at blue"
+  },
+  {
+   "t": 74.774,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 74.774,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    4,
+    6
+   ]
+  },
+  {
+   "t": 74.774,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 83.252,
+   "event": "transcript",
+   "text": "one"
+  },
+  {
+   "t": 83.252,
+   "event": "drill_miss",
+   "word": 4,
+   "heard": "one"
+  },
+  {
+   "t": 87.518,
+   "event": "transcript",
+   "text": "one"
+  },
+  {
+   "t": 87.518,
+   "event": "drill_miss",
+   "word": 4,
+   "heard": "one"
+  },
+  {
+   "t": 91.807,
+   "event": "transcript",
+   "text": "of"
+  },
+  {
+   "t": 91.807,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 91.807,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 96.78,
+   "event": "transcript",
+   "text": "and"
+  },
+  {
+   "t": 96.78,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 96.78,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 104.151,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 107.955,
+   "event": "transcript",
+   "text": "have have a kite on red and blue"
+  },
+  {
+   "t": 107.955,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 107.955,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    4
+   ]
+  },
+  {
+   "t": 107.955,
+   "event": "state",
+   "state": "LINE_SKIPPED",
+   "line": 0,
+   "mistakes": 12
+  },
+  {
+   "t": 111.251,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 114.926,
+   "event": "transcript",
+   "text": "is fli ua high high the whole day through"
+  },
+  {
+   "t": 114.926,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 114.926,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    9,
+    10
+   ]
+  },
+  {
+   "t": 114.926,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 119.629,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 119.629,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 119.629,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 125.446,
+   "event": "transcript",
+   "text": "flies"
+  },
+  {
+   "t": 125.446,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 125.446,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 133.735,
+   "event": "transcript",
+   "text": "up"
+  },
+  {
+   "t": 133.735,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 133.735,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 141.449,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 145.53,
+   "event": "transcript",
+   "text": "in fli flies up high the whole down day through"
+  },
+  {
+   "t": 145.53,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 145.53,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8
+   ]
+  },
+  {
+   "t": 145.53,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 150.783,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 150.783,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 150.783,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 157.185,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 160.593,
+   "event": "transcript",
+   "text": "in flies up high whole day tree"
+  },
+  {
+   "t": 160.593,
+   "event": "progress",
+   "frm": 8,
+   "to": 15
+  },
+  {
+   "t": 162.397,
+   "event": "transcript",
+   "text": "through"
+  },
+  {
+   "t": 162.397,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 162.397,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    12
+   ]
+  },
+  {
+   "t": 162.397,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.434,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.676,
+   "type": "transcript",
+   "text": "I have",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 16.68,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.863,
+   "type": "transcript",
+   "text": "a kite red and blue",
+   "latency": 120,
+   "audio_duration_ms": 1760,
+   "message": null
+  },
+  {
+   "t": 23.2,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.14,
+   "type": "transcript",
+   "text": "of",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 30.993,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.762,
+   "type": "transcript",
+   "text": "of red all blue",
+   "latency": 120,
+   "audio_duration_ms": 1350,
+   "message": null
+  },
+  {
+   "t": 45.12,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.307,
+   "type": "transcript",
+   "text": "I",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 49.67,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.624,
+   "type": "transcript",
+   "text": "have",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 54.239,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.169,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 58.459,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.719,
+   "type": "transcript",
+   "text": "kit kite",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 63.226,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.175,
+   "type": "transcript",
+   "text": "and",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 71.343,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.774,
+   "type": "transcript",
+   "text": "I have a a kite one red at blue",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 82.313,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.252,
+   "type": "transcript",
+   "text": "one",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 86.587,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.518,
+   "type": "transcript",
+   "text": "one",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 90.875,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.807,
+   "type": "transcript",
+   "text": "of",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 95.833,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.78,
+   "type": "transcript",
+   "text": "and",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 104.805,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 107.955,
+   "type": "transcript",
+   "text": "have have a kite on red and blue",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 111.495,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 114.926,
+   "type": "transcript",
+   "text": "is fli ua high high the whole day through",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 118.699,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.629,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 124.515,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 125.446,
+   "type": "transcript",
+   "text": "flies",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 132.802,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 133.735,
+   "type": "transcript",
+   "text": "up",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 141.76,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 145.53,
+   "type": "transcript",
+   "text": "in fli flies up high the whole down day through",
+   "latency": 120,
+   "audio_duration_ms": 3330,
+   "message": null
+  },
+  {
+   "t": 149.77,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 150.783,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 157.78,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 160.593,
+   "type": "transcript",
+   "text": "in flies up high whole day tree",
+   "latency": 120,
+   "audio_duration_ms": 2390,
+   "message": null
+  },
+  {
+   "t": 161.467,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 162.397,
+   "type": "transcript",
+   "text": "through",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "I I have a kite red and blue",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 2.7
+  },
+  {
+   "text": "I have",
+   "heard": "I have",
+   "muted_words": 0,
+   "duration_s": 0.82
+  },
+  {
+   "text": "a kite red and blue",
+   "heard": "a kite red and blue",
+   "muted_words": 0,
+   "duration_s": 1.76
+  },
+  {
+   "text": "of",
+   "heard": "of",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I have a kite of red all blue",
+   "heard": "of red all blue",
+   "muted_words": 4,
+   "duration_s": 2.7
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I",
+   "heard": "I",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "have",
+   "heard": "have",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "kit kite",
+   "heard": "kit kite",
+   "muted_words": 0,
+   "duration_s": 0.82
+  },
+  {
+   "text": "and",
+   "heard": "and",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I have a a kite one red at blue",
+   "heard": "I have a a kite one red at blue",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "of red and blue",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 1.45
+  },
+  {
+   "text": "one",
+   "heard": "one",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "one",
+   "heard": "one",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "of",
+   "heard": "of",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "and",
+   "heard": "and",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "I have a king kite of red blue",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 2.7
+  },
+  {
+   "text": "have have a kite on red and blue",
+   "heard": "have have a kite on red and blue",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "is fli ua high high the whole day through",
+   "heard": "is fli ua high high the whole day through",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "flies",
+   "heard": "flies",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "up",
+   "heard": "up",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "in fli flies up high the whole down day through",
+   "heard": "in fli flies up high the whole down day through",
+   "muted_words": 0,
+   "duration_s": 3.33
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "flies ua up high whol day through",
+   "heard": "",
+   "muted_words": 7,
+   "duration_s": 2.39
+  },
+  {
+   "text": "in flies up high whole day tree",
+   "heard": "in flies up high whole day tree",
+   "muted_words": 0,
+   "duration_s": 2.39
+  },
+  {
+   "text": "through",
+   "heard": "through",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  }
+ ],
+ "tts_offline": 114
+}

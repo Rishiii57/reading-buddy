@@ -51,19 +51,25 @@
    "issues": 5
   },
   "C2-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:06:48"
+   "since": "21:06:48",
+   "outcome": "completed",
+   "issues": 5
   },
   "C3-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:07:24"
+   "since": "21:07:24",
+   "outcome": "completed",
+   "issues": 5
   },
   "C4-01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:07:44"
+   "since": "21:07:44",
+   "outcome": "completed",
+   "issues": 3
   }
  }
 }

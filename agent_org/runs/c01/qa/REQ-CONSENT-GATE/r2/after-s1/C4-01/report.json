@@ -1,0 +1,176 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-after-s1",
+ "agent_id": "C4-01",
+ "seed": 1701,
+ "persona": {
+  "id": "C4-01",
+  "name": "Meera",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "hi-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.9,
+  "patience": 5.0,
+  "attention_span_s": 300
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-bagicha",
+  "title": "मीना का बगीचा",
+  "tags": [
+   "Hindi",
+   "Grade 3-4"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 31.4,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 31.4,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 0.4,
+  "frustration_events": [
+   {
+    "t": 31.4,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 36.89,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 56.79,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 56.89,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 64.45,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 66.9,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 67.01,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 74.56,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 79.81,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 80.59,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 5,
+  "praise_heard": 3,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 34.8,
+  "child_talk_s": 17.9,
+  "tired_said": false,
+  "time_to_text_s": 5.8,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.1,
+  "time_to_first_word_s": 14.1,
+  "session_s": 67.7,
+  "words_total": 30,
+  "words_attempted": 30,
+  "words_said_wrong": 0,
+  "corrections": 1,
+  "buddy_turns": 6,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 29,
+  "words_helped": 1,
+  "words_to_practise": [
+   "एक"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 63.1,
+  "words_per_minute": 28.5
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 5
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 98,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

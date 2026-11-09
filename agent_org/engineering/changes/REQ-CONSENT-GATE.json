@@ -174,6 +174,11 @@
    "round": 1,
    "verdict": "returned_to_engineering",
    "report": "agent_org/runs/c01/qa/REQ-CONSENT-GATE/r1/VALIDATION.md"
+  },
+  {
+   "round": 2,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-CONSENT-GATE/r2/VALIDATION.md"
   }
  ],
  "refreshes": [
@@ -182,5 +187,10 @@
    "from_base": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
    "to_base": "11256085dc12ced7a71e391f15b8faf5150d093f"
   }
- ]
+ ],
+ "merged": {
+  "at": "2026-11-09T21:15:09",
+  "into": "agent-org-handoff",
+  "commit": "ea095c0c87ac48d9c7643abc0209598a80e3f9d9"
+ }
 }
