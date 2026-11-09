@@ -45,11 +45,37 @@ class Usage:
 usage = Usage()
 
 
+def _placeholder_wav(text: str, sample_rate: int) -> bytes:
+    """Near-silent WAV as long as Buddy would take to say `text` (~0.42 s a word)."""
+    import io
+    import math
+    import wave
+    secs = 0.35 + 0.42 * max(1, len(text.split()))
+    n = int(secs * sample_rate)
+    frames = bytearray()
+    for i in range(n):  # a very quiet 220 Hz hum, so players treat it as real audio
+        v = int(40 * math.sin(2 * math.pi * 220 * i / sample_rate))
+        frames += v.to_bytes(2, "little", signed=True)
+    buf = io.BytesIO()
+    with wave.open(buf, "wb") as w:
+        w.setnchannels(1)
+        w.setsampwidth(2)
+        w.setframerate(sample_rate)
+        w.writeframes(bytes(frames))
+    return buf.getvalue()
+
+
 class TTS:
-    """Timbre REST synthesis with a permanent on-disk cache: each phrase costs one call, ever."""
+    """Timbre REST synthesis with a permanent on-disk cache: each phrase costs one call, ever.
+
+    RB_TTS_OFFLINE=1 (automated testing only): an utterance missing from the cache gets a
+    timed placeholder clip in cache/tts_offline instead of a Timbre call. Never committed."""
 
     def __init__(self):
         TTS_DIR.mkdir(parents=True, exist_ok=True)
+        self.offline = os.environ.get("RB_TTS_OFFLINE", "0") == "1"
+        self.offline_dir = CACHE_DIR / "tts_offline"
+        self.offline_count = 0
         self._client = httpx.AsyncClient(timeout=30)
         self._inflight: dict[str, asyncio.Future] = {}
         self._slots = asyncio.Semaphore(int(os.environ.get("TTS_CONCURRENCY", "2")))  # API rate limit
@@ -68,6 +94,13 @@ class TTS:
         """Return the cache key for this utterance, synthesising it on first use."""
         k = self.key(text, lang, speed, voice, model, container, sample_rate)
         if self.path(k, container).exists():
+            return k
+        if self.offline:
+            f = self.offline_dir / f"{k}.{container}"
+            if not f.exists():
+                self.offline_dir.mkdir(parents=True, exist_ok=True)
+                f.write_bytes(_placeholder_wav(text, 16000 if container == "wav" else sample_rate))
+            self.offline_count += 1
             return k
         if k in self._inflight:
             await self._inflight[k]

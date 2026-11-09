@@ -1,0 +1,19 @@
+{"t": 1.94, "kind": "open_app", "brief": "Dhruv, UKG (about 5.5 years). Prefers gu-IN. Can read single Gujarati words but struggles to string them into a sentence."}
+{"t": 1.96, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.84, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.61, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 4.74, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 4.74, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 4.76, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 8.19, "kind": "session_started", "tries": 1}
+{"t": 20.94, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 25.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.32 s thinking pause."}
+{"t": 34.1, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.1 s thinking pause."}
+{"t": 36.54, "kind": "tap_mic_to_talk"}
+{"t": 36.61, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 37.68, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 39.35, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 40.17, "kind": "resumed", "after_s": 1.5}
+{"t": 47.39, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 48.25, "kind": "abandon", "why": "frustration", "frustration": 4.15}
+{"t": 48.49, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
