@@ -40,9 +40,14 @@
      "event": "in_progress",
      "at": "2026-11-09T20:57:34",
      "note": "branch refreshed onto integration ef4a0bee"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T20:58:18",
+     "note": "submitted 2249bb97: Round 2: refreshed onto the integration build (conflicts in tutor.py/styles.css/tests resolved keeping both); library split into two shelves: 'Rhymes for little ones' first, then 'Poems and stories'"
     }
    ],
-   "status": "in_progress",
+   "status": "awaiting_qa",
    "priority": "P0",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },
