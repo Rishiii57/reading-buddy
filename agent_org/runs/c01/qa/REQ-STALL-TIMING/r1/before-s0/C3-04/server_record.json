@@ -1,0 +1,604 @@
+{
+ "id": "20261109-184348-651290",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 0,
+  "words_helped": 7,
+  "words_to_practise": [
+   "Ravi",
+   "mango"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 2,
+  "seconds": 96.8,
+  "words_per_minute": 4.3
+ },
+ "log": [
+  {
+   "t": 2.101,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.533,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.373,
+   "event": "transcript",
+   "text": "rawi"
+  },
+  {
+   "t": 18.373,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.255,
+   "event": "transcript",
+   "text": "haz"
+  },
+  {
+   "t": 21.255,
+   "event": "uncertain",
+   "text": "rawi haz"
+  },
+  {
+   "t": 21.255,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 25.385,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.255,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 27.255,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 31.221,
+   "event": "transcript",
+   "text": "a a"
+  },
+  {
+   "t": 31.221,
+   "event": "uncertain",
+   "text": "a a"
+  },
+  {
+   "t": 32.823,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 32.823,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 38.638,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 38.638,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 38.638,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 45.516,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.211,
+   "event": "transcript",
+   "text": "Ravi Ravi"
+  },
+  {
+   "t": 48.211,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 51.53,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 51.53,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 53.61,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 53.61,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 56.65,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 58.432,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 58.432,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 60.505,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 60.505,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 63.586,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 66.709,
+   "event": "transcript",
+   "text": "mamgo tree"
+  },
+  {
+   "t": 66.709,
+   "event": "progress",
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 68.75,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 68.75,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 75.812,
+   "event": "transcript",
+   "text": "nango mango"
+  },
+  {
+   "t": 75.812,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 75.812,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 82.074,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 83.805,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 83.805,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 85.926,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 85.926,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 88.804,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 93.125,
+   "event": "transcript",
+   "text": "has a mamgo mango"
+  },
+  {
+   "t": 93.125,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 95.169,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 95.169,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.841,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.373,
+   "type": "transcript",
+   "text": "rawi",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 19.72,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.255,
+   "type": "transcript",
+   "text": "haz",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 25.724,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.255,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 28.725,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.221,
+   "type": "transcript",
+   "text": "a a",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 37.107,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.638,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 45.77,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.211,
+   "type": "transcript",
+   "text": "Ravi Ravi",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 49.907,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.53,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 56.901,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.432,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 64.268,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.709,
+   "type": "transcript",
+   "text": "mamgo tree",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 73.355,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.812,
+   "type": "transcript",
+   "text": "nango mango",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 82.275,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.805,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 88.864,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 93.125,
+   "type": "transcript",
+   "text": "has a mamgo mango",
+   "latency": 120,
+   "audio_duration_ms": 3840,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "rawi",
+   "heard": "rawi",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "haz",
+   "heard": "haz",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a a",
+   "heard": "a a",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "mango tree in",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.93
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "Ravi Ravi",
+   "heard": "Ravi Ravi",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "mamgo tree",
+   "heard": "mamgo tree",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "in",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  },
+  {
+   "text": "nango mango",
+   "heard": "nango mango",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "has a mamgo mango",
+   "heard": "has a mamgo mango",
+   "muted_words": 0,
+   "duration_s": 3.84
+  },
+  {
+   "text": "tree",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  }
+ ],
+ "tts_offline": 154
+}

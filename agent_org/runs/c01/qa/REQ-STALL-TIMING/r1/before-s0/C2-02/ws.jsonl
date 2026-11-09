@@ -1,0 +1,33 @@
+{"t": 11.62, "type": "ready", "message": null}
+{"t": 11.62, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 28.05, "type": "speech"}
+{"t": 31.48, "type": "heard", "text": "बादल गरजे बारिश आई"}
+{"t": 31.48, "type": "speech"}
+{"t": 31.78, "type": "speech"}
+{"t": 35.06, "type": "heard", "text": "ठंडी ठंडी हबा हवा"}
+{"t": 35.1, "type": "speech"}
+{"t": 35.7, "type": "speech"}
+{"t": 37.4, "type": "heard", "text": "भी आई"}
+{"t": 37.42, "type": "speech"}
+{"t": 37.64, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 40.8, "type": "speech"}
+{"t": 45.58, "type": "heard", "text": "मेंढक गाथे मीठे गाने गाने"}
+{"t": 45.66, "type": "speech"}
+{"t": 45.76, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गाते", "spans": [[10, 11]]}
+{"t": 51.29, "type": "speech"}
+{"t": 53.12, "type": "heard", "text": "गाथे गाते"}
+{"t": 53.12, "type": "speech"}
+{"t": 53.13, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 60.1, "type": "speech"}
+{"t": 62.39, "type": "heard", "text": "मेंडक मेंढक"}
+{"t": 62.42, "type": "speech"}
+{"t": 63.93, "type": "say", "kind": "stall_phrase", "text": "सुनो... गाते मीठे गाने", "spans": [[10, 13]]}
+{"t": 69.43, "type": "speech"}
+{"t": 72.28, "type": "heard", "text": "गाते मीटे मीठे गाने"}
+{"t": 72.28, "type": "speech"}
+{"t": 72.28, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 76.15, "type": "speech"}
+{"t": 79.06, "type": "heard", "text": "बच्चे निकले नाव चलाने"}
+{"t": 79.08, "type": "speech"}
+{"t": 79.15, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 79.15, "type": "summary", "summary": {"words_total": 17, "words_read": 14, "words_helped": 3, "words_to_practise": ["गाते"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 1, "seconds": 67.6, "words_per_minute": 15.1}}

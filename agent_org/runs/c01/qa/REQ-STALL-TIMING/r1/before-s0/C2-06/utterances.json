@@ -1,0 +1,785 @@
+{
+ "utterances": [
+  {
+   "t": 32.08,
+   "said": "એક નાની ચકલી હતી",
+   "stt": "એક નાની ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 4,
+   "over_buddy": true
+  },
+  {
+   "t": 38.9,
+   "said": "એક નાની ચકલિ હતી",
+   "stt": "એક નાની ચકલિ હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.09,
+   "said": "તે રોજ સબારે દાણા શોધબા શોધવા જથી",
+   "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.27,
+   "said": "જતી",
+   "stt": "જતી",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.2,
+   "said": "સવારે",
+   "stt": "સવારે",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 66.87,
+   "said": "થે રોજ રોજ સવારે દાણા શોધવા જતી",
+   "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.89,
+   "said": "તે",
+   "stt": "તે",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 85.55,
+   "said": "રોજ ષવારે દાણા",
+   "stt": "રોજ ષવારે દાણા",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 89.06,
+   "said": "શોધવા જતી",
+   "stt": "શોધવા જતી",
+   "stt_notes": [],
+   "words": [
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 93.87,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 100.53,
+   "said": "થે",
+   "stt": "થે",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 104.51,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 109.56,
+   "said": "થે તે",
+   "stt": "તે",
+   "stt_notes": [
+    "lost 'થે'"
+   ],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 114.3,
+   "said": "સવારે",
+   "stt": "સવારે",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 125.35,
+   "said": "તે રોજ સવારે દાણા શોધવા જતી",
+   "stt": "તે રોજ સવારે દાણા શોધવા જતી",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 133.62,
+   "said": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા",
+   "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા",
+   "stt_notes": [],
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.08,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 38.9,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "1": [
+   {
+    "t": 32.08,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 38.9,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "2": [
+   {
+    "t": 32.08,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 38.9,
+    "target": "ચકલી",
+    "said": "ચકલિ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "3": [
+   {
+    "t": 32.08,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 38.9,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "4": [
+   {
+    "t": 45.09,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 66.87,
+    "target": "તે",
+    "said": "થે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 75.89,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે",
+    "drill": true
+   },
+   {
+    "t": 85.55,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "રોજ ષવારે દાણા"
+   },
+   {
+    "t": 93.87,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 100.53,
+    "target": "તે",
+    "said": "થે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે",
+    "drill": true
+   },
+   {
+    "t": 104.51,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 109.56,
+    "target": "તે",
+    "said": "થે તે",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "તે",
+    "drill": true
+   },
+   {
+    "t": 125.35,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "5": [
+   {
+    "t": 45.09,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 66.87,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 85.55,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રોજ ષવારે દાણા"
+   },
+   {
+    "t": 125.35,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "6": [
+   {
+    "t": 45.09,
+    "target": "સવારે",
+    "said": "સબારે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 54.2,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સવારે",
+    "drill": true
+   },
+   {
+    "t": 66.87,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 85.55,
+    "target": "સવારે",
+    "said": "ષવારે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "રોજ ષવારે દાણા"
+   },
+   {
+    "t": 114.3,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સવારે",
+    "drill": true
+   },
+   {
+    "t": 125.35,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "7": [
+   {
+    "t": 45.09,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 66.87,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 85.55,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રોજ ષવારે દાણા"
+   },
+   {
+    "t": 125.35,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "8": [
+   {
+    "t": 45.09,
+    "target": "શોધવા",
+    "said": "શોધબા શોધવા",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 66.87,
+    "target": "શોધવા",
+    "said": "શોધવા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 89.06,
+    "target": "શોધવા",
+    "said": "શોધવા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શોધવા જતી"
+   },
+   {
+    "t": 125.35,
+    "target": "શોધવા",
+    "said": "શોધવા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "9": [
+   {
+    "t": 45.09,
+    "target": "જતી",
+    "said": "જથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"
+   },
+   {
+    "t": 47.27,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "જતી"
+   },
+   {
+    "t": 66.87,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે રોજ રોજ સવારે દાણા શોધવા જતી"
+   },
+   {
+    "t": 89.06,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શોધવા જતી"
+   },
+   {
+    "t": 125.35,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ સવારે દાણા શોધવા જતી"
+   }
+  ],
+  "10": [
+   {
+    "t": 133.62,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "11": [
+   {
+    "t": 133.62,
+    "target": "દિવસ",
+    "said": "દિવસ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "12": [
+   {
+    "t": 133.62,
+    "target": "તેને",
+    "said": "તેને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "13": [
+   {
+    "t": 133.62,
+    "target": "ઘણા",
+    "said": "ઘણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "14": [
+   {
+    "t": 133.62,
+    "target": "બધા",
+    "said": "વધા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "15": [
+   {
+    "t": 133.62,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ],
+  "16": [
+   {
+    "t": 133.62,
+    "target": "મળ્યા",
+    "said": "મળ્યા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દિવસ તેને ઘણા વધા દાણા મળ્યા મળ્યા"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 20.59,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 47.69,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સવારે",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 54.21,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 67.4,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 76.1,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 89.16,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 97.02,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 100.55,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 105.58,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 109.58,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "હા! ખૂબ સરસ! સવારે",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 114.35,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 125.45,
+   "type": "say",
+   "kind": "praise",
+   "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.",
+   "spans": []
+  },
+  {
+   "t": 133.69,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  }
+ ]
+}

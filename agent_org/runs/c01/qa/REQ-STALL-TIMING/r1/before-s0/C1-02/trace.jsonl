@@ -1,0 +1,24 @@
+{"t": 2.33, "kind": "open_app", "brief": "Ira, Class 1 (about 6.5 years). Prefers hi-IN. Confuses similar Hindi letters."}
+{"t": 2.4, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.01, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.96, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.74, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 11.97, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.37, "kind": "session_started", "tries": 1}
+{"t": 27.66, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 48.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.76 s thinking pause."}
+{"t": 51.43, "kind": "tap_mic_to_talk"}
+{"t": 51.46, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 52.49, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 56.01, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 58.1, "kind": "resumed", "after_s": 2.0}
+{"t": 77.47, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 2.83 s thinking pause."}
+{"t": 94.78, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.96 s thinking pause."}
+{"t": 102.23, "kind": "tap_mic_to_talk"}
+{"t": 102.24, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 103.17, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 106.81, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 108.03, "kind": "resumed", "after_s": 3.0}
+{"t": 121.31, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.09 s thinking pause."}
+{"t": 121.33, "kind": "abandon", "why": "frustration", "frustration": 4.6}
+{"t": 121.59, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

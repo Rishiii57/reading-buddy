@@ -1,0 +1,19 @@
+{"t": 11.62, "type": "ready", "message": null}
+{"t": 11.64, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. ટપ ટપ ટપ ટપ વરસાદ પડે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 6]]}
+{"t": 26.56, "type": "speech"}
+{"t": 27.89, "type": "heard", "text": "ટપ"}
+{"t": 27.89, "type": "speech"}
+{"t": 29.81, "type": "speech"}
+{"t": 31.78, "type": "heard", "text": "ટપ"}
+{"t": 31.81, "type": "speech"}
+{"t": 33.67, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ટપ ટપ વરસાદ", "spans": [[2, 5]]}
+{"t": 37.26, "type": "speech"}
+{"t": 39.66, "type": "heard", "text": "ઠપ"}
+{"t": 39.66, "type": "speech"}
+{"t": 41.3, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. ટપ", "spans": [[2, 3]]}
+{"t": 49.68, "type": "say", "kind": "fix_again", "text": "ટપ", "spans": [[2, 3]]}
+{"t": 50.82, "type": "speech"}
+{"t": 52.66, "type": "heard", "text": "ટપ"}
+{"t": 52.66, "type": "speech"}
+{"t": 52.76, "type": "say", "kind": "fix_next", "text": "હા! ખૂબ સરસ! ટપ", "spans": [[3, 4]]}
+{"t": 63.3, "type": "summary", "summary": {"words_total": 16, "words_read": 2, "words_helped": 3, "words_to_practise": ["ટપ"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 51.5, "words_per_minute": 5.8}}
