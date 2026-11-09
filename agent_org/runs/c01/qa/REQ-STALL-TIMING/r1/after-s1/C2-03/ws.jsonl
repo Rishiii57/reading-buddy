@@ -1,0 +1,103 @@
+{"t": 15.66, "type": "ready", "message": null}
+{"t": 16.15, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 30.16, "type": "speech"}
+{"t": 34.26, "type": "heard", "text": "A small ant walked across floor"}
+{"t": 34.26, "type": "speech"}
+{"t": 38.61, "type": "speech"}
+{"t": 40.34, "type": "heard", "text": "the floor"}
+{"t": 40.57, "type": "speech"}
+{"t": 42.0, "type": "speech"}
+{"t": 48.6, "type": "heard", "text": "It come and a grain on of rice on back"}
+{"t": 48.6, "type": "speech"}
+{"t": 49.52, "type": "speech"}
+{"t": 50.65, "type": "heard", "text": "its"}
+{"t": 50.65, "type": "speech"}
+{"t": 50.65, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 58.53, "type": "speech"}
+{"t": 59.64, "type": "heard", "text": "its"}
+{"t": 59.7, "type": "speech"}
+{"t": 62.95, "type": "speech"}
+{"t": 64.3, "type": "heard", "text": "back"}
+{"t": 64.3, "type": "speech"}
+{"t": 64.3, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. carried", "spans": [[8, 9]]}
+{"t": 68.72, "type": "speech"}
+{"t": 69.85, "type": "heard", "text": "carried"}
+{"t": 69.93, "type": "speech"}
+{"t": 70.03, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 79.65, "type": "speech"}
+{"t": 85.8, "type": "heard", "text": "It carried all a grain of rice of in back"}
+{"t": 85.84, "type": "speech"}
+{"t": 85.88, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. on", "spans": [[13, 14]]}
+{"t": 89.65, "type": "speech"}
+{"t": 90.87, "type": "heard", "text": "on"}
+{"t": 91.09, "type": "speech"}
+{"t": 91.09, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! its", "spans": [[14, 15]]}
+{"t": 94.63, "type": "speech"}
+{"t": 95.87, "type": "heard", "text": "its"}
+{"t": 95.87, "type": "speech"}
+{"t": 96.12, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 102.89, "type": "speech"}
+{"t": 110.21, "type": "heard", "text": "It come a graim of of run rice on its back back"}
+{"t": 110.24, "type": "speech"}
+{"t": 110.25, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. carried", "spans": [[8, 9]]}
+{"t": 116.8, "type": "speech"}
+{"t": 117.75, "type": "heard", "text": "carried"}
+{"t": 117.75, "type": "speech"}
+{"t": 117.75, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! grain", "spans": [[10, 11]]}
+{"t": 122.94, "type": "speech"}
+{"t": 124.14, "type": "heard", "text": "get"}
+{"t": 124.18, "type": "speech"}
+{"t": 124.19, "type": "say", "kind": "fix_again", "text": "grain", "spans": [[10, 11]]}
+{"t": 128.16, "type": "speech"}
+{"t": 129.36, "type": "heard", "text": "good"}
+{"t": 129.36, "type": "speech"}
+{"t": 129.38, "type": "say", "kind": "fix_again", "text": "grain", "spans": [[10, 11]]}
+{"t": 132.5, "type": "speech"}
+{"t": 133.7, "type": "heard", "text": "grain"}
+{"t": 133.7, "type": "speech"}
+{"t": 133.72, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 140.57, "type": "speech"}
+{"t": 145.66, "type": "heard", "text": "It carried a grain of rice on dack"}
+{"t": 145.69, "type": "speech"}
+{"t": 146.92, "type": "speech"}
+{"t": 148.42, "type": "heard", "text": "back"}
+{"t": 148.42, "type": "speech"}
+{"t": 148.43, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. its", "spans": [[14, 15]]}
+{"t": 151.69, "type": "speech"}
+{"t": 153.06, "type": "heard", "text": "its"}
+{"t": 153.06, "type": "speech"}
+{"t": 153.06, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 159.69, "type": "speech"}
+{"t": 165.94, "type": "heard", "text": "It carried a grain one of run on its back"}
+{"t": 166.12, "type": "speech"}
+{"t": 166.12, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. rice", "spans": [[12, 13]]}
+{"t": 170.86, "type": "speech"}
+{"t": 172.6, "type": "heard", "text": "rice"}
+{"t": 172.6, "type": "speech"}
+{"t": 172.6, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 180.96, "type": "speech"}
+{"t": 184.94, "type": "heard", "text": "is carried a grain of rice"}
+{"t": 184.96, "type": "speech"}
+{"t": 188.34, "type": "speech"}
+{"t": 191.17, "type": "heard", "text": "on its back"}
+{"t": 191.19, "type": "speech"}
+{"t": 191.19, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 194.68, "type": "speech"}
+{"t": 195.85, "type": "heard", "text": "It"}
+{"t": 195.85, "type": "speech"}
+{"t": 195.86, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 202.83, "type": "speech"}
+{"t": 205.36, "type": "heard", "text": "back"}
+{"t": 205.37, "type": "speech"}
+{"t": 206.15, "type": "speech"}
+{"t": 211.26, "type": "heard", "text": "It carried a grain of red its back"}
+{"t": 211.26, "type": "speech"}
+{"t": 211.28, "type": "say", "kind": "skip_line", "text": "That's okay! Leave this line. We should move on.", "spans": []}
+{"t": 214.45, "type": "speech"}
+{"t": 219.02, "type": "heard", "text": "The rice went bigger tree the and"}
+{"t": 219.02, "type": "speech"}
+{"t": 220.8, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. was", "spans": [[18, 19]]}
+{"t": 225.07, "type": "speech"}
+{"t": 226.09, "type": "heard", "text": "was"}
+{"t": 226.09, "type": "speech"}
+{"t": 226.11, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! than", "spans": [[20, 21]]}

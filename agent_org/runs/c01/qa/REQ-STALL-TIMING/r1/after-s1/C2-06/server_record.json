@@ -1,0 +1,312 @@
+{
+ "id": "20261109-190559-658b1f",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 8,
+  "words_helped": 2,
+  "words_to_practise": [
+   "તે",
+   "રોજ"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 64.0,
+  "words_per_minute": 9.4
+ },
+ "log": [
+  {
+   "t": 0.014,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.061,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.947,
+   "event": "transcript",
+   "text": "એક નાની હતી"
+  },
+  {
+   "t": 18.947,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 22.269,
+   "event": "transcript",
+   "text": "ચકલિ ચકલી હતી"
+  },
+  {
+   "t": 22.269,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 22.269,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 27.65,
+   "event": "transcript",
+   "text": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+  },
+  {
+   "t": 27.65,
+   "event": "progress",
+   "frm": 4,
+   "to": 10
+  },
+  {
+   "t": 27.65,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 27.65,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 33.363,
+   "event": "transcript",
+   "text": "ડોજ"
+  },
+  {
+   "t": 33.363,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "ડોજ"
+  },
+  {
+   "t": 36.113,
+   "event": "pause"
+  },
+  {
+   "t": 39.546,
+   "event": "resume"
+  },
+  {
+   "t": 41.516,
+   "event": "transcript",
+   "text": "રોજ"
+  },
+  {
+   "t": 41.516,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 41.516,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 49.186,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 55.51,
+   "event": "transcript",
+   "text": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+  },
+  {
+   "t": 55.51,
+   "event": "progress",
+   "frm": 4,
+   "to": 10
+  },
+  {
+   "t": 55.51,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    4,
+    5
+   ]
+  },
+  {
+   "t": 55.51,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.098,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.947,
+   "type": "transcript",
+   "text": "એક નાની હતી",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 19.967,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.269,
+   "type": "transcript",
+   "text": "ચકલિ ચકલી હતી",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 23.137,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.65,
+   "type": "transcript",
+   "text": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 32.181,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.363,
+   "type": "transcript",
+   "text": "ડોજ",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 40.335,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.516,
+   "type": "transcript",
+   "text": "રોજ",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 49.414,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.51,
+   "type": "transcript",
+   "text": "ડોજ સવારે દાણા સોધવા શોધવા જતી",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એક નાની હતી",
+   "heard": "એક નાની હતી",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ચકલિ ચકલી હતી",
+   "heard": "ચકલિ ચકલી હતી",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી",
+   "heard": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "ડોજ",
+   "heard": "ડોજ",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "રોજ",
+   "heard": "રોજ",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ડોજ સવારે દાણા સોધવા શોધવા જતી",
+   "heard": "ડોજ સવારે દાણા સોધવા શોધવા જતી",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "તે",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.76
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 73
+}
