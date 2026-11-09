@@ -13,10 +13,18 @@
      "agents": 26,
      "instances": 26,
      "score": 24.92
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "Use 5-7 common poems used in Indian schools",
+     "scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
     }
    ],
-   "status": "awaiting_human_approval",
-   "priority": "P0"
+   "status": "approved",
+   "priority": "P0",
+   "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },
   "RC-CONSENT-GATE": {
    "id": "RC-CONSENT-GATE",
@@ -31,10 +39,18 @@
      "agents": 9,
      "instances": 16,
      "score": 19.45
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "No parent consent needed",
+     "scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
     }
    ],
-   "status": "awaiting_human_approval",
-   "priority": "P0"
+   "status": "approved",
+   "priority": "P0",
+   "human_scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
   },
   "RC-SPOKEN-ONBOARDING": {
    "id": "RC-SPOKEN-ONBOARDING",
@@ -123,9 +139,15 @@
      "agents": 19,
      "instances": 22,
      "score": 18.82
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "Fix the mic-tap bug"
     }
    ],
-   "status": "deferred",
+   "status": "approved",
    "priority": "P2"
   },
   "RC-TALK-OVER-BUDDY": {

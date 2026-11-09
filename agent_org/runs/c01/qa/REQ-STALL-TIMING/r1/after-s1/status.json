@@ -79,9 +79,11 @@
    "issues": 4
   },
   "C3-03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:08:16"
+   "since": "19:08:16",
+   "outcome": "completed",
+   "issues": 6
   },
   "C3-04": {
    "state": "running",
