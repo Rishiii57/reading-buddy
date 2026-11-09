@@ -1,0 +1,14 @@
+{"t": 2.38, "kind": "open_app", "brief": "Yash, UKG (about 5.5 years). Prefers gu-IN. Low confidence, reads very softly."}
+{"t": 3.03, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.32, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.5, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 7.65, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 7.66, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 7.7, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.36, "kind": "session_started", "tries": 1}
+{"t": 24.74, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 36.8, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 37.6, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'મારો' correctly but Buddy asked to practise it."}
+{"t": 61.42, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.31 s thinking pause."}
+{"t": 61.42, "kind": "abandon", "why": "frustration", "frustration": 4.2}
+{"t": 61.68, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

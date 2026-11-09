@@ -1,0 +1,334 @@
+{
+ "utterances": [
+  {
+   "t": 28.81,
+   "said": "बादल गरजे बारिश",
+   "stt": "बादल गरजे बारिश",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.62,
+   "said": "आ आई",
+   "stt": "आई",
+   "stt_notes": [
+    "lost 'आ'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.79,
+   "said": "ठंडी टंडी हबा भी आई आई",
+   "stt": "ठंडी टंडी हबा भी आई आई",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.98,
+   "said": "ठंडी",
+   "stt": "ठंडी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 55.86,
+   "said": "हवा",
+   "stt": "हवा",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 63.95,
+   "said": "ठंढी",
+   "stt": "ठंढी",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.59,
+   "said": "ठंडी",
+   "stt": "ठंडी",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 76.91,
+   "said": "ठंढी",
+   "stt": "ठंढी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.81,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "1": [
+   {
+    "t": 28.81,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "2": [
+   {
+    "t": 28.81,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 37.62,
+    "target": "आई",
+    "said": "आ आई",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "आई"
+   }
+  ],
+  "4": [
+   {
+    "t": 43.79,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी टंडी हबा भी आई आई"
+   },
+   {
+    "t": 63.95,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी"
+   },
+   {
+    "t": 71.59,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी",
+    "drill": true
+   }
+  ],
+  "5": [
+   {
+    "t": 43.79,
+    "target": "ठंडी",
+    "said": "टंडी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंडी टंडी हबा भी आई आई"
+   },
+   {
+    "t": 49.98,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी",
+    "drill": true
+   },
+   {
+    "t": 76.91,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी",
+    "drill": true
+   }
+  ],
+  "6": [
+   {
+    "t": 43.79,
+    "target": "हवा",
+    "said": "हबा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंडी टंडी हबा भी आई आई"
+   },
+   {
+    "t": 55.86,
+    "target": "हवा",
+    "said": "हवा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हवा",
+    "drill": true
+   }
+  ],
+  "7": [
+   {
+    "t": 43.79,
+    "target": "भी",
+    "said": "भी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी टंडी हबा भी आई आई"
+   }
+  ],
+  "8": [
+   {
+    "t": 43.79,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी टंडी हबा भी आई आई"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 9.89,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 30.91,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आई",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 43.9,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। ठंडी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 50.87,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! हवा",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 56.88,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! ठंडी ठंडी हवा भी आई। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     4,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 66.15,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। ठंडी",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 71.7,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! ठंडी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 77.98,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ठंडी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  }
+ ]
+}

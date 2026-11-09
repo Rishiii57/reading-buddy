@@ -1,0 +1,284 @@
+{
+ "items": {
+  "RC-PREPRIMARY-CONTENT": {
+   "id": "RC-PREPRIMARY-CONTENT",
+   "title": "No reading material for Nursery, LKG and UKG",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P0",
+     "status": "awaiting_human_approval",
+     "agents": 26,
+     "instances": 26,
+     "score": 24.92
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P0"
+  },
+  "RC-CONSENT-GATE": {
+   "id": "RC-CONSENT-GATE",
+   "title": "Parent-consent box is a dead end for pre-readers and a tick-box any reader can pass",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P0",
+     "status": "awaiting_human_approval",
+     "agents": 9,
+     "instances": 16,
+     "score": 19.45
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P0"
+  },
+  "RC-SPOKEN-ONBOARDING": {
+   "id": "RC-SPOKEN-ONBOARDING",
+   "title": "Before a session starts, all guidance is written English; non-readers get no spoken instructions",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P1",
+     "status": "approved",
+     "agents": 35,
+     "instances": 36,
+     "score": 22.04
+    }
+   ],
+   "status": "approved",
+   "priority": "P1"
+  },
+  "RC-STALL-TIMING": {
+   "id": "RC-STALL-TIMING",
+   "title": "Stall prompt fires during normal thinking pauses of slow and hesitant readers",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P1",
+     "status": "approved",
+     "agents": 20,
+     "instances": 32,
+     "score": 20.03
+    }
+   ],
+   "status": "approved",
+   "priority": "P1"
+  },
+  "RC-MIDLINE-CORRECTION": {
+   "id": "RC-MIDLINE-CORRECTION",
+   "title": "A slip followed by a thinking pause triggers word practice mid-line",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 13,
+     "instances": 16,
+     "score": 18.49
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-MIC-TOGGLE": {
+   "id": "RC-MIC-TOGGLE",
+   "title": "Tapping the big microphone during a session pauses it",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 19,
+     "instances": 22,
+     "score": 18.82
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-TALK-OVER-BUDDY": {
+   "id": "RC-TALK-OVER-BUDDY",
+   "title": "What a child says while Buddy is talking is silently discarded",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 26,
+     "instances": 46,
+     "score": 14.56
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-LONG-INTRO": {
+   "id": "RC-LONG-INTRO",
+   "title": "Buddy's opening talk is long before the child gets a turn",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 35,
+     "instances": 35,
+     "score": 15.03
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-DRILL-LOOP": {
+   "id": "RC-DRILL-LOOP",
+   "title": "Word practice and line repetition loop on the same word or line",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 3,
+     "instances": 3,
+     "score": 16.68
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-FALSE-CORRECTION-TUTOR": {
+   "id": "RC-FALSE-CORRECTION-TUTOR",
+   "title": "Correctly read words flagged for practice (tutor/aligner)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 17.18
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-FALSE-CORRECTION-STT": {
+   "id": "RC-FALSE-CORRECTION-STT",
+   "title": "Correct reading misheard by the speech model (child voices)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "awaiting_human_approval",
+     "agents": 4,
+     "instances": 4,
+     "score": 15.93
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P2"
+  },
+  "RC-LENIENT-MATCHING": {
+   "id": "RC-LENIENT-MATCHING",
+   "title": "Some misreadings are accepted as correct (vowel length, matras, word endings, small words)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P3",
+     "status": "awaiting_human_approval",
+     "agents": 10,
+     "instances": 19,
+     "score": 10.91
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P3"
+  },
+  "RC-LANGUAGE-SELECTION": {
+   "id": "RC-LANGUAGE-SELECTION",
+   "title": "Children end up in, or hear, a language they did not choose",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 32,
+     "score": 14.6
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-NAVIGATION": {
+   "id": "RC-NAVIGATION",
+   "title": "Children cannot find a text or leave the reading page by accident",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 12,
+     "score": 16.8
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-REPLAY": {
+   "id": "RC-REPLAY",
+   "title": "No way to hear a line again during reading",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 12.53
+    }
+   ],
+   "status": "deferred",
+   "priority": "P3"
+  }
+ },
+ "cycles": [
+  {
+   "cycle": "c01",
+   "label": "baseline",
+   "at": "2026-11-09T18:37:11",
+   "agents": 50,
+   "root_causes": 15,
+   "unclassified": 3
+  }
+ ]
+}

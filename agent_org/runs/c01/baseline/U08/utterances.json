@@ -1,0 +1,313 @@
+{
+ "utterances": [
+  {
+   "t": 29.95,
+   "said": "बादल गड़जे बारिश आ",
+   "stt": "बादल गड़जे बारिस आ",
+   "stt_notes": [
+    "'बारिश' heard as 'बारिस'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 38.99,
+   "said": "बाधल गरझे बारिस",
+   "stt": "बाधल गरझे बारिस",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.32,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.42,
+   "said": "बादल बादल गरजे बारिश बारिश",
+   "stt": "बादल बादल गरजे बारिश बारिश",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.94,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.44,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.85,
+   "said": "ठंडी ठंडी हबा भि भि",
+   "stt": "ठंढी ठंडी हबा भि भि",
+   "stt_notes": [
+    "'ठंडी' heard as 'ठंढी'"
+   ],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.95,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 38.99,
+    "target": "बादल",
+    "said": "बाधल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गरझे बारिस"
+   },
+   {
+    "t": 54.42,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल बादल गरजे बारिश बारिश"
+   }
+  ],
+  "1": [
+   {
+    "t": 29.95,
+    "target": "गरजे",
+    "said": "गड़जे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 38.99,
+    "target": "गरजे",
+    "said": "गरझे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गरझे बारिस"
+   },
+   {
+    "t": 54.42,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल बादल गरजे बारिश बारिश"
+   }
+  ],
+  "2": [
+   {
+    "t": 29.95,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 38.99,
+    "target": "बारिश",
+    "said": "बारिस",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गरझे बारिस"
+   },
+   {
+    "t": 54.42,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल बादल गरजे बारिश बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 29.95,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 44.32,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 65.94,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 70.44,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   }
+  ],
+  "4": [
+   {
+    "t": 77.85,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंढी ठंडी हबा भि भि"
+   }
+  ],
+  "5": [
+   {
+    "t": 77.85,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंढी ठंडी हबा भि भि"
+   }
+  ],
+  "6": [
+   {
+    "t": 77.85,
+    "target": "हवा",
+    "said": "हबा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी ठंडी हबा भि भि"
+   }
+  ],
+  "7": [
+   {
+    "t": 77.85,
+    "target": "भी",
+    "said": "भि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी ठंडी हबा भि भि"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 8.19,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 30.0,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 44.72,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बादल गरजे",
+   "spans": [
+    [
+     0,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 56.52,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आई",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 66.07,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "आई अब तुम बोलो!",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 77.87,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  }
+ ]
+}

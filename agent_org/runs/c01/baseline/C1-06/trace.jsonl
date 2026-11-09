@@ -1,0 +1,22 @@
+{"t": 3.32, "kind": "open_app", "brief": "Siya, Class 1 (about 6.5 years). Prefers gu-IN. Tires quickly in the evening."}
+{"t": 3.38, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.24, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.22, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 6.37, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 6.41, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 9.4, "kind": "session_started", "tries": 1}
+{"t": 21.97, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.46, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 3.31 s thinking pause."}
+{"t": 52.5, "kind": "tap_mic_to_talk"}
+{"t": 52.5, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 53.4, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 59.92, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 60.77, "kind": "resumed", "after_s": 5.5}
+{"t": 65.86, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 83.75, "kind": "said_tired", "heard": "હું થાકી ગયો"}
+{"t": 85.65, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 86.54, "kind": "resumed", "after_s": 0.5}
+{"t": 97.6, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 99.98, "kind": "resumed", "after_s": 6.5}
+{"t": 112.71, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.9 s into a planned 2.17 s thinking pause."}
+{"t": 112.79, "kind": "abandon", "why": "frustration", "frustration": 4.05}

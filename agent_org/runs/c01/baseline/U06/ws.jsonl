@@ -1,0 +1,64 @@
+{"t": 5.89, "type": "ready", "message": null}
+{"t": 5.91, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 20.4, "type": "speech"}
+{"t": 22.2, "type": "heard", "text": "small"}
+{"t": 22.21, "type": "speech"}
+{"t": 24.54, "type": "speech"}
+{"t": 29.53, "type": "heard", "text": "ana was across floor"}
+{"t": 29.53, "type": "speech"}
+{"t": 29.64, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 33.8, "type": "speech"}
+{"t": 36.67, "type": "heard", "text": "A sun"}
+{"t": 36.7, "type": "speech"}
+{"t": 40.52, "type": "speech"}
+{"t": 47.85, "type": "heard", "text": "ana was and tha floor floor"}
+{"t": 48.56, "type": "speech"}
+{"t": 48.56, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 56.31, "type": "speech"}
+{"t": 65.89, "type": "heard", "text": "A A ant went and the fish"}
+{"t": 66.76, "type": "speech"}
+{"t": 66.76, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 69.57, "type": "speech"}
+{"t": 78.94, "type": "heard", "text": "A small small ant ant went all tha for"}
+{"t": 78.95, "type": "speech"}
+{"t": 78.95, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 83.58, "type": "speech"}
+{"t": 91.85, "type": "heard", "text": "A small ana vas across tha fish"}
+{"t": 91.85, "type": "speech"}
+{"t": 92.04, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 95.89, "type": "speech"}
+{"t": 105.37, "type": "heard", "text": "A ana we we and floor"}
+{"t": 105.37, "type": "speech"}
+{"t": 105.37, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 108.68, "type": "speech"}
+{"t": 111.64, "type": "heard", "text": "A see"}
+{"t": 111.64, "type": "speech"}
+{"t": 114.6, "type": "speech"}
+{"t": 120.98, "type": "heard", "text": "ana went all the fish"}
+{"t": 121.17, "type": "speech"}
+{"t": 121.28, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 124.58, "type": "speech"}
+{"t": 134.2, "type": "heard", "text": "A sun sun ana was and tha fun"}
+{"t": 134.2, "type": "speech"}
+{"t": 134.2, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 137.71, "type": "speech"}
+{"t": 147.96, "type": "heard", "text": "A A sun ana was all across the"}
+{"t": 147.96, "type": "speech"}
+{"t": 149.37, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. small", "spans": [[1, 2]]}
+{"t": 154.14, "type": "speech"}
+{"t": 155.6, "type": "heard", "text": "ant"}
+{"t": 155.6, "type": "speech"}
+{"t": 155.6, "type": "say", "kind": "fix_again", "text": "small", "spans": [[1, 2]]}
+{"t": 157.11, "type": "speech"}
+{"t": 158.84, "type": "heard", "text": "said"}
+{"t": 158.84, "type": "speech"}
+{"t": 158.85, "type": "say", "kind": "fix_again", "text": "small", "spans": [[1, 2]]}
+{"t": 162.13, "type": "speech"}
+{"t": 165.0, "type": "heard", "text": "sait small"}
+{"t": 165.0, "type": "speech"}
+{"t": 165.16, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! ant", "spans": [[2, 3]]}
+{"t": 169.05, "type": "speech"}
+{"t": 170.84, "type": "heard", "text": "ant"}
+{"t": 170.84, "type": "speech"}
+{"t": 170.84, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! walked", "spans": [[3, 4]]}
+{"t": 175.16, "type": "summary", "summary": {"words_total": 37, "words_read": 3, "words_helped": 3, "words_to_practise": ["small", "ant", "walked"], "words_practised": 2, "correction_attempts": 4, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 168.8, "words_per_minute": 2.1}}

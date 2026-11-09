@@ -1,0 +1,46 @@
+{"t": 7.82, "type": "ready", "message": null}
+{"t": 7.86, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 22.6, "type": "speech"}
+{"t": 25.47, "type": "heard", "text": "बादल गरजे बारिश आई"}
+{"t": 25.47, "type": "speech"}
+{"t": 26.41, "type": "speech"}
+{"t": 30.45, "type": "heard", "text": "टंडी ठंडी ठंडी हवा भि आई"}
+{"t": 30.45, "type": "speech"}
+{"t": 30.89, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 33.87, "type": "speech"}
+{"t": 36.07, "type": "heard", "text": "गाते मीठे गाने"}
+{"t": 36.07, "type": "speech"}
+{"t": 36.11, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेंढक", "spans": [[9, 10]]}
+{"t": 43.57, "type": "speech"}
+{"t": 44.84, "type": "heard", "text": "मेंढक मेंढक"}
+{"t": 44.84, "type": "speech"}
+{"t": 44.84, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 51.95, "type": "speech"}
+{"t": 55.64, "type": "heard", "text": "मेंढक गाते मीठे गाने"}
+{"t": 56.02, "type": "speech"}
+{"t": 56.02, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 61.89, "type": "speech"}
+{"t": 64.8, "type": "heard", "text": "बच्चे णिकले णाव चलाणे"}
+{"t": 64.86, "type": "speech"}
+{"t": 64.91, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 81.22, "type": "speech"}
+{"t": 85.38, "type": "heard", "text": "वच्चे निकले निकले नाव चलाणे चलाणे"}
+{"t": 85.44, "type": "speech"}
+{"t": 85.47, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 89.24, "type": "speech"}
+{"t": 90.53, "type": "heard", "text": "बच्चे"}
+{"t": 90.53, "type": "speech"}
+{"t": 92.79, "type": "say", "kind": "stall_phrase", "text": "सुनो... निकले नाव चलाने।", "spans": [[14, 17]]}
+{"t": 96.97, "type": "speech"}
+{"t": 99.29, "type": "heard", "text": "णिकले नाव चलाने"}
+{"t": 99.38, "type": "speech"}
+{"t": 99.43, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। निकले", "spans": [[14, 15]]}
+{"t": 103.8, "type": "speech"}
+{"t": 105.9, "type": "heard", "text": "निकले"}
+{"t": 105.9, "type": "speech"}
+{"t": 105.9, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बच्चे निकले नाव चलाने। अब तुम पूरी पंक्ति बोलो।", "spans": [[13, 17]]}
+{"t": 112.26, "type": "speech"}
+{"t": 115.73, "type": "heard", "text": "बच्चे निकले नाव चलाणे चलाने"}
+{"t": 116.07, "type": "speech"}
+{"t": 116.53, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 116.62, "type": "summary", "summary": {"words_total": 17, "words_read": 13, "words_helped": 4, "words_to_practise": ["मेंढक", "निकले"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 2, "seconds": 107.8, "words_per_minute": 9.5}}

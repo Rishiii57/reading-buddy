@@ -1,0 +1,36 @@
+{"t": 12.53, "type": "ready", "message": null}
+{"t": 12.92, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 27.85, "type": "speech"}
+{"t": 30.96, "type": "heard", "text": "A smal ant walked walked across the floor"}
+{"t": 31.56, "type": "speech"}
+{"t": 32.32, "type": "speech"}
+{"t": 34.75, "type": "heard", "text": "carried a grain red its ball"}
+{"t": 34.86, "type": "speech"}
+{"t": 36.09, "type": "speech"}
+{"t": 38.27, "type": "heard", "text": "of red of back back"}
+{"t": 38.27, "type": "speech"}
+{"t": 38.29, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 42.02, "type": "speech"}
+{"t": 43.54, "type": "heard", "text": "of rice ball"}
+{"t": 43.54, "type": "speech"}
+{"t": 44.71, "type": "speech"}
+{"t": 46.59, "type": "heard", "text": "one is bac back"}
+{"t": 46.59, "type": "speech"}
+{"t": 48.55, "type": "speech"}
+{"t": 48.85, "type": "heard", "text": "one back"}
+{"t": 48.87, "type": "speech"}
+{"t": 48.87, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 52.65, "type": "speech"}
+{"t": 54.17, "type": "heard", "text": "on its back"}
+{"t": 54.19, "type": "speech"}
+{"t": 54.19, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 58.39, "type": "speech"}
+{"t": 58.89, "type": "heard", "text": "It"}
+{"t": 58.89, "type": "speech"}
+{"t": 59.07, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 67.18, "type": "speech"}
+{"t": 69.95, "type": "heard", "text": "carried grain of rice on its back"}
+{"t": 69.95, "type": "speech"}
+{"t": 70.0, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 78.06, "type": "say", "kind": "fix_again", "text": "It", "spans": [[7, 8]]}
+{"t": 183.91, "type": "summary", "summary": {"words_total": 37, "words_read": 15, "words_helped": 1, "words_to_practise": ["It"], "words_practised": 1, "correction_attempts": 1, "lines_total": 5, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 171.4, "words_per_minute": 5.6}}

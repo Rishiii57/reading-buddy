@@ -1,0 +1,354 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline",
+ "agent_id": "C2-02",
+ "seed": 1493,
+ "persona": {
+  "id": "C2-02",
+  "name": "Neel",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-baarish",
+  "title": "बारिश आई",
+  "tags": [
+   "Hindi",
+   "Grade 1-2"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 5.98,
+    "details": [
+     "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."
+    ],
+    "evidence": [
+     {
+      "t": 5.98,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 21.89,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 21.89,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 36.06,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 36.06,
+      "said": "मेंढक गाते मीठे गाणे",
+      "heard": "गाते मीठे गाने"
+     },
+     {
+      "t": 58.44,
+      "said": "मेंढक गाथे मीठे गाने",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.86,
+    "details": [
+     "Read 'मेंढक' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 36.86,
+      "word": "मेंढक",
+      "child_said": "मेंढक",
+      "speech_model_wrote": "मेंढक गाते मीठे गाने"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 69.96,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 69.96,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 92.85,
+    "details": [
+     "Buddy started talking 2.3 s into a planned 2.14 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 92.85,
+      "paused_s": 2.3,
+      "planned_s": 2.14,
+      "line": 3,
+      "buddy_kind": "stall_phrase",
+      "next_words": "निकले नाव चलाने।"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'भी' as 'भि' and it was marked as read correctly.",
+     "Read 'गाते' as 'गाथे' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "भी",
+      "child_said": "भि",
+      "kind": "sub",
+      "speech_model_wrote": "टंडी ठंडी ठंडी हवा भि आई"
+     },
+     {
+      "word": "गाते",
+      "child_said": "गाथे",
+      "kind": "sub",
+      "speech_model_wrote": "मेंढक गाथे मीठे गाने"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 3.6,
+  "frustration_events": [
+   {
+    "t": 5.98,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 21.89,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 25.38,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 30.45,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 30.89,
+    "kind": "praise",
+    "frustration": 0.3
+   },
+   {
+    "t": 36.06,
+    "kind": "unheard_speech",
+    "frustration": 1.1
+   },
+   {
+    "t": 36.06,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 36.86,
+    "kind": "false_correction",
+    "frustration": 2.15,
+    "word": "मेंढक"
+   },
+   {
+    "t": 54.75,
+    "kind": "progress",
+    "frustration": 2.0
+   },
+   {
+    "t": 56.02,
+    "kind": "praise",
+    "frustration": 1.6
+   },
+   {
+    "t": 58.44,
+    "kind": "unheard_speech",
+    "frustration": 2.4
+   },
+   {
+    "t": 58.44,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 64.71,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 69.96,
+    "kind": "unexpected_pause",
+    "frustration": 2.9
+   },
+   {
+    "t": 85.17,
+    "kind": "progress",
+    "frustration": 2.75
+   },
+   {
+    "t": 90.5,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 92.85,
+    "kind": "interrupted_pause",
+    "frustration": 3.6,
+    "paused_s": 2.3
+   },
+   {
+    "t": 99.28,
+    "kind": "progress",
+    "frustration": 3.45
+   },
+   {
+    "t": 115.65,
+    "kind": "progress",
+    "frustration": 3.3
+   },
+   {
+    "t": 116.53,
+    "kind": "praise",
+    "frustration": 2.9
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 3,
+  "interruptions": 1,
+  "unheard_words": 5,
+  "buddy_talk_s": 56.4,
+  "child_talk_s": 24.8,
+  "tired_said": false,
+  "time_to_text_s": 2.5,
+  "intro_s": 13.1,
+  "time_to_first_word_s": 13.1,
+  "session_s": 115.9,
+  "words_total": 17,
+  "words_attempted": 17,
+  "words_said_wrong": 2,
+  "corrections": 2,
+  "buddy_turns": 11,
+  "stall_prompts": 1,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 13,
+  "words_helped": 4,
+  "words_to_practise": [
+   "मेंढक",
+   "निकले"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 107.8,
+  "words_per_minute": 9.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 175,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

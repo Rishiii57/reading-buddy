@@ -1,0 +1,20 @@
+{"t": 3.88, "kind": "open_app", "brief": "Aarush, Class 3 (about 8.5 years). Prefers en-IN. Reverses letters (dyslexia-like pattern)."}
+{"t": 3.94, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.74, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.72, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.48, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 8.97, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 23.77, "kind": "listened_first", "seconds": 12.9}
+{"t": 23.77, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 26.38, "kind": "session_started", "tries": 1}
+{"t": 45.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 56.31, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 2.25 s thinking pause."}
+{"t": 64.63, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 87.95, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.7 s into a planned 2.18 s thinking pause."}
+{"t": 104.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.5 s into a planned 2.39 s thinking pause."}
+{"t": 115.61, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.7 s into a planned 2.13 s thinking pause."}
+{"t": 127.45, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 1.18 s thinking pause."}
+{"t": 136.42, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.9 s into a planned 2.07 s thinking pause."}
+{"t": 152.63, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.7 s into a planned 1.33 s thinking pause."}
+{"t": 152.68, "kind": "abandon", "why": "frustration", "frustration": 5.5}
+{"t": 153.48, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

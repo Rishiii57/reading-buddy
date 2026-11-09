@@ -1,0 +1,186 @@
+{
+ "id": "20261109-182142-9ed4f7",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 4,
+  "words_helped": 1,
+  "words_to_practise": [
+   "મારો"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 50.4,
+  "words_per_minute": 6.0
+ },
+ "log": [
+  {
+   "t": 0.015,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.864,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.329,
+   "event": "transcript",
+   "text": "પતંગ લાલ ને ને પીળૌ પીળૌ"
+  },
+  {
+   "t": 25.329,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 25.329,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 25.329,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 34.385,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 37.737,
+   "event": "transcript",
+   "text": "મારો"
+  },
+  {
+   "t": 37.737,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 37.737,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 45.296,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 49.745,
+   "event": "transcript",
+   "text": "મારો પથંગ પથંગ"
+  },
+  {
+   "t": 49.745,
+   "event": "uncertain",
+   "text": "મારો પથંગ પથંગ"
+  },
+  {
+   "t": 49.745,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.003,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.109,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.329,
+   "type": "transcript",
+   "text": "પતંગ લાલ ને ને પીળૌ પીળૌ",
+   "latency": 120,
+   "audio_duration_ms": 7791,
+   "message": null
+  },
+  {
+   "t": 35.924,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.737,
+   "type": "transcript",
+   "text": "મારો",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 45.796,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.745,
+   "type": "transcript",
+   "text": "મારો પથંગ પથંગ",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો પતંગ લાલ ને ને પીળૌ પીળૌ",
+   "heard": "પતંગ લાલ ને ને પીળૌ પીળૌ",
+   "muted_words": 1,
+   "duration_s": 9.09
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મારો",
+   "heard": "મારો",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મારો પથંગ પથંગ",
+   "heard": "મારો પથંગ પથંગ",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 90
+}

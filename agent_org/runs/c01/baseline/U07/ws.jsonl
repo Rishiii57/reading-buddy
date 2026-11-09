@@ -1,0 +1,16 @@
+{"t": 11.47, "type": "ready", "message": null}
+{"t": 11.49, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 28.58, "type": "speech"}
+{"t": 37.01, "type": "heard", "text": "પતંગ લાલ ને ને પીળૌ પીળૌ"}
+{"t": 37.01, "type": "speech"}
+{"t": 37.07, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારો", "spans": [[0, 1]]}
+{"t": 45.95, "type": "say", "kind": "fix_again", "text": "મારો", "spans": [[0, 1]]}
+{"t": 47.46, "type": "speech"}
+{"t": 49.43, "type": "heard", "text": "મારો"}
+{"t": 49.43, "type": "speech"}
+{"t": 49.43, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારો પતંગ લાલ ને પીળો હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 57.26, "type": "speech"}
+{"t": 61.23, "type": "heard", "text": "મારો પથંગ પથંગ"}
+{"t": 61.25, "type": "speech"}
+{"t": 61.29, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 61.88, "type": "summary", "summary": {"words_total": 16, "words_read": 4, "words_helped": 1, "words_to_practise": ["મારો"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 50.4, "words_per_minute": 6.0}}

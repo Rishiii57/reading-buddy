@@ -1,0 +1,294 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline",
+ "agent_id": "L07",
+ "seed": 1238,
+ "persona": {
+  "id": "L07",
+  "name": "Anvi",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "en-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-varsad",
+  "title": "વરસાદ",
+  "tags": [
+   "Gujarati",
+   "Grade 1-2"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.05,
+    "details": [
+     "Wanted en-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 6.05,
+      "wanted": "en-IN",
+      "got": "gu-IN",
+      "title": "વરસાદ"
+     }
+    ],
+    "child_quote": "This isn't my language!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.05,
+    "details": [
+     "LKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG."
+    ],
+    "evidence": [
+     {
+      "t": 6.05,
+      "title": "વરસાદ",
+      "grade_tag": "Grade 1-2"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.06,
+    "details": [
+     "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."
+    ],
+    "evidence": [
+     {
+      "t": 6.06,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 22.54,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 22.54,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 29.83,
+    "details": [
+     "Buddy started talking 2.2 s into a planned 4.44 s thinking pause.",
+     "Buddy started talking 1.5 s into a planned 2.33 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 29.83,
+      "paused_s": 2.2,
+      "planned_s": 4.44,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "ટપ ટપ ટપ"
+     },
+     {
+      "t": 56.29,
+      "paused_s": 1.5,
+      "planned_s": 2.33,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "ટપ ટપ ટપ"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 39.25,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 39.25,
+      "said": "ઠપ ઠપ ટપ",
+      "heard": "ટપ"
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 62.61,
+    "details": [
+     "Read 'ટપ' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 62.61,
+      "word": "ટપ",
+      "child_said": "ટપ",
+      "speech_model_wrote": "ઠપ"
+     }
+    ],
+    "child_quote": "But I said it right!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that."
+  ],
+  "frustration_peak": 4.3,
+  "frustration_events": [
+   {
+    "t": 6.06,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 22.54,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 29.83,
+    "kind": "interrupted_pause",
+    "frustration": 2.0,
+    "paused_s": 2.2
+   },
+   {
+    "t": 39.25,
+    "kind": "unheard_speech",
+    "frustration": 2.8
+   },
+   {
+    "t": 39.25,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 39.33,
+    "kind": "praise",
+    "frustration": 2.25
+   },
+   {
+    "t": 54.07,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 56.29,
+    "kind": "interrupted_pause",
+    "frustration": 3.1,
+    "paused_s": 1.5
+   },
+   {
+    "t": 62.61,
+    "kind": "false_correction",
+    "frustration": 4.3,
+    "word": "ટપ"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 2,
+  "unheard_words": 1,
+  "buddy_talk_s": 36.4,
+  "child_talk_s": 7.8,
+  "tired_said": false,
+  "time_to_text_s": 2.3,
+  "intro_s": 14.9,
+  "time_to_first_word_s": 14.9,
+  "session_s": 55.4,
+  "words_total": 16,
+  "words_attempted": 2,
+  "words_said_wrong": 0,
+  "corrections": 2,
+  "buddy_turns": 5,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 0,
+  "words_helped": 2,
+  "words_to_practise": [
+   "ટપ"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 55.9,
+  "words_per_minute": 2.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 70,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

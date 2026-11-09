@@ -1,0 +1,676 @@
+{
+ "id": "20261109-182133-c630b5",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 3,
+  "words_helped": 3,
+  "words_to_practise": [
+   "small",
+   "ant",
+   "walked"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 4,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 168.8,
+  "words_per_minute": 2.1
+ },
+ "log": [
+  {
+   "t": 0.106,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.806,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.3,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 23.667,
+   "event": "transcript",
+   "text": "ana was across floor"
+  },
+  {
+   "t": 23.667,
+   "event": "uncertain",
+   "text": "ana was across floor"
+  },
+  {
+   "t": 23.667,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 27.442,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.846,
+   "event": "transcript",
+   "text": "A sun"
+  },
+  {
+   "t": 30.846,
+   "event": "uncertain",
+   "text": "a sun"
+  },
+  {
+   "t": 42.009,
+   "event": "transcript",
+   "text": "ana was and tha floor floor"
+  },
+  {
+   "t": 42.009,
+   "event": "uncertain",
+   "text": "ana was and tha floor floor"
+  },
+  {
+   "t": 42.009,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 45.099,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.416,
+   "event": "pause"
+  },
+  {
+   "t": 49.735,
+   "event": "resume"
+  },
+  {
+   "t": 59.965,
+   "event": "transcript",
+   "text": "A A ant went and the fish"
+  },
+  {
+   "t": 59.965,
+   "event": "uncertain",
+   "text": "a a ant went and the fish"
+  },
+  {
+   "t": 59.965,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 63.375,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 73.132,
+   "event": "transcript",
+   "text": "A small small ant ant went all tha for"
+  },
+  {
+   "t": 73.132,
+   "event": "uncertain",
+   "text": "a small small ant ant went all tha for"
+  },
+  {
+   "t": 73.132,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 76.52,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 86.013,
+   "event": "transcript",
+   "text": "A small ana vas across tha fish"
+  },
+  {
+   "t": 86.013,
+   "event": "uncertain",
+   "text": "a small ana vas across tha fish"
+  },
+  {
+   "t": 86.013,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 89.433,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 99.391,
+   "event": "transcript",
+   "text": "A ana we we and floor"
+  },
+  {
+   "t": 99.391,
+   "event": "uncertain",
+   "text": "a ana we we and floor"
+  },
+  {
+   "t": 99.391,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 102.64,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 105.843,
+   "event": "transcript",
+   "text": "A see"
+  },
+  {
+   "t": 105.843,
+   "event": "uncertain",
+   "text": "a see"
+  },
+  {
+   "t": 115.149,
+   "event": "transcript",
+   "text": "ana went all the fish"
+  },
+  {
+   "t": 115.149,
+   "event": "uncertain",
+   "text": "ana went all the fish"
+  },
+  {
+   "t": 115.149,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 118.554,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 128.298,
+   "event": "transcript",
+   "text": "A sun sun ana was and tha fun"
+  },
+  {
+   "t": 128.298,
+   "event": "uncertain",
+   "text": "a sun sun ana was and tha fun"
+  },
+  {
+   "t": 128.298,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 131.779,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 141.426,
+   "event": "transcript",
+   "text": "A A sun ana was all across the"
+  },
+  {
+   "t": 141.426,
+   "event": "progress",
+   "frm": 0,
+   "to": 6
+  },
+  {
+   "t": 143.491,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "t": 143.491,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 149.703,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 149.703,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "ant"
+  },
+  {
+   "t": 153.018,
+   "event": "transcript",
+   "text": "said"
+  },
+  {
+   "t": 153.018,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "said"
+  },
+  {
+   "t": 159.172,
+   "event": "transcript",
+   "text": "sait small"
+  },
+  {
+   "t": 159.172,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 159.172,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 164.977,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 164.977,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 164.977,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.566,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.3,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 18.584,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.667,
+   "type": "transcript",
+   "text": "ana was across floor",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 28.006,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.846,
+   "type": "transcript",
+   "text": "A sun",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 34.716,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.009,
+   "type": "transcript",
+   "text": "ana was and tha floor floor",
+   "latency": 120,
+   "audio_duration_ms": 6870,
+   "message": null
+  },
+  {
+   "t": 50.454,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.965,
+   "type": "transcript",
+   "text": "A A ant went and the fish",
+   "latency": 120,
+   "audio_duration_ms": 9090,
+   "message": null
+  },
+  {
+   "t": 63.66,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.132,
+   "type": "transcript",
+   "text": "A small small ant ant went all tha for",
+   "latency": 120,
+   "audio_duration_ms": 9048,
+   "message": null
+  },
+  {
+   "t": 77.607,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.013,
+   "type": "transcript",
+   "text": "A small ana vas across tha fish",
+   "latency": 120,
+   "audio_duration_ms": 7980,
+   "message": null
+  },
+  {
+   "t": 89.833,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 99.391,
+   "type": "transcript",
+   "text": "A ana we we and floor",
+   "latency": 120,
+   "audio_duration_ms": 9090,
+   "message": null
+  },
+  {
+   "t": 102.871,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 105.843,
+   "type": "transcript",
+   "text": "A see",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 108.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.149,
+   "type": "transcript",
+   "text": "ana went all the fish",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 118.787,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 128.298,
+   "type": "transcript",
+   "text": "A sun sun ana was and tha fun",
+   "latency": 120,
+   "audio_duration_ms": 9090,
+   "message": null
+  },
+  {
+   "t": 131.914,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 141.426,
+   "type": "transcript",
+   "text": "A A sun ana was all across the",
+   "latency": 120,
+   "audio_duration_ms": 9090,
+   "message": null
+  },
+  {
+   "t": 148.098,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 149.703,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1177,
+   "message": null
+  },
+  {
+   "t": 151.284,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 153.018,
+   "type": "transcript",
+   "text": "said",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 156.324,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 159.172,
+   "type": "transcript",
+   "text": "sait small",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 163.247,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 164.977,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ana was across floor",
+   "heard": "ana was across floor",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "A sun",
+   "heard": "A sun",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ana was and tha floor floor",
+   "heard": "ana was and tha floor floor",
+   "muted_words": 0,
+   "duration_s": 6.87
+  },
+  {
+   "text": "A A ant went and the fish",
+   "heard": "A A ant went and the fish",
+   "muted_words": 0,
+   "duration_s": 9.09
+  },
+  {
+   "text": "A small small ant ant went all tha for floor",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 11.31
+  },
+  {
+   "text": "A small ana vas across tha fish",
+   "heard": "A small ana vas across tha fish",
+   "muted_words": 0,
+   "duration_s": 7.98
+  },
+  {
+   "text": "A ana we we and floor",
+   "heard": "A ana we we and floor",
+   "muted_words": 0,
+   "duration_s": 9.09
+  },
+  {
+   "text": "A see",
+   "heard": "A see",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ana went all the fish",
+   "heard": "ana went all the fish",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "A sun sun ana was and tha fun",
+   "heard": "A sun sun ana was and tha fun",
+   "muted_words": 0,
+   "duration_s": 9.09
+  },
+  {
+   "text": "A A sun ana was all across the",
+   "heard": "A A sun ana was all across the",
+   "muted_words": 0,
+   "duration_s": 9.09
+  },
+  {
+   "text": "said ana ant",
+   "heard": "ant",
+   "muted_words": 2,
+   "duration_s": 3.53
+  },
+  {
+   "text": "said",
+   "heard": "said",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "sait small",
+   "heard": "sait small",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 139
+}

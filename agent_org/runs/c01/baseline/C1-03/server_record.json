@@ -1,0 +1,172 @@
+{
+ "id": "20261109-182307-f03436",
+ "text_id": "gu-varsad",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [
+   "ટપ"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 33.8,
+  "words_per_minute": 7.1
+ },
+ "log": [
+  {
+   "t": 0.142,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.269,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.428,
+   "event": "transcript",
+   "text": "ટપ"
+  },
+  {
+   "t": 22.428,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 24.469,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 24.469,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 27.243,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.342,
+   "event": "transcript",
+   "text": "ટપ ઠપ"
+  },
+  {
+   "t": 30.342,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 31.968,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 32.391,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 32.391,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.007,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 20.734,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.428,
+   "type": "transcript",
+   "text": "ટપ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 27.5,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.342,
+   "type": "transcript",
+   "text": "ટપ ઠપ",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ટપ ઠપ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ઠપ",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ",
+   "heard": "ટપ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ ઠપ",
+   "heard": "ટપ ઠપ",
+   "muted_words": 0,
+   "duration_s": 2.42
+  }
+ ],
+ "tts_offline": 120
+}

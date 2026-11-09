@@ -1,0 +1,192 @@
+{
+ "utterances": [
+  {
+   "t": 26.78,
+   "said": "a hav king",
+   "stt": "a king",
+   "stt_notes": [
+    "lost 'hav'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 31.63,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.77,
+   "said": "have",
+   "stt": "have",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.99,
+   "said": "kite",
+   "stt": "kite",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 48.89,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 26.78,
+    "target": "I",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a king"
+   },
+   {
+    "t": 31.63,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 48.89,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "1": [
+   {
+    "t": 26.78,
+    "target": "have",
+    "said": "hav",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a king"
+   },
+   {
+    "t": 37.77,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "echo",
+    "stt": "have"
+   }
+  ],
+  "2": [
+   {
+    "t": 26.78,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "a king"
+   },
+   {
+    "t": 37.77,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "have"
+   }
+  ],
+  "3": [
+   {
+    "t": 26.78,
+    "target": "kite",
+    "said": "king",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a king"
+   },
+   {
+    "t": 44.99,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "echo",
+    "stt": "kite"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 7.31,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 26.82,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 43.58,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... I have a",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 50.76,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "I have a kite of red and blue Now you try!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  }
+ ]
+}

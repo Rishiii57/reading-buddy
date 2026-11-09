@@ -1,0 +1,11 @@
+{"t": 2.66, "kind": "open_app", "brief": "Nisha, Class 3 (about 8.5 years). Prefers gu-IN. Rushes through text."}
+{"t": 2.69, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.26, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.25, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 8.02, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 8.04, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 11.31, "kind": "session_started", "tries": 1}
+{"t": 24.01, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 30.26, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારી' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 60.87, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.3 s into a planned 1.69 s thinking pause."}
+{"t": 72.36, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.03 s thinking pause."}

@@ -1,0 +1,167 @@
+{
+ "utterances": [
+  {
+   "t": 34.4,
+   "said": "I have",
+   "stt": "I have",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.89,
+   "said": "a kite",
+   "stt": "a kite",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 2,
+   "over_buddy": false
+  },
+  {
+   "t": 42.01,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.66,
+   "said": "a king kite",
+   "stt": "a king kite",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.4,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have"
+   }
+  ],
+  "1": [
+   {
+    "t": 34.4,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I have"
+   }
+  ],
+  "2": [
+   {
+    "t": 39.89,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a kite"
+   },
+   {
+    "t": 42.01,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 52.66,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a king kite"
+   }
+  ],
+  "3": [
+   {
+    "t": 39.89,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a kite"
+   },
+   {
+    "t": 52.66,
+    "target": "kite",
+    "said": "king kite",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "a king kite"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 10.77,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 37.79,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... a kite of",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 44.09,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "a kite of red and blue Now you try!",
+   "spans": [
+    [
+     2,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 54.73,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... of red and",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  }
+ ]
+}

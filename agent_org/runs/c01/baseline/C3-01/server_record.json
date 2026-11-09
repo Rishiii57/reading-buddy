@@ -1,0 +1,713 @@
+{
+ "id": "20261109-182835-7ca71f",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 28,
+  "words_helped": 4,
+  "words_to_practise": [
+   "the",
+   "full",
+   "Ravi"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 135.1,
+  "words_per_minute": 14.2
+ },
+ "log": [
+  {
+   "t": 0.037,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.449,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.291,
+   "event": "transcript",
+   "text": "Ravi has a mango tree in his garden"
+  },
+  {
+   "t": 20.291,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 20.291,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 23.898,
+   "event": "transcript",
+   "text": "um see tha tree"
+  },
+  {
+   "t": 23.898,
+   "event": "uncertain",
+   "text": "see tha tree"
+  },
+  {
+   "t": 23.898,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 27.247,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.464,
+   "event": "transcript",
+   "text": "Every summer tree is fish oa of sweet mangoes"
+  },
+  {
+   "t": 33.464,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 33.464,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    13
+   ]
+  },
+  {
+   "t": 33.464,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 41.82,
+   "event": "transcript",
+   "text": "ia full of said mangoes"
+  },
+  {
+   "t": 41.82,
+   "event": "uncertain",
+   "text": "ia full of said mangoes"
+  },
+  {
+   "t": 41.82,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 45.828,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 47.865,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 47.865,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 47.865,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 52.705,
+   "event": "transcript",
+   "text": "full"
+  },
+  {
+   "t": 52.705,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 52.705,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 60.333,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 60.937,
+   "event": "pause"
+  },
+  {
+   "t": 62.448,
+   "event": "resume"
+  },
+  {
+   "t": 64.393,
+   "event": "transcript",
+   "text": "Every"
+  },
+  {
+   "t": 64.393,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 70.812,
+   "event": "transcript",
+   "text": "summer the tree is full of sweet mangoes"
+  },
+  {
+   "t": 70.812,
+   "event": "progress",
+   "frm": 9,
+   "to": 17
+  },
+  {
+   "t": 70.812,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 70.812,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 74.981,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 79.576,
+   "event": "transcript",
+   "text": "run shares the mangoes with his for friends"
+  },
+  {
+   "t": 79.576,
+   "event": "progress",
+   "frm": 17,
+   "to": 24
+  },
+  {
+   "t": 79.576,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    17
+   ]
+  },
+  {
+   "t": 79.576,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 86.596,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 86.596,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 86.596,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 93.341,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 98.16,
+   "event": "transcript",
+   "text": "Ravi the mangoes mangoes went hia friends"
+  },
+  {
+   "t": 98.16,
+   "event": "uncertain",
+   "text": "ravi the mangoes mangoes went hia friends"
+  },
+  {
+   "t": 98.16,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 101.66,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 105.879,
+   "event": "transcript",
+   "text": "Ravi shares the mangoes with his friends"
+  },
+  {
+   "t": 105.879,
+   "event": "progress",
+   "frm": 17,
+   "to": 24
+  },
+  {
+   "t": 105.879,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 105.879,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 109.004,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 113.775,
+   "event": "transcript",
+   "text": "They sit under tha tre and laugh together"
+  },
+  {
+   "t": 113.775,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 113.775,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    27
+   ]
+  },
+  {
+   "t": 113.775,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 27
+  },
+  {
+   "t": 119.085,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 119.085,
+   "event": "drill_ok",
+   "word": 27
+  },
+  {
+   "t": 119.085,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 126.373,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 130.887,
+   "event": "transcript",
+   "text": "They sit under the tree and laugh together"
+  },
+  {
+   "t": 130.887,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 130.887,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 130.887,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 130.887,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.825,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.291,
+   "type": "transcript",
+   "text": "Ravi has a mango tree in his garden",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 21.366,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.898,
+   "type": "transcript",
+   "text": "um see tha tree",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  },
+  {
+   "t": 28.542,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.464,
+   "type": "transcript",
+   "text": "Every summer tree is fish oa of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 38.836,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.82,
+   "type": "transcript",
+   "text": "ia full of said mangoes",
+   "latency": 120,
+   "audio_duration_ms": 2521,
+   "message": null
+  },
+  {
+   "t": 46.757,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.865,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 51.577,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.705,
+   "type": "transcript",
+   "text": "full",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 63.268,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.393,
+   "type": "transcript",
+   "text": "Every",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 66.355,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.812,
+   "type": "transcript",
+   "text": "summer the tree is full of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 75.144,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.576,
+   "type": "transcript",
+   "text": "run shares the mangoes with his for friends",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 85.43,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.596,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 93.731,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 98.16,
+   "type": "transcript",
+   "text": "Ravi the mangoes mangoes went hia friends",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 101.928,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 105.879,
+   "type": "transcript",
+   "text": "Ravi shares the mangoes with his friends",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 109.335,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.775,
+   "type": "transcript",
+   "text": "They sit under tha tre and laugh together",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 117.985,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.085,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 126.457,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.887,
+   "type": "transcript",
+   "text": "They sit under the tree and laugh together",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has a mango tree in his garden",
+   "heard": "Ravi has a mango tree in his garden",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "um see tha tree",
+   "heard": "um see tha tree",
+   "muted_words": 0,
+   "duration_s": 2.1
+  },
+  {
+   "text": "Every summer tree is fish oa of sweet mangoes",
+   "heard": "Every summer tree is fish oa of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "the tree ia full of said mangoes",
+   "heard": "ia full of said mangoes",
+   "muted_words": 2,
+   "duration_s": 3.53
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "full",
+   "heard": "full",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every",
+   "heard": "Every",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "summer the tree is full of sweet mangoes",
+   "heard": "summer the tree is full of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "run shares the mangoes with his for friends",
+   "heard": "run shares the mangoes with his for friends",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Ravi the mangoes mangoes went hia friends",
+   "heard": "Ravi the mangoes mangoes went hia friends",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "Ravi shares the mangoes with his friends",
+   "heard": "Ravi shares the mangoes with his friends",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "They sit under tha tre and laugh together",
+   "heard": "They sit under tha tre and laugh together",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "They sit under the tree and laugh together",
+   "heard": "They sit under the tree and laugh together",
+   "muted_words": 0,
+   "duration_s": 4.01
+  }
+ ],
+ "tts_offline": 266
+}

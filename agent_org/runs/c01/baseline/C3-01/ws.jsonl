@@ -1,0 +1,61 @@
+{"t": 12.07, "type": "ready", "message": null}
+{"t": 12.14, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 28.19, "type": "speech"}
+{"t": 32.48, "type": "heard", "text": "Ravi has a mango tree in his garden"}
+{"t": 32.48, "type": "speech"}
+{"t": 33.78, "type": "speech"}
+{"t": 36.03, "type": "heard", "text": "um see tha tree"}
+{"t": 36.03, "type": "speech"}
+{"t": 36.03, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 40.64, "type": "speech"}
+{"t": 45.7, "type": "heard", "text": "Every summer tree is fish oa of sweet mangoes"}
+{"t": 46.17, "type": "speech"}
+{"t": 46.31, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[10, 11]]}
+{"t": 51.94, "type": "speech"}
+{"t": 54.32, "type": "heard", "text": "ia full of said mangoes"}
+{"t": 54.32, "type": "speech"}
+{"t": 54.33, "type": "say", "kind": "uncertain_word", "text": "Can you say it again? the", "spans": [[10, 11]]}
+{"t": 58.88, "type": "speech"}
+{"t": 60.07, "type": "heard", "text": "the"}
+{"t": 60.07, "type": "speech"}
+{"t": 60.07, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! full", "spans": [[13, 14]]}
+{"t": 63.63, "type": "speech"}
+{"t": 64.78, "type": "heard", "text": "full"}
+{"t": 64.81, "type": "speech"}
+{"t": 64.81, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.", "spans": [[8, 17]]}
+{"t": 75.33, "type": "speech"}
+{"t": 76.54, "type": "heard", "text": "Every"}
+{"t": 76.54, "type": "speech"}
+{"t": 78.41, "type": "speech"}
+{"t": 83.09, "type": "heard", "text": "summer the tree is full of sweet mangoes"}
+{"t": 83.28, "type": "speech"}
+{"t": 83.43, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 87.21, "type": "speech"}
+{"t": 91.63, "type": "heard", "text": "run shares the mangoes with his for friends"}
+{"t": 91.64, "type": "speech"}
+{"t": 91.64, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Ravi", "spans": [[17, 18]]}
+{"t": 97.61, "type": "speech"}
+{"t": 98.93, "type": "heard", "text": "Ravi"}
+{"t": 98.93, "type": "speech"}
+{"t": 98.93, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi shares the mangoes with his friends. Now you say the whole line.", "spans": [[17, 24]]}
+{"t": 105.8, "type": "speech"}
+{"t": 110.23, "type": "heard", "text": "Ravi the mangoes mangoes went hia friends"}
+{"t": 110.23, "type": "speech"}
+{"t": 110.25, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 114.1, "type": "speech"}
+{"t": 117.96, "type": "heard", "text": "Ravi shares the mangoes with his friends"}
+{"t": 117.98, "type": "speech"}
+{"t": 118.0, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 121.42, "type": "speech"}
+{"t": 126.01, "type": "heard", "text": "They sit under tha tre and laugh together"}
+{"t": 126.06, "type": "speech"}
+{"t": 126.06, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[27, 28]]}
+{"t": 130.12, "type": "speech"}
+{"t": 131.17, "type": "heard", "text": "the"}
+{"t": 131.19, "type": "speech"}
+{"t": 131.24, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! They sit under the tree and laugh together. Now you say the whole line.", "spans": [[24, 32]]}
+{"t": 138.51, "type": "speech"}
+{"t": 142.99, "type": "heard", "text": "They sit under the tree and laugh together"}
+{"t": 143.01, "type": "speech"}
+{"t": 143.24, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 143.27, "type": "summary", "summary": {"words_total": 32, "words_read": 28, "words_helped": 4, "words_to_practise": ["the", "full", "Ravi"], "words_practised": 4, "correction_attempts": 4, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 3, "seconds": 130.9, "words_per_minute": 14.7}}

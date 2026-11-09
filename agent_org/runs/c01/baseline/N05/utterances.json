@@ -1,0 +1,74 @@
+{
+ "utterances": [
+  {
+   "t": 17.29,
+   "said": "મારો",
+   "stt": "માડો",
+   "stt_notes": [
+    "'મારો' heard as 'માડો'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 29.85,
+   "said": "મારો",
+   "stt": "મારો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 17.29,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "echo",
+    "stt": "માડો"
+   },
+   {
+    "t": 29.85,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મારો"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 6.85,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 31.94,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પતંગ લાલ ને",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ ]
+}
