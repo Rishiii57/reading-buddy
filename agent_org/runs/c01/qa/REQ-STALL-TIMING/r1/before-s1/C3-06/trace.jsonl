@@ -1,0 +1,20 @@
+{"t": 2.19, "kind": "open_app", "brief": "Veer, Class 3 (about 8.5 years). Prefers gu-IN. Explores the app without a grown-up."}
+{"t": 2.29, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.15, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.3, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.28, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.15, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.51, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 16.88, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.09, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 18.87, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 19.7, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 21.43, "kind": "session_started", "tries": 1}
+{"t": 34.07, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 38.74, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 90.46, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'ત્યાં' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 97.23, "kind": "tap_mic_to_talk"}
+{"t": 97.24, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 98.0, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 98.51, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 99.29, "kind": "resumed", "after_s": 0.5}

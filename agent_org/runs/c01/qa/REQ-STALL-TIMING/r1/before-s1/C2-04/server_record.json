@@ -1,0 +1,441 @@
+{
+ "id": "20261109-184843-066d36",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 20,
+  "words_helped": 3,
+  "words_to_practise": [
+   "rice"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 5,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 1,
+  "seconds": 80.9,
+  "words_per_minute": 17.1
+ },
+ "log": [
+  {
+   "t": 0.124,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.907,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.632,
+   "event": "transcript",
+   "text": "A small ant walked across the floor"
+  },
+  {
+   "t": 18.632,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 18.632,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 24.586,
+   "event": "transcript",
+   "text": "It carried a grain ran oa ita back"
+  },
+  {
+   "t": 24.586,
+   "event": "progress",
+   "frm": 7,
+   "to": 11
+  },
+  {
+   "t": 30.585,
+   "event": "transcript",
+   "text": "oa of rice on its its bed back"
+  },
+  {
+   "t": 30.585,
+   "event": "progress",
+   "frm": 11,
+   "to": 16
+  },
+  {
+   "t": 30.585,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 30.585,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 30.585,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 34.443,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.092,
+   "event": "transcript",
+   "text": "its back"
+  },
+  {
+   "t": 36.092,
+   "event": "restart",
+   "frm": 16,
+   "to": 14
+  },
+  {
+   "t": 39.807,
+   "event": "transcript",
+   "text": "The run was bigger"
+  },
+  {
+   "t": 39.807,
+   "event": "progress",
+   "frm": 16,
+   "to": 20
+  },
+  {
+   "t": 42.158,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    17
+   ]
+  },
+  {
+   "t": 42.158,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 49.18,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 49.18,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 49.18,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 56.375,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 60.122,
+   "event": "transcript",
+   "text": "The rice was bigger than"
+  },
+  {
+   "t": 60.122,
+   "event": "progress",
+   "frm": 16,
+   "to": 21
+  },
+  {
+   "t": 62.152,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 21,
+   "to": 23,
+   "line": 2
+  },
+  {
+   "t": 62.152,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 21,
+   "to": 23
+  },
+  {
+   "t": 65.588,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 67.012,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 67.012,
+   "event": "progress",
+   "frm": 21,
+   "to": 22
+  },
+  {
+   "t": 69.077,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 22,
+   "to": 23,
+   "line": 2
+  },
+  {
+   "t": 69.077,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 22,
+   "to": 23
+  },
+  {
+   "t": 72.31,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 72.649,
+   "event": "pause"
+  },
+  {
+   "t": 78.73,
+   "event": "resume"
+  },
+  {
+   "t": 80.891,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 22,
+   "to": 23,
+   "line": 2
+  },
+  {
+   "t": 80.891,
+   "event": "prompt",
+   "level": 2,
+   "line": 2,
+   "frm": 22,
+   "to": 23
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.122,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.632,
+   "type": "transcript",
+   "text": "A small ant walked across the floor",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 19.521,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.586,
+   "type": "transcript",
+   "text": "It carried a grain ran oa ita back",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 25.524,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.585,
+   "type": "transcript",
+   "text": "oa of rice on its its bed back",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 34.503,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.092,
+   "type": "transcript",
+   "text": "its back",
+   "latency": 120,
+   "audio_duration_ms": 1169,
+   "message": null
+  },
+  {
+   "t": 36.956,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.807,
+   "type": "transcript",
+   "text": "The run was bigger",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 47.999,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.18,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 56.723,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.122,
+   "type": "transcript",
+   "text": "The rice was bigger than",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 65.821,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.012,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant walked across the floor",
+   "heard": "A small ant walked across the floor",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "It carried a grain ran oa ita back",
+   "heard": "It carried a grain ran oa ita back",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "oa of rice on its its bed back",
+   "heard": "oa of rice on its its bed back",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "oa of ran oa on its back",
+   "heard": "its back",
+   "muted_words": 5,
+   "duration_s": 4.09
+  },
+  {
+   "text": "The run was bigger",
+   "heard": "The run was bigger",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "to the ant",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 1.87
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "The rice was bigger than",
+   "heard": "The rice was bigger than",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ana",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 67
+}

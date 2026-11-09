@@ -1,0 +1,66 @@
+{"t": 12.2, "type": "ready", "message": null}
+{"t": 12.24, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 28.62, "type": "speech"}
+{"t": 31.73, "type": "heard", "text": "has mango tree"}
+{"t": 31.73, "type": "speech"}
+{"t": 31.86, "type": "speech"}
+{"t": 33.24, "type": "heard", "text": "ia"}
+{"t": 33.24, "type": "speech"}
+{"t": 35.21, "type": "speech"}
+{"t": 38.12, "type": "heard", "text": "his his garden"}
+{"t": 38.12, "type": "speech"}
+{"t": 38.15, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Ravi", "spans": [[0, 1]]}
+{"t": 42.51, "type": "speech"}
+{"t": 47.89, "type": "heard", "text": "a my tre tree his garden"}
+{"t": 48.29, "type": "speech"}
+{"t": 48.29, "type": "say", "kind": "uncertain_word", "text": "Can you say it again? Ravi", "spans": [[0, 1]]}
+{"t": 58.8, "type": "speech"}
+{"t": 60.2, "type": "heard", "text": "Ravi"}
+{"t": 60.2, "type": "speech"}
+{"t": 60.2, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! has", "spans": [[1, 2]]}
+{"t": 64.54, "type": "speech"}
+{"t": 66.07, "type": "heard", "text": "has"}
+{"t": 66.07, "type": "speech"}
+{"t": 66.07, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! a", "spans": [[2, 3]]}
+{"t": 69.7, "type": "speech"}
+{"t": 70.98, "type": "heard", "text": "a"}
+{"t": 70.98, "type": "speech"}
+{"t": 70.99, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! in", "spans": [[5, 6]]}
+{"t": 75.67, "type": "speech"}
+{"t": 76.08, "type": "heard", "text": "ia"}
+{"t": 76.12, "type": "speech"}
+{"t": 76.13, "type": "say", "kind": "fix_again", "text": "in", "spans": [[5, 6]]}
+{"t": 79.33, "type": "speech"}
+{"t": 81.49, "type": "heard", "text": "in in"}
+{"t": 81.49, "type": "speech"}
+{"t": 81.49, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.", "spans": [[0, 8]]}
+{"t": 89.25, "type": "speech"}
+{"t": 94.58, "type": "heard", "text": "Ravi haa a a mum mango"}
+{"t": 94.58, "type": "speech"}
+{"t": 96.45, "type": "speech"}
+{"t": 101.14, "type": "heard", "text": "tree tree in his garden"}
+{"t": 101.14, "type": "speech"}
+{"t": 101.14, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. has", "spans": [[1, 2]]}
+{"t": 104.89, "type": "speech"}
+{"t": 106.23, "type": "heard", "text": "has"}
+{"t": 106.23, "type": "speech"}
+{"t": 106.23, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.", "spans": [[0, 8]]}
+{"t": 112.68, "type": "speech"}
+{"t": 114.93, "type": "heard", "text": "rafi haa"}
+{"t": 115.19, "type": "speech"}
+{"t": 115.19, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 119.08, "type": "speech"}
+{"t": 125.23, "type": "heard", "text": "has a mango tree ia his get"}
+{"t": 125.23, "type": "speech"}
+{"t": 126.38, "type": "speech"}
+{"t": 127.79, "type": "heard", "text": "garden"}
+{"t": 127.82, "type": "speech"}
+{"t": 127.88, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Ravi", "spans": [[0, 1]]}
+{"t": 131.8, "type": "speech"}
+{"t": 133.34, "type": "heard", "text": "ran"}
+{"t": 133.49, "type": "speech"}
+{"t": 133.57, "type": "say", "kind": "fix_again", "text": "Ravi", "spans": [[0, 1]]}
+{"t": 136.82, "type": "speech"}
+{"t": 138.26, "type": "heard", "text": "red"}
+{"t": 138.29, "type": "speech"}
+{"t": 138.31, "type": "say", "kind": "fix_again", "text": "Ravi", "spans": [[0, 1]]}

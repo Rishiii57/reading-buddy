@@ -2,54 +2,102 @@
  "started": "2026-11-09T18:46:46",
  "agents": {
   "L01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "18:46:46"
+   "since": "18:46:46",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L05": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "18:46:46"
+   "since": "18:46:46",
+   "outcome": "ended_early",
+   "issues": 6
   },
   "C1-01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "18:46:46"
+   "since": "18:46:46",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "C1-02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "18:46:46"
+   "since": "18:46:46",
+   "outcome": "abandoned_frustration",
+   "issues": 4
   },
   "C1-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:47:36",
+   "outcome": "abandoned_frustration",
+   "issues": 3
   },
   "C1-06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:47:51",
+   "outcome": "left_before_start",
+   "issues": 3
   },
   "C2-02": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:48:07",
+   "outcome": "ended_early",
+   "issues": 5
   },
   "C2-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:48:09",
+   "outcome": "ended_early",
+   "issues": 7
   },
   "C2-04": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:48:30",
+   "outcome": "abandoned_frustration",
+   "issues": 4
   },
   "C2-06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:49:08",
+   "outcome": "completed",
+   "issues": 5
   },
   "C3-02": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:50:08",
+   "outcome": "completed",
+   "issues": 1
   },
   "C3-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:51:10",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "C3-04": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:51:24",
+   "outcome": "abandoned_frustration",
+   "issues": 3
   },
   "C3-06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "18:51:28",
+   "outcome": "completed",
+   "issues": 5
   }
  }
 }

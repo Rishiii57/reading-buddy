@@ -1,0 +1,265 @@
+{
+ "id": "20261109-184700-e51a7c",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 1,
+  "words_helped": 2,
+  "words_to_practise": [
+   "एक",
+   "पर"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 62.8,
+  "words_per_minute": 2.9
+ },
+ "log": [
+  {
+   "t": 0.062,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.688,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.497,
+   "event": "transcript",
+   "text": "एक पेड़ पड़"
+  },
+  {
+   "t": 23.497,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 25.085,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 25.543,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 25.543,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 32.002,
+   "event": "transcript",
+   "text": "पर"
+  },
+  {
+   "t": 32.002,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 32.002,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 40.395,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 42.925,
+   "event": "transcript",
+   "text": "ए पेर"
+  },
+  {
+   "t": 42.925,
+   "event": "uncertain",
+   "text": "ए पेर"
+  },
+  {
+   "t": 42.925,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 46.475,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.087,
+   "event": "transcript",
+   "text": "ए"
+  },
+  {
+   "t": 48.087,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 50.1,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 50.1,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 58.74,
+   "event": "pause"
+  },
+  {
+   "t": 61.632,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 20.565,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.497,
+   "type": "transcript",
+   "text": "एक पेड़ पड़",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 30.593,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.002,
+   "type": "transcript",
+   "text": "पर",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 40.745,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.925,
+   "type": "transcript",
+   "text": "ए पेर",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 46.689,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.087,
+   "type": "transcript",
+   "text": "ए",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "एक पेड़ पर ए एक छोटी चिड़िया रहती",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 6.35
+  },
+  {
+   "text": "एक पेढ़ पेड़ पर एक छोठी छोटी चिड़िया रहती",
+   "heard": "",
+   "muted_words": 9,
+   "duration_s": 7.12
+  },
+  {
+   "text": "एक पेड़ पड़",
+   "heard": "एक पेड़ पड़",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "पड़ छोटी चिढ़िया",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.51
+  },
+  {
+   "text": "पर",
+   "heard": "पर",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "ए पेर",
+   "heard": "ए पेर",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "ए",
+   "heard": "ए",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 32
+}
