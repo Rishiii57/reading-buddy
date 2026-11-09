@@ -130,6 +130,21 @@ def submit(req: str, summary: str, root_cause: str, roles: list[str] | None):
         print("WARNING: files outside the owning roles' areas; QA/human review should look at:", outside)
 
 
+def refresh(req: str):
+    """Bring a requirement branch up to date with the integration branch (after other validated merges).
+    QA then compares against the new integration commit, so only this requirement's change is measured."""
+    rec = record(req)
+    wt = Path(rec["worktree"])
+    head = sh(["git", "rev-parse", "HEAD"])
+    sh(["git", "-c", "user.name=Reading Buddy Integration (AI)", "-c", "user.email=noreply@anthropic.com", "merge", "-q",
+        "--no-edit", head], cwd=wt)
+    rec.setdefault("refreshes", []).append({"at": time.strftime("%Y-%m-%dT%H:%M:%S"), "from_base": rec["base_commit"], "to_base": head})
+    rec["base_commit"] = head
+    save_record(req, rec)
+    set_status(rc_of(req), "in_progress", f"branch refreshed onto integration {head[:8]}")
+    print(f"{req}: merged integration {head[:8]} into {rec['branch']}; QA base is now {head[:8]}")
+
+
 def merge(req: str):
     item = backlog()["items"].get(rc_of(req), {})
     if item.get("status") != "validated_fixed":
@@ -158,12 +173,15 @@ def main(argv=None):
     s = sub.add_parser("submit"); s.add_argument("req"); s.add_argument("--summary", required=True)
     s.add_argument("--root-cause", required=True); s.add_argument("--roles")
     s = sub.add_parser("merge"); s.add_argument("req")
+    s = sub.add_parser("refresh"); s.add_argument("req")
     sub.add_parser("status")
     a = ap.parse_args(argv)
     if a.cmd == "start":
         start(a.req, a.role)
     elif a.cmd == "submit":
         submit(a.req, a.summary, a.root_cause, a.roles.split(",") if a.roles else None)
+    elif a.cmd == "refresh":
+        refresh(a.req)
     elif a.cmd == "merge":
         merge(a.req)
     else:

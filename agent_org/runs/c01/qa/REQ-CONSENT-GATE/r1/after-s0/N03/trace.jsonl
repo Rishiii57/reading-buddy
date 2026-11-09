@@ -1,0 +1,16 @@
+{"t": 2.08, "kind": "open_app", "brief": "Vihaan, Nursery (about 3.5 years). Prefers gu-IN. Very curious with tablets; short attention."}
+{"t": 2.1, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.57, "kind": "tap", "target": "Reading Buddy", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.53, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.81, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.58, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 7.82, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 7.82, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 2-4' text, made for children who already read."}
+{"t": 12.14, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.34, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.19, "kind": "session_started", "tries": 1}
+{"t": 15.2, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 26.97, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 32.06, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.89 s thinking pause."}
+{"t": 32.11, "kind": "abandon", "why": "frustration", "frustration": 2.85}
+{"t": 32.87, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,94 @@
+{
+ "id": "20261109-204016-24461b",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 24.4,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.217,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.536,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.412,
+   "event": "transcript",
+   "text": "बाद बाद"
+  },
+  {
+   "t": 19.412,
+   "event": "uncertain",
+   "text": "बाद बाद"
+  },
+  {
+   "t": 19.412,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 23.31,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.567,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.412,
+   "type": "transcript",
+   "text": "बाद बाद",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "बाद बाद",
+   "heard": "बाद बाद",
+   "muted_words": 0,
+   "duration_s": 2.42
+  }
+ ],
+ "tts_offline": 11
+}

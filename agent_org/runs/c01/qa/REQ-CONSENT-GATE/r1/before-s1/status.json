@@ -51,9 +51,11 @@
    "issues": 4
   },
   "C2-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "20:37:04"
+   "since": "20:37:04",
+   "outcome": "completed",
+   "issues": 7
   },
   "C3-06": {
    "state": "done",

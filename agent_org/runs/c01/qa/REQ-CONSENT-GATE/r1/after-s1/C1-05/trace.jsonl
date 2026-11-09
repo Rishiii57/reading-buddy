@@ -1,0 +1,16 @@
+{"t": 5.14, "kind": "open_app", "brief": "Om, Class 1 (about 6.5 years). Prefers hi-IN. Confident Hindi reader for his age."}
+{"t": 5.23, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.15, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.17, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 12.6, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.66, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.36, "kind": "session_started", "tries": 1}
+{"t": 31.73, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 33.35, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 42.55, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.6 s into a planned 2.98 s thinking pause."}
+{"t": 55.56, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 3.44 s thinking pause."}
+{"t": 67.65, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.49 s thinking pause."}
+{"t": 80.81, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 83.51, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'घोंसले' correctly but Buddy asked to practise it."}
+{"t": 83.54, "kind": "abandon", "why": "frustration", "frustration": 5.05}
+{"t": 84.07, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
