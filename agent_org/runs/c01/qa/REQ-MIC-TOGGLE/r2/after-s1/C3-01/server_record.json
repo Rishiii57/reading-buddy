@@ -1,0 +1,470 @@
+{
+ "id": "20261109-203041-ff5582",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 29,
+  "words_helped": 3,
+  "words_to_practise": [
+   "tree",
+   "is",
+   "of"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 79.6,
+  "words_per_minute": 24.1
+ },
+ "log": [
+  {
+   "t": 0.017,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.412,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.044,
+   "event": "transcript",
+   "text": "Ravi has a mango tree in his garden"
+  },
+  {
+   "t": 19.044,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 19.044,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 24.384,
+   "event": "transcript",
+   "text": "Every summer the the ia full sweet mangoes"
+  },
+  {
+   "t": 24.384,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 24.384,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    11,
+    12,
+    14
+   ]
+  },
+  {
+   "t": 24.384,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 29.174,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 29.174,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 29.174,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 34.152,
+   "event": "transcript",
+   "text": "is"
+  },
+  {
+   "t": 34.152,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 34.152,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 39.966,
+   "event": "transcript",
+   "text": "of"
+  },
+  {
+   "t": 39.966,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 39.966,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 47.622,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 53.52,
+   "event": "transcript",
+   "text": "Every summer the tree is full of sweet sweet mangoes"
+  },
+  {
+   "t": 53.52,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 53.52,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 53.52,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 57.182,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 61.823,
+   "event": "transcript",
+   "text": "Ravi shares the mangoes with hia his fish"
+  },
+  {
+   "t": 61.823,
+   "event": "progress",
+   "frm": 17,
+   "to": 23
+  },
+  {
+   "t": 63.807,
+   "event": "transcript",
+   "text": "for"
+  },
+  {
+   "t": 63.807,
+   "event": "uncertain",
+   "text": "fish for"
+  },
+  {
+   "t": 63.807,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 67.081,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 68.524,
+   "event": "transcript",
+   "text": "friends"
+  },
+  {
+   "t": 68.524,
+   "event": "progress",
+   "frm": 23,
+   "to": 24
+  },
+  {
+   "t": 68.524,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 74.772,
+   "event": "transcript",
+   "text": "They sia sit under the tree and laugh together"
+  },
+  {
+   "t": 74.772,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 74.772,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 74.772,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 74.772,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.596,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.044,
+   "type": "transcript",
+   "text": "Ravi has a mango tree in his garden",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 19.908,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.384,
+   "type": "transcript",
+   "text": "Every summer the the ia full sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 28.072,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.174,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 33.052,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.152,
+   "type": "transcript",
+   "text": "is",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 38.86,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.966,
+   "type": "transcript",
+   "text": "of",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 47.976,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.52,
+   "type": "transcript",
+   "text": "Every summer the tree is full of sweet sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4960,
+   "message": null
+  },
+  {
+   "t": 57.39,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.823,
+   "type": "transcript",
+   "text": "Ravi shares the mangoes with hia his fish",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 62.706,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.807,
+   "type": "transcript",
+   "text": "for",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 67.423,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.524,
+   "type": "transcript",
+   "text": "friends",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 69.739,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.772,
+   "type": "transcript",
+   "text": "They sia sit under the tree and laugh together",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has a mango tree in his garden",
+   "heard": "Ravi has a mango tree in his garden",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "Every summer the the ia full sweet mangoes",
+   "heard": "Every summer the the ia full sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "is",
+   "heard": "is",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "of",
+   "heard": "of",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every summer the tree is full of sweet sweet mangoes",
+   "heard": "Every summer the tree is full of sweet sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.96
+  },
+  {
+   "text": "Ravi shares the mangoes with hia his fish",
+   "heard": "Ravi shares the mangoes with hia his fish",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "for",
+   "heard": "for",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "friends",
+   "heard": "friends",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "They sia sit under the tree and laugh together",
+   "heard": "They sia sit under the tree and laugh together",
+   "muted_words": 0,
+   "duration_s": 4.49
+  }
+ ],
+ "tts_offline": 118
+}

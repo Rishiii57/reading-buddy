@@ -1,0 +1,433 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-MIC-TOGGLE/r2-before-s0",
+ "agent_id": "C3-01",
+ "seed": 1578,
+ "persona": {
+  "id": "C3-01",
+  "name": "Zoya",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 41.32,
+    "details": [
+     "Buddy started talking 2.0 s into a planned 2.02 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 2.09 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 41.32,
+      "paused_s": 2.0,
+      "planned_s": 2.02,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "sweet mangoes."
+     },
+     {
+      "t": 164.23,
+      "paused_s": 2.1,
+      "planned_s": 2.09,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "the mangoes with"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 84.37,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead.",
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 84.37,
+      "bubble": "Press play when you're ready to keep reading."
+     },
+     {
+      "t": 200.93,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 99.83,
+    "details": [
+     "Asked to say 'the' 3 times.",
+     "Asked to say 'the' 4 times.",
+     "Asked to say 'the' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 99.83,
+      "word": "the",
+      "times": 3
+     },
+     {
+      "t": 120.32,
+      "word": "the",
+      "times": 4
+     },
+     {
+      "t": 223.88,
+      "word": "the",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 157.75,
+    "details": [
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 157.75,
+      "said": "Ravi shares mangoes with his fun",
+      "heard": ""
+     },
+     {
+      "t": 212.47,
+      "said": "They sit under the tree and laugh together",
+      "heard": "laugh together"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 221.31,
+    "details": [
+     "Read 'the' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 221.31,
+      "word": "the",
+      "child_said": "the",
+      "speech_model_wrote": "They sia sit under dhe tree and laugh together"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.15,
+  "frustration_events": [
+   {
+    "t": 32.08,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 34.0,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 39.26,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 41.32,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 2.0
+   },
+   {
+    "t": 50.07,
+    "kind": "praise",
+    "frustration": 0.6
+   },
+   {
+    "t": 54.36,
+    "kind": "praise",
+    "frustration": 0.2
+   },
+   {
+    "t": 71.81,
+    "kind": "progress",
+    "frustration": 0.05
+   },
+   {
+    "t": 84.37,
+    "kind": "unexpected_pause",
+    "frustration": 0.85
+   },
+   {
+    "t": 91.56,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 99.83,
+    "kind": "drill_repeat",
+    "frustration": 1.4,
+    "word": "the"
+   },
+   {
+    "t": 100.95,
+    "kind": "praise",
+    "frustration": 1.0
+   },
+   {
+    "t": 116.96,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 120.32,
+    "kind": "drill_repeat",
+    "frustration": 1.55,
+    "word": "the"
+   },
+   {
+    "t": 121.44,
+    "kind": "praise",
+    "frustration": 1.15
+   },
+   {
+    "t": 136.98,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 144.32,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 149.29,
+    "kind": "praise",
+    "frustration": 0.45
+   },
+   {
+    "t": 157.75,
+    "kind": "unheard_speech",
+    "frustration": 1.25
+   },
+   {
+    "t": 157.75,
+    "kind": "progress",
+    "frustration": 1.1
+   },
+   {
+    "t": 162.17,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 164.23,
+    "kind": "interrupted_pause",
+    "frustration": 1.95,
+    "paused_s": 2.1
+   },
+   {
+    "t": 170.07,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 170.09,
+    "kind": "praise",
+    "frustration": 1.4
+   },
+   {
+    "t": 177.63,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 192.12,
+    "kind": "progress",
+    "frustration": 1.1
+   },
+   {
+    "t": 194.97,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 200.93,
+    "kind": "unexpected_pause",
+    "frustration": 1.75
+   },
+   {
+    "t": 212.47,
+    "kind": "unheard_speech",
+    "frustration": 2.55
+   },
+   {
+    "t": 212.47,
+    "kind": "progress",
+    "frustration": 2.4
+   },
+   {
+    "t": 220.51,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 221.31,
+    "kind": "false_correction",
+    "frustration": 3.45,
+    "word": "the"
+   },
+   {
+    "t": 223.88,
+    "kind": "drill_repeat",
+    "frustration": 4.15,
+    "word": "the"
+   },
+   {
+    "t": 236.42,
+    "kind": "progress",
+    "frustration": 4.0
+   },
+   {
+    "t": 236.45,
+    "kind": "praise",
+    "frustration": 3.6
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 7,
+  "interruptions": 2,
+  "unheard_words": 12,
+  "buddy_talk_s": 116.4,
+  "child_talk_s": 58.7,
+  "tired_said": false,
+  "time_to_text_s": 3.3,
+  "reader_page_audio_clips": 0,
+  "intro_s": 11.3,
+  "time_to_first_word_s": 11.3,
+  "session_s": 232.5,
+  "words_total": 32,
+  "words_attempted": 32,
+  "words_said_wrong": 3,
+  "corrections": 8,
+  "buddy_turns": 28,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 20,
+  "words_helped": 12,
+  "words_to_practise": [
+   "Every",
+   "summer",
+   "the",
+   "tree",
+   "is",
+   "full",
+   "shares",
+   "laugh"
+  ],
+  "words_practised": 13,
+  "correction_attempts": 13,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [
+   {
+    "line": 2,
+    "text": "Every summer the tree is full of sweet mangoes.",
+    "mistakes": 12,
+    "words": [
+     "Every",
+     "summer",
+     "the",
+     "tree",
+     "is",
+     "full"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 9,
+  "seconds": 222.7,
+  "words_per_minute": 8.6
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 2,
+  "completion": 5,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 160,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

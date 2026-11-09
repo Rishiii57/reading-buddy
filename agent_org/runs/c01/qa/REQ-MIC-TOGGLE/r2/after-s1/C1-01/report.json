@@ -1,0 +1,408 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-MIC-TOGGLE/r2-after-s1",
+ "agent_id": "C1-01",
+ "seed": 2391,
+ "persona": {
+  "id": "C1-01",
+  "name": "Rudra",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 32.39,
+    "details": [
+     "Buddy started talking 2.5 s into a planned 3.14 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 3.39 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 32.39,
+      "paused_s": 2.5,
+      "planned_s": 3.14,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "in his garden."
+     },
+     {
+      "t": 108.19,
+      "paused_s": 2.1,
+      "planned_s": 3.39,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "garden."
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 50.06,
+    "details": [
+     "7 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 50.06,
+      "said": "Ravi has mango tree his garden garden",
+      "heard": ""
+     },
+     {
+      "t": 65.19,
+      "said": "Ravi haa has a mango tree",
+      "heard": "haa has a mango tree"
+     },
+     {
+      "t": 98.67,
+      "said": "Ravi has has a mango tree in hia good",
+      "heard": "tree in hia good"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 78.42,
+    "details": [
+     "Asked to say 'a' 3 times.",
+     "Asked to say 'a' 4 times."
+    ],
+    "evidence": [
+     {
+      "t": 78.42,
+      "word": "a",
+      "times": 3
+     },
+     {
+      "t": 121.71,
+      "word": "a",
+      "times": 4
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 114.05,
+    "details": [
+     "Read 'Ravi' correctly but Buddy asked to practise it.",
+     "Read 'the' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 114.05,
+      "word": "Ravi",
+      "child_said": "Ravi",
+      "speech_model_wrote": "Ravi haz has a mango tree in hia good"
+     },
+     {
+      "t": 207.43,
+      "word": "the",
+      "child_said": "the",
+      "speech_model_wrote": "Every said summer said summer the to full of sweet mangoes"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'garden' as 'good' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "garden",
+      "child_said": "good",
+      "kind": "sub",
+      "speech_model_wrote": "Ravi haz has a mango tree in hia good"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 4.25,
+  "frustration_events": [
+   {
+    "t": 29.14,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 32.39,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 2.5
+   },
+   {
+    "t": 50.06,
+    "kind": "unheard_speech",
+    "frustration": 1.8
+   },
+   {
+    "t": 50.06,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 56.77,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 65.19,
+    "kind": "unheard_speech",
+    "frustration": 2.3
+   },
+   {
+    "t": 65.19,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 70.23,
+    "kind": "praise",
+    "frustration": 1.75
+   },
+   {
+    "t": 74.79,
+    "kind": "praise",
+    "frustration": 1.35
+   },
+   {
+    "t": 78.42,
+    "kind": "drill_repeat",
+    "frustration": 2.05,
+    "word": "a"
+   },
+   {
+    "t": 80.28,
+    "kind": "praise",
+    "frustration": 1.65
+   },
+   {
+    "t": 98.67,
+    "kind": "unheard_speech",
+    "frustration": 2.45
+   },
+   {
+    "t": 98.67,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 106.08,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 108.19,
+    "kind": "interrupted_pause",
+    "frustration": 3.15,
+    "paused_s": 2.1
+   },
+   {
+    "t": 113.43,
+    "kind": "praise",
+    "frustration": 2.75
+   },
+   {
+    "t": 114.05,
+    "kind": "false_correction",
+    "frustration": 3.95,
+    "word": "Ravi"
+   },
+   {
+    "t": 118.33,
+    "kind": "praise",
+    "frustration": 3.55
+   },
+   {
+    "t": 121.71,
+    "kind": "drill_repeat",
+    "frustration": 4.25,
+    "word": "a"
+   },
+   {
+    "t": 123.46,
+    "kind": "praise",
+    "frustration": 3.85
+   },
+   {
+    "t": 147.3,
+    "kind": "progress",
+    "frustration": 3.7
+   },
+   {
+    "t": 157.45,
+    "kind": "progress",
+    "frustration": 3.55
+   },
+   {
+    "t": 165.53,
+    "kind": "praise",
+    "frustration": 3.15
+   },
+   {
+    "t": 172.18,
+    "kind": "dead_click",
+    "frustration": 3.65,
+    "target": "Listening"
+   },
+   {
+    "t": 177.21,
+    "kind": "praise",
+    "frustration": 3.25
+   },
+   {
+    "t": 183.13,
+    "kind": "praise",
+    "frustration": 2.85
+   },
+   {
+    "t": 206.11,
+    "kind": "progress",
+    "frustration": 2.7
+   },
+   {
+    "t": 207.43,
+    "kind": "false_correction",
+    "frustration": 3.9,
+    "word": "the"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 9,
+  "interruptions": 2,
+  "unheard_words": 13,
+  "buddy_talk_s": 101.0,
+  "child_talk_s": 50.5,
+  "tired_said": false,
+  "time_to_text_s": 2.7,
+  "reader_page_audio_clips": 0,
+  "intro_s": 11.5,
+  "time_to_first_word_s": 11.5,
+  "session_s": 198.9,
+  "words_total": 32,
+  "words_attempted": 17,
+  "words_said_wrong": 3,
+  "corrections": 5,
+  "buddy_turns": 25,
+  "stall_prompts": 0,
+  "uncertain_prompts": 3
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 6,
+  "words_helped": 11,
+  "words_to_practise": [
+   "Ravi",
+   "has",
+   "a",
+   "mango",
+   "in",
+   "Every",
+   "the",
+   "tree",
+   "is",
+   "full",
+   "of"
+  ],
+  "words_practised": 12,
+  "correction_attempts": 14,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [
+   {
+    "line": 1,
+    "text": "Ravi has a mango tree in his garden.",
+    "mistakes": 11,
+    "words": [
+     "Ravi",
+     "has",
+     "a",
+     "mango",
+     "in"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 5,
+  "seconds": 199.4,
+  "words_per_minute": 5.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 1,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 77,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

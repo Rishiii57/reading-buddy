@@ -1,0 +1,14 @@
+{"t": 2.48, "kind": "open_app", "brief": "Zoya, Class 3 (about 8.5 years). Prefers en-IN. Struggles with reading expression."}
+{"t": 2.49, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.3, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.16, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 11.05, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.96, "kind": "session_started", "tries": 1}
+{"t": 26.71, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 128.24, "kind": "tap_mic_to_talk"}
+{"t": 128.28, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 129.13, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 130.18, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 130.99, "kind": "resumed", "after_s": 1.0}
+{"t": 135.56, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'the' 3 times."}
+{"t": 158.2, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}

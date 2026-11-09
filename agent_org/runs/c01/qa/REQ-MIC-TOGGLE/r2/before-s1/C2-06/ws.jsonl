@@ -1,0 +1,33 @@
+{"t": 25.06, "type": "ready", "message": null}
+{"t": 26.12, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 41.96, "type": "speech"}
+{"t": 45.63, "type": "heard", "text": "એક નાની ચકલિ હથી હતી"}
+{"t": 45.63, "type": "speech"}
+{"t": 46.51, "type": "speech"}
+{"t": 51.1, "type": "heard", "text": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"}
+{"t": 51.14, "type": "speech"}
+{"t": 51.2, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. રોજ", "spans": [[5, 6]]}
+{"t": 56.31, "type": "speech"}
+{"t": 58.82, "type": "heard", "text": "રોજ"}
+{"t": 58.82, "type": "speech"}
+{"t": 58.82, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 68.06, "type": "speech"}
+{"t": 69.95, "type": "heard", "text": "તે રોજ"}
+{"t": 69.95, "type": "speech"}
+{"t": 71.83, "type": "speech"}
+{"t": 74.68, "type": "heard", "text": "સવારે દાણા શોધવા જતી"}
+{"t": 74.7, "type": "speech"}
+{"t": 74.74, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 78.49, "type": "speech"}
+{"t": 84.68, "type": "heard", "text": "ધિવસ દિવસ તેણે તેને ઘના ઘણા વધા દાણા મળ્યા"}
+{"t": 84.68, "type": "speech"}
+{"t": 84.68, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[10, 11]]}
+{"t": 93.66, "type": "speech"}
+{"t": 95.0, "type": "heard", "text": "એક"}
+{"t": 95.01, "type": "speech"}
+{"t": 95.01, "type": "say", "kind": "fix_next", "text": "હા! ખૂબ સરસ! બધા", "spans": [[14, 15]]}
+{"t": 99.22, "type": "speech"}
+{"t": 100.79, "type": "heard", "text": "વધા"}
+{"t": 100.79, "type": "speech"}
+{"t": 100.79, "type": "say", "kind": "fix_again", "text": "બધા", "spans": [[14, 15]]}
+{"t": 103.6, "type": "summary", "summary": {"words_total": 23, "words_read": 14, "words_helped": 3, "words_to_practise": ["રોજ", "એક", "બધા"], "words_practised": 2, "correction_attempts": 3, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 78.6, "words_per_minute": 13.0}}

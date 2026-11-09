@@ -1,0 +1,43 @@
+{
+ "started": "2026-11-09T20:32:20",
+ "agents": {
+  "N01": {
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:20"
+  },
+  "N03": {
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:20"
+  },
+  "N08": {
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:20"
+  },
+  "L03": {
+   "state": "running",
+   "attempt": 1,
+   "since": "20:32:20"
+  },
+  "U04": {
+   "state": "queued"
+  },
+  "C1-05": {
+   "state": "queued"
+  },
+  "C2-01": {
+   "state": "queued"
+  },
+  "C2-06": {
+   "state": "queued"
+  },
+  "C3-06": {
+   "state": "queued"
+  },
+  "C4-01": {
+   "state": "queued"
+  }
+ }
+}

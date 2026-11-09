@@ -1,0 +1,18 @@
+{"t": 1.78, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
+{"t": 1.81, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.81, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.56, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 4.8, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 8.95, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 8.99, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 11.58, "kind": "session_started", "tries": 1}
+{"t": 23.87, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 38.79, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 52.3, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.3 s into a planned 5.75 s thinking pause."}
+{"t": 57.23, "kind": "tap_mic_to_talk"}
+{"t": 58.1, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 81.04, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'घर' 3 times."}
+{"t": 88.03, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'घर' 4 times."}
+{"t": 93.52, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'घर' 5 times."}
+{"t": 97.14, "kind": "abandon", "why": "frustration", "frustration": 4.85}
+{"t": 97.54, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -200,9 +200,14 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T19:13:51",
      "note": "submitted 50384d0c: keep mic icon visible on hover while listening"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:32:19",
+     "note": "QA round 2: validated_fixed (1/1 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "validated_fixed",
    "priority": "P2"
   },
   "RC-TALK-OVER-BUDDY": {

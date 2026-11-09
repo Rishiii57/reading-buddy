@@ -1,0 +1,23 @@
+{"t": 2.8, "kind": "open_app", "brief": "Avni, Class 2 (about 7.5 years). Prefers gu-IN. Reads English better than Gujarati."}
+{"t": 2.85, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.89, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 5.87, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.1, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 12.77, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.63, "kind": "session_started", "tries": 1}
+{"t": 21.69, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 27.8, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 32.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.65 s thinking pause."}
+{"t": 108.14, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 2.57 s thinking pause."}
+{"t": 119.3, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'દાણા' 3 times."}
+{"t": 123.94, "kind": "tap_mic_to_talk"}
+{"t": 123.95, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 124.76, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 125.78, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 126.64, "kind": "resumed", "after_s": 1.0}
+{"t": 126.71, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'દાણા' 4 times."}
+{"t": 166.79, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 182.2, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 193.19, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.4 s into a planned 1.86 s thinking pause."}
+{"t": 193.2, "kind": "abandon", "why": "frustration", "frustration": 4.65}
+{"t": 193.77, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

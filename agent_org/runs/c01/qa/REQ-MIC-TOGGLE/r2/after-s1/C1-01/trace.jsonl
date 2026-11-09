@@ -1,0 +1,20 @@
+{"t": 1.95, "kind": "open_app", "brief": "Rudra, Class 1 (about 6.5 years). Prefers en-IN. Frequently skips small words."}
+{"t": 2.0, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.87, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 3.68, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.54, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 10.01, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.82, "kind": "session_started", "tries": 1}
+{"t": 32.39, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 3.14 s thinking pause."}
+{"t": 50.06, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 65.19, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 78.42, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'a' 3 times."}
+{"t": 98.67, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 108.19, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.39 s thinking pause."}
+{"t": 114.05, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'Ravi' correctly but Buddy asked to practise it."}
+{"t": 121.71, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'a' 4 times."}
+{"t": 171.36, "kind": "tap_mic_to_talk"}
+{"t": 171.36, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 207.43, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'the' correctly but Buddy asked to practise it."}
+{"t": 207.81, "kind": "abandon", "why": "attention", "frustration": 3.9}
+{"t": 208.46, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
