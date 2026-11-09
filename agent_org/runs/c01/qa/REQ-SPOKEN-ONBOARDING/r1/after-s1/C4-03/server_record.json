@@ -1,0 +1,409 @@
+{
+ "id": "20261109-193422-c36721",
+ "text_id": "gu-shala",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 20,
+  "words_helped": 2,
+  "words_to_practise": [
+   "ત્યાં",
+   "રોજ"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 73.4,
+  "words_per_minute": 18.0
+ },
+ "log": [
+  {
+   "t": 0.214,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.392,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.349,
+   "event": "transcript",
+   "text": "મારી શાળા બહુ સુંદર છે"
+  },
+  {
+   "t": 21.349,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 21.349,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 25.468,
+   "event": "transcript",
+   "text": "શાળામાં એ એક મોટું મેદાન છે"
+  },
+  {
+   "t": 25.468,
+   "event": "progress",
+   "frm": 5,
+   "to": 10
+  },
+  {
+   "t": 25.468,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 25.468,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 25.468,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 29.132,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.692,
+   "event": "transcript",
+   "text": "અમે થ્યાં ત્યાં સાથે ડમીએ રમીએ છીએ"
+  },
+  {
+   "t": 33.692,
+   "event": "progress",
+   "frm": 10,
+   "to": 16
+  },
+  {
+   "t": 33.692,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    11,
+    12
+   ]
+  },
+  {
+   "t": 33.692,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 39.121,
+   "event": "transcript",
+   "text": "ત્યાં"
+  },
+  {
+   "t": 39.121,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 39.121,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 47.976,
+   "event": "transcript",
+   "text": "રોજ"
+  },
+  {
+   "t": 47.976,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 47.976,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 55.715,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 59.248,
+   "event": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ"
+  },
+  {
+   "t": 59.248,
+   "event": "progress",
+   "frm": 10,
+   "to": 15
+  },
+  {
+   "t": 61.209,
+   "event": "transcript",
+   "text": "છીએ"
+  },
+  {
+   "t": 61.209,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 61.209,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 61.209,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 64.735,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 68.796,
+   "event": "transcript",
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે"
+  },
+  {
+   "t": 68.796,
+   "event": "progress",
+   "frm": 16,
+   "to": 22
+  },
+  {
+   "t": 68.796,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 68.796,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 68.796,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.648,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.349,
+   "type": "transcript",
+   "text": "મારી શાળા બહુ સુંદર છે",
+   "latency": 120,
+   "audio_duration_ms": 2280,
+   "message": null
+  },
+  {
+   "t": 22.282,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.468,
+   "type": "transcript",
+   "text": "શાળામાં એ એક મોટું મેદાન છે",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 29.736,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.692,
+   "type": "transcript",
+   "text": "અમે થ્યાં ત્યાં સાથે ડમીએ રમીએ છીએ",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 38.077,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.121,
+   "type": "transcript",
+   "text": "ત્યાં",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 46.931,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.976,
+   "type": "transcript",
+   "text": "રોજ",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 55.761,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.248,
+   "type": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 60.168,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.209,
+   "type": "transcript",
+   "text": "છીએ",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 65.215,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.796,
+   "type": "transcript",
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારી શાળા બહુ સુંદર છે",
+   "heard": "મારી શાળા બહુ સુંદર છે",
+   "muted_words": 0,
+   "duration_s": 2.28
+  },
+  {
+   "text": "શાળામાં એ એક મોટું મેદાન છે",
+   "heard": "શાળામાં એ એક મોટું મેદાન છે",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "અમે થ્યાં ત્યાં સાથે ડમીએ રમીએ છીએ",
+   "heard": "અમે થ્યાં ત્યાં સાથે ડમીએ રમીએ છીએ",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "ત્યાં",
+   "heard": "ત્યાં",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "રોજ",
+   "heard": "રોજ",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "અમે ત્યાં રોજ સાથે રમીએ",
+   "heard": "અમે ત્યાં રોજ સાથે રમીએ",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "છીએ",
+   "heard": "છીએ",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "heard": "મારા શિક્ષક અમને વાર્તા કહે છે",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 92
+}

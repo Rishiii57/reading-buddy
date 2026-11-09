@@ -95,9 +95,14 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T18:38:59",
      "note": "submitted 059b47ce: Buddy speaks a short hint (cached phrase) when a text opens; reader bubbles in the text's language"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T19:38:32",
+     "note": "QA round 1: validated_fixed (1/1 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "validated_fixed",
    "priority": "P1"
   },
   "RC-STALL-TIMING": {

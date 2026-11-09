@@ -1,0 +1,33 @@
+{"t": 13.57, "type": "ready", "message": null}
+{"t": 14.14, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 28.99, "type": "speech"}
+{"t": 31.44, "type": "heard", "text": "बादल गरजे बारिश आई"}
+{"t": 31.44, "type": "speech"}
+{"t": 32.54, "type": "speech"}
+{"t": 33.46, "type": "heard", "text": "ठंडी"}
+{"t": 33.46, "type": "speech"}
+{"t": 35.52, "type": "say", "kind": "stall_phrase", "text": "सुनो... ठंडी हवा भी", "spans": [[5, 8]]}
+{"t": 39.15, "type": "speech"}
+{"t": 42.19, "type": "heard", "text": "ठंडी हवा भी आ आई"}
+{"t": 42.19, "type": "speech"}
+{"t": 42.19, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 44.78, "type": "speech"}
+{"t": 48.39, "type": "heard", "text": "मेंडक मेंढक गाते मीठे गाने"}
+{"t": 48.39, "type": "speech"}
+{"t": 48.9, "type": "speech"}
+{"t": 51.29, "type": "heard", "text": "बच्चे णिकले नाव चलाने"}
+{"t": 51.31, "type": "speech"}
+{"t": 51.35, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। निकले", "spans": [[14, 15]]}
+{"t": 57.12, "type": "speech"}
+{"t": 57.91, "type": "heard", "text": "निकले"}
+{"t": 57.91, "type": "speech"}
+{"t": 58.26, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बच्चे निकले नाव चलाने। अब तुम पूरी पंक्ति बोलो।", "spans": [[13, 17]]}
+{"t": 64.32, "type": "speech"}
+{"t": 65.41, "type": "heard", "text": "बच्चे"}
+{"t": 65.42, "type": "speech"}
+{"t": 67.48, "type": "say", "kind": "stall_phrase", "text": "सुनो... निकले नाव चलाने।", "spans": [[14, 17]]}
+{"t": 71.07, "type": "speech"}
+{"t": 73.14, "type": "heard", "text": "निकले नाव चलाने"}
+{"t": 73.14, "type": "speech"}
+{"t": 73.3, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 73.4, "type": "summary", "summary": {"words_total": 17, "words_read": 11, "words_helped": 6, "words_to_practise": ["निकले"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 2, "corrections": 1, "seconds": 59.6, "words_per_minute": 17.1}}

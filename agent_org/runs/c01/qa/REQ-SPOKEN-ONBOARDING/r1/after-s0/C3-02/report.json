@@ -1,0 +1,411 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s0",
+ "agent_id": "C3-02",
+ "seed": 1595,
+ "persona": {
+  "id": "C3-02",
+  "name": "Rohan",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-bagicha",
+  "title": "मीना का बगीचा",
+  "tags": [
+   "Hindi",
+   "Grade 3-4"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 31.53,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 31.53,
+      "talk_s": 12.8
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 44.52,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 44.52,
+      "said": "ए बगीचा",
+      "heard": ""
+     },
+     {
+      "t": 137.83,
+      "said": "सुबह पौधों को पानी देती है",
+      "heard": ""
+     },
+     {
+      "t": 204.51,
+      "said": "देती देती",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 59.07,
+    "details": [
+     "Buddy started talking 1.8 s into a planned 1.97 s thinking pause.",
+     "Buddy started talking 2.4 s into a planned 2.06 s thinking pause.",
+     "Buddy started talking 2.6 s into a planned 2.23 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 59.07,
+      "paused_s": 1.8,
+      "planned_s": 1.97,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "के पीछे एक"
+     },
+     {
+      "t": 142.2,
+      "paused_s": 2.4,
+      "planned_s": 2.06,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "पौधों को पानी"
+     },
+     {
+      "t": 241.7,
+      "paused_s": 2.6,
+      "planned_s": 2.23,
+      "line": 3,
+      "buddy_kind": "fix_word",
+      "next_words": "से बहुत प्यार"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 200.32,
+    "details": [
+     "Asked to say 'मीना' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 200.32,
+      "word": "मीना",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 246.78,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 246.78,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.4,
+  "frustration_events": [
+   {
+    "t": 31.53,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 33.38,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 40.05,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 44.52,
+    "kind": "unheard_speech",
+    "frustration": 0.9
+   },
+   {
+    "t": 44.52,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 57.0,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 59.07,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 1.8
+   },
+   {
+    "t": 66.0,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 66.07,
+    "kind": "praise",
+    "frustration": 1.05
+   },
+   {
+    "t": 76.11,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 76.18,
+    "kind": "praise",
+    "frustration": 0.5
+   },
+   {
+    "t": 83.61,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 97.36,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 115.42,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 132.33,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 137.83,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 137.83,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 139.79,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 142.2,
+    "kind": "interrupted_pause",
+    "frustration": 1.5,
+    "paused_s": 2.4
+   },
+   {
+    "t": 147.85,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 153.88,
+    "kind": "praise",
+    "frustration": 0.95
+   },
+   {
+    "t": 170.57,
+    "kind": "progress",
+    "frustration": 0.8
+   },
+   {
+    "t": 191.48,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 200.32,
+    "kind": "drill_repeat",
+    "frustration": 1.35,
+    "word": "मीना"
+   },
+   {
+    "t": 201.93,
+    "kind": "praise",
+    "frustration": 0.95
+   },
+   {
+    "t": 204.51,
+    "kind": "unheard_speech",
+    "frustration": 1.75
+   },
+   {
+    "t": 204.51,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 218.34,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 226.39,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 232.58,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 232.7,
+    "kind": "praise",
+    "frustration": 0.75
+   },
+   {
+    "t": 239.07,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 241.7,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 2.6
+   },
+   {
+    "t": 246.78,
+    "kind": "unexpected_pause",
+    "frustration": 2.4
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 6,
+  "interruptions": 3,
+  "unheard_words": 10,
+  "buddy_talk_s": 119.2,
+  "child_talk_s": 49.2,
+  "tired_said": false,
+  "time_to_text_s": 5.7,
+  "reader_page_audio_clips": 1,
+  "intro_s": 13.5,
+  "time_to_first_word_s": 13.5,
+  "session_s": 243.0,
+  "words_total": 30,
+  "words_attempted": 26,
+  "words_said_wrong": 1,
+  "corrections": 7,
+  "buddy_turns": 28,
+  "stall_prompts": 4,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 14,
+  "words_helped": 12,
+  "words_to_practise": [
+   "एक",
+   "मीना",
+   "हर",
+   "सुबह",
+   "पौधों",
+   "पानी",
+   "देती",
+   "अपने"
+  ],
+  "words_practised": 10,
+  "correction_attempts": 11,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 7,
+  "seconds": 243.1,
+  "words_per_minute": 6.4
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 4,
+  "completion": 4,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 167,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,248 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s0",
+ "agent_id": "C4-05",
+ "seed": 1731,
+ "persona": {
+  "id": "C4-05",
+  "name": "Laksh",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "hi-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.85,
+  "patience": 4.8,
+  "attention_span_s": 280
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-bagicha",
+  "title": "मीना का बगीचा",
+  "tags": [
+   "Hindi",
+   "Grade 3-4"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.75,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 28.75,
+      "talk_s": 12.4
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 56.51,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "7 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 56.51,
+      "said": "उसमें लाल और पीले पीले फूल खिलते हैं",
+      "heard": "लाल और पीले पीले फूल खिलते हैं"
+     },
+     {
+      "t": 69.95,
+      "said": "उसमें लाल और पीले फूल खिलते हैं",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 57.32,
+    "details": [
+     "Read 'उसमें' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 57.32,
+      "word": "उसमें",
+      "child_said": "उसमें",
+      "speech_model_wrote": "उसमें लाल और पीले पीले फूल खिलते हैं"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 2.75,
+  "frustration_events": [
+   {
+    "t": 28.75,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 33.66,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 37.12,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 56.51,
+    "kind": "unheard_speech",
+    "frustration": 0.9
+   },
+   {
+    "t": 56.51,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 57.32,
+    "kind": "false_correction",
+    "frustration": 1.95,
+    "word": "उसमें"
+   },
+   {
+    "t": 69.95,
+    "kind": "unheard_speech",
+    "frustration": 2.75
+   },
+   {
+    "t": 69.95,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 75.54,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 76.31,
+    "kind": "praise",
+    "frustration": 2.05
+   },
+   {
+    "t": 84.26,
+    "kind": "progress",
+    "frustration": 1.9
+   },
+   {
+    "t": 88.03,
+    "kind": "progress",
+    "frustration": 1.75
+   },
+   {
+    "t": 89.81,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 106.5,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 106.59,
+    "kind": "praise",
+    "frustration": 1.05
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 0,
+  "unheard_words": 8,
+  "buddy_talk_s": 59.7,
+  "child_talk_s": 21.5,
+  "tired_said": false,
+  "time_to_text_s": 2.2,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.0,
+  "time_to_first_word_s": 14.0,
+  "restart_ok": true,
+  "session_s": 112.6,
+  "words_total": 30,
+  "words_attempted": 30,
+  "words_said_wrong": 0,
+  "corrections": 3,
+  "buddy_turns": 10,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 27,
+  "words_helped": 3,
+  "words_to_practise": [
+   "उसमें",
+   "और",
+   "उसे"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 92.6,
+  "words_per_minute": 19.4
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 171,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

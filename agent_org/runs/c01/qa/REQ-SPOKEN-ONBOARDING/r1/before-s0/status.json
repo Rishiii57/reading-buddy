@@ -51,33 +51,53 @@
    "issues": 5
   },
   "C2-02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:14:36"
+   "since": "19:14:36",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "C2-05": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:14:39"
+   "since": "19:14:39",
+   "outcome": "abandoned_frustration",
+   "issues": 7
   },
   "C3-02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:14:40"
+   "since": "19:14:40",
+   "outcome": "completed",
+   "issues": 4
   },
   "C3-03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:15:22"
+   "since": "19:15:22",
+   "outcome": "completed",
+   "issues": 6
   },
   "C3-05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "19:16:22",
+   "outcome": "completed",
+   "issues": 4
   },
   "C4-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "19:16:58",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "19:17:26",
+   "outcome": "completed",
+   "issues": 4
   }
  }
 }
