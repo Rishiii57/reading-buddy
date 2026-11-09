@@ -20,6 +20,20 @@ const ART_FOR = {
   "en-mango": "mango", "en-ant": "ant", "hi-gudiya": "doll", "hi-chidiya": "nest", "gu-chakli": "nest",
   "hi-bagicha": "garden", "gu-shala": "school",
 };
+// what Buddy shows on the reading page, in the language of the text (REQ-SPOKEN-ONBOARDING)
+const UI = {
+  "en-IN": { hi: "Hi! I'm Buddy.", start: "Press the big microphone and read the first line out loud.",
+    listening: "I'm listening…", readWord: "Read the highlighted word out loud. Take your time!",
+    turn: "Your turn!", wholeLine: "Read the whole line out loud.", sayWord: "Your turn! Say this word:" },
+  "hi-IN": { hi: "नमस्ते! मैं बडी हूँ।", start: "बड़ा माइक दबाओ और पहली पंक्ति ज़ोर से पढ़ो।",
+    listening: "मैं सुन रहा हूँ…", readWord: "चमकता शब्द ज़ोर से पढ़ो। आराम से!",
+    turn: "अब तुम्हारी बारी!", wholeLine: "पूरी पंक्ति ज़ोर से पढ़ो।", sayWord: "अब तुम्हारी बारी! यह शब्द बोलो:" },
+  "gu-IN": { hi: "નમસ્તે! હું બડી છું.", start: "મોટું માઇક દબાવ અને પહેલી પંક્તિ મોટેથી વાંચ.",
+    listening: "હું સાંભળું છું…", readWord: "ચમકતો શબ્દ મોટેથી વાંચ. આરામથી!",
+    turn: "હવે તારો વારો!", wholeLine: "આખી પંક્તિ મોટેથી વાંચ.", sayWord: "હવે તારો વારો! આ શબ્દ બોલ:" },
+};
+function ui(key) { const L = (app.text && UI[app.text.language]) || UI["en-IN"]; return L[key]; }
+function uiLang() { return app.text ? LANGS[app.text.language].html : null; }
 const COLORS = ["#FFC93C", "#FF7A59", "#FF6FA8", "#2FC48F", "#7B5CFF", "#4FB8FF"];
 
 const app = {
@@ -185,7 +199,7 @@ async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/");
   const [page, arg] = parts;
   if (page !== "read" && app.running) { app.leaving = true; stopSession(); }
-  if (page !== "read") stopListen();
+  if (page !== "read") { stopListen(); stopHint(); }
   switch (page) {
     case "languages":
       showView("languages");
@@ -261,6 +275,34 @@ async function openText(id) {
   $("demoBtn").hidden = !meta?.demo;
   $("micBtn").disabled = false;
   renderPassage();
+  resetReaderUI();
+  speakHint(id);
+}
+
+// Buddy says out loud what to do, once per opened text, for children who can't read the screen yet
+async function speakHint(id) {
+  stopHint();
+  const token = (app.hintToken = {});
+  try {
+    const res = await fetch(`/api/phrase/${app.text.language}/reader_hint`);
+    if (!res.ok) return;
+    const { url, text } = await res.json();
+    await ensureAudio();
+    const buf = await getBuffer(url);
+    if (app.hintToken !== token || app.running || app.listening || app.text?.id !== id) return;
+    setBuddy("talking");
+    bubble(ui("hi"), text, "help", uiLang());
+    const s = app.ctx.createBufferSource();
+    s.buffer = buf;
+    s.connect(app.analyser);
+    app.hintSource = s;
+    s.onended = () => { if (app.hintSource === s) { app.hintSource = null; if (!app.running && !app.listening) setBuddy("idle"); } };
+    s.start();
+  } catch (e) { /* audio blocked or unavailable: the written hint stays */ }
+}
+function stopHint() {
+  app.hintToken = null;
+  if (app.hintSource) { try { app.hintSource.stop(); } catch (e) { /* already stopped */ } app.hintSource = null; }
 }
 
 function renderPassage() {
@@ -379,13 +421,13 @@ function bubble(label, text, tone = "", lang = null, hold = 0) {
   if (hold) app.bubbleTimer = setTimeout(() => { if (app.running && !app.tutorSpeaking && !app.paused) listeningBubble(); }, hold);
 }
 function listeningBubble() {
-  bubble("I'm listening…", "Read the highlighted word out loud. Take your time!", "");
+  bubble(ui("listening"), ui("readWord"), "", uiLang());
 }
 
 function resetReaderUI() {
   setDock("idle", "Tap to start reading");
   setBuddy("idle");
-  bubble("Hi! I'm Buddy.", "Press the big microphone and read the first line out loud.");
+  bubble(ui("hi"), ui("start"), "", uiLang());
   $("helpChip").hidden = true;
   $("heardList").innerHTML = "";
   $("heardEmpty").hidden = false;
@@ -734,10 +776,10 @@ function yourTurnBubble() {
   const st = app.last;
   const L = LANGS[app.text.language].html;
   if (st && st.mode === "drill" && st.target != null) {
-    bubble("Your turn! Say this word:", app.text.words[st.target].t.replace(/[,.!?;:।]+$/, ""), "help", L);
+    bubble(ui("sayWord"), app.text.words[st.target].t.replace(/[,.!?;:।]+$/, ""), "help", L);
     showChip("Word practice");
   } else if (st && st.repeat_line) {
-    bubble("Your turn!", "Read the whole line out loud.", "help");
+    bubble(ui("turn"), ui("wholeLine"), "help", L);
   } else {
     app.bubbleTimer = setTimeout(() => { if (app.running && !app.tutorSpeaking && !app.paused) listeningBubble(); }, 2600);
   }
@@ -801,6 +843,7 @@ async function startSession(mode) {
     return;
   }
   stopListen();
+  stopHint();
   try {
     await ensureAudio();
   } catch (e) {
@@ -978,6 +1021,7 @@ function onSummary(s) {
 // =====================================================================================
 async function listenFirst() {
   if (app.listening) { stopListen(); return; }
+  stopHint();
   await ensureAudio();
   app.listening = true;
   $("listenBtn").innerHTML = `<svg class="icon"><use href="#i-stop"/></svg> Stop listening`;
