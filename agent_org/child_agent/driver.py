@@ -339,11 +339,11 @@ class ChildAgent:
         if text_lang and text_lang != lang:
             self.issue("WRONG_LANGUAGE_TEXT", f"Wanted {lang} but ended up on a {text_lang} text.",
                        {"wanted": lang, "got": text_lang, "title": title})
-        grade_tag = next((t for t in tags if t.startswith("Grade")), "")
+        grade_tag = next((t for t in tags if t.startswith("Grade") or t in ("Nursery", "LKG", "UKG")), "")
         self.text_meta["grade_tag"] = grade_tag
-        if self.p.pre_primary:
-            self.issue("NO_TEXT_FOR_MY_LEVEL", f"{self.p.grade} child landed on a '{grade_tag}' text; nothing in the "
-                       "library is marked for Nursery/LKG/UKG.", {"title": title, "grade_tag": grade_tag})
+        if self.p.pre_primary and grade_tag not in ("Nursery", "LKG", "UKG"):
+            self.issue("NO_TEXT_FOR_MY_LEVEL", f"{self.p.grade} child landed on a '{grade_tag}' text, made for "
+                       "children who already read.", {"title": title, "grade_tag": grade_tag})
         return True
 
     async def pick_in_library(self, page, o, explored: int):

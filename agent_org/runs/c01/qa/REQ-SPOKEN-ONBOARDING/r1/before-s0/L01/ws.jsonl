@@ -1,0 +1,11 @@
+{"t": 12.91, "type": "ready", "message": null}
+{"t": 13.07, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 30.01, "type": "speech"}
+{"t": 33.15, "type": "heard", "text": "वादल"}
+{"t": 33.15, "type": "speech"}
+{"t": 35.44, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल", "spans": [[0, 1]]}
+{"t": 40.27, "type": "speech"}
+{"t": 42.49, "type": "heard", "text": "बादल"}
+{"t": 42.89, "type": "speech"}
+{"t": 42.89, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 45.48, "type": "summary", "summary": {"words_total": 17, "words_read": 0, "words_helped": 1, "words_to_practise": ["बादल"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 32.5, "words_per_minute": 1.8}}

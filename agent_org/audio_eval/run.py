@@ -67,7 +67,8 @@ def part_a(root: Path) -> dict:
                 spoken.append(norm(subs[w]) if w in subs else text.words[w].norm)
         trans = [e for e in run["events"] if e["type"] == "transcript"]
         hyp = tokenize(" ".join(e.get("text", "") for e in trans))
-        cond = "noise+hesitation" if meta["variant"].startswith("hard") else meta["variant"].split("_")[0]
+        v = meta["variant"]
+        cond = "noise+hesitation" if v.startswith("hard") else v if v.startswith("aug_") else v.split("_")[0]
         wer[(meta["language"], cond)].append(_wer(spoken, hyp))
         lat[meta["language"]] += [e["latency"] for e in trans if e.get("latency") is not None]
         for seg, tr in zip(meta["segments"], trans):

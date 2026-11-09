@@ -1,0 +1,28 @@
+{"t": 11.08, "type": "ready", "message": null}
+{"t": 11.21, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 25.76, "type": "speech"}
+{"t": 29.44, "type": "heard", "text": "Ravi has has a"}
+{"t": 29.44, "type": "speech"}
+{"t": 31.52, "type": "say", "kind": "stall_phrase", "text": "Listen... mango tree in", "spans": [[3, 6]]}
+{"t": 35.54, "type": "speech"}
+{"t": 41.46, "type": "heard", "text": "tree tree in in his garden"}
+{"t": 41.46, "type": "speech"}
+{"t": 41.46, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. mango", "spans": [[3, 4]]}
+{"t": 47.59, "type": "speech"}
+{"t": 48.9, "type": "heard", "text": "mango"}
+{"t": 49.0, "type": "speech"}
+{"t": 49.1, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.", "spans": [[0, 8]]}
+{"t": 56.02, "type": "speech"}
+{"t": 63.11, "type": "heard", "text": "Ravi haa mango tree in his garden"}
+{"t": 63.39, "type": "speech"}
+{"t": 63.39, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. has", "spans": [[1, 2]]}
+{"t": 67.09, "type": "speech"}
+{"t": 70.77, "type": "heard", "text": "my tree in his"}
+{"t": 70.77, "type": "speech"}
+{"t": 70.77, "type": "say", "kind": "fix_again", "text": "has", "spans": [[1, 2]]}
+{"t": 73.03, "type": "speech"}
+{"t": 74.47, "type": "heard", "text": "has"}
+{"t": 74.48, "type": "speech"}
+{"t": 74.49, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! a", "spans": [[2, 3]]}
+{"t": 81.9, "type": "say", "kind": "fix_again", "text": "a", "spans": [[2, 3]]}
+{"t": 86.17, "type": "summary", "summary": {"words_total": 32, "words_read": 3, "words_helped": 5, "words_to_practise": ["has", "a", "mango"], "words_practised": 2, "correction_attempts": 3, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 75.1, "words_per_minute": 6.4}}

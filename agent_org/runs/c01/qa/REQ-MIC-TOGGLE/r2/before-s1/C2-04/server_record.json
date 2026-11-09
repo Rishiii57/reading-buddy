@@ -1,0 +1,1218 @@
+{
+ "id": "20261109-201650-773048",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 20,
+  "words_helped": 10,
+  "words_to_practise": [
+   "the",
+   "of",
+   "rice",
+   "on",
+   "ant",
+   "did",
+   "not"
+  ],
+  "words_practised": 9,
+  "correction_attempts": 11,
+  "lines_total": 5,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 5,
+  "seconds": 212.6,
+  "words_per_minute": 8.5
+ },
+ "log": [
+  {
+   "t": 0.065,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.394,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.907,
+   "event": "transcript",
+   "text": "A small ant"
+  },
+  {
+   "t": 15.907,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 20.387,
+   "event": "transcript",
+   "text": "walked across tha floor"
+  },
+  {
+   "t": 20.387,
+   "event": "progress",
+   "frm": 3,
+   "to": 7
+  },
+  {
+   "t": 20.387,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 20.387,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 25.921,
+   "event": "transcript",
+   "text": "tha"
+  },
+  {
+   "t": 25.921,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "tha"
+  },
+  {
+   "t": 30.731,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 30.731,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 30.731,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 38.033,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 40.985,
+   "event": "transcript",
+   "text": "A small ant walked"
+  },
+  {
+   "t": 40.985,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 43.041,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 43.041,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 46.471,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.983,
+   "event": "transcript",
+   "text": "across the floor"
+  },
+  {
+   "t": 48.983,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 48.983,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 48.983,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 56.277,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 60.627,
+   "event": "transcript",
+   "text": "cat good rice oa ita back"
+  },
+  {
+   "t": 60.627,
+   "event": "uncertain",
+   "text": "cat good rice oa ita back"
+  },
+  {
+   "t": 60.627,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 64.639,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 72.155,
+   "event": "transcript",
+   "text": "It can carried can carriet a go red its back back"
+  },
+  {
+   "t": 72.155,
+   "event": "uncertain",
+   "text": "it can carried can carriet a go red its back back"
+  },
+  {
+   "t": 72.155,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 76.02,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 82.725,
+   "event": "transcript",
+   "text": "ia It carried a grain grain of ran its back"
+  },
+  {
+   "t": 82.725,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 82.725,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    11,
+    12,
+    13
+   ]
+  },
+  {
+   "t": 82.725,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 90.199,
+   "event": "silence",
+   "word": 11
+  },
+  {
+   "t": 93.931,
+   "event": "transcript",
+   "text": "of"
+  },
+  {
+   "t": 93.931,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 93.931,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 99.679,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 99.679,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 99.679,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 104.465,
+   "event": "transcript",
+   "text": "on"
+  },
+  {
+   "t": 104.465,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 104.465,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 111.385,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 117.789,
+   "event": "transcript",
+   "text": "It carried a grain of rice on its back"
+  },
+  {
+   "t": 117.789,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 117.789,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 117.789,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 120.899,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 121.376,
+   "event": "pause"
+  },
+  {
+   "t": 122.701,
+   "event": "resume"
+  },
+  {
+   "t": 129.584,
+   "event": "transcript",
+   "text": "The rice waa was ball bigger than the ana ant"
+  },
+  {
+   "t": 129.584,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 129.584,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 130.913,
+   "event": "pause"
+  },
+  {
+   "t": 133.177,
+   "event": "resume"
+  },
+  {
+   "t": 138.366,
+   "event": "transcript",
+   "text": "But But the ant did noa give"
+  },
+  {
+   "t": 138.366,
+   "event": "progress",
+   "frm": 23,
+   "to": 29
+  },
+  {
+   "t": 140.383,
+   "event": "transcript",
+   "text": "up"
+  },
+  {
+   "t": 140.383,
+   "event": "progress",
+   "frm": 29,
+   "to": 30
+  },
+  {
+   "t": 140.383,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    27
+   ]
+  },
+  {
+   "t": 140.383,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 27
+  },
+  {
+   "t": 145.643,
+   "event": "transcript",
+   "text": "not not"
+  },
+  {
+   "t": 145.643,
+   "event": "drill_ok",
+   "word": 27
+  },
+  {
+   "t": 145.643,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 151.647,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 155.277,
+   "event": "transcript",
+   "text": "But ana ana did not"
+  },
+  {
+   "t": 155.277,
+   "event": "progress",
+   "frm": 23,
+   "to": 28
+  },
+  {
+   "t": 159.009,
+   "event": "transcript",
+   "text": "give up"
+  },
+  {
+   "t": 159.009,
+   "event": "progress",
+   "frm": 28,
+   "to": 30
+  },
+  {
+   "t": 159.009,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    24,
+    25
+   ]
+  },
+  {
+   "t": 159.009,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 24
+  },
+  {
+   "t": 162.467,
+   "event": "pause"
+  },
+  {
+   "t": 164.341,
+   "event": "resume"
+  },
+  {
+   "t": 166.857,
+   "event": "transcript",
+   "text": "the the"
+  },
+  {
+   "t": 166.857,
+   "event": "drill_ok",
+   "word": 24
+  },
+  {
+   "t": 166.857,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 25
+  },
+  {
+   "t": 171.962,
+   "event": "transcript",
+   "text": "ana"
+  },
+  {
+   "t": 171.962,
+   "event": "drill_miss",
+   "word": 25,
+   "heard": "ana"
+  },
+  {
+   "t": 176.374,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 176.374,
+   "event": "drill_ok",
+   "word": 25
+  },
+  {
+   "t": 176.374,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 182.305,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 188.102,
+   "event": "transcript",
+   "text": "But tha ant bid not go give up up"
+  },
+  {
+   "t": 188.102,
+   "event": "progress",
+   "frm": 23,
+   "to": 30
+  },
+  {
+   "t": 188.102,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    24,
+    26
+   ]
+  },
+  {
+   "t": 188.102,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 24
+  },
+  {
+   "t": 192.502,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 192.502,
+   "event": "drill_ok",
+   "word": 24
+  },
+  {
+   "t": 192.502,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 26
+  },
+  {
+   "t": 197.05,
+   "event": "transcript",
+   "text": "did"
+  },
+  {
+   "t": 197.05,
+   "event": "drill_ok",
+   "word": 26
+  },
+  {
+   "t": 197.05,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 202.971,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 207.853,
+   "event": "transcript",
+   "text": "But But the ant did not give"
+  },
+  {
+   "t": 207.853,
+   "event": "progress",
+   "frm": 23,
+   "to": 29
+  },
+  {
+   "t": 210.026,
+   "event": "transcript",
+   "text": "up"
+  },
+  {
+   "t": 210.026,
+   "event": "progress",
+   "frm": 29,
+   "to": 30
+  },
+  {
+   "t": 210.026,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 210.026,
+   "event": "praise",
+   "phrase": "line_done"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.587,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.907,
+   "type": "transcript",
+   "text": "A small ant",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 17.544,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.387,
+   "type": "transcript",
+   "text": "walked across tha floor",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 24.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.921,
+   "type": "transcript",
+   "text": "tha",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 29.548,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.731,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 38.143,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.985,
+   "type": "transcript",
+   "text": "A small ant walked",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 46.668,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.983,
+   "type": "transcript",
+   "text": "across the floor",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 56.651,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.627,
+   "type": "transcript",
+   "text": "cat good rice oa ita back",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 65.413,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 72.155,
+   "type": "transcript",
+   "text": "It can carried can carriet a go red its back back",
+   "latency": 120,
+   "audio_duration_ms": 6310,
+   "message": null
+  },
+  {
+   "t": 76.534,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.725,
+   "type": "transcript",
+   "text": "ia It carried a grain grain of ran its back",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 92.748,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 93.931,
+   "type": "transcript",
+   "text": "of",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 98.441,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 99.679,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 103.28,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.465,
+   "type": "transcript",
+   "text": "on",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 112.164,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.789,
+   "type": "transcript",
+   "text": "It carried a grain of rice on its back",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 123.404,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 129.584,
+   "type": "transcript",
+   "text": "The rice waa was ball bigger than the ana ant",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 133.856,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 138.366,
+   "type": "transcript",
+   "text": "But But the ant did noa give",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 139.202,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 140.383,
+   "type": "transcript",
+   "text": "up",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 143.912,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 145.643,
+   "type": "transcript",
+   "text": "not not",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 151.876,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 155.277,
+   "type": "transcript",
+   "text": "But ana ana did not",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 157.279,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 159.009,
+   "type": "transcript",
+   "text": "give up",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 165.125,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 166.857,
+   "type": "transcript",
+   "text": "the the",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 170.782,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 171.962,
+   "type": "transcript",
+   "text": "ana",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 175.194,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 176.374,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 182.481,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 188.102,
+   "type": "transcript",
+   "text": "But tha ant bid not go give up up",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 191.322,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 192.502,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 195.869,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 197.05,
+   "type": "transcript",
+   "text": "did",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 203.341,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 207.853,
+   "type": "transcript",
+   "text": "But But the ant did not give",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 208.804,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 210.026,
+   "type": "transcript",
+   "text": "up",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant",
+   "heard": "A small ant",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "walked across tha floor",
+   "heard": "walked across tha floor",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "tha",
+   "heard": "tha",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "A small ant walked",
+   "heard": "A small ant walked",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "across the floor",
+   "heard": "across the floor",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "across the fun",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 1.87
+  },
+  {
+   "text": "cat good rice oa ita back",
+   "heard": "cat good rice oa ita back",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "It can carried can carriet a go red its back back",
+   "heard": "It can carried can carriet a go red its back back",
+   "muted_words": 0,
+   "duration_s": 6.31
+  },
+  {
+   "text": "ia It carried a grain grain of ran its back",
+   "heard": "ia It carried a grain grain of ran its back",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "of",
+   "heard": "of",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "on",
+   "heard": "on",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "It carried a grain of rice on its back",
+   "heard": "It carried a grain of rice on its back",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "The rice waa was ball bigger than the ana ant",
+   "heard": "The rice waa was ball bigger than the ana ant",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "But But the ant did noa give",
+   "heard": "But But the ant did noa give",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "up",
+   "heard": "up",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "not not",
+   "heard": "not not",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "But ana ana did not",
+   "heard": "But ana ana did not",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "give up",
+   "heard": "give up",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "the the",
+   "heard": "the the",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ana",
+   "heard": "ana",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "But tha ant bid not go give up up",
+   "heard": "But tha ant bid not go give up up",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "did",
+   "heard": "did",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "But But the ant did not give",
+   "heard": "But But the ant did not give",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "up",
+   "heard": "up",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 106
+}

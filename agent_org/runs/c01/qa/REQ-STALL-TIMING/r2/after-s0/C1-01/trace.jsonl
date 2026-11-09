@@ -1,0 +1,20 @@
+{"t": 2.2, "kind": "open_app", "brief": "Rudra, Class 1 (about 6.5 years). Prefers en-IN. Frequently skips small words."}
+{"t": 2.21, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.17, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.15, "kind": "tap", "target": "The Rain Song English Grade 1 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.93, "kind": "opened_text", "hash": "#/read/en-rain", "title": "The Rain Song", "tags": ["English", "Grade 1"], "words": 24, "lines": 4}
+{"t": 10.16, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.73, "kind": "session_started", "tries": 1}
+{"t": 26.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 27.67, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.73, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 57.98, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 81.56, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.9 s into a planned 3.28 s thinking pause."}
+{"t": 89.73, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.01 s thinking pause."}
+{"t": 100.87, "kind": "tap_mic_to_talk"}
+{"t": 100.96, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 101.89, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 103.25, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 104.24, "kind": "resumed", "after_s": 0.5}
+{"t": 104.29, "kind": "abandon", "why": "frustration", "frustration": 4.0}
+{"t": 104.6, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

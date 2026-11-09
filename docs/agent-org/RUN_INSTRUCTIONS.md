@@ -64,6 +64,24 @@ This writes `USER_RESEARCH_REPORT.md`, `USER_JOURNEY_ANALYSIS.md`, `PRODUCT_REQU
 .venv/bin/python -m agent_org.dashboard            # agent_org/runs/dashboard.html
 ```
 
+## Steps that spend Gnani credits (run on your machine, with `.env`)
+
+The cloud workspace that built this system cannot reach `api.vachana.ai`, so these steps were prepared but not run there. The team approved using credits within the 5,000 limit. Check the balance at https://app.gnani.ai/voice before and after.
+
+```bash
+# 1. Buddy's voice for the 13 new pre-primary rhymes, the new phrases (reader hint) and every rhyme word (~250 Timbre calls, one-off; cached in cache/tts)
+.venv/bin/python -m backend.pregen --words
+git add cache/tts && git commit -m "TTS cache for pre-primary rhymes"     # so nobody pays for them again
+
+# 2. Real-speech evaluation of fast / slow / whisper / child-like / classroom-noise audio (~1,070 s streamed to Prisma)
+.venv/bin/python -m eval.make_testset            # offline: rebuilds WAVs from the cache
+.venv/bin/python -m agent_org.audio_eval.augment # offline: builds the variants
+.venv/bin/python -m eval.run_stt --variants aug_fast,aug_slow,aug_whisper,aug_childlike,aug_classroom
+.venv/bin/python -m agent_org.audio_eval.run --label real-variants   # now includes the measured variants
+```
+
+`cache/usage.json` keeps a local tally of TTS calls and streamed STT seconds.
+
 ## Adding personas
 
 Add a row to `ROWS` in `agent_org/personas/build_library.py`, then run `python -m agent_org.personas.build_library` (validates) and `python -m agent_org.personas.render_doc`.

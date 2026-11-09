@@ -1,0 +1,8 @@
+{"t": 2.19, "kind": "open_app", "brief": "Manav, Class 4 (about 9.5 years). Prefers gu-IN. Careful Gujarati reader."}
+{"t": 2.2, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.67, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.7, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 10.41, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.09, "kind": "session_started", "tries": 1}
+{"t": 25.2, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.44, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'પતંગ' correctly but Buddy asked to practise it."}

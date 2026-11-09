@@ -1,0 +1,24 @@
+{"t": 1.87, "kind": "open_app", "brief": "Kabir, Class 2 (about 7.5 years). Prefers en-IN. Reads quickly and guesses words from the first letter."}
+{"t": 1.9, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.82, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 3.74, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.75, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.52, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 11.97, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.15, "kind": "session_started", "tries": 1}
+{"t": 25.07, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 49.3, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 58.72, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 72.19, "kind": "tap_mic_to_talk"}
+{"t": 72.22, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 73.71, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 74.28, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 75.56, "kind": "resumed", "after_s": 0.5}
+{"t": 87.61, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'and' 3 times."}
+{"t": 93.06, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'and' 4 times."}
+{"t": 97.53, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'and' 5 times."}
+{"t": 101.41, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'and' 6 times."}
+{"t": 121.12, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 124.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 125.65, "kind": "abandon", "why": "frustration", "frustration": 4.4}
+{"t": 125.99, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

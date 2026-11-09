@@ -1,0 +1,15 @@
+{"t": 1.92, "kind": "open_app", "brief": "Rudra, Class 1 (about 6.5 years). Prefers en-IN. Frequently skips small words."}
+{"t": 1.96, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.83, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 3.7, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.97, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 10.37, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.1, "kind": "session_started", "tries": 1}
+{"t": 25.38, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.94, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 2.79 s thinking pause."}
+{"t": 40.73, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 41.53, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'mango' correctly but Buddy asked to practise it."}
+{"t": 70.69, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 85.78, "kind": "off_task_tap", "target": "About"}
+{"t": 85.87, "kind": "tap", "target": "About", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 87.19, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'About' left the reading page."}

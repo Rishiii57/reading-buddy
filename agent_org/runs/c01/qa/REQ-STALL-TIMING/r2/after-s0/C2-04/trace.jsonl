@@ -1,0 +1,35 @@
+{"t": 2.99, "kind": "open_app", "brief": "Kian, Class 2 (about 7.5 years). Prefers en-IN. Loses his place."}
+{"t": 3.14, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.2, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "curious tap", "view": "view-languages"}
+{"t": 6.1, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.0, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 8.28, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a hi-IN text."}
+{"t": 13.13, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.51, "kind": "session_started", "tries": 1}
+{"t": 17.53, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 29.7, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.75, "kind": "tap_mic_to_talk"}
+{"t": 31.93, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 33.86, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 38.44, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 40.17, "kind": "resumed", "after_s": 2.0}
+{"t": 45.62, "kind": "stuck", "word": "एक", "waited": 5.4}
+{"t": 45.66, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 54.3, "kind": "stuck", "word": "छोटी", "waited": 2.5}
+{"t": 63.56, "kind": "stuck", "word": "थी।", "waited": 2.4}
+{"t": 72.44, "kind": "stuck", "word": "उसने", "waited": 3.6}
+{"t": 84.11, "kind": "stuck", "word": "एक", "waited": 5.5}
+{"t": 86.5, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 97.74, "kind": "stuck", "word": "बनाया।", "waited": 4.3}
+{"t": 103.16, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 109.94, "kind": "stuck", "word": "घोंसले", "waited": 4.0}
+{"t": 123.66, "kind": "stuck", "word": "छोटे", "waited": 4.4}
+{"t": 134.52, "kind": "stuck", "word": "चिड़िया", "waited": 3.6}
+{"t": 146.51, "kind": "stuck", "word": "बच्चों", "waited": 4.4}
+{"t": 162.29, "kind": "stuck", "word": "दाना", "waited": 4.4}
+{"t": 162.3, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 168.8, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 186.33, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 191.49, "kind": "tap", "target": "Read this again", "why": "wants to read it again", "view": "view-summary"}
+{"t": 194.71, "kind": "tap", "target": "Start reading", "why": "starting again", "view": "view-reader"}
+{"t": 211.98, "kind": "restart_ok", "after_s": 16.1}

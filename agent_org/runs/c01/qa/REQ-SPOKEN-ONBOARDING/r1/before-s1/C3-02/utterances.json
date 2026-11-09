@@ -1,0 +1,741 @@
+{
+ "utterances": [
+  {
+   "t": 16.32,
+   "said": "मेरी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'मेरी'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 28.82,
+   "said": "मेरी गुड़िया गुड़िया प्यारी है",
+   "stt": "मेरी गुड़िया गुड़िया प्यारी है",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 32.93,
+   "said": "सबसे न्यारी न्यारी हे है",
+   "stt": "सबसे न्यारी न्यारी हे है",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.26,
+   "said": "लाल चुनड़ी ओड़ के के आथी आथी",
+   "stt": "लाल चुनड़ी ओड़ के के आथी आथी",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.39,
+   "said": "लाल चुणरी ओढ़",
+   "stt": "लाल चुणरी ओढ़",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.73,
+   "said": "के आथी",
+   "stt": "के आथी",
+   "stt_notes": [],
+   "words": [
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.32,
+   "said": "कै आती",
+   "stt": "कै आती",
+   "stt_notes": [],
+   "words": [
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.54,
+   "said": "चुनरी",
+   "stt": "चुनरी",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 69.55,
+   "said": "लल चुनड़ी ओढ़ के आती",
+   "stt": "लल चुनड़ी ओढ़ के आती",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.53,
+   "said": "लल",
+   "stt": "लल",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 80.51,
+   "said": "लाल",
+   "stt": "लाल",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 84.92,
+   "said": "चुनरी",
+   "stt": "चुनरी",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 94.9,
+   "said": "लाल चुनरी ओड़ ओढ़ के आती",
+   "stt": "लाल चुनरी ओड़ ओढ़ के आती",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 101.62,
+   "said": "मीठे मीठे गाणे गाती",
+   "stt": "मीठे मीठे गाणे गाती",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 107.27,
+   "said": "गाने",
+   "stt": "गाने",
+   "stt_notes": [],
+   "words": [
+    15
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 116.87,
+   "said": "मीठे मीठे मीठे गाने गाती",
+   "stt": "मीठे मीठे मीठे गाने गाती",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 16.32,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 28.82,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया गुड़िया प्यारी है"
+   }
+  ],
+  "1": [
+   {
+    "t": 28.82,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया गुड़िया प्यारी है"
+   }
+  ],
+  "2": [
+   {
+    "t": 28.82,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया गुड़िया प्यारी है"
+   }
+  ],
+  "3": [
+   {
+    "t": 28.82,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया गुड़िया प्यारी है"
+   }
+  ],
+  "4": [
+   {
+    "t": 32.93,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी न्यारी हे है"
+   }
+  ],
+  "5": [
+   {
+    "t": 32.93,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी न्यारी हे है"
+   }
+  ],
+  "6": [
+   {
+    "t": 32.93,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी न्यारी हे है"
+   }
+  ],
+  "7": [
+   {
+    "t": 32.93,
+    "target": "है",
+    "said": "हे है",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "सबसे न्यारी न्यारी हे है"
+   }
+  ],
+  "8": [
+   {
+    "t": 40.26,
+    "target": "लाल",
+    "said": "लाल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनड़ी ओड़ के के आथी आथी"
+   },
+   {
+    "t": 46.39,
+    "target": "लाल",
+    "said": "लाल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुणरी ओढ़"
+   },
+   {
+    "t": 69.55,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल चुनड़ी ओढ़ के आती"
+   },
+   {
+    "t": 75.53,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल",
+    "drill": true
+   },
+   {
+    "t": 80.51,
+    "target": "लाल",
+    "said": "लाल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल",
+    "drill": true
+   },
+   {
+    "t": 94.9,
+    "target": "लाल",
+    "said": "लाल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "9": [
+   {
+    "t": 40.26,
+    "target": "चुनरी",
+    "said": "चुनड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लाल चुनड़ी ओड़ के के आथी आथी"
+   },
+   {
+    "t": 46.39,
+    "target": "चुनरी",
+    "said": "चुणरी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लाल चुणरी ओढ़"
+   },
+   {
+    "t": 58.54,
+    "target": "चुनरी",
+    "said": "चुनरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चुनरी",
+    "drill": true
+   },
+   {
+    "t": 69.55,
+    "target": "चुनरी",
+    "said": "चुनड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल चुनड़ी ओढ़ के आती"
+   },
+   {
+    "t": 84.92,
+    "target": "चुनरी",
+    "said": "चुनरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चुनरी",
+    "drill": true
+   },
+   {
+    "t": 94.9,
+    "target": "चुनरी",
+    "said": "चुनरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "10": [
+   {
+    "t": 40.26,
+    "target": "ओढ़",
+    "said": "ओड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लाल चुनड़ी ओड़ के के आथी आथी"
+   },
+   {
+    "t": 46.39,
+    "target": "ओढ़",
+    "said": "ओढ़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुणरी ओढ़"
+   },
+   {
+    "t": 69.55,
+    "target": "ओढ़",
+    "said": "ओढ़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लल चुनड़ी ओढ़ के आती"
+   },
+   {
+    "t": 94.9,
+    "target": "ओढ़",
+    "said": "ओड़ ओढ़",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "11": [
+   {
+    "t": 40.26,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनड़ी ओड़ के के आथी आथी"
+   },
+   {
+    "t": 49.73,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "के आथी"
+   },
+   {
+    "t": 52.32,
+    "target": "के",
+    "said": "कै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "कै आती"
+   },
+   {
+    "t": 69.55,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लल चुनड़ी ओढ़ के आती"
+   },
+   {
+    "t": 94.9,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "12": [
+   {
+    "t": 40.26,
+    "target": "आती",
+    "said": "आथी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लाल चुनड़ी ओड़ के के आथी आथी"
+   },
+   {
+    "t": 49.73,
+    "target": "आती",
+    "said": "आथी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "के आथी"
+   },
+   {
+    "t": 52.32,
+    "target": "आती",
+    "said": "आती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कै आती"
+   },
+   {
+    "t": 69.55,
+    "target": "आती",
+    "said": "आती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लल चुनड़ी ओढ़ के आती"
+   },
+   {
+    "t": 94.9,
+    "target": "आती",
+    "said": "आती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "13": [
+   {
+    "t": 101.62,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 116.87,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "14": [
+   {
+    "t": 101.62,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 116.87,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "15": [
+   {
+    "t": 101.62,
+    "target": "गाने",
+    "said": "गाणे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 107.27,
+    "target": "गाने",
+    "said": "गाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गाने",
+    "drill": true
+   },
+   {
+    "t": 116.87,
+    "target": "गाने",
+    "said": "गाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "16": [
+   {
+    "t": 101.62,
+    "target": "गाती",
+    "said": "गाती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 116.87,
+    "target": "गाती",
+    "said": "गाती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.47,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 33.05,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 40.74,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 52.5,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। चुनरी",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 58.93,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! लाल चुनरी ओढ़ के आती अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     8,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 69.97,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। लाल",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 75.61,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "लाल",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 80.53,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! चुनरी",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 85.11,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! लाल चुनरी ओढ़ के आती अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     8,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 95.09,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।",
+   "spans": []
+  },
+  {
+   "t": 101.72,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गाने",
+   "spans": [
+    [
+     15,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 107.41,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मीठे मीठे गाने गाती। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     13,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 117.25,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

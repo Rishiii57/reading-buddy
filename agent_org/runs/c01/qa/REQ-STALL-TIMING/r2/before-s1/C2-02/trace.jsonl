@@ -1,0 +1,24 @@
+{"t": 3.58, "kind": "open_app", "brief": "Neel, Class 2 (about 7.5 years). Prefers hi-IN. Reads accurately without expression."}
+{"t": 3.61, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.74, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.81, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 12.86, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.94, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.89, "kind": "session_started", "tries": 1}
+{"t": 28.59, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 41.07, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 41.87, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'छोटी' correctly but Buddy asked to practise it."}
+{"t": 53.27, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 84.57, "kind": "tap_mic_to_talk"}
+{"t": 84.6, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 85.57, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 87.83, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 89.03, "kind": "resumed", "after_s": 2.0}
+{"t": 94.07, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 3 times."}
+{"t": 119.17, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.32 s thinking pause."}
+{"t": 136.61, "kind": "tap_mic_to_talk"}
+{"t": 136.65, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 139.22, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 140.94, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 141.78, "kind": "resumed", "after_s": 1.5}
+{"t": 141.79, "kind": "abandon", "why": "frustration", "frustration": 4.45}

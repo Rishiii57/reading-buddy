@@ -1,0 +1,118 @@
+{
+ "utterances": [
+  {
+   "t": 22.68,
+   "said": "Ravi has mango the in his good good",
+   "stt": "Ravi has mango the in his good good",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 8,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 22.68,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "1": [
+   {
+    "t": 22.68,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "2": [
+   {
+    "t": 22.68,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "3": [
+   {
+    "t": 22.68,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "4": [
+   {
+    "t": 22.68,
+    "target": "tree",
+    "said": "the",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "5": [
+   {
+    "t": 22.68,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "6": [
+   {
+    "t": 22.68,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ],
+  "7": [
+   {
+    "t": 22.68,
+    "target": "garden",
+    "said": "good",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi has mango the in his good good"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.27,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  }
+ ]
+}

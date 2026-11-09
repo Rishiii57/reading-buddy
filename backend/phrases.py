@@ -25,6 +25,7 @@ PHRASES = {
         "take_break": "That's okay. We can take a little break.",
         "missed_lines": "We left out this line. Let's practise it another time.",
         "finish": "Well done! You have finished your poem!",
+        "reader_hint": "Tap the big microphone and read with me! Or tap the speaker to hear it first.",
     },
     "hi-IN": {
         "welcome": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है!",
@@ -46,6 +47,7 @@ PHRASES = {
         "take_break": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।",
         "missed_lines": "यह पंक्ति हमने छोड़ दी थी। इसका अभ्यास फिर कभी करेंगे।",
         "finish": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+        "reader_hint": "बड़ा माइक दबाओ और मेरे साथ पढ़ो! पहले सुनना हो तो स्पीकर दबाओ।",
     },
     "gu-IN": {
         "welcome": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે!",
@@ -67,5 +69,6 @@ PHRASES = {
         "take_break": "કંઈ વાંધો નહીં. આપણે થોડો આરામ કરી શકીએ.",
         "missed_lines": "આ પંક્તિ આપણે છોડી હતી. તેનો અભ્યાસ ફરી ક્યારેક કરીશું.",
         "finish": "શાબાશ! તેં તારી કવિતા પૂરી કરી!",
+        "reader_hint": "મોટું માઇક દબાવ અને મારી સાથે વાંચ! પહેલાં સાંભળવું હોય તો સ્પીકર દબાવ.",
     },
 }

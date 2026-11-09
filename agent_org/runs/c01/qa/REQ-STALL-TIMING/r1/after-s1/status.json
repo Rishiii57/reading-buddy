@@ -86,14 +86,18 @@
    "issues": 6
   },
   "C3-04": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:08:44"
+   "since": "19:08:44",
+   "outcome": "abandoned_attention",
+   "issues": 3
   },
   "C3-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:08:51"
+   "since": "19:08:51",
+   "outcome": "abandoned_frustration",
+   "issues": 7
   }
  }
 }

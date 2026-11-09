@@ -1,0 +1,11 @@
+{"t": 2.69, "kind": "open_app", "brief": "Om, Class 1 (about 6.5 years). Prefers hi-IN. Confident Hindi reader for his age."}
+{"t": 3.12, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.98, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.48, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.77, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 8.96, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a en-IN text."}
+{"t": 13.01, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.4, "kind": "tap", "target": "consentBox", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 16.29, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 16.69, "kind": "tap", "target": "Back", "why": "trying to start reading", "view": "view-reader"}
+{"t": 20.11, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

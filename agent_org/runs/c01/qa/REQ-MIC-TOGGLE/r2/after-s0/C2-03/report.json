@@ -1,0 +1,408 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-MIC-TOGGLE/r2-after-s0",
+ "agent_id": "C2-03",
+ "seed": 1510,
+ "persona": {
+  "id": "C2-03",
+  "name": "Avni",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 23.53,
+    "details": [
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 23.53,
+      "said": "એક નાની ચકલિ ચકલી હતી",
+      "heard": ""
+     },
+     {
+      "t": 160.48,
+      "said": "ઘણા બધા દણા મળ્યા",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 30.43,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 30.43,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 41.4,
+    "details": [
+     "Buddy started talking 2.5 s into a planned 2.56 s thinking pause.",
+     "Buddy started talking 2.0 s into a planned 2.57 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 41.4,
+      "paused_s": 2.5,
+      "planned_s": 2.56,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "રોજ સવારે દાણા"
+     },
+     {
+      "t": 111.34,
+      "paused_s": 2.0,
+      "planned_s": 2.57,
+      "line": 2,
+      "buddy_kind": "fix_word",
+      "next_words": "તેને ઘણા બધા"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 116.91,
+    "details": [
+     "Read 'દિવસ' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 116.91,
+      "word": "દિવસ",
+      "child_said": "દિવસ",
+      "speech_model_wrote": "એક દિવશ"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 138.2,
+    "details": [
+     "Asked to say 'દિવસ' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 138.2,
+      "word": "દિવસ",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'ચકલીએ' as 'ચકલિએ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "ચકલીએ",
+      "child_said": "ચકલિએ",
+      "kind": "sub",
+      "speech_model_wrote": "ચકલિએ તે દાણા તેના બચ્ચાંનૈ ખવડાવ્યા"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.8,
+  "frustration_events": [
+   {
+    "t": 16.75,
+    "kind": "dead_click",
+    "frustration": 0.5,
+    "target": "Start reading"
+   },
+   {
+    "t": 23.53,
+    "kind": "unheard_speech",
+    "frustration": 1.3
+   },
+   {
+    "t": 23.53,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 30.43,
+    "kind": "long_wait",
+    "frustration": 1.55
+   },
+   {
+    "t": 35.5,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 38.91,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 41.4,
+    "kind": "interrupted_pause",
+    "frustration": 2.25,
+    "paused_s": 2.5
+   },
+   {
+    "t": 48.48,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 49.15,
+    "kind": "praise",
+    "frustration": 1.7
+   },
+   {
+    "t": 56.34,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 61.72,
+    "kind": "praise",
+    "frustration": 1.15
+   },
+   {
+    "t": 66.27,
+    "kind": "praise",
+    "frustration": 0.75
+   },
+   {
+    "t": 82.61,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 87.38,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 94.85,
+    "kind": "praise",
+    "frustration": 0.05
+   },
+   {
+    "t": 109.22,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 111.34,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 2.0
+   },
+   {
+    "t": 116.91,
+    "kind": "false_correction",
+    "frustration": 2.2,
+    "word": "દિવસ"
+   },
+   {
+    "t": 128.99,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 134.49,
+    "kind": "praise",
+    "frustration": 1.65
+   },
+   {
+    "t": 138.2,
+    "kind": "drill_repeat",
+    "frustration": 2.35,
+    "word": "દિવસ"
+   },
+   {
+    "t": 139.62,
+    "kind": "praise",
+    "frustration": 1.95
+   },
+   {
+    "t": 155.95,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 160.48,
+    "kind": "unheard_speech",
+    "frustration": 2.6
+   },
+   {
+    "t": 160.48,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 164.43,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 170.75,
+    "kind": "dead_click",
+    "frustration": 2.8,
+    "target": "Listening"
+   },
+   {
+    "t": 186.2,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 186.89,
+    "kind": "praise",
+    "frustration": 2.25
+   },
+   {
+    "t": 194.51,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 213.18,
+    "kind": "progress",
+    "frustration": 1.95
+   },
+   {
+    "t": 213.22,
+    "kind": "praise",
+    "frustration": 1.55
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 2,
+  "nav_clicks": 3,
+  "praise_heard": 8,
+  "interruptions": 2,
+  "unheard_words": 9,
+  "buddy_talk_s": 109.5,
+  "child_talk_s": 42.1,
+  "tired_said": false,
+  "time_to_text_s": 3.8,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 2.2,
+  "intro_s": 14.3,
+  "session_s": 201.6,
+  "words_total": 23,
+  "words_attempted": 23,
+  "words_said_wrong": 2,
+  "corrections": 6,
+  "buddy_turns": 23,
+  "stall_prompts": 2,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 14,
+  "words_helped": 9,
+  "words_to_practise": [
+   "એક",
+   "દિવસ",
+   "ઘણા",
+   "બધા",
+   "દાણા",
+   "બચ્ચાંને"
+  ],
+  "words_practised": 11,
+  "correction_attempts": 11,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 2,
+  "corrections": 6,
+  "seconds": 196.4,
+  "words_per_minute": 7.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 2,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 118,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

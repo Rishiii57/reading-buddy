@@ -1,0 +1,1158 @@
+{
+ "id": "20261109-201528-67166c",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 13,
+  "words_helped": 10,
+  "words_to_practise": [
+   "It",
+   "carried",
+   "rice",
+   "on",
+   "its",
+   "The",
+   "was",
+   "bigger"
+  ],
+  "words_practised": 11,
+  "correction_attempts": 12,
+  "lines_total": 5,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 6,
+  "seconds": 213.2,
+  "words_per_minute": 6.5
+ },
+ "log": [
+  {
+   "t": 0.062,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.393,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.443,
+   "event": "transcript",
+   "text": "A small ant walked across floor"
+  },
+  {
+   "t": 17.443,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 18.974,
+   "event": "pause"
+  },
+  {
+   "t": 22.02,
+   "event": "resume"
+  },
+  {
+   "t": 24.629,
+   "event": "transcript",
+   "text": "the floor"
+  },
+  {
+   "t": 24.629,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 24.629,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 31.647,
+   "event": "transcript",
+   "text": "It come and a grain on of rice on back"
+  },
+  {
+   "t": 31.647,
+   "event": "progress",
+   "frm": 7,
+   "to": 14
+  },
+  {
+   "t": 33.684,
+   "event": "transcript",
+   "text": "its"
+  },
+  {
+   "t": 33.684,
+   "event": "uncertain",
+   "text": "back its"
+  },
+  {
+   "t": 33.684,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 37.012,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.901,
+   "event": "transcript",
+   "text": "its back"
+  },
+  {
+   "t": 38.901,
+   "event": "progress",
+   "frm": 14,
+   "to": 16
+  },
+  {
+   "t": 38.901,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8
+   ]
+  },
+  {
+   "t": 38.901,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 44.152,
+   "event": "transcript",
+   "text": "come"
+  },
+  {
+   "t": 44.152,
+   "event": "drill_miss",
+   "word": 8,
+   "heard": "come"
+  },
+  {
+   "t": 48.756,
+   "event": "transcript",
+   "text": "carried"
+  },
+  {
+   "t": 48.756,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 48.756,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 55.95,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 56.43,
+   "event": "pause"
+  },
+  {
+   "t": 73.864,
+   "event": "resume"
+  },
+  {
+   "t": 81.029,
+   "event": "transcript",
+   "text": "carried a grain of red on it big back"
+  },
+  {
+   "t": 81.029,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 81.029,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    7,
+    12,
+    14
+   ]
+  },
+  {
+   "t": 81.029,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 7
+  },
+  {
+   "t": 86.756,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 86.756,
+   "event": "drill_ok",
+   "word": 7
+  },
+  {
+   "t": 86.756,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 92.009,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 92.009,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 92.009,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 97.6,
+   "event": "transcript",
+   "text": "its"
+  },
+  {
+   "t": 97.6,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 97.6,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 105.041,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 108.237,
+   "event": "transcript",
+   "text": "It carried a grain"
+  },
+  {
+   "t": 108.237,
+   "event": "progress",
+   "frm": 7,
+   "to": 11
+  },
+  {
+   "t": 110.314,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 11,
+   "to": 14,
+   "line": 1
+  },
+  {
+   "t": 110.314,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 11,
+   "to": 14
+  },
+  {
+   "t": 113.324,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 117.432,
+   "event": "transcript",
+   "text": "of of run its back"
+  },
+  {
+   "t": 117.432,
+   "event": "progress",
+   "frm": 11,
+   "to": 16
+  },
+  {
+   "t": 117.432,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    13
+   ]
+  },
+  {
+   "t": 117.432,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 123.262,
+   "event": "transcript",
+   "text": "on"
+  },
+  {
+   "t": 123.262,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 123.262,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 130.09,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 136.28,
+   "event": "transcript",
+   "text": "id carried a grain of rice of is back"
+  },
+  {
+   "t": 136.28,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 136.28,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    7,
+    13,
+    14
+   ]
+  },
+  {
+   "t": 136.28,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 7
+  },
+  {
+   "t": 141.03,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 141.03,
+   "event": "drill_ok",
+   "word": 7
+  },
+  {
+   "t": 141.03,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 146.911,
+   "event": "transcript",
+   "text": "on"
+  },
+  {
+   "t": 146.911,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 146.911,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 151.989,
+   "event": "transcript",
+   "text": "its its"
+  },
+  {
+   "t": 151.989,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 151.989,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 160.631,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 166.005,
+   "event": "transcript",
+   "text": "It carried grain of rice on its back"
+  },
+  {
+   "t": 166.005,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 166.005,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 166.005,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 169.856,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 174.333,
+   "event": "transcript",
+   "text": "The The ran was ball than"
+  },
+  {
+   "t": 174.333,
+   "event": "progress",
+   "frm": 16,
+   "to": 21
+  },
+  {
+   "t": 178.024,
+   "event": "transcript",
+   "text": "the ant"
+  },
+  {
+   "t": 178.024,
+   "event": "progress",
+   "frm": 21,
+   "to": 23
+  },
+  {
+   "t": 178.024,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    17,
+    19
+   ]
+  },
+  {
+   "t": 178.024,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 184.515,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 184.515,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 184.515,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 19
+  },
+  {
+   "t": 189.199,
+   "event": "transcript",
+   "text": "bigger"
+  },
+  {
+   "t": 189.199,
+   "event": "drill_ok",
+   "word": 19
+  },
+  {
+   "t": 189.199,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 195.429,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 196.911,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 196.911,
+   "event": "restart",
+   "frm": 16,
+   "to": 12
+  },
+  {
+   "t": 203.404,
+   "event": "transcript",
+   "text": "we bigger than the ant"
+  },
+  {
+   "t": 203.404,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 203.404,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16,
+    17,
+    18
+   ]
+  },
+  {
+   "t": 203.404,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 208.284,
+   "event": "transcript",
+   "text": "The"
+  },
+  {
+   "t": 208.284,
+   "event": "drill_ok",
+   "word": 16
+  },
+  {
+   "t": 208.284,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.492,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.443,
+   "type": "transcript",
+   "text": "A small ant walked across floor",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 22.876,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.629,
+   "type": "transcript",
+   "text": "the floor",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 25.467,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.647,
+   "type": "transcript",
+   "text": "It come and a grain on of rice on back",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 32.496,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.684,
+   "type": "transcript",
+   "text": "its",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 37.17,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.901,
+   "type": "transcript",
+   "text": "its back",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 42.97,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.152,
+   "type": "transcript",
+   "text": "come",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 47.575,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.756,
+   "type": "transcript",
+   "text": "carried",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 75.405,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.029,
+   "type": "transcript",
+   "text": "carried a grain of red on it big back",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 85.574,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.756,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 90.814,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.009,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 96.419,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.6,
+   "type": "transcript",
+   "text": "its",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 105.387,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 108.237,
+   "type": "transcript",
+   "text": "It carried a grain",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 113.975,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.432,
+   "type": "transcript",
+   "text": "of of run its back",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 122.076,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.262,
+   "type": "transcript",
+   "text": "on",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 130.641,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 136.28,
+   "type": "transcript",
+   "text": "id carried a grain of rice of is back",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 139.848,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 141.03,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 145.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 146.911,
+   "type": "transcript",
+   "text": "on",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 150.258,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 151.989,
+   "type": "transcript",
+   "text": "its its",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 160.901,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 166.005,
+   "type": "transcript",
+   "text": "It carried grain of rice on its back",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 170.269,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 174.333,
+   "type": "transcript",
+   "text": "The The ran was ball than",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 176.295,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 178.024,
+   "type": "transcript",
+   "text": "the ant",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 183.321,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 184.515,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 188.013,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 189.199,
+   "type": "transcript",
+   "text": "bigger",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 195.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 196.911,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 199.904,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 203.404,
+   "type": "transcript",
+   "text": "we bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 207.099,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 208.284,
+   "type": "transcript",
+   "text": "The",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant walked across floor",
+   "heard": "A small ant walked across floor",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "the floor",
+   "heard": "the floor",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "It come and a grain on of rice on back",
+   "heard": "It come and a grain on of rice on back",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "its",
+   "heard": "its",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "its back",
+   "heard": "its back",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "come",
+   "heard": "come",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "carried",
+   "heard": "carried",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "carried a grain of red on it big back",
+   "heard": "carried a grain of red on it big back",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "its",
+   "heard": "its",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "It carried a grain",
+   "heard": "It carried a grain",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "of of run its back",
+   "heard": "of of run its back",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "on",
+   "heard": "on",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "id carried a grain of rice of is back",
+   "heard": "id carried a grain of rice of is back",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "on",
+   "heard": "on",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "its its",
+   "heard": "its its",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "It carried grain of rice on its back",
+   "heard": "It carried grain of rice on its back",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "The The ran was ball than",
+   "heard": "The The ran was ball than",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "the ant",
+   "heard": "the ant",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "red was bigger",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 1.87
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "bigger",
+   "heard": "bigger",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "we bigger than the ant",
+   "heard": "we bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "The",
+   "heard": "The",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 90
+}

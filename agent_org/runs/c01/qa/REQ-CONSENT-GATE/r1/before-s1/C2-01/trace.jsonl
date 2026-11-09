@@ -1,0 +1,18 @@
+{"t": 3.47, "kind": "open_app", "brief": "Kabir, Class 2 (about 7.5 years). Prefers en-IN. Reads quickly and guesses words from the first letter."}
+{"t": 3.6, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.69, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 7.35, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.24, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.13, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 14.5, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.59, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 16.54, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 18.15, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 19.68, "kind": "session_started", "tries": 1}
+{"t": 25.95, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 31.85, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 102.04, "kind": "tap_mic_to_talk"}
+{"t": 102.08, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 124.43, "kind": "off_task_tap", "target": "End"}
+{"t": 124.46, "kind": "tap", "target": "End", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 125.58, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'End' left the reading page."}

@@ -1,0 +1,16 @@
+{"t": 3.59, "kind": "open_app", "brief": "Avni, Class 2 (about 7.5 years). Prefers gu-IN. Reads English better than Gujarati."}
+{"t": 3.61, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.93, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.45, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.54, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 13.06, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.27, "kind": "session_started", "tries": 1}
+{"t": 23.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 30.43, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 41.4, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 2.56 s thinking pause."}
+{"t": 111.34, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.57 s thinking pause."}
+{"t": 116.91, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'દિવસ' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 138.2, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'દિવસ' 3 times."}
+{"t": 160.48, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 169.28, "kind": "tap_mic_to_talk"}
+{"t": 169.28, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}

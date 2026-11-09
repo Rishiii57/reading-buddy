@@ -1,0 +1,411 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r1-before-s1",
+ "agent_id": "C2-06",
+ "seed": 2561,
+ "persona": {
+  "id": "C2-06",
+  "name": "Parth",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.85,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_SELF_APPROVED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 17.52,
+    "details": [
+     "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."
+    ],
+    "evidence": [
+     {
+      "t": 17.52,
+      "grade": "Class 2"
+     }
+    ],
+    "child_quote": "There was a box for parents, so I just ticked it myself.",
+    "child_severity": "risk"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 31.51,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 31.51,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.63,
+    "details": [
+     "Read 'એક' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 36.63,
+      "word": "એક",
+      "child_said": "એક",
+      "speech_model_wrote": "નાની ચકલી હતી"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 68.17,
+    "details": [
+     "Buddy started talking 2.1 s into a planned 2.64 s thinking pause.",
+     "Buddy started talking 2.2 s into a planned 2.69 s thinking pause.",
+     "Buddy started talking 2.2 s into a planned 2.76 s thinking pause.",
+     "Buddy started talking 2.2 s into a planned 2.76 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 68.17,
+      "paused_s": 2.1,
+      "planned_s": 2.64,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "રોજ સવારે દાણા"
+     },
+     {
+      "t": 138.4,
+      "paused_s": 2.2,
+      "planned_s": 2.69,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "તેને ઘણા બધા"
+     },
+     {
+      "t": 147.12,
+      "paused_s": 2.2,
+      "planned_s": 2.76,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "મળ્યા."
+     },
+     {
+      "t": 157.19,
+      "paused_s": 2.2,
+      "planned_s": 2.76,
+      "line": 3,
+      "buddy_kind": "stall_phrase",
+      "next_words": "દાણા તેના બચ્ચાંને"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 83.48,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 83.48,
+      "said": "એક દિવષ દિવષ તેણે તેને ઘણા ઘણા બધા બધા દાણા",
+      "heard": "દિવષ તેણે તેને ઘણા ઘણા બધા બધા દાણા"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 86.19,
+    "details": [
+     "Read 'એક' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 86.19,
+      "word": "એક",
+      "child_said": "એક",
+      "speech_model_wrote": "એક દિવષ દિવષ તેણે તેને ઘણા ઘણા બધા બધા દાણા"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'ચકલીએ' as 'ચકલિએ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "ચકલીએ",
+      "child_said": "ચકલિએ",
+      "kind": "sub",
+      "speech_model_wrote": "ચકલિએ તે"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.05,
+  "frustration_events": [
+   {
+    "t": 31.51,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 35.81,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 36.63,
+    "kind": "false_correction",
+    "frustration": 1.45,
+    "word": "એક"
+   },
+   {
+    "t": 52.12,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 61.05,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 61.19,
+    "kind": "praise",
+    "frustration": 0.75
+   },
+   {
+    "t": 66.03,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 68.17,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 2.1
+   },
+   {
+    "t": 74.81,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 74.89,
+    "kind": "praise",
+    "frustration": 1.05
+   },
+   {
+    "t": 83.48,
+    "kind": "unheard_speech",
+    "frustration": 1.85
+   },
+   {
+    "t": 83.48,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 85.39,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 86.19,
+    "kind": "false_correction",
+    "frustration": 2.75,
+    "word": "એક"
+   },
+   {
+    "t": 94.76,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 94.89,
+    "kind": "praise",
+    "frustration": 2.2
+   },
+   {
+    "t": 114.16,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 136.21,
+    "kind": "progress",
+    "frustration": 1.9
+   },
+   {
+    "t": 138.4,
+    "kind": "interrupted_pause",
+    "frustration": 2.9,
+    "paused_s": 2.2
+   },
+   {
+    "t": 144.92,
+    "kind": "progress",
+    "frustration": 2.75
+   },
+   {
+    "t": 147.12,
+    "kind": "interrupted_pause",
+    "frustration": 3.75,
+    "paused_s": 2.2
+   },
+   {
+    "t": 150.13,
+    "kind": "progress",
+    "frustration": 3.6
+   },
+   {
+    "t": 150.13,
+    "kind": "praise",
+    "frustration": 3.2
+   },
+   {
+    "t": 155.0,
+    "kind": "progress",
+    "frustration": 3.05
+   },
+   {
+    "t": 157.19,
+    "kind": "interrupted_pause",
+    "frustration": 4.05,
+    "paused_s": 2.2
+   },
+   {
+    "t": 163.21,
+    "kind": "progress",
+    "frustration": 3.9
+   },
+   {
+    "t": 163.21,
+    "kind": "praise",
+    "frustration": 3.5
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 10,
+  "dead_clicks": 0,
+  "nav_clicks": 5,
+  "praise_heard": 5,
+  "interruptions": 4,
+  "unheard_words": 2,
+  "buddy_talk_s": 82.7,
+  "child_talk_s": 36.4,
+  "tired_said": false,
+  "time_to_text_s": 5.1,
+  "reader_page_audio_clips": 0,
+  "intro_s": 13.7,
+  "time_to_first_word_s": 13.7,
+  "session_s": 148.9,
+  "words_total": 23,
+  "words_attempted": 23,
+  "words_said_wrong": 1,
+  "corrections": 3,
+  "buddy_turns": 18,
+  "stall_prompts": 4,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 11,
+  "words_helped": 12,
+  "words_to_practise": [
+   "એક",
+   "દિવસ",
+   "તેને"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 4,
+  "corrections": 3,
+  "seconds": 146.0,
+  "words_per_minute": 9.5
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 2,
+  "completion": 5,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-summary.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 73,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

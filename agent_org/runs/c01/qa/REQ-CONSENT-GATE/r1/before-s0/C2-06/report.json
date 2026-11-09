@@ -1,0 +1,323 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r1-before-s0",
+ "agent_id": "C2-06",
+ "seed": 1561,
+ "persona": {
+  "id": "C2-06",
+  "name": "Parth",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.85,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_SELF_APPROVED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 17.35,
+    "details": [
+     "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."
+    ],
+    "evidence": [
+     {
+      "t": 17.35,
+      "grade": "Class 2"
+     }
+    ],
+    "child_quote": "There was a box for parents, so I just ticked it myself.",
+    "child_severity": "risk"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 29.47,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 29.47,
+      "said": "એક નાની ચકલી હતી",
+      "heard": ""
+     },
+     {
+      "t": 94.19,
+      "said": "તે રોઝ સવારે દાણા શોદવા જતી",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 62.62,
+    "details": [
+     "Buddy started talking 1.7 s into a planned 1.85 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 62.62,
+      "paused_s": 1.7,
+      "planned_s": 1.85,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "સવારે દાણા શોધવા"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 70.54,
+    "details": [
+     "Read 'સવારે' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 70.54,
+      "word": "સવારે",
+      "child_said": "સવારે",
+      "speech_model_wrote": "શવારે દાણા શોધવા જતી"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 79.48,
+    "details": [
+     "Asked to say 'સવારે' 3 times.",
+     "Asked to say 'સવારે' 4 times.",
+     "Asked to say 'સવારે' 5 times."
+    ],
+    "evidence": [
+     {
+      "t": 79.48,
+      "word": "સવારે",
+      "times": 3
+     },
+     {
+      "t": 84.27,
+      "word": "સવારે",
+      "times": 4
+     },
+     {
+      "t": 105.08,
+      "word": "સવારે",
+      "times": 5
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'ચકલી' as 'ચકલિ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "ચકલી",
+      "child_said": "ચકલિ",
+      "kind": "sub",
+      "speech_model_wrote": "એક નાની ચકલિ હતી"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 5.2,
+  "frustration_events": [
+   {
+    "t": 29.47,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 29.47,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 34.83,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 40.19,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 42.38,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 60.38,
+    "kind": "progress",
+    "frustration": 0.05
+   },
+   {
+    "t": 62.62,
+    "kind": "interrupted_pause",
+    "frustration": 1.05,
+    "paused_s": 1.7
+   },
+   {
+    "t": 69.74,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 70.54,
+    "kind": "false_correction",
+    "frustration": 2.1,
+    "word": "સવારે"
+   },
+   {
+    "t": 79.48,
+    "kind": "drill_repeat",
+    "frustration": 2.8,
+    "word": "સવારે"
+   },
+   {
+    "t": 84.27,
+    "kind": "drill_repeat",
+    "frustration": 3.5,
+    "word": "સવારે"
+   },
+   {
+    "t": 94.19,
+    "kind": "unheard_speech",
+    "frustration": 4.3
+   },
+   {
+    "t": 94.19,
+    "kind": "progress",
+    "frustration": 4.15
+   },
+   {
+    "t": 101.0,
+    "kind": "progress",
+    "frustration": 4.0
+   },
+   {
+    "t": 105.08,
+    "kind": "drill_repeat",
+    "frustration": 4.7,
+    "word": "સવારે"
+   },
+   {
+    "t": 109.37,
+    "kind": "dead_click",
+    "frustration": 5.2,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 1,
+  "nav_clicks": 4,
+  "praise_heard": 0,
+  "interruptions": 1,
+  "unheard_words": 10,
+  "buddy_talk_s": 43.4,
+  "child_talk_s": 22.1,
+  "tired_said": false,
+  "time_to_text_s": 6.0,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 7.3,
+  "intro_s": 12.4,
+  "session_s": 91.4,
+  "words_total": 23,
+  "words_attempted": 10,
+  "words_said_wrong": 2,
+  "corrections": 3,
+  "buddy_turns": 10,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 7,
+  "words_helped": 3,
+  "words_to_practise": [
+   "સવારે"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 3,
+  "seconds": 92.2,
+  "words_per_minute": 6.5
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 2,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-abandon.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 53,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

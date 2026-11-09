@@ -1,0 +1,286 @@
+{
+ "id": "20261109-193152-9973e5",
+ "text_id": "hi-gudiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 2,
+  "words_helped": 2,
+  "words_to_practise": [
+   "मेरी",
+   "गुड़िया"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 68.2,
+  "words_per_minute": 3.5
+ },
+ "log": [
+  {
+   "t": 0.016,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.5,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.24,
+   "event": "transcript",
+   "text": "गुढ़िया"
+  },
+  {
+   "t": 27.941,
+   "event": "transcript",
+   "text": "प्यारी है"
+  },
+  {
+   "t": 27.941,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 27.941,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1
+   ]
+  },
+  {
+   "t": 27.941,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 35.466,
+   "event": "transcript",
+   "text": "मेड़ी"
+  },
+  {
+   "t": 35.466,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "मेडी"
+  },
+  {
+   "t": 37.516,
+   "event": "pause"
+  },
+  {
+   "t": 45.212,
+   "event": "resume"
+  },
+  {
+   "t": 49.268,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 55.113,
+   "event": "transcript",
+   "text": "मेड़ी मेड़ी"
+  },
+  {
+   "t": 55.113,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "मेडी मेडी"
+  },
+  {
+   "t": 60.378,
+   "event": "transcript",
+   "text": "मेड़ी"
+  },
+  {
+   "t": 60.378,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "मेडी"
+  },
+  {
+   "t": 67.247,
+   "event": "transcript",
+   "text": "मेरी मेरी"
+  },
+  {
+   "t": 67.247,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 67.247,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.016,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.17,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.24,
+   "type": "transcript",
+   "text": "गुढ़िया",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 24.457,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.941,
+   "type": "transcript",
+   "text": "प्यारी है",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 33.072,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.466,
+   "type": "transcript",
+   "text": "मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 51.429,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.113,
+   "type": "transcript",
+   "text": "मेड़ी मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 58.327,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.378,
+   "type": "transcript",
+   "text": "मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 63.735,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.247,
+   "type": "transcript",
+   "text": "मेरी मेरी",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गुढ़िया",
+   "heard": "गुढ़िया",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "प्यारी है",
+   "heard": "प्यारी है",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "मेड़ी",
+   "heard": "मेड़ी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मेड़ी मेड़ी",
+   "heard": "मेड़ी मेड़ी",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "मेड़ी",
+   "heard": "मेड़ी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मेरी मेरी",
+   "heard": "मेरी मेरी",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 34
+}

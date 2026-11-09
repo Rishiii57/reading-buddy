@@ -1,0 +1,23 @@
+{"t": 2.36, "kind": "open_app", "brief": "Aadhya, LKG (about 4.5 years). Prefers gu-IN. Guesses words from the picture or first letter."}
+{"t": 2.41, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 3.37, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.19, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 5.37, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 9.41, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 9.42, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 10.71, "kind": "tap", "target": "Not now", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 11.51, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 11.63, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.94, "kind": "tap", "target": "Not now", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 13.99, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 14.05, "kind": "tap", "target": "Demo reader", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.24, "kind": "session_started", "tries": 3}
+{"t": 29.65, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 30.72, "kind": "tap_mic_to_talk"}
+{"t": 30.72, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 31.67, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 33.32, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 34.38, "kind": "resumed", "after_s": 1.5}
+{"t": 50.44, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 50.83, "kind": "abandon", "why": "frustration", "frustration": 3.65}
+{"t": 51.04, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

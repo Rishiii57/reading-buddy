@@ -1,0 +1,21 @@
+{"t": 1.97, "kind": "open_app", "brief": "Parth, Class 2 (about 7.5 years). Prefers gu-IN. Uses the app alone."}
+{"t": 2.01, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.21, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 3.98, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.75, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.52, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 11.06, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.15, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 17.12, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 18.13, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 20.21, "kind": "session_started", "tries": 1}
+{"t": 33.06, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 65.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 2.52 s thinking pause."}
+{"t": 87.1, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 98.68, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 107.41, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 2.38 s thinking pause."}
+{"t": 115.12, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.7 s into a planned 2.72 s thinking pause."}
+{"t": 135.49, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 136.29, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'એક' correctly but Buddy asked to practise it."}
+{"t": 138.06, "kind": "abandon", "why": "frustration", "frustration": 5.0}
+{"t": 138.52, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,977 @@
+{
+ "id": "20261109-195742-8a775e",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [
+   "Ravi",
+   "has",
+   "a",
+   "mango",
+   "in"
+  ],
+  "words_practised": 8,
+  "correction_attempts": 8,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 3,
+  "seconds": 197.5,
+  "words_per_minute": 2.4
+ },
+ "log": [
+  {
+   "t": 0.056,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.515,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.68,
+   "event": "transcript",
+   "text": "Ravi Ravi has"
+  },
+  {
+   "t": 18.68,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 24.664,
+   "event": "transcript",
+   "text": "mango tree his garden"
+  },
+  {
+   "t": 24.664,
+   "event": "progress",
+   "frm": 2,
+   "to": 8
+  },
+  {
+   "t": 24.664,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2,
+    5
+   ]
+  },
+  {
+   "t": 24.664,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 32.773,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 32.773,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 32.773,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 40.319,
+   "event": "transcript",
+   "text": "ia in"
+  },
+  {
+   "t": 40.319,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 40.319,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 48.297,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 54.321,
+   "event": "transcript",
+   "text": "run haa mango tre his garden"
+  },
+  {
+   "t": 54.321,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 54.321,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2,
+    5
+   ]
+  },
+  {
+   "t": 54.321,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 59.271,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 59.271,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 59.271,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 67.827,
+   "event": "transcript",
+   "text": "a a my tree in his"
+  },
+  {
+   "t": 67.827,
+   "event": "uncertain",
+   "text": "a a my tree in his"
+  },
+  {
+   "t": 69.611,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 69.611,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 69.611,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 76.056,
+   "event": "pause"
+  },
+  {
+   "t": 84.852,
+   "event": "resume"
+  },
+  {
+   "t": 87.74,
+   "event": "transcript",
+   "text": "a a"
+  },
+  {
+   "t": 87.74,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 87.74,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 95.177,
+   "event": "silence",
+   "word": 5
+  },
+  {
+   "t": 97.899,
+   "event": "transcript",
+   "text": "in"
+  },
+  {
+   "t": 97.899,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 97.899,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 104.334,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 106.085,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 106.085,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 109.171,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 109.171,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 112.446,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 120.319,
+   "event": "transcript",
+   "text": "has has mum tree tree in his garden"
+  },
+  {
+   "t": 120.319,
+   "event": "progress",
+   "frm": 1,
+   "to": 8
+  },
+  {
+   "t": 120.319,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2,
+    3
+   ]
+  },
+  {
+   "t": 120.319,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 126.277,
+   "event": "transcript",
+   "text": "his garden"
+  },
+  {
+   "t": 126.277,
+   "event": "uncertain",
+   "text": "his garden"
+  },
+  {
+   "t": 126.277,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 129.962,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 132.897,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 132.897,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 132.897,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 137.893,
+   "event": "transcript",
+   "text": "mango"
+  },
+  {
+   "t": 137.893,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 137.893,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 144.553,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 147.413,
+   "event": "transcript",
+   "text": "Ravi has"
+  },
+  {
+   "t": 147.413,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 157.321,
+   "event": "transcript",
+   "text": "a mango tree in his get"
+  },
+  {
+   "t": 157.321,
+   "event": "progress",
+   "frm": 2,
+   "to": 7
+  },
+  {
+   "t": 159.592,
+   "event": "transcript",
+   "text": "garden"
+  },
+  {
+   "t": 159.592,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 159.592,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 159.592,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 163.419,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 169.847,
+   "event": "transcript",
+   "text": "um see the to is for of"
+  },
+  {
+   "t": 169.847,
+   "event": "uncertain",
+   "text": "see the to is for of"
+  },
+  {
+   "t": 169.847,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 173.116,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 180.317,
+   "event": "transcript",
+   "text": "um summer tre ia fish sweet mangoes mangoes"
+  },
+  {
+   "t": 180.317,
+   "event": "uncertain",
+   "text": "summer tre ia fish sweet mangoes mangoes"
+  },
+  {
+   "t": 180.317,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 183.473,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 187.308,
+   "event": "transcript",
+   "text": "um summer to tree"
+  },
+  {
+   "t": 187.308,
+   "event": "uncertain",
+   "text": "summer to tree"
+  },
+  {
+   "t": 195.65,
+   "event": "transcript",
+   "text": "ia is fish of said mum"
+  },
+  {
+   "t": 195.65,
+   "event": "uncertain",
+   "text": "ia is fish of said mum"
+  },
+  {
+   "t": 195.65,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.675,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.68,
+   "type": "transcript",
+   "text": "Ravi Ravi has",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 20.962,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.664,
+   "type": "transcript",
+   "text": "mango tree his garden",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 31.375,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.773,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 38.147,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.319,
+   "type": "transcript",
+   "text": "ia in",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 49.07,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.321,
+   "type": "transcript",
+   "text": "run haa mango tre his garden",
+   "latency": 120,
+   "audio_duration_ms": 4820,
+   "message": null
+  },
+  {
+   "t": 57.875,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.271,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 62.747,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.827,
+   "type": "transcript",
+   "text": "a a my tree in his",
+   "latency": 120,
+   "audio_duration_ms": 4783,
+   "message": null
+  },
+  {
+   "t": 68.223,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.611,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 85.578,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.74,
+   "type": "transcript",
+   "text": "a a",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 96.463,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.899,
+   "type": "transcript",
+   "text": "in",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 104.694,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 106.085,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 113.507,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 120.319,
+   "type": "transcript",
+   "text": "has has mum tree tree in his garden",
+   "latency": 120,
+   "audio_duration_ms": 6350,
+   "message": null
+  },
+  {
+   "t": 124.166,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 126.277,
+   "type": "transcript",
+   "text": "his garden",
+   "latency": 120,
+   "audio_duration_ms": 1620,
+   "message": null
+  },
+  {
+   "t": 130.901,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 132.897,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 136.503,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 137.893,
+   "type": "transcript",
+   "text": "mango",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 145.234,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 147.413,
+   "type": "transcript",
+   "text": "Ravi has",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 152.079,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 157.321,
+   "type": "transcript",
+   "text": "a mango tree in his get",
+   "latency": 120,
+   "audio_duration_ms": 4820,
+   "message": null
+  },
+  {
+   "t": 158.201,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 159.592,
+   "type": "transcript",
+   "text": "garden",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 163.835,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 169.847,
+   "type": "transcript",
+   "text": "um see the to is for of",
+   "latency": 120,
+   "audio_duration_ms": 5580,
+   "message": null
+  },
+  {
+   "t": 173.545,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 180.317,
+   "type": "transcript",
+   "text": "um summer tre ia fish sweet mangoes mangoes",
+   "latency": 120,
+   "audio_duration_ms": 6350,
+   "message": null
+  },
+  {
+   "t": 183.608,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 187.308,
+   "type": "transcript",
+   "text": "um summer to tree",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 190.409,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 195.65,
+   "type": "transcript",
+   "text": "ia is fish of said mum",
+   "latency": 120,
+   "audio_duration_ms": 4820,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi Ravi has",
+   "heard": "Ravi Ravi has",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "mango tree his garden",
+   "heard": "mango tree his garden",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "in hia garden",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.51
+  },
+  {
+   "text": "ia in",
+   "heard": "ia in",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "run haa mango tre his garden",
+   "heard": "run haa mango tre his garden",
+   "muted_words": 0,
+   "duration_s": 4.82
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "has a a my tree in his",
+   "heard": "a a my tree in his",
+   "muted_words": 1,
+   "duration_s": 5.58
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "a a",
+   "heard": "a a",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "in",
+   "heard": "in",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "has has mum tree tree in his garden",
+   "heard": "has has mum tree tree in his garden",
+   "muted_words": 0,
+   "duration_s": 6.35
+  },
+  {
+   "text": "a me tree his garden",
+   "heard": "his garden",
+   "muted_words": 3,
+   "duration_s": 4.05
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "mango",
+   "heard": "mango",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Ravi has",
+   "heard": "Ravi has",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "a mango tree in his get",
+   "heard": "a mango tree in his get",
+   "muted_words": 0,
+   "duration_s": 4.82
+  },
+  {
+   "text": "garden",
+   "heard": "garden",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "um see the to is for of",
+   "heard": "um see the to is for of",
+   "muted_words": 0,
+   "duration_s": 5.58
+  },
+  {
+   "text": "um summer tre ia fish sweet mangoes mangoes",
+   "heard": "um summer tre ia fish sweet mangoes mangoes",
+   "muted_words": 0,
+   "duration_s": 6.35
+  },
+  {
+   "text": "um summer to tree",
+   "heard": "um summer to tree",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "ia is fish of said mum",
+   "heard": "ia is fish of said mum",
+   "muted_words": 0,
+   "duration_s": 4.82
+  }
+ ],
+ "tts_offline": 72
+}

@@ -1,0 +1,17 @@
+{"t": 1.97, "kind": "open_app", "brief": "Vivaan, LKG (about 4.5 years). Prefers en-IN. Impatient; dislikes waiting."}
+{"t": 2.06, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.95, "kind": "tap", "target": "The Rain Song English Grade 1 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.69, "kind": "opened_text", "hash": "#/read/en-rain", "title": "The Rain Song", "tags": ["English", "Grade 1"], "words": 24, "lines": 4}
+{"t": 5.32, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 9.45, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.14, "kind": "session_started", "tries": 1}
+{"t": 18.31, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 22.65, "kind": "tap_mic_to_talk"}
+{"t": 22.68, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 23.65, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 25.53, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 26.35, "kind": "resumed", "after_s": 1.5}
+{"t": 31.51, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.32 s thinking pause."}
+{"t": 63.25, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 3.02 s thinking pause."}
+{"t": 63.62, "kind": "abandon", "why": "frustration", "frustration": 3.15}
+{"t": 64.31, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

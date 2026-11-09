@@ -1,0 +1,176 @@
+{
+ "requirement": "REQ-CONSENT-GATE",
+ "round": 1,
+ "candidate_commit": "39e909bcfa20dead04847dc60229a904fa2ea897",
+ "base_commit": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
+ "personas": [
+  "C1-05",
+  "C2-01",
+  "C2-06",
+  "C3-06",
+  "C4-01",
+  "L03",
+  "N01",
+  "N03",
+  "U04",
+  "N08"
+ ],
+ "reps": 2,
+ "agents_before": 20,
+ "agents_after": 20,
+ "issue_reproduced_on_base": true,
+ "criteria": [
+  {
+   "metric": "consent_blocked_rate",
+   "target": "<= 0.0",
+   "scope": "personas without grown-up setup who cannot read English",
+   "before": 0.4,
+   "after": 0.0,
+   "pass": true,
+   "how": "0.0 <= 0.0",
+   "reproduced": true
+  },
+  {
+   "metric": "consent_self_approved_rate",
+   "target": "<= 0.0",
+   "scope": "personas without grown-up setup who read English",
+   "before": 0.4,
+   "after": 0.0,
+   "pass": true,
+   "how": "0.0 <= 0.0",
+   "reproduced": true
+  }
+ ],
+ "guards": [
+  {
+   "metric": "completion_rate",
+   "before": 0.25,
+   "after": 0.1,
+   "pass": false,
+   "rule": ">= before-0.1"
+  },
+  {
+   "metric": "abandon_rate",
+   "before": 0.7,
+   "after": 0.75,
+   "pass": true,
+   "rule": "<= before+0.1"
+  },
+  {
+   "metric": "false_corrections_per_agent",
+   "before": 0.35,
+   "after": 0.5,
+   "pass": true,
+   "rule": "<= before+0.25"
+  },
+  {
+   "metric": "frustration_peak_mean",
+   "before": 2.29,
+   "after": 3.302,
+   "pass": false,
+   "rule": "<= before+0.3"
+  },
+  {
+   "metric": "harness_error_rate",
+   "before": 0.0,
+   "after": 0.0,
+   "pass": true,
+   "rule": "<= before+0.0"
+  }
+ ],
+ "replay": [
+  {
+   "check": "tracking_pass",
+   "before": "23/24",
+   "after": "23/24",
+   "pass": true
+  },
+  {
+   "check": "errors_caught",
+   "before": "23/24",
+   "after": "23/24",
+   "pass": true
+  },
+  {
+   "check": "stalls_prompted",
+   "before": "11/12",
+   "after": "11/12",
+   "pass": true
+  },
+  {
+   "check": "false_corrections_per_50_words",
+   "before": 0.104,
+   "after": 0.104,
+   "pass": true
+  },
+  {
+   "check": "stall_prompt_s_max (<= 4.0)",
+   "before": 2.46,
+   "after": 2.46,
+   "pass": true
+  }
+ ],
+ "unit_tests": {
+  "passed": true,
+  "tail": [
+   "42 passed in 0.32s"
+  ]
+ },
+ "metrics_before": {
+  "session_start_rate": 0.5,
+  "completion_rate": 0.25,
+  "abandon_rate": 0.7,
+  "coverage": 0.321,
+  "stall_interruptions_per_agent": 0.35,
+  "correction_interruptions_per_agent": 0.05,
+  "interruptions_per_agent": 0.4,
+  "mic_tap_pause_rate": 0.15,
+  "unheard_words_per_agent": 3.45,
+  "drill_repeat_rate": 0.1,
+  "spoken_guidance_gap_rate": 0.6,
+  "consent_blocked_rate": 0.4,
+  "consent_self_approved_rate": 0.4,
+  "level_mismatch_rate": 0.5,
+  "false_corrections_per_agent": 0.35,
+  "missed_errors_per_agent": 0.15,
+  "long_talk_rate": 0.45,
+  "intro_s_median": 13.8,
+  "frustration_peak_mean": 2.29,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.3,
+  "replay_missing_rate": 0.0,
+  "restart_failed_rate": 0.0,
+  "harness_error_rate": 0.0
+ },
+ "metrics_after": {
+  "session_start_rate": 0.85,
+  "completion_rate": 0.1,
+  "abandon_rate": 0.75,
+  "coverage": 0.31,
+  "stall_interruptions_per_agent": 0.35,
+  "correction_interruptions_per_agent": 0.05,
+  "interruptions_per_agent": 0.6,
+  "mic_tap_pause_rate": 0.4,
+  "unheard_words_per_agent": 6.3,
+  "drill_repeat_rate": 0.2,
+  "spoken_guidance_gap_rate": 0.6,
+  "consent_blocked_rate": 0.0,
+  "consent_self_approved_rate": 0.0,
+  "level_mismatch_rate": 0.5,
+  "false_corrections_per_agent": 0.5,
+  "missed_errors_per_agent": 0.15,
+  "long_talk_rate": 0.7,
+  "intro_s_median": 14.6,
+  "frustration_peak_mean": 3.302,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.3,
+  "replay_missing_rate": 0.0,
+  "restart_failed_rate": 0.0,
+  "harness_error_rate": 0.0
+ },
+ "verdict": "returned_to_engineering",
+ "wall_s": 950.2,
+ "runs": "agent_org/runs/c01/qa/REQ-CONSENT-GATE/r1"
+}

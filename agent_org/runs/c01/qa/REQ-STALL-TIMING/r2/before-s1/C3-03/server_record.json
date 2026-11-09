@@ -1,0 +1,477 @@
+{
+ "id": "20261109-194718-189834",
+ "text_id": "gu-shala",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 16,
+  "words_helped": 3,
+  "words_to_practise": [
+   "રોજ",
+   "રમીએ"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 67.0,
+  "words_per_minute": 17.0
+ },
+ "log": [
+  {
+   "t": 0.009,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.417,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.201,
+   "event": "transcript",
+   "text": "મારી શાળા બહુ સુંદર છે"
+  },
+  {
+   "t": 18.201,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 18.201,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 21.221,
+   "event": "transcript",
+   "text": "શાળામાં એક મોટુ મેદાન"
+  },
+  {
+   "t": 21.221,
+   "event": "progress",
+   "frm": 5,
+   "to": 9
+  },
+  {
+   "t": 23.231,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 9,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 23.231,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 25.922,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 28.289,
+   "event": "transcript",
+   "text": "છે"
+  },
+  {
+   "t": 28.289,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 28.289,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 28.289,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 28.289,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 30.746,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.543,
+   "event": "transcript",
+   "text": "અમે ત્યાં ડોજ સાથે રમી છીએ"
+  },
+  {
+   "t": 33.543,
+   "event": "progress",
+   "frm": 10,
+   "to": 16
+  },
+  {
+   "t": 33.543,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    12,
+    14
+   ]
+  },
+  {
+   "t": 33.543,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 38.681,
+   "event": "transcript",
+   "text": "રોજ"
+  },
+  {
+   "t": 38.681,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 38.681,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 43.089,
+   "event": "transcript",
+   "text": "ડમીએ"
+  },
+  {
+   "t": 43.089,
+   "event": "drill_miss",
+   "word": 14,
+   "heard": "ડમીએ"
+  },
+  {
+   "t": 45.955,
+   "event": "pause"
+  },
+  {
+   "t": 48.291,
+   "event": "resume"
+  },
+  {
+   "t": 49.875,
+   "event": "transcript",
+   "text": "રમીએ"
+  },
+  {
+   "t": 49.875,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 49.875,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 56.422,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 59.101,
+   "event": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ"
+  },
+  {
+   "t": 59.101,
+   "event": "progress",
+   "frm": 10,
+   "to": 16
+  },
+  {
+   "t": 59.101,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 59.101,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 63.16,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 63.581,
+   "event": "transcript",
+   "text": "વાર્તા કહે છે"
+  },
+  {
+   "t": 63.581,
+   "event": "progress",
+   "frm": 16,
+   "to": 22
+  },
+  {
+   "t": 63.581,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 63.581,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 63.581,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.673,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.201,
+   "type": "transcript",
+   "text": "મારી શાળા બહુ સુંદર છે",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 19.263,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.221,
+   "type": "transcript",
+   "text": "શાળામાં એક મોટુ મેદાન",
+   "latency": 120,
+   "audio_duration_ms": 1530,
+   "message": null
+  },
+  {
+   "t": 27.337,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.289,
+   "type": "transcript",
+   "text": "છે",
+   "latency": 120,
+   "audio_duration_ms": 530,
+   "message": null
+  },
+  {
+   "t": 30.909,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.543,
+   "type": "transcript",
+   "text": "અમે ત્યાં ડોજ સાથે રમી છીએ",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 37.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.681,
+   "type": "transcript",
+   "text": "રોજ",
+   "latency": 120,
+   "audio_duration_ms": 530,
+   "message": null
+  },
+  {
+   "t": 42.137,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.089,
+   "type": "transcript",
+   "text": "ડમીએ",
+   "latency": 120,
+   "audio_duration_ms": 530,
+   "message": null
+  },
+  {
+   "t": 48.925,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.875,
+   "type": "transcript",
+   "text": "રમીએ",
+   "latency": 120,
+   "audio_duration_ms": 530,
+   "message": null
+  },
+  {
+   "t": 56.481,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.101,
+   "type": "transcript",
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 63.16,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.581,
+   "type": "transcript",
+   "text": "વાર્તા કહે છે",
+   "latency": 120,
+   "audio_duration_ms": 1084,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારી શાળા બહુ સુંદર છે",
+   "heard": "મારી શાળા બહુ સુંદર છે",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "શાળામાં એક મોટુ મેદાન",
+   "heard": "શાળામાં એક મોટુ મેદાન",
+   "muted_words": 0,
+   "duration_s": 1.53
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "છે",
+   "heard": "છે",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "અમે ત્યાં ડોજ સાથે રમી છીએ",
+   "heard": "અમે ત્યાં ડોજ સાથે રમી છીએ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "રોજ",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.53
+  },
+  {
+   "text": "રોજ",
+   "heard": "રોજ",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "ડમીએ",
+   "heard": "ડમીએ",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "રમીએ",
+   "heard": "રમીએ",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "heard": "અમે ત્યાં રોજ સાથે રમીએ છીએ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "મારા શિક્ષ શિક્ષક અમને વાર્તા કહે છે",
+   "heard": "વાર્તા કહે છે",
+   "muted_words": 4,
+   "duration_s": 2.53
+  }
+ ],
+ "tts_offline": 92
+}

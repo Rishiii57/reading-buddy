@@ -1,0 +1,50 @@
+{"t": 13.57, "type": "ready", "message": null}
+{"t": 13.68, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 28.94, "type": "speech"}
+{"t": 31.39, "type": "heard", "text": "मेरी गुढ़िया प्यारी है"}
+{"t": 31.4, "type": "speech"}
+{"t": 31.48, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गुड़िया", "spans": [[1, 2]]}
+{"t": 36.83, "type": "speech"}
+{"t": 38.81, "type": "heard", "text": "गुड़िया"}
+{"t": 38.81, "type": "speech"}
+{"t": 38.81, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 45.08, "type": "speech"}
+{"t": 47.78, "type": "heard", "text": "मेरी गुड़िया प्यारी है"}
+{"t": 47.78, "type": "speech"}
+{"t": 47.78, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 52.43, "type": "speech"}
+{"t": 54.88, "type": "heard", "text": "सबसे न्यारी न्याड़ी है"}
+{"t": 54.88, "type": "speech"}
+{"t": 54.97, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। न्यारी", "spans": [[6, 7]]}
+{"t": 60.74, "type": "speech"}
+{"t": 61.68, "type": "heard", "text": "न्यारी"}
+{"t": 61.68, "type": "speech"}
+{"t": 61.72, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।", "spans": [[4, 8]]}
+{"t": 68.92, "type": "speech"}
+{"t": 71.48, "type": "heard", "text": "सबसे न्याड़ी न्यारी है"}
+{"t": 71.48, "type": "speech"}
+{"t": 71.51, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। न्यारी", "spans": [[5, 6]]}
+{"t": 75.79, "type": "speech"}
+{"t": 77.05, "type": "heard", "text": "न्यारी"}
+{"t": 77.05, "type": "speech"}
+{"t": 77.05, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।", "spans": [[4, 8]]}
+{"t": 83.2, "type": "speech"}
+{"t": 85.69, "type": "heard", "text": "सबसे न्यारी न्यारी है"}
+{"t": 85.7, "type": "speech"}
+{"t": 85.72, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 92.43, "type": "speech"}
+{"t": 95.49, "type": "heard", "text": "लाल चुनरी ओढ़ के के आती"}
+{"t": 95.49, "type": "speech"}
+{"t": 96.75, "type": "speech"}
+{"t": 99.87, "type": "heard", "text": "मीठे मीठे मीठे गाणे गाती"}
+{"t": 99.87, "type": "speech"}
+{"t": 99.87, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गाने", "spans": [[15, 16]]}
+{"t": 104.53, "type": "speech"}
+{"t": 105.72, "type": "heard", "text": "गाने"}
+{"t": 105.72, "type": "speech"}
+{"t": 105.72, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मीठे मीठे गाने गाती। अब तुम पूरी पंक्ति बोलो।", "spans": [[13, 17]]}
+{"t": 111.83, "type": "speech"}
+{"t": 114.77, "type": "heard", "text": "मीठे मीठे गाने गाथी गाती"}
+{"t": 114.77, "type": "speech"}
+{"t": 114.79, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 114.79, "type": "summary", "summary": {"words_total": 17, "words_read": 13, "words_helped": 4, "words_to_practise": ["गुड़िया", "न्यारी", "गाने"], "words_practised": 4, "correction_attempts": 4, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 4, "seconds": 101.2, "words_per_minute": 10.1}}

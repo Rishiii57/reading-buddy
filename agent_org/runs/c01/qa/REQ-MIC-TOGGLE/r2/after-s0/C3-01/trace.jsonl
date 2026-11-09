@@ -1,0 +1,10 @@
+{"t": 3.1, "kind": "open_app", "brief": "Zoya, Class 3 (about 8.5 years). Prefers en-IN. Struggles with reading expression."}
+{"t": 3.99, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.46, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.13, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 12.58, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.77, "kind": "session_started", "tries": 1}
+{"t": 37.78, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.21 s thinking pause."}
+{"t": 74.97, "kind": "off_task_tap", "target": "About"}
+{"t": 74.99, "kind": "tap", "target": "About", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 76.91, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'About' left the reading page."}

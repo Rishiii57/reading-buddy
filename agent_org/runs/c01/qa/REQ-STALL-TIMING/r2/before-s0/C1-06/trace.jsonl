@@ -1,0 +1,17 @@
+{"t": 1.97, "kind": "open_app", "brief": "Siya, Class 1 (about 6.5 years). Prefers gu-IN. Tires quickly in the evening."}
+{"t": 2.01, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.01, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.67, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 9.36, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 9.52, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.0, "kind": "session_started", "tries": 1}
+{"t": 27.25, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 34.97, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 3.31 s thinking pause."}
+{"t": 58.45, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.3 s into a planned 2.13 s thinking pause."}
+{"t": 74.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 81.84, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.0 s into a planned 1.97 s thinking pause."}
+{"t": 90.69, "kind": "said_tired", "heard": "હું થાકી ગયો"}
+{"t": 99.02, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 99.83, "kind": "resumed", "after_s": 6.5}
+{"t": 110.56, "kind": "tap_mic_to_talk"}
+{"t": 110.83, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-summary"}

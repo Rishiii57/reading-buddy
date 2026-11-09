@@ -1,0 +1,20 @@
+{"t": 4.06, "kind": "open_app", "brief": "Parth, Class 2 (about 7.5 years). Prefers gu-IN. Uses the app alone."}
+{"t": 4.21, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.3, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.59, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.45, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.32, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.81, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 17.31, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 20.16, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 22.08, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 24.1, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 25.73, "kind": "session_started", "tries": 1}
+{"t": 38.43, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 88.14, "kind": "tap_mic_to_talk"}
+{"t": 88.16, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 92.62, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 93.64, "kind": "resumed", "after_s": 1.0}
+{"t": 103.28, "kind": "off_task_tap", "target": "About"}
+{"t": 103.3, "kind": "tap", "target": "About", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 104.16, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'About' left the reading page."}

@@ -1,0 +1,20 @@
+{"t": 2.87, "kind": "open_app", "brief": "Neel, Class 2 (about 7.5 years). Prefers hi-IN. Reads accurately without expression."}
+{"t": 2.88, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.85, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.02, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 10.6, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.39, "kind": "session_started", "tries": 1}
+{"t": 25.7, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 92.2, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 3 times."}
+{"t": 97.48, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 4 times."}
+{"t": 102.52, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 5 times."}
+{"t": 108.61, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 6 times."}
+{"t": 133.17, "kind": "tap_mic_to_talk"}
+{"t": 133.46, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 137.33, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 138.25, "kind": "resumed", "after_s": 0.5}
+{"t": 142.56, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'पर' 3 times."}
+{"t": 162.03, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 7 times."}
+{"t": 178.94, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'रहती' correctly but Buddy asked to practise it."}
+{"t": 179.39, "kind": "abandon", "why": "frustration", "frustration": 4.65}
+{"t": 181.23, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

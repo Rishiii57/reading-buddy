@@ -1,0 +1,335 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r2-after-s0",
+ "agent_id": "C1-02",
+ "seed": 1408,
+ "persona": {
+  "id": "C1-02",
+  "name": "Ira",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "hi-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-baarish",
+  "title": "बारिश आई",
+  "tags": [
+   "Hindi",
+   "Grade 1-2"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.27,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.27,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 39.58,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 39.58,
+      "said": "बादल गरजे बारिस बारिश",
+      "heard": ""
+     },
+     {
+      "t": 150.93,
+      "said": "मीठे गाने",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 64.08,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 64.08,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 92.79,
+    "details": [
+     "Buddy started talking 0.7 s into a planned 2.86 s thinking pause.",
+     "Buddy started talking 2.6 s into a planned 3.48 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 92.79,
+      "paused_s": 0.7,
+      "planned_s": 2.86,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "आई।"
+     },
+     {
+      "t": 100.26,
+      "paused_s": 2.6,
+      "planned_s": 3.48,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "आई।"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 153.82,
+    "details": [
+     "A curious tap on 'Reading Buddy' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 153.82,
+      "tapped": "Reading Buddy",
+      "view": "view-home"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.25,
+  "frustration_events": [
+   {
+    "t": 25.27,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 27.77,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 34.13,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 39.58,
+    "kind": "unheard_speech",
+    "frustration": 0.9
+   },
+   {
+    "t": 39.58,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 42.5,
+    "kind": "praise",
+    "frustration": 0.35
+   },
+   {
+    "t": 58.78,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 64.08,
+    "kind": "unexpected_pause",
+    "frustration": 1.0
+   },
+   {
+    "t": 74.08,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 78.47,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 78.51,
+    "kind": "praise",
+    "frustration": 0.3
+   },
+   {
+    "t": 85.32,
+    "kind": "progress",
+    "frustration": 0.15
+   },
+   {
+    "t": 91.85,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 92.79,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 0.7
+   },
+   {
+    "t": 100.26,
+    "kind": "interrupted_pause",
+    "frustration": 2.0,
+    "paused_s": 2.6
+   },
+   {
+    "t": 117.66,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 120.26,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 120.84,
+    "kind": "praise",
+    "frustration": 1.3
+   },
+   {
+    "t": 129.4,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 145.26,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 150.93,
+    "kind": "unheard_speech",
+    "frustration": 1.8
+   },
+   {
+    "t": 150.93,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 153.82,
+    "kind": "wrong_screen",
+    "frustration": 2.25
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 3,
+  "interruptions": 2,
+  "unheard_words": 6,
+  "buddy_talk_s": 61.8,
+  "child_talk_s": 32.5,
+  "tired_said": false,
+  "time_to_text_s": 2.6,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.4,
+  "time_to_first_word_s": 12.4,
+  "session_s": 143.2,
+  "words_total": 17,
+  "words_attempted": 13,
+  "words_said_wrong": 0,
+  "corrections": 3,
+  "buddy_turns": 13,
+  "stall_prompts": 1,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 8,
+  "words_helped": 5,
+  "words_to_practise": [
+   "बादल",
+   "गरजे",
+   "ठंडी",
+   "मीठे"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 3,
+  "seconds": 141.8,
+  "words_per_minute": 5.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 4,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 61,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

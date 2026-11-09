@@ -1,0 +1,18 @@
+{"t": 3.3, "kind": "open_app", "brief": "Siya, Class 1 (about 6.5 years). Prefers gu-IN. Tires quickly in the evening."}
+{"t": 3.34, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.38, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.09, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 10.65, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.49, "kind": "session_started", "tries": 1}
+{"t": 25.75, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 33.49, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.3 s into a planned 2.64 s thinking pause."}
+{"t": 42.12, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારો' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 50.4, "kind": "tap_mic_to_talk"}
+{"t": 50.45, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.71, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 58.3, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 59.52, "kind": "resumed", "after_s": 5.0}
+{"t": 64.28, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ને' 3 times."}
+{"t": 78.59, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારો' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 79.41, "kind": "abandon", "why": "frustration", "frustration": 4.6}
+{"t": 80.52, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

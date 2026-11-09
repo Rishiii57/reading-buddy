@@ -1,0 +1,269 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s1",
+ "agent_id": "C1-03",
+ "seed": 2425,
+ "persona": {
+  "id": "C1-03",
+  "name": "Dev",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.08,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.08,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 51.9,
+    "details": [
+     "Buddy started talking 2.5 s into a planned 3.07 s thinking pause.",
+     "Buddy started talking 0.3 s into a planned 2.74 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 2.74 s thinking pause.",
+     "Buddy started talking 1.9 s into a planned 2.15 s thinking pause.",
+     "Buddy started talking 1.8 s into a planned 2.46 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 51.9,
+      "paused_s": 2.5,
+      "planned_s": 3.07,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "નાની ચકલી હતી."
+     },
+     {
+      "t": 63.31,
+      "paused_s": 0.3,
+      "planned_s": 2.74,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "રોજ સવારે દાણા"
+     },
+     {
+      "t": 95.49,
+      "paused_s": 2.1,
+      "planned_s": 2.74,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "સવારે દાણા શોધવા"
+     },
+     {
+      "t": 102.54,
+      "paused_s": 1.9,
+      "planned_s": 2.15,
+      "line": 1,
+      "buddy_kind": "stall_rest",
+      "next_words": "રોજ સવારે દાણા"
+     },
+     {
+      "t": 112.32,
+      "paused_s": 1.8,
+      "planned_s": 2.46,
+      "line": 1,
+      "buddy_kind": "take_time",
+      "next_words": "રોજ સવારે દાણા"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 4.75,
+  "frustration_events": [
+   {
+    "t": 25.08,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 28.97,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 33.62,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 37.09,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 43.06,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 49.4,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 51.9,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 2.5
+   },
+   {
+    "t": 58.68,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 62.99,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 63.31,
+    "kind": "interrupted_pause",
+    "frustration": 1.7,
+    "paused_s": 0.3
+   },
+   {
+    "t": 80.22,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 85.6,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 93.22,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 95.49,
+    "kind": "interrupted_pause",
+    "frustration": 2.25,
+    "paused_s": 2.1
+   },
+   {
+    "t": 102.54,
+    "kind": "interrupted_pause",
+    "frustration": 3.25,
+    "paused_s": 1.9
+   },
+   {
+    "t": 112.32,
+    "kind": "interrupted_pause",
+    "frustration": 4.25,
+    "paused_s": 1.8
+   },
+   {
+    "t": 114.95,
+    "kind": "dead_click",
+    "frustration": 4.75,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 5,
+  "unheard_words": 0,
+  "buddy_talk_s": 33.1,
+  "child_talk_s": 28.5,
+  "tired_said": false,
+  "time_to_text_s": 2.1,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.8,
+  "time_to_first_word_s": 14.8,
+  "session_s": 103.7,
+  "words_total": 23,
+  "words_attempted": 10,
+  "words_said_wrong": 4,
+  "corrections": 0,
+  "buddy_turns": 7,
+  "stall_prompts": 3,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 1,
+  "words_helped": 9,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 103.5,
+  "words_per_minute": 5.8
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 52,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,18 @@
+{"t": 2.73, "kind": "open_app", "brief": "Parth, Class 2 (about 7.5 years). Prefers gu-IN. Uses the app alone."}
+{"t": 2.85, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.94, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 5.21, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.53, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.47, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.53, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 13.97, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.55, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 16.34, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 17.42, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 19.35, "kind": "session_started", "tries": 1}
+{"t": 31.65, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 36.49, "kind": "tap_mic_to_talk"}
+{"t": 36.51, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 59.6, "kind": "tap_mic_to_talk"}
+{"t": 59.63, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 80.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}

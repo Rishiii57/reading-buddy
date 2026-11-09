@@ -1,0 +1,17 @@
+{"t": 3.32, "kind": "open_app", "brief": "Riya, UKG (about 5.5 years). Prefers gu-IN. Struggles with joined letters; low frustration tolerance."}
+{"t": 3.37, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.03, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.77, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 8.21, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 8.21, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 3' text, made for children who already read."}
+{"t": 12.23, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.23, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.11, "kind": "tap", "target": "consentBox", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 15.11, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 15.51, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.78, "kind": "tap", "target": "Not now", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 17.77, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 17.91, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.94, "kind": "tap", "target": "Not now", "why": "does not understand the grown-up box", "view": "view-reader"}
+{"t": 19.92, "kind": "issue", "code": "CONSENT_BLOCKS_CHILD", "detail": "A written grown-ups-only box appeared; the child could not read it and could not start."}
+{"t": 19.92, "kind": "issue", "code": "COULD_NOT_START_SESSION", "detail": "Never managed to start a reading session."}

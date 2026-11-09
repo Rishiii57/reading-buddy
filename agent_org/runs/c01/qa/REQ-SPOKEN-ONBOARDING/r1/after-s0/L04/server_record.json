@@ -1,0 +1,253 @@
+{
+ "id": "20261109-192543-c41313",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 1,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 52.0,
+  "words_per_minute": 8.1
+ },
+ "log": [
+  {
+   "t": 0.08,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 12.949,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 14.635,
+   "event": "pause"
+  },
+  {
+   "t": 17.303,
+   "event": "resume"
+  },
+  {
+   "t": 22.165,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 28.281,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 34.105,
+   "event": "transcript",
+   "text": "walked at"
+  },
+  {
+   "t": 34.105,
+   "event": "uncertain",
+   "text": "walked at"
+  },
+  {
+   "t": 34.105,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 37.429,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.32,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 39.32,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 41.368,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 41.368,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 44.792,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 46.538,
+   "event": "transcript",
+   "text": "said"
+  },
+  {
+   "t": 48.57,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 48.57,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 1,
+   "to": 7
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 20.715,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.165,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 26.831,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.281,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 31.814,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.105,
+   "type": "transcript",
+   "text": "walked at",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 37.84,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.32,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 45.087,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.538,
+   "type": "transcript",
+   "text": "said",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "walked at",
+   "heard": "walked at",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "said",
+   "heard": "said",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "small",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 30
+}
