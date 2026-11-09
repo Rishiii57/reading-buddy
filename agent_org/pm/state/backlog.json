@@ -71,9 +71,19 @@
      "event": "returned_to_engineering",
      "at": "2026-11-09T20:48:10",
      "note": "QA round 1: returned_to_engineering (2/2 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T20:48:41",
+     "note": "branch refreshed onto integration 11256085"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T20:48:51",
+     "note": "submitted cde69d73: Round 2: branch refreshed onto the integration build (spoken onboarding, stall timing, mic fix merged); consent removal unchanged"
     }
    ],
-   "status": "returned_to_engineering",
+   "status": "awaiting_qa",
    "priority": "P0",
    "human_scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
   },
