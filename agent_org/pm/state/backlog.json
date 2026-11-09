@@ -20,9 +20,19 @@
      "by": "team (user, 2026-11-10)",
      "note": "Use 5-7 common poems used in Indian schools",
      "scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:15",
+     "note": "Data Engineer started on eng/REQ-PREPRIMARY-CONTENT"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:13",
+     "note": "submitted 54811fcf: 13 traditional public-domain rhymes (en 5, hi 4, gu 4) for Nursery/LKG/UKG; level-aware library (youngest first, bigger rhyme cards, Nursery/LKG/UKG chips); echo reading: Buddy models every line of a pre-primary rhyme"
     }
    ],
-   "status": "approved",
+   "status": "awaiting_qa",
    "priority": "P0",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },
@@ -46,9 +56,34 @@
      "by": "team (user, 2026-11-10)",
      "note": "No parent consent needed",
      "scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:14",
+     "note": "Frontend Engineer started on eng/REQ-CONSENT-GATE"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:14:59",
+     "note": "submitted 39e909bc: Removed the parent-consent dialog (team decision): the mic starts on the first tap; browser permission still applies; About/SETUP updated"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T20:48:10",
+     "note": "QA round 1: returned_to_engineering (2/2 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T20:48:41",
+     "note": "branch refreshed onto integration 11256085"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T20:48:51",
+     "note": "submitted cde69d73: Round 2: branch refreshed onto the integration build (spoken onboarding, stall timing, mic fix merged); consent removal unchanged"
     }
    ],
-   "status": "approved",
+   "status": "awaiting_qa",
    "priority": "P0",
    "human_scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
   },
@@ -75,9 +110,14 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T18:38:59",
      "note": "submitted 059b47ce: Buddy speaks a short hint (cached phrase) when a text opens; reader bubbles in the text's language"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T19:38:32",
+     "note": "QA round 1: validated_fixed (1/1 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "validated_fixed",
    "priority": "P1"
   },
   "RC-STALL-TIMING": {
@@ -103,9 +143,24 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T18:38:19",
      "note": "submitted 1182cee3: Level-based and adaptive mid-line stall threshold (young texts 3.0 s; learns the reader's resumed pauses, k=1.3, cap 5 s)"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T19:13:26",
+     "note": "QA round 1: returned_to_engineering (1/2 criteria)"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:14:32",
+     "note": "submitted 69518f37: Round 2: mid-line stall threshold 3.0 s for all texts (3.4 s for Grade 1/pre-primary); adaptive learning kept on top"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:05:45",
+     "note": "QA round 2: validated_fixed (2/2 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "validated_fixed",
    "priority": "P1"
   },
   "RC-MIDLINE-CORRECTION": {
@@ -145,9 +200,29 @@
      "at": "2026-11-09T19:11:06",
      "by": "team (user, 2026-11-10)",
      "note": "Fix the mic-tap bug"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:14",
+     "note": "Frontend Engineer started on eng/REQ-MIC-TOGGLE"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:36",
+     "note": "submitted ab461ec4: Mic button no longer pauses a running session: a tap while listening gives a bounce + 'I'm listening!' bubble; tap while paused resumes; Pause button and Escape still pause; no pause icon on hover"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:51",
+     "note": "submitted 50384d0c: keep mic icon visible on hover while listening"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:32:19",
+     "note": "QA round 2: validated_fixed (1/1 criteria)"
     }
    ],
-   "status": "approved",
+   "status": "validated_fixed",
    "priority": "P2"
   },
   "RC-TALK-OVER-BUDDY": {

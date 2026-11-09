@@ -1,0 +1,264 @@
+{
+ "id": "20261109-193152-f93d4a",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [
+   "patter"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 54.9,
+  "words_per_minute": 3.3
+ },
+ "log": [
+  {
+   "t": 0.012,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 12.863,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 13.207,
+   "event": "pause"
+  },
+  {
+   "t": 16.046,
+   "event": "resume"
+  },
+  {
+   "t": 21.508,
+   "event": "transcript",
+   "text": "Pitter Pitter play for for"
+  },
+  {
+   "t": 21.508,
+   "event": "uncertain",
+   "text": "pitter pitter play for for"
+  },
+  {
+   "t": 21.508,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 25.107,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.919,
+   "event": "transcript",
+   "text": "pig"
+  },
+  {
+   "t": 33.053,
+   "event": "transcript",
+   "text": "put"
+  },
+  {
+   "t": 38.241,
+   "event": "transcript",
+   "text": "fish"
+  },
+  {
+   "t": 43.864,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 43.864,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 48.565,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 50.918,
+   "event": "transcript",
+   "text": "Pitter Pitter"
+  },
+  {
+   "t": 50.918,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 52.555,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 52.972,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 52.972,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.693,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.508,
+   "type": "transcript",
+   "text": "Pitter Pitter play for for",
+   "latency": 120,
+   "audio_duration_ms": 4370,
+   "message": null
+  },
+  {
+   "t": 26.408,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.919,
+   "type": "transcript",
+   "text": "pig",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 31.51,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.053,
+   "type": "transcript",
+   "text": "put",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 36.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.241,
+   "type": "transcript",
+   "text": "fish",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 48.618,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.918,
+   "type": "transcript",
+   "text": "Pitter Pitter",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter Pitter play for for",
+   "heard": "Pitter Pitter play for for",
+   "muted_words": 0,
+   "duration_s": 4.37
+  },
+  {
+   "text": "pig",
+   "heard": "pig",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "put",
+   "heard": "put",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "fish",
+   "heard": "fish",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter Pitter",
+   "heard": "Pitter Pitter",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 25
+}

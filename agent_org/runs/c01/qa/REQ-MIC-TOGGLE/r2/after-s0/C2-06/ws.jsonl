@@ -1,0 +1,75 @@
+{"t": 17.31, "type": "ready", "message": null}
+{"t": 17.35, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 33.11, "type": "speech"}
+{"t": 36.19, "type": "heard", "text": "એ નાની ચકલી હતી"}
+{"t": 36.19, "type": "speech"}
+{"t": 36.19, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 40.99, "type": "speech"}
+{"t": 42.2, "type": "heard", "text": "એક"}
+{"t": 42.2, "type": "speech"}
+{"t": 42.2, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 4]]}
+{"t": 49.35, "type": "speech"}
+{"t": 52.37, "type": "heard", "text": "એક નાની ચકલિ હતી"}
+{"t": 53.04, "type": "speech"}
+{"t": 53.17, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 57.04, "type": "speech"}
+{"t": 60.53, "type": "heard", "text": "રોજ સવારે શોદવા જતી"}
+{"t": 60.54, "type": "speech"}
+{"t": 61.32, "type": "speech"}
+{"t": 63.15, "type": "heard", "text": "ધાણા ધાણા"}
+{"t": 63.17, "type": "speech"}
+{"t": 63.55, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 68.25, "type": "speech"}
+{"t": 69.71, "type": "heard", "text": "દાણા શોધવા જતી"}
+{"t": 69.75, "type": "speech"}
+{"t": 70.0, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. તે", "spans": [[4, 5]]}
+{"t": 75.85, "type": "speech"}
+{"t": 77.55, "type": "heard", "text": "તે તે"}
+{"t": 77.55, "type": "speech"}
+{"t": 77.57, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 84.5, "type": "speech"}
+{"t": 88.48, "type": "heard", "text": "તે રોજ સવારે ધાણા શોધવા જતી"}
+{"t": 88.5, "type": "speech"}
+{"t": 88.5, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. દાણા", "spans": [[7, 8]]}
+{"t": 97.11, "type": "say", "kind": "fix_again", "text": "દાણા", "spans": [[7, 8]]}
+{"t": 97.95, "type": "speech"}
+{"t": 99.11, "type": "heard", "text": "ધાણા"}
+{"t": 99.11, "type": "speech"}
+{"t": 99.11, "type": "say", "kind": "fix_again", "text": "દાણા", "spans": [[7, 8]]}
+{"t": 102.37, "type": "speech"}
+{"t": 103.53, "type": "heard", "text": "દાણા"}
+{"t": 103.53, "type": "speech"}
+{"t": 103.53, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 110.9, "type": "speech"}
+{"t": 113.73, "type": "heard", "text": "તે રોજ સવારે દાણા"}
+{"t": 113.73, "type": "speech"}
+{"t": 115.84, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... શોધવા જતી.", "spans": [[8, 10]]}
+{"t": 118.2, "type": "speech"}
+{"t": 120.58, "type": "heard", "text": "શોધવા જતી જતી"}
+{"t": 120.58, "type": "speech"}
+{"t": 120.6, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 124.72, "type": "speech"}
+{"t": 130.96, "type": "heard", "text": "એક એક દિવસ થેને તેને ઘણા ઘણા વધા દાણા મળ્યા"}
+{"t": 131.01, "type": "speech"}
+{"t": 131.03, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. બધા", "spans": [[14, 15]]}
+{"t": 135.14, "type": "speech"}
+{"t": 136.31, "type": "heard", "text": "બધા"}
+{"t": 136.32, "type": "speech"}
+{"t": 136.35, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! એક દિવસ તેને ઘણા બધા દાણા મળ્યા. હવે તું આખી પંક્તિ બોલ.", "spans": [[10, 17]]}
+{"t": 143.87, "type": "speech"}
+{"t": 148.93, "type": "heard", "text": "એક દિવસ તેને ઘણા ઘણા બધા દાણા મળ્યા"}
+{"t": 148.93, "type": "speech"}
+{"t": 148.96, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 152.09, "type": "speech"}
+{"t": 157.18, "type": "heard", "text": "ચકલીએ થે તે દાણા તેણા તેના બચ્ચાંણે ખબડાવ્યા"}
+{"t": 157.21, "type": "speech"}
+{"t": 157.22, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. બચ્ચાંને", "spans": [[21, 22]]}
+{"t": 161.39, "type": "speech"}
+{"t": 162.46, "type": "heard", "text": "બચ્ચાંને"}
+{"t": 162.47, "type": "speech"}
+{"t": 162.51, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! ચકલીએ તે દાણા તેના બચ્ચાંને ખવડાવ્યા. હવે તું આખી પંક્તિ બોલ.", "spans": [[17, 23]]}
+{"t": 170.28, "type": "speech"}
+{"t": 175.35, "type": "heard", "text": "ચકલીએ તે દાના દાણા તેના વચ્ચાંણે બચ્ચાંને ખવડાવ્યા"}
+{"t": 175.37, "type": "speech"}
+{"t": 175.41, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 175.41, "type": "summary", "summary": {"words_total": 23, "words_read": 16, "words_helped": 7, "words_to_practise": ["એક", "તે", "દાણા", "બધા", "બચ્ચાંને"], "words_practised": 5, "correction_attempts": 6, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 5, "seconds": 158.1, "words_per_minute": 8.7}}

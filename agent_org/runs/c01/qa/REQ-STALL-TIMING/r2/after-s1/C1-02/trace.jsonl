@@ -1,0 +1,23 @@
+{"t": 1.85, "kind": "open_app", "brief": "Ira, Class 1 (about 6.5 years). Prefers hi-IN. Confuses similar Hindi letters."}
+{"t": 1.91, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.82, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "curious tap", "view": "view-languages"}
+{"t": 3.82, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.56, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 9.96, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.33, "kind": "session_started", "tries": 1}
+{"t": 21.96, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 31.26, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 34.72, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'एक' correctly but Buddy asked to practise it."}
+{"t": 104.01, "kind": "tap_mic_to_talk"}
+{"t": 104.88, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 106.42, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 108.67, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 109.57, "kind": "resumed", "after_s": 2.0}
+{"t": 158.12, "kind": "tap_mic_to_talk"}
+{"t": 158.15, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 159.74, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 162.24, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 163.12, "kind": "resumed", "after_s": 1.5}
+{"t": 175.44, "kind": "off_task_tap", "target": "About"}
+{"t": 175.46, "kind": "tap", "target": "About", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 176.39, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'About' left the reading page."}

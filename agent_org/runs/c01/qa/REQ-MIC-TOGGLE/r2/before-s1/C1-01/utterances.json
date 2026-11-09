@@ -1,0 +1,590 @@
+{
+ "utterances": [
+  {
+   "t": 31.18,
+   "said": "Ravi has has a",
+   "stt": "Ravi has has a",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.29,
+   "said": "mango mango",
+   "stt": "mango",
+   "stt_notes": [
+    "lost 'mango'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.24,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.94,
+   "said": "his garden",
+   "stt": "his garden",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.53,
+   "said": "Every said tree full of of sweet mangoes",
+   "stt": "Every said full of of sweet mangoes",
+   "stt_notes": [
+    "lost 'tree'"
+   ],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.6,
+   "said": "summer",
+   "stt": "summer",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 75.87,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 80.75,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 86.23,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 91.21,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 98.21,
+   "said": "is",
+   "stt": "",
+   "stt_notes": [
+    "lost 'is'"
+   ],
+   "words": [
+    12
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 103.4,
+   "said": "is",
+   "stt": "is",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 115.59,
+   "said": "Every summer the tree",
+   "stt": "Every summer the tree",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.18,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has has a"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.18,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has has a"
+   }
+  ],
+  "2": [
+   {
+    "t": 31.18,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has has a"
+   }
+  ],
+  "3": [
+   {
+    "t": 41.29,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mango"
+   }
+  ],
+  "4": [
+   {
+    "t": 48.24,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree"
+   }
+  ],
+  "5": [
+   {
+    "t": 56.94,
+    "target": "in",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "his garden"
+   }
+  ],
+  "6": [
+   {
+    "t": 56.94,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "his garden"
+   }
+  ],
+  "7": [
+   {
+    "t": 56.94,
+    "target": "garden",
+    "said": "garden",
+    "correct": true,
+    "kind": "ok",
+    "stt": "his garden"
+   }
+  ],
+  "8": [
+   {
+    "t": 64.53,
+    "target": "Every",
+    "said": "Every",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   },
+   {
+    "t": 115.59,
+    "target": "Every",
+    "said": "Every",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every summer the tree"
+   }
+  ],
+  "9": [
+   {
+    "t": 64.53,
+    "target": "summer",
+    "said": "said",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Every said full of of sweet mangoes"
+   },
+   {
+    "t": 70.6,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "summer",
+    "drill": true
+   },
+   {
+    "t": 115.59,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every summer the tree"
+   }
+  ],
+  "10": [
+   {
+    "t": 64.53,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Every said full of of sweet mangoes"
+   },
+   {
+    "t": 75.87,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the",
+    "drill": true
+   },
+   {
+    "t": 115.59,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every summer the tree"
+   }
+  ],
+  "11": [
+   {
+    "t": 64.53,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   },
+   {
+    "t": 80.75,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree",
+    "drill": true
+   },
+   {
+    "t": 115.59,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every summer the tree"
+   }
+  ],
+  "12": [
+   {
+    "t": 64.53,
+    "target": "is",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Every said full of of sweet mangoes"
+   },
+   {
+    "t": 86.23,
+    "target": "is",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 91.21,
+    "target": "is",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 98.21,
+    "target": "is",
+    "said": "is",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 103.4,
+    "target": "is",
+    "said": "is",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is",
+    "drill": true
+   },
+   {
+    "t": 115.59,
+    "target": "is",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Every summer the tree"
+   }
+  ],
+  "13": [
+   {
+    "t": 64.53,
+    "target": "full",
+    "said": "full",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   }
+  ],
+  "14": [
+   {
+    "t": 64.53,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   }
+  ],
+  "15": [
+   {
+    "t": 64.53,
+    "target": "sweet",
+    "said": "sweet",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   }
+  ],
+  "16": [
+   {
+    "t": 64.53,
+    "target": "mangoes",
+    "said": "mangoes",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every said full of of sweet mangoes"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.32,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 33.84,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... mango tree in",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 43.41,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... tree in his",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 51.96,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... in his garden.",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 65.02,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. summer",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 70.96,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! the",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 75.9,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! tree",
+   "spans": [
+    [
+     11,
+     12
+    ]
+   ]
+  },
+  {
+   "t": 80.77,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! is",
+   "spans": [
+    [
+     12,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 88.45,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "is",
+   "spans": [
+    [
+     12,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 100.3,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "is",
+   "spans": [
+    [
+     12,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 103.46,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.",
+   "spans": [
+    [
+     8,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 117.69,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... is full of",
+   "spans": [
+    [
+     12,
+     15
+    ]
+   ]
+  }
+ ]
+}

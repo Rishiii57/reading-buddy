@@ -1,0 +1,42 @@
+{"t": 10.53, "type": "ready", "message": null}
+{"t": 10.61, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!", "spans": [[0, 5]]}
+{"t": 24.47, "type": "speech"}
+{"t": 26.6, "type": "heard", "text": "the run"}
+{"t": 26.63, "type": "speech"}
+{"t": 26.67, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 30.49, "type": "speech"}
+{"t": 31.78, "type": "heard", "text": "rain"}
+{"t": 31.84, "type": "speech"}
+{"t": 33.46, "type": "speech"}
+{"t": 37.91, "type": "heard", "text": "Pitter patter fish the rain"}
+{"t": 37.91, "type": "speech"}
+{"t": 38.19, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. falls", "spans": [[2, 3]]}
+{"t": 42.74, "type": "speech"}
+{"t": 44.5, "type": "heard", "text": "falls"}
+{"t": 44.5, "type": "speech"}
+{"t": 44.5, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Pitter patter falls the rain Now you say the whole line.", "spans": [[0, 5]]}
+{"t": 50.28, "type": "speech"}
+{"t": 52.59, "type": "heard", "text": "play patter"}
+{"t": 52.59, "type": "speech"}
+{"t": 56.24, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Pitter", "spans": [[0, 1]]}
+{"t": 59.81, "type": "speech"}
+{"t": 61.3, "type": "heard", "text": "pidter"}
+{"t": 61.3, "type": "speech"}
+{"t": 61.38, "type": "say", "kind": "fix_again", "text": "Pitter", "spans": [[0, 1]]}
+{"t": 65.85, "type": "speech"}
+{"t": 67.18, "type": "heard", "text": "Pitter"}
+{"t": 67.18, "type": "speech"}
+{"t": 67.2, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Pitter patter falls the rain Now you say the whole line.", "spans": [[0, 5]]}
+{"t": 74.2, "type": "speech"}
+{"t": 77.26, "type": "heard", "text": "Pitter patter fun"}
+{"t": 77.63, "type": "speech"}
+{"t": 80.82, "type": "say", "kind": "stall_phrase", "text": "Listen... falls the rain", "spans": [[2, 5]]}
+{"t": 86.96, "type": "speech"}
+{"t": 89.4, "type": "heard", "text": "fish tha the"}
+{"t": 89.4, "type": "speech"}
+{"t": 89.42, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 92.86, "type": "speech"}
+{"t": 97.38, "type": "heard", "text": "falls the the ran ran"}
+{"t": 97.38, "type": "speech"}
+{"t": 97.43, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 105.14, "type": "summary", "summary": {"words_total": 24, "words_read": 2, "words_helped": 4, "words_to_practise": ["Pitter", "falls"], "words_practised": 2, "correction_attempts": 3, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 94.5, "words_per_minute": 3.8}}

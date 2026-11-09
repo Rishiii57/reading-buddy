@@ -1,0 +1,44 @@
+{"t": 11.01, "type": "ready", "message": null}
+{"t": 11.32, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 27.53, "type": "speech"}
+{"t": 31.21, "type": "heard", "text": "Ravi has has a"}
+{"t": 31.25, "type": "speech"}
+{"t": 33.84, "type": "say", "kind": "stall_phrase", "text": "Listen... mango tree in", "spans": [[3, 6]]}
+{"t": 39.13, "type": "speech"}
+{"t": 41.31, "type": "heard", "text": "mango"}
+{"t": 41.34, "type": "speech"}
+{"t": 43.41, "type": "say", "kind": "stall_phrase", "text": "Listen... tree in his", "spans": [[4, 7]]}
+{"t": 46.86, "type": "speech"}
+{"t": 48.28, "type": "heard", "text": "tree"}
+{"t": 48.3, "type": "speech"}
+{"t": 51.96, "type": "say", "kind": "stall_phrase", "text": "Listen... in his garden.", "spans": [[5, 8]]}
+{"t": 55.13, "type": "speech"}
+{"t": 56.99, "type": "heard", "text": "his garden"}
+{"t": 57.05, "type": "speech"}
+{"t": 57.76, "type": "speech"}
+{"t": 65.02, "type": "heard", "text": "Every said full of of sweet mangoes"}
+{"t": 65.02, "type": "speech"}
+{"t": 65.02, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. summer", "spans": [[9, 10]]}
+{"t": 69.31, "type": "speech"}
+{"t": 70.8, "type": "heard", "text": "summer"}
+{"t": 70.96, "type": "speech"}
+{"t": 70.96, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! the", "spans": [[10, 11]]}
+{"t": 74.44, "type": "speech"}
+{"t": 75.9, "type": "heard", "text": "the"}
+{"t": 75.9, "type": "speech"}
+{"t": 75.9, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! tree", "spans": [[11, 12]]}
+{"t": 79.54, "type": "speech"}
+{"t": 80.77, "type": "heard", "text": "tree"}
+{"t": 80.77, "type": "speech"}
+{"t": 80.77, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! is", "spans": [[12, 13]]}
+{"t": 88.45, "type": "say", "kind": "fix_again", "text": "is", "spans": [[12, 13]]}
+{"t": 100.3, "type": "say", "kind": "fix_again", "text": "is", "spans": [[12, 13]]}
+{"t": 102.01, "type": "speech"}
+{"t": 103.46, "type": "heard", "text": "is"}
+{"t": 103.46, "type": "speech"}
+{"t": 103.46, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.", "spans": [[8, 17]]}
+{"t": 111.88, "type": "speech"}
+{"t": 115.6, "type": "heard", "text": "Every summer the tree"}
+{"t": 115.6, "type": "speech"}
+{"t": 117.69, "type": "say", "kind": "stall_phrase", "text": "Listen... is full of", "spans": [[12, 15]]}
+{"t": 118.36, "type": "summary", "summary": {"words_total": 32, "words_read": 6, "words_helped": 11, "words_to_practise": ["summer", "the", "tree", "is"], "words_practised": 4, "correction_attempts": 4, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 4, "corrections": 1, "seconds": 107.3, "words_per_minute": 9.5}}

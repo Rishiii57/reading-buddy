@@ -1,0 +1,446 @@
+{
+ "utterances": [
+  {
+   "t": 32.78,
+   "said": "Ravi has a mango tree in his garden",
+   "stt": "Ravi has a mango tree in his garden",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.44,
+   "said": "um see tha tree",
+   "stt": "um see tha tree",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.47,
+   "said": "um Every summer the tre is fun full said sweet my",
+   "stt": "um Every summer the tre is fun full said sweet my",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.12,
+   "said": "mangoes",
+   "stt": "mangoes",
+   "stt_notes": [],
+   "words": [
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.57,
+   "said": "of of",
+   "stt": "of of",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 69.91,
+   "said": "um summer the tree is full of sweet mangoes",
+   "stt": "um summer the tree is full of sweet mangoes",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.78,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "1": [
+   {
+    "t": 32.78,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "2": [
+   {
+    "t": 32.78,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "3": [
+   {
+    "t": 32.78,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "4": [
+   {
+    "t": 32.78,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "5": [
+   {
+    "t": 32.78,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "6": [
+   {
+    "t": 32.78,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "7": [
+   {
+    "t": 32.78,
+    "target": "garden",
+    "said": "garden",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a mango tree in his garden"
+   }
+  ],
+  "8": [
+   {
+    "t": 37.44,
+    "target": "Every",
+    "said": "um",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um see tha tree"
+   },
+   {
+    "t": 47.47,
+    "target": "Every",
+    "said": "um Every",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "Every",
+    "said": "um",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "9": [
+   {
+    "t": 37.44,
+    "target": "summer",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um see tha tree"
+   },
+   {
+    "t": 47.47,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "10": [
+   {
+    "t": 37.44,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um see tha tree"
+   },
+   {
+    "t": 47.47,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "11": [
+   {
+    "t": 37.44,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um see tha tree"
+   },
+   {
+    "t": 47.47,
+    "target": "tree",
+    "said": "tre",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "12": [
+   {
+    "t": 47.47,
+    "target": "is",
+    "said": "is",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "is",
+    "said": "is",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "13": [
+   {
+    "t": 47.47,
+    "target": "full",
+    "said": "fun full",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "full",
+    "said": "full",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "14": [
+   {
+    "t": 47.47,
+    "target": "of",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 55.57,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "of of",
+    "drill": true
+   },
+   {
+    "t": 69.91,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "15": [
+   {
+    "t": 47.47,
+    "target": "sweet",
+    "said": "said sweet",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 69.91,
+    "target": "sweet",
+    "said": "sweet",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ],
+  "16": [
+   {
+    "t": 47.47,
+    "target": "mangoes",
+    "said": "my",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um Every summer the tre is fun full said sweet my"
+   },
+   {
+    "t": 50.12,
+    "target": "mangoes",
+    "said": "mangoes",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mangoes"
+   },
+   {
+    "t": 69.91,
+    "target": "mangoes",
+    "said": "mangoes",
+    "correct": true,
+    "kind": "ok",
+    "stt": "um summer the tree is full of sweet mangoes"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.22,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 37.57,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 50.18,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. of",
+   "spans": [
+    [
+     14,
+     15
+    ]
+   ]
+  },
+  {
+   "t": 55.6,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.",
+   "spans": [
+    [
+     8,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 70.39,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. Every",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  }
+ ]
+}

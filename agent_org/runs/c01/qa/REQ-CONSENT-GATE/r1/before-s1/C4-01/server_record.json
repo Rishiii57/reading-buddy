@@ -1,0 +1,662 @@
+{
+ "id": "20261109-203723-819016",
+ "text_id": "hi-bagicha",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 23,
+  "words_helped": 7,
+  "words_to_practise": [
+   "मीना",
+   "के"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 2,
+  "corrections": 2,
+  "seconds": 108.6,
+  "words_per_minute": 16.6
+ },
+ "log": [
+  {
+   "t": 0.018,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.242,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.467,
+   "event": "transcript",
+   "text": "घर के पीछे एक बगीचा है"
+  },
+  {
+   "t": 19.467,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 19.467,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1
+   ]
+  },
+  {
+   "t": 19.467,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 26.96,
+   "event": "transcript",
+   "text": "मीना"
+  },
+  {
+   "t": 26.96,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 26.96,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 34.15,
+   "event": "transcript",
+   "text": "के"
+  },
+  {
+   "t": 34.15,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 34.15,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 42.81,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 46.939,
+   "event": "transcript",
+   "text": "मीना के घर के पीछे एक बगीचा है"
+  },
+  {
+   "t": 46.939,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 46.939,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 46.939,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 50.563,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.437,
+   "event": "transcript",
+   "text": "उसमें लल लाल और"
+  },
+  {
+   "t": 54.437,
+   "event": "progress",
+   "frm": 8,
+   "to": 11
+  },
+  {
+   "t": 56.523,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 11,
+   "to": 14,
+   "line": 1
+  },
+  {
+   "t": 56.523,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 11,
+   "to": 14
+  },
+  {
+   "t": 59.87,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 62.093,
+   "event": "transcript",
+   "text": "पीले फूल खिलते"
+  },
+  {
+   "t": 62.093,
+   "event": "progress",
+   "frm": 11,
+   "to": 14
+  },
+  {
+   "t": 64.113,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 14,
+   "to": 15,
+   "line": 1
+  },
+  {
+   "t": 64.113,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 66.639,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 67.818,
+   "event": "transcript",
+   "text": "हैं"
+  },
+  {
+   "t": 67.818,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 67.818,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 67.818,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 67.818,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 71.087,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 74.307,
+   "event": "transcript",
+   "text": "मीणा हर सुबह पौदों पौधों को"
+  },
+  {
+   "t": 74.307,
+   "event": "progress",
+   "frm": 15,
+   "to": 20
+  },
+  {
+   "t": 77.852,
+   "event": "transcript",
+   "text": "पानी देती है"
+  },
+  {
+   "t": 77.852,
+   "event": "progress",
+   "frm": 20,
+   "to": 23
+  },
+  {
+   "t": 77.852,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    15
+   ]
+  },
+  {
+   "t": 77.852,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 15
+  },
+  {
+   "t": 83.464,
+   "event": "transcript",
+   "text": "मीना"
+  },
+  {
+   "t": 83.464,
+   "event": "drill_ok",
+   "word": 15
+  },
+  {
+   "t": 83.464,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 90.845,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 94.886,
+   "event": "transcript",
+   "text": "मीना हर सुबह पौधों को पानी देती है"
+  },
+  {
+   "t": 94.886,
+   "event": "progress",
+   "frm": 15,
+   "to": 23
+  },
+  {
+   "t": 94.886,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 94.886,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 98.653,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 99.771,
+   "event": "transcript",
+   "text": "उसे"
+  },
+  {
+   "t": 99.771,
+   "event": "progress",
+   "frm": 23,
+   "to": 24
+  },
+  {
+   "t": 104.498,
+   "event": "transcript",
+   "text": "अपने बगीचे से बहुत प्यार है"
+  },
+  {
+   "t": 104.498,
+   "event": "progress",
+   "frm": 24,
+   "to": 30
+  },
+  {
+   "t": 104.498,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 104.498,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 104.498,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.017,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.416,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.467,
+   "type": "transcript",
+   "text": "घर के पीछे एक बगीचा है",
+   "latency": 120,
+   "audio_duration_ms": 2633,
+   "message": null
+  },
+  {
+   "t": 25.918,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.96,
+   "type": "transcript",
+   "text": "मीना",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 32.767,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.15,
+   "type": "transcript",
+   "text": "के",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 42.988,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.939,
+   "type": "transcript",
+   "text": "मीना के घर के पीछे एक बगीचा है",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 52.117,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.437,
+   "type": "transcript",
+   "text": "उसमें लल लाल और",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 60.198,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.093,
+   "type": "transcript",
+   "text": "पीले फूल खिलते",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 66.777,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.818,
+   "type": "transcript",
+   "text": "हैं",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 71.18,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.307,
+   "type": "transcript",
+   "text": "मीणा हर सुबह पौदों पौधों को",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 75.973,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.852,
+   "type": "transcript",
+   "text": "पानी देती है",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 82.422,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.464,
+   "type": "transcript",
+   "text": "मीना",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 90.932,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 94.886,
+   "type": "transcript",
+   "text": "मीना हर सुबह पौधों को पानी देती है",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 98.743,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 99.771,
+   "type": "transcript",
+   "text": "उसे",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 101.331,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.498,
+   "type": "transcript",
+   "text": "अपने बगीचे से बहुत प्यार है",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मीना के घर घर के पीछे एक बगीचा है",
+   "heard": "घर के पीछे एक बगीचा है",
+   "muted_words": 3,
+   "duration_s": 3.95
+  },
+  {
+   "text": "मीना",
+   "heard": "मीना",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "के",
+   "heard": "के",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "मीना के घर के पीछे एक बगीचा है",
+   "heard": "मीना के घर के पीछे एक बगीचा है",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "उसमें लाल और पीले फूल खिलते",
+   "heard": "",
+   "muted_words": 6,
+   "duration_s": 2.7
+  },
+  {
+   "text": "उसमें लल लाल और",
+   "heard": "उसमें लल लाल और",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "पीले फूल खिलते हैं",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 1.87
+  },
+  {
+   "text": "पीले फूल खिलते",
+   "heard": "पीले फूल खिलते",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "हैं",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.62
+  },
+  {
+   "text": "हैं",
+   "heard": "हैं",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "मीणा हर सुबह पौदों पौधों को",
+   "heard": "मीणा हर सुबह पौदों पौधों को",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "पानी देती है",
+   "heard": "पानी देती है",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "मीना",
+   "heard": "मीना",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "मीना हर सुबह पौधों को पानी देती है",
+   "heard": "मीना हर सुबह पौधों को पानी देती है",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "उसे",
+   "heard": "उसे",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "अपने बगीचे से बहुत प्यार है",
+   "heard": "अपने बगीचे से बहुत प्यार है",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 65
+}

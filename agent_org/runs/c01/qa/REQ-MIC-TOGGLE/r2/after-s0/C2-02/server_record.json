@@ -1,0 +1,573 @@
+{
+ "id": "20261109-202141-5b28c8",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 9,
+  "words_helped": 8,
+  "words_to_practise": [
+   "बच्चे",
+   "नाव"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 3,
+  "corrections": 2,
+  "seconds": 92.7,
+  "words_per_minute": 11.0
+ },
+ "log": [
+  {
+   "t": 0.449,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.123,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.1,
+   "event": "transcript",
+   "text": "बादल गरजे बारिश आई"
+  },
+  {
+   "t": 18.1,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 18.1,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 20.246,
+   "event": "transcript",
+   "text": "ठंडी"
+  },
+  {
+   "t": 20.246,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 22.32,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 22.32,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 26.632,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.047,
+   "event": "transcript",
+   "text": "ठंडी हबा हवा भी आई"
+  },
+  {
+   "t": 30.047,
+   "event": "progress",
+   "frm": 5,
+   "to": 9
+  },
+  {
+   "t": 30.047,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 30.047,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 30.047,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 32.596,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.992,
+   "event": "transcript",
+   "text": "मेंढक"
+  },
+  {
+   "t": 33.992,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 36.025,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 36.025,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 40.364,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.28,
+   "event": "transcript",
+   "text": "गाते मीठे"
+  },
+  {
+   "t": 42.28,
+   "event": "progress",
+   "frm": 10,
+   "to": 12
+  },
+  {
+   "t": 44.332,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 12,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 44.332,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 47.375,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 49.363,
+   "event": "transcript",
+   "text": "गाने"
+  },
+  {
+   "t": 49.363,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 49.363,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 53.177,
+   "event": "transcript",
+   "text": "वच्चे निकले नाव चलाने"
+  },
+  {
+   "t": 53.177,
+   "event": "progress",
+   "frm": 13,
+   "to": 17
+  },
+  {
+   "t": 53.177,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    13
+   ]
+  },
+  {
+   "t": 53.177,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 62.619,
+   "event": "transcript",
+   "text": "बच्चे"
+  },
+  {
+   "t": 62.619,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 62.619,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 69.475,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 72.599,
+   "event": "transcript",
+   "text": "बच्चे निकले नाब चलाने"
+  },
+  {
+   "t": 72.599,
+   "event": "progress",
+   "frm": 13,
+   "to": 17
+  },
+  {
+   "t": 72.599,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    15
+   ]
+  },
+  {
+   "t": 72.599,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 15
+  },
+  {
+   "t": 78.287,
+   "event": "transcript",
+   "text": "नाव"
+  },
+  {
+   "t": 78.287,
+   "event": "drill_ok",
+   "word": 15
+  },
+  {
+   "t": 78.287,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 84.417,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 88.654,
+   "event": "transcript",
+   "text": "बच्चे निकले नाव चलाने"
+  },
+  {
+   "t": 88.654,
+   "event": "progress",
+   "frm": 13,
+   "to": 17
+  },
+  {
+   "t": 88.654,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 88.654,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 88.654,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.243,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.1,
+   "type": "transcript",
+   "text": "बादल गरजे बारिश आई",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 19.065,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.246,
+   "type": "transcript",
+   "text": "ठंडी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 26.651,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.047,
+   "type": "transcript",
+   "text": "ठंडी हबा हवा भी आई",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 32.812,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.992,
+   "type": "transcript",
+   "text": "मेंढक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 40.548,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.28,
+   "type": "transcript",
+   "text": "गाते मीठे",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 48.121,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.363,
+   "type": "transcript",
+   "text": "गाने",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 50.332,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.177,
+   "type": "transcript",
+   "text": "वच्चे निकले नाव चलाने",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 61.43,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.619,
+   "type": "transcript",
+   "text": "बच्चे",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 69.758,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 72.599,
+   "type": "transcript",
+   "text": "बच्चे निकले नाब चलाने",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 77.048,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.287,
+   "type": "transcript",
+   "text": "नाव",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 85.946,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 88.654,
+   "type": "transcript",
+   "text": "बच्चे निकले नाव चलाने",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल गरजे बारिश आई",
+   "heard": "बादल गरजे बारिश आई",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ठंडी",
+   "heard": "ठंडी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ठंडी हबा हवा भी आई",
+   "heard": "ठंडी हबा हवा भी आई",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "मेंढक",
+   "heard": "मेंढक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "गाते मीठे",
+   "heard": "गाते मीठे",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "गाने",
+   "heard": "गाने",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "वच्चे निकले नाव चलाने",
+   "heard": "वच्चे निकले नाव चलाने",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "बच्चे",
+   "heard": "बच्चे",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "बच्चे निकले नाब चलाने",
+   "heard": "बच्चे निकले नाब चलाने",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "नाव",
+   "heard": "नाव",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "बच्चे निकले नाव चलाने",
+   "heard": "बच्चे निकले नाव चलाने",
+   "muted_words": 0,
+   "duration_s": 2.42
+  }
+ ],
+ "tts_offline": 73
+}

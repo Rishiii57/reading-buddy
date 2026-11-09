@@ -1,0 +1,388 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-MIC-TOGGLE/r2-before-s1",
+ "agent_id": "C2-03",
+ "seed": 2510,
+ "persona": {
+  "id": "C2-03",
+  "name": "Avni",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 7.23,
+    "details": [
+     "Wanted gu-IN but ended up on a en-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 7.23,
+      "wanted": "gu-IN",
+      "got": "en-IN",
+      "title": "The Busy Ant"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 34.69,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead.",
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 34.69,
+      "bubble": "Press play when you're ready to keep reading."
+     },
+     {
+      "t": 72.16,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "HARD_TO_RESUME",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 90.24,
+    "details": [
+     "Took 11 s to work out how to carry on after a pause."
+    ],
+    "evidence": [
+     {
+      "t": 90.24,
+      "waited_s": 11.0
+     }
+    ],
+    "child_quote": "It paused and I didn't know how to carry on.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 125.6,
+    "details": [
+     "Buddy started talking 2.2 s into a planned 1.97 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 125.6,
+      "paused_s": 2.2,
+      "planned_s": 1.97,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "of rice on"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 152.1,
+    "details": [
+     "Read 'It' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 152.1,
+      "word": "It",
+      "child_said": "It",
+      "speech_model_wrote": "id carried a grain of rice of is back"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 197.54,
+    "details": [
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 197.54,
+      "said": "red was bigger",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'a' as 'None' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "a",
+      "child_said": null,
+      "kind": "skip",
+      "speech_model_wrote": "It carried grain of rice on its back"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 1.9,
+  "frustration_events": [
+   {
+    "t": 32.46,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 34.69,
+    "kind": "unexpected_pause",
+    "frustration": 0.8
+   },
+   {
+    "t": 39.65,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 46.66,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 48.7,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 53.91,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 72.15,
+    "kind": "unexpected_pause",
+    "frustration": 1.0
+   },
+   {
+    "t": 96.05,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 101.93,
+    "kind": "praise",
+    "frustration": 0.45
+   },
+   {
+    "t": 107.08,
+    "kind": "praise",
+    "frustration": 0.05
+   },
+   {
+    "t": 123.27,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 125.6,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 2.2
+   },
+   {
+    "t": 132.45,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 151.29,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 152.1,
+    "kind": "false_correction",
+    "frustration": 1.9,
+    "word": "It"
+   },
+   {
+    "t": 156.55,
+    "kind": "praise",
+    "frustration": 1.5
+   },
+   {
+    "t": 161.96,
+    "kind": "praise",
+    "frustration": 1.1
+   },
+   {
+    "t": 181.02,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 181.41,
+    "kind": "praise",
+    "frustration": 0.55
+   },
+   {
+    "t": 189.38,
+    "kind": "progress",
+    "frustration": 0.4
+   },
+   {
+    "t": 193.06,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 197.54,
+    "kind": "unheard_speech",
+    "frustration": 1.05
+   },
+   {
+    "t": 197.54,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 199.57,
+    "kind": "praise",
+    "frustration": 0.5
+   },
+   {
+    "t": 211.97,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 218.42,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 223.34,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 9,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 7,
+  "interruptions": 1,
+  "unheard_words": 3,
+  "buddy_talk_s": 88.9,
+  "child_talk_s": 43.6,
+  "tired_said": false,
+  "time_to_text_s": 3.3,
+  "reader_page_audio_clips": 0,
+  "intro_s": 11.3,
+  "time_to_first_word_s": 11.3,
+  "session_s": 213.2,
+  "words_total": 37,
+  "words_attempted": 23,
+  "words_said_wrong": 3,
+  "corrections": 6,
+  "buddy_turns": 22,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 13,
+  "words_helped": 10,
+  "words_to_practise": [
+   "It",
+   "carried",
+   "rice",
+   "on",
+   "its",
+   "The",
+   "was",
+   "bigger"
+  ],
+  "words_practised": 11,
+  "correction_attempts": 12,
+  "lines_total": 5,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 6,
+  "seconds": 213.2,
+  "words_per_minute": 6.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 3,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 90,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

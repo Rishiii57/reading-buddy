@@ -1,0 +1,36 @@
+{"t": 16.15, "type": "ready", "message": null}
+{"t": 16.43, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 32.17, "type": "speech"}
+{"t": 34.21, "type": "heard", "text": "એક નાની ચકલી"}
+{"t": 34.21, "type": "speech"}
+{"t": 36.36, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... હતી.", "spans": [[3, 4]]}
+{"t": 38.73, "type": "speech"}
+{"t": 40.08, "type": "heard", "text": "હતી"}
+{"t": 40.19, "type": "speech"}
+{"t": 40.75, "type": "speech"}
+{"t": 43.1, "type": "heard", "text": "થે તે રોઝ"}
+{"t": 43.11, "type": "speech"}
+{"t": 43.17, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 48.87, "type": "speech"}
+{"t": 53.5, "type": "heard", "text": "થે ડોજ શવારે દાણા સોધવા શોધવા જતી"}
+{"t": 53.5, "type": "speech"}
+{"t": 53.5, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 58.14, "type": "speech"}
+{"t": 63.15, "type": "heard", "text": "થે રોજ ષવારે સવારે ધાણા શોધવા શોધવા ઝતી જતી"}
+{"t": 63.18, "type": "speech"}
+{"t": 66.46, "type": "speech"}
+{"t": 70.69, "type": "heard", "text": "તે ડોઝ સવારે દાણા શોધવા જતી"}
+{"t": 71.1, "type": "speech"}
+{"t": 71.18, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. રોજ", "spans": [[5, 6]]}
+{"t": 76.86, "type": "speech"}
+{"t": 78.02, "type": "heard", "text": "રોજ"}
+{"t": 78.02, "type": "speech"}
+{"t": 78.02, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 85.43, "type": "speech"}
+{"t": 88.75, "type": "heard", "text": "રોજ સવારે દાણા જતી"}
+{"t": 88.75, "type": "speech"}
+{"t": 89.75, "type": "speech"}
+{"t": 90.98, "type": "heard", "text": "શોધવા"}
+{"t": 90.98, "type": "speech"}
+{"t": 93.95, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. તે", "spans": [[4, 5]]}
+{"t": 96.18, "type": "summary", "summary": {"words_total": 23, "words_read": 7, "words_helped": 3, "words_to_practise": ["તે", "રોજ"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 79.9, "words_per_minute": 7.5}}

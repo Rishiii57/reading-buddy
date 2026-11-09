@@ -1,0 +1,11 @@
+{"t": 12.16, "type": "ready", "message": null}
+{"t": 12.35, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!", "spans": [[0, 5]]}
+{"t": 26.26, "type": "speech"}
+{"t": 30.16, "type": "heard", "text": "play play play play"}
+{"t": 30.16, "type": "speech"}
+{"t": 30.19, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 33.73, "type": "speech"}
+{"t": 37.39, "type": "heard", "text": "Pitter for"}
+{"t": 37.39, "type": "speech"}
+{"t": 39.17, "type": "say", "kind": "stall_phrase", "text": "Listen... patter falls the", "spans": [[1, 4]]}
+{"t": 40.49, "type": "summary", "summary": {"words_total": 24, "words_read": 1, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 28.3, "words_per_minute": 8.5}}

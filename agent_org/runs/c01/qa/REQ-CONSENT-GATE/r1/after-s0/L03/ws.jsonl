@@ -1,0 +1,35 @@
+{"t": 11.58, "type": "ready", "message": null}
+{"t": 12.42, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 29.51, "type": "speech"}
+{"t": 38.75, "type": "heard", "text": "મારી શાળા શાળા વહુ ષુંદર છૈ"}
+{"t": 38.88, "type": "speech"}
+{"t": 38.89, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. બહુ", "spans": [[2, 3]]}
+{"t": 43.75, "type": "speech"}
+{"t": 45.77, "type": "heard", "text": "વહુ"}
+{"t": 46.21, "type": "speech"}
+{"t": 46.21, "type": "say", "kind": "fix_again", "text": "બહુ", "spans": [[2, 3]]}
+{"t": 51.97, "type": "speech"}
+{"t": 54.01, "type": "heard", "text": "બહુ"}
+{"t": 54.02, "type": "speech"}
+{"t": 54.13, "type": "say", "kind": "fix_next", "text": "હા! ખૂબ સરસ! સુંદર", "spans": [[3, 4]]}
+{"t": 57.57, "type": "speech"}
+{"t": 59.65, "type": "heard", "text": "સુંદર"}
+{"t": 59.65, "type": "speech"}
+{"t": 59.65, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 67.13, "type": "speech"}
+{"t": 74.98, "type": "heard", "text": "મારી સાળા બહુ સુંદર છૈ"}
+{"t": 74.98, "type": "speech"}
+{"t": 74.98, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. શાળા", "spans": [[1, 2]]}
+{"t": 79.47, "type": "speech"}
+{"t": 83.42, "type": "heard", "text": "સાળા"}
+{"t": 83.51, "type": "speech"}
+{"t": 83.51, "type": "say", "kind": "fix_again", "text": "શાળા", "spans": [[1, 2]]}
+{"t": 90.32, "type": "say", "kind": "fix_again", "text": "શાળા", "spans": [[1, 2]]}
+{"t": 91.7, "type": "speech"}
+{"t": 93.94, "type": "heard", "text": "શાળા"}
+{"t": 93.94, "type": "speech"}
+{"t": 93.94, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 104.11, "type": "speech"}
+{"t": 106.3, "type": "heard", "text": "માડી"}
+{"t": 106.3, "type": "speech"}
+{"t": 108.3, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}

@@ -1,0 +1,44 @@
+{
+ "cycle": "c01/qa/REQ-STALL-TIMING/r2",
+ "label": "before-s0",
+ "app_root": "/home/claude/rishiii57/rb-worktrees/qa-base-0706bcae",
+ "app_commit": "0706bca",
+ "personas": [
+  "C1-01",
+  "C1-02",
+  "C1-03",
+  "C1-06",
+  "C2-02",
+  "C2-03",
+  "C2-04",
+  "C2-06",
+  "C3-02",
+  "C3-03"
+ ],
+ "parallel": 4,
+ "seed": null,
+ "seed_offset": 0,
+ "started": "2026-11-09T19:38:36",
+ "finished": "2026-11-09T19:44:03",
+ "summary": {
+  "agents": 10,
+  "completed": 5,
+  "abandoned_or_failed": 3,
+  "harness_errors": 0,
+  "outcomes": {
+   "ended_early": 2,
+   "completed": 5,
+   "abandoned_frustration": 3
+  },
+  "ledger": {
+   "mode": "sim",
+   "wall_s": 327.5,
+   "gnani_credits": 0,
+   "stt_stream_s_if_live": 982.1,
+   "note": "In sim mode no Prisma/Timbre calls are made. stt_stream_s_if_live is how many seconds of audio the same sessions would stream to Prisma if run live (sessions stream for their whole length, including Buddy's talking time).",
+   "child_speech_s": 254.1,
+   "llm_tokens": 0,
+   "llm_note": "Child agents, PM, QA scoring are deterministic code; no LLM calls."
+  }
+ }
+}

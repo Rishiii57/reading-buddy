@@ -1,0 +1,544 @@
+{
+ "id": "20261109-201500-daae81",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 6,
+  "words_helped": 11,
+  "words_to_practise": [
+   "summer",
+   "the",
+   "tree",
+   "is"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 1,
+  "seconds": 107.3,
+  "words_per_minute": 9.5
+ },
+ "log": [
+  {
+   "t": 0.081,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.077,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.183,
+   "event": "transcript",
+   "text": "Ravi has has a"
+  },
+  {
+   "t": 20.183,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 22.466,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 22.466,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 27.873,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.274,
+   "event": "transcript",
+   "text": "mango"
+  },
+  {
+   "t": 30.274,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 32.285,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 32.285,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 35.468,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 37.245,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 37.245,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 39.259,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 39.259,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 43.341,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.943,
+   "event": "transcript",
+   "text": "his garden"
+  },
+  {
+   "t": 45.943,
+   "event": "progress",
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 45.943,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 53.533,
+   "event": "transcript",
+   "text": "Every said full of of sweet mangoes"
+  },
+  {
+   "t": 53.533,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 53.533,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "t": 53.533,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 59.591,
+   "event": "transcript",
+   "text": "summer"
+  },
+  {
+   "t": 59.591,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 59.591,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 64.869,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 64.869,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 64.869,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 69.748,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 69.748,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 69.748,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 77.407,
+   "event": "silence",
+   "word": 12
+  },
+  {
+   "t": 81.408,
+   "event": "pause"
+  },
+  {
+   "t": 85.213,
+   "event": "resume"
+  },
+  {
+   "t": 89.256,
+   "event": "silence",
+   "word": 12
+  },
+  {
+   "t": 92.397,
+   "event": "transcript",
+   "text": "is"
+  },
+  {
+   "t": 92.397,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 92.397,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 100.652,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 104.589,
+   "event": "transcript",
+   "text": "Every summer the tree"
+  },
+  {
+   "t": 104.589,
+   "event": "progress",
+   "frm": 8,
+   "to": 12
+  },
+  {
+   "t": 106.642,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 12,
+   "to": 15,
+   "line": 1
+  },
+  {
+   "t": 106.642,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 12,
+   "to": 15
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.451,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.183,
+   "type": "transcript",
+   "text": "Ravi has has a",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 28.103,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.274,
+   "type": "transcript",
+   "text": "mango",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 35.855,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.245,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 43.757,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.943,
+   "type": "transcript",
+   "text": "his garden",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 46.762,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.533,
+   "type": "transcript",
+   "text": "Every said full of of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 6350,
+   "message": null
+  },
+  {
+   "t": 58.157,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.591,
+   "type": "transcript",
+   "text": "summer",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 63.439,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.869,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 68.353,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.748,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 91.007,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.397,
+   "type": "transcript",
+   "text": "is",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 100.875,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.589,
+   "type": "transcript",
+   "text": "Every summer the tree",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has has a",
+   "heard": "Ravi has has a",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "mango",
+   "heard": "mango",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "his garden",
+   "heard": "his garden",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "Every said full of of sweet mangoes",
+   "heard": "Every said full of of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 6.35
+  },
+  {
+   "text": "summer",
+   "heard": "summer",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "is",
+   "heard": "is",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Every summer the tree",
+   "heard": "Every summer the tree",
+   "muted_words": 0,
+   "duration_s": 3.28
+  }
+ ],
+ "tts_offline": 38
+}

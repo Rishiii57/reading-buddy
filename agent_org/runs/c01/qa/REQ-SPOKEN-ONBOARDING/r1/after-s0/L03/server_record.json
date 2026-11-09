@@ -1,0 +1,175 @@
+{
+ "id": "20261109-192551-3eebec",
+ "text_id": "gu-shala",
+ "mode": "demo",
+ "summary": {
+  "words_total": 22,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 49.5,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.117,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.166,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.994,
+   "event": "transcript",
+   "text": "માડી સાળા વહુ સુંદર છે"
+  },
+  {
+   "t": 23.994,
+   "event": "uncertain",
+   "text": "માડી સાળા વહુ સુંદર છે"
+  },
+  {
+   "t": 23.994,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 28.065,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.036,
+   "event": "transcript",
+   "text": "માડી સાળા વહુ ષુંદર સુંદર"
+  },
+  {
+   "t": 36.036,
+   "event": "uncertain",
+   "text": "માડી સાળા વહુ ષુંદર સુંદર"
+  },
+  {
+   "t": 36.036,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 39.357,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.666,
+   "event": "pause"
+  },
+  {
+   "t": 42.435,
+   "event": "resume"
+  },
+  {
+   "t": 48.301,
+   "event": "transcript",
+   "text": "માડી સાળા વહુ"
+  },
+  {
+   "t": 48.301,
+   "event": "uncertain",
+   "text": "માડી સાળા વહુ"
+  },
+  {
+   "t": 48.301,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.232,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.994,
+   "type": "transcript",
+   "text": "માડી સાળા વહુ સુંદર છે",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 28.275,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.036,
+   "type": "transcript",
+   "text": "માડી સાળા વહુ ષુંદર સુંદર",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 43.391,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.301,
+   "type": "transcript",
+   "text": "માડી સાળા વહુ",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડી સાળા વહુ સુંદર છે",
+   "heard": "માડી સાળા વહુ સુંદર છે",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "માડી સાળા વહુ ષુંદર સુંદર",
+   "heard": "માડી સાળા વહુ ષુંદર સુંદર",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "માડી સાળા વહુ",
+   "heard": "માડી સાળા વહુ",
+   "muted_words": 0,
+   "duration_s": 4.49
+  }
+ ],
+ "tts_offline": 31
+}

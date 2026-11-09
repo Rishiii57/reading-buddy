@@ -1,0 +1,19 @@
+{"t": 1.85, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.07, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.21, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.2, "kind": "tap", "target": "मेरी गुड़िया My Doll Hindi Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.11, "kind": "opened_text", "hash": "#/read/hi-gudiya", "title": "मेरी गुड़िया", "tags": ["Hindi", "Grade 1"], "words": 17, "lines": 4}
+{"t": 6.59, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 10.62, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.66, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.93, "kind": "session_started", "tries": 1}
+{"t": 26.01, "kind": "tap_mic_to_talk"}
+{"t": 26.1, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 27.2, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 29.09, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 30.3, "kind": "resumed", "after_s": 1.5}
+{"t": 37.67, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'मेरी' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 53.25, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.49 s thinking pause."}
+{"t": 62.48, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 2.31 s thinking pause."}
+{"t": 62.51, "kind": "abandon", "why": "frustration", "frustration": 4.3}
+{"t": 62.86, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

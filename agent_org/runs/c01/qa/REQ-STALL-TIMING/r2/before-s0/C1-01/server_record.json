@@ -1,0 +1,377 @@
+{
+ "id": "20261109-193849-f57392",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 8,
+  "words_helped": 3,
+  "words_to_practise": [
+   "falls",
+   "On",
+   "the"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 80.7,
+  "words_per_minute": 8.2
+ },
+ "log": [
+  {
+   "t": 0.453,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.437,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.829,
+   "event": "transcript",
+   "text": "the run"
+  },
+  {
+   "t": 15.829,
+   "event": "uncertain",
+   "text": "the run"
+  },
+  {
+   "t": 15.829,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 20.11,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.086,
+   "event": "transcript",
+   "text": "Pitter patter fish the rain"
+  },
+  {
+   "t": 29.086,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 29.086,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 29.086,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 34.65,
+   "event": "transcript",
+   "text": "falls"
+  },
+  {
+   "t": 34.65,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 34.65,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 40.897,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 45.589,
+   "event": "transcript",
+   "text": "Pitter patter falls the rain"
+  },
+  {
+   "t": 45.589,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 45.589,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 45.589,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 49.453,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 53.592,
+   "event": "transcript",
+   "text": "the red window pig"
+  },
+  {
+   "t": 53.592,
+   "event": "uncertain",
+   "text": "the red window pig"
+  },
+  {
+   "t": 53.592,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 56.771,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.73,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 58.73,
+   "event": "restart",
+   "frm": 5,
+   "to": 3
+  },
+  {
+   "t": 65.659,
+   "event": "transcript",
+   "text": "roof and window pane"
+  },
+  {
+   "t": 65.659,
+   "event": "progress",
+   "frm": 5,
+   "to": 11
+  },
+  {
+   "t": 65.659,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5,
+    6
+   ]
+  },
+  {
+   "t": 65.659,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 76.532,
+   "event": "silence",
+   "word": 5
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.653,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.829,
+   "type": "transcript",
+   "text": "the run",
+   "latency": 120,
+   "audio_duration_ms": 1620,
+   "message": null
+  },
+  {
+   "t": 24.615,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.086,
+   "type": "transcript",
+   "text": "Pitter patter fish the rain",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 33.103,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.65,
+   "type": "transcript",
+   "text": "falls",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 41.113,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.589,
+   "type": "transcript",
+   "text": "Pitter patter falls the rain",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 50.061,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.593,
+   "type": "transcript",
+   "text": "the red window pig",
+   "latency": 120,
+   "audio_duration_ms": 3213,
+   "message": null
+  },
+  {
+   "t": 57.341,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.73,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 61.957,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.659,
+   "type": "transcript",
+   "text": "roof and window pane",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter patter falls the run",
+   "heard": "the run",
+   "muted_words": 3,
+   "duration_s": 4.05
+  },
+  {
+   "text": "put patter for rain",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 3.28
+  },
+  {
+   "text": "Pitter patter fish the rain",
+   "heard": "Pitter patter fish the rain",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "falls",
+   "heard": "falls",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Pitter patter falls the rain",
+   "heard": "Pitter patter falls the rain",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "oa tha the red window pig",
+   "heard": "the red window pig",
+   "muted_words": 2,
+   "duration_s": 4.82
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "roof and window pane",
+   "heard": "roof and window pane",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 35
+}

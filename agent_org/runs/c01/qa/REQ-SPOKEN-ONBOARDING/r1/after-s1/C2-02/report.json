@@ -1,0 +1,303 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s1",
+ "agent_id": "C2-02",
+ "seed": 2493,
+ "persona": {
+  "id": "C2-02",
+  "name": "Neel",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-chidiya",
+  "title": "चिड़िया का घोंसला",
+  "tags": [
+   "Hindi",
+   "Grade 2-3"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.7,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.7,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 6,
+    "evidence_level": "observed",
+    "first_t": 92.2,
+    "details": [
+     "Asked to say 'एक' 3 times.",
+     "Asked to say 'एक' 4 times.",
+     "Asked to say 'एक' 5 times.",
+     "Asked to say 'एक' 6 times.",
+     "Asked to say 'पर' 3 times.",
+     "Asked to say 'एक' 7 times."
+    ],
+    "evidence": [
+     {
+      "t": 92.2,
+      "word": "एक",
+      "times": 3
+     },
+     {
+      "t": 97.48,
+      "word": "एक",
+      "times": 4
+     },
+     {
+      "t": 102.52,
+      "word": "एक",
+      "times": 5
+     },
+     {
+      "t": 108.61,
+      "word": "एक",
+      "times": 6
+     },
+     {
+      "t": 142.56,
+      "word": "पर",
+      "times": 3
+     },
+     {
+      "t": 162.03,
+      "word": "एक",
+      "times": 7
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 178.94,
+    "details": [
+     "Read 'रहती' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 178.94,
+      "word": "रहती",
+      "child_said": "रहती",
+      "speech_model_wrote": "एक पेड़ पर एक छोटी चिड़िया रहती ती"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 5.15,
+  "frustration_events": [
+   {
+    "t": 25.7,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 33.34,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 40.11,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 46.96,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 63.75,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 70.13,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 86.92,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 92.2,
+    "kind": "drill_repeat",
+    "frustration": 0.7,
+    "word": "एक"
+   },
+   {
+    "t": 97.48,
+    "kind": "drill_repeat",
+    "frustration": 1.4,
+    "word": "एक"
+   },
+   {
+    "t": 102.52,
+    "kind": "drill_repeat",
+    "frustration": 2.1,
+    "word": "एक"
+   },
+   {
+    "t": 108.61,
+    "kind": "drill_repeat",
+    "frustration": 2.8,
+    "word": "एक"
+   },
+   {
+    "t": 121.22,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 124.63,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 142.56,
+    "kind": "drill_repeat",
+    "frustration": 3.2,
+    "word": "पर"
+   },
+   {
+    "t": 157.12,
+    "kind": "progress",
+    "frustration": 3.05
+   },
+   {
+    "t": 162.03,
+    "kind": "drill_repeat",
+    "frustration": 3.75,
+    "word": "एक"
+   },
+   {
+    "t": 175.89,
+    "kind": "progress",
+    "frustration": 3.6
+   },
+   {
+    "t": 178.14,
+    "kind": "progress",
+    "frustration": 3.45
+   },
+   {
+    "t": 178.94,
+    "kind": "false_correction",
+    "frustration": 4.65,
+    "word": "रहती"
+   },
+   {
+    "t": 182.34,
+    "kind": "dead_click",
+    "frustration": 5.15,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 3,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 85.4,
+  "child_talk_s": 26.0,
+  "tired_said": false,
+  "time_to_text_s": 2.0,
+  "reader_page_audio_clips": 1,
+  "intro_s": 15.5,
+  "time_to_first_word_s": 15.5,
+  "session_s": 170.4,
+  "words_total": 30,
+  "words_attempted": 8,
+  "words_said_wrong": 0,
+  "corrections": 6,
+  "buddy_turns": 20,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [
+   "एक",
+   "पर",
+   "चिड़िया",
+   "रहती"
+  ],
+  "words_practised": 8,
+  "correction_attempts": 9,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 6,
+  "seconds": 170.6,
+  "words_per_minute": 2.8
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 5,
+  "correction_quality": 2,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 96,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

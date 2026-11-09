@@ -1,0 +1,687 @@
+{
+ "id": "20261109-192042-6e0bf3",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 4,
+  "words_helped": 6,
+  "words_to_practise": [
+   "શોધવા"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 1,
+  "seconds": 118.5,
+  "words_per_minute": 5.1
+ },
+ "log": [
+  {
+   "t": 0.025,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.28,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.751,
+   "event": "transcript",
+   "text": "નાની"
+  },
+  {
+   "t": 24.371,
+   "event": "transcript",
+   "text": "ચકલી"
+  },
+  {
+   "t": 28.516,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 33.505,
+   "event": "transcript",
+   "text": "એ એક ણાની"
+  },
+  {
+   "t": 33.505,
+   "event": "uncertain",
+   "text": "હતી એ એક ણાની"
+  },
+  {
+   "t": 33.505,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 36.935,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.387,
+   "event": "transcript",
+   "text": "એ એક ણાની"
+  },
+  {
+   "t": 41.387,
+   "event": "uncertain",
+   "text": "એ એક ણાની"
+  },
+  {
+   "t": 44.991,
+   "event": "transcript",
+   "text": "ચકલી"
+  },
+  {
+   "t": 50.385,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 52.985,
+   "event": "transcript",
+   "text": "ણાની"
+  },
+  {
+   "t": 52.985,
+   "event": "uncertain",
+   "text": "હતી ણાની"
+  },
+  {
+   "t": 52.985,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 56.252,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 56.619,
+   "event": "pause"
+  },
+  {
+   "t": 64.326,
+   "event": "resume"
+  },
+  {
+   "t": 67.939,
+   "event": "transcript",
+   "text": "એ એક"
+  },
+  {
+   "t": 67.939,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 70.105,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 70.105,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 73.135,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 75.138,
+   "event": "transcript",
+   "text": "નાની"
+  },
+  {
+   "t": 75.138,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 77.186,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 77.186,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 79.786,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 81.899,
+   "event": "transcript",
+   "text": "ચકલી"
+  },
+  {
+   "t": 81.899,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 85.604,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 85.604,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 85.604,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 88.375,
+   "event": "transcript",
+   "text": "હતી"
+  },
+  {
+   "t": 88.375,
+   "event": "restart",
+   "frm": 4,
+   "to": 3
+  },
+  {
+   "t": 96.639,
+   "event": "transcript",
+   "text": "થે તે ડોજ રોજ સવારે"
+  },
+  {
+   "t": 96.639,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 98.719,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 98.719,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 10
+  },
+  {
+   "t": 103.758,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 105.959,
+   "event": "transcript",
+   "text": "દાણા"
+  },
+  {
+   "t": 105.959,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 108.021,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 8,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 108.021,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 111.185,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 115.536,
+   "event": "transcript",
+   "text": "સોધવા"
+  },
+  {
+   "t": 115.536,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 117.618,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8
+   ]
+  },
+  {
+   "t": 117.618,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 19.015,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.751,
+   "type": "transcript",
+   "text": "નાની",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 22.637,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.371,
+   "type": "transcript",
+   "text": "ચકલી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 26.755,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.516,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 29.478,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.505,
+   "type": "transcript",
+   "text": "એ એક ણાની",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 37.429,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.387,
+   "type": "transcript",
+   "text": "એ એક ણાની",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 43.254,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.991,
+   "type": "transcript",
+   "text": "ચકલી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 48.653,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.385,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 51.254,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.985,
+   "type": "transcript",
+   "text": "ણાની",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 65.099,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.939,
+   "type": "transcript",
+   "text": "એ એક",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 73.399,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.138,
+   "type": "transcript",
+   "text": "નાની",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 80.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.899,
+   "type": "transcript",
+   "text": "ચકલી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 83.804,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 85.604,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 86.644,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 88.375,
+   "type": "transcript",
+   "text": "હતી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 90.459,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.639,
+   "type": "transcript",
+   "text": "થે તે ડોજ રોજ સવારે",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 104.205,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 105.959,
+   "type": "transcript",
+   "text": "દાણા",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 113.803,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.536,
+   "type": "transcript",
+   "text": "સોધવા",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "નાની",
+   "heard": "નાની",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ચકલી",
+   "heard": "ચકલી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "હતી",
+   "heard": "હતી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "એ એક ણાની",
+   "heard": "એ એક ણાની",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "એ એક ણાની",
+   "heard": "એ એક ણાની",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "ચકલી",
+   "heard": "ચકલી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "હતી",
+   "heard": "હતી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ણાની",
+   "heard": "ણાની",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "એ એક",
+   "heard": "એ એક",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "નાની",
+   "heard": "નાની",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ચકલી",
+   "heard": "ચકલી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "હતી",
+   "heard": "હતી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "હતી",
+   "heard": "હતી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "થે તે ડોજ રોજ સવારે",
+   "heard": "થે તે ડોજ રોજ સવારે",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "દાણા",
+   "heard": "દાણા",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "શોધવા",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "સોધવા",
+   "heard": "સોધવા",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 47
+}

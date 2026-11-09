@@ -1,0 +1,39 @@
+{"t": 5.04, "kind": "open_app", "brief": "Veer, Class 3 (about 8.5 years). Prefers gu-IN. Explores the app without a grown-up."}
+{"t": 5.16, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.16, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 7.07, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.1, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.66, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 11.76, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 17.71, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.79, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 19.62, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 20.85, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 22.55, "kind": "session_started", "tries": 1}
+{"t": 34.59, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 37.38, "kind": "tap_mic_to_talk"}
+{"t": 37.41, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 38.21, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 44.41, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 45.41, "kind": "resumed", "after_s": 5.0}
+{"t": 77.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 103.14, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારા' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 118.65, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 121.33, "kind": "tap_mic_to_talk"}
+{"t": 121.37, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 122.19, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 123.12, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 124.24, "kind": "resumed", "after_s": 0.5}
+{"t": 134.26, "kind": "said_tired", "heard": "હું થાકી ગયો"}
+{"t": 135.66, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 136.51, "kind": "resumed", "after_s": 1.0}
+{"t": 137.08, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 137.9, "kind": "resumed", "after_s": 0.5}
+{"t": 141.18, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 142.22, "kind": "resumed", "after_s": 3.0}
+{"t": 162.47, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 181.52, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'વાર્તા' 3 times."}
+{"t": 194.51, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'વાર્તા' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 197.77, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'વાર્તા' 4 times."}
+{"t": 199.52, "kind": "abandon", "why": "frustration", "frustration": 4.9}
+{"t": 199.82, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

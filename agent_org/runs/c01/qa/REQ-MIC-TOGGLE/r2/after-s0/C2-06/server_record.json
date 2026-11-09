@@ -1,0 +1,884 @@
+{
+ "id": "20261109-202332-d075fe",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 16,
+  "words_helped": 7,
+  "words_to_practise": [
+   "એક",
+   "તે",
+   "દાણા",
+   "બધા",
+   "બચ્ચાંને"
+  ],
+  "words_practised": 5,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 5,
+  "seconds": 162.2,
+  "words_per_minute": 8.5
+ },
+ "log": [
+  {
+   "t": 0.023,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.584,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.734,
+   "event": "transcript",
+   "text": "એ નાની ચકલી હતી"
+  },
+  {
+   "t": 18.734,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 18.734,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 18.734,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 24.868,
+   "event": "transcript",
+   "text": "એક"
+  },
+  {
+   "t": 24.868,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 24.868,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 31.957,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 35.008,
+   "event": "transcript",
+   "text": "એક નાની ચકલિ હતી"
+  },
+  {
+   "t": 35.008,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 35.008,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 35.008,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 39.204,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.141,
+   "event": "transcript",
+   "text": "રોજ સવારે શોદવા જતી"
+  },
+  {
+   "t": 43.141,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 45.759,
+   "event": "transcript",
+   "text": "ધાણા ધાણા"
+  },
+  {
+   "t": 45.759,
+   "event": "uncertain",
+   "text": "શોદવા જતી ધાણા ધાણા"
+  },
+  {
+   "t": 45.759,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 49.807,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.385,
+   "event": "transcript",
+   "text": "દાણા શોધવા જતી"
+  },
+  {
+   "t": 52.385,
+   "event": "progress",
+   "frm": 7,
+   "to": 10
+  },
+  {
+   "t": 52.385,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 52.385,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 60.242,
+   "event": "transcript",
+   "text": "તે તે"
+  },
+  {
+   "t": 60.242,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 60.242,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 67.176,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 71.162,
+   "event": "transcript",
+   "text": "તે રોજ સવારે ધાણા શોધવા જતી"
+  },
+  {
+   "t": 71.162,
+   "event": "progress",
+   "frm": 4,
+   "to": 10
+  },
+  {
+   "t": 71.162,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    7
+   ]
+  },
+  {
+   "t": 71.162,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 7
+  },
+  {
+   "t": 79.481,
+   "event": "silence",
+   "word": 7
+  },
+  {
+   "t": 81.815,
+   "event": "transcript",
+   "text": "ધાણા"
+  },
+  {
+   "t": 81.815,
+   "event": "drill_miss",
+   "word": 7,
+   "heard": "ધાણા"
+  },
+  {
+   "t": 86.215,
+   "event": "transcript",
+   "text": "દાણા"
+  },
+  {
+   "t": 86.215,
+   "event": "drill_ok",
+   "word": 7
+  },
+  {
+   "t": 86.215,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 93.095,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 96.441,
+   "event": "transcript",
+   "text": "તે રોજ સવારે દાણા"
+  },
+  {
+   "t": 96.441,
+   "event": "progress",
+   "frm": 4,
+   "to": 8
+  },
+  {
+   "t": 98.5,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 8,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 98.5,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 100.879,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 103.185,
+   "event": "transcript",
+   "text": "શોધવા જતી જતી"
+  },
+  {
+   "t": 103.185,
+   "event": "progress",
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 103.185,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 103.185,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 106.346,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 113.615,
+   "event": "transcript",
+   "text": "એક એક દિવસ થેને તેને ઘણા ઘણા વધા દાણા મળ્યા"
+  },
+  {
+   "t": 113.615,
+   "event": "progress",
+   "frm": 10,
+   "to": 17
+  },
+  {
+   "t": 113.615,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    14
+   ]
+  },
+  {
+   "t": 113.615,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 119.005,
+   "event": "transcript",
+   "text": "બધા"
+  },
+  {
+   "t": 119.005,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 119.005,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 126.478,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 131.644,
+   "event": "transcript",
+   "text": "એક દિવસ તેને ઘણા ઘણા બધા દાણા મળ્યા"
+  },
+  {
+   "t": 131.644,
+   "event": "progress",
+   "frm": 10,
+   "to": 17
+  },
+  {
+   "t": 131.644,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 131.644,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 134.775,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 139.867,
+   "event": "transcript",
+   "text": "ચકલીએ થે તે દાણા તેણા તેના બચ્ચાંણે ખબડાવ્યા"
+  },
+  {
+   "t": 139.867,
+   "event": "progress",
+   "frm": 17,
+   "to": 23
+  },
+  {
+   "t": 139.867,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    21
+   ]
+  },
+  {
+   "t": 139.867,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 21
+  },
+  {
+   "t": 145.17,
+   "event": "transcript",
+   "text": "બચ્ચાંને"
+  },
+  {
+   "t": 145.17,
+   "event": "drill_ok",
+   "word": 21
+  },
+  {
+   "t": 145.17,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 152.778,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 158.059,
+   "event": "transcript",
+   "text": "ચકલીએ તે દાના દાણા તેના વચ્ચાંણે બચ્ચાંને ખવડાવ્યા"
+  },
+  {
+   "t": 158.059,
+   "event": "progress",
+   "frm": 17,
+   "to": 23
+  },
+  {
+   "t": 158.059,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 158.059,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 158.059,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.799,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.734,
+   "type": "transcript",
+   "text": "એ નાની ચકલી હતી",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 23.504,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.868,
+   "type": "transcript",
+   "text": "એક",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 32.063,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.008,
+   "type": "transcript",
+   "text": "એક નાની ચકલિ હતી",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 39.74,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.141,
+   "type": "transcript",
+   "text": "રોજ સવારે શોદવા જતી",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 44.017,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.759,
+   "type": "transcript",
+   "text": "ધાણા ધાણા",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 49.99,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.385,
+   "type": "transcript",
+   "text": "દાણા શોધવા જતી",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 58.511,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.242,
+   "type": "transcript",
+   "text": "તે તે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 67.212,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 71.162,
+   "type": "transcript",
+   "text": "તે રોજ સવારે ધાણા શોધવા જતી",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 80.634,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.815,
+   "type": "transcript",
+   "text": "ધાણા",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 85.025,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.215,
+   "type": "transcript",
+   "text": "દાણા",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 93.6,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.441,
+   "type": "transcript",
+   "text": "તે રોજ સવારે દાણા",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 100.894,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.185,
+   "type": "transcript",
+   "text": "શોધવા જતી જતી",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 107.435,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.615,
+   "type": "transcript",
+   "text": "એક એક દિવસ થેને તેને ઘણા ઘણા વધા દાણા મળ્યા",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 117.825,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.005,
+   "type": "transcript",
+   "text": "બધા",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 126.583,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 131.644,
+   "type": "transcript",
+   "text": "એક દિવસ તેને ઘણા ઘણા બધા દાણા મળ્યા",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 134.806,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 139.867,
+   "type": "transcript",
+   "text": "ચકલીએ થે તે દાણા તેણા તેના બચ્ચાંણે ખબડાવ્યા",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 143.99,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 145.17,
+   "type": "transcript",
+   "text": "બચ્ચાંને",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 152.999,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 158.059,
+   "type": "transcript",
+   "text": "ચકલીએ તે દાના દાણા તેના વચ્ચાંણે બચ્ચાંને ખવડાવ્યા",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એક નાની ચકલી હતી",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 2.42
+  },
+  {
+   "text": "એ નાની ચકલી હતી",
+   "heard": "એ નાની ચકલી હતી",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "એક",
+   "heard": "એક",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "એક નાની ચકલિ હતી",
+   "heard": "એક નાની ચકલિ હતી",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "રોજ સવારે શોદવા જતી",
+   "heard": "રોજ સવારે શોદવા જતી",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "ધાણા ધાણા",
+   "heard": "ધાણા ધાણા",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "દાણા શોધવા જતી",
+   "heard": "દાણા શોધવા જતી",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "તે તે",
+   "heard": "તે તે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "તે રોજ સવારે દાણા શોધવા જતી",
+   "heard": "",
+   "muted_words": 6,
+   "duration_s": 3.53
+  },
+  {
+   "text": "તે રોજ સવારે ધાણા શોધવા જતી",
+   "heard": "તે રોજ સવારે ધાણા શોધવા જતી",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ધાણા",
+   "heard": "ધાણા",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "દાણા",
+   "heard": "દાણા",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "તે રોજ સવારે દાણા",
+   "heard": "તે રોજ સવારે દાણા",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "શોધવા જતી જતી",
+   "heard": "શોધવા જતી જતી",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "એક એક દિવસ થેને તેને ઘણા ઘણા વધા દાણા મળ્યા",
+   "heard": "એક એક દિવસ થેને તેને ઘણા ઘણા વધા દાણા મળ્યા",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "બધા",
+   "heard": "બધા",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "એક દિવસ તેને ઘણા ઘણા બધા દાણા મળ્યા",
+   "heard": "એક દિવસ તેને ઘણા ઘણા બધા દાણા મળ્યા",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "ચકલીએ થે તે દાણા તેણા તેના બચ્ચાંણે ખબડાવ્યા",
+   "heard": "ચકલીએ થે તે દાણા તેણા તેના બચ્ચાંણે ખબડાવ્યા",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "બચ્ચાંને",
+   "heard": "બચ્ચાંને",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ચકલીએ તે દાના દાણા તેના વચ્ચાંણે બચ્ચાંને ખવડાવ્યા",
+   "heard": "ચકલીએ તે દાના દાણા તેના વચ્ચાંણે બચ્ચાંને ખવડાવ્યા",
+   "muted_words": 0,
+   "duration_s": 4.64
+  }
+ ],
+ "tts_offline": 131
+}

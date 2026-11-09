@@ -1,0 +1,759 @@
+{
+ "utterances": [
+  {
+   "t": 31.43,
+   "said": "A small ant",
+   "stt": "A small ant",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.78,
+   "said": "walked across tha floor",
+   "stt": "walked across tha floor",
+   "stt_notes": [],
+   "words": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.86,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 52.25,
+   "said": "A small ant walked walked across floor",
+   "stt": "A small ant walked walked across floor",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.89,
+   "said": "the floor",
+   "stt": "the floor",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.33,
+   "said": "ia carried a get of rice on its back",
+   "stt": "ia carried a get of rice on its back",
+   "stt_notes": [],
+   "words": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.55,
+   "said": "It",
+   "stt": "It",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 75.41,
+   "said": "grain",
+   "stt": "grain",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 84.99,
+   "said": "ia carried a",
+   "stt": "ia carried a",
+   "stt_notes": [],
+   "words": [
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 93.65,
+   "said": "It carried a grain of run oa ita back",
+   "stt": "id carried a grain of run oa ita back",
+   "stt_notes": [
+    "'It' heard as 'id'"
+   ],
+   "words": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 5,
+   "over_buddy": true
+  },
+  {
+   "t": 96.94,
+   "said": "It",
+   "stt": "It",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 111.23,
+   "said": "It carried a grain of rice on",
+   "stt": "id carried a grain of rice on",
+   "stt_notes": [
+    "'It' heard as 'id'"
+   ],
+   "words": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 118.58,
+   "said": "It",
+   "stt": "It",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.43,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   },
+   {
+    "t": 52.25,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.43,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   },
+   {
+    "t": 52.25,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   }
+  ],
+  "2": [
+   {
+    "t": 31.43,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   },
+   {
+    "t": 52.25,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   }
+  ],
+  "3": [
+   {
+    "t": 35.78,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across tha floor"
+   },
+   {
+    "t": 52.25,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   }
+  ],
+  "4": [
+   {
+    "t": 35.78,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across tha floor"
+   },
+   {
+    "t": 52.25,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   }
+  ],
+  "5": [
+   {
+    "t": 35.78,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "walked across tha floor"
+   },
+   {
+    "t": 40.86,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the",
+    "drill": true
+   },
+   {
+    "t": 52.25,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "A small ant walked walked across floor"
+   },
+   {
+    "t": 54.89,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the floor"
+   }
+  ],
+  "6": [
+   {
+    "t": 35.78,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across tha floor"
+   },
+   {
+    "t": 52.25,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked walked across floor"
+   },
+   {
+    "t": 54.89,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the floor"
+   }
+  ],
+  "7": [
+   {
+    "t": 65.33,
+    "target": "It",
+    "said": "ia",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 70.55,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It",
+    "drill": true
+   },
+   {
+    "t": 84.99,
+    "target": "It",
+    "said": "ia",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ia carried a"
+   },
+   {
+    "t": 93.65,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 96.94,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It",
+    "drill": true
+   },
+   {
+    "t": 111.23,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   },
+   {
+    "t": 118.58,
+    "target": "It",
+    "said": "It",
+    "correct": true,
+    "kind": "ok",
+    "stt": "It",
+    "drill": true
+   }
+  ],
+  "8": [
+   {
+    "t": 65.33,
+    "target": "carried",
+    "said": "carried",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 84.99,
+    "target": "carried",
+    "said": "carried",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a"
+   },
+   {
+    "t": 93.65,
+    "target": "carried",
+    "said": "carried",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "carried",
+    "said": "carried",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "9": [
+   {
+    "t": 65.33,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 84.99,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a"
+   },
+   {
+    "t": 93.65,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "10": [
+   {
+    "t": 65.33,
+    "target": "grain",
+    "said": "get",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 75.41,
+    "target": "grain",
+    "said": "grain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "grain",
+    "drill": true
+   },
+   {
+    "t": 93.65,
+    "target": "grain",
+    "said": "grain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "grain",
+    "said": "grain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "11": [
+   {
+    "t": 65.33,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 93.65,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "12": [
+   {
+    "t": 65.33,
+    "target": "rice",
+    "said": "rice",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 93.65,
+    "target": "rice",
+    "said": "run",
+    "correct": false,
+    "kind": "sub",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "rice",
+    "said": "rice",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "13": [
+   {
+    "t": 65.33,
+    "target": "on",
+    "said": "on",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 93.65,
+    "target": "on",
+    "said": "oa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "id carried a grain of run oa ita back"
+   },
+   {
+    "t": 111.23,
+    "target": "on",
+    "said": "on",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of rice on"
+   }
+  ],
+  "14": [
+   {
+    "t": 65.33,
+    "target": "its",
+    "said": "its",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 93.65,
+    "target": "its",
+    "said": "ita",
+    "correct": false,
+    "kind": "sub",
+    "stt": "id carried a grain of run oa ita back"
+   }
+  ],
+  "15": [
+   {
+    "t": 65.33,
+    "target": "back",
+    "said": "back",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ia carried a get of rice on its back"
+   },
+   {
+    "t": 93.65,
+    "target": "back",
+    "said": "back",
+    "correct": true,
+    "kind": "ok",
+    "stt": "id carried a grain of run oa ita back"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.3,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 35.89,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. the",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 40.9,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 54.95,
+   "type": "say",
+   "kind": "praise",
+   "text": "Wonderful! Let's move to the next line.",
+   "spans": []
+  },
+  {
+   "t": 65.41,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. It",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 70.55,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! grain",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 75.61,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.",
+   "spans": [
+    [
+     7,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 87.07,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. It",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 93.99,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "It",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 97.07,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.",
+   "spans": [
+    [
+     7,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 113.46,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. It",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 118.59,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.",
+   "spans": [
+    [
+     7,
+     16
+    ]
+   ]
+  }
+ ]
+}

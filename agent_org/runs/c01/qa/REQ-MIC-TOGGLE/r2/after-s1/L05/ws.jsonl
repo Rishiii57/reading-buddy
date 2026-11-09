@@ -1,0 +1,26 @@
+{"t": 9.57, "type": "ready", "message": null}
+{"t": 9.7, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 29.25, "type": "speech"}
+{"t": 39.56, "type": "heard", "text": "के घड़ कै पीछे"}
+{"t": 39.56, "type": "speech"}
+{"t": 40.12, "type": "speech"}
+{"t": 44.68, "type": "heard", "text": "ए वगीचा"}
+{"t": 44.68, "type": "speech"}
+{"t": 44.71, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 52.13, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीना", "spans": [[0, 1]]}
+{"t": 59.53, "type": "speech"}
+{"t": 64.76, "type": "heard", "text": "मीना मीना"}
+{"t": 64.97, "type": "speech"}
+{"t": 65.0, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! घर", "spans": [[2, 3]]}
+{"t": 73.65, "type": "say", "kind": "fix_again", "text": "घर", "spans": [[2, 3]]}
+{"t": 78.73, "type": "say", "kind": "fix_again", "text": "घर", "spans": [[2, 3]]}
+{"t": 82.18, "type": "speech"}
+{"t": 85.41, "type": "heard", "text": "घड़"}
+{"t": 85.41, "type": "speech"}
+{"t": 85.41, "type": "say", "kind": "fix_again", "text": "घर", "spans": [[2, 3]]}
+{"t": 89.62, "type": "say", "kind": "fix_again", "text": "घर", "spans": [[2, 3]]}
+{"t": 94.09, "type": "speech"}
+{"t": 96.42, "type": "heard", "text": "घड़"}
+{"t": 96.42, "type": "speech"}
+{"t": 96.62, "type": "say", "kind": "fix_again", "text": "घर", "spans": [[2, 3]]}
+{"t": 98.17, "type": "summary", "summary": {"words_total": 30, "words_read": 3, "words_helped": 2, "words_to_practise": ["मीना", "घर"], "words_practised": 1, "correction_attempts": 3, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 88.3, "words_per_minute": 3.4}}

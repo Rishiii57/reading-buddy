@@ -1,0 +1,274 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s1",
+ "agent_id": "C3-05",
+ "seed": 2646,
+ "persona": {
+  "id": "C3-05",
+  "name": "Esha",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "replay_line",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-gudiya",
+  "title": "मेरी गुड़िया",
+  "tags": [
+   "Hindi",
+   "Grade 1"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.23,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 28.23,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_REPLAY_CONTROL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.61,
+    "details": [
+     "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."
+    ],
+    "evidence": [
+     {
+      "t": 28.61,
+      "visible": [
+       "Reading Buddy",
+       "Home",
+       "Library",
+       "About",
+       "Back",
+       "Pause",
+       "End",
+       "Pause"
+      ]
+     }
+    ],
+    "child_quote": "I wanted Buddy to read the line again but there was no button.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 67.66,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 67.66,
+      "said": "सबसे न्यारी ण्यारी है",
+      "heard": ""
+     },
+     {
+      "t": 89.15,
+      "said": "लाल चुनरी ओढ़ कै के",
+      "heard": ""
+     },
+     {
+      "t": 109.25,
+      "said": "मीठे मीठे",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 1.15,
+  "frustration_events": [
+   {
+    "t": 28.23,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 31.35,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 47.64,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 47.78,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 54.82,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 67.66,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 67.66,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 71.46,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 85.69,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 85.72,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 89.15,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 89.15,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 95.49,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 99.68,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 109.25,
+    "kind": "unheard_speech",
+    "frustration": 1.15
+   },
+   {
+    "t": 109.25,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 114.76,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 114.79,
+    "kind": "praise",
+    "frustration": 0.45
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 3,
+  "interruptions": 0,
+  "unheard_words": 11,
+  "buddy_talk_s": 60.6,
+  "child_talk_s": 24.5,
+  "tired_said": false,
+  "time_to_text_s": 4.3,
+  "reader_page_audio_clips": 1,
+  "intro_s": 12.6,
+  "time_to_first_word_s": 12.6,
+  "session_s": 104.6,
+  "words_total": 17,
+  "words_attempted": 17,
+  "words_said_wrong": 0,
+  "corrections": 4,
+  "buddy_turns": 12,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 13,
+  "words_helped": 4,
+  "words_to_practise": [
+   "गुड़िया",
+   "न्यारी",
+   "गाने"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 4,
+  "seconds": 101.2,
+  "words_per_minute": 10.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 4
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 98,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,733 @@
+{
+ "id": "20261109-203306-5f12c1",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 2,
+  "words_helped": 5,
+  "words_to_practise": [
+   "A",
+   "small",
+   "ant",
+   "across",
+   "the"
+  ],
+  "words_practised": 8,
+  "correction_attempts": 8,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 5,
+  "seconds": 123.4,
+  "words_per_minute": 3.4
+ },
+ "log": [
+  {
+   "t": 0.093,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.907,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.163,
+   "event": "transcript",
+   "text": "small ant walked across floor"
+  },
+  {
+   "t": 16.163,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 18.145,
+   "event": "transcript",
+   "text": "floor"
+  },
+  {
+   "t": 18.145,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 18.145,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    5
+   ]
+  },
+  {
+   "t": 18.145,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 22.706,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 22.706,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 22.706,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 29.08,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 29.08,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 29.08,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 35.647,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 38.596,
+   "event": "transcript",
+   "text": "and said ant walked across the floor"
+  },
+  {
+   "t": 38.596,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 38.596,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1
+   ]
+  },
+  {
+   "t": 38.596,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 43.551,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 43.551,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 43.551,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 47.845,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 47.845,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 47.845,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 55.042,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 58.655,
+   "event": "transcript",
+   "text": "small and walked acros the fun floor"
+  },
+  {
+   "t": 58.655,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 58.655,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": 58.655,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 63.488,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 63.488,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 63.488,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 68.874,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 68.874,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 68.874,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 76.107,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 79.252,
+   "event": "transcript",
+   "text": "all small ant walked across the fish"
+  },
+  {
+   "t": 79.252,
+   "event": "progress",
+   "frm": 0,
+   "to": 6
+  },
+  {
+   "t": 81.094,
+   "event": "transcript",
+   "text": "floor"
+  },
+  {
+   "t": 81.094,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 81.094,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 81.094,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 88.424,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 93.501,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 99.138,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 103.529,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 103.529,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 103.529,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 110.062,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 112.782,
+   "event": "transcript",
+   "text": "small ant walked all all floor"
+  },
+  {
+   "t": 112.782,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 112.782,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    4,
+    5
+   ]
+  },
+  {
+   "t": 112.782,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 118.068,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 118.068,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 118.068,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.984,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.163,
+   "type": "transcript",
+   "text": "small ant walked across floor",
+   "latency": 120,
+   "audio_duration_ms": 1760,
+   "message": null
+  },
+  {
+   "t": 17.167,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.145,
+   "type": "transcript",
+   "text": "floor",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 21.771,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.706,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 28.148,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.08,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 35.705,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.596,
+   "type": "transcript",
+   "text": "and said ant walked across the floor",
+   "latency": 120,
+   "audio_duration_ms": 2390,
+   "message": null
+  },
+  {
+   "t": 42.452,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.551,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 46.914,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.845,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 55.319,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.655,
+   "type": "transcript",
+   "text": "small and walked acros the fun floor",
+   "latency": 120,
+   "audio_duration_ms": 2390,
+   "message": null
+  },
+  {
+   "t": 62.557,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.488,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 67.942,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.874,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 76.428,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.252,
+   "type": "transcript",
+   "text": "all small ant walked across the fish",
+   "latency": 120,
+   "audio_duration_ms": 2390,
+   "message": null
+  },
+  {
+   "t": 80.162,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.094,
+   "type": "transcript",
+   "text": "floor",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 102.607,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.529,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 110.276,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 112.782,
+   "type": "transcript",
+   "text": "small ant walked all all floor",
+   "latency": 120,
+   "audio_duration_ms": 2080,
+   "message": null
+  },
+  {
+   "t": 117.137,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 118.068,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant walk across tree floor",
+   "heard": "",
+   "muted_words": 7,
+   "duration_s": 2.39
+  },
+  {
+   "text": "small ant walked across floor",
+   "heard": "small ant walked across floor",
+   "muted_words": 0,
+   "duration_s": 1.76
+  },
+  {
+   "text": "floor",
+   "heard": "floor",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "and said ant walked across the floor",
+   "heard": "and said ant walked across the floor",
+   "muted_words": 0,
+   "duration_s": 2.39
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "small and walked acros the fun floor",
+   "heard": "small and walked acros the fun floor",
+   "muted_words": 0,
+   "duration_s": 2.39
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "all small ant walked across the fish",
+   "heard": "all small ant walked across the fish",
+   "muted_words": 0,
+   "duration_s": 2.39
+  },
+  {
+   "text": "floor",
+   "heard": "floor",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "A",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "small ant walked all all floor",
+   "heard": "small ant walked all all floor",
+   "muted_words": 0,
+   "duration_s": 2.08
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "across tree the floor",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 64
+}

@@ -1,0 +1,335 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r2-after-s0",
+ "agent_id": "C1-03",
+ "seed": 1425,
+ "persona": {
+  "id": "C1-03",
+  "name": "Dev",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-varsad",
+  "title": "વરસાદ",
+  "tags": [
+   "Gujarati",
+   "Grade 1-2"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 9.45,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 9.45,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 17.82,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 17.82,
+      "said": "ટપ ઠપ",
+      "heard": ""
+     },
+     {
+      "t": 22.25,
+      "said": "ઠપ",
+      "heard": ""
+     },
+     {
+      "t": 85.1,
+      "said": "ટપ વરસાદ",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 24.68,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 24.68,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 109.72,
+    "details": [
+     "Read 'દેડકા' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 109.72,
+      "word": "દેડકા",
+      "child_said": "દેડકા",
+      "speech_model_wrote": "મીટું મીઠું"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.55,
+  "frustration_events": [
+   {
+    "t": 9.45,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 17.82,
+    "kind": "unheard_speech",
+    "frustration": 1.4
+   },
+   {
+    "t": 17.82,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 22.25,
+    "kind": "unheard_speech",
+    "frustration": 2.05
+   },
+   {
+    "t": 24.68,
+    "kind": "long_wait",
+    "frustration": 2.45
+   },
+   {
+    "t": 28.12,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 36.16,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 40.44,
+    "kind": "progress",
+    "frustration": 2.0
+   },
+   {
+    "t": 66.81,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 78.15,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 85.1,
+    "kind": "unheard_speech",
+    "frustration": 2.5
+   },
+   {
+    "t": 85.1,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 89.91,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 90.16,
+    "kind": "praise",
+    "frustration": 1.8
+   },
+   {
+    "t": 98.42,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 104.45,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 108.92,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 109.72,
+    "kind": "false_correction",
+    "frustration": 2.55,
+    "word": "દેડકા"
+   },
+   {
+    "t": 133.72,
+    "kind": "progress",
+    "frustration": 2.4
+   },
+   {
+    "t": 140.58,
+    "kind": "praise",
+    "frustration": 2.0
+   },
+   {
+    "t": 155.45,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 160.24,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 164.16,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 164.22,
+    "kind": "praise",
+    "frustration": 1.15
+   },
+   {
+    "t": 180.51,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 188.03,
+    "kind": "praise",
+    "frustration": 0.6
+   },
+   {
+    "t": 197.06,
+    "kind": "dead_click",
+    "frustration": 1.1,
+    "target": "Pause"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 4,
+  "interruptions": 0,
+  "unheard_words": 5,
+  "buddy_talk_s": 66.1,
+  "child_talk_s": 46.8,
+  "tired_said": false,
+  "time_to_text_s": 2.1,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 2.8,
+  "intro_s": 13.8,
+  "session_s": 191.0,
+  "words_total": 16,
+  "words_attempted": 13,
+  "words_said_wrong": 2,
+  "corrections": 4,
+  "buddy_turns": 17,
+  "stall_prompts": 3,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 10,
+  "words_to_practise": [
+   "વરસાદ",
+   "દેડકા",
+   "મીઠું",
+   "છોકરાં",
+   "પાણીમાં"
+  ],
+  "words_practised": 6,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 4,
+  "seconds": 194.5,
+  "words_per_minute": 4.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 4,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 78,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

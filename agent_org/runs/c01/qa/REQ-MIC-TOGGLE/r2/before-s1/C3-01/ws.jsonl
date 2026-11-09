@@ -1,0 +1,97 @@
+{"t": 12.33, "type": "ready", "message": null}
+{"t": 12.5, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 28.32, "type": "speech"}
+{"t": 33.09, "type": "heard", "text": "run Ravi has a mango tree in his garden"}
+{"t": 33.24, "type": "speech"}
+{"t": 34.31, "type": "speech"}
+{"t": 39.49, "type": "heard", "text": "Every summer tha tree is full of sweet mangoes"}
+{"t": 39.56, "type": "speech"}
+{"t": 39.56, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[10, 11]]}
+{"t": 44.75, "type": "speech"}
+{"t": 45.49, "type": "heard", "text": "the"}
+{"t": 45.49, "type": "speech"}
+{"t": 45.52, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.", "spans": [[8, 17]]}
+{"t": 54.11, "type": "speech"}
+{"t": 58.59, "type": "heard", "text": "Every summer the tree ia fun sweet mangoes"}
+{"t": 58.59, "type": "speech"}
+{"t": 58.6, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. is", "spans": [[12, 13]]}
+{"t": 62.48, "type": "speech"}
+{"t": 63.93, "type": "heard", "text": "is"}
+{"t": 64.05, "type": "speech"}
+{"t": 64.14, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! full", "spans": [[13, 14]]}
+{"t": 68.37, "type": "speech"}
+{"t": 70.98, "type": "heard", "text": "full full"}
+{"t": 71.12, "type": "speech"}
+{"t": 71.12, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! of", "spans": [[14, 15]]}
+{"t": 74.91, "type": "speech"}
+{"t": 75.79, "type": "heard", "text": "of"}
+{"t": 75.79, "type": "speech"}
+{"t": 75.8, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.", "spans": [[8, 17]]}
+{"t": 84.67, "type": "speech"}
+{"t": 87.69, "type": "heard", "text": "Every summer the tree is"}
+{"t": 87.69, "type": "speech"}
+{"t": 89.45, "type": "speech"}
+{"t": 92.03, "type": "heard", "text": "full of sweet mangoes"}
+{"t": 92.24, "type": "speech"}
+{"t": 92.24, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 95.57, "type": "speech"}
+{"t": 99.79, "type": "heard", "text": "Ravi shares tha me with hia friends"}
+{"t": 99.81, "type": "speech"}
+{"t": 99.84, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[19, 20]]}
+{"t": 103.42, "type": "speech"}
+{"t": 104.81, "type": "heard", "text": "the"}
+{"t": 104.96, "type": "speech"}
+{"t": 105.06, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! mangoes", "spans": [[20, 21]]}
+{"t": 108.19, "type": "speech"}
+{"t": 109.28, "type": "heard", "text": "mamgoes"}
+{"t": 109.28, "type": "speech"}
+{"t": 109.28, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! his", "spans": [[22, 23]]}
+{"t": 113.21, "type": "speech"}
+{"t": 114.49, "type": "heard", "text": "his"}
+{"t": 114.65, "type": "speech"}
+{"t": 114.66, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi shares the mangoes with his friends. Now you say the whole line.", "spans": [[17, 24]]}
+{"t": 121.32, "type": "speech"}
+{"t": 124.81, "type": "heard", "text": "Ravi shares my with his friends"}
+{"t": 124.82, "type": "speech"}
+{"t": 124.83, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[19, 20]]}
+{"t": 131.03, "type": "speech"}
+{"t": 132.19, "type": "heard", "text": "tha"}
+{"t": 132.19, "type": "speech"}
+{"t": 132.19, "type": "say", "kind": "fix_again", "text": "the", "spans": [[19, 20]]}
+{"t": 135.59, "type": "speech"}
+{"t": 137.17, "type": "heard", "text": "tha the"}
+{"t": 137.17, "type": "speech"}
+{"t": 137.19, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! mangoes", "spans": [[20, 21]]}
+{"t": 140.54, "type": "speech"}
+{"t": 141.65, "type": "heard", "text": "mangoes"}
+{"t": 141.65, "type": "speech"}
+{"t": 141.65, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi shares the mangoes with his friends. Now you say the whole line.", "spans": [[17, 24]]}
+{"t": 148.18, "type": "speech"}
+{"t": 152.61, "type": "heard", "text": "ran Ravi shares the mangoes with his friends"}
+{"t": 152.61, "type": "speech"}
+{"t": 152.64, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 155.8, "type": "speech"}
+{"t": 158.2, "type": "heard", "text": "the and laugh to"}
+{"t": 158.21, "type": "speech"}
+{"t": 158.22, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 161.51, "type": "speech"}
+{"t": 165.94, "type": "heard", "text": "They sia under the tree and laugh together"}
+{"t": 165.94, "type": "speech"}
+{"t": 165.97, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. sit", "spans": [[25, 26]]}
+{"t": 169.44, "type": "speech"}
+{"t": 170.5, "type": "heard", "text": "sit"}
+{"t": 170.5, "type": "speech"}
+{"t": 170.5, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! They sit under the tree and laugh together. Now you say the whole line.", "spans": [[24, 32]]}
+{"t": 177.07, "type": "speech"}
+{"t": 182.93, "type": "heard", "text": "They sia under the to tree to tree and laugh together"}
+{"t": 182.93, "type": "speech"}
+{"t": 182.95, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. sit", "spans": [[25, 26]]}
+{"t": 186.23, "type": "speech"}
+{"t": 187.86, "type": "heard", "text": "sia sit"}
+{"t": 187.86, "type": "speech"}
+{"t": 188.2, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! They sit under the tree and laugh together. Now you say the whole line.", "spans": [[24, 32]]}
+{"t": 194.6, "type": "speech"}
+{"t": 199.52, "type": "heard", "text": "They sia sit under the tree and laugh together"}
+{"t": 199.52, "type": "speech"}
+{"t": 199.52, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 199.61, "type": "summary", "summary": {"words_total": 32, "words_read": 24, "words_helped": 8, "words_to_practise": ["the", "is", "full", "of", "mangoes", "his", "sit"], "words_practised": 11, "correction_attempts": 12, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 6, "seconds": 187.1, "words_per_minute": 10.3}}

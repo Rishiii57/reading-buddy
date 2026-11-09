@@ -1,0 +1,309 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-MIC-TOGGLE/r2-after-s1",
+ "agent_id": "C2-04",
+ "seed": 2527,
+ "persona": {
+  "id": "C2-04",
+  "name": "Kian",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 63.3,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 63.3,
+      "said": "walked across the floor",
+      "heard": ""
+     },
+     {
+      "t": 200.65,
+      "said": "It was walked see ana reached ita its home",
+      "heard": "was see ana reached ita its home"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 102.45,
+    "details": [
+     "Read 'of' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 102.45,
+      "word": "of",
+      "child_said": "of",
+      "speech_model_wrote": "It carried a grain ov rice its back back"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 1.2,
+  "frustration_events": [
+   {
+    "t": 34.14,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 40.07,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 42.14,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 57.86,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 63.3,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 63.3,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 68.09,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 68.22,
+    "kind": "praise",
+    "frustration": 0.1
+   },
+   {
+    "t": 77.69,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 82.99,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 101.65,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 102.45,
+    "kind": "false_correction",
+    "frustration": 1.2,
+    "word": "of"
+   },
+   {
+    "t": 107.46,
+    "kind": "praise",
+    "frustration": 0.8
+   },
+   {
+    "t": 112.58,
+    "kind": "praise",
+    "frustration": 0.4
+   },
+   {
+    "t": 130.08,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 130.1,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 138.27,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 143.97,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 159.5,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 162.39,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 168.39,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 183.54,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 183.75,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 191.59,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 200.65,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 200.65,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 215.57,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 218.41,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 218.54,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 8,
+  "interruptions": 0,
+  "unheard_words": 5,
+  "buddy_talk_s": 92.3,
+  "child_talk_s": 60.3,
+  "tired_said": false,
+  "time_to_text_s": 5.3,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.6,
+  "time_to_first_word_s": 12.6,
+  "restart_ok": true,
+  "session_s": 218.7,
+  "words_total": 37,
+  "words_attempted": 37,
+  "words_said_wrong": 0,
+  "corrections": 6,
+  "buddy_turns": 24,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 25,
+  "words_helped": 12,
+  "words_to_practise": [
+   "across",
+   "carried",
+   "of",
+   "rice",
+   "on",
+   "its",
+   "But",
+   "not",
+   "give",
+   "It"
+  ],
+  "words_practised": 10,
+  "correction_attempts": 11,
+  "lines_total": 5,
+  "lines_completed": 5,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 6,
+  "seconds": 201.0,
+  "words_per_minute": 11.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 4
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 118,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}
