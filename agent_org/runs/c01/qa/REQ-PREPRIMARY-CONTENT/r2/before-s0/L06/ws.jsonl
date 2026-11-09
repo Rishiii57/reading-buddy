@@ -1,0 +1,18 @@
+{"t": 27.78, "type": "ready", "message": null}
+{"t": 27.86, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 44.0, "type": "speech"}
+{"t": 50.83, "type": "heard", "text": "run has has a"}
+{"t": 50.83, "type": "speech"}
+{"t": 53.54, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Ravi", "spans": [[0, 1]]}
+{"t": 58.28, "type": "speech"}
+{"t": 61.35, "type": "heard", "text": "Ravi"}
+{"t": 61.35, "type": "speech"}
+{"t": 61.42, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.", "spans": [[0, 8]]}
+{"t": 68.26, "type": "speech"}
+{"t": 70.19, "type": "heard", "text": "Ravi"}
+{"t": 70.19, "type": "speech"}
+{"t": 72.44, "type": "speech"}
+{"t": 76.01, "type": "heard", "text": "has"}
+{"t": 76.01, "type": "speech"}
+{"t": 78.96, "type": "say", "kind": "stall_phrase", "text": "Listen... a mango tree", "spans": [[2, 5]]}
+{"t": 79.88, "type": "summary", "summary": {"words_total": 32, "words_read": 1, "words_helped": 4, "words_to_practise": ["Ravi"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 52.1, "words_per_minute": 5.8}}

@@ -1,0 +1,22 @@
+{
+ "cycle": "c01/qa/REQ-PREPRIMARY-CONTENT/r2",
+ "label": "after-s1",
+ "app_root": "/home/claude/rishiii57/rb-worktrees/REQ-PREPRIMARY-CONTENT",
+ "app_commit": "2249bb9",
+ "personas": [
+  "N01",
+  "N02",
+  "L01",
+  "L02",
+  "L03",
+  "L04",
+  "L05",
+  "L06",
+  "L07",
+  "L08"
+ ],
+ "parallel": 4,
+ "seed": null,
+ "seed_offset": 1000,
+ "started": "2026-11-09T21:26:04"
+}

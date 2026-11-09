@@ -1,0 +1,283 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r2-after-s0",
+ "agent_id": "L01",
+ "seed": 201,
+ "persona": {
+  "id": "L01",
+  "name": "Ishita",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.5,
+  "attention_span_s": 150
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-samandar",
+  "title": "हरा समंदर",
+  "tags": [
+   "Hindi",
+   "Nursery"
+  ],
+  "words": 9,
+  "lines": 2,
+  "language": "hi-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.0,
+    "details": [
+     "Buddy started talking 3.3 s into a planned 3.27 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 36.0,
+      "paused_s": 3.3,
+      "planned_s": 3.27,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "चंदर,"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 43.2,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 43.2,
+      "said": "बोल",
+      "heard": ""
+     },
+     {
+      "t": 78.76,
+      "said": "कितना",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 128.25,
+    "details": [
+     "Asked to say 'बोल' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 128.25,
+      "word": "बोल",
+      "times": 3
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'मछली' as 'मछलि' and it was marked as read correctly.",
+     "Read 'पानी' as 'पाणी' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "मछली",
+      "child_said": "मछलि",
+      "kind": "sub",
+      "speech_model_wrote": "मेरी मछलि"
+     },
+     {
+      "word": "पानी",
+      "child_said": "पाणी",
+      "kind": "sub",
+      "speech_model_wrote": "कितणा पाणी"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 2.65,
+  "frustration_events": [
+   {
+    "t": 26.28,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 32.46,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 36.0,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 3.3
+   },
+   {
+    "t": 43.2,
+    "kind": "unheard_speech",
+    "frustration": 1.8
+   },
+   {
+    "t": 43.2,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 49.57,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 68.27,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 75.41,
+    "kind": "praise",
+    "frustration": 0.95
+   },
+   {
+    "t": 78.76,
+    "kind": "unheard_speech",
+    "frustration": 1.75
+   },
+   {
+    "t": 78.76,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 91.44,
+    "kind": "dead_click",
+    "frustration": 2.1,
+    "target": "Listening"
+   },
+   {
+    "t": 106.36,
+    "kind": "progress",
+    "frustration": 1.95
+   },
+   {
+    "t": 128.25,
+    "kind": "drill_repeat",
+    "frustration": 2.65,
+    "word": "बोल"
+   },
+   {
+    "t": 131.88,
+    "kind": "praise",
+    "frustration": 2.25
+   },
+   {
+    "t": 147.62,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 155.49,
+    "kind": "progress",
+    "frustration": 1.95
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 1,
+  "unheard_words": 2,
+  "buddy_talk_s": 50.3,
+  "child_talk_s": 34.5,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 1,
+  "intro_s": 11.8,
+  "time_to_first_word_s": 11.8,
+  "session_s": 152.3,
+  "words_total": 9,
+  "words_attempted": 9,
+  "words_said_wrong": 4,
+  "corrections": 2,
+  "buddy_turns": 12,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 9,
+  "words_read": 5,
+  "words_helped": 4,
+  "words_to_practise": [
+   "बोल",
+   "मेरी",
+   "कितना"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 6,
+  "lines_total": 2,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 155.8,
+  "words_per_minute": 3.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 102,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

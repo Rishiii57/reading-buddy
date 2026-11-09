@@ -1,0 +1,410 @@
+{
+ "id": "20261109-211619-718bd7",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 4,
+  "words_helped": 4,
+  "words_to_practise": [
+   "ठंडी",
+   "हवा"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 1,
+  "seconds": 89.8,
+  "words_per_minute": 5.3
+ },
+ "log": [
+  {
+   "t": 0.074,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.233,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.353,
+   "event": "transcript",
+   "text": "बादल गरजे"
+  },
+  {
+   "t": 19.353,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 22.795,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 22.795,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 25.83,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.549,
+   "event": "transcript",
+   "text": "बारिश"
+  },
+  {
+   "t": 29.549,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 33.005,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 33.005,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 35.241,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.785,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 38.785,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 41.346,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.141,
+   "event": "transcript",
+   "text": "आई"
+  },
+  {
+   "t": 44.141,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 44.141,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 49.791,
+   "event": "transcript",
+   "text": "ठंडी ठंढी"
+  },
+  {
+   "t": 49.791,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 51.375,
+   "event": "progress",
+   "to": 6
+  },
+  {
+   "t": 57.289,
+   "event": "transcript",
+   "text": "हबा"
+  },
+  {
+   "t": 57.289,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 64.847,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 66.283,
+   "event": "pause"
+  },
+  {
+   "t": 71.411,
+   "event": "resume"
+  },
+  {
+   "t": 74.744,
+   "event": "transcript",
+   "text": "भि"
+  },
+  {
+   "t": 74.744,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 79.833,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5,
+    6
+   ]
+  },
+  {
+   "t": 79.833,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 87.065,
+   "event": "transcript",
+   "text": "टंडी"
+  },
+  {
+   "t": 87.065,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "टंडी"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.6,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.353,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 26.925,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.549,
+   "type": "transcript",
+   "text": "बारिश",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 41.481,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.141,
+   "type": "transcript",
+   "text": "आई",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 45.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.791,
+   "type": "transcript",
+   "text": "ठंडी ठंढी",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 54.666,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.289,
+   "type": "transcript",
+   "text": "हबा",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 62.226,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.847,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 72.074,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.744,
+   "type": "transcript",
+   "text": "भि",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 84.445,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.065,
+   "type": "transcript",
+   "text": "टंडी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल गरजे",
+   "heard": "बादल गरजे",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "बारिश",
+   "heard": "बारिश",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "आई",
+   "heard": "आई",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ठंडी ठंढी",
+   "heard": "ठंडी ठंढी",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "हबा",
+   "heard": "हबा",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "भि",
+   "heard": "भि",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "टंडी",
+   "heard": "टंडी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  }
+ ],
+ "tts_offline": 104
+}

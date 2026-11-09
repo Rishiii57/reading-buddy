@@ -1,0 +1,75 @@
+{
+ "started": "2026-11-09T21:22:18",
+ "agents": {
+  "N01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:18",
+   "outcome": "could_not_start",
+   "issues": 3
+  },
+  "N02": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:18",
+   "outcome": "abandoned_frustration",
+   "issues": 4
+  },
+  "L01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:18",
+   "outcome": "abandoned_attention",
+   "issues": 4
+  },
+  "L02": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:18",
+   "outcome": "left_before_start",
+   "issues": 1
+  },
+  "L03": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:35",
+   "outcome": "abandoned_frustration",
+   "issues": 6
+  },
+  "L04": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:49",
+   "outcome": "abandoned_frustration",
+   "issues": 2
+  },
+  "L05": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:22:58",
+   "outcome": "abandoned_frustration",
+   "issues": 3
+  },
+  "L06": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:24:37",
+   "outcome": "abandoned_frustration",
+   "issues": 4
+  },
+  "L07": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:25:05",
+   "outcome": "ended_early",
+   "issues": 6
+  },
+  "L08": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:25:15",
+   "outcome": "left_before_start",
+   "issues": 1
+  }
+ }
+}

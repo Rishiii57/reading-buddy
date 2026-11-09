@@ -1,0 +1,12 @@
+{"t": 12.06, "type": "ready", "message": null}
+{"t": 12.35, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 28.54, "type": "speech"}
+{"t": 30.59, "type": "heard", "text": "આબ"}
+{"t": 30.62, "type": "speech"}
+{"t": 34.11, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. આવ", "spans": [[0, 1]]}
+{"t": 38.04, "type": "speech"}
+{"t": 40.1, "type": "heard", "text": "આવ"}
+{"t": 40.1, "type": "speech"}
+{"t": 40.1, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! આવ રે વરસાદ હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 3]]}
+{"t": 51.84, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... આવ રે વરસાદ", "spans": [[0, 3]]}
+{"t": 54.85, "type": "summary", "summary": {"words_total": 11, "words_read": 0, "words_helped": 3, "words_to_practise": ["આવ"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 42.8, "words_per_minute": 4.2}}

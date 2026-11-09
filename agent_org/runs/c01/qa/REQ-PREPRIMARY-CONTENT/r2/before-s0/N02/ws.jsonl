@@ -1,0 +1,22 @@
+{"t": 11.28, "type": "ready", "message": null}
+{"t": 11.47, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 29.4, "type": "speech"}
+{"t": 31.36, "type": "heard", "text": "એ"}
+{"t": 31.36, "type": "speech"}
+{"t": 34.45, "type": "speech"}
+{"t": 36.05, "type": "heard", "text": "ણાની"}
+{"t": 36.23, "type": "speech"}
+{"t": 38.82, "type": "speech"}
+{"t": 40.78, "type": "heard", "text": "ચકલી"}
+{"t": 40.78, "type": "speech"}
+{"t": 44.03, "type": "speech"}
+{"t": 45.95, "type": "heard", "text": "હથી"}
+{"t": 45.95, "type": "speech"}
+{"t": 50.25, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 56.8, "type": "speech"}
+{"t": 58.95, "type": "heard", "text": "એ"}
+{"t": 58.95, "type": "speech"}
+{"t": 58.95, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 63.89, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 70.44, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 72.22, "type": "summary", "summary": {"words_total": 23, "words_read": 1, "words_helped": 3, "words_to_practise": ["એક", "નાની", "હતી"], "words_practised": 0, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 60.8, "words_per_minute": 3.9}}

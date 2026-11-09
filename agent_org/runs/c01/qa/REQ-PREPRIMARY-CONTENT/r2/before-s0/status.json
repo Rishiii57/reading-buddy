@@ -9,14 +9,18 @@
    "issues": 4
   },
   "N02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:14:35"
+   "since": "21:14:35",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:14:35"
+   "since": "21:14:35",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "L02": {
    "state": "done",
@@ -26,26 +30,46 @@
    "issues": 2
   },
   "L03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:14:50"
+   "since": "21:14:50",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "L04": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:15:09"
+   "since": "21:15:09",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:15:52",
+   "outcome": "ended_early",
+   "issues": 4
   },
   "L06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:16:07",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L07": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:16:30",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L08": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:16:48",
+   "outcome": "left_before_start",
+   "issues": 2
   }
  }
 }

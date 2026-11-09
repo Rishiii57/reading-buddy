@@ -1,0 +1,10 @@
+{
+ "mode": "sim",
+ "wall_s": 226.6,
+ "gnani_credits": 0,
+ "stt_stream_s_if_live": 609.4,
+ "note": "In sim mode no Prisma/Timbre calls are made. stt_stream_s_if_live is how many seconds of audio the same sessions would stream to Prisma if run live (sessions stream for their whole length, including Buddy's talking time).",
+ "child_speech_s": 163.3,
+ "llm_tokens": 0,
+ "llm_note": "Child agents, PM, QA scoring are deterministic code; no LLM calls."
+}

@@ -1,0 +1,10 @@
+{"t": 10.15, "type": "ready", "message": null}
+{"t": 10.26, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 23.44, "type": "speech"}
+{"t": 25.83, "type": "heard", "text": "Twinkle twinkle"}
+{"t": 25.85, "type": "speech"}
+{"t": 29.19, "type": "say", "kind": "stall_phrase", "text": "Listen... little star", "spans": [[2, 4]]}
+{"t": 32.41, "type": "speech"}
+{"t": 34.87, "type": "heard", "text": "little star"}
+{"t": 34.87, "type": "speech"}
+{"t": 35.05, "type": "say", "kind": "echo_line", "text": "Listen... How I wonder what you are! Now you try!", "spans": [[4, 10]]}

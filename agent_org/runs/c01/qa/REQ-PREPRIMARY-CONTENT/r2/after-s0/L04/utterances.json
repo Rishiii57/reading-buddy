@@ -1,0 +1,376 @@
+{
+ "utterances": [
+  {
+   "t": 30.3,
+   "said": "play play",
+   "stt": "play play",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.68,
+   "said": "Pitter",
+   "stt": "Pitter",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.57,
+   "said": "patter falls the",
+   "stt": "patter falls the",
+   "stt_notes": [],
+   "words": [
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.54,
+   "said": "red",
+   "stt": "red",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.41,
+   "said": "rain",
+   "stt": "rain",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 61.81,
+   "said": "oa tha roof window pig",
+   "stt": "oa tha roof window pig",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.18,
+   "said": "oa",
+   "stt": "oa",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.55,
+   "said": "tha",
+   "stt": "tha",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.38,
+   "said": "red",
+   "stt": "red",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.89,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 94.22,
+   "said": "On On",
+   "stt": "On om",
+   "stt_notes": [
+    "'On' heard as 'om'"
+   ],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.3,
+    "target": "Pitter",
+    "said": "play",
+    "correct": false,
+    "kind": "sub",
+    "stt": "play play"
+   },
+   {
+    "t": 35.68,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter"
+   }
+  ],
+  "1": [
+   {
+    "t": 30.3,
+    "target": "patter",
+    "said": "play",
+    "correct": false,
+    "kind": "sub",
+    "stt": "play play"
+   },
+   {
+    "t": 47.57,
+    "target": "patter",
+    "said": "patter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "patter falls the"
+   }
+  ],
+  "2": [
+   {
+    "t": 47.57,
+    "target": "falls",
+    "said": "falls",
+    "correct": true,
+    "kind": "ok",
+    "stt": "patter falls the"
+   }
+  ],
+  "3": [
+   {
+    "t": 47.57,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "patter falls the"
+   }
+  ],
+  "4": [
+   {
+    "t": 52.54,
+    "target": "rain",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "red"
+   },
+   {
+    "t": 55.41,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "rain"
+   }
+  ],
+  "5": [
+   {
+    "t": 61.81,
+    "target": "On",
+    "said": "oa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "oa tha roof window pig"
+   },
+   {
+    "t": 68.18,
+    "target": "On",
+    "said": "oa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "oa"
+   },
+   {
+    "t": 94.22,
+    "target": "On",
+    "said": "On",
+    "correct": true,
+    "kind": "ok",
+    "stt": "On om",
+    "drill": true
+   }
+  ],
+  "6": [
+   {
+    "t": 61.81,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "oa tha roof window pig"
+   },
+   {
+    "t": 73.55,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha"
+   }
+  ],
+  "7": [
+   {
+    "t": 61.81,
+    "target": "roof",
+    "said": "roof",
+    "correct": true,
+    "kind": "ok",
+    "stt": "oa tha roof window pig"
+   },
+   {
+    "t": 79.38,
+    "target": "roof",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "red"
+   }
+  ],
+  "8": [
+   {
+    "t": 61.81,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "oa tha roof window pig"
+   },
+   {
+    "t": 83.89,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "9": [
+   {
+    "t": 61.81,
+    "target": "window",
+    "said": "window",
+    "correct": true,
+    "kind": "ok",
+    "stt": "oa tha roof window pig"
+   }
+  ],
+  "10": [
+   {
+    "t": 61.81,
+    "target": "pane",
+    "said": "pig",
+    "correct": false,
+    "kind": "sub",
+    "stt": "oa tha roof window pig"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.94,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 30.51,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 39.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... patter falls the",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 61.96,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 84.15,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. On",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 94.45,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! the",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,20 @@
+{"t": 2.48, "kind": "open_app", "brief": "Anaya, Nursery (about 3.5 years). Prefers hi-IN. Enjoys rhymes read to her but is shy about speaking."}
+{"t": 2.52, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.54, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.42, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 5.85, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
+{"t": 5.85, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 2-3' text, made for children who already read."}
+{"t": 10.07, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.8, "kind": "session_started", "tries": 1}
+{"t": 12.82, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 24.84, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 46.79, "kind": "tap_mic_to_talk"}
+{"t": 46.79, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.58, "kind": "stuck", "word": "તે", "waited": 3.4}
+{"t": 52.53, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 59.48, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 60.07, "kind": "tap_mic_to_talk"}
+{"t": 60.15, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 67.13, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'એક' 3 times."}
+{"t": 70.46, "kind": "abandon", "why": "frustration", "frustration": 3.6}
+{"t": 71.82, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

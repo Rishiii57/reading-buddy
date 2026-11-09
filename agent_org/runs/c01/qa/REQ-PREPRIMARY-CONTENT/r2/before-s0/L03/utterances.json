@@ -1,0 +1,277 @@
+{
+ "utterances": [
+  {
+   "t": 43.87,
+   "said": "માડી સાળા",
+   "stt": "માડી સાળા",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.82,
+   "said": "મારી",
+   "stt": "મારી",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.93,
+   "said": "શાળા બહુ",
+   "stt": "શાળા બહુ",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 67.42,
+   "said": "શુંદર છે",
+   "stt": "શુંદર છે",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 76.38,
+   "said": "શુંદર છૈ છૈ",
+   "stt": "શુંદર છૈ છૈ",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.28,
+   "said": "સુંદડ",
+   "stt": "સુંદડ",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.22,
+   "said": "છૈ",
+   "stt": "છૈ",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 92.79,
+   "said": "શુંદર છૈ",
+   "stt": "શુંદર છૈ",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 43.87,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી સાળા"
+   },
+   {
+    "t": 49.82,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારી"
+   }
+  ],
+  "1": [
+   {
+    "t": 43.87,
+    "target": "શાળા",
+    "said": "સાળા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી સાળા"
+   },
+   {
+    "t": 60.93,
+    "target": "શાળા",
+    "said": "શાળા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શાળા બહુ"
+   }
+  ],
+  "2": [
+   {
+    "t": 60.93,
+    "target": "બહુ",
+    "said": "બહુ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શાળા બહુ"
+   }
+  ],
+  "3": [
+   {
+    "t": 67.42,
+    "target": "સુંદર",
+    "said": "શુંદર",
+    "correct": false,
+    "kind": "sub",
+    "stt": "શુંદર છે"
+   },
+   {
+    "t": 76.38,
+    "target": "સુંદર",
+    "said": "શુંદર",
+    "correct": false,
+    "kind": "sub",
+    "stt": "શુંદર છૈ છૈ"
+   },
+   {
+    "t": 80.28,
+    "target": "સુંદર",
+    "said": "સુંદડ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "સુંદડ"
+   },
+   {
+    "t": 92.79,
+    "target": "સુંદર",
+    "said": "શુંદર",
+    "correct": false,
+    "kind": "sub",
+    "stt": "શુંદર છૈ"
+   }
+  ],
+  "4": [
+   {
+    "t": 67.42,
+    "target": "છે",
+    "said": "છે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શુંદર છે"
+   },
+   {
+    "t": 76.38,
+    "target": "છે",
+    "said": "છૈ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "શુંદર છૈ છૈ"
+   },
+   {
+    "t": 85.22,
+    "target": "છે",
+    "said": "છૈ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "છૈ"
+   },
+   {
+    "t": 92.79,
+    "target": "છે",
+    "said": "છૈ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "શુંદર છૈ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 20.53,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 43.89,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 52.87,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... શાળા બહુ સુંદર",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 67.74,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 85.59,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સુંદર",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 92.92,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "સુંદર",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ ]
+}

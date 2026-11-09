@@ -1,0 +1,12 @@
+{"t": 2.41, "kind": "open_app", "brief": "Vivaan, LKG (about 4.5 years). Prefers en-IN. Impatient; dislikes waiting."}
+{"t": 2.47, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.37, "kind": "tap", "target": "Twinkle, Twinkle, Little Star English Nu", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.5, "kind": "opened_text", "hash": "#/read/en-twinkle", "title": "Twinkle, Twinkle, Little Star", "tags": ["English", "Nursery"], "words": 22, "lines": 4}
+{"t": 9.96, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.27, "kind": "session_started", "tries": 1}
+{"t": 18.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 22.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 29.38, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.6 s into a planned 4.35 s thinking pause."}
+{"t": 40.61, "kind": "tap_mic_to_talk"}
+{"t": 40.7, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.84, "kind": "abandon", "why": "frustration", "frustration": 2.5}

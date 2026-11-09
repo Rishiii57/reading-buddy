@@ -1,0 +1,6 @@
+{"t": 2.49, "kind": "open_app", "brief": "Shaurya, LKG (about 4.5 years). Prefers hi-IN. Gets tired after a minute of reading."}
+{"t": 2.56, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.45, "kind": "tap", "target": "मछली जल की रानी है The Fish Is the Queen", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.06, "kind": "opened_text", "hash": "#/read/hi-machhli", "title": "मछली जल की रानी है", "tags": ["Hindi", "Nursery"], "words": 17, "lines": 4}
+{"t": 12.32, "kind": "tap", "target": "About", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.87, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

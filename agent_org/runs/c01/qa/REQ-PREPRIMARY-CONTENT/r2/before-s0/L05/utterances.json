@@ -1,0 +1,297 @@
+{
+ "utterances": [
+  {
+   "t": 45.52,
+   "said": "बादल गरजे",
+   "stt": "बादल गरजे",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.73,
+   "said": "बारिश",
+   "stt": "बारिश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.39,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.32,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.97,
+   "said": "ठंडी ठंढी",
+   "stt": "ठंडी ठंढी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.47,
+   "said": "हबा",
+   "stt": "हबा",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 91.02,
+   "said": "आ",
+   "stt": "आ",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 100.92,
+   "said": "भि",
+   "stt": "भि",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 113.24,
+   "said": "टंडी",
+   "stt": "टंडी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 45.52,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे"
+   }
+  ],
+  "1": [
+   {
+    "t": 45.52,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे"
+   }
+  ],
+  "2": [
+   {
+    "t": 55.73,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 65.39,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 70.32,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   }
+  ],
+  "4": [
+   {
+    "t": 75.97,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी ठंढी"
+   }
+  ],
+  "5": [
+   {
+    "t": 75.97,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंडी ठंढी"
+   },
+   {
+    "t": 113.24,
+    "target": "ठंडी",
+    "said": "टंडी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "टंडी",
+    "drill": true
+   }
+  ],
+  "6": [
+   {
+    "t": 83.47,
+    "target": "हवा",
+    "said": "हबा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हबा"
+   }
+  ],
+  "7": [
+   {
+    "t": 83.47,
+    "target": "भी",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "हबा"
+   },
+   {
+    "t": 100.92,
+    "target": "भी",
+    "said": "भि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भि"
+   }
+  ],
+  "8": [
+   {
+    "t": 91.02,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "आ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 26.44,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 49.02,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बारिश आई",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 59.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आई",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 65.02,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "आई अब तुम बोलो!",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 106.24,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। ठंडी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 113.27,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ठंडी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  }
+ ]
+}

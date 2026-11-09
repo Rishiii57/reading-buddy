@@ -1,0 +1,17 @@
+{"t": 2.41, "kind": "open_app", "brief": "Anaya, Nursery (about 3.5 years). Prefers hi-IN. Enjoys rhymes read to her but is shy about speaking."}
+{"t": 2.46, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.39, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.78, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 5.95, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 10.05, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 24.09, "kind": "listened_first", "seconds": 12.6}
+{"t": 24.41, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 27.22, "kind": "session_started", "tries": 1}
+{"t": 42.71, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 59.5, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.4 s into a planned 4.74 s thinking pause."}
+{"t": 65.25, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 65.52, "kind": "tap_mic_to_talk"}
+{"t": 65.56, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 88.73, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'घर' 3 times."}
+{"t": 91.25, "kind": "abandon", "why": "frustration", "frustration": 3.35}
+{"t": 92.14, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

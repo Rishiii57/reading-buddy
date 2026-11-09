@@ -1,0 +1,16 @@
+{"t": 2.34, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 2.4, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 4.77, "kind": "tap", "target": "આવ રે વરસાદ Come, Rain Gujarati LKG Rhym", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.37, "kind": "opened_text", "hash": "#/read/gu-avre", "title": "આવ રે વરસાદ", "tags": ["Gujarati", "LKG"], "words": 11, "lines": 4}
+{"t": 7.72, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 11.75, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.27, "kind": "session_started", "tries": 1}
+{"t": 26.6, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 27.48, "kind": "tap_mic_to_talk"}
+{"t": 27.55, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 34.11, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 4.05 s thinking pause."}
+{"t": 44.55, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 54.68, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 54.68, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 55.44, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}
+{"t": 56.53, "kind": "issue", "code": "RESTART_NOT_FOUND", "detail": "Wanted to read it again but found no way from the end screen."}

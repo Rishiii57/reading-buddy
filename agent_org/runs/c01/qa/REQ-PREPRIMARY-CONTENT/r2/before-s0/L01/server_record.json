@@ -1,0 +1,662 @@
+{
+ "id": "20261109-211446-2d5541",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 2,
+  "words_helped": 2,
+  "words_to_practise": [
+   "बादल",
+   "गरजे"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 118.5,
+  "words_per_minute": 2.0
+ },
+ "log": [
+  {
+   "t": 0.09,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.285,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.841,
+   "event": "transcript",
+   "text": "वादल"
+  },
+  {
+   "t": 16.841,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.351,
+   "event": "transcript",
+   "text": "गरजे"
+  },
+  {
+   "t": 21.351,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 24.83,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 24.83,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 33.333,
+   "event": "transcript",
+   "text": "वादल"
+  },
+  {
+   "t": 33.333,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "वादल"
+  },
+  {
+   "t": 38.666,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 38.666,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 38.666,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 45.102,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 47.248,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 47.248,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 52.36,
+   "event": "transcript",
+   "text": "गरझे"
+  },
+  {
+   "t": 52.36,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 58.566,
+   "event": "transcript",
+   "text": "बारिश"
+  },
+  {
+   "t": 58.566,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 64.981,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 67.996,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 73.72,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 76.849,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 83.215,
+   "event": "transcript",
+   "text": "आई"
+  },
+  {
+   "t": 83.215,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 83.215,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 83.215,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 90.605,
+   "event": "transcript",
+   "text": "गड़जे"
+  },
+  {
+   "t": 90.605,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गडजे"
+  },
+  {
+   "t": 96.18,
+   "event": "transcript",
+   "text": "गरझे"
+  },
+  {
+   "t": 96.18,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गरझे"
+  },
+  {
+   "t": 101.785,
+   "event": "transcript",
+   "text": "गरजे"
+  },
+  {
+   "t": 101.785,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 101.785,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 108.04,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 110.256,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 110.256,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 116.966,
+   "event": "transcript",
+   "text": "गड़जे बारिस"
+  },
+  {
+   "t": 116.966,
+   "event": "uncertain",
+   "text": "गडजे बारिस"
+  },
+  {
+   "t": 116.966,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.778,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.841,
+   "type": "transcript",
+   "text": "वादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 19.236,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.351,
+   "type": "transcript",
+   "text": "गरजे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 31.281,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.333,
+   "type": "transcript",
+   "text": "वादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 36.611,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.666,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 45.188,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.248,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 50.302,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.36,
+   "type": "transcript",
+   "text": "गरझे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 56.515,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.566,
+   "type": "transcript",
+   "text": "बारिश",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 62.925,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.981,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 65.944,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.996,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 71.669,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.72,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 74.778,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.849,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 80.681,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.215,
+   "type": "transcript",
+   "text": "आई",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 88.554,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 90.605,
+   "type": "transcript",
+   "text": "गड़जे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 93.866,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.18,
+   "type": "transcript",
+   "text": "गरझे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 99.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 101.785,
+   "type": "transcript",
+   "text": "गरजे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 108.183,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.256,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 113.485,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 116.966,
+   "type": "transcript",
+   "text": "गड़जे बारिस",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "वादल",
+   "heard": "वादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गरजे",
+   "heard": "गरजे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "वादल",
+   "heard": "वादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गरझे",
+   "heard": "गरझे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बारिश",
+   "heard": "बारिश",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "आई",
+   "heard": "आई",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गड़जे",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गड़जे",
+   "heard": "गड़जे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गरझे",
+   "heard": "गरझे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गरजे",
+   "heard": "गरजे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गड़जे बारिस",
+   "heard": "गड़जे बारिस",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 69
+}

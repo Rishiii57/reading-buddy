@@ -1,0 +1,155 @@
+{
+ "id": "20261109-211836-f21200",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [
+   "patter"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 35.6,
+  "words_per_minute": 6.7
+ },
+ "log": [
+  {
+   "t": 0.056,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.141,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.749,
+   "event": "transcript",
+   "text": "Pitter qlay"
+  },
+  {
+   "t": 16.749,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 20.181,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 20.181,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 22.939,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.75,
+   "event": "transcript",
+   "text": "pig falls"
+  },
+  {
+   "t": 25.75,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 29.218,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 29.218,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.429,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.749,
+   "type": "transcript",
+   "text": "Pitter qlay",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 23.453,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.75,
+   "type": "transcript",
+   "text": "pig falls",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter qlay",
+   "heard": "Pitter qlay",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "pig falls",
+   "heard": "pig falls",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 40
+}
