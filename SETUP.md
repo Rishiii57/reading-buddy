@@ -111,7 +111,7 @@ Leave that window open, then open **http://localhost:8765** in Chrome, Edge or S
    - A stall prompt ("Listen…").
    - The finish, and the summary.
 3. **With the microphone:** press the big microphone.
-   - The first time, a grown-up confirms the consent box and the browser asks for mic permission. Click **Allow**.
+   - The first time, the browser asks for mic permission. Click **Allow**.
    - Wait for Buddy's greeting, then read aloud. Some things to try:
      - Read a word wrong (Buddy practises it with you).
      - Stop mid-line (Buddy gives the next words).

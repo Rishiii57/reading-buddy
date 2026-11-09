@@ -821,27 +821,8 @@ function sendJSON(obj) {
   if (app.ws && app.ws.readyState === 1) app.ws.send(JSON.stringify(obj));
 }
 
-// Part K: a parent or guardian agrees before the microphone is ever used
-function askConsent() {
-  if (storeGet("rb.consent") === "1") return Promise.resolve(true);
-  const dlg = $("consentDlg");
-  $("consentBox").checked = false;
-  $("consentYes").disabled = true;
-  dlg.showModal();
-  return new Promise((resolve) => {
-    $("consentBox").onchange = () => { $("consentYes").disabled = !$("consentBox").checked; };
-    $("consentYes").onclick = () => { storeSet("rb.consent", "1"); dlg.close(); resolve(true); };
-    $("consentNo").onclick = () => { dlg.close(); resolve(false); };
-    dlg.oncancel = () => resolve(false);
-  });
-}
-
 async function startSession(mode) {
   if (app.running || !app.text) return;
-  if (mode === "mic" && !(await askConsent())) {
-    bubble("That's okay!", "A grown-up can allow the microphone any time. You can also watch the Demo reader.", "");
-    return;
-  }
   stopListen();
   stopHint();
   try {
