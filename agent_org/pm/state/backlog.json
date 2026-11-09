@@ -49,9 +49,19 @@
      "agents": 35,
      "instances": 36,
      "score": 22.04
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T18:37:41",
+     "note": "Frontend Engineer started on eng/REQ-SPOKEN-ONBOARDING"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T18:38:59",
+     "note": "submitted 059b47ce: Buddy speaks a short hint (cached phrase) when a text opens; reader bubbles in the text's language"
     }
    ],
-   "status": "approved",
+   "status": "awaiting_qa",
    "priority": "P1"
   },
   "RC-STALL-TIMING": {
@@ -67,9 +77,19 @@
      "agents": 20,
      "instances": 32,
      "score": 20.03
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T18:37:41",
+     "note": "Backend Engineer started on eng/REQ-STALL-TIMING"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T18:38:19",
+     "note": "submitted 1182cee3: Level-based and adaptive mid-line stall threshold (young texts 3.0 s; learns the reader's resumed pauses, k=1.3, cap 5 s)"
     }
    ],
-   "status": "approved",
+   "status": "awaiting_qa",
    "priority": "P1"
   },
   "RC-MIDLINE-CORRECTION": {

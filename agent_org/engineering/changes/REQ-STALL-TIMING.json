@@ -1,0 +1,89 @@
+{
+ "requirement": "REQ-STALL-TIMING",
+ "rounds": [
+  {
+   "at": "2026-11-09T18:38:19",
+   "summary": "Level-based and adaptive mid-line stall threshold (young texts 3.0 s; learns the reader's resumed pauses, k=1.3, cap 5 s)",
+   "root_cause": "TutorConfig.stall_mid_s was one fixed 2.0 s threshold (effectively ~2.4 s after the transcript) for every reader; word-by-word and hesitant readers pause 2-5 s while decoding, so tick() fired a stall prompt before they could continue. Confirmed in the c01 evidence (INTERRUPTED_WHILE_THINKING with buddy_kind stall_*) and in audio eval Part B (2.5 s pauses interrupted 58-92%).",
+   "commit": "1182cee3ebdf6d0ec3dad4e07a2762a5eb425df1",
+   "files": [
+    "backend/tutor.py",
+    "tests/test_tutor.py"
+   ],
+   "outside_ownership": [],
+   "roles": [
+    "Backend Engineer",
+    "AI/ML Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "45 passed in 0.30s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 2.44,
+    "stall_prompt_s_max": 3.46,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  }
+ ],
+ "branch": "eng/REQ-STALL-TIMING",
+ "worktree": "/home/claude/rishiii57/rb-worktrees/REQ-STALL-TIMING",
+ "base_branch": "agent-org-handoff",
+ "base_commit": "0706bcae3d816b0a04ac82879a73e15fd58a0d91",
+ "role": "Backend Engineer",
+ "started": "2026-11-09T18:37:41"
+}
