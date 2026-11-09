@@ -1,0 +1,92 @@
+{
+ "requirement": "REQ-CONSENT-GATE",
+ "rounds": [
+  {
+   "at": "2026-11-09T19:14:59",
+   "summary": "Removed the parent-consent dialog (team decision): the mic starts on the first tap; browser permission still applies; About/SETUP updated",
+   "root_cause": "The written English consent dialog dead-ended pre-readers and was ticked by older children; the team decided no app-level consent step is needed.",
+   "commit": "39e909bcfa20dead04847dc60229a904fa2ea897",
+   "files": [
+    "SETUP.md",
+    "frontend/app.js",
+    "frontend/index.html"
+   ],
+   "outside_ownership": [
+    "SETUP.md"
+   ],
+   "roles": [
+    "Frontend Engineer",
+    "Integration Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "42 passed in 2.20s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 2.39,
+    "stall_prompt_s_max": 2.46,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  }
+ ],
+ "branch": "eng/REQ-CONSENT-GATE",
+ "worktree": "/home/claude/rishiii57/rb-worktrees/REQ-CONSENT-GATE",
+ "base_branch": "agent-org-handoff",
+ "base_commit": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
+ "role": "Frontend Engineer",
+ "started": "2026-11-09T19:11:14"
+}
