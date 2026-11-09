@@ -1,0 +1,210 @@
+{
+ "id": "20261109-185508-db1832",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 4,
+  "words_helped": 1,
+  "words_to_practise": [
+   "મારો"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 52.8,
+  "words_per_minute": 5.7
+ },
+ "log": [
+  {
+   "t": 0.103,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.539,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.211,
+   "event": "transcript",
+   "text": "માડો પતંગ લાલ ને પીળો"
+  },
+  {
+   "t": 21.211,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 21.211,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 21.211,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 31.378,
+   "event": "transcript",
+   "text": "લલ લાલ પિળો પીળો પિળો પીળો"
+  },
+  {
+   "t": 31.378,
+   "event": "uncertain",
+   "text": "લલ લાલ પિળો પીળો પિળો પીળો"
+  },
+  {
+   "t": 31.378,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 33.941,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 37.586,
+   "event": "transcript",
+   "text": "પથંગ લલ પીળો"
+  },
+  {
+   "t": 37.586,
+   "event": "uncertain",
+   "text": "પથંગ લલ પીળો"
+  },
+  {
+   "t": 40.334,
+   "event": "transcript",
+   "text": "માઢો"
+  },
+  {
+   "t": 40.334,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "માઢો"
+  },
+  {
+   "t": 43.611,
+   "event": "pause"
+  },
+  {
+   "t": 49.081,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.735,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.211,
+   "type": "transcript",
+   "text": "માડો પતંગ લાલ ને પીળો",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 26.191,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.378,
+   "type": "transcript",
+   "text": "લલ લાલ પિળો પીળો પિળો પીળો",
+   "latency": 120,
+   "audio_duration_ms": 4762,
+   "message": null
+  },
+  {
+   "t": 34.642,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.586,
+   "type": "transcript",
+   "text": "પથંગ લલ પીળો",
+   "latency": 120,
+   "audio_duration_ms": 2460,
+   "message": null
+  },
+  {
+   "t": 38.931,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.334,
+   "type": "transcript",
+   "text": "માઢો",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડો પતંગ લાલ ને પીળો",
+   "heard": "માડો પતંગ લાલ ને પીળો",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "મારો પતંગ લલ લાલ પિળો પીળો પિળો પીળો",
+   "heard": "લલ લાલ પિળો પીળો પિળો પીળો",
+   "muted_words": 2,
+   "duration_s": 6.35
+  },
+  {
+   "text": "માડો પથંગ લલ પીળો",
+   "heard": "પથંગ લલ પીળો",
+   "muted_words": 1,
+   "duration_s": 3.28
+  },
+  {
+   "text": "માઢો",
+   "heard": "માઢો",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 58
+}

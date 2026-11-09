@@ -1,0 +1,21 @@
+{"t": 3.67, "kind": "open_app", "brief": "Avni, Class 2 (about 7.5 years). Prefers gu-IN. Reads English better than Gujarati."}
+{"t": 3.71, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.69, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.44, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.41, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 13.62, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.47, "kind": "session_started", "tries": 1}
+{"t": 22.36, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 28.91, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 34.01, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.65 s thinking pause."}
+{"t": 44.09, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.48 s thinking pause."}
+{"t": 104.17, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'દિવસ' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 176.76, "kind": "tap_mic_to_talk"}
+{"t": 176.76, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 177.67, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 178.21, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 181.99, "kind": "resumed", "after_s": 0.5}
+{"t": 193.63, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 209.48, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 227.58, "kind": "abandon", "why": "attention", "frustration": 2.1}
+{"t": 229.2, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

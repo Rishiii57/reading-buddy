@@ -1,0 +1,275 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r1-after-s0",
+ "agent_id": "L05",
+ "seed": 1204,
+ "persona": {
+  "id": "L05",
+  "name": "Prisha",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 4.5,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-baarish",
+  "title": "बारिश आई",
+  "tags": [
+   "Hindi",
+   "Grade 1-2"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 5.92,
+    "details": [
+     "LKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG."
+    ],
+    "evidence": [
+     {
+      "t": 5.92,
+      "title": "बारिश आई",
+      "grade_tag": "Grade 1-2"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 10.04,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 10.04,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 35.04,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 35.04,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 43.62,
+    "details": [
+     "Buddy started talking 3.0 s into a planned 3.89 s thinking pause.",
+     "Buddy started talking 3.3 s into a planned 3.24 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 43.62,
+      "paused_s": 3.0,
+      "planned_s": 3.89,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "बारिश आई,"
+     },
+     {
+      "t": 72.14,
+      "paused_s": 3.3,
+      "planned_s": 3.24,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "गरजे, बारिश आई,"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 76.01,
+    "details": [
+     "Asked to say 'बादल' 3 times.",
+     "Asked to say 'बादल' 4 times."
+    ],
+    "evidence": [
+     {
+      "t": 76.01,
+      "word": "बादल",
+      "times": 3
+     },
+     {
+      "t": 90.23,
+      "word": "बादल",
+      "times": 4
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 83.44,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 83.44,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the mic to talk and it stopped!",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 5.05,
+  "frustration_events": [
+   {
+    "t": 10.04,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 35.04,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 40.21,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 43.62,
+    "kind": "interrupted_pause",
+    "frustration": 1.85,
+    "paused_s": 3.0
+   },
+   {
+    "t": 72.14,
+    "kind": "interrupted_pause",
+    "frustration": 2.85,
+    "paused_s": 3.3
+   },
+   {
+    "t": 76.01,
+    "kind": "drill_repeat",
+    "frustration": 3.55,
+    "word": "बादल"
+   },
+   {
+    "t": 83.44,
+    "kind": "unexpected_pause",
+    "frustration": 4.35
+   },
+   {
+    "t": 90.23,
+    "kind": "drill_repeat",
+    "frustration": 5.05,
+    "word": "बादल"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 2,
+  "unheard_words": 0,
+  "buddy_talk_s": 30.8,
+  "child_talk_s": 6.4,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.8,
+  "time_to_first_word_s": 12.8,
+  "session_s": 71.5,
+  "words_total": 17,
+  "words_attempted": 2,
+  "words_said_wrong": 1,
+  "corrections": 2,
+  "buddy_turns": 7,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 1,
+  "words_to_practise": [
+   "बादल"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 74.1,
+  "words_per_minute": 1.6
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 38,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

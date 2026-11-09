@@ -1,0 +1,78 @@
+{"t": 17.05, "type": "ready", "message": null}
+{"t": 17.15, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 33.79, "type": "speech"}
+{"t": 35.05, "type": "heard", "text": "માર મારી"}
+{"t": 35.05, "type": "speech"}
+{"t": 37.67, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... શાળા બહુ સુંદર", "spans": [[1, 4]]}
+{"t": 41.86, "type": "speech"}
+{"t": 43.82, "type": "heard", "text": "શાળ બહુ સુંદર છે"}
+{"t": 43.87, "type": "speech"}
+{"t": 43.87, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. શાળા", "spans": [[1, 2]]}
+{"t": 48.54, "type": "speech"}
+{"t": 49.46, "type": "heard", "text": "શાળા"}
+{"t": 49.51, "type": "speech"}
+{"t": 49.51, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 56.98, "type": "speech"}
+{"t": 59.39, "type": "heard", "text": "શાળા બહુ સુંદર છે"}
+{"t": 59.42, "type": "speech"}
+{"t": 59.48, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 63.41, "type": "speech"}
+{"t": 65.39, "type": "heard", "text": "શાળા બહુ સુંદર છે"}
+{"t": 65.39, "type": "speech"}
+{"t": 65.41, "type": "say", "kind": "uncertain_word", "text": "ફરીથી બોલીશ? મારી", "spans": [[0, 1]]}
+{"t": 68.55, "type": "speech"}
+{"t": 69.49, "type": "heard", "text": "મારી"}
+{"t": 69.49, "type": "speech"}
+{"t": 69.49, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 77.07, "type": "speech"}
+{"t": 79.72, "type": "heard", "text": "મારી શાળા બહુ સુંદર છે છે"}
+{"t": 79.72, "type": "speech"}
+{"t": 79.76, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 83.21, "type": "speech"}
+{"t": 86.57, "type": "heard", "text": "શાળામા શાળામાં શાળામા શાળામાં એક મોટું મેદા છે"}
+{"t": 86.62, "type": "speech"}
+{"t": 86.65, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મેદાન", "spans": [[8, 9]]}
+{"t": 91.64, "type": "speech"}
+{"t": 92.28, "type": "heard", "text": "મેદાન"}
+{"t": 92.29, "type": "speech"}
+{"t": 92.3, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! શાળામાં એક મોટું મેદાન છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[5, 10]]}
+{"t": 99.07, "type": "speech"}
+{"t": 101.38, "type": "heard", "text": "શાળામાં એક મોટું મેદાન છે"}
+{"t": 101.38, "type": "speech"}
+{"t": 101.38, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 105.02, "type": "speech"}
+{"t": 107.67, "type": "heard", "text": "અમે ત્યાં રોઝ સાથે રમી છીએ"}
+{"t": 107.71, "type": "speech"}
+{"t": 107.73, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. રોજ", "spans": [[12, 13]]}
+{"t": 112.76, "type": "speech"}
+{"t": 113.91, "type": "heard", "text": "રોજ"}
+{"t": 113.91, "type": "speech"}
+{"t": 113.91, "type": "say", "kind": "fix_next", "text": "હા! ખૂબ સરસ! રમીએ", "spans": [[14, 15]]}
+{"t": 117.02, "type": "speech"}
+{"t": 118.23, "type": "heard", "text": "રમી"}
+{"t": 118.23, "type": "speech"}
+{"t": 118.23, "type": "say", "kind": "fix_again", "text": "રમીએ", "spans": [[14, 15]]}
+{"t": 124.75, "type": "speech"}
+{"t": 127.73, "type": "heard", "text": "રમીએ"}
+{"t": 127.73, "type": "speech"}
+{"t": 127.73, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! અમે ત્યાં રોજ સાથે રમીએ છીએ. હવે તું આખી પંક્તિ બોલ.", "spans": [[10, 16]]}
+{"t": 133.69, "type": "speech"}
+{"t": 136.88, "type": "heard", "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ"}
+{"t": 136.88, "type": "speech"}
+{"t": 136.93, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 140.14, "type": "speech"}
+{"t": 143.54, "type": "heard", "text": "મારા શિક્ષક અમન વાર્તા કહૈ છે"}
+{"t": 143.54, "type": "speech"}
+{"t": 143.54, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. અમને", "spans": [[18, 19]]}
+{"t": 146.75, "type": "speech"}
+{"t": 147.69, "type": "heard", "text": "અમને"}
+{"t": 147.72, "type": "speech"}
+{"t": 147.72, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારા શિક્ષક અમને વાર્તા કહે છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[16, 22]]}
+{"t": 154.82, "type": "speech"}
+{"t": 156.09, "type": "heard", "text": "મારા શિક્ષક"}
+{"t": 156.09, "type": "speech"}
+{"t": 158.15, "type": "speech"}
+{"t": 160.11, "type": "heard", "text": "અમને વાર્તા કહે છે"}
+{"t": 160.13, "type": "speech"}
+{"t": 160.19, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 160.19, "type": "summary", "summary": {"words_total": 22, "words_read": 14, "words_helped": 8, "words_to_practise": ["મારી", "શાળા", "મેદાન", "રોજ", "રમીએ", "અમને"], "words_practised": 6, "correction_attempts": 7, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 5, "seconds": 143.1, "words_per_minute": 9.2}}

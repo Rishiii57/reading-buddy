@@ -1,0 +1,634 @@
+{
+ "id": "20261109-185354-8b14e6",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 10,
+  "words_helped": 1,
+  "words_to_practise": [
+   "ठंडी"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 100.2,
+  "words_per_minute": 6.6
+ },
+ "log": [
+  {
+   "t": 0.045,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.783,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.528,
+   "event": "transcript",
+   "text": "बादल गरजे बारिश आई"
+  },
+  {
+   "t": 19.528,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 19.528,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 23.398,
+   "event": "transcript",
+   "text": "ठंडी ठंढी हवा"
+  },
+  {
+   "t": 23.398,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 27.53,
+   "event": "transcript",
+   "text": "भी आ"
+  },
+  {
+   "t": 27.53,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 30.007,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 33.237,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 37.057,
+   "event": "transcript",
+   "text": "आ आई"
+  },
+  {
+   "t": 37.057,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 37.057,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 37.057,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 44.148,
+   "event": "transcript",
+   "text": "ठंढी"
+  },
+  {
+   "t": 44.148,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "ठंढी"
+  },
+  {
+   "t": 49.699,
+   "event": "transcript",
+   "text": "ठंढी ठंडी"
+  },
+  {
+   "t": 49.699,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 49.699,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 56.685,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 59.868,
+   "event": "transcript",
+   "text": "ठंडी ठंडी हवा"
+  },
+  {
+   "t": 59.868,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 62.127,
+   "event": "transcript",
+   "text": "आई"
+  },
+  {
+   "t": 62.127,
+   "event": "restart",
+   "frm": 7,
+   "to": 3
+  },
+  {
+   "t": 67.618,
+   "event": "transcript",
+   "text": "ठंडी ठंडी हवा भि आई"
+  },
+  {
+   "t": 67.618,
+   "event": "progress",
+   "frm": 4,
+   "to": 9
+  },
+  {
+   "t": 67.618,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 67.618,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 71.558,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 75.727,
+   "event": "transcript",
+   "text": "मेंडक गाते मीटे गाणे"
+  },
+  {
+   "t": 75.727,
+   "event": "uncertain",
+   "text": "मेंडक गाते मीटे गाणे"
+  },
+  {
+   "t": 75.727,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 80.019,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 82.629,
+   "event": "transcript",
+   "text": "मेंढक गाते"
+  },
+  {
+   "t": 82.629,
+   "event": "progress",
+   "frm": 9,
+   "to": 11
+  },
+  {
+   "t": 87.583,
+   "event": "transcript",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 87.583,
+   "event": "uncertain",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 87.583,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 91.025,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 93.279,
+   "event": "transcript",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 93.279,
+   "event": "uncertain",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 96.421,
+   "event": "transcript",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 96.421,
+   "event": "uncertain",
+   "text": "मीटे गाणे"
+  },
+  {
+   "t": 97.477,
+   "event": "pause"
+  },
+  {
+   "t": 99.022,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.827,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.528,
+   "type": "transcript",
+   "text": "बादल गरजे बारिश आई",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 20.467,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.398,
+   "type": "transcript",
+   "text": "ठंडी ठंढी हवा",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 25.356,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.53,
+   "type": "transcript",
+   "text": "भी आ",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 28.615,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.007,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 31.835,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.237,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 35.233,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.057,
+   "type": "transcript",
+   "text": "आ आई",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 42.735,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.148,
+   "type": "transcript",
+   "text": "ठंढी",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 47.525,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.699,
+   "type": "transcript",
+   "text": "ठंढी ठंडी",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 56.909,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.868,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 60.736,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.127,
+   "type": "transcript",
+   "text": "आई",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 63.145,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.618,
+   "type": "transcript",
+   "text": "ठंडी ठंडी हवा भि आई",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 71.974,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.727,
+   "type": "transcript",
+   "text": "मेंडक गाते मीटे गाणे",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 80.462,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.629,
+   "type": "transcript",
+   "text": "मेंढक गाते",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 85.417,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.583,
+   "type": "transcript",
+   "text": "मीटे गाणे",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 91.111,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 93.279,
+   "type": "transcript",
+   "text": "मीटे गाणे",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 94.254,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.421,
+   "type": "transcript",
+   "text": "मीटे गाणे",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल गरजे बारिश आई",
+   "heard": "बादल गरजे बारिश आई",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "ठंडी ठंढी हवा",
+   "heard": "ठंडी ठंढी हवा",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "भी आ",
+   "heard": "भी आ",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "आ आई",
+   "heard": "आ आई",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "ठंढी",
+   "heard": "ठंढी",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "ठंढी ठंडी",
+   "heard": "ठंढी ठंडी",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "ठंडी ठंडी हवा",
+   "heard": "ठंडी ठंडी हवा",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "आई",
+   "heard": "आई",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "ठंडी ठंडी हवा भि आई",
+   "heard": "ठंडी ठंडी हवा भि आई",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "मेंडक गाते मीटे गाणे",
+   "heard": "मेंडक गाते मीटे गाणे",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "मेंढक गाते",
+   "heard": "मेंढक गाते",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "मीटे गाणे",
+   "heard": "मीटे गाणे",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "मीटे गाणे",
+   "heard": "मीटे गाणे",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "मीटे गाणे",
+   "heard": "मीटे गाणे",
+   "muted_words": 0,
+   "duration_s": 1.74
+  }
+ ],
+ "tts_offline": 46
+}

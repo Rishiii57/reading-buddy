@@ -1,0 +1,34 @@
+{"t": 12.81, "type": "ready", "message": null}
+{"t": 12.94, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 28.17, "type": "speech"}
+{"t": 31.05, "type": "heard", "text": "बादल गरजे बारिश आई"}
+{"t": 31.05, "type": "speech"}
+{"t": 31.81, "type": "speech"}
+{"t": 33.1, "type": "heard", "text": "ठंडी"}
+{"t": 33.1, "type": "speech"}
+{"t": 36.31, "type": "say", "kind": "stall_phrase", "text": "सुनो... ठंडी हवा भी", "spans": [[5, 8]]}
+{"t": 39.6, "type": "speech"}
+{"t": 41.97, "type": "heard", "text": "ठंडी हवा भी"}
+{"t": 41.99, "type": "speech"}
+{"t": 45.0, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई।", "spans": [[8, 9]]}
+{"t": 47.41, "type": "speech"}
+{"t": 48.67, "type": "heard", "text": "आई"}
+{"t": 48.67, "type": "speech"}
+{"t": 48.67, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 52.13, "type": "speech"}
+{"t": 55.24, "type": "heard", "text": "मेंडक गाते गाते मीठे गाने"}
+{"t": 55.24, "type": "speech"}
+{"t": 55.24, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेंढक", "spans": [[9, 10]]}
+{"t": 59.85, "type": "speech"}
+{"t": 61.05, "type": "heard", "text": "मेंढक"}
+{"t": 61.05, "type": "speech"}
+{"t": 61.05, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 69.07, "type": "speech"}
+{"t": 71.87, "type": "heard", "text": "मेंढक गाते मीठे गाने"}
+{"t": 71.88, "type": "speech"}
+{"t": 71.93, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 77.67, "type": "speech"}
+{"t": 79.71, "type": "heard", "text": "बच्चे निकले नाव चलाने"}
+{"t": 79.78, "type": "speech"}
+{"t": 79.89, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 79.9, "type": "summary", "summary": {"words_total": 17, "words_read": 12, "words_helped": 5, "words_to_practise": ["मेंढक"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 2, "corrections": 1, "seconds": 66.8, "words_per_minute": 15.3}}
