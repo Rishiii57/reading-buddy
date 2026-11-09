@@ -147,7 +147,7 @@ function renderLibrary() {
   if (sel) $("gradeChips").scrollLeft = sel.offsetLeft - $("gradeChips").clientWidth / 2 + sel.offsetWidth / 2;
   const shown = app.grade === "all" ? texts : texts.filter((t) => { const [a, b] = gradeRange(t.grade); return a <= +app.grade && +app.grade <= b; });
   const L = LANGS[app.lang];
-  grid.innerHTML = shown.length ? shown.map((t, i) => `
+  const card = (t, i) => `
     <button class="story${t.pre_primary ? " story--rhyme" : ""}" data-id="${t.id}" data-cursor="card" style="animation-delay:${i * 0.06}s" aria-label="${esc(t.title_en)}, ${t.pre_primary ? "rhyme" : t.type === "poem" ? "poem" : "story"}, ${gradeLabel(t.grade)}">
       <span class="story-art">${artFor(t.id)}</span>
       <span class="story-title" lang="${L.html}">${esc(t.title)}</span>
@@ -155,7 +155,15 @@ function renderLibrary() {
       <span class="tags"><span class="tag tag--${L.tag}">${L.en}</span><span class="tag tag--grade">${gradeLabel(t.grade)}</span><span class="tag tag--type">${t.pre_primary ? "Rhyme" : t.type === "poem" ? "Poem" : "Story"}</span></span>
       <span class="story-foot"><svg class="icon"><use href="#i-clock"/></svg> ${minutes(t.words)} min read · ${t.words} words</span>
       <span class="story-go" aria-hidden="true"><svg class="icon"><use href="#i-next"/></svg></span>
-    </button>`).join("")
+    </button>`;
+  // two shelves: rhymes for the youngest first (what a small child sees and taps), then poems and stories
+  const rhymes = shown.filter((t) => t.pre_primary), rest = shown.filter((t) => !t.pre_primary);
+  const shelf = (title, items, offset) => items.length
+    ? `<h2 class="shelf-head">${title}</h2>` + items.map((t, i) => card(t, i + offset)).join("") : "";
+  grid.innerHTML = shown.length
+    ? (rhymes.length && rest.length
+      ? shelf("Rhymes for little ones · Nursery, LKG, UKG", rhymes, 0) + shelf("Poems and stories · Grade 1–4", rest, rhymes.length)
+      : shown.map(card).join(""))
     : `<div class="empty">${Art.owl()}<h2>No stories for ${esc(gradeLabel(Object.keys(PRE).find((k) => String(PRE[k]) === app.grade) || app.grade))} yet</h2><p>Try another grade, or pick “All”.</p>
        <button class="btn btn--sun" data-grade="all">Show all</button></div>`;
 }

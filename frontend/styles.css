@@ -636,3 +636,5 @@ dialog#consentDlg { max-width: 520px; }
 .mic-dock.is-nudge .mic { animation: mic-nudge .45s cubic-bezier(.34,1.56,.64,1); }
 @keyframes mic-nudge { 0% { transform: scale(1); } 40% { transform: scale(1.12); } 100% { transform: scale(1); } }
 @media (prefers-reduced-motion: reduce) { .mic-dock.is-nudge .mic { animation: none; } }
+
+.shelf-head { grid-column: 1 / -1; margin: 6px 0 -4px; font-size: 1.15rem; }
