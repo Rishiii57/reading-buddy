@@ -277,4 +277,31 @@ def test_every_text_reads_through_cleanly(text_id):
         t += 3
     eng, acts = simulate(text, script, until=t + 1)
     assert eng.done
-    assert not [k for k in kinds(acts) if k not in ("praise", "finish")]
+    allowed = ("praise", "finish", "echo_line") if text.pre_primary else ("praise", "finish")
+    assert not [k for k in kinds(acts) if k not in allowed]
+
+
+# ---------- REQ-PREPRIMARY-CONTENT: rhymes for Nursery/LKG/UKG with echo reading ----------
+def test_library_has_pre_primary_rhymes_in_every_language():
+    from collections import Counter
+    c = Counter(t.language for t in LIB.values() if t.pre_primary)
+    assert all(c[lang] >= 4 for lang in ("en-IN", "hi-IN", "gu-IN")), c
+
+
+def test_pre_primary_rhyme_models_every_line():
+    text = LIB["en-twinkle"]
+    script, t = [], 1.0
+    for a, b in text.line_words:
+        script += [(t, "ss", ""), (t + 2, "tr", " ".join(w.display for w in text.words[a:b]))]
+        t += 6
+    eng, acts = simulate(text, script, until=t + 1)
+    echoes = [a for _, a in acts if a["type"] == "say" and a["kind"] == "echo_line"]
+    assert eng.done and len(echoes) == len(text.line_words) - 1
+    assert echoes[0]["parts"][1] == ("span", *text.line_range(1))
+
+
+def test_grade_texts_do_not_echo():
+    text = KITE
+    script = [(1, "ss", ""), (3, "tr", "i have a kite of red and blue")]
+    eng, acts = simulate(text, script, until=6)
+    assert not [a for _, a in acts if a["type"] == "say" and a["kind"] == "echo_line"]

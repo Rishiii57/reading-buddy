@@ -106,6 +106,7 @@ class TutorEngine:
         self.log: list[dict] = []
         self.rng = random.Random(seed)
         self.counts = {"prompts": 0, "corrections": 0, "attempts": 0, "practised": 0, "praise": 0, "skips": 0}
+        self.echo = getattr(text, "pre_primary", False)  # pre-readers: Buddy reads every line first
 
     # ----- inputs -------------------------------------------------------------
     def start(self, now: float) -> list[dict]:
@@ -318,11 +319,19 @@ class TutorEngine:
         if self.done:
             return [{"type": "progress"}] + self._finish_actions
         if was_repeat:
-            return [{"type": "progress"}, self._praise(now, "line_done")]
+            return [{"type": "progress"}, self._praise(now, "line_done")] + self._echo_next(now)
         if self.words[end - 1].stanza_end:
             self._set_state("STANZA_COMPLETED", now)
-            return [{"type": "progress"}, self._praise(now, self.rng.choice(["stanza_done", "keep_going"]))]
-        return [{"type": "progress"}]
+            return [{"type": "progress"}, self._praise(now, self.rng.choice(["stanza_done", "keep_going"]))] + self._echo_next(now)
+        return [{"type": "progress"}] + self._echo_next(now)
+
+    def _echo_next(self, now: float) -> list[dict]:
+        """Echo reading for pre-primary rhymes: Buddy says the next line, then the child says it."""
+        if not self.echo or self.done:
+            return []
+        start, end = self._line_range(self.line)
+        self._set_state("TEACHER_DEMONSTRATION", now, line=self.line)
+        return [self._say(now, "echo_line", [("phrase", "listen"), ("span", start, end), ("phrase", "now_you_try")])]
 
     def _next_line(self, now: float) -> None:
         self.line_errors.clear()
