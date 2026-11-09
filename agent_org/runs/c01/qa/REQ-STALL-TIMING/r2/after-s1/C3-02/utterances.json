@@ -1,0 +1,512 @@
+{
+ "utterances": [
+  {
+   "t": 26.09,
+   "said": "मेरी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'मेरी'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 38.11,
+   "said": "मेरी गुड़िया प्यारी",
+   "stt": "मेरी गुड़िया प्यारी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.2,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.62,
+   "said": "सबसे न्यारी न्यारी है",
+   "stt": "सबसे न्यारी ण्यारी है",
+   "stt_notes": [
+    "'न्यारी' heard as 'ण्यारी'"
+   ],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.18,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 58.26,
+   "said": "सबसे न्यारी",
+   "stt": "सबसे न्यारी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.21,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.15,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.72,
+   "said": "लाल चुनरी ओड़ ओढ़ के आती",
+   "stt": "लाल चुनरी ओड़ ओढ़ के आती",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.29,
+   "said": "मीठे मीठे गाणे गाती",
+   "stt": "मीठे मीठे गाणे गाती",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.5,
+   "said": "गाने",
+   "stt": "गाने",
+   "stt_notes": [],
+   "words": [
+    15
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 93.96,
+   "said": "मीठे मीठे मीठे गाने गाती",
+   "stt": "मीठे मीठे मीठे गाने गाती",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 26.09,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 38.11,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया प्यारी"
+   }
+  ],
+  "1": [
+   {
+    "t": 38.11,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया प्यारी"
+   }
+  ],
+  "2": [
+   {
+    "t": 38.11,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया प्यारी"
+   }
+  ],
+  "3": [
+   {
+    "t": 38.11,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "मेरी गुड़िया प्यारी"
+   },
+   {
+    "t": 40.2,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "4": [
+   {
+    "t": 43.62,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी ण्यारी है"
+   },
+   {
+    "t": 58.26,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी"
+   }
+  ],
+  "5": [
+   {
+    "t": 43.62,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी ण्यारी है"
+   },
+   {
+    "t": 58.26,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी"
+   }
+  ],
+  "6": [
+   {
+    "t": 43.62,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी ण्यारी है"
+   },
+   {
+    "t": 50.18,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी",
+    "drill": true
+   },
+   {
+    "t": 62.21,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी"
+   }
+  ],
+  "7": [
+   {
+    "t": 43.62,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी ण्यारी है"
+   },
+   {
+    "t": 62.21,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "न्यारी"
+   },
+   {
+    "t": 64.15,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "8": [
+   {
+    "t": 71.72,
+    "target": "लाल",
+    "said": "लाल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "9": [
+   {
+    "t": 71.72,
+    "target": "चुनरी",
+    "said": "चुनरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "10": [
+   {
+    "t": 71.72,
+    "target": "ओढ़",
+    "said": "ओड़ ओढ़",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "11": [
+   {
+    "t": 71.72,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "12": [
+   {
+    "t": 71.72,
+    "target": "आती",
+    "said": "आती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लाल चुनरी ओड़ ओढ़ के आती"
+   }
+  ],
+  "13": [
+   {
+    "t": 75.29,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 93.96,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "14": [
+   {
+    "t": 75.29,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 93.96,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "15": [
+   {
+    "t": 75.29,
+    "target": "गाने",
+    "said": "गाणे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 82.5,
+    "target": "गाने",
+    "said": "गाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गाने",
+    "drill": true
+   },
+   {
+    "t": 93.96,
+    "target": "गाने",
+    "said": "गाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ],
+  "16": [
+   {
+    "t": 75.29,
+    "target": "गाती",
+    "said": "गाती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे गाणे गाती"
+   },
+   {
+    "t": 93.96,
+    "target": "गाती",
+    "said": "गाती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीठे मीठे मीठे गाने गाती"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 20.87,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 44.35,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। न्यारी",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 50.23,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 64.22,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।",
+   "spans": []
+  },
+  {
+   "t": 75.49,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गाने",
+   "spans": [
+    [
+     15,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 82.69,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मीठे मीठे गाने गाती। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     13,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 94.0,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

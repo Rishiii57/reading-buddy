@@ -30,30 +30,46 @@
    "issues": 3
   },
   "C2-02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:44:20"
+   "since": "19:44:20",
+   "outcome": "abandoned_frustration",
+   "issues": 7
   },
   "C2-03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:45:36"
+   "since": "19:45:36",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "C2-04": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:45:39"
+   "since": "19:45:39",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "C2-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "19:46:01"
+   "since": "19:46:01",
+   "outcome": "abandoned_attention",
+   "issues": 8
   },
   "C3-02": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "19:46:45",
+   "outcome": "completed",
+   "issues": 3
   },
   "C3-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "19:47:05",
+   "outcome": "completed",
+   "issues": 6
   }
  }
 }

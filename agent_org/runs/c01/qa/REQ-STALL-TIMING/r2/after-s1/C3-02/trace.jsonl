@@ -1,0 +1,9 @@
+{"t": 9.3, "kind": "open_app", "brief": "Rohan, Class 3 (about 8.5 years). Prefers hi-IN. Trips on conjunct consonants."}
+{"t": 9.31, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 10.23, "kind": "tap", "target": "मेरी गुड़िया My Doll Hindi Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 12.1, "kind": "opened_text", "hash": "#/read/hi-gudiya", "title": "मेरी गुड़िया", "tags": ["Hindi", "Grade 1"], "words": 17, "lines": 4}
+{"t": 17.26, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 17.29, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 22.25, "kind": "session_started", "tries": 1}
+{"t": 34.34, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 44.43, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'न्यारी' correctly but Buddy asked to practise it."}

@@ -1,0 +1,291 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r2-after-s1",
+ "agent_id": "C2-02",
+ "seed": 2493,
+ "persona": {
+  "id": "C2-02",
+  "name": "Neel",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-chidiya",
+  "title": "चिड़िया का घोंसला",
+  "tags": [
+   "Hindi",
+   "Grade 2-3"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 13.29,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 13.29,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.49,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 28.49,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 52.05,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 52.07,
+      "said": "एक पेड़ पर एक",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 79.24,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 79.24,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 83.11,
+    "details": [
+     "Asked to say 'थी' 3 times.",
+     "Asked to say 'थी' 4 times.",
+     "Asked to say 'थी' 5 times.",
+     "Asked to say 'एक' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 83.11,
+      "word": "थी",
+      "times": 3
+     },
+     {
+      "t": 87.83,
+      "word": "थी",
+      "times": 4
+     },
+     {
+      "t": 91.83,
+      "word": "थी",
+      "times": 5
+     },
+     {
+      "t": 117.69,
+      "word": "एक",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 4.25,
+  "frustration_events": [
+   {
+    "t": 13.29,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 28.49,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 36.92,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 52.07,
+    "kind": "unheard_speech",
+    "frustration": 1.65
+   },
+   {
+    "t": 52.07,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 59.0,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 67.02,
+    "kind": "praise",
+    "frustration": 0.95
+   },
+   {
+    "t": 79.24,
+    "kind": "unexpected_pause",
+    "frustration": 1.75
+   },
+   {
+    "t": 83.11,
+    "kind": "drill_repeat",
+    "frustration": 2.45,
+    "word": "थी"
+   },
+   {
+    "t": 87.83,
+    "kind": "drill_repeat",
+    "frustration": 3.15,
+    "word": "थी"
+   },
+   {
+    "t": 91.83,
+    "kind": "drill_repeat",
+    "frustration": 3.85,
+    "word": "थी"
+   },
+   {
+    "t": 105.85,
+    "kind": "progress",
+    "frustration": 3.7
+   },
+   {
+    "t": 108.03,
+    "kind": "progress",
+    "frustration": 3.55
+   },
+   {
+    "t": 117.69,
+    "kind": "drill_repeat",
+    "frustration": 4.25,
+    "word": "एक"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 4,
+  "buddy_talk_s": 49.2,
+  "child_talk_s": 19.5,
+  "tired_said": false,
+  "time_to_text_s": 2.6,
+  "reader_page_audio_clips": 0,
+  "intro_s": 14.9,
+  "time_to_first_word_s": 14.9,
+  "session_s": 104.6,
+  "words_total": 30,
+  "words_attempted": 8,
+  "words_said_wrong": 1,
+  "corrections": 3,
+  "buddy_turns": 12,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 5,
+  "words_helped": 3,
+  "words_to_practise": [
+   "एक",
+   "चिड़िया",
+   "थी"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 106.9,
+  "words_per_minute": 4.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 54,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

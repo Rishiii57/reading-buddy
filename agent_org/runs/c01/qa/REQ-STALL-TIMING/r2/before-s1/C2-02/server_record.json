@@ -1,0 +1,678 @@
+{
+ "id": "20261109-194434-c9179a",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 6,
+  "words_helped": 8,
+  "words_to_practise": [
+   "एक",
+   "छोटी",
+   "चिड़िया",
+   "रहती",
+   "से",
+   "घोंसला"
+  ],
+  "words_practised": 6,
+  "correction_attempts": 7,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 3,
+  "seconds": 129.9,
+  "words_per_minute": 6.5
+ },
+ "log": [
+  {
+   "t": 0.095,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.616,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.399,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 19.399,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.409,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 21.409,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 25.257,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.219,
+   "event": "transcript",
+   "text": "ती थी"
+  },
+  {
+   "t": 27.219,
+   "event": "progress",
+   "frm": 1,
+   "to": 8
+  },
+  {
+   "t": 27.219,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "t": 27.219,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 34.52,
+   "event": "transcript",
+   "text": "छोटी"
+  },
+  {
+   "t": 34.52,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 34.52,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 39.421,
+   "event": "transcript",
+   "text": "रहथी रहती"
+  },
+  {
+   "t": 39.421,
+   "event": "uncertain",
+   "text": "रहथी रहती"
+  },
+  {
+   "t": 39.421,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 42.592,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.929,
+   "event": "transcript",
+   "text": "चिड़िया"
+  },
+  {
+   "t": 43.929,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 43.929,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 48.446,
+   "event": "transcript",
+   "text": "रहती"
+  },
+  {
+   "t": 48.446,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 48.446,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 55.491,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 59.648,
+   "event": "transcript",
+   "text": "एक पेड़ पर छोटी चिड़िया रहती"
+  },
+  {
+   "t": 59.648,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 62.334,
+   "event": "transcript",
+   "text": "थी"
+  },
+  {
+   "t": 62.334,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 62.334,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 62.334,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 70.963,
+   "event": "pause"
+  },
+  {
+   "t": 74.513,
+   "event": "resume"
+  },
+  {
+   "t": 76.41,
+   "event": "transcript",
+   "text": "ए"
+  },
+  {
+   "t": 76.41,
+   "event": "drill_miss",
+   "word": 3,
+   "heard": "ए"
+  },
+  {
+   "t": 81.558,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 81.558,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 81.558,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 88.939,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 95.346,
+   "event": "transcript",
+   "text": "एक पेड़ पर एक छोटी चिड़िया चिड़िया रहती रहती थी"
+  },
+  {
+   "t": 95.346,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 95.346,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 95.346,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 99.117,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 102.714,
+   "event": "transcript",
+   "text": "उसने तिनकों एक सुंदर घोंशला"
+  },
+  {
+   "t": 102.714,
+   "event": "progress",
+   "frm": 8,
+   "to": 13
+  },
+  {
+   "t": 104.388,
+   "event": "progress",
+   "to": 14
+  },
+  {
+   "t": 104.753,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    13
+   ]
+  },
+  {
+   "t": 104.753,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 110.592,
+   "event": "transcript",
+   "text": "से"
+  },
+  {
+   "t": 110.592,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 110.592,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 115.559,
+   "event": "transcript",
+   "text": "घोंसला"
+  },
+  {
+   "t": 115.559,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 115.559,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 122.573,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 123.13,
+   "event": "pause"
+  },
+  {
+   "t": 127.336,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.218,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.399,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 25.559,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.219,
+   "type": "transcript",
+   "text": "ती थी",
+   "latency": 120,
+   "audio_duration_ms": 1160,
+   "message": null
+  },
+  {
+   "t": 33.34,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.52,
+   "type": "transcript",
+   "text": "छोटी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 37.746,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.421,
+   "type": "transcript",
+   "text": "रहथी रहती",
+   "latency": 120,
+   "audio_duration_ms": 1247,
+   "message": null
+  },
+  {
+   "t": 42.747,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.929,
+   "type": "transcript",
+   "text": "चिड़िया",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 47.253,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.446,
+   "type": "transcript",
+   "text": "रहती",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 55.695,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.648,
+   "type": "transcript",
+   "text": "एक पेड़ पर छोटी चिड़िया रहती",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 61.152,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.334,
+   "type": "transcript",
+   "text": "थी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 75.229,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.41,
+   "type": "transcript",
+   "text": "ए",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 80.377,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.558,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 89.164,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 95.346,
+   "type": "transcript",
+   "text": "एक पेड़ पर एक छोटी चिड़िया चिड़िया रहती रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 99.314,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.714,
+   "type": "transcript",
+   "text": "उसने तिनकों एक सुंदर घोंशला",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 109.35,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.592,
+   "type": "transcript",
+   "text": "से",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 114.376,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.559,
+   "type": "transcript",
+   "text": "घोंसला",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "पेड़ पड़ ए छोटी चिड़िया रहती ती थी",
+   "heard": "ती थी",
+   "muted_words": 6,
+   "duration_s": 4.64
+  },
+  {
+   "text": "छोटी",
+   "heard": "छोटी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "चिड़िया रहथी रहती",
+   "heard": "रहथी रहती",
+   "muted_words": 1,
+   "duration_s": 1.87
+  },
+  {
+   "text": "चिड़िया",
+   "heard": "चिड़िया",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "रहती",
+   "heard": "रहती",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पर छोटी चिड़िया रहती",
+   "heard": "एक पेड़ पर छोटी चिड़िया रहती",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "थी",
+   "heard": "थी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ए",
+   "heard": "ए",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पर एक छोटी चिड़िया चिड़िया रहती रहती थी",
+   "heard": "एक पेड़ पर एक छोटी चिड़िया चिड़िया रहती रहती थी",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "उसने तिनकों एक सुंदर घोंशला",
+   "heard": "उसने तिनकों एक सुंदर घोंशला",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "से",
+   "heard": "से",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "घोंसला",
+   "heard": "घोंसला",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 53
+}

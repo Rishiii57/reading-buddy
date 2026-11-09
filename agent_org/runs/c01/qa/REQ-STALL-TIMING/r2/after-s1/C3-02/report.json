@@ -1,0 +1,241 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r2-after-s1",
+ "agent_id": "C3-02",
+ "seed": 2595,
+ "persona": {
+  "id": "C3-02",
+  "name": "Rohan",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-gudiya",
+  "title": "मेरी गुड़िया",
+  "tags": [
+   "Hindi",
+   "Grade 1"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 17.26,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 17.26,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 34.34,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 34.34,
+      "talk_s": 12.0
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 44.43,
+    "details": [
+     "Read 'न्यारी' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 44.43,
+      "word": "न्यारी",
+      "child_said": "न्यारी",
+      "speech_model_wrote": "सबसे न्यारी ण्यारी है"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 1.6,
+  "frustration_events": [
+   {
+    "t": 17.26,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 26.09,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 34.34,
+    "kind": "long_wait",
+    "frustration": 0.85
+   },
+   {
+    "t": 38.11,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 40.2,
+    "kind": "progress",
+    "frustration": 0.55
+   },
+   {
+    "t": 43.62,
+    "kind": "progress",
+    "frustration": 0.4
+   },
+   {
+    "t": 44.43,
+    "kind": "false_correction",
+    "frustration": 1.6,
+    "word": "न्यारी"
+   },
+   {
+    "t": 58.26,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 62.21,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 64.15,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 64.22,
+    "kind": "praise",
+    "frustration": 0.75
+   },
+   {
+    "t": 71.72,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 75.29,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 93.96,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 94.0,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 3,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 41.7,
+  "child_talk_s": 15.3,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 2.8,
+  "intro_s": 13.5,
+  "session_s": 80.1,
+  "words_total": 17,
+  "words_attempted": 17,
+  "words_said_wrong": 0,
+  "corrections": 2,
+  "buddy_turns": 7,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 15,
+  "words_helped": 2,
+  "words_to_practise": [
+   "न्यारी",
+   "गाने"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 73.2,
+  "words_per_minute": 13.9
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 114,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,35 @@
+{"t": 11.77, "type": "ready", "message": null}
+{"t": 11.77, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 25.25, "type": "speech"}
+{"t": 29.21, "type": "heard", "text": "A small ant walked across floor"}
+{"t": 29.22, "type": "speech"}
+{"t": 32.77, "type": "speech"}
+{"t": 34.58, "type": "heard", "text": "the floor"}
+{"t": 34.58, "type": "speech"}
+{"t": 35.81, "type": "speech"}
+{"t": 42.1, "type": "heard", "text": "It come and a grain on of rice on back"}
+{"t": 42.14, "type": "speech"}
+{"t": 42.84, "type": "speech"}
+{"t": 44.31, "type": "heard", "text": "its"}
+{"t": 44.61, "type": "speech"}
+{"t": 44.61, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 48.01, "type": "speech"}
+{"t": 50.26, "type": "heard", "text": "its back"}
+{"t": 50.27, "type": "speech"}
+{"t": 50.27, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. carried", "spans": [[8, 9]]}
+{"t": 53.66, "type": "speech"}
+{"t": 54.83, "type": "heard", "text": "carried"}
+{"t": 54.92, "type": "speech"}
+{"t": 54.98, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 63.24, "type": "speech"}
+{"t": 64.34, "type": "heard", "text": "in"}
+{"t": 64.35, "type": "speech"}
+{"t": 66.58, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 70.82, "type": "speech"}
+{"t": 72.31, "type": "heard", "text": "It"}
+{"t": 72.31, "type": "speech"}
+{"t": 72.31, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 79.71, "type": "speech"}
+{"t": 84.17, "type": "heard", "text": "a grain on rice on its back"}
+{"t": 84.19, "type": "speech"}
+{"t": 84.2, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}

@@ -1,0 +1,64 @@
+{"t": 14.94, "type": "ready", "message": null}
+{"t": 14.99, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 45.46, "type": "say", "kind": "stall_phrase", "text": "सुनो... एक पेड़ पर", "spans": [[0, 3]]}
+{"t": 48.62, "type": "speech"}
+{"t": 50.94, "type": "heard", "text": "एक पेड़ एक"}
+{"t": 50.98, "type": "speech"}
+{"t": 54.3, "type": "say", "kind": "stall_phrase", "text": "सुनो... छोटी चिड़िया रहती", "spans": [[4, 7]]}
+{"t": 58.04, "type": "speech"}
+{"t": 60.28, "type": "heard", "text": "छोटी चिड़िया रहती"}
+{"t": 60.28, "type": "speech"}
+{"t": 63.36, "type": "say", "kind": "stall_phrase", "text": "सुनो... थी।", "spans": [[7, 8]]}
+{"t": 67.19, "type": "speech"}
+{"t": 68.06, "type": "heard", "text": "थी"}
+{"t": 68.08, "type": "speech"}
+{"t": 72.18, "type": "say", "kind": "stall_phrase", "text": "सुनो... उसने तिनकों से", "spans": [[8, 11]]}
+{"t": 75.48, "type": "speech"}
+{"t": 78.01, "type": "heard", "text": "उसने तिनकों से"}
+{"t": 78.01, "type": "speech"}
+{"t": 83.77, "type": "say", "kind": "stall_phrase", "text": "सुनो... एक सुंदर घोंसला", "spans": [[11, 14]]}
+{"t": 89.18, "type": "speech"}
+{"t": 92.66, "type": "heard", "text": "एक सुंदर सुंदर घोंषला घोंसला"}
+{"t": 92.66, "type": "speech"}
+{"t": 97.67, "type": "say", "kind": "stall_phrase", "text": "सुनो... बनाया।", "spans": [[14, 15]]}
+{"t": 101.16, "type": "speech"}
+{"t": 102.33, "type": "heard", "text": "बनाया"}
+{"t": 102.33, "type": "speech"}
+{"t": 102.48, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 109.65, "type": "say", "kind": "stall_phrase", "text": "सुनो... घोंसले में तीन", "spans": [[15, 18]]}
+{"t": 113.73, "type": "speech"}
+{"t": 115.44, "type": "heard", "text": "घोंसले"}
+{"t": 115.44, "type": "speech"}
+{"t": 116.64, "type": "speech"}
+{"t": 118.36, "type": "heard", "text": "में तीन"}
+{"t": 118.36, "type": "speech"}
+{"t": 123.65, "type": "say", "kind": "stall_phrase", "text": "सुनो... छोटे अंडे थे।", "spans": [[18, 21]]}
+{"t": 127.35, "type": "speech"}
+{"t": 130.22, "type": "heard", "text": "छोटे अंडे थे थे"}
+{"t": 130.24, "type": "speech"}
+{"t": 134.19, "type": "say", "kind": "stall_phrase", "text": "सुनो... चिड़िया रोज़ अपने", "spans": [[21, 24]]}
+{"t": 137.93, "type": "speech"}
+{"t": 141.63, "type": "heard", "text": "चिड़िया रोज़ अपने"}
+{"t": 141.63, "type": "speech"}
+{"t": 146.45, "type": "say", "kind": "stall_phrase", "text": "सुनो... बच्चों के लिए", "spans": [[24, 27]]}
+{"t": 150.33, "type": "speech"}
+{"t": 152.24, "type": "heard", "text": "वच्चों"}
+{"t": 152.24, "type": "speech"}
+{"t": 156.32, "type": "speech"}
+{"t": 157.02, "type": "heard", "text": "लिए"}
+{"t": 157.02, "type": "speech"}
+{"t": 162.04, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बच्चों", "spans": [[24, 25]]}
+{"t": 166.85, "type": "speech"}
+{"t": 168.03, "type": "heard", "text": "बच्चों"}
+{"t": 168.13, "type": "speech"}
+{"t": 168.16, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! चिड़िया रोज़ अपने बच्चों के लिए दाना लाती थी। अब तुम पूरी पंक्ति बोलो।", "spans": [[21, 30]]}
+{"t": 176.74, "type": "speech"}
+{"t": 182.47, "type": "heard", "text": "चिड़िया रोज़ अपने बच्चों कै लिए दाना लाती"}
+{"t": 182.47, "type": "speech"}
+{"t": 183.67, "type": "speech"}
+{"t": 185.17, "type": "heard", "text": "थी"}
+{"t": 185.17, "type": "speech"}
+{"t": 185.25, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 185.46, "type": "summary", "summary": {"words_total": 30, "words_read": 4, "words_helped": 26, "words_to_practise": ["बच्चों"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 10, "corrections": 1, "seconds": 169.9, "words_per_minute": 10.6}}
+{"t": 195.11, "type": "ready", "message": null}
+{"t": 195.16, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}

@@ -169,6 +169,11 @@
    "round": 1,
    "verdict": "returned_to_engineering",
    "report": "agent_org/runs/c01/qa/REQ-STALL-TIMING/r1/VALIDATION.md"
+  },
+  {
+   "round": 2,
+   "verdict": "validated_fixed",
+   "report": "agent_org/runs/c01/qa/REQ-STALL-TIMING/r2/VALIDATION.md"
   }
  ]
 }

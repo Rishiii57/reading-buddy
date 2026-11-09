@@ -138,9 +138,14 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T19:14:32",
      "note": "submitted 69518f37: Round 2: mid-line stall threshold 3.0 s for all texts (3.4 s for Grade 1/pre-primary); adaptive learning kept on top"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:05:45",
+     "note": "QA round 2: validated_fixed (2/2 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "validated_fixed",
    "priority": "P1"
   },
   "RC-MIDLINE-CORRECTION": {
