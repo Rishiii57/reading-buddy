@@ -289,7 +289,7 @@ def test_young_text_waits_longer_mid_line():
     # "I have a kite" then silence: a Grade 1-2 text waits ~3 s (was 2 s) before helping
     eng, acts = simulate(KITE, L0 + [(4, "ss", ""), (5, "tr", "it flies up")], until=12)
     p = _stall_prompts(acts)
-    assert p and 5 + 2.5 < p[0] < 5 + 4.5
+    assert p and 5 + 3.0 < p[0] < 5 + 4.6
 
 
 def test_word_by_word_reader_is_not_interrupted():

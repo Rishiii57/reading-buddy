@@ -42,8 +42,8 @@ _BREAK_WORDS = {"stop", "tired", "break", "enough", "बस", "रुको", "�
 
 @dataclass
 class TutorConfig:
-    stall_mid_s: float = 2.0          # silence after speech end before helping mid-line
-    young_stall_mid_s: float = 3.0    # the same for Grade 1 (and younger) texts: young readers decode slowly
+    stall_mid_s: float = 3.0          # silence after speech end before helping mid-line (was 2.0: interrupted thinking pauses)
+    young_stall_mid_s: float = 3.4    # the same for Grade 1 and pre-primary texts: young readers decode slowly
     adaptive_stall: bool = True       # learn the reader's own thinking pauses (REQ-STALL-TIMING)
     stall_gap_k: float = 1.3          # mid-line limit = k x the median of this reader's resumed pauses...
     stall_mid_max_s: float = 5.0      # ...but never more than this
@@ -110,7 +110,7 @@ class TutorEngine:
         self.log: list[dict] = []
         self.rng = random.Random(seed)
         self.counts = {"prompts": 0, "corrections": 0, "attempts": 0, "practised": 0, "praise": 0, "skips": 0}
-        self.young = str(text.grade).split("-")[0].strip() in ("1", "0", "nursery", "lkg", "ukg")
+        self.young = str(text.grade).split("-")[0].strip().lower() in ("1", "0", "nursery", "lkg", "ukg")
         self.pause_gaps: list[float] = []   # mid-line pauses after which the reader went on by themselves
         self._gap_open = False
 
