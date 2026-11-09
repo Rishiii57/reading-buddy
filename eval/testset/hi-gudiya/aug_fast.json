@@ -1,0 +1,56 @@
+{
+ "text_id": "hi-gudiya",
+ "language": "hi-IN",
+ "variant": "aug_fast",
+ "voice": "Riyaa",
+ "duration": 10.72,
+ "segments": [
+  {
+   "start": 0.8,
+   "end": 2.08,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 2.72,
+   "end": 4.285,
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 5.565,
+   "end": 7.129,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 7.769,
+   "end": 9.12,
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_fast); synthetic voice"
+}

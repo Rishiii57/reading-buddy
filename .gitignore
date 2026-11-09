@@ -12,3 +12,4 @@ eval/testset/*/*.wav
 cache/tts_offline/
 agent_org/runs/**/screens/
 agent_org/runs/**/live/
+eval/testset/*/aug_*.wav

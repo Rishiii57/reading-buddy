@@ -120,8 +120,13 @@ def decide(cycle: str, results: list[dict], state: dict, capacity: int) -> list[
         prev = state["items"].get(rc["id"], {})
         prev_status = prev.get("status")
         cost = COMPLEXITY_COST[rc["complexity"]]
-        if prev_status == "validated_fixed":
-            status, why = "regressed", "QA had validated a fix, but the symptom is back in this cycle."
+        last_seen = next((h for h in reversed(prev.get("history", [])) if "agents" in h), None)
+        if prev_status == "validated_fixed" and last_seen and res["n_agents"] >= last_seen["agents"]:
+            status, why = "regressed", (f"QA had validated a fix, but as many children hit it now ({res['n_agents']}) "
+                                        f"as before the fix ({last_seen['agents']}).")
+        elif prev_status == "validated_fixed":
+            status, why = "validated_fixed", (f"Validated fix holds: residual cases only ({res['n_agents']} children, "
+                                              f"was {last_seen['agents'] if last_seen else '?'}). Kept under watch.")
         elif rc["needs_human"]:
             status, why = "awaiting_human_approval", "Touches content, privacy or model/data collection: needs a human decision."
         elif res["priority"] in ("P0", "P1") and used + cost <= capacity:

@@ -1,0 +1,83 @@
+{
+ "text_id": "en-ant",
+ "language": "en-IN",
+ "variant": "aug_whisper",
+ "voice": "Riyaa",
+ "duration": 21.56,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 3.4,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "line": 0
+  },
+  {
+   "start": 6.4,
+   "end": 9.067,
+   "words": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 1
+  },
+  {
+   "start": 10.667,
+   "end": 13.156,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "line": 2
+  },
+  {
+   "start": 13.956,
+   "end": 16.0,
+   "words": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29
+   ],
+   "line": 3
+  },
+  {
+   "start": 16.8,
+   "end": 19.556,
+   "words": [
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+   ],
+   "line": 4
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_whisper); synthetic voice"
+}

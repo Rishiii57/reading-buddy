@@ -1,0 +1,55 @@
+{
+ "text_id": "gu-patang",
+ "language": "gu-IN",
+ "variant": "aug_classroom",
+ "voice": "Riyaa",
+ "duration": 15.69,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.956,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 5.956,
+   "end": 7.644,
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "line": 1
+  },
+  {
+   "start": 9.244,
+   "end": 11.289,
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "line": 2
+  },
+  {
+   "start": 12.089,
+   "end": 13.689,
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_classroom); synthetic voice"
+}

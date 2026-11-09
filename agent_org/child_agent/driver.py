@@ -24,6 +24,7 @@ import httpx
 from .affect import Affect
 from .speech_model import clean, read_attempt, stt_channel
 
+LANG_NAME = {"en-IN": "English", "hi-IN": "Hindi", "gu-IN": "Gujarati"}
 TIRED = {"en-IN": "I am tired", "hi-IN": "मैं थक गया", "gu-IN": "હું થાકી ગયો"}
 LANG_LABEL = {"en-IN": ["english"], "hi-IN": ["हिन्दी", "hindi"], "gu-IN": ["ગુજરાતી", "gujarati"]}
 CORRECTION_KINDS = {"fix_word", "fix_next", "fix_again"}
@@ -54,6 +55,13 @@ OBSERVE_JS = r"""() => {
 
 STATE_JS = r"""() => ({ view: document.querySelector('.view.is-active')?.id || null, hash: location.hash,
   dialog: document.querySelector('dialog[open]')?.id || null, dock: document.getElementById('micDock')?.dataset.state || null })"""
+
+# The child's ears: record every sound the page starts playing (time and length). Perception only:
+# it does not change what the app does.
+EARS_JS = r"""(() => { try { const S = AudioBufferSourceNode.prototype.start; window.__rbHeard = [];
+  AudioBufferSourceNode.prototype.start = function (...a) {
+    try { window.__rbHeard.push({ t: performance.now(), dur: this.buffer ? this.buffer.duration : 0 }); } catch (e) {}
+    return S.apply(this, a); }; } catch (e) {} })();"""
 
 WORDS_JS = r"""() => [...document.querySelectorAll('#passageInner .w')].map((e) => ({
   i: +e.id.slice(1), t: e.textContent, line: +e.closest('.line').dataset.line }))"""
@@ -247,6 +255,7 @@ class ChildAgent:
         ctx = await browser.new_context(permissions=["microphone"], viewport={"width": 1280, "height": 860},
                                         locale="en-IN")
         await ctx.add_cookies([{"name": "rb_sim", "value": self.token, "url": self.base}])
+        await ctx.add_init_script(EARS_JS)
         if self.p.grown_up_setup:  # a grown-up already said yes on this device
             await ctx.add_init_script("try{localStorage.setItem('rb.consent','1')}catch(e){}")
         page = await ctx.new_page()
@@ -370,11 +379,18 @@ class ChildAgent:
     # ----- reading ------------------------------------------------------------------------
     async def reading_phase(self, page):
         b, lang = self.p.behaviour, self.text_meta.get("language") or self.p.language_preference
+        # what does a child who cannot read the screen learn here? listen for a few seconds first
+        await asyncio.sleep(4.0)
         o = await self.observe(page)
-        if self.p.ui_english_reading < 0.3:
-            self.issue("NO_SPOKEN_GUIDANCE_BEFORE_START", "On the reading page nothing was said out loud; the only "
-                       "instructions were written in English, which this child cannot read.",
-                       {"bubble": f"{o.get('bubbleLabel')} {o.get('bubbleText')}"})
+        heard = await page.evaluate("(window.__rbHeard || []).filter(h => h.dur > 0.3).length")
+        bubble = f"{o.get('bubbleLabel')} {o.get('bubbleText')}"
+        script = "gu-IN" if re.search(r"[\u0A80-\u0AFF]", bubble) else "hi-IN" if re.search(r"[\u0900-\u097F]", bubble) else "en-IN"
+        can_read_bubble = (self.p.ui_english_reading if script == "en-IN" else self.p.reads(script)) >= 0.3
+        self.metrics["reader_page_audio_clips"] = heard
+        if not heard and not can_read_bubble:
+            self.issue("NO_SPOKEN_GUIDANCE_BEFORE_START", "On the reading page nothing was said out loud, and the "
+                       f"written instructions ({LANG_NAME[script]}) are not something this child can read.",
+                       {"bubble": bubble, "audio_clips_heard": heard})
             self.affect.add("not_understood", self.now(), what="reader page instructions")
         if self.p.journey == "listen_then_read" or "listen_first" in self.p.learning_preferences \
                 or "needs_audio_for_everything" in self.p.learning_preferences:
@@ -517,7 +533,9 @@ class ChildAgent:
                     continue
             await asyncio.sleep(1.5)
             o3 = await self.observe(page)
-            if o3.get("dock") in ("connecting", "listening", "talking", "hearing"):
+            # a session is running only if the End button is live ("Listen first" also animates the mic dock)
+            running = any(c["id"] == "endBtn" for c in o3["clickables"])
+            if running and o3.get("dock") in ("connecting", "listening", "talking", "hearing"):
                 self.session_started_at = self.now()
                 self.log("session_started", tries=attempt + 1)
                 return True
@@ -526,6 +544,13 @@ class ChildAgent:
                            {"view": o3.get("view")})
                 self.outcome = "left_before_start"
                 return False
+            if "Stop listening" in o3.get("listenLabel", ""):  # started 'Listen first' by mistake: it plays to the end
+                self.log("listen_first_by_mistake")
+                t = self.now()
+                while self.now() - t < 90 and "Stop listening" in (await self.observe(page)).get("listenLabel", ""):
+                    await asyncio.sleep(0.5)
+                for w in self.words:
+                    self.heard_words[clean(w["t"]).lower()] = self.now()
         self.outcome = "could_not_start"
         self.issue("COULD_NOT_START_SESSION", "Never managed to start a reading session.", {"tries": 3})
         return False

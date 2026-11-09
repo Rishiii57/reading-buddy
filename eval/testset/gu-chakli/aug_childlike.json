@@ -1,0 +1,62 @@
+{
+ "text_id": "gu-chakli",
+ "language": "gu-IN",
+ "variant": "aug_childlike",
+ "voice": "Riyaa",
+ "duration": 18.62,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.6,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "line": 0
+  },
+  {
+   "start": 5.6,
+   "end": 7.822,
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 9.422,
+   "end": 12.267,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+   ],
+   "line": 2
+  },
+  {
+   "start": 13.067,
+   "end": 16.622,
+   "words": [
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_childlike); synthetic voice"
+}

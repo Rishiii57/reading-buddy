@@ -2,29 +2,23 @@
 
 Voice reading tutor for children (Nursery to Class 4) in English, Hindi and Gujarati. FastAPI backend + vanilla JS frontend, on Gnani Prisma v2.5 (streaming STT) and Timbre v3.0 (TTS).
 
-Current work: **Task 2, an AI product organisation** (50 simulated child users, AI Product Manager, Engineering team, independent QA). Spec: `docs/agent-org/TASK2_SPEC.md`. Status and next steps: `docs/agent-org/HANDOFF.md`. Codebase audit: `docs/agent-org/ARCHITECTURE_AUDIT.md`. Read all three before starting.
+**AI product organisation** (Task 2, spec in `docs/agent-org/TASK2_SPEC.md`): `agent_org/` holds 50 simulated child users, the AI Product Manager, the Engineering workflow, independent QA and the audio evaluation. Start with `docs/agent-org/AGENT_ARCHITECTURE.md` and `docs/agent-org/RUN_INSTRUCTIONS.md`. Status and handoff notes are in `docs/agent-org/HANDOFF.md`.
 
 ## Commands
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt   # Windows: py -m venv .venv; .venv\Scripts\pip ...
-.venv/bin/python -m pytest -q                       # 42 offline tests, no API calls; must stay green
-.venv/bin/python -m eval.replay --no-write          # offline tutor scoring from recorded Prisma events, no credits
-.venv/bin/uvicorn backend.main:app --port 8765      # run the app (needs GNANI_API_KEY in .env)
+python3 -m venv .venv && .venv/bin/pip install -r requirements-dev.txt   # + playwright/chromium for agent runs
+.venv/bin/python -m pytest -q                         # offline tests; must stay green
+.venv/bin/python -m eval.replay --no-write            # offline tutor scoring on recorded Prisma events
+.venv/bin/uvicorn backend.main:app --port 8765        # the app for real use (needs GNANI_API_KEY in .env)
+.venv/bin/python -m agent_org.orchestrator --cycle dbg --label x --agents 5 --parallel 2   # simulated children, zero credits
 ```
 
 ## Hard rules
 
-- **Never** print, log, commit or copy `GNANI_API_KEY`. It lives only in `.env` (git-ignored). Don't put it in reports, agent prompts, screenshots or test fixtures.
-- **Credits are finite** (5,000 for the whole team). Any live session (mic **or** Demo reader) streams to Prisma for its full duration, and new utterances cost Timbre calls. Default every agent run to the zero-credit STT mode. Real-STT runs need an explicit budget flag and a cost estimate printed first. Never run 50 live sessions.
-- `eval/run_stt.py` and `eval/make_testset.py` call the API; `eval/replay.py` and `tests/` don't.
-- Never record or store real children's voices. Personas are synthetic; test audio is synthetic TTS or consenting adult team members only.
-- Don't rewrite working modules. Extend `TutorConfig`, add files, keep the existing tests passing.
-- Work on a branch (not `main`), and commit in small, reviewable steps. Major architecture changes and any deploy (`render.yaml`) need the human's approval.
-- Follow the phase order in the spec. Don't claim a feature works unless it was run and checked.
-- PM agents never edit source code; Engineering works only from approved requirements; QA validates independently, with before/after evidence.
-
-## Where things go
-
-- New agent system: `agent_org/` (Python package), outputs under `agent_org/runs/<cycle-id>/` (git-ignore bulky artefacts such as screenshots and traces).
-- Required docs (AGENT_ARCHITECTURE.md, PERSONA_LIBRARY.md, … RUN_INSTRUCTIONS.md): `docs/agent-org/`.
+- **Never** print, log, commit or copy `GNANI_API_KEY`. It lives only in `.env` (git-ignored).
+- **Credits are finite** (5,000 for the team). Live sessions (mic **or** Demo reader) stream to Prisma for their whole length. Agent runs use `RB_SIM=1` (simulated STT) and `RB_TTS_OFFLINE=1`; the orchestrator removes the API key from the app's environment. `eval/run_stt.py` and `eval/make_testset.py` (for uncached lines) cost credits and need human approval.
+- `RB_SIM` / `RB_TTS_OFFLINE` must stay off by default and are for automated testing only.
+- Never record or store real children's voices. Personas are synthetic.
+- Product Manager code never edits source; Engineering works only on PM-approved requirements (`agent_org.engineering.workflow start` enforces it); only QA (`agent_org.qa.validate`) marks an item validated; merge only after validation; nothing pushes or deploys without the human.
+- Don't rewrite working modules: extend `TutorConfig`, add files, keep tests passing.

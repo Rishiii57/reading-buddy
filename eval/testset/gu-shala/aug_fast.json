@@ -1,0 +1,61 @@
+{
+ "text_id": "gu-shala",
+ "language": "gu-IN",
+ "variant": "aug_fast",
+ "voice": "Riyaa",
+ "duration": 14.616,
+ "segments": [
+  {
+   "start": 0.8,
+   "end": 2.578,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "line": 0
+  },
+  {
+   "start": 3.218,
+   "end": 5.422,
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 6.702,
+   "end": 8.622,
+   "words": [
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 2
+  },
+  {
+   "start": 11.022,
+   "end": 13.014,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_fast); synthetic voice"
+}
