@@ -1,48 +1,36 @@
-# Task 2 handoff: status and plan
+# Task 2: status and handoff
 
-Moved from a cloud session to Claude Code on 9 Nov 2026.
+Built in a cloud session on branch `agent-org-handoff` (local commits; not yet pushed, pending write access to `Rishiii57/reading-buddy`).
 
-## Done
+## What exists
 
-- Phase 1, codebase audit: `docs/agent-org/ARCHITECTURE_AUDIT.md` (architecture, STT/TTS, content, tutor state machine, tests, 11 limitations).
-- Spec copied to `docs/agent-org/TASK2_SPEC.md`; rules for Claude Code in `/CLAUDE.md`.
-- Verified locally: `pytest` → 42 passed.
+| Deliverable | Where |
+|---|---|
+| Working multi-agent architecture | `agent_org/`, explained in `AGENT_ARCHITECTURE.md` |
+| 50 distinct child personas | `agent_org/personas/`, `PERSONA_LIBRARY.md` |
+| Independent user simulation with real browser interaction | `agent_org/child_agent/` (Playwright + Chromium, the real UI and tutor), `agent_org/orchestrator.py` |
+| AI Product Manager + prioritisation engine | `agent_org/pm/`, `PRODUCT_MANAGER_GUIDELINES.md`; outputs `USER_RESEARCH_REPORT.md`, `PRODUCT_REQUIREMENTS.md`, `PRODUCT_BACKLOG.md`, `USER_JOURNEY_ANALYSIS.md`, `PRIORITISATION_REPORT.md` |
+| AI Engineering team | `agent_org/engineering/`, `ENGINEERING_WORKFLOW.md` |
+| Independent AI QA team | `agent_org/qa/validate.py`, `QA_WORKFLOW.md` |
+| Speech and audio evaluation | `agent_org/audio_eval/` (+ existing `eval/`) |
+| Central feedback collection, history, dashboard | `agent_org/runs/`, `agent_org/cycle.py`, `PRODUCT_IMPROVEMENT_HISTORY.md`, `agent_org/dashboard.py` |
+| Evaluation of the whole system | `AGENT_EVALUATION_REPORT.md` |
+| Setup | `RUN_INSTRUCTIONS.md` |
 
-## Not done yet (pick up here)
+## Decisions taken without the human (and why)
 
-- **Phase 1, open-source research**: verify the 6 repos in spec Part 7 (humanish, autouser, persona-ux-test, test-pilot-loop, braintrust-simulator, human-experience). Check that each exists, its licence, last commit, what the code actually does, and whether it suits a voice app driven through a fake mic. Write `OPEN_SOURCE_RESEARCH.md`. Expect most to be thin wrappers around LLM + Playwright; adopt patterns, not dependencies, unless one clearly fits.
-- Phases 2–9 as in the spec.
+- **Simulated speech for agent runs.** This workspace cannot reach the Gnani API, and live sessions spend credits for their whole length. The browser, UI, WebSocket protocol, tutor, aligner and normaliser are the production code paths; only Prisma's transport is replaced (`RB_SIM=1`, off by default). Speech-recognition accuracy is measured separately.
+- **Deterministic persona policies instead of LLM-driven agents.** There is no LLM API key here, and the spec asks for evidence-based, controllable cost. Behaviour is seeded and reproducible; no LLM tokens are used.
+- **No framework dependency.** See `OPEN_SOURCE_RESEARCH.md`: none of the six handles a voice app; their best ideas are adopted.
 
-## Decisions to confirm with the human before Phase 3
+## Waiting for a human decision
 
-1. **Which LLM powers the agents** (child personas, PM, engineers, QA): Claude Code subagents (no extra API key; agents defined in `.claude/agents/`) or a scripted runner calling the Anthropic API (needs `ANTHROPIC_API_KEY`, gives token accounting). A hybrid works well: deterministic Playwright behaviour policies per persona generate the evidence, and LLM agents write the reports, PM analysis, engineering and QA.
-2. **Gnani credit budget for Task 2.** Suggested: zero-credit mode for all routine agent runs; ≤ ~300 credits total for real-STT spot checks (5 personas × 3 languages) and Phase 7.
-3. **Branching**: work on `agent-org` and open PRs to `main`, or commit directly.
+- `REQ-PREPRIMARY-CONTENT` (P0): pre-primary reading material. Needs content authored and native-speaker review in Hindi and Gujarati.
+- `REQ-CONSENT-GATE` (P0): consent redesign. Needs privacy wording approved by the team.
+- `REQ-FALSE-CORRECTION-STT`, `REQ-LENIENT-MATCHING`: voice-data collection and a product decision on error tolerance.
+- Credits: streaming the augmented audio set (`audio_eval.augment`, about 1,070 s of audio) through Prisma.
+- Pushing the branch, and any deploy.
 
-## Recommended architecture (summary; formalise in AGENT_ARCHITECTURE.md)
+## Picking up in Claude Code (local)
 
-```
-agent_org/
-  personas/            50 persona YAML/JSON files + schema (Nursery 10, LKG 8, UKG 8, Class 1–4 × 6)
-  child_agent/         Playwright driver + per-persona behaviour policy (blind: sees only the UI + a child-level intro)
-  speech/              persona → synthetic reading plan (skips, subs, hesitations, repeats, whisper, speed)
-                       → WAV via cached Timbre (fake mic) OR scripted transcripts (zero-credit STT_BACKEND)
-  orchestrator.py      batches, --agents N, --parallel K, retries, status file, cost/token ledger
-  pm/                  aggregate reports → cluster root causes → score (severity × reach × grade weight …) → P0–P3 → requirements
-  engineering/         role ownership map, requirement → branch/worktree, change log
-  qa/                  reproduce → verify → regression (pytest + eval.replay + targeted persona re-runs) → validation report
-  audio_eval/          extends eval/: WER, false-correction, missed-error, alignment, latency per language
-  dashboard/           static HTML generated from runs/*.json
-  runs/<cycle-id>/     everything one cycle produced (history kept)
-```
-
-Key implementation notes:
-- **Real mic path**: Chromium `--use-fake-ui-for-media-stream --use-fake-device-for-media-stream --use-file-for-fake-audio-capture=<persona.wav>`. Audio loops in Chromium, so pad the WAV with silence and end the session from the agent.
-- **Zero-credit path**: add an opt-in `STT_BACKEND=script` in `backend/` that replays a per-session transcript plan (sent in the `start` message or looked up by an agent token) with realistic timings. It must be off by default and never reachable in production.
-- **Evidence per agent**: screenshots at key steps, the WebSocket message log (state/say/heard/summary), `engine.log` via `SAVE_SESSIONS=1` (synthetic personas only), timings, and the final summary. Reports must cite this evidence.
-- **Blindness**: child-agent prompts get only the app URL, the persona and a one-paragraph child-level intro. They never see the repo, the docs, other agents' reports or PM output.
-- **Start with 5 personas → 10 → 50**, as the spec requires.
-
-## Likely first findings to validate with agents (not assumed)
-
-No pre-primary content; English-only on-screen instructions; fixed stall timing for every child; 10 mistakes before a line is skipped; weak robustness to noise and hesitation; only line 1 demonstrated; no replay-line control; default language Gujarati; no reconnect after a drop. Details are in the audit, §8.
+Pull the branch, `pip install -r requirements-dev.txt playwright`, `python -m playwright install chromium`, then follow `RUN_INSTRUCTIONS.md`. Worktrees for engineering live in `../rb-worktrees/` (recreated by `engineering.workflow start`).
