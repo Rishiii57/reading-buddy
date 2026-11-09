@@ -362,7 +362,7 @@ function setBuddy(state) {
 function setDock(state, label) {
   $("micDock").dataset.state = state;
   if (label) $("micLabel").textContent = label;
-  const sr = { idle: "Start reading", connecting: "Connecting", listening: "Pause", hearing: "Pause", talking: "Buddy is talking", paused: "Resume", error: "Try again" }[state];
+  const sr = { idle: "Start reading", connecting: "Connecting", listening: "Listening", hearing: "Listening", talking: "Buddy is talking", paused: "Resume", error: "Try again" }[state];
   $("micSr").textContent = sr || "";
 }
 function bubble(label, text, tone = "", lang = null, hold = 0) {
@@ -1081,8 +1081,18 @@ $("againBtn").onclick = () => { location.hash = `#/read/${app.summary?.text.id |
 // =====================================================================================
 $("micBtn").onclick = () => {
   if (!app.running) startSession("mic");
-  else if (app.ready && !app.tutorSpeaking) togglePause();
+  else if (app.ready && app.paused) togglePause(); // paused: the big button carries on
+  else if (app.ready && !app.tutorSpeaking) nudgeListening(); // a child taps the mic "to talk": never pause
 };
+
+// Tapping the mic while Buddy is listening only reassures the child; pausing is the Pause button or Escape.
+function nudgeListening() {
+  const dock = $("micDock");
+  dock.classList.remove("is-nudge");
+  void dock.offsetWidth;
+  dock.classList.add("is-nudge");
+  bubble("I'm listening!", "Go ahead, read out loud. I can hear you.", "help", null, 2600);
+}
 $("pauseBtn").onclick = togglePause;
 $("endBtn").onclick = () => stopSession();
 $("demoBtn").onclick = () => startSession("demo");
