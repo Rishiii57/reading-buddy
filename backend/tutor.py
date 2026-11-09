@@ -44,6 +44,8 @@ _BREAK_WORDS = {"stop", "tired", "break", "enough", "बस", "रुको", "�
 class TutorConfig:
     stall_mid_s: float = 3.0          # silence after speech end before helping mid-line (was 2.0: interrupted thinking pauses)
     young_stall_mid_s: float = 3.4    # the same for Grade 1 and pre-primary texts: young readers decode slowly
+    echo_stall_mid_s: float = 4.5     # pre-primary rhymes: the child is recalling a line Buddy just said
+    echo_lenient: bool = True         # pre-primary rhymes: slips are 'helped', not drilled (oral repetition is the goal)
     adaptive_stall: bool = True       # learn the reader's own thinking pauses (REQ-STALL-TIMING)
     stall_gap_k: float = 1.3          # mid-line limit = k x the median of this reader's resumed pauses...
     stall_mid_max_s: float = 5.0      # ...but never more than this
@@ -151,7 +153,7 @@ class TutorEngine:
     def mid_limit(self) -> float:
         """How long to wait mid-line before helping: per level, then adapted to this reader's pauses."""
         cfg = self.cfg
-        base = cfg.young_stall_mid_s if self.young else cfg.stall_mid_s
+        base = cfg.echo_stall_mid_s if self.echo else cfg.young_stall_mid_s if self.young else cfg.stall_mid_s
         if not cfg.adaptive_stall or len(self.pause_gaps) < 2:
             return base
         gaps = sorted(self.pause_gaps)
@@ -327,10 +329,18 @@ class TutorEngine:
 
     def _check_line(self, now: float) -> list[dict]:
         """The child stopped partway after a slip: practise the words read wrong so far."""
+        if self.echo and self.cfg.echo_lenient:
+            return self._stall(now)  # a rhyme: just help with the next words, no drilling
         return self._start_correction(sorted(self._errors_in_line()), now)
 
     def _finish_line(self, now: float) -> list[dict]:
         errs = sorted(self._errors_in_line())
+        if errs and self.echo and self.cfg.echo_lenient:
+            for j in errs:  # repeated after Buddy, imperfectly: counts as 'with help', never drilled
+                self._mark(j, HELPED)
+            self.line_errors.clear()
+            self._log(now, "echo_slips_accepted", words=errs)
+            errs = []
         if errs:
             return self._start_correction(errs, now)
         L = self.line

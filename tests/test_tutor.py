@@ -334,3 +334,12 @@ def test_adaptive_limit_is_capped_and_still_helps_a_stuck_reader():
                          cfg=TutorConfig(stall_mid_max_s=5.0))
     eng.pause_gaps = [9.0, 9.0, 9.0]
     assert eng.mid_limit() == 5.0
+
+
+def test_rhyme_slips_are_helped_not_drilled():
+    text = LIB["en-twinkle"]
+    a, b = text.line_range(0)
+    script = [(1, "ss", ""), (3, "tr", "twinkle twinkle little tar")]
+    eng, acts = simulate(text, script, until=8)
+    assert not [a for _, a in acts if a["type"] == "say" and a["kind"].startswith("fix")]
+    assert eng.line == 1 and "helped" in eng.status[a:b]
