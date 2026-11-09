@@ -1,0 +1,322 @@
+{
+ "utterances": [
+  {
+   "t": 37.99,
+   "said": "मीणा मीणा के घड़ कै के पीछे",
+   "stt": "मीणा मीणा के घड़ कै पीछे",
+   "stt_notes": [
+    "lost 'के'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 46.96,
+   "said": "मीणा कै कै पीछै",
+   "stt": "मीणा कै कै पीछै",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.71,
+   "said": "मीना",
+   "stt": "मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 70.91,
+   "said": "घर घर",
+   "stt": "घर घर",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 80.87,
+   "said": "मीणा",
+   "stt": "",
+   "stt_notes": [
+    "lost 'मीणा'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 92.89,
+   "said": "मीना मीना",
+   "stt": "मीना मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 101.14,
+   "said": "के",
+   "stt": "के",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 37.99,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 46.96,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा कै कै पीछै"
+   },
+   {
+    "t": 56.71,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना",
+    "drill": true
+   },
+   {
+    "t": 80.87,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 92.89,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना मीना"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.99,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 46.96,
+    "target": "के",
+    "said": "कै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा कै कै पीछै"
+   },
+   {
+    "t": 80.87,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 101.14,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "के"
+   }
+  ],
+  "2": [
+   {
+    "t": 37.99,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 46.96,
+    "target": "घर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "मीणा कै कै पीछै"
+   },
+   {
+    "t": 70.91,
+    "target": "घर",
+    "said": "घर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "घर घर",
+    "drill": true
+   }
+  ],
+  "3": [
+   {
+    "t": 37.99,
+    "target": "के",
+    "said": "कै के",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 46.96,
+    "target": "के",
+    "said": "कै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा कै कै पीछै"
+   }
+  ],
+  "4": [
+   {
+    "t": 37.99,
+    "target": "पीछे",
+    "said": "पीछे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 46.96,
+    "target": "पीछे",
+    "said": "पीछै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा कै कै पीछै"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 10.2,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 49.67,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीना",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 56.72,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 71.05,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मीना के घर के पीछे एक बगीचा है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 84.3,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मीना के घर",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 95.09,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... के घर के",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 107.45,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... घर के पीछे",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r1-after-s1",
+ "agent_id": "C1-01",
+ "seed": 2391,
+ "persona": {
+  "id": "C1-01",
+  "name": "Rudra",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.95,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.95,
+      "talk_s": 12.0
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.7,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 28.7,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 32.19,
+    "details": [
+     "A curious tap on 'Back' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 32.19,
+      "tapped": "Back",
+      "view": "view-library"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 1.8,
+  "frustration_events": [
+   {
+    "t": 25.95,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 28.7,
+    "kind": "unexpected_pause",
+    "frustration": 1.2
+   },
+   {
+    "t": 32.19,
+    "kind": "wrong_screen",
+    "frustration": 1.8
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 13.6,
+  "child_talk_s": 0.0,
+  "tired_said": false,
+  "time_to_text_s": 2.8,
+  "reader_page_audio_clips": 0,
+  "intro_s": 13.7,
+  "session_s": 20.3,
+  "words_total": 32,
+  "words_attempted": 0,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 1,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 20.1,
+  "words_per_minute": 0.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 6,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

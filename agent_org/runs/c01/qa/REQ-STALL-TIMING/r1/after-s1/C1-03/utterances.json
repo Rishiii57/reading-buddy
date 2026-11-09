@@ -1,0 +1,121 @@
+{
+ "utterances": [
+  {
+   "t": 30.5,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.66,
+   "said": "નાની",
+   "stt": "નાની",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.54,
+   "said": "ચકલી",
+   "stt": "",
+   "stt_notes": [
+    "lost 'ચકલી'"
+   ],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.5,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.66,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની"
+   }
+  ],
+  "2": [
+   {
+    "t": 44.54,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.77,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 32.65,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... નાની ચકલી હતી.",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 39.72,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ચકલી હતી.",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 46.89,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "ચકલી હતી. હવે તું બોલ!",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  }
+ ]
+}

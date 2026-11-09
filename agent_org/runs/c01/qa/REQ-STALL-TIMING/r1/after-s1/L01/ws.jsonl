@@ -1,0 +1,15 @@
+{"t": 11.72, "type": "ready", "message": null}
+{"t": 11.88, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 35.41, "type": "say", "kind": "stall_phrase", "text": "सुनो... मेरी गुड़िया प्यारी", "spans": [[0, 3]]}
+{"t": 39.17, "type": "speech"}
+{"t": 42.71, "type": "heard", "text": "मेरी गुढ़िया"}
+{"t": 42.71, "type": "speech"}
+{"t": 45.52, "type": "speech"}
+{"t": 47.56, "type": "heard", "text": "प्यारी"}
+{"t": 47.56, "type": "speech"}
+{"t": 50.76, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गुड़िया", "spans": [[1, 2]]}
+{"t": 55.31, "type": "speech"}
+{"t": 57.68, "type": "heard", "text": "गुढ़िया"}
+{"t": 57.68, "type": "speech"}
+{"t": 57.68, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 60.75, "type": "summary", "summary": {"words_total": 17, "words_read": 0, "words_helped": 3, "words_to_practise": ["गुड़िया"], "words_practised": 0, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 49.1, "words_per_minute": 3.7}}

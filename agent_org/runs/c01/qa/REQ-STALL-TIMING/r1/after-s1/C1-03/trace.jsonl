@@ -1,0 +1,17 @@
+{"t": 2.38, "kind": "open_app", "brief": "Dev, Class 1 (about 6.5 years). Prefers gu-IN. Slow, careful Gujarati reader."}
+{"t": 2.51, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.85, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.68, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 10.38, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.55, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.63, "kind": "session_started", "tries": 1}
+{"t": 25.95, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 32.76, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 3.0 s thinking pause."}
+{"t": 39.78, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.7 s into a planned 2.81 s thinking pause."}
+{"t": 47.5, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.9 s into a planned 3.35 s thinking pause."}
+{"t": 50.25, "kind": "tap_mic_to_talk"}
+{"t": 50.33, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.23, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 52.6, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 54.23, "kind": "resumed", "after_s": 1.0}
+{"t": 54.25, "kind": "abandon", "why": "frustration", "frustration": 4.35}
