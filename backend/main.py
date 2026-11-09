@@ -132,6 +132,15 @@ async def demo_say(text_id: str, a: int, b: int, swap: int = -1, said: str = "")
     return FileResponse(f, media_type="audio/wav")
 
 
+@app.get("/api/phrase/{lang}/{key}")
+async def phrase(lang: str, key: str):
+    """One of Buddy's fixed phrases as a cached clip (e.g. the spoken hint on the reading page)."""
+    if lang not in PHRASES or key not in PHRASES[lang]:
+        raise HTTPException(404)
+    k = await tts.get(PHRASES[lang][key], lang, 1.0)
+    return {"url": f"/tts/{k}.mp3", "text": PHRASES[lang][key]}
+
+
 @app.get("/api/usage")
 def get_usage():
     return usage.data
