@@ -1,0 +1,609 @@
+{
+ "id": "20261109-194127-129e6c",
+ "text_id": "hi-bagicha",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 18,
+  "words_helped": 5,
+  "words_to_practise": [
+   "मीना",
+   "हर",
+   "सुबह"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 2,
+  "seconds": 107.7,
+  "words_per_minute": 12.8
+ },
+ "log": [
+  {
+   "t": 0.254,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.705,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.36,
+   "event": "transcript",
+   "text": "मीना कै के घड़ घर के पीछै एक वगीचा बगीचा"
+  },
+  {
+   "t": 23.36,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 25.377,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 25.377,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 29.146,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 32.26,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 32.26,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 32.26,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 37.869,
+   "event": "transcript",
+   "text": "उसमें लाल और और पीले फूल खिलथे खिलते"
+  },
+  {
+   "t": 37.869,
+   "event": "progress",
+   "frm": 8,
+   "to": 14
+  },
+  {
+   "t": 39.872,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 14,
+   "to": 15,
+   "line": 1
+  },
+  {
+   "t": 39.872,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 42.728,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.187,
+   "event": "transcript",
+   "text": "हैं"
+  },
+  {
+   "t": 44.187,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 44.187,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 44.187,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 44.187,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 48.015,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 49.363,
+   "event": "transcript",
+   "text": "मीणा"
+  },
+  {
+   "t": 49.363,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 51.369,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    15
+   ]
+  },
+  {
+   "t": 51.369,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 15
+  },
+  {
+   "t": 56.719,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 56.719,
+   "event": "drill_miss",
+   "word": 15,
+   "heard": "है"
+  },
+  {
+   "t": 59.64,
+   "event": "transcript",
+   "text": "मीना मीना"
+  },
+  {
+   "t": 59.64,
+   "event": "drill_ok",
+   "word": 15
+  },
+  {
+   "t": 59.64,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 68.247,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 76.103,
+   "event": "transcript",
+   "text": "मीना हड़ शुबह पौधों को पानी देती है"
+  },
+  {
+   "t": 76.103,
+   "event": "progress",
+   "frm": 15,
+   "to": 23
+  },
+  {
+   "t": 76.103,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16,
+    17
+   ]
+  },
+  {
+   "t": 76.103,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 82.853,
+   "event": "transcript",
+   "text": "हर"
+  },
+  {
+   "t": 82.853,
+   "event": "drill_ok",
+   "word": 16
+  },
+  {
+   "t": 82.853,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 87.507,
+   "event": "transcript",
+   "text": "सुबह"
+  },
+  {
+   "t": 87.507,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 87.507,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 94.885,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 100.232,
+   "event": "transcript",
+   "text": "मीना हर सुबह पौधों पौधों कौ पानी देती"
+  },
+  {
+   "t": 100.232,
+   "event": "progress",
+   "frm": 15,
+   "to": 22
+  },
+  {
+   "t": 102.462,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 102.462,
+   "event": "progress",
+   "frm": 22,
+   "to": 23
+  },
+  {
+   "t": 102.462,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 102.462,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 106.136,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.968,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.36,
+   "type": "transcript",
+   "text": "मीना कै के घड़ घर के पीछै एक वगीचा बगीचा",
+   "latency": 120,
+   "audio_duration_ms": 4960,
+   "message": null
+  },
+  {
+   "t": 31.156,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.26,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 33.355,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.869,
+   "type": "transcript",
+   "text": "उसमें लाल और और पीले फूल खिलथे खिलते",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 43.056,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.187,
+   "type": "transcript",
+   "text": "हैं",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 48.262,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.363,
+   "type": "transcript",
+   "text": "मीणा",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 55.745,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.719,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 499,
+   "message": null
+  },
+  {
+   "t": 58.067,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.64,
+   "type": "transcript",
+   "text": "मीना मीना",
+   "latency": 120,
+   "audio_duration_ms": 1150,
+   "message": null
+  },
+  {
+   "t": 71.424,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.103,
+   "type": "transcript",
+   "text": "मीना हड़ शुबह पौधों को पानी देती है",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 81.708,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.853,
+   "type": "transcript",
+   "text": "हर",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 86.407,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.507,
+   "type": "transcript",
+   "text": "सुबह",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 95.357,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 100.232,
+   "type": "transcript",
+   "text": "मीना हर सुबह पौधों पौधों कौ पानी देती",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 101.36,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.462,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मीना कै के घड़ घर के पीछै एक वगीचा बगीचा",
+   "heard": "मीना कै के घड़ घर के पीछै एक वगीचा बगीचा",
+   "muted_words": 0,
+   "duration_s": 4.96
+  },
+  {
+   "text": "है",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.68
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "उसमें लाल और और पीले फूल खिलथे खिलते",
+   "heard": "उसमें लाल और और पीले फूल खिलथे खिलते",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "हैं",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.68
+  },
+  {
+   "text": "हैं",
+   "heard": "हैं",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "मीणा",
+   "heard": "मीणा",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "हड़ हर शुबह पौधों कौ को पानी देती है",
+   "heard": "है",
+   "muted_words": 8,
+   "duration_s": 4.49
+  },
+  {
+   "text": "मीना मीना",
+   "heard": "मीना मीना",
+   "muted_words": 0,
+   "duration_s": 1.15
+  },
+  {
+   "text": "मीना हड़ शुबह पौधों को पानी देती है",
+   "heard": "मीना हड़ शुबह पौधों को पानी देती है",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "हर",
+   "heard": "हर",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "सुबह",
+   "heard": "सुबह",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "मीना हर सुबह पौधों पौधों कौ पानी देती",
+   "heard": "मीना हर सुबह पौधों पौधों कौ पानी देती",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "उशे अपणे वगीचे बहुत पयार है",
+   "heard": "",
+   "muted_words": 6,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 115
+}
