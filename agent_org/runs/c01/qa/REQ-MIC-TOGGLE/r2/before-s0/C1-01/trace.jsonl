@@ -1,0 +1,18 @@
+{"t": 2.07, "kind": "open_app", "brief": "Rudra, Class 1 (about 6.5 years). Prefers en-IN. Frequently skips small words."}
+{"t": 2.18, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.18, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.32, "kind": "tap", "target": "The Rain Song English Grade 1 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.54, "kind": "opened_text", "hash": "#/read/en-rain", "title": "The Rain Song", "tags": ["English", "Grade 1"], "words": 24, "lines": 4}
+{"t": 10.85, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.18, "kind": "session_started", "tries": 1}
+{"t": 26.88, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 27.98, "kind": "tap_mic_to_talk"}
+{"t": 28.02, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 29.02, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 30.06, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 32.12, "kind": "resumed", "after_s": 1.0}
+{"t": 48.0, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 97.39, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 1.83 s thinking pause."}
+{"t": 119.16, "kind": "off_task_tap", "target": "Back"}
+{"t": 119.18, "kind": "tap", "target": "Back", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 120.07, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Back' left the reading page."}

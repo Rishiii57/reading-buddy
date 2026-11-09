@@ -1,0 +1,380 @@
+{
+ "id": "20261109-200606-512dfc",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [
+   "ठंडी"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 1,
+  "seconds": 82.1,
+  "words_per_minute": 5.8
+ },
+ "log": [
+  {
+   "t": 0.017,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.576,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.946,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 17.946,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.983,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 19.983,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 23.1,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.771,
+   "event": "transcript",
+   "text": "गरजे बारिश"
+  },
+  {
+   "t": 27.771,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 29.84,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 29.84,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 33.141,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.244,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 37.854,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 37.854,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 40.546,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 40.89,
+   "event": "pause"
+  },
+  {
+   "t": 48.421,
+   "event": "resume"
+  },
+  {
+   "t": 50.442,
+   "event": "take_time"
+  },
+  {
+   "t": 64.421,
+   "event": "transcript",
+   "text": "आई"
+  },
+  {
+   "t": 64.421,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 64.421,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 69.243,
+   "event": "transcript",
+   "text": "ठंडी"
+  },
+  {
+   "t": 69.243,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 71.323,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 71.323,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 75.167,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 78.069,
+   "event": "transcript",
+   "text": "ठंढी"
+  },
+  {
+   "t": 78.069,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 80.144,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 80.144,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.323,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.946,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 23.117,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.771,
+   "type": "transcript",
+   "text": "गरजे बारिश",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 33.622,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.244,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 61.788,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.421,
+   "type": "transcript",
+   "text": "आई",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 66.401,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.243,
+   "type": "transcript",
+   "text": "ठंडी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 75.428,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.069,
+   "type": "transcript",
+   "text": "ठंढी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "गरजे बारिश",
+   "heard": "गरजे बारिश",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "आई",
+   "heard": "आई",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ठंडी",
+   "heard": "ठंडी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ठंढी",
+   "heard": "ठंढी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  }
+ ],
+ "tts_offline": 40
+}
