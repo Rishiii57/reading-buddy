@@ -1,0 +1,13 @@
+{"t": 1.93, "kind": "open_app", "brief": "Anaya, Nursery (about 3.5 years). Prefers hi-IN. Enjoys rhymes read to her but is shy about speaking."}
+{"t": 2.08, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.2, "kind": "tap", "target": "વારતા રે વારતા A Story, a Story Gujarati", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.1, "kind": "opened_text", "hash": "#/read/gu-varta", "title": "વારતા રે વારતા", "tags": ["Gujarati", "UKG"], "words": 11, "lines": 4}
+{"t": 5.84, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
+{"t": 9.97, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.06, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.12, "kind": "session_started", "tries": 1}
+{"t": 13.3, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 25.37, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 26.55, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 26.6, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 28.75, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}

@@ -30,9 +30,19 @@
      "event": "awaiting_qa",
      "at": "2026-11-09T19:13:13",
      "note": "submitted 54811fcf: 13 traditional public-domain rhymes (en 5, hi 4, gu 4) for Nursery/LKG/UKG; level-aware library (youngest first, bigger rhyme cards, Nursery/LKG/UKG chips); echo reading: Buddy models every line of a pre-primary rhyme"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T20:56:36",
+     "note": "QA round 1: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T20:57:34",
+     "note": "branch refreshed onto integration ef4a0bee"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "in_progress",
    "priority": "P0",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },

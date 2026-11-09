@@ -1,0 +1,177 @@
+{
+ "id": "20261109-205321-628066",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 41.3,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.3,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.755,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.467,
+   "event": "transcript",
+   "text": "red"
+  },
+  {
+   "t": 21.747,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 26.435,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 31.771,
+   "event": "transcript",
+   "text": "mum mango"
+  },
+  {
+   "t": 31.771,
+   "event": "uncertain",
+   "text": "mum mango"
+  },
+  {
+   "t": 31.771,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 35.799,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.574,
+   "event": "pause"
+  },
+  {
+   "t": 40.018,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.009,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.467,
+   "type": "transcript",
+   "text": "red",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 20.296,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.747,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 24.969,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.435,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 29.478,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.771,
+   "type": "transcript",
+   "text": "mum mango",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "red",
+   "heard": "red",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "mum mango",
+   "heard": "mum mango",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 43
+}

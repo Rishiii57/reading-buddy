@@ -1,0 +1,15 @@
+{"t": 10.43, "type": "ready", "message": null}
+{"t": 10.51, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 25.97, "type": "speech"}
+{"t": 27.85, "type": "heard", "text": "Rain"}
+{"t": 27.87, "type": "speech"}
+{"t": 30.16, "type": "say", "kind": "stall_phrase", "text": "Listen... rain", "spans": [[1, 2]]}
+{"t": 34.21, "type": "speech"}
+{"t": 36.33, "type": "heard", "text": "raim"}
+{"t": 36.35, "type": "speech"}
+{"t": 38.38, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. rain", "spans": [[1, 2]]}
+{"t": 42.13, "type": "speech"}
+{"t": 45.62, "type": "heard", "text": "ran"}
+{"t": 45.63, "type": "speech"}
+{"t": 45.64, "type": "say", "kind": "fix_again", "text": "rain", "spans": [[1, 2]]}
+{"t": 46.69, "type": "summary", "summary": {"words_total": 13, "words_read": 1, "words_helped": 1, "words_to_practise": ["rain"], "words_practised": 0, "correction_attempts": 1, "lines_total": 3, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 36.4, "words_per_minute": 3.3}}

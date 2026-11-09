@@ -1,0 +1,202 @@
+{
+ "utterances": [
+  {
+   "t": 28.6,
+   "said": "बादल",
+   "stt": "",
+   "stt_notes": [
+    "lost 'बादल'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 34.17,
+   "said": "गरजे",
+   "stt": "गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.46,
+   "said": "बारिश",
+   "stt": "बारिश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.31,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 63.04,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.39,
+   "said": "गड़जे",
+   "stt": "गड़जे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 78.47,
+   "said": "गरजे",
+   "stt": "",
+   "stt_notes": [
+    "lost 'गरजे'"
+   ],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.6,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 63.04,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   }
+  ],
+  "1": [
+   {
+    "t": 34.17,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गरजे"
+   },
+   {
+    "t": 70.39,
+    "target": "गरजे",
+    "said": "गड़जे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गड़जे"
+   },
+   {
+    "t": 78.47,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   }
+  ],
+  "2": [
+   {
+    "t": 39.46,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 44.31,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.13,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 45.1,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बादल गरजे",
+   "spans": [
+    [
+     0,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 65.05,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 72.68,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

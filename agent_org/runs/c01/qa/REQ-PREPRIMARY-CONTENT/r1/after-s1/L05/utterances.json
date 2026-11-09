@@ -1,0 +1,258 @@
+{
+ "utterances": [
+  {
+   "t": 34.33,
+   "said": "ए पेढ़ पड़ ए छोटी",
+   "stt": "ए पेढ़ पड़ ए छोटी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 40.73,
+   "said": "ए",
+   "stt": "",
+   "stt_notes": [
+    "lost 'ए'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.64,
+   "said": "पेड़ पड़",
+   "stt": "पेड़ पड़",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.24,
+   "said": "ए",
+   "stt": "ए",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 54.89,
+   "said": "ए",
+   "stt": "",
+   "stt_notes": [
+    "lost 'ए'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.41,
+   "said": "एक पेड़",
+   "stt": "एक पेड़",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.33,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए पेढ़ पड़ ए छोटी"
+   },
+   {
+    "t": 40.73,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 52.24,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए"
+   },
+   {
+    "t": 54.89,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 66.41,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़"
+   }
+  ],
+  "1": [
+   {
+    "t": 34.33,
+    "target": "पेड़",
+    "said": "पेढ़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए पेढ़ पड़ ए छोटी"
+   },
+   {
+    "t": 48.64,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पेड़ पड़"
+   },
+   {
+    "t": 66.41,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़"
+   }
+  ],
+  "2": [
+   {
+    "t": 34.33,
+    "target": "पर",
+    "said": "पड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए पेढ़ पड़ ए छोटी"
+   },
+   {
+    "t": 48.64,
+    "target": "पर",
+    "said": "पड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पेड़ पड़"
+   },
+   {
+    "t": 66.41,
+    "target": "पर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "एक पेड़"
+   }
+  ],
+  "3": [
+   {
+    "t": 34.33,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए पेढ़ पड़ ए छोटी"
+   },
+   {
+    "t": 66.41,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "एक पेड़"
+   }
+  ],
+  "4": [
+   {
+    "t": 34.33,
+    "target": "छोटी",
+    "said": "छोटी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए पेढ़ पड़ ए छोटी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 10.88,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 34.45,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 48.74,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 58.35,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... एक पेड़ पर",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 68.49,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... पर एक छोटी",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  }
+ ]
+}

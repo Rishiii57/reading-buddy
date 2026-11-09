@@ -42,7 +42,8 @@ OBSERVE_JS = r"""() => {
     return { aid: 'a' + i, text: (e.innerText || '').replace(/\s+/g, ' ').trim().slice(0, 80),
              aria: e.getAttribute('aria-label') || '', area: Math.round(r.width * r.height),
              cls: String(e.className || ''), id: e.id || '', tag: e.tagName.toLowerCase(),
-             lang: e.dataset.lang || '', grade: e.dataset.grade || '', story: e.dataset.id || '' }; });
+             lang: e.dataset.lang || '', grade: e.dataset.grade || '', story: e.dataset.id || '',
+             inView: r.bottom > 0 && r.top < innerHeight }; });
   const t = (id) => { const e = document.getElementById(id); return e && vis(e) ? e.textContent.trim() : ''; };
   const cur = document.querySelector('.w.is-current'); const tgt = document.querySelector('.w.is-target');
   return { view: view ? view.id : null, hash: location.hash, dialog: dlg ? dlg.id : null,
@@ -204,6 +205,8 @@ class ChildAgent:
                 w *= 2.5
             if c["tag"] == "a" and "navpill" in c["cls"]:
                 w *= 0.5
+            if c.get("inView"):  # small children tap what they can see before they think of scrolling
+                w *= 4
             return w
         ws = [weight(c) for c in cands]
         return self.rng.choices(cands, weights=ws, k=1)[0]

@@ -1,0 +1,306 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r1-before-s1",
+ "agent_id": "L06",
+ "seed": 2221,
+ "persona": {
+  "id": "L06",
+  "name": "Krish",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-patang",
+  "title": "મારો પતંગ",
+  "tags": [
+   "Gujarati",
+   "Grade 1"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 9.98,
+    "details": [
+     "LKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 9.98,
+      "title": "મારો પતંગ",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 14.52,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 14.52,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.93,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 29.93,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_REPLAY_CONTROL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 31.64,
+    "details": [
+     "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."
+    ],
+    "evidence": [
+     {
+      "t": 31.64,
+      "visible": [
+       "Reading Buddy",
+       "Home",
+       "Library",
+       "About",
+       "Back",
+       "Pause",
+       "End",
+       "Pause"
+      ]
+     }
+    ],
+    "child_quote": "I want to hear it again!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 36.05,
+    "details": [
+     "Buddy started talking 2.2 s into a planned 3.05 s thinking pause.",
+     "Buddy started talking 1.9 s into a planned 3.19 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 36.05,
+      "paused_s": 2.2,
+      "planned_s": 3.05,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "પતંગ લાલ ને"
+     },
+     {
+      "t": 54.0,
+      "paused_s": 1.9,
+      "planned_s": 3.19,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "પીળો,"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 47.28,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 47.28,
+      "said": "લાલ લાલ",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 60.98,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 60.98,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the mic to talk and it stopped!",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.85,
+  "frustration_events": [
+   {
+    "t": 14.52,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 29.93,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 33.79,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 36.05,
+    "kind": "interrupted_pause",
+    "frustration": 1.85,
+    "paused_s": 2.2
+   },
+   {
+    "t": 41.5,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 47.28,
+    "kind": "unheard_speech",
+    "frustration": 2.5
+   },
+   {
+    "t": 47.28,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 51.69,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 54.0,
+    "kind": "interrupted_pause",
+    "frustration": 3.2,
+    "paused_s": 1.9
+   },
+   {
+    "t": 58.68,
+    "kind": "progress",
+    "frustration": 3.05
+   },
+   {
+    "t": 60.98,
+    "kind": "unexpected_pause",
+    "frustration": 3.85
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 0,
+  "interruptions": 2,
+  "unheard_words": 2,
+  "buddy_talk_s": 19.6,
+  "child_talk_s": 9.6,
+  "tired_said": false,
+  "time_to_text_s": 5.0,
+  "reader_page_audio_clips": 0,
+  "intro_s": 13.9,
+  "time_to_first_word_s": 13.9,
+  "session_s": 50.2,
+  "words_total": 16,
+  "words_attempted": 5,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 4,
+  "stall_prompts": 3,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 53.0,
+  "words_per_minute": 5.7
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 34,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

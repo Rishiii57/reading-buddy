@@ -1,0 +1,184 @@
+{
+ "id": "20261109-205247-194f00",
+ "text_id": "hi-aloo",
+ "mode": "mic",
+ "summary": {
+  "words_total": 27,
+  "words_read": 1,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 37.9,
+  "words_per_minute": 9.5
+ },
+ "log": [
+  {
+   "t": 0.13,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.598,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.362,
+   "event": "transcript",
+   "text": "आलू"
+  },
+  {
+   "t": 17.362,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.45,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 19.45,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 23.142,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.397,
+   "event": "transcript",
+   "text": "कचालू"
+  },
+  {
+   "t": 25.397,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 27.548,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 27.548,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 30.939,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.262,
+   "event": "pause"
+  },
+  {
+   "t": 33.973,
+   "event": "resume"
+  },
+  {
+   "t": 36.024,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 36.024,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 2,
+   "to": 6
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.311,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.362,
+   "type": "transcript",
+   "text": "आलू",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 23.326,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.397,
+   "type": "transcript",
+   "text": "कचालू",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "आलू",
+   "heard": "आलू",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "कचालू",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "कचालू",
+   "heard": "कचालू",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 28
+}

@@ -1,0 +1,247 @@
+{
+ "id": "20261109-205131-9cd213",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [
+   "I"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 59.9,
+  "words_per_minute": 4.0
+ },
+ "log": [
+  {
+   "t": 0.093,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.388,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.781,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 24.239,
+   "event": "transcript",
+   "text": "have a a"
+  },
+  {
+   "t": 24.239,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 26.265,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 26.265,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 34.021,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 39.269,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 44.524,
+   "event": "transcript",
+   "text": "I I"
+  },
+  {
+   "t": 44.524,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 44.524,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 51.635,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 54.147,
+   "event": "transcript",
+   "text": "I"
+  },
+  {
+   "t": 54.147,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 56.208,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 56.208,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 58.717,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.73,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.781,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 19.315,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.239,
+   "type": "transcript",
+   "text": "have a a",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 41.043,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.524,
+   "type": "transcript",
+   "text": "I I",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 52.08,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.147,
+   "type": "transcript",
+   "text": "I",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "have a a",
+   "heard": "have a a",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "I I",
+   "heard": "I I",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "I",
+   "heard": "I",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "he",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 43
+}

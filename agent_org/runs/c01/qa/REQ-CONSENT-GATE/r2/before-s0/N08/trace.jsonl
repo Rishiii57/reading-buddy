@@ -1,0 +1,7 @@
+{"t": 2.28, "kind": "open_app", "brief": "Myra, Nursery (about 3.5 years). Prefers hi-IN. Code-mixes Hindi and English."}
+{"t": 2.33, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.41, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.75, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 6.24, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 10.32, "kind": "tap", "target": "About", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.67, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

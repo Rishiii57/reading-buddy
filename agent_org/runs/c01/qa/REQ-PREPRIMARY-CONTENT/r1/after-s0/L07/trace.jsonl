@@ -1,0 +1,19 @@
+{"t": 2.43, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 2.49, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 3.77, "kind": "tap", "target": "એક બિલાડી જાડી A Fat Cat Gujarati LKG Rh", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.31, "kind": "opened_text", "hash": "#/read/gu-biladi", "title": "એક બિલાડી જાડી", "tags": ["Gujarati", "LKG"], "words": 14, "lines": 4}
+{"t": 8.42, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 12.48, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.49, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.44, "kind": "session_started", "tries": 1}
+{"t": 28.87, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 39.76, "kind": "tap_mic_to_talk"}
+{"t": 39.78, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 40.54, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 41.05, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 41.81, "kind": "resumed", "after_s": 0.5}
+{"t": 45.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.53 s thinking pause."}
+{"t": 48.24, "kind": "off_task_tap", "target": "About"}
+{"t": 48.24, "kind": "tap", "target": "About", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 49.01, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'About' left the reading page."}
+{"t": 50.14, "kind": "issue", "code": "RESTART_NOT_FOUND", "detail": "Wanted to read it again but found no way from the end screen."}

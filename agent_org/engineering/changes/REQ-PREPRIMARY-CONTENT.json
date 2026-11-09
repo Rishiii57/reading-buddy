@@ -93,7 +93,21 @@
  "branch": "eng/REQ-PREPRIMARY-CONTENT",
  "worktree": "/home/claude/rishiii57/rb-worktrees/REQ-PREPRIMARY-CONTENT",
  "base_branch": "agent-org-handoff",
- "base_commit": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
+ "base_commit": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0",
  "role": "Data Engineer",
- "started": "2026-11-09T19:11:15"
+ "started": "2026-11-09T19:11:15",
+ "qa": [
+  {
+   "round": 1,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r1/VALIDATION.md"
+  }
+ ],
+ "refreshes": [
+  {
+   "at": "2026-11-09T20:57:34",
+   "from_base": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
+   "to_base": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0"
+  }
+ ]
 }

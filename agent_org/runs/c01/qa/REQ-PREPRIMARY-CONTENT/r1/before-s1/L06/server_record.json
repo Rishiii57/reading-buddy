@@ -1,0 +1,261 @@
+{
+ "id": "20261109-205118-f0b63e",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 53.0,
+  "words_per_minute": 5.7
+ },
+ "log": [
+  {
+   "t": 0.07,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.924,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.325,
+   "event": "transcript",
+   "text": "મારો"
+  },
+  {
+   "t": 18.325,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 20.417,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 20.417,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 23.871,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.053,
+   "event": "transcript",
+   "text": "પતંગ"
+  },
+  {
+   "t": 26.053,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 28.06,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 28.06,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 31.611,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.233,
+   "event": "transcript",
+   "text": "ને"
+  },
+  {
+   "t": 36.233,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 38.323,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 38.323,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 40.33,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.229,
+   "event": "transcript",
+   "text": "પીળો"
+  },
+  {
+   "t": 43.229,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 43.229,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 44.283,
+   "event": "pause"
+  },
+  {
+   "t": 50.123,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.274,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.325,
+   "type": "transcript",
+   "text": "મારો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 23.983,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.053,
+   "type": "transcript",
+   "text": "પતંગ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 34.182,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.233,
+   "type": "transcript",
+   "text": "ને",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 41.096,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.229,
+   "type": "transcript",
+   "text": "પીળો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો",
+   "heard": "મારો",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "પતંગ",
+   "heard": "પતંગ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "લાલ લાલ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 3.06
+  },
+  {
+   "text": "ને",
+   "heard": "ને",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "પીળો",
+   "heard": "પીળો",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 34
+}

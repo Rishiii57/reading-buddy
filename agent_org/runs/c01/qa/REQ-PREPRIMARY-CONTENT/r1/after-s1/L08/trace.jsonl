@@ -1,0 +1,17 @@
+{"t": 2.47, "kind": "open_app", "brief": "Shaurya, LKG (about 4.5 years). Prefers hi-IN. Gets tired after a minute of reading."}
+{"t": 2.56, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.43, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.68, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 6.28, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 10.41, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.42, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.79, "kind": "session_started", "tries": 1}
+{"t": 25.83, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 33.91, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 3.34 s thinking pause."}
+{"t": 36.95, "kind": "tap_mic_to_talk"}
+{"t": 36.97, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 37.99, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 39.9, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 40.76, "kind": "resumed", "after_s": 1.0}
+{"t": 44.99, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.8 s thinking pause."}
+{"t": 45.02, "kind": "abandon", "why": "frustration", "frustration": 3.5}

@@ -1,0 +1,161 @@
+{
+ "utterances": [
+  {
+   "t": 33.79,
+   "said": "મારો",
+   "stt": "મારો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.5,
+   "said": "પતંગ",
+   "stt": "પતંગ",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.28,
+   "said": "લાલ લાલ",
+   "stt": "લાલ લાલ",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 2,
+   "over_buddy": false
+  },
+  {
+   "t": 51.69,
+   "said": "ને",
+   "stt": "ને",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.68,
+   "said": "પીળો",
+   "stt": "પીળો",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.79,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો"
+   }
+  ],
+  "1": [
+   {
+    "t": 41.5,
+    "target": "પતંગ",
+    "said": "પતંગ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પતંગ"
+   }
+  ],
+  "2": [
+   {
+    "t": 47.28,
+    "target": "લાલ",
+    "said": "લાલ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "લાલ લાલ"
+   }
+  ],
+  "3": [
+   {
+    "t": 51.69,
+    "target": "ને",
+    "said": "ને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ને"
+   }
+  ],
+  "4": [
+   {
+    "t": 58.68,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પીળો"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.67,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 35.97,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પતંગ લાલ ને",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 44.63,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... લાલ ને પીળો",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 53.8,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પીળો",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ ]
+}
