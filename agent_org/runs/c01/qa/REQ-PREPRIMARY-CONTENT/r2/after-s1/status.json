@@ -58,14 +58,18 @@
    "issues": 4
   },
   "L07": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:27:09"
+   "since": "21:27:09",
+   "outcome": "abandoned_frustration",
+   "issues": 2
   },
   "L08": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:27:59"
+   "since": "21:27:59",
+   "outcome": "abandoned_frustration",
+   "issues": 3
   }
  }
 }

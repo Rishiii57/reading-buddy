@@ -1,0 +1,29 @@
+{"t": 14.16, "type": "ready", "message": null}
+{"t": 14.47, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 29.18, "type": "speech"}
+{"t": 30.94, "type": "heard", "text": "Twinkle"}
+{"t": 31.79, "type": "speech"}
+{"t": 34.48, "type": "speech"}
+{"t": 36.9, "type": "heard", "text": "tree"}
+{"t": 36.9, "type": "speech"}
+{"t": 39.83, "type": "say", "kind": "stall_phrase", "text": "Listen... twinkle", "spans": [[1, 2]]}
+{"t": 43.35, "type": "speech"}
+{"t": 46.43, "type": "heard", "text": "twinkle"}
+{"t": 46.44, "type": "speech"}
+{"t": 48.97, "type": "say", "kind": "stall_phrase", "text": "Listen... little star", "spans": [[2, 4]]}
+{"t": 53.53, "type": "speech"}
+{"t": 57.05, "type": "heard", "text": "littl little"}
+{"t": 57.05, "type": "speech"}
+{"t": 60.42, "type": "speech"}
+{"t": 64.38, "type": "heard", "text": "star star"}
+{"t": 64.39, "type": "speech"}
+{"t": 64.39, "type": "say", "kind": "echo_line", "text": "Listen... How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 70.89, "type": "speech"}
+{"t": 72.95, "type": "heard", "text": "hoa"}
+{"t": 72.95, "type": "speech"}
+{"t": 77.9, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. How", "spans": [[4, 5]]}
+{"t": 81.66, "type": "speech"}
+{"t": 83.7, "type": "heard", "text": "How"}
+{"t": 83.72, "type": "speech"}
+{"t": 83.74, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! How I wonder what you are! Now you say the whole line.", "spans": [[4, 10]]}
+{"t": 89.79, "type": "summary", "summary": {"words_total": 22, "words_read": 1, "words_helped": 4, "words_to_practise": ["How"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 1, "seconds": 75.6, "words_per_minute": 4.0}}

@@ -1,0 +1,360 @@
+{
+ "utterances": [
+  {
+   "t": 34.46,
+   "said": "एक एक",
+   "stt": "एक एक",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.46,
+   "said": "दो तीन",
+   "stt": "दो तीन",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.97,
+   "said": "चाड़",
+   "stt": "चाड़",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.84,
+   "said": "भैय",
+   "stt": "भैय",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.66,
+   "said": "भेया बनो",
+   "stt": "भेया बनो",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 56.99,
+   "said": "भैय",
+   "stt": "भैय",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.34,
+   "said": "बनो",
+   "stt": "बनो",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 67.54,
+   "said": "होशियाड़",
+   "stt": "होशियाड़",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.85,
+   "said": "भैय वनो",
+   "stt": "भैय वनो",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 81.48,
+   "said": "भैया वनो",
+   "stt": "भैया वनो",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 2,
+   "over_buddy": false
+  },
+  {
+   "t": 90.87,
+   "said": "चार",
+   "stt": "चार",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 102.56,
+   "said": "ए दो दो",
+   "stt": "ए दो दो",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.46,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक एक"
+   },
+   {
+    "t": 102.56,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए दो दो"
+   }
+  ],
+  "1": [
+   {
+    "t": 40.46,
+    "target": "दो",
+    "said": "दो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "दो तीन"
+   },
+   {
+    "t": 102.56,
+    "target": "दो",
+    "said": "दो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए दो दो"
+   }
+  ],
+  "2": [
+   {
+    "t": 40.46,
+    "target": "तीन",
+    "said": "तीन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "दो तीन"
+   }
+  ],
+  "3": [
+   {
+    "t": 45.97,
+    "target": "चार",
+    "said": "चाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "चाड़"
+   },
+   {
+    "t": 90.87,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चार",
+    "drill": true
+   }
+  ],
+  "4": [
+   {
+    "t": 48.84,
+    "target": "भैया",
+    "said": "भैय",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैय"
+   },
+   {
+    "t": 54.66,
+    "target": "भैया",
+    "said": "भेया",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भेया बनो"
+   },
+   {
+    "t": 56.99,
+    "target": "भैया",
+    "said": "भैय",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैय"
+   },
+   {
+    "t": 71.85,
+    "target": "भैया",
+    "said": "भैय",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैय वनो"
+   },
+   {
+    "t": 81.48,
+    "target": "भैया",
+    "said": "भैया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "भैया वनो"
+   }
+  ],
+  "5": [
+   {
+    "t": 54.66,
+    "target": "बनो",
+    "said": "बनो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "भेया बनो"
+   },
+   {
+    "t": 62.34,
+    "target": "बनो",
+    "said": "बनो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बनो"
+   },
+   {
+    "t": 71.85,
+    "target": "बनो",
+    "said": "वनो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैय वनो"
+   },
+   {
+    "t": 81.48,
+    "target": "बनो",
+    "said": "वनो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैया वनो"
+   }
+  ],
+  "6": [
+   {
+    "t": 67.54,
+    "target": "होशियार",
+    "said": "होशियाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "होशियाड़"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 16.32,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 48.85,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 71.85,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 76.83,
+   "type": "say",
+   "kind": "break",
+   "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।",
+   "spans": []
+  },
+  {
+   "t": 84.9,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। चार",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 90.88,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! एक दो तीन चार अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 102.57,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  }
+ ]
+}

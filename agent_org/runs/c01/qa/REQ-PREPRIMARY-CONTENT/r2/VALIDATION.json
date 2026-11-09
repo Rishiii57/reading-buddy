@@ -1,0 +1,186 @@
+{
+ "requirement": "REQ-PREPRIMARY-CONTENT",
+ "round": 2,
+ "candidate_commit": "2249bb97a20bd937aad870d0fb640fbefd687f64",
+ "base_commit": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0",
+ "personas": [
+  "L01",
+  "L02",
+  "L03",
+  "L04",
+  "L05",
+  "L06",
+  "L07",
+  "L08",
+  "N01",
+  "N02"
+ ],
+ "reps": 2,
+ "agents_before": 20,
+ "agents_after": 20,
+ "issue_reproduced_on_base": true,
+ "criteria": [
+  {
+   "metric": "level_mismatch_rate",
+   "target": "<= 0.0",
+   "scope": "pre-primary personas",
+   "before": 1.0,
+   "after": 0.2,
+   "pass": false,
+   "how": "0.2 <= 0.0",
+   "reproduced": true
+  },
+  {
+   "metric": "coverage",
+   "target": ">= 0.6",
+   "scope": "pre-primary personas",
+   "before": 0.19,
+   "after": 0.219,
+   "pass": false,
+   "how": "0.219 >= 0.6",
+   "reproduced": true
+  },
+  {
+   "metric": "stuck_rate",
+   "target": "<= 0.1",
+   "scope": "pre-primary personas",
+   "before": 0.0,
+   "after": 0.0,
+   "pass": true,
+   "how": "0.0 <= 0.1",
+   "reproduced": false
+  }
+ ],
+ "guards": [
+  {
+   "metric": "completion_rate",
+   "before": 0.0,
+   "after": 0.0,
+   "pass": true,
+   "rule": ">= before-0.1"
+  },
+  {
+   "metric": "abandon_rate",
+   "before": 0.95,
+   "after": 0.95,
+   "pass": true,
+   "rule": "<= before+0.1"
+  },
+  {
+   "metric": "false_corrections_per_agent",
+   "before": 0.05,
+   "after": 0.0,
+   "pass": true,
+   "rule": "<= before+0.25"
+  },
+  {
+   "metric": "frustration_peak_mean",
+   "before": 2.792,
+   "after": 2.708,
+   "pass": true,
+   "rule": "<= before+0.3"
+  },
+  {
+   "metric": "harness_error_rate",
+   "before": 0.0,
+   "after": 0.0,
+   "pass": true,
+   "rule": "<= before+0.0"
+  }
+ ],
+ "replay": [
+  {
+   "check": "tracking_pass",
+   "before": "23/24",
+   "after": "23/24",
+   "pass": true
+  },
+  {
+   "check": "errors_caught",
+   "before": "23/24",
+   "after": "23/24",
+   "pass": true
+  },
+  {
+   "check": "stalls_prompted",
+   "before": "11/12",
+   "after": "11/12",
+   "pass": true
+  },
+  {
+   "check": "false_corrections_per_50_words",
+   "before": 0.104,
+   "after": 0.104,
+   "pass": true
+  },
+  {
+   "check": "stall_prompt_s_max (<= 4.0)",
+   "before": 3.91,
+   "after": 3.91,
+   "pass": true
+  }
+ ],
+ "unit_tests": {
+  "passed": true,
+  "tail": [
+   "63 passed in 0.85s"
+  ]
+ },
+ "metrics_before": {
+  "session_start_rate": 0.7,
+  "completion_rate": 0.0,
+  "abandon_rate": 0.95,
+  "coverage": 0.19,
+  "stall_interruptions_per_agent": 0.8,
+  "correction_interruptions_per_agent": 0.25,
+  "interruptions_per_agent": 1.3,
+  "mic_tap_pause_rate": 0.0,
+  "unheard_words_per_agent": 0.8,
+  "drill_repeat_rate": 0.25,
+  "spoken_guidance_gap_rate": 0.0,
+  "consent_blocked_rate": 0.15,
+  "consent_self_approved_rate": 0.0,
+  "level_mismatch_rate": 1.0,
+  "false_corrections_per_agent": 0.05,
+  "missed_errors_per_agent": 0.35,
+  "long_talk_rate": 0.4,
+  "intro_s_median": 13.2,
+  "frustration_peak_mean": 2.792,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.25,
+  "replay_missing_rate": 0.1,
+  "restart_failed_rate": 0.0,
+  "harness_error_rate": 0.0
+ },
+ "metrics_after": {
+  "session_start_rate": 0.65,
+  "completion_rate": 0.0,
+  "abandon_rate": 0.95,
+  "coverage": 0.219,
+  "stall_interruptions_per_agent": 0.75,
+  "correction_interruptions_per_agent": 0.5,
+  "interruptions_per_agent": 1.45,
+  "mic_tap_pause_rate": 0.0,
+  "unheard_words_per_agent": 0.85,
+  "drill_repeat_rate": 0.15,
+  "spoken_guidance_gap_rate": 0.0,
+  "consent_blocked_rate": 0.2,
+  "consent_self_approved_rate": 0.0,
+  "level_mismatch_rate": 0.2,
+  "false_corrections_per_agent": 0.0,
+  "missed_errors_per_agent": 0.3,
+  "long_talk_rate": 0.25,
+  "intro_s_median": 12.3,
+  "frustration_peak_mean": 2.708,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.25,
+  "replay_missing_rate": 0.1,
+  "restart_failed_rate": 0.05,
+  "harness_error_rate": 0.0
+ },
+ "verdict": "returned_to_engineering",
+ "wall_s": 914.6,
+ "runs": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r2"
+}

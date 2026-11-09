@@ -1,0 +1,266 @@
+{
+ "utterances": [
+  {
+   "t": 30.9,
+   "said": "Twinkle",
+   "stt": "Twinkle",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.2,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.69,
+   "said": "twinkle",
+   "stt": "twinkle",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 57.0,
+   "said": "littl little",
+   "stt": "littl little",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.36,
+   "said": "star star",
+   "stt": "star star",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 72.92,
+   "said": "hoa",
+   "stt": "hoa",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.36,
+   "said": "I",
+   "stt": "",
+   "stt_notes": [
+    "lost 'I'"
+   ],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.69,
+   "said": "How",
+   "stt": "How",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 88.96,
+   "said": "hoa",
+   "stt": "hoa",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.9,
+    "target": "Twinkle",
+    "said": "Twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Twinkle"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.2,
+    "target": "twinkle",
+    "said": "tree",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tree"
+   },
+   {
+    "t": 45.69,
+    "target": "twinkle",
+    "said": "twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "twinkle"
+   }
+  ],
+  "2": [
+   {
+    "t": 57.0,
+    "target": "little",
+    "said": "littl little",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "littl little"
+   }
+  ],
+  "3": [
+   {
+    "t": 64.36,
+    "target": "star",
+    "said": "star",
+    "correct": true,
+    "kind": "ok",
+    "stt": "star star"
+   }
+  ],
+  "4": [
+   {
+    "t": 72.92,
+    "target": "How",
+    "said": "hoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa"
+   },
+   {
+    "t": 83.69,
+    "target": "How",
+    "said": "How",
+    "correct": true,
+    "kind": "ok",
+    "stt": "How",
+    "drill": true
+   },
+   {
+    "t": 88.96,
+    "target": "How",
+    "said": "hoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa"
+   }
+  ],
+  "5": [
+   {
+    "t": 77.36,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.47,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 39.83,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... twinkle",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 48.97,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... little star",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 64.39,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... How I wonder what you are! Now you try!",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 77.9,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. How",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 83.74,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! How I wonder what you are! Now you say the whole line.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  }
+ ]
+}
