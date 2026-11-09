@@ -1,0 +1,329 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r1-before-s0",
+ "agent_id": "C4-01",
+ "seed": 701,
+ "persona": {
+  "id": "C4-01",
+  "name": "Meera",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "hi-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.9,
+  "patience": 5.0,
+  "attention_span_s": 300
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-bagicha",
+  "title": "मीना का बगीचा",
+  "tags": [
+   "Hindi",
+   "Grade 3-4"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_SELF_APPROVED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 22.04,
+    "details": [
+     "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."
+    ],
+    "evidence": [
+     {
+      "t": 22.04,
+      "grade": "Class 4"
+     }
+    ],
+    "child_quote": "There was a box for parents, so I just ticked it myself.",
+    "child_severity": "risk"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 28.85,
+    "details": [
+     "8 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 28.85,
+      "said": "मीना के घड़ के पीछे एक बगीचा है",
+      "heard": ""
+     },
+     {
+      "t": 35.1,
+      "said": "मीणा के घर के पीछे",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.94,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 36.94,
+      "talk_s": 12.7
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 48.87,
+    "details": [
+     "Buddy started talking 0.8 s into a planned 2.47 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 1.95 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 48.87,
+      "paused_s": 0.8,
+      "planned_s": 2.47,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "और पीले फूल"
+     },
+     {
+      "t": 94.13,
+      "paused_s": 2.1,
+      "planned_s": 1.95,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "हैं।"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 106.89,
+    "details": [
+     "Read 'पौधों' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 106.89,
+      "word": "पौधों",
+      "child_said": "पौधों",
+      "speech_model_wrote": "मीना हर सुबह पौदों कौ पानी देती है"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 3.45,
+  "frustration_events": [
+   {
+    "t": 28.85,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 28.85,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 35.1,
+    "kind": "unheard_speech",
+    "frustration": 1.45
+   },
+   {
+    "t": 35.1,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 36.94,
+    "kind": "long_wait",
+    "frustration": 1.7
+   },
+   {
+    "t": 43.84,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 46.63,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 48.87,
+    "kind": "interrupted_pause",
+    "frustration": 2.4,
+    "paused_s": 0.8
+   },
+   {
+    "t": 55.8,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 73.99,
+    "kind": "progress",
+    "frustration": 2.1
+   },
+   {
+    "t": 92.03,
+    "kind": "progress",
+    "frustration": 1.95
+   },
+   {
+    "t": 94.13,
+    "kind": "interrupted_pause",
+    "frustration": 2.95,
+    "paused_s": 2.1
+   },
+   {
+    "t": 97.72,
+    "kind": "progress",
+    "frustration": 2.8
+   },
+   {
+    "t": 97.83,
+    "kind": "praise",
+    "frustration": 2.4
+   },
+   {
+    "t": 106.09,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 106.89,
+    "kind": "false_correction",
+    "frustration": 3.45,
+    "word": "पौधों"
+   },
+   {
+    "t": 123.59,
+    "kind": "progress",
+    "frustration": 3.3
+   },
+   {
+    "t": 123.64,
+    "kind": "praise",
+    "frustration": 2.9
+   },
+   {
+    "t": 130.94,
+    "kind": "progress",
+    "frustration": 2.75
+   },
+   {
+    "t": 146.59,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 146.69,
+    "kind": "praise",
+    "frustration": 2.2
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 0,
+  "nav_clicks": 5,
+  "praise_heard": 3,
+  "interruptions": 2,
+  "unheard_words": 13,
+  "buddy_talk_s": 73.6,
+  "child_talk_s": 33.2,
+  "tired_said": false,
+  "time_to_text_s": 6.8,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 1.0,
+  "intro_s": 15.4,
+  "session_s": 128.3,
+  "words_total": 30,
+  "words_attempted": 30,
+  "words_said_wrong": 0,
+  "corrections": 4,
+  "buddy_turns": 14,
+  "stall_prompts": 2,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 22,
+  "words_helped": 8,
+  "words_to_practise": [
+   "लाल",
+   "खिलते",
+   "पौधों",
+   "प्यार"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 2,
+  "corrections": 4,
+  "seconds": 125.0,
+  "words_per_minute": 14.4
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-summary.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 72,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,36 @@
+{"t": 19.63, "type": "ready", "message": null}
+{"t": 19.63, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 38.7, "type": "speech"}
+{"t": 42.2, "type": "heard", "text": "મારી શાળા બહુ સુંદર છે છે"}
+{"t": 42.2, "type": "speech"}
+{"t": 43.77, "type": "speech"}
+{"t": 47.52, "type": "heard", "text": "શાળામાં એક એક મોઠું મેદાન છૈ છે"}
+{"t": 47.53, "type": "speech"}
+{"t": 47.6, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મોટું", "spans": [[7, 8]]}
+{"t": 54.08, "type": "speech"}
+{"t": 55.35, "type": "heard", "text": "મોટું"}
+{"t": 55.35, "type": "speech"}
+{"t": 55.35, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! શાળામાં એક મોટું મેદાન છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[5, 10]]}
+{"t": 63.8, "type": "speech"}
+{"t": 66.43, "type": "heard", "text": "શાળામાં એ મોટું મેદાન"}
+{"t": 66.43, "type": "speech"}
+{"t": 67.16, "type": "speech"}
+{"t": 68.31, "type": "heard", "text": "છે"}
+{"t": 68.31, "type": "speech"}
+{"t": 68.5, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[6, 7]]}
+{"t": 74.27, "type": "speech"}
+{"t": 75.39, "type": "heard", "text": "એક"}
+{"t": 75.53, "type": "speech"}
+{"t": 75.61, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! શાળામાં એક મોટું મેદાન છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[5, 10]]}
+{"t": 83.64, "type": "speech"}
+{"t": 86.64, "type": "heard", "text": "શાળામાં એક મોટું મેદાન છે"}
+{"t": 86.66, "type": "speech"}
+{"t": 86.69, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 90.35, "type": "speech"}
+{"t": 93.85, "type": "heard", "text": "અમે ત્યાં રોજ સાથે રમીએ છીએ"}
+{"t": 94.41, "type": "speech"}
+{"t": 94.92, "type": "speech"}
+{"t": 99.51, "type": "heard", "text": "મારા શિક્ષક અમણે અમને વાર્તા કહે છે"}
+{"t": 99.51, "type": "speech"}
+{"t": 99.51, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 99.51, "type": "summary", "summary": {"words_total": 22, "words_read": 20, "words_helped": 2, "words_to_practise": ["એક", "મોટું"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 2, "seconds": 79.2, "words_per_minute": 16.7}}
