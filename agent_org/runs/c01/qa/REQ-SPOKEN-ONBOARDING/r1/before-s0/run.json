@@ -1,0 +1,26 @@
+{
+ "cycle": "c01/qa/REQ-SPOKEN-ONBOARDING/r1",
+ "label": "before-s0",
+ "app_root": "/home/claude/rishiii57/rb-worktrees/qa-base-0706bcae",
+ "app_commit": "0706bca",
+ "personas": [
+  "L01",
+  "L02",
+  "L03",
+  "L04",
+  "C1-03",
+  "C1-05",
+  "C1-06",
+  "C2-02",
+  "C2-05",
+  "C3-02",
+  "C3-03",
+  "C3-05",
+  "C4-03",
+  "C4-05"
+ ],
+ "parallel": 4,
+ "seed": null,
+ "seed_offset": 0,
+ "started": "2026-11-09T19:13:26"
+}
