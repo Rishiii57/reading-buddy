@@ -1,0 +1,12 @@
+{"t": 2.72, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.77, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.28, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.32, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 6.5, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 10.55, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.07, "kind": "session_started", "tries": 1}
+{"t": 26.73, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 37.94, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.91 s thinking pause."}
+{"t": 41.34, "kind": "off_task_tap", "target": "Library"}
+{"t": 41.35, "kind": "tap", "target": "Library", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 42.14, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Library' left the reading page."}

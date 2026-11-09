@@ -50,9 +50,19 @@
      "event": "returned_to_engineering",
      "at": "2026-11-09T21:29:49",
      "note": "QA round 2: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T21:30:16",
+     "note": "branch refreshed onto integration af436556"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T21:30:56",
+     "note": "submitted c78f125f: Round 3: refreshed onto integration (consent removal included); pre-primary rhymes use lenient echo reading (slips marked 'helped', no word drills; mid-line slip -> help, not correction) and a 4.5 s mid-line wait"
     }
    ],
-   "status": "returned_to_engineering",
+   "status": "awaiting_qa",
    "priority": "P0",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },
