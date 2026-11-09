@@ -285,7 +285,7 @@
           <article class="about-card">
             <h2><svg class="icon"><use href="#i-shield"/></svg> Privacy and limits</h2>
             <ul>
-              <li>A parent or guardian is asked for permission before the microphone is used.</li>
+              <li>The browser asks before the microphone is used for the first time.</li>
               <li>While a reading session runs, microphone audio is streamed to Gnani's Prisma speech-to-text service to turn it into text. Buddy's voice comes from Gnani's Timbre text-to-speech. This app does not save the audio or the transcript. (Testers can switch on saving for consenting team members only.)</li>
               <li>The microphone is on only during a session, is muted while Buddy speaks, and stops as soon as the session ends.</li>
               <li>Buddy never asks for a name, address, school or any personal details.</li>
@@ -297,20 +297,6 @@
     </section>
   </main>
 
-  <dialog id="consentDlg" aria-labelledby="consentTitle">
-    <h2 id="consentTitle">For grown-ups</h2>
-    <p>Reading Buddy listens through the microphone so it can help your child read.</p>
-    <ul>
-      <li>While reading, the audio is sent to Gnani's speech service to turn it into text.</li>
-      <li>This app does not save the audio or the transcript.</li>
-      <li>The microphone stops as soon as the reading ends.</li>
-    </ul>
-    <label class="consent-check"><input type="checkbox" id="consentBox"> I am the child's parent or guardian and I agree.</label>
-    <div class="dlg-actions">
-      <button class="btn btn--white" id="consentNo">Not now</button>
-      <button class="btn btn--sun" id="consentYes" disabled>Allow microphone</button>
-    </div>
-  </dialog>
 
   <div class="toast" id="toast" role="alert" hidden></div>
 

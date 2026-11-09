@@ -147,11 +147,11 @@ def refresh(req: str):
 
 def merge(req: str):
     item = backlog()["items"].get(rc_of(req), {})
-    if item.get("status") != "validated_fixed":
-        raise SystemExit(f"{req} has not been validated by QA (status: {item.get('status')}); not merging.")
+    if item.get("status") not in ("validated_fixed", "accepted_by_human"):
+        raise SystemExit(f"{req} has not been validated by QA or accepted by a human (status: {item.get('status')}); not merging.")
     rec = record(req)
     sh(["git", "-c", "user.name=Reading Buddy Integration (AI)", "-c", "user.email=noreply@anthropic.com",
-        "merge", "--no-ff", "-q", "-m", f"Merge {req} (QA validated)\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
+        "merge", "--no-ff", "-q", "-m", f"Merge {req} ({'QA validated' if item.get('status') == 'validated_fixed' else 'accepted by human directive; QA returned it'})\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>",
         rec["branch"]])
     rec["merged"] = {"at": time.strftime("%Y-%m-%dT%H:%M:%S"), "into": sh(["git", "rev-parse", "--abbrev-ref", "HEAD"]),
                      "commit": sh(["git", "rev-parse", "HEAD"])}

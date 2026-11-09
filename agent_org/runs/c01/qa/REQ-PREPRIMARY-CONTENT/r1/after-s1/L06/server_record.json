@@ -1,0 +1,157 @@
+{
+ "id": "20261109-205543-0bce8e",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 1,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 33.5,
+  "words_per_minute": 5.4
+ },
+ "log": [
+  {
+   "t": 0.18,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.944,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.02,
+   "event": "transcript",
+   "text": "મામાનું"
+  },
+  {
+   "t": 19.02,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.114,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 21.114,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 23.513,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.943,
+   "event": "pause"
+  },
+  {
+   "t": 27.428,
+   "event": "resume"
+  },
+  {
+   "t": 30.276,
+   "event": "transcript",
+   "text": "ઘર"
+  },
+  {
+   "t": 30.276,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 32.529,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 32.529,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.961,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.02,
+   "type": "transcript",
+   "text": "મામાનું",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 28.222,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.276,
+   "type": "transcript",
+   "text": "ઘર",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાનું",
+   "heard": "મામાનું",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "ઘર",
+   "heard": "ઘર",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 36
+}

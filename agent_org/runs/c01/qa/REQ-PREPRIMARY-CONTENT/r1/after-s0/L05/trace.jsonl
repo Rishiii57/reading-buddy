@@ -1,0 +1,18 @@
+{"t": 4.12, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
+{"t": 4.32, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.83, "kind": "tap", "target": "हरा समंदर Green Sea Hindi Nursery Rhyme ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.94, "kind": "opened_text", "hash": "#/read/hi-samandar", "title": "हरा समंदर", "tags": ["Hindi", "Nursery"], "words": 9, "lines": 2}
+{"t": 13.64, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 13.66, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.96, "kind": "session_started", "tries": 1}
+{"t": 47.99, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 5.36 s thinking pause."}
+{"t": 58.24, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.8 s into a planned 5.69 s thinking pause."}
+{"t": 66.71, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 67.96, "kind": "tap_mic_to_talk"}
+{"t": 68.0, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 69.22, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 70.9, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 71.82, "kind": "resumed", "after_s": 1.5}
+{"t": 86.27, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 3.23 s thinking pause."}
+{"t": 86.28, "kind": "abandon", "why": "frustration", "frustration": 4.75}
+{"t": 86.57, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

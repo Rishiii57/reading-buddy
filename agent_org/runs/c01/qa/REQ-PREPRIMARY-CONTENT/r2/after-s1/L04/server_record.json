@@ -1,0 +1,162 @@
+{
+ "id": "20261109-212636-ab5405",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 2,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 32.3,
+  "words_per_minute": 7.4
+ },
+ "log": [
+  {
+   "t": 0.083,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.177,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.565,
+   "event": "transcript",
+   "text": "Twinkle twinkle"
+  },
+  {
+   "t": 15.565,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 18.994,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 18.994,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 21.991,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 24.614,
+   "event": "transcript",
+   "text": "little star"
+  },
+  {
+   "t": 24.614,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 24.614,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 24.614,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 30.321,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.272,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.565,
+   "type": "transcript",
+   "text": "Twinkle twinkle",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 22.26,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.614,
+   "type": "transcript",
+   "text": "little star",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle twinkle",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.87
+  },
+  {
+   "text": "Twinkle to",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.87
+  },
+  {
+   "text": "Twinkle twinkle",
+   "heard": "Twinkle twinkle",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "little star",
+   "heard": "little star",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 45
+}

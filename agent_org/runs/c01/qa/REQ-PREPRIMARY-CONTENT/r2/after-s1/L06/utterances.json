@@ -1,0 +1,291 @@
+{
+ "utterances": [
+  {
+   "t": 30.56,
+   "said": "મામાનું",
+   "stt": "મામાનું",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.63,
+   "said": "ઘર",
+   "stt": "ઘર",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.86,
+   "said": "કેટલે",
+   "stt": "કેટલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 51.06,
+   "said": "કેટલે",
+   "stt": "કેટલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.83,
+   "said": "દીબો",
+   "stt": "દીબો",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 63.8,
+   "said": "બળે",
+   "stt": "બળે",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 69.71,
+   "said": "એટલે",
+   "stt": "એટલે",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.17,
+   "said": "દીબો",
+   "stt": "ધીબો",
+   "stt_notes": [
+    "'દીબો' heard as 'ધીબો'"
+   ],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 82.78,
+   "said": "દીબો",
+   "stt": "દીબો",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.56,
+    "target": "મામાનું",
+    "said": "મામાનું",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાનું"
+   }
+  ],
+  "1": [
+   {
+    "t": 40.63,
+    "target": "ઘર",
+    "said": "ઘર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઘર"
+   }
+  ],
+  "2": [
+   {
+    "t": 47.86,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "કેટલે"
+   },
+   {
+    "t": 51.06,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "કેટલે"
+   }
+  ],
+  "3": [
+   {
+    "t": 58.83,
+    "target": "દીવો",
+    "said": "દીબો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીબો"
+   },
+   {
+    "t": 77.17,
+    "target": "દીવો",
+    "said": "દીબો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ધીબો",
+    "drill": true
+   },
+   {
+    "t": 82.78,
+    "target": "દીવો",
+    "said": "દીબો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીબો",
+    "drill": true
+   }
+  ],
+  "4": [
+   {
+    "t": 63.8,
+    "target": "બળે",
+    "said": "બળે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "બળે"
+   }
+  ],
+  "5": [
+   {
+    "t": 69.71,
+    "target": "એટલે",
+    "said": "એટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એટલે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.76,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 34.01,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ઘર કેટલે",
+   "spans": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 44.2,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... કેટલે",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 51.09,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "સાંભળ... દીવો બળે એટલે. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 69.81,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. દીવો",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 77.8,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "દીવો",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 82.82,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "દીવો",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 87.95,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "દીવો",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,158 @@
+{
+ "id": "20261109-205412-fb91cb",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 4,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 34.5,
+  "words_per_minute": 10.4
+ },
+ "log": [
+  {
+   "t": 0.065,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.093,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.6,
+   "event": "transcript",
+   "text": "એક એક બિલાડી જાડી"
+  },
+  {
+   "t": 21.6,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 21.6,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 21.6,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 25.678,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.046,
+   "event": "pause"
+  },
+  {
+   "t": 27.313,
+   "event": "resume"
+  },
+  {
+   "t": 29.986,
+   "event": "transcript",
+   "text": "તેણે"
+  },
+  {
+   "t": 29.986,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 32.024,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 6,
+   "line": 1
+  },
+  {
+   "t": 32.024,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 34.246,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.005,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.262,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.6,
+   "type": "transcript",
+   "text": "એક એક બિલાડી જાડી",
+   "latency": 120,
+   "audio_duration_ms": 5910,
+   "message": null
+  },
+  {
+   "t": 27.936,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.986,
+   "type": "transcript",
+   "text": "તેણે",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એક એક બિલાડી જાડી",
+   "heard": "એક એક બિલાડી જાડી",
+   "muted_words": 0,
+   "duration_s": 5.91
+  },
+  {
+   "text": "તેણે",
+   "heard": "તેણે",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 59
+}

@@ -1,0 +1,438 @@
+{
+ "id": "20261109-212303-6cfb2a",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 2,
+  "words_helped": 5,
+  "words_to_practise": [
+   "On",
+   "the"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 86.6,
+  "words_per_minute": 4.9
+ },
+ "log": [
+  {
+   "t": 0.223,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.052,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.697,
+   "event": "transcript",
+   "text": "play play"
+  },
+  {
+   "t": 16.697,
+   "event": "uncertain",
+   "text": "play play"
+  },
+  {
+   "t": 16.697,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 20.422,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.082,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 22.082,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.555,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 25.555,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 30.595,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.976,
+   "event": "transcript",
+   "text": "patter falls the"
+  },
+  {
+   "t": 33.976,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 38.892,
+   "event": "transcript",
+   "text": "red"
+  },
+  {
+   "t": 41.812,
+   "event": "transcript",
+   "text": "rain"
+  },
+  {
+   "t": 41.812,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 41.812,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 48.215,
+   "event": "transcript",
+   "text": "oa tha roof window pig"
+  },
+  {
+   "t": 48.215,
+   "event": "uncertain",
+   "text": "oa tha roof window pig"
+  },
+  {
+   "t": 48.215,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 52.966,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.577,
+   "event": "transcript",
+   "text": "oa"
+  },
+  {
+   "t": 54.577,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 59.839,
+   "event": "transcript",
+   "text": "tha"
+  },
+  {
+   "t": 59.839,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 65.782,
+   "event": "transcript",
+   "text": "red"
+  },
+  {
+   "t": 70.422,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    5,
+    6
+   ]
+  },
+  {
+   "t": 70.422,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 80.621,
+   "event": "transcript",
+   "text": "On om"
+  },
+  {
+   "t": 80.621,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 80.621,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.385,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.697,
+   "type": "transcript",
+   "text": "play play",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 20.626,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.082,
+   "type": "transcript",
+   "text": "Pitter",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 30.826,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.976,
+   "type": "transcript",
+   "text": "patter falls the",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 37.295,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.892,
+   "type": "transcript",
+   "text": "red",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 40.36,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.812,
+   "type": "transcript",
+   "text": "rain",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 43.14,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.215,
+   "type": "transcript",
+   "text": "oa tha roof window pig",
+   "latency": 120,
+   "audio_duration_ms": 4370,
+   "message": null
+  },
+  {
+   "t": 53.125,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.577,
+   "type": "transcript",
+   "text": "oa",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 58.388,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.839,
+   "type": "transcript",
+   "text": "tha",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 64.298,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.782,
+   "type": "transcript",
+   "text": "red",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 78.331,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.621,
+   "type": "transcript",
+   "text": "On om",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "play play",
+   "heard": "play play",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "Pitter",
+   "heard": "Pitter",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "patter falls the",
+   "heard": "patter falls the",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "red",
+   "heard": "red",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "rain",
+   "heard": "rain",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "oa tha roof window pig",
+   "heard": "oa tha roof window pig",
+   "muted_words": 0,
+   "duration_s": 4.37
+  },
+  {
+   "text": "oa",
+   "heard": "oa",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "tha",
+   "heard": "tha",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "red",
+   "heard": "red",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "On om",
+   "heard": "On om",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 84
+}

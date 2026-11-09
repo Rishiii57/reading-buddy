@@ -1,0 +1,111 @@
+{
+ "utterances": [
+  {
+   "t": 31.09,
+   "said": "red",
+   "stt": "red",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.37,
+   "said": "has",
+   "stt": "has",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.06,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.4,
+   "said": "mum mango",
+   "stt": "mum mango",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.09,
+    "target": "Ravi",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "red"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.37,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has"
+   }
+  ],
+  "2": [
+   {
+    "t": 41.06,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a"
+   }
+  ],
+  "3": [
+   {
+    "t": 46.4,
+    "target": "mango",
+    "said": "mum mango",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "mum mango"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.99,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 46.94,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

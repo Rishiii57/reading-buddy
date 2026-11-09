@@ -1,0 +1,465 @@
+{
+ "id": "20261109-212617-655dc5",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 1,
+  "words_to_practise": [
+   "जल"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 100.6,
+  "words_per_minute": 1.2
+ },
+ "log": [
+  {
+   "t": 0.42,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.999,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.497,
+   "event": "transcript",
+   "text": "मछलि"
+  },
+  {
+   "t": 18.497,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 24.611,
+   "event": "transcript",
+   "text": "झल झल"
+  },
+  {
+   "t": 24.611,
+   "event": "uncertain",
+   "text": "झल झल"
+  },
+  {
+   "t": 24.611,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 28.464,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.877,
+   "event": "transcript",
+   "text": "झल"
+  },
+  {
+   "t": 30.877,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 34.372,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 34.372,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 43.311,
+   "event": "silence",
+   "word": 1
+  },
+  {
+   "t": 47.241,
+   "event": "transcript",
+   "text": "जल"
+  },
+  {
+   "t": 47.241,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 47.241,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 53.974,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 57.838,
+   "event": "transcript",
+   "text": "मछलि झल"
+  },
+  {
+   "t": 57.838,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 59.467,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 61.284,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 61.284,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 69.23,
+   "event": "transcript",
+   "text": "जल जल"
+  },
+  {
+   "t": 69.23,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 69.23,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 75.58,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 77.972,
+   "event": "transcript",
+   "text": "मछलि"
+  },
+  {
+   "t": 77.972,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 84.47,
+   "event": "transcript",
+   "text": "झल"
+  },
+  {
+   "t": 84.47,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 89.757,
+   "event": "transcript",
+   "text": "रानी"
+  },
+  {
+   "t": 93.313,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 93.313,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 99.451,
+   "event": "transcript",
+   "text": "झल"
+  },
+  {
+   "t": 99.451,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "झल"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.373,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.497,
+   "type": "transcript",
+   "text": "मछलि",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 21.131,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.611,
+   "type": "transcript",
+   "text": "झल झल",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 28.82,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.877,
+   "type": "transcript",
+   "text": "झल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 45.188,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.241,
+   "type": "transcript",
+   "text": "जल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 54.357,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.838,
+   "type": "transcript",
+   "text": "मछलि झल",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 65.748,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.23,
+   "type": "transcript",
+   "text": "जल जल",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 75.92,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.972,
+   "type": "transcript",
+   "text": "मछलि",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 80.556,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 84.47,
+   "type": "transcript",
+   "text": "झल",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 87.706,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.757,
+   "type": "transcript",
+   "text": "रानी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 97.393,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 99.451,
+   "type": "transcript",
+   "text": "झल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछलि",
+   "heard": "मछलि",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "झल झल",
+   "heard": "झल झल",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "झल",
+   "heard": "झल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "जल",
+   "heard": "जल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मछलि झल",
+   "heard": "मछलि झल",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "जल जल",
+   "heard": "जल जल",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "मछलि",
+   "heard": "मछलि",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "झल",
+   "heard": "झल",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "रानी",
+   "heard": "रानी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "झल",
+   "heard": "झल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 75
+}

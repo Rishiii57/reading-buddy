@@ -1,0 +1,74 @@
+{
+ "utterances": [
+  {
+   "t": 53.2,
+   "said": "um",
+   "stt": "um",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.64,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 53.2,
+    "target": "Jack",
+    "said": "um",
+    "correct": false,
+    "kind": "sub",
+    "stt": "um"
+   }
+  ],
+  "1": [
+   {
+    "t": 58.64,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 28.73,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Jack and Jill Listen carefully to how I read it. Jack and Jill went up the hill Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 58.85,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... Jack and Jill",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ ]
+}

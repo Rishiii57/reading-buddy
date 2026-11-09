@@ -1,0 +1,66 @@
+{
+ "id": "20261109-205524-9a15e1",
+ "text_id": "en-rainrain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 3,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 17.6,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.115,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.737,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 14.405,
+   "event": "pause"
+  },
+  {
+   "t": 15.959,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Rain rain",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.87
+  },
+  {
+   "text": "Rain",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 17
+}

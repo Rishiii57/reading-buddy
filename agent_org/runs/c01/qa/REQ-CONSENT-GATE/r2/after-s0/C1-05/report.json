@@ -1,0 +1,296 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-after-s0",
+ "agent_id": "C1-05",
+ "seed": 1459,
+ "persona": {
+  "id": "C1-05",
+  "name": "Om",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-patang",
+  "title": "મારો પતંગ",
+  "tags": [
+   "Gujarati",
+   "Grade 1"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 9.26,
+    "details": [
+     "Wanted hi-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 9.26,
+      "wanted": "hi-IN",
+      "got": "gu-IN",
+      "title": "મારો પતંગ"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 16.67,
+    "details": [
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 16.67,
+      "kind": "intro",
+      "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ"
+     },
+     {
+      "t": 36.61,
+      "kind": "fix_word",
+      "said": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારો"
+     },
+     {
+      "t": 41.97,
+      "kind": "fix_next",
+      "said": "હા! ખૂબ સરસ! પતંગ"
+     },
+     {
+      "t": 48.51,
+      "kind": "repeat_line",
+      "said": "હા! ખૂબ સરસ! મારો પતંગ લાલ ને પીળો હવે તું આખી પંક્તિ બોલ."
+     },
+     {
+      "t": 68.76,
+      "kind": "fix_again",
+      "said": "લાલ"
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 24.45,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 24.45,
+      "said": "માડો",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.82,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 28.82,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 74.73,
+    "details": [
+     "Asked to say 'લાલ' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 74.73,
+      "word": "લાલ",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 4.55,
+  "frustration_events": [
+   {
+    "t": 16.67,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 24.45,
+    "kind": "unheard_speech",
+    "frustration": 1.4
+   },
+   {
+    "t": 28.82,
+    "kind": "long_wait",
+    "frustration": 1.8
+   },
+   {
+    "t": 35.76,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 36.61,
+    "kind": "not_understood",
+    "frustration": 2.25,
+    "say_kind": "fix_word"
+   },
+   {
+    "t": 41.24,
+    "kind": "praise",
+    "frustration": 1.85
+   },
+   {
+    "t": 41.97,
+    "kind": "not_understood",
+    "frustration": 2.45,
+    "say_kind": "fix_next"
+   },
+   {
+    "t": 48.51,
+    "kind": "not_understood",
+    "frustration": 3.05,
+    "say_kind": "repeat_line"
+   },
+   {
+    "t": 57.03,
+    "kind": "progress",
+    "frustration": 2.9
+   },
+   {
+    "t": 61.55,
+    "kind": "progress",
+    "frustration": 2.75
+   },
+   {
+    "t": 68.76,
+    "kind": "not_understood",
+    "frustration": 3.35,
+    "say_kind": "fix_again"
+   },
+   {
+    "t": 74.13,
+    "kind": "dead_click",
+    "frustration": 3.85,
+    "target": "Listening"
+   },
+   {
+    "t": 74.73,
+    "kind": "drill_repeat",
+    "frustration": 4.55,
+    "word": "લાલ"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 1,
+  "buddy_talk_s": 33.5,
+  "child_talk_s": 7.1,
+  "tired_said": false,
+  "time_to_text_s": 3.9,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 7.1,
+  "intro_s": 15.3,
+  "session_s": 64.1,
+  "words_total": 16,
+  "words_attempted": 5,
+  "words_said_wrong": 1,
+  "corrections": 2,
+  "buddy_turns": 8,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 2,
+  "words_helped": 3,
+  "words_to_practise": [
+   "મારો",
+   "પતંગ",
+   "લાલ"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 63.4,
+  "words_per_minute": 4.7
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 64,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

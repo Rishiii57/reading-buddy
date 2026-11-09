@@ -1,0 +1,330 @@
+{
+ "utterances": [
+  {
+   "t": 42.71,
+   "said": "मीना मीना के",
+   "stt": "मीना मीना के",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 46.23,
+   "said": "मीणा के",
+   "stt": "के",
+   "stt_notes": [
+    "lost 'मीणा'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.37,
+   "said": "घड़",
+   "stt": "घढ़",
+   "stt_notes": [
+    "'घड़' heard as 'घढ़'"
+   ],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.25,
+   "said": "मीना के",
+   "stt": "मीना के",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 68.49,
+   "said": "घड़",
+   "stt": "घड़",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.92,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.87,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 85.11,
+   "said": "घड़ घड़",
+   "stt": "घड़ घड़",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 87.57,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 90.64,
+   "said": "घड़",
+   "stt": "घड़",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 42.71,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 46.23,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "के"
+   },
+   {
+    "t": 65.25,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना के"
+   }
+  ],
+  "1": [
+   {
+    "t": 42.71,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 46.23,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "के"
+   },
+   {
+    "t": 65.25,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना के"
+   }
+  ],
+  "2": [
+   {
+    "t": 53.37,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घढ़"
+   },
+   {
+    "t": 68.49,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घड़"
+   },
+   {
+    "t": 77.87,
+    "target": "घर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 85.11,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घड़ घड़",
+    "drill": true
+   },
+   {
+    "t": 87.57,
+    "target": "घर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 90.64,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घड़",
+    "drill": true
+   }
+  ],
+  "3": [
+   {
+    "t": 53.37,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "घढ़"
+   },
+   {
+    "t": 68.49,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "घड़"
+   },
+   {
+    "t": 70.92,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 25.43,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 59.24,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मीना के घर",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 71.99,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 80.41,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 85.38,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 90.66,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,195 @@
+{
+ "utterances": [
+  {
+   "t": 41.81,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.93,
+   "said": "गरझे",
+   "stt": "गरझे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.73,
+   "said": "गरजे",
+   "stt": "गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 72.22,
+   "said": "बाधल गड़जे बाड़िश",
+   "stt": "बाधल गड़जे बाड़िश",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 78.48,
+   "said": "बाधल",
+   "stt": "बाधल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 41.81,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   },
+   {
+    "t": 72.22,
+    "target": "बादल",
+    "said": "बाधल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गड़जे बाड़िश"
+   },
+   {
+    "t": 78.48,
+    "target": "बादल",
+    "said": "बाधल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल"
+   }
+  ],
+  "1": [
+   {
+    "t": 48.93,
+    "target": "गरजे",
+    "said": "गरझे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गरझे"
+   },
+   {
+    "t": 58.73,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गरजे",
+    "drill": true
+   },
+   {
+    "t": 72.22,
+    "target": "गरजे",
+    "said": "गड़जे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गड़जे बाड़िश"
+   }
+  ],
+  "2": [
+   {
+    "t": 72.22,
+    "target": "बारिश",
+    "said": "बाड़िश",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल गड़जे बाड़िश"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 24.15,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 43.94,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 51.15,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 58.77,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 72.32,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 80.61,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

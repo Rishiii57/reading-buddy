@@ -1,0 +1,103 @@
+{
+ "id": "20261109-205356-a98673",
+ "text_id": "en-jackjill",
+ "mode": "mic",
+ "summary": {
+  "words_total": 25,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 31.1,
+  "words_per_minute": 5.8
+ },
+ "log": [
+  {
+   "t": 0.109,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.326,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.02,
+   "event": "pause"
+  },
+  {
+   "t": 21.7,
+   "event": "resume"
+  },
+  {
+   "t": 24.642,
+   "event": "transcript",
+   "text": "um"
+  },
+  {
+   "t": 30.265,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 30.265,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 22.59,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.642,
+   "type": "transcript",
+   "text": "um",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "um",
+   "heard": "um",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 53
+}

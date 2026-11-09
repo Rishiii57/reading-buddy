@@ -1,0 +1,636 @@
+{
+ "id": "20261109-212009-808fa2",
+ "text_id": "hi-bagicha",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 5,
+  "words_helped": 10,
+  "words_to_practise": [
+   "उसमें",
+   "लाल",
+   "और",
+   "खिलते"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 1,
+  "seconds": 124.5,
+  "words_per_minute": 7.2
+ },
+ "log": [
+  {
+   "t": 0.02,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.947,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.159,
+   "event": "transcript",
+   "text": "मीना"
+  },
+  {
+   "t": 18.159,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.32,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 21.32,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 24.845,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 28.718,
+   "event": "transcript",
+   "text": "के घर"
+  },
+  {
+   "t": 28.718,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 31.782,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 31.782,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 35.554,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.226,
+   "event": "pause"
+  },
+  {
+   "t": 47.708,
+   "event": "resume"
+  },
+  {
+   "t": 50.548,
+   "event": "transcript",
+   "text": "कै"
+  },
+  {
+   "t": 50.548,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 55.57,
+   "event": "transcript",
+   "text": "पीछे"
+  },
+  {
+   "t": 55.57,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 61.015,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 61.015,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 69.241,
+   "event": "transcript",
+   "text": "बगीचा बगीचा"
+  },
+  {
+   "t": 69.241,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 74.268,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 74.268,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 76.513,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 78.229,
+   "event": "transcript",
+   "text": "मैं थक गया"
+  },
+  {
+   "t": 78.229,
+   "event": "break_requested"
+  },
+  {
+   "t": 79.334,
+   "event": "resume"
+  },
+  {
+   "t": 85.658,
+   "event": "transcript",
+   "text": "हे"
+  },
+  {
+   "t": 85.658,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 85.658,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 94.26,
+   "event": "transcript",
+   "text": "उषमें उषमें लल औड़ पिले"
+  },
+  {
+   "t": 94.26,
+   "event": "uncertain",
+   "text": "उषमें उषमें लल औड पिले"
+  },
+  {
+   "t": 94.26,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 97.685,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 100.04,
+   "event": "transcript",
+   "text": "उषमें"
+  },
+  {
+   "t": 100.04,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 105.898,
+   "event": "transcript",
+   "text": "लल"
+  },
+  {
+   "t": 105.898,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 113.365,
+   "event": "transcript",
+   "text": "पीलै फुल"
+  },
+  {
+   "t": 113.365,
+   "event": "progress",
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 118.736,
+   "event": "transcript",
+   "text": "खिलथे"
+  },
+  {
+   "t": 118.736,
+   "event": "progress",
+   "frm": 13,
+   "to": 14
+  },
+  {
+   "t": 123.469,
+   "event": "transcript",
+   "text": "हैं"
+  },
+  {
+   "t": 123.469,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 123.469,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    9,
+    10,
+    13
+   ]
+  },
+  {
+   "t": 123.469,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.109,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.159,
+   "type": "transcript",
+   "text": "मीना",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 25.237,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.718,
+   "type": "transcript",
+   "text": "के घर",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 48.492,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.548,
+   "type": "transcript",
+   "text": "कै",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 53.519,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.57,
+   "type": "transcript",
+   "text": "पीछे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 58.951,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.015,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 65.663,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.241,
+   "type": "transcript",
+   "text": "बगीचा बगीचा",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 76.608,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.229,
+   "type": "transcript",
+   "text": "मैं थक गया",
+   "latency": 120,
+   "audio_duration_ms": 1200,
+   "message": null
+  },
+  {
+   "t": 83.608,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 85.658,
+   "type": "transcript",
+   "text": "हे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 86.5,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 94.26,
+   "type": "transcript",
+   "text": "उषमें उषमें लल औड़ पिले",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 97.989,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 100.04,
+   "type": "transcript",
+   "text": "उषमें",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 103.849,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 105.898,
+   "type": "transcript",
+   "text": "लल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 109.883,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.365,
+   "type": "transcript",
+   "text": "पीलै फुल",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 116.685,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 118.736,
+   "type": "transcript",
+   "text": "खिलथे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 121.418,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.469,
+   "type": "transcript",
+   "text": "हैं",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मीना",
+   "heard": "मीना",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "के घर",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 3.06
+  },
+  {
+   "text": "के घर",
+   "heard": "के घर",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "कै",
+   "heard": "कै",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "पीछे",
+   "heard": "पीछे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बगीचा बगीचा",
+   "heard": "बगीचा बगीचा",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मैं थक गया",
+   "heard": "मैं थक गया",
+   "muted_words": 0,
+   "duration_s": 1.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "हे",
+   "heard": "हे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "उषमें उषमें लल औड़ पिले",
+   "heard": "उषमें उषमें लल औड़ पिले",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "उषमें",
+   "heard": "उषमें",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "लल",
+   "heard": "लल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "पीलै फुल",
+   "heard": "पीलै फुल",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "खिलथे",
+   "heard": "खिलथे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "हैं",
+   "heard": "हैं",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 110
+}

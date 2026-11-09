@@ -16,7 +16,8 @@ STATE = Path(__file__).resolve().parent / "state"
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("req")
-    ap.add_argument("decision", choices=["approve", "reject", "defer"])
+    ap.add_argument("decision", choices=["approve", "reject", "defer", "accept"],
+                    help="accept = take a change QA returned, on a human's explicit directive (recorded, never silent)")
     ap.add_argument("--by", required=True)
     ap.add_argument("--note", required=True)
     ap.add_argument("--scope", help="the human changed what is to be built")
@@ -24,7 +25,9 @@ def main(argv=None):
     rc_id = "RC-" + a.req.removeprefix("REQ-")
     b = json.loads((STATE / "backlog.json").read_text())
     item = b["items"][rc_id]
-    status = {"approve": "approved", "reject": "rejected", "defer": "deferred"}[a.decision]
+    status = {"approve": "approved", "reject": "rejected", "defer": "deferred", "accept": "accepted_by_human"}[a.decision]
+    if a.decision == "accept" and item.get("status") != "returned_to_engineering":
+        raise SystemExit("accept is only for a change QA returned; it records a human override of QA")
     at = time.strftime("%Y-%m-%dT%H:%M:%S")
     item["status"] = status
     if a.scope:

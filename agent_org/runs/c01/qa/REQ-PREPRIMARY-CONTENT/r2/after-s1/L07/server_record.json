@@ -1,0 +1,363 @@
+{
+ "id": "20261109-212724-cdbe4f",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [
+   "How"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 1,
+  "seconds": 75.6,
+  "words_per_minute": 4.0
+ },
+ "log": [
+  {
+   "t": 0.11,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.283,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.765,
+   "event": "transcript",
+   "text": "Twinkle"
+  },
+  {
+   "t": 16.765,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 22.063,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 25.117,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 25.117,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 28.838,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.342,
+   "event": "transcript",
+   "text": "twinkle"
+  },
+  {
+   "t": 31.342,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 34.832,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 34.832,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 37.242,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.865,
+   "event": "transcript",
+   "text": "littl little"
+  },
+  {
+   "t": 42.865,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 50.222,
+   "event": "transcript",
+   "text": "star star"
+  },
+  {
+   "t": 50.222,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 50.222,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 50.222,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 56.453,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.79,
+   "event": "transcript",
+   "text": "hoa"
+  },
+  {
+   "t": 58.79,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 63.747,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 63.747,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 69.554,
+   "event": "transcript",
+   "text": "How"
+  },
+  {
+   "t": 69.554,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 69.554,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.725,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.765,
+   "type": "transcript",
+   "text": "Twinkle",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 20.003,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.063,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 29.19,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.342,
+   "type": "transcript",
+   "text": "twinkle",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 39.385,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.865,
+   "type": "transcript",
+   "text": "littl little",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 46.23,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.222,
+   "type": "transcript",
+   "text": "star star",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 56.735,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.79,
+   "type": "transcript",
+   "text": "hoa",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 67.498,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.554,
+   "type": "transcript",
+   "text": "How",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle",
+   "heard": "Twinkle",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "twinkle",
+   "heard": "twinkle",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "littl little",
+   "heard": "littl little",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "star star",
+   "heard": "star star",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "hoa",
+   "heard": "hoa",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "How",
+   "heard": "How",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "hoa",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 98
+}

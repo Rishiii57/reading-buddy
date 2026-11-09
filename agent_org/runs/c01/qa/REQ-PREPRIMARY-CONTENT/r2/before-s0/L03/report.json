@@ -1,0 +1,274 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r2-before-s0",
+ "agent_id": "L03",
+ "seed": 1170,
+ "persona": {
+  "id": "L03",
+  "name": "Aadhya",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "discover_and_start",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-shala",
+  "title": "મારી શાળા",
+  "tags": [
+   "Gujarati",
+   "Grade 3-4"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 8.4,
+    "details": [
+     "LKG child landed on a 'Grade 3-4' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 8.4,
+      "title": "મારી શાળા",
+      "grade_tag": "Grade 3-4"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "CONSENT_BLOCKS_CHILD",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 15.11,
+    "details": [
+     "A written grown-ups-only box appeared; the child could not read it and could not start.",
+     "A written grown-ups-only box appeared; the child could not read it and could not start."
+    ],
+    "evidence": [
+     {
+      "t": 15.11,
+      "grade": "LKG",
+      "tapped": "Not now"
+     },
+     {
+      "t": 19.51,
+      "grade": "LKG",
+      "tapped": "Not now"
+     }
+    ],
+    "child_quote": "A box came and I didn't know what it said.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 34.69,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 34.69,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 53.12,
+    "details": [
+     "Buddy started talking 3.1 s into a planned 3.06 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 53.12,
+      "paused_s": 3.1,
+      "planned_s": 3.06,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "શાળા બહુ સુંદર"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 92.79,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 92.79,
+      "said": "શુંદર છૈ",
+      "heard": "છૈ"
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'છે' as 'છૈ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "છે",
+      "child_said": "છૈ",
+      "kind": "sub",
+      "speech_model_wrote": "શુંદર છૈ"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.45,
+  "frustration_events": [
+   {
+    "t": 15.11,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "consent dialog"
+   },
+   {
+    "t": 19.51,
+    "kind": "not_understood",
+    "frustration": 1.2,
+    "what": "consent dialog"
+   },
+   {
+    "t": 34.69,
+    "kind": "long_wait",
+    "frustration": 1.6
+   },
+   {
+    "t": 40.15,
+    "kind": "dead_click",
+    "frustration": 2.1,
+    "target": "Listening"
+   },
+   {
+    "t": 49.82,
+    "kind": "progress",
+    "frustration": 1.95
+   },
+   {
+    "t": 53.12,
+    "kind": "interrupted_pause",
+    "frustration": 2.95,
+    "paused_s": 3.1
+   },
+   {
+    "t": 60.93,
+    "kind": "progress",
+    "frustration": 2.8
+   },
+   {
+    "t": 67.42,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 92.79,
+    "kind": "unheard_speech",
+    "frustration": 3.45
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 9,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 1,
+  "unheard_words": 1,
+  "buddy_talk_s": 25.9,
+  "child_talk_s": 21.6,
+  "tired_said": false,
+  "time_to_text_s": 3.2,
+  "reader_page_audio_clips": 1,
+  "intro_s": 16.6,
+  "time_to_first_word_s": 17.9,
+  "session_s": 74.8,
+  "words_total": 22,
+  "words_attempted": 5,
+  "words_said_wrong": 2,
+  "corrections": 1,
+  "buddy_turns": 6,
+  "stall_prompts": 1,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 2,
+  "words_helped": 3,
+  "words_to_practise": [
+   "સુંદર"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 74.7,
+  "words_per_minute": 4.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 3,
+  "correction_quality": 5,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-consent.png",
+   "screens/04-abandon.png",
+   "screens/05-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 63,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

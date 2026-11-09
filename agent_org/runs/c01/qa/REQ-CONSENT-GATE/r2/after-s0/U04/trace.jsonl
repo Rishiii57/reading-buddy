@@ -1,0 +1,14 @@
+{"t": 6.91, "kind": "open_app", "brief": "Riya, UKG (about 5.5 years). Prefers gu-IN. Struggles with joined letters; low frustration tolerance."}
+{"t": 6.98, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 8.16, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 12.69, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 13.14, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1' text, made for children who already read."}
+{"t": 17.36, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 20.63, "kind": "session_started", "tries": 1}
+{"t": 28.86, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 32.79, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 51.46, "kind": "tap_mic_to_talk"}
+{"t": 51.95, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 61.34, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.3 s into a planned 3.96 s thinking pause."}
+{"t": 69.54, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.6 s into a planned 3.66 s thinking pause."}
+{"t": 69.54, "kind": "abandon", "why": "frustration", "frustration": 3.25}

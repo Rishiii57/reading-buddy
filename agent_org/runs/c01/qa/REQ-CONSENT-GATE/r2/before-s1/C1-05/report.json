@@ -1,0 +1,127 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-before-s1",
+ "agent_id": "C1-05",
+ "seed": 2459,
+ "persona": {
+  "id": "C1-05",
+  "name": "Om",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "left_before_start",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-chidiya",
+  "title": "चिड़िया का घोंसला",
+  "tags": [
+   "Hindi",
+   "Grade 2-3"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "CONSENT_BLOCKS_CHILD",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 11.28,
+    "details": [
+     "A written grown-ups-only box appeared; the child could not read it and could not start."
+    ],
+    "evidence": [
+     {
+      "t": 11.28,
+      "grade": "Class 1",
+      "tapped": "Not now"
+     }
+    ],
+    "child_quote": "A grown-up box came and I couldn't go on.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 13.84,
+    "details": [
+     "Tapped something that left the reading page before starting."
+    ],
+    "evidence": [
+     {
+      "t": 13.84,
+      "view": "view-home"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 0.6,
+  "frustration_events": [
+   {
+    "t": 11.28,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "consent dialog"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 0.0,
+  "child_talk_s": 0.0,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 1,
+  "words_total": 30,
+  "words_attempted": 0,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 0,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": null,
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": null,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

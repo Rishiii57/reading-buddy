@@ -1,0 +1,89 @@
+{
+ "id": "20261109-210534-fd8692",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 22.2,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.21,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.215,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.242,
+   "event": "transcript",
+   "text": "A sun sun"
+  },
+  {
+   "t": 21.242,
+   "event": "uncertain",
+   "text": "a sun sun"
+  },
+  {
+   "t": 21.242,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.866,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.242,
+   "type": "transcript",
+   "text": "A sun sun",
+   "latency": 120,
+   "audio_duration_ms": 3950,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "A sun sun",
+   "heard": "A sun sun",
+   "muted_words": 0,
+   "duration_s": 3.95
+  }
+ ],
+ "tts_offline": 20
+}

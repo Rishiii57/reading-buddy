@@ -1,0 +1,15 @@
+{"t": 11.43, "type": "ready", "message": null}
+{"t": 11.58, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 27.79, "type": "speech"}
+{"t": 29.75, "type": "heard", "text": "मछली"}
+{"t": 29.89, "type": "speech"}
+{"t": 31.71, "type": "say", "kind": "stall_phrase", "text": "सुनो... जल की रानी", "spans": [[1, 4]]}
+{"t": 36.13, "type": "speech"}
+{"t": 38.08, "type": "heard", "text": "जल"}
+{"t": 38.4, "type": "speech"}
+{"t": 40.17, "type": "say", "kind": "stall_phrase", "text": "सुनो... की रानी है", "spans": [[2, 5]]}
+{"t": 43.94, "type": "speech"}
+{"t": 47.56, "type": "heard", "text": "की"}
+{"t": 47.56, "type": "speech"}
+{"t": 49.46, "type": "say", "kind": "stall_phrase", "text": "सुनो... रानी है", "spans": [[3, 5]]}
+{"t": 50.45, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 39.0, "words_per_minute": 7.7}}

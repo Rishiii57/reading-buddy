@@ -1,0 +1,33 @@
+{"t": 12.53, "type": "ready", "message": null}
+{"t": 12.76, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 28.54, "type": "speech"}
+{"t": 30.61, "type": "heard", "text": "મામાનું"}
+{"t": 30.62, "type": "speech"}
+{"t": 34.01, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ઘર કેટલે", "spans": [[1, 3]]}
+{"t": 38.59, "type": "speech"}
+{"t": 40.83, "type": "heard", "text": "ઘર"}
+{"t": 40.83, "type": "speech"}
+{"t": 44.2, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... કેટલે", "spans": [[2, 3]]}
+{"t": 48.99, "type": "speech"}
+{"t": 51.07, "type": "heard", "text": "કેટલે"}
+{"t": 51.07, "type": "speech"}
+{"t": 51.09, "type": "say", "kind": "echo_line", "text": "સાંભળ... દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 56.78, "type": "speech"}
+{"t": 58.84, "type": "heard", "text": "દીબો"}
+{"t": 58.85, "type": "speech"}
+{"t": 62.08, "type": "speech"}
+{"t": 64.12, "type": "heard", "text": "બળે"}
+{"t": 64.12, "type": "speech"}
+{"t": 67.77, "type": "speech"}
+{"t": 69.75, "type": "heard", "text": "એટલે"}
+{"t": 69.77, "type": "speech"}
+{"t": 69.81, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. દીવો", "spans": [[3, 4]]}
+{"t": 75.13, "type": "speech"}
+{"t": 77.8, "type": "heard", "text": "ધીબો"}
+{"t": 77.8, "type": "speech"}
+{"t": 77.8, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}
+{"t": 81.04, "type": "speech"}
+{"t": 82.8, "type": "heard", "text": "દીબો"}
+{"t": 82.8, "type": "speech"}
+{"t": 82.82, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}
+{"t": 87.95, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}

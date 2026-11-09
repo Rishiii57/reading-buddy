@@ -1,0 +1,31 @@
+# L06 · Krish, LKG (4.5 y) · gu-IN
+
+*Journey:* listen_then_read · *Outcome:* **abandoned_frustration**
+
+*Text:* મારો પતંગ (Gujarati, Grade 1)
+
+## In my words
+
+> The words were too hard. I can't read those yet.
+> Buddy talked too long.
+> I want to hear it again!
+> Buddy talked when I was thinking!
+> I said it but Buddy didn't hear me!
+> Buddy said yay! I liked that.
+> Buddy helped me with the hard word.
+
+## What happened (observed)
+
+- **NO_TEXT_FOR_MY_LEVEL** ×1 (observed): LKG child landed on a 'Grade 1' text, made for children who already read.
+- **LONG_TUTOR_TALK** ×1 (observed): Buddy talked for over 12 s in one go before the child could read.
+- **NO_REPLAY_CONTROL** ×1 (observed): Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session).
+- **INTERRUPTED_WHILE_THINKING** ×3 (observed): Buddy started talking 3.4 s into a planned 3.5 s thinking pause.
+- **SPEECH_IGNORED_WHILE_BUDDY_TALKS** ×2 (observed): 1 word(s) the child said were not heard because Buddy was talking or the session was paused.
+
+## Numbers
+
+taps 6 (dead 2) · time to text 4.2 s · intro 14.8 s · first word 14.8 s · words attempted 5/16 · said wrong 2 · corrections 2 · stall prompts 2 · interruptions 3 · unheard words 2 · frustration peak 4.1/3.3
+
+UX scores (1-5): discoverability 5, guidance 5, interruption_load 1, correction_quality 5, completion 2, enjoyment 1
+
+Screenshots: screens/00-home.png, screens/01-reader.png, screens/02-abandon.png, screens/03-end.png

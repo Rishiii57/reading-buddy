@@ -1,0 +1,23 @@
+{"t": 24.06, "type": "ready", "message": null}
+{"t": 24.15, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 39.2, "type": "speech"}
+{"t": 42.01, "type": "heard", "text": "बादल"}
+{"t": 42.01, "type": "speech"}
+{"t": 43.94, "type": "say", "kind": "stall_phrase", "text": "सुनो... गरजे", "spans": [[1, 2]]}
+{"t": 46.31, "type": "speech"}
+{"t": 49.23, "type": "heard", "text": "गरझे"}
+{"t": 49.73, "type": "speech"}
+{"t": 51.15, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे", "spans": [[1, 2]]}
+{"t": 56.11, "type": "speech"}
+{"t": 58.75, "type": "heard", "text": "गरजे"}
+{"t": 58.75, "type": "speech"}
+{"t": 58.77, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 65.6, "type": "speech"}
+{"t": 72.25, "type": "heard", "text": "बाधल गड़जे बाड़िश"}
+{"t": 72.28, "type": "speech"}
+{"t": 72.32, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 75.86, "type": "speech"}
+{"t": 78.48, "type": "heard", "text": "बाधल"}
+{"t": 78.48, "type": "speech"}
+{"t": 80.61, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल", "spans": [[0, 1]]}
+{"t": 81.29, "type": "summary", "summary": {"words_total": 17, "words_read": 0, "words_helped": 2, "words_to_practise": ["बादल", "गरजे"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 57.3, "words_per_minute": 2.1}}

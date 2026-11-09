@@ -1,0 +1,218 @@
+{
+ "id": "20261109-205526-5b1df2",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 0,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 58.6,
+  "words_per_minute": 5.1
+ },
+ "log": [
+  {
+   "t": 0.014,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.445,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.476,
+   "event": "transcript",
+   "text": "ए छोटी"
+  },
+  {
+   "t": 23.476,
+   "event": "uncertain",
+   "text": "ए छोटी"
+  },
+  {
+   "t": 23.476,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 27.606,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 37.805,
+   "event": "transcript",
+   "text": "पेड़ पड़"
+  },
+  {
+   "t": 37.805,
+   "event": "uncertain",
+   "text": "पेड पड"
+  },
+  {
+   "t": 37.805,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 41.436,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 47.48,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 47.48,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 50.647,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 55.561,
+   "event": "transcript",
+   "text": "एक पेड़"
+  },
+  {
+   "t": 55.561,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 57.649,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 57.649,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.975,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.476,
+   "type": "transcript",
+   "text": "ए छोटी",
+   "latency": 120,
+   "audio_duration_ms": 4080,
+   "message": null
+  },
+  {
+   "t": 33.184,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.805,
+   "type": "transcript",
+   "text": "पेड़ पड़",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 50.907,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.561,
+   "type": "transcript",
+   "text": "एक पेड़",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ए पेढ़ पड़ ए छोटी",
+   "heard": "ए छोटी",
+   "muted_words": 3,
+   "duration_s": 10.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "पेड़ पड़",
+   "heard": "पेड़ पड़",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "ए",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "एक पेड़",
+   "heard": "एक पेड़",
+   "muted_words": 0,
+   "duration_s": 4.2
+  }
+ ],
+ "tts_offline": 43
+}

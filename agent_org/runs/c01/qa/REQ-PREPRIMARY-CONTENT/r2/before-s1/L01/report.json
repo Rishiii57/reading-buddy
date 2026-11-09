@@ -1,0 +1,287 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r2-before-s1",
+ "agent_id": "L01",
+ "seed": 1201,
+ "persona": {
+  "id": "L01",
+  "name": "Ishita",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.5,
+  "attention_span_s": 150
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-gudiya",
+  "title": "मेरी गुड़िया",
+  "tags": [
+   "Hindi",
+   "Grade 1"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.46,
+    "details": [
+     "LKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 6.46,
+      "title": "मेरी गुड़िया",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 33.68,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 33.68,
+      "said": "गुढ़िया",
+      "heard": ""
+     },
+     {
+      "t": 43.58,
+      "said": "प्याड़ी",
+      "heard": ""
+     },
+     {
+      "t": 115.65,
+      "said": "सवसे",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 93.91,
+    "details": [
+     "Asked to say 'न्यारी' 3 times.",
+     "Asked to say 'न्यारी' 4 times.",
+     "Asked to say 'न्यारी' 5 times."
+    ],
+    "evidence": [
+     {
+      "t": 93.91,
+      "word": "न्यारी",
+      "times": 3
+     },
+     {
+      "t": 101.32,
+      "word": "न्यारी",
+      "times": 4
+     },
+     {
+      "t": 106.93,
+      "word": "न्यारी",
+      "times": 5
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'न्यारी' as 'ण्यारी' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "न्यारी",
+      "child_said": "ण्यारी",
+      "kind": "sub",
+      "speech_model_wrote": "सवसे न्यारी ण्याड़ी है"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 4.35,
+  "frustration_events": [
+   {
+    "t": 28.3,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 33.68,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 38.18,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 43.58,
+    "kind": "unheard_speech",
+    "frustration": 1.45
+   },
+   {
+    "t": 48.19,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 55.73,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 61.91,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 69.37,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 77.04,
+    "kind": "praise",
+    "frustration": 0.45
+   },
+   {
+    "t": 93.54,
+    "kind": "dead_click",
+    "frustration": 0.95,
+    "target": "Listening"
+   },
+   {
+    "t": 93.91,
+    "kind": "drill_repeat",
+    "frustration": 1.65,
+    "word": "न्यारी"
+   },
+   {
+    "t": 101.32,
+    "kind": "drill_repeat",
+    "frustration": 2.35,
+    "word": "न्यारी"
+   },
+   {
+    "t": 106.93,
+    "kind": "drill_repeat",
+    "frustration": 3.05,
+    "word": "न्यारी"
+   },
+   {
+    "t": 115.65,
+    "kind": "unheard_speech",
+    "frustration": 3.85
+   },
+   {
+    "t": 118.48,
+    "kind": "dead_click",
+    "frustration": 4.35,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 2,
+  "nav_clicks": 3,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 3,
+  "buddy_talk_s": 26.1,
+  "child_talk_s": 21.8,
+  "tired_said": false,
+  "time_to_text_s": 3.3,
+  "reader_page_audio_clips": 1,
+  "intro_s": 12.1,
+  "time_to_first_word_s": 12.1,
+  "session_s": 106.0,
+  "words_total": 17,
+  "words_attempted": 8,
+  "words_said_wrong": 3,
+  "corrections": 1,
+  "buddy_turns": 11,
+  "stall_prompts": 2,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [
+   "सबसे",
+   "न्यारी"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 1,
+  "seconds": 106.7,
+  "words_per_minute": 4.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 57,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}
