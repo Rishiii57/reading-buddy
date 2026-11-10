@@ -1,0 +1,2784 @@
+{
+ "cycle": "c02",
+ "label": "retest",
+ "generated": "2026-11-10T11:37:02",
+ "agents": 50,
+ "harness_errors": [],
+ "metrics": {
+  "session_start_rate": 0.88,
+  "completion_rate": 0.4,
+  "abandon_rate": 0.4,
+  "coverage": 0.626,
+  "stall_interruptions_per_agent": 0.36,
+  "correction_interruptions_per_agent": 0.08,
+  "interruptions_per_agent": 0.68,
+  "mic_tap_pause_rate": 0.0,
+  "unheard_words_per_agent": 2.6,
+  "drill_repeat_rate": 0.1,
+  "spoken_guidance_gap_rate": 0.0,
+  "consent_blocked_rate": 0.0,
+  "consent_self_approved_rate": 0.0,
+  "level_mismatch_rate": 0.1,
+  "false_corrections_per_agent": 0.16,
+  "missed_errors_per_agent": 0.34,
+  "long_talk_rate": 0.66,
+  "intro_s_median": 13.8,
+  "frustration_peak_mean": 1.704,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.22,
+  "replay_missing_rate": 0.08,
+  "restart_failed_rate": 0.02,
+  "harness_error_rate": 0.0
+ },
+ "by_grade": {
+  "Class 1": {
+   "n": 6,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.833,
+   "abandon_rate": 0.0,
+   "coverage": 0.9,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.167,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 3.167,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.5,
+   "long_talk_rate": 0.5,
+   "intro_s_median": 13.7,
+   "frustration_peak_mean": 1.592,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.167,
+   "replay_missing_rate": 0.0,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "Class 2": {
+   "n": 6,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.333,
+   "abandon_rate": 0.667,
+   "coverage": 0.753,
+   "stall_interruptions_per_agent": 0.167,
+   "correction_interruptions_per_agent": 0.167,
+   "interruptions_per_agent": 0.5,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 7.833,
+   "drill_repeat_rate": 0.5,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.333,
+   "missed_errors_per_agent": 0.333,
+   "long_talk_rate": 0.667,
+   "intro_s_median": 13.5,
+   "frustration_peak_mean": 2.192,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.167,
+   "replay_missing_rate": 0.0,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "Class 3": {
+   "n": 6,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.667,
+   "abandon_rate": 0.333,
+   "coverage": 0.911,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.333,
+   "interruptions_per_agent": 1.0,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 1.833,
+   "drill_repeat_rate": 0.167,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.167,
+   "missed_errors_per_agent": 0.667,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 14.0,
+   "frustration_peak_mean": 1.242,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "replay_missing_rate": 0.167,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "Class 4": {
+   "n": 6,
+   "session_start_rate": 1.0,
+   "completion_rate": 1.0,
+   "abandon_rate": 0.0,
+   "coverage": 1.0,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.0,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 5.167,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.667,
+   "missed_errors_per_agent": 0.167,
+   "long_talk_rate": 0.667,
+   "intro_s_median": 14.6,
+   "frustration_peak_mean": 1.358,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "replay_missing_rate": 0.0,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "LKG": {
+   "n": 8,
+   "session_start_rate": 0.75,
+   "completion_rate": 0.0,
+   "abandon_rate": 0.5,
+   "coverage": 0.35,
+   "stall_interruptions_per_agent": 0.875,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 1.375,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 0.625,
+   "drill_repeat_rate": 0.125,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.25,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.5,
+   "long_talk_rate": 0.625,
+   "intro_s_median": 12.9,
+   "frustration_peak_mean": 2.288,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.25,
+   "replay_missing_rate": 0.125,
+   "restart_failed_rate": 0.125,
+   "harness_error_rate": 0.0
+  },
+  "Nursery": {
+   "n": 10,
+   "session_start_rate": 0.7,
+   "completion_rate": 0.0,
+   "abandon_rate": 0.7,
+   "coverage": 0.185,
+   "stall_interruptions_per_agent": 0.5,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.6,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 0.8,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.2,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.0,
+   "long_talk_rate": 0.6,
+   "intro_s_median": 14.0,
+   "frustration_peak_mean": 1.835,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.7,
+   "replay_missing_rate": 0.1,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "UKG": {
+   "n": 8,
+   "session_start_rate": 0.875,
+   "completion_rate": 0.375,
+   "abandon_rate": 0.375,
+   "coverage": 0.661,
+   "stall_interruptions_per_agent": 0.625,
+   "correction_interruptions_per_agent": 0.125,
+   "interruptions_per_agent": 0.875,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 1.125,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.125,
+   "false_corrections_per_agent": 0.125,
+   "missed_errors_per_agent": 0.375,
+   "long_talk_rate": 0.625,
+   "intro_s_median": 13.8,
+   "frustration_peak_mean": 1.281,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "replay_missing_rate": 0.125,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  }
+ },
+ "by_language": {
+  "en-IN": {
+   "n": 17,
+   "session_start_rate": 0.941,
+   "completion_rate": 0.235,
+   "abandon_rate": 0.588,
+   "coverage": 0.601,
+   "stall_interruptions_per_agent": 0.529,
+   "correction_interruptions_per_agent": 0.176,
+   "interruptions_per_agent": 1.0,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 3.765,
+   "drill_repeat_rate": 0.176,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.059,
+   "false_corrections_per_agent": 0.235,
+   "missed_errors_per_agent": 0.235,
+   "long_talk_rate": 0.529,
+   "intro_s_median": 12.8,
+   "frustration_peak_mean": 2.215,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.294,
+   "replay_missing_rate": 0.0,
+   "restart_failed_rate": 0.059,
+   "harness_error_rate": 0.0
+  },
+  "gu-IN": {
+   "n": 16,
+   "session_start_rate": 0.938,
+   "completion_rate": 0.5,
+   "abandon_rate": 0.188,
+   "coverage": 0.681,
+   "stall_interruptions_per_agent": 0.312,
+   "correction_interruptions_per_agent": 0.062,
+   "interruptions_per_agent": 0.625,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 2.062,
+   "drill_repeat_rate": 0.062,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.25,
+   "false_corrections_per_agent": 0.188,
+   "missed_errors_per_agent": 0.562,
+   "long_talk_rate": 0.75,
+   "intro_s_median": 14.0,
+   "frustration_peak_mean": 1.672,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.188,
+   "replay_missing_rate": 0.125,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "hi-IN": {
+   "n": 17,
+   "session_start_rate": 0.765,
+   "completion_rate": 0.471,
+   "abandon_rate": 0.412,
+   "coverage": 0.601,
+   "stall_interruptions_per_agent": 0.235,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.412,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 1.941,
+   "drill_repeat_rate": 0.059,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.059,
+   "missed_errors_per_agent": 0.235,
+   "long_talk_rate": 0.706,
+   "intro_s_median": 14.0,
+   "frustration_peak_mean": 1.224,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.176,
+   "replay_missing_rate": 0.118,
+   "restart_failed_rate": 0.0,
+   "harness_error_rate": 0.0
+  }
+ },
+ "outcomes": {
+  "completed": 20,
+  "ended_early": 10,
+  "abandoned_attention": 9,
+  "abandoned_frustration": 5,
+  "left_before_start": 6
+ },
+ "results": [
+  {
+   "agents": [
+    "L03",
+    "L04",
+    "N03",
+    "N06",
+    "U01"
+   ],
+   "n_agents": 5,
+   "instances": 5,
+   "reach": 0.1,
+   "pre_primary_reach": 0.192,
+   "grades": {
+    "LKG": 2,
+    "Nursery": 2,
+    "UKG": 1
+   },
+   "languages": {
+    "gu-IN": 4,
+    "en-IN": 1
+   },
+   "abandon_rate_affected": 0.6,
+   "grade_weight": 1.42,
+   "score": 19.73,
+   "priority": "P1",
+   "quotes": [
+    "The words were too hard. I can't read those yet."
+   ],
+   "samples": [
+    {
+     "agent": "L03",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "LKG child landed on a 'Grade 2-3' text, made for children who already read.",
+     "evidence": [
+      {
+       "t": 8.22,
+       "title": "ચકલી અને દાણા",
+       "grade_tag": "Grade 2-3"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L03",
+     "via": null
+    },
+    {
+     "agent": "L04",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "LKG child landed on a 'Grade 2-4' text, made for children who already read.",
+     "evidence": [
+      {
+       "t": 11.37,
+       "title": "The Busy Ant",
+       "grade_tag": "Grade 2-4"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L04",
+     "via": null
+    },
+    {
+     "agent": "N03",
+     "grade": "Nursery",
+     "lang": "gu-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "Nursery child landed on a 'Grade 3' text, made for children who already read.",
+     "evidence": [
+      {
+       "t": 9.86,
+       "title": "Ravi and the Mango Tree",
+       "grade_tag": "Grade 3"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N03",
+     "via": null
+    },
+    {
+     "agent": "N06",
+     "grade": "Nursery",
+     "lang": "gu-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "Nursery child landed on a 'Grade 3-4' text, made for children who already read.",
+     "evidence": [
+      {
+       "t": 7.33,
+       "title": "મારી શાળા",
+       "grade_tag": "Grade 3-4"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N06",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "UKG child landed on a 'Grade 1' text, made for children who already read.",
+     "evidence": [
+      {
+       "t": 7.35,
+       "title": "મારો પતંગ",
+       "grade_tag": "Grade 1"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "NO_TEXT_FOR_MY_LEVEL": 5
+   },
+   "testable": true,
+   "rc_id": "RC-PREPRIMARY-CONTENT"
+  },
+  {
+   "agents": [
+    "N06"
+   ],
+   "n_agents": 1,
+   "instances": 1,
+   "reach": 0.02,
+   "pre_primary_reach": 0.038,
+   "grades": {
+    "Nursery": 1
+   },
+   "languages": {
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.0,
+   "grade_weight": 1.5,
+   "score": 14.54,
+   "priority": "P2",
+   "quotes": [
+    "I wanted it to read to me first."
+   ],
+   "samples": [
+    {
+     "agent": "N06",
+     "grade": "Nursery",
+     "lang": "gu-IN",
+     "code": "LISTEN_FIRST_NOT_FOUND",
+     "detail": "Wanted to hear the poem first but could not tell which button does that.",
+     "evidence": [
+      {
+       "t": 11.88,
+       "label": "Listen first"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N06",
+     "via": null
+    }
+   ],
+   "codes": {
+    "LISTEN_FIRST_NOT_FOUND": 1
+   },
+   "testable": true,
+   "rc_id": "RC-SPOKEN-ONBOARDING"
+  },
+  {
+   "agents": [
+    "C2-03",
+    "L01",
+    "L04",
+    "L05",
+    "L07",
+    "N01",
+    "N04",
+    "N06",
+    "N10",
+    "U01",
+    "U02"
+   ],
+   "n_agents": 11,
+   "instances": 18,
+   "reach": 0.22,
+   "pre_primary_reach": 0.385,
+   "grades": {
+    "Class 2": 1,
+    "LKG": 4,
+    "Nursery": 4,
+    "UKG": 2
+   },
+   "languages": {
+    "gu-IN": 3,
+    "hi-IN": 2,
+    "en-IN": 6
+   },
+   "abandon_rate_affected": 0.545,
+   "grade_weight": 1.38,
+   "score": 19.21,
+   "priority": "P1",
+   "quotes": [
+    "Buddy talked when I was thinking!",
+    "I was just thinking and Buddy jumped in."
+   ],
+   "samples": [
+    {
+     "agent": "C2-03",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 3.1 s into a planned 2.98 s thinking pause.",
+     "evidence": [
+      {
+       "t": 41.13,
+       "paused_s": 3.1,
+       "planned_s": 2.98,
+       "line": 1,
+       "buddy_kind": "stall_phrase",
+       "next_words": "દાણા શોધવા જતી."
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-03",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 4.5 s into a planned 4.27 s thinking pause.",
+     "evidence": [
+      {
+       "t": 36.5,
+       "paused_s": 4.5,
+       "planned_s": 4.27,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "गोपी चंदर,"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L01",
+     "via": null
+    },
+    {
+     "agent": "L04",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 2.4 s into a planned 2.83 s thinking pause.",
+     "evidence": [
+      {
+       "t": 37.59,
+       "paused_s": 2.4,
+       "planned_s": 2.83,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "small ant walked"
+      },
+      {
+       "t": 47.73,
+       "paused_s": 3.4,
+       "planned_s": 3.41,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "walked across the"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L04",
+     "via": null
+    },
+    {
+     "agent": "L05",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 5.3 s into a planned 5.99 s thinking pause.",
+     "evidence": [
+      {
+       "t": 49.7,
+       "paused_s": 5.3,
+       "planned_s": 5.99,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "रानी है,"
+      },
+      {
+       "t": 56.57,
+       "paused_s": 0.8,
+       "planned_s": 5.31,
+       "line": 0,
+       "buddy_kind": "stall_rest",
+       "next_words": "रानी है,"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L05",
+     "via": null
+    },
+    {
+     "agent": "L07",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 4.6 s into a planned 4.37 s thinking pause.",
+     "evidence": [
+      {
+       "t": 38.29,
+       "paused_s": 4.6,
+       "planned_s": 4.37,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "વરસાદ,"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L07",
+     "via": null
+    },
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 4.6 s into a planned 4.41 s thinking pause.",
+     "evidence": [
+      {
+       "t": 57.02,
+       "paused_s": 4.6,
+       "planned_s": 4.41,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "है,"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N01",
+     "via": null
+    },
+    {
+     "agent": "N04",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 3.2 s into a planned 2.99 s thinking pause.",
+     "evidence": [
+      {
+       "t": 40.72,
+       "paused_s": 3.2,
+       "planned_s": 2.99,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "ઘર કેટલે,"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N04",
+     "via": null
+    },
+    {
+     "agent": "N06",
+     "grade": "Nursery",
+     "lang": "gu-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 3.4 s into a planned 3.78 s thinking pause.",
+     "evidence": [
+      {
+       "t": 41.3,
+       "paused_s": 3.4,
+       "planned_s": 3.78,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "સુંદર છે."
+      },
+      {
+       "t": 49.59,
+       "paused_s": 3.5,
+       "planned_s": 4.85,
+       "line": 0,
+       "buddy_kind": "stall_phrase",
+       "next_words": "છે."
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N06",
+     "via": null
+    }
+   ],
+   "codes": {
+    "INTERRUPTED_WHILE_THINKING": 11
+   },
+   "testable": true,
+   "rc_id": "RC-STALL-TIMING"
+  },
+  {
+   "agents": [
+    "C2-04",
+    "C3-04",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 4,
+   "reach": 0.06,
+   "pre_primary_reach": 0.038,
+   "grades": {
+    "Class 2": 1,
+    "Class 3": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "en-IN": 2,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.1,
+   "score": 17.2,
+   "priority": "P2",
+   "quotes": [
+    "I was just thinking and Buddy jumped in.",
+    "Buddy talked when I was thinking!"
+   ],
+   "samples": [
+    {
+     "agent": "C2-04",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 3.3 s into a planned 2.09 s thinking pause.",
+     "evidence": [
+      {
+       "t": 59.13,
+       "paused_s": 3.3,
+       "planned_s": 2.09,
+       "line": 0,
+       "buddy_kind": "fix_word",
+       "next_words": "रहती थी।"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-04",
+     "via": null
+    },
+    {
+     "agent": "C3-04",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 0.3 s into a planned 1.99 s thinking pause.",
+     "evidence": [
+      {
+       "t": 77.79,
+       "paused_s": 0.3,
+       "planned_s": 1.99,
+       "line": 1,
+       "buddy_kind": "fix_word",
+       "next_words": "summer the tree"
+      },
+      {
+       "t": 270.67,
+       "paused_s": 0.9,
+       "planned_s": 1.15,
+       "line": 1,
+       "buddy_kind": "fix_word",
+       "next_words": "of sweet mangoes."
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-04",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 3.9 s into a planned 3.56 s thinking pause.",
+     "evidence": [
+      {
+       "t": 162.04,
+       "paused_s": 1.7,
+       "planned_s": 2.44,
+       "line": 3,
+       "buddy_kind": "fix_word",
+       "next_words": "ઊડતો જાય."
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "INTERRUPTED_WHILE_THINKING": 3
+   },
+   "testable": true,
+   "rc_id": "RC-MIDLINE-CORRECTION"
+  },
+  {
+   "agents": [
+    "C1-01",
+    "C1-02",
+    "C1-03",
+    "C1-05",
+    "C2-01",
+    "C2-03",
+    "C2-06",
+    "C3-01",
+    "C3-04",
+    "C4-01",
+    "C4-02",
+    "C4-04",
+    "C4-05",
+    "L01",
+    "L04",
+    "L05",
+    "L06",
+    "L07",
+    "N01",
+    "N04",
+    "N09",
+    "N10",
+    "U01",
+    "U02",
+    "U04",
+    "U08"
+   ],
+   "n_agents": 26,
+   "instances": 49,
+   "reach": 0.52,
+   "pre_primary_reach": 0.5,
+   "grades": {
+    "Class 1": 4,
+    "Class 2": 3,
+    "Class 3": 2,
+    "Class 4": 4,
+    "LKG": 5,
+    "Nursery": 4,
+    "UKG": 4
+   },
+   "languages": {
+    "en-IN": 12,
+    "hi-IN": 7,
+    "gu-IN": 7
+   },
+   "abandon_rate_affected": 0.385,
+   "grade_weight": 1.22,
+   "score": 14.16,
+   "priority": "P2",
+   "quotes": [
+    "Buddy didn't hear me when I was talking.",
+    "I said it but Buddy didn't hear me!"
+   ],
+   "samples": [
+    {
+     "agent": "C1-01",
+     "grade": "Class 1",
+     "lang": "en-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 27.58,
+       "said": "Rain rain ga all",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-01",
+     "via": null
+    },
+    {
+     "agent": "C1-02",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 38.97,
+       "said": "मछली की रानी रानी",
+       "heard": "रानी"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-02",
+     "via": null
+    },
+    {
+     "agent": "C1-03",
+     "grade": "Class 1",
+     "lang": "gu-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 17.76,
+       "said": "આવ",
+       "heard": ""
+      },
+      {
+       "t": 28.18,
+       "said": "આબ રે વરસાદ",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-03",
+     "via": null
+    },
+    {
+     "agent": "C1-05",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 24.89,
+       "said": "મામાણું ઘર કેટલે",
+       "heard": ""
+      },
+      {
+       "t": 39.45,
+       "said": "દીવો",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-05",
+     "via": null
+    },
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 19.3,
+       "said": "small and ant walked across floor",
+       "heard": ""
+      },
+      {
+       "t": 26.68,
+       "said": "A small ant ant we across the floor",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C2-03",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 20.59,
+       "said": "એક નાની ચકલિ ચકલી હતી",
+       "heard": ""
+      },
+      {
+       "t": 86.46,
+       "said": "ઘણા બધા દાણા મળ્યા",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-03",
+     "via": null
+    },
+    {
+     "agent": "C2-06",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 27.74,
+       "said": "એક નાની ચકલી હતી",
+       "heard": ""
+      },
+      {
+       "t": 52.98,
+       "said": "એક નાની ચકલી હતી",
+       "heard": "હતી"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-06",
+     "via": null
+    },
+    {
+     "agent": "C3-01",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 193.61,
+       "said": "Ravi shares",
+       "heard": ""
+      },
+      {
+       "t": 230.93,
+       "said": "under the tree ana little together",
+       "heard": "tree ana little together"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "SPEECH_IGNORED_WHILE_BUDDY_TALKS": 26
+   },
+   "testable": true,
+   "rc_id": "RC-TALK-OVER-BUDDY"
+  },
+  {
+   "agents": [
+    "C1-02",
+    "C1-05",
+    "C1-06",
+    "C2-03",
+    "C2-04",
+    "C2-05",
+    "C2-06",
+    "C3-01",
+    "C3-02",
+    "C3-03",
+    "C3-04",
+    "C3-05",
+    "C3-06",
+    "C4-01",
+    "C4-03",
+    "C4-05",
+    "C4-06",
+    "L01",
+    "L03",
+    "L05",
+    "L06",
+    "L07",
+    "N01",
+    "N02",
+    "N06",
+    "N07",
+    "N09",
+    "N10",
+    "U02",
+    "U04",
+    "U05",
+    "U06",
+    "U08"
+   ],
+   "n_agents": 33,
+   "instances": 33,
+   "reach": 0.66,
+   "pre_primary_reach": 0.615,
+   "grades": {
+    "Class 1": 3,
+    "Class 2": 4,
+    "Class 3": 6,
+    "Class 4": 4,
+    "LKG": 5,
+    "Nursery": 6,
+    "UKG": 5
+   },
+   "languages": {
+    "hi-IN": 12,
+    "gu-IN": 12,
+    "en-IN": 9
+   },
+   "abandon_rate_affected": 0.303,
+   "grade_weight": 1.21,
+   "score": 14.18,
+   "priority": "P2",
+   "quotes": [
+    "Buddy talks a lot before I get to read.",
+    "Buddy talked too long."
+   ],
+   "samples": [
+    {
+     "agent": "C1-02",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 28.23,
+       "talk_s": 12.3
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-02",
+     "via": null
+    },
+    {
+     "agent": "C1-05",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 27.7,
+       "talk_s": 12.1
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-05",
+     "via": null
+    },
+    {
+     "agent": "C1-06",
+     "grade": "Class 1",
+     "lang": "gu-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 30.72,
+       "talk_s": 13.0
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-06",
+     "via": null
+    },
+    {
+     "agent": "C2-03",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 27.85,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-03",
+     "via": null
+    },
+    {
+     "agent": "C2-04",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 28.23,
+       "talk_s": 12.4
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-04",
+     "via": null
+    },
+    {
+     "agent": "C2-05",
+     "grade": "Class 2",
+     "lang": "hi-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 31.21,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-05",
+     "via": null
+    },
+    {
+     "agent": "C2-06",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 29.12,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-06",
+     "via": null
+    },
+    {
+     "agent": "C3-01",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 29.32,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "LONG_TUTOR_TALK": 33
+   },
+   "testable": true,
+   "rc_id": "RC-LONG-INTRO"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C2-04",
+    "C2-05",
+    "C3-01",
+    "L03"
+   ],
+   "n_agents": 5,
+   "instances": 9,
+   "reach": 0.1,
+   "pre_primary_reach": 0.038,
+   "grades": {
+    "Class 2": 3,
+    "Class 3": 1,
+    "LKG": 1
+   },
+   "languages": {
+    "en-IN": 3,
+    "hi-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.8,
+   "grade_weight": 1.08,
+   "score": 16.55,
+   "priority": "P2",
+   "quotes": [
+    "Buddy made me say the same word again and again.",
+    "Again? I said it already!"
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'It' 3 times.",
+     "evidence": [
+      {
+       "t": 92.44,
+       "word": "It",
+       "times": 3
+      },
+      {
+       "t": 116.59,
+       "word": "It",
+       "times": 4
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C2-04",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'पर' 3 times.",
+     "evidence": [
+      {
+       "t": 73.82,
+       "word": "पर",
+       "times": 3
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-04",
+     "via": null
+    },
+    {
+     "agent": "C2-05",
+     "grade": "Class 2",
+     "lang": "hi-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'एक' 3 times.",
+     "evidence": [
+      {
+       "t": 160.78,
+       "word": "एक",
+       "times": 3
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-05",
+     "via": null
+    },
+    {
+     "agent": "C3-01",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'the' 3 times.",
+     "evidence": [
+      {
+       "t": 163.5,
+       "word": "the",
+       "times": 3
+      },
+      {
+       "t": 167.95,
+       "word": "the",
+       "times": 4
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-01",
+     "via": null
+    },
+    {
+     "agent": "L03",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'એક' 3 times.",
+     "evidence": [
+      {
+       "t": 53.42,
+       "word": "એક",
+       "times": 3
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L03",
+     "via": null
+    }
+   ],
+   "codes": {
+    "SAME_WORD_ASKED_AGAIN_AND_AGAIN": 5
+   },
+   "testable": true,
+   "rc_id": "RC-DRILL-LOOP"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C2-05",
+    "C3-04",
+    "C4-04",
+    "U01"
+   ],
+   "n_agents": 5,
+   "instances": 5,
+   "reach": 0.1,
+   "pre_primary_reach": 0.038,
+   "grades": {
+    "Class 2": 2,
+    "Class 3": 1,
+    "Class 4": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "en-IN": 3,
+    "hi-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.8,
+   "grade_weight": 1.06,
+   "score": 17.34,
+   "priority": "P2",
+   "quotes": [
+    "Buddy said I got a word wrong but I read it right.",
+    "But I said it right!"
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "FALSE_CORRECTION",
+     "detail": "Read 'But' correctly but Buddy asked to practise it.",
+     "evidence": [
+      {
+       "t": 203.1,
+       "word": "But",
+       "child_said": "But",
+       "speech_model_wrote": "But the ant did not give"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C2-05",
+     "grade": "Class 2",
+     "lang": "hi-IN",
+     "code": "FALSE_CORRECTION",
+     "detail": "Read 'पर' correctly but Buddy asked to practise it.",
+     "evidence": [
+      {
+       "t": 40.22,
+       "word": "पर",
+       "child_said": "पड़ पर",
+       "speech_model_wrote": "एक पेड़ पड़ पर छोटी चिड़िया रहती थी"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-05",
+     "via": null
+    },
+    {
+     "agent": "C3-04",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "FALSE_CORRECTION",
+     "detail": "Read 'Every' correctly but Buddy asked to practise it.",
+     "evidence": [
+      {
+       "t": 173.37,
+       "word": "Every",
+       "child_said": "Every",
+       "speech_model_wrote": "Every sunmer summer"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-04",
+     "via": null
+    },
+    {
+     "agent": "C4-04",
+     "grade": "Class 4",
+     "lang": "en-IN",
+     "code": "FALSE_CORRECTION",
+     "detail": "Read 'the' correctly but Buddy asked to practise it.",
+     "evidence": [
+      {
+       "t": 73.14,
+       "word": "the",
+       "child_said": "the",
+       "speech_model_wrote": "The rice was bigger than dhe ant"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C4-04",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "FALSE_CORRECTION",
+     "detail": "Read 'સાથે' correctly but Buddy asked to practise it.",
+     "evidence": [
+      {
+       "t": 204.45,
+       "word": "સાથે",
+       "child_said": "સાથે",
+       "speech_model_wrote": "સાથે સાથે"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "FALSE_CORRECTION": 5
+   },
+   "testable": true,
+   "rc_id": "RC-FALSE-CORRECTION-TUTOR"
+  },
+  {
+   "agents": [
+    "C4-02",
+    "C4-06"
+   ],
+   "n_agents": 2,
+   "instances": 3,
+   "reach": 0.04,
+   "pre_primary_reach": 0.0,
+   "grades": {
+    "Class 4": 2
+   },
+   "languages": {
+    "en-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.0,
+   "grade_weight": 1.0,
+   "score": 14.64,
+   "priority": "P2",
+   "quotes": [
+    "I read it right but Buddy heard something else."
+   ],
+   "samples": [
+    {
+     "agent": "C4-02",
+     "grade": "Class 4",
+     "lang": "en-IN",
+     "code": "FALSE_CORRECTION_STT",
+     "detail": "Read 'ant' correctly but Buddy asked to practise it (the speech model wrote it differently).",
+     "evidence": [
+      {
+       "t": 120.18,
+       "word": "ant",
+       "child_said": "ant",
+       "speech_model_wrote": "bua But the amt did not give"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C4-02",
+     "via": null
+    },
+    {
+     "agent": "C4-06",
+     "grade": "Class 4",
+     "lang": "gu-IN",
+     "code": "FALSE_CORRECTION_STT",
+     "detail": "Read 'મોટું' correctly but Buddy asked to practise it (the speech model wrote it differently).",
+     "evidence": [
+      {
+       "t": 61.0,
+       "word": "મોટું",
+       "child_said": "મોટું",
+       "speech_model_wrote": "શાળામાં એક મોઠું મેદાન છે"
+      },
+      {
+       "t": 83.14,
+       "word": "રોજ",
+       "child_said": "રોજ",
+       "speech_model_wrote": "અમે ત્યાં સાથે રમીએ છીએ"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C4-06",
+     "via": null
+    }
+   ],
+   "codes": {
+    "FALSE_CORRECTION_STT": 2
+   },
+   "testable": false,
+   "rc_id": "RC-FALSE-CORRECTION-STT"
+  },
+  {
+   "agents": [
+    "C1-02",
+    "C1-04",
+    "C1-05",
+    "C2-01",
+    "C2-03",
+    "C3-01",
+    "C3-03",
+    "C3-06",
+    "C4-06",
+    "L01",
+    "L03",
+    "U01",
+    "U07",
+    "U08"
+   ],
+   "n_agents": 14,
+   "instances": 17,
+   "reach": 0.28,
+   "pre_primary_reach": 0.192,
+   "grades": {
+    "Class 1": 3,
+    "Class 2": 2,
+    "Class 3": 3,
+    "Class 4": 1,
+    "LKG": 2,
+    "UKG": 3
+   },
+   "languages": {
+    "hi-IN": 4,
+    "en-IN": 3,
+    "gu-IN": 7
+   },
+   "abandon_rate_affected": 0.214,
+   "grade_weight": 1.14,
+   "score": 10.95,
+   "priority": "P3",
+   "quotes": [],
+   "samples": [
+    {
+     "agent": "C1-02",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'है' as 'हे' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "है",
+       "child_said": "हे",
+       "kind": "sub",
+       "speech_model_wrote": "हे"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-02",
+     "via": null
+    },
+    {
+     "agent": "C1-04",
+     "grade": "Class 1",
+     "lang": "en-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'Baa' as 'Ba' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "Baa",
+       "child_said": "Ba",
+       "kind": "sub",
+       "speech_model_wrote": "Ba baa"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-04",
+     "via": null
+    },
+    {
+     "agent": "C1-05",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'મામો' as 'મામૌ' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "મામો",
+       "child_said": "મામૌ",
+       "kind": "sub",
+       "speech_model_wrote": "મામૌ લાગે મીઠો"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-05",
+     "via": null
+    },
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'up' as 'None' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "up",
+       "child_said": null,
+       "kind": "skip",
+       "speech_model_wrote": "big the the ant did not give"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C2-03",
+     "grade": "Class 2",
+     "lang": "gu-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'ખવડાવ્યા' as 'ખવડવ્યા' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "ખવડાવ્યા",
+       "child_said": "ખવડવ્યા",
+       "kind": "sub",
+       "speech_model_wrote": "ચકલીએ તે દાણા તૈના બચ્ચાંને ખવડવ્યા"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-03",
+     "via": null
+    },
+    {
+     "agent": "C3-01",
+     "grade": "Class 3",
+     "lang": "en-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'the' as 'None' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "the",
+       "child_said": null,
+       "kind": "skip",
+       "speech_model_wrote": "They sit under the and laugh together"
+      },
+      {
+       "word": "and",
+       "child_said": null,
+       "kind": "skip",
+       "speech_model_wrote": "to like laugh together"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-01",
+     "via": null
+    },
+    {
+     "agent": "C3-03",
+     "grade": "Class 3",
+     "lang": "gu-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'મીઠું' as 'મીઠુ' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "મીઠું",
+       "child_said": "મીઠુ",
+       "kind": "sub",
+       "speech_model_wrote": "દેડકા મીઠુ ગીત બોલે"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-03",
+     "via": null
+    },
+    {
+     "agent": "C3-06",
+     "grade": "Class 3",
+     "lang": "gu-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'અમે' as 'અમૈ' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "અમે",
+       "child_said": "અમૈ",
+       "kind": "sub",
+       "speech_model_wrote": "અમૈ ત્યાં રોજ સાથે રમીએ છીએ"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-06",
+     "via": null
+    }
+   ],
+   "codes": {
+    "MISSED_ERROR": 14
+   },
+   "testable": false,
+   "rc_id": "RC-LENIENT-MATCHING"
+  },
+  {
+   "agents": [
+    "C1-04",
+    "C1-05",
+    "C2-04",
+    "L06",
+    "L07",
+    "N01",
+    "N02",
+    "N03",
+    "N04",
+    "N05",
+    "N09",
+    "N10"
+   ],
+   "n_agents": 12,
+   "instances": 35,
+   "reach": 0.24,
+   "pre_primary_reach": 0.346,
+   "grades": {
+    "Class 1": 2,
+    "Class 2": 1,
+    "LKG": 2,
+    "Nursery": 7
+   },
+   "languages": {
+    "en-IN": 6,
+    "hi-IN": 3,
+    "gu-IN": 3
+   },
+   "abandon_rate_affected": 0.5,
+   "grade_weight": 1.38,
+   "score": 13.6,
+   "priority": "P3",
+   "quotes": [
+    "This isn't my language!",
+    "I don't know what Buddy said.",
+    "Buddy talked in a language I don't really know."
+   ],
+   "samples": [
+    {
+     "agent": "C1-04",
+     "grade": "Class 1",
+     "lang": "en-IN",
+     "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+     "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5).",
+     "evidence": [
+      {
+       "t": 13.35,
+       "kind": "intro",
+       "said": "Hello! Welcome to Reading Buddy! Today we're going to read Baa, Baa, Black Sheep"
+      },
+      {
+       "t": 34.19,
+       "kind": "echo_line",
+       "said": "Have you any wool? Now you try!"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-04",
+     "via": null
+    },
+    {
+     "agent": "C1-05",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "WRONG_LANGUAGE_TEXT",
+     "detail": "Wanted hi-IN but ended up on a gu-IN text.",
+     "evidence": [
+      {
+       "t": 8.08,
+       "wanted": "hi-IN",
+       "got": "gu-IN",
+       "title": "મામાનું ઘર કેટલે"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-05",
+     "via": null
+    },
+    {
+     "agent": "C1-05",
+     "grade": "Class 1",
+     "lang": "hi-IN",
+     "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+     "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "evidence": [
+      {
+       "t": 15.62,
+       "kind": "intro",
+       "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથ"
+      },
+      {
+       "t": 38.13,
+       "kind": "echo_line",
+       "said": "દીવો બળે એટલે. હવે તું બોલ!"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-05",
+     "via": null
+    },
+    {
+     "agent": "C2-04",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "WRONG_LANGUAGE_TEXT",
+     "detail": "Wanted en-IN but ended up on a hi-IN text.",
+     "evidence": [
+      {
+       "t": 8.98,
+       "wanted": "en-IN",
+       "got": "hi-IN",
+       "title": "चिड़िया का घोंसला"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-04",
+     "via": null
+    },
+    {
+     "agent": "C2-04",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+     "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "evidence": [
+      {
+       "t": 15.83,
+       "kind": "intro",
+       "said": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान"
+      },
+      {
+       "t": 38.3,
+       "kind": "fix_word",
+       "said": "चलो, इस शब्द का साथ में अभ्यास करते हैं। एक"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-04",
+     "via": null
+    },
+    {
+     "agent": "L06",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "WRONG_LANGUAGE_TEXT",
+     "detail": "Wanted gu-IN but ended up on a en-IN text.",
+     "evidence": [
+      {
+       "t": 10.03,
+       "wanted": "gu-IN",
+       "got": "en-IN",
+       "title": "Rain, Rain, Go Away"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L06",
+     "via": null
+    },
+    {
+     "agent": "L06",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+     "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "evidence": [
+      {
+       "t": 28.87,
+       "kind": "intro",
+       "said": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away L"
+      },
+      {
+       "t": 53.69,
+       "kind": "stall_phrase",
+       "said": "Listen... go away"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L06",
+     "via": null
+    },
+    {
+     "agent": "L07",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "WRONG_LANGUAGE_TEXT",
+     "detail": "Wanted en-IN but ended up on a gu-IN text.",
+     "evidence": [
+      {
+       "t": 8.83,
+       "wanted": "en-IN",
+       "got": "gu-IN",
+       "title": "આવ રે વરસાદ"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L07",
+     "via": null
+    }
+   ],
+   "codes": {
+    "BUDDY_LANGUAGE_NOT_UNDERSTOOD": 8,
+    "WRONG_LANGUAGE_TEXT": 11
+   },
+   "testable": true,
+   "rc_id": "RC-LANGUAGE-SELECTION"
+  },
+  {
+   "agents": [
+    "C1-06",
+    "C2-02",
+    "L01",
+    "L02",
+    "L03",
+    "L06",
+    "L07",
+    "L08",
+    "N01",
+    "N03",
+    "N05",
+    "N06",
+    "N08",
+    "N09",
+    "U03",
+    "U05",
+    "U06",
+    "U08"
+   ],
+   "n_agents": 18,
+   "instances": 18,
+   "reach": 0.36,
+   "pre_primary_reach": 0.615,
+   "grades": {
+    "Class 1": 1,
+    "Class 2": 1,
+    "LKG": 6,
+    "Nursery": 6,
+    "UKG": 4
+   },
+   "languages": {
+    "gu-IN": 6,
+    "hi-IN": 8,
+    "en-IN": 4
+   },
+   "abandon_rate_affected": 0.333,
+   "grade_weight": 1.37,
+   "score": 18.0,
+   "priority": "P2",
+   "quotes": [
+    "Where did my poem go?",
+    "I pressed something and the poem went away."
+   ],
+   "samples": [
+    {
+     "agent": "C1-06",
+     "grade": "Class 1",
+     "lang": "gu-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'Home' left the reading page.",
+     "evidence": [
+      {
+       "t": 62.64,
+       "tapped": "Home",
+       "view": "view-home"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C1-06",
+     "via": null
+    },
+    {
+     "agent": "C2-02",
+     "grade": "Class 2",
+     "lang": "hi-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'Library' left the reading page.",
+     "evidence": [
+      {
+       "t": 47.05,
+       "tapped": "Library",
+       "view": "view-library"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C2-02",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'Library' left the reading page.",
+     "evidence": [
+      {
+       "t": 93.46,
+       "tapped": "Library",
+       "view": "view-library"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L01",
+     "via": null
+    },
+    {
+     "agent": "L02",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "Tapped something that left the reading page before starting.",
+     "evidence": [
+      {
+       "t": 15.0,
+       "view": "view-about"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L02",
+     "via": null
+    },
+    {
+     "agent": "L03",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'Reading Buddy' left the reading page.",
+     "evidence": [
+      {
+       "t": 97.03,
+       "tapped": "Reading Buddy",
+       "view": "view-home"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L03",
+     "via": null
+    },
+    {
+     "agent": "L06",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'Reading Buddy' left the reading page.",
+     "evidence": [
+      {
+       "t": 92.96,
+       "tapped": "Reading Buddy",
+       "view": "view-home"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L06",
+     "via": null
+    },
+    {
+     "agent": "L07",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "A curious tap on 'About' left the reading page.",
+     "evidence": [
+      {
+       "t": 62.25,
+       "tapped": "About",
+       "view": "view-about"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L07",
+     "via": null
+    },
+    {
+     "agent": "L08",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "LEFT_READING_BY_ACCIDENT",
+     "detail": "Tapped something that left the reading page before starting.",
+     "evidence": [
+      {
+       "t": 14.25,
+       "view": "view-about"
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L08",
+     "via": null
+    }
+   ],
+   "codes": {
+    "LEFT_READING_BY_ACCIDENT": 18
+   },
+   "testable": true,
+   "rc_id": "RC-NAVIGATION"
+  },
+  {
+   "agents": [
+    "C3-05",
+    "L06",
+    "N06",
+    "U08"
+   ],
+   "n_agents": 4,
+   "instances": 4,
+   "reach": 0.08,
+   "pre_primary_reach": 0.115,
+   "grades": {
+    "Class 3": 1,
+    "LKG": 1,
+    "Nursery": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "hi-IN": 2,
+    "gu-IN": 2
+   },
+   "abandon_rate_affected": 0.0,
+   "grade_weight": 1.3,
+   "score": 11.03,
+   "priority": "P3",
+   "quotes": [
+    "I want to hear it again!",
+    "I wanted Buddy to read the line again but there was no button."
+   ],
+   "samples": [
+    {
+     "agent": "C3-05",
+     "grade": "Class 3",
+     "lang": "hi-IN",
+     "code": "NO_REPLAY_CONTROL",
+     "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session).",
+     "evidence": [
+      {
+       "t": 35.8,
+       "visible": [
+        "Reading Buddy",
+        "Home",
+        "Library",
+        "About",
+        "Back",
+        "Pause",
+        "End",
+        "Listening"
+       ]
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/C3-05",
+     "via": null
+    },
+    {
+     "agent": "L06",
+     "grade": "LKG",
+     "lang": "gu-IN",
+     "code": "NO_REPLAY_CONTROL",
+     "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session).",
+     "evidence": [
+      {
+       "t": 42.7,
+       "visible": [
+        "Reading Buddy",
+        "Home",
+        "Library",
+        "About",
+        "Back",
+        "Pause",
+        "End",
+        "Listening"
+       ]
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/L06",
+     "via": null
+    },
+    {
+     "agent": "N06",
+     "grade": "Nursery",
+     "lang": "gu-IN",
+     "code": "NO_REPLAY_CONTROL",
+     "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session).",
+     "evidence": [
+      {
+       "t": 29.26,
+       "visible": [
+        "Reading Buddy",
+        "Home",
+        "Library",
+        "About",
+        "Back",
+        "Pause",
+        "End",
+        "Listening"
+       ]
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/N06",
+     "via": null
+    },
+    {
+     "agent": "U08",
+     "grade": "UKG",
+     "lang": "hi-IN",
+     "code": "NO_REPLAY_CONTROL",
+     "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session).",
+     "evidence": [
+      {
+       "t": 36.63,
+       "visible": [
+        "Reading Buddy",
+        "Home",
+        "Library",
+        "About",
+        "Back",
+        "Pause",
+        "End",
+        "Listening"
+       ]
+      }
+     ],
+     "artefacts": "agent_org/runs/c02/retest/U08",
+     "via": null
+    }
+   ],
+   "codes": {
+    "NO_REPLAY_CONTROL": 4
+   },
+   "testable": true,
+   "rc_id": "RC-REPLAY"
+  },
+  {
+   "agents": [
+    "L07"
+   ],
+   "n_agents": 1,
+   "instances": 1,
+   "reach": 0.02,
+   "pre_primary_reach": 0.038,
+   "grades": {
+    "LKG": 1
+   },
+   "languages": {
+    "en-IN": 1
+   },
+   "abandon_rate_affected": 0.0,
+   "grade_weight": 1.4,
+   "score": 13.52,
+   "priority": "P3",
+   "quotes": [
+    "Again!"
+   ],
+   "samples": [
+    {
+     "agent": "L07",
+     "grade": "LKG",
+     "lang": "en-IN",
+     "code": "RESTART_NOT_FOUND",
+     "detail": "Wanted to read it again but found no way from the end screen.",
+     "evidence": [],
+     "artefacts": "agent_org/runs/c02/retest/L07",
+     "via": null
+    }
+   ],
+   "codes": {
+    "RESTART_NOT_FOUND": 1
+   },
+   "testable": true,
+   "rc_id": "RC-RESTART"
+  }
+ ],
+ "decisions": [
+  {
+   "rc": "RC-PREPRIMARY-CONTENT",
+   "priority": "P1",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": "accepted_by_human"
+  },
+  {
+   "rc": "RC-STALL-TIMING",
+   "priority": "P1",
+   "status": "validated_fixed",
+   "why": "Validated fix holds: residual cases only (11 children, was 20). Kept under watch.",
+   "previous": "validated_fixed"
+  },
+  {
+   "rc": "RC-NAVIGATION",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-FALSE-CORRECTION-TUTOR",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-MIDLINE-CORRECTION",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-DRILL-LOOP",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-FALSE-CORRECTION-STT",
+   "priority": "P2",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": "awaiting_human_approval"
+  },
+  {
+   "rc": "RC-SPOKEN-ONBOARDING",
+   "priority": "P2",
+   "status": "validated_fixed",
+   "why": "Validated fix holds: residual cases only (1 children, was 35). Kept under watch.",
+   "previous": "validated_fixed"
+  },
+  {
+   "rc": "RC-LONG-INTRO",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-TALK-OVER-BUDDY",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-LANGUAGE-SELECTION",
+   "priority": "P3",
+   "status": "deferred",
+   "why": "P3: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-RESTART",
+   "priority": "P3",
+   "status": "deferred",
+   "why": "P3: below the approval line this cycle.",
+   "previous": null
+  },
+  {
+   "rc": "RC-REPLAY",
+   "priority": "P3",
+   "status": "deferred",
+   "why": "P3: below the approval line this cycle.",
+   "previous": "deferred"
+  },
+  {
+   "rc": "RC-LENIENT-MATCHING",
+   "priority": "P3",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": "awaiting_human_approval"
+  }
+ ],
+ "unclassified": [
+  {
+   "agent": "C1-03",
+   "code": "INTERRUPTED_WHILE_THINKING",
+   "detail": [
+    "Buddy started talking 3.4 s into a planned 3.49 s thinking pause."
+   ]
+  },
+  {
+   "agent": "C2-05",
+   "code": "INTERRUPTED_WHILE_THINKING",
+   "detail": [
+    "Buddy started talking 0.2 s into a planned 2.56 s thinking pause."
+   ]
+  },
+  {
+   "agent": "L03",
+   "code": "INTERRUPTED_WHILE_THINKING",
+   "detail": [
+    "Buddy started talking 0.2 s into a planned 4.09 s thinking pause."
+   ]
+  },
+  {
+   "agent": "N02",
+   "code": "INTERRUPTED_WHILE_THINKING",
+   "detail": [
+    "Buddy started talking 0.2 s into a planned 2.16 s thinking pause."
+   ]
+  }
+ ],
+ "audio_eval": {
+  "label": "c02-retest",
+  "generated": "2026-11-10T11:36:41",
+  "commit": "4be878d",
+  "part_a": {
+   "by_language": {
+    "en-IN": {
+     "wer_clean": 0.014,
+     "wer_by_condition": {
+      "clean": 0.014,
+      "noise+hesitation": 0.083,
+      "skip": 0.018,
+      "stall": 0.01,
+      "sub": 0.034
+     },
+     "latency_ms_median": 119,
+     "transcript_after_speech_s_median": 0.32,
+     "alignment_accuracy": 1.0,
+     "alignment_accuracy_noisy": 0.281,
+     "missed_error_rate": 0.0,
+     "false_correction_per_50": 0.0,
+     "false_correction_per_50_noisy": 2.049,
+     "stall_detection": "4/4",
+     "prompts_during_hesitations_noisy": 0,
+     "readings": 28
+    },
+    "hi-IN": {
+     "wer_clean": 0.0,
+     "wer_by_condition": {
+      "clean": 0.0,
+      "noise+hesitation": 0.155,
+      "skip": 0.0,
+      "stall": 0.0,
+      "sub": 0.015
+     },
+     "latency_ms_median": 120,
+     "transcript_after_speech_s_median": 0.23,
+     "alignment_accuracy": 1.0,
+     "alignment_accuracy_noisy": 0.656,
+     "missed_error_rate": 0.0,
+     "false_correction_per_50": 0.0,
+     "false_correction_per_50_noisy": 1.064,
+     "stall_detection": "4/4",
+     "prompts_during_hesitations_noisy": 1,
+     "readings": 28
+    },
+    "gu-IN": {
+     "wer_clean": 0.073,
+     "wer_by_condition": {
+      "clean": 0.073,
+      "noise+hesitation": 0.292,
+      "skip": 0.061,
+      "stall": 0.112,
+      "sub": 0.1
+     },
+     "latency_ms_median": 109,
+     "transcript_after_speech_s_median": 0.31,
+     "alignment_accuracy": 0.875,
+     "alignment_accuracy_noisy": 0.438,
+     "missed_error_rate": 0.125,
+     "false_correction_per_50": 0.325,
+     "false_correction_per_50_noisy": 1.623,
+     "stall_detection": "3/4",
+     "prompts_during_hesitations_noisy": 3,
+     "readings": 28
+    }
+   },
+   "replay_summary": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 3.39,
+    "stall_prompt_s_max": 3.91,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   },
+   "recordings": 96
+  },
+  "part_b": {
+   "en-IN": {
+    "clean": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "pause_1.5": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_2.5": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_3.5": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.19
+    },
+    "repeat_word": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "self_correct": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "skip_small": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.43,
+     "pause_interruption_rate": null
+    },
+    "slow_word_by_word": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "substitute": {
+     "lines": 27,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.59,
+     "pause_interruption_rate": null
+    }
+   },
+   "gu-IN": {
+    "clean": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "matra_variant": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.62,
+     "pause_interruption_rate": null
+    },
+    "pause_1.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_2.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_3.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.12
+    },
+    "repeat_word": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "self_correct": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "skip_small": {
+     "lines": 24,
+     "false_corr_per_50": 2.08,
+     "missed_error_rate": 0.75,
+     "pause_interruption_rate": null
+    },
+    "slow_word_by_word": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "substitute": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.5,
+     "pause_interruption_rate": null
+    }
+   },
+   "hi-IN": {
+    "clean": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "matra_variant": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.92,
+     "pause_interruption_rate": null
+    },
+    "pause_1.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_2.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "pause_3.5": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.25
+    },
+    "repeat_word": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "self_correct": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": null
+    },
+    "skip_small": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.76,
+     "pause_interruption_rate": null
+    },
+    "slow_word_by_word": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": null,
+     "pause_interruption_rate": 0.0
+    },
+    "substitute": {
+     "lines": 24,
+     "false_corr_per_50": 0.0,
+     "missed_error_rate": 0.5,
+     "pause_interruption_rate": null
+    }
+   }
+  },
+  "headline": "Measured on synthetic adult voices: clean WER is highest for Gujarati (0.073); noise and hesitation cut tracking to 0.281–0.656 of checkpoints. Text-level: a 2.5 s mid-line thinking pause is interrupted in English 0.0, Gujarati 0.0, Hindi 0.0 of cases. Child-voice accuracy is unmeasured.",
+  "by_language": {
+   "en-IN": {
+    "wer_clean": 0.014,
+    "wer_by_condition": {
+     "clean": 0.014,
+     "noise+hesitation": 0.083,
+     "skip": 0.018,
+     "stall": 0.01,
+     "sub": 0.034
+    },
+    "latency_ms_median": 119,
+    "transcript_after_speech_s_median": 0.32,
+    "alignment_accuracy": 1.0,
+    "alignment_accuracy_noisy": 0.281,
+    "missed_error_rate": 0.0,
+    "false_correction_per_50": 0.0,
+    "false_correction_per_50_noisy": 2.049,
+    "stall_detection": "4/4",
+    "prompts_during_hesitations_noisy": 0,
+    "readings": 28
+   },
+   "hi-IN": {
+    "wer_clean": 0.0,
+    "wer_by_condition": {
+     "clean": 0.0,
+     "noise+hesitation": 0.155,
+     "skip": 0.0,
+     "stall": 0.0,
+     "sub": 0.015
+    },
+    "latency_ms_median": 120,
+    "transcript_after_speech_s_median": 0.23,
+    "alignment_accuracy": 1.0,
+    "alignment_accuracy_noisy": 0.656,
+    "missed_error_rate": 0.0,
+    "false_correction_per_50": 0.0,
+    "false_correction_per_50_noisy": 1.064,
+    "stall_detection": "4/4",
+    "prompts_during_hesitations_noisy": 1,
+    "readings": 28
+   },
+   "gu-IN": {
+    "wer_clean": 0.073,
+    "wer_by_condition": {
+     "clean": 0.073,
+     "noise+hesitation": 0.292,
+     "skip": 0.061,
+     "stall": 0.112,
+     "sub": 0.1
+    },
+    "latency_ms_median": 109,
+    "transcript_after_speech_s_median": 0.31,
+    "alignment_accuracy": 0.875,
+    "alignment_accuracy_noisy": 0.438,
+    "missed_error_rate": 0.125,
+    "false_correction_per_50": 0.325,
+    "false_correction_per_50_noisy": 1.623,
+    "stall_detection": "3/4",
+    "prompts_during_hesitations_noisy": 3,
+    "readings": 28
+   }
+  }
+ }
+}

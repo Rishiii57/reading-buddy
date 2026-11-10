@@ -1,0 +1,372 @@
+{
+ "label": "c02-retest",
+ "generated": "2026-11-10T11:36:41",
+ "commit": "4be878d",
+ "part_a": {
+  "by_language": {
+   "en-IN": {
+    "wer_clean": 0.014,
+    "wer_by_condition": {
+     "clean": 0.014,
+     "noise+hesitation": 0.083,
+     "skip": 0.018,
+     "stall": 0.01,
+     "sub": 0.034
+    },
+    "latency_ms_median": 119,
+    "transcript_after_speech_s_median": 0.32,
+    "alignment_accuracy": 1.0,
+    "alignment_accuracy_noisy": 0.281,
+    "missed_error_rate": 0.0,
+    "false_correction_per_50": 0.0,
+    "false_correction_per_50_noisy": 2.049,
+    "stall_detection": "4/4",
+    "prompts_during_hesitations_noisy": 0,
+    "readings": 28
+   },
+   "hi-IN": {
+    "wer_clean": 0.0,
+    "wer_by_condition": {
+     "clean": 0.0,
+     "noise+hesitation": 0.155,
+     "skip": 0.0,
+     "stall": 0.0,
+     "sub": 0.015
+    },
+    "latency_ms_median": 120,
+    "transcript_after_speech_s_median": 0.23,
+    "alignment_accuracy": 1.0,
+    "alignment_accuracy_noisy": 0.656,
+    "missed_error_rate": 0.0,
+    "false_correction_per_50": 0.0,
+    "false_correction_per_50_noisy": 1.064,
+    "stall_detection": "4/4",
+    "prompts_during_hesitations_noisy": 1,
+    "readings": 28
+   },
+   "gu-IN": {
+    "wer_clean": 0.073,
+    "wer_by_condition": {
+     "clean": 0.073,
+     "noise+hesitation": 0.292,
+     "skip": 0.061,
+     "stall": 0.112,
+     "sub": 0.1
+    },
+    "latency_ms_median": 109,
+    "transcript_after_speech_s_median": 0.31,
+    "alignment_accuracy": 0.875,
+    "alignment_accuracy_noisy": 0.438,
+    "missed_error_rate": 0.125,
+    "false_correction_per_50": 0.325,
+    "false_correction_per_50_noisy": 1.623,
+    "stall_detection": "3/4",
+    "prompts_during_hesitations_noisy": 3,
+    "readings": 28
+   }
+  },
+  "replay_summary": {
+   "readings": 84,
+   "tracking_pass": "23/24",
+   "errors_caught": "23/24",
+   "subs_caught": "11/12",
+   "skips_caught": "12/12",
+   "error_response_s_median": 0.41,
+   "stalls_prompted": "11/12",
+   "stall_prompt_s_median": 3.39,
+   "stall_prompt_s_max": 3.91,
+   "false_corrections": 3,
+   "correct_words": 1441,
+   "false_corrections_per_50_words": 0.104,
+   "prompts_in_clean_readings": 0,
+   "prisma_latency_ms_median": 117,
+   "transcript_after_line_end_s_median": 0.35,
+   "prisma_wer_clean": {
+    "en-IN": 0.014,
+    "gu-IN": 0.073,
+    "hi-IN": 0.0
+   },
+   "stress_sets": {
+    "hard": {
+     "tracking_pass": "3/12",
+     "false_corrections": 6,
+     "words": 293,
+     "false_silent_notes": 0,
+     "false_corrections_per_50_words": 1.02,
+     "prompts_during_hesitations": 2
+    },
+    "hard2": {
+     "tracking_pass": "2/12",
+     "false_corrections": 13,
+     "words": 293,
+     "false_silent_notes": 0,
+     "false_corrections_per_50_words": 2.22,
+     "prompts_during_hesitations": 2
+    }
+   },
+   "by_language": {
+    "en-IN": {
+     "tracking": "8/8",
+     "errors": "8/8",
+     "stall": "4/4"
+    },
+    "gu-IN": {
+     "tracking": "7/8",
+     "errors": "7/8",
+     "stall": "3/4"
+    },
+    "hi-IN": {
+     "tracking": "8/8",
+     "errors": "8/8",
+     "stall": "4/4"
+    }
+   }
+  },
+  "recordings": 96
+ },
+ "part_b": {
+  "en-IN": {
+   "clean": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "pause_1.5": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_2.5": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_3.5": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.19
+   },
+   "repeat_word": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "self_correct": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "skip_small": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.43,
+    "pause_interruption_rate": null
+   },
+   "slow_word_by_word": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "substitute": {
+    "lines": 27,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.59,
+    "pause_interruption_rate": null
+   }
+  },
+  "gu-IN": {
+   "clean": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "matra_variant": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.62,
+    "pause_interruption_rate": null
+   },
+   "pause_1.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_2.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_3.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.12
+   },
+   "repeat_word": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "self_correct": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "skip_small": {
+    "lines": 24,
+    "false_corr_per_50": 2.08,
+    "missed_error_rate": 0.75,
+    "pause_interruption_rate": null
+   },
+   "slow_word_by_word": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "substitute": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.5,
+    "pause_interruption_rate": null
+   }
+  },
+  "hi-IN": {
+   "clean": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "matra_variant": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.92,
+    "pause_interruption_rate": null
+   },
+   "pause_1.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_2.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "pause_3.5": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.25
+   },
+   "repeat_word": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "self_correct": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": null
+   },
+   "skip_small": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.76,
+    "pause_interruption_rate": null
+   },
+   "slow_word_by_word": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": null,
+    "pause_interruption_rate": 0.0
+   },
+   "substitute": {
+    "lines": 24,
+    "false_corr_per_50": 0.0,
+    "missed_error_rate": 0.5,
+    "pause_interruption_rate": null
+   }
+  }
+ },
+ "headline": "Measured on synthetic adult voices: clean WER is highest for Gujarati (0.073); noise and hesitation cut tracking to 0.281–0.656 of checkpoints. Text-level: a 2.5 s mid-line thinking pause is interrupted in English 0.0, Gujarati 0.0, Hindi 0.0 of cases. Child-voice accuracy is unmeasured.",
+ "by_language": {
+  "en-IN": {
+   "wer_clean": 0.014,
+   "wer_by_condition": {
+    "clean": 0.014,
+    "noise+hesitation": 0.083,
+    "skip": 0.018,
+    "stall": 0.01,
+    "sub": 0.034
+   },
+   "latency_ms_median": 119,
+   "transcript_after_speech_s_median": 0.32,
+   "alignment_accuracy": 1.0,
+   "alignment_accuracy_noisy": 0.281,
+   "missed_error_rate": 0.0,
+   "false_correction_per_50": 0.0,
+   "false_correction_per_50_noisy": 2.049,
+   "stall_detection": "4/4",
+   "prompts_during_hesitations_noisy": 0,
+   "readings": 28
+  },
+  "hi-IN": {
+   "wer_clean": 0.0,
+   "wer_by_condition": {
+    "clean": 0.0,
+    "noise+hesitation": 0.155,
+    "skip": 0.0,
+    "stall": 0.0,
+    "sub": 0.015
+   },
+   "latency_ms_median": 120,
+   "transcript_after_speech_s_median": 0.23,
+   "alignment_accuracy": 1.0,
+   "alignment_accuracy_noisy": 0.656,
+   "missed_error_rate": 0.0,
+   "false_correction_per_50": 0.0,
+   "false_correction_per_50_noisy": 1.064,
+   "stall_detection": "4/4",
+   "prompts_during_hesitations_noisy": 1,
+   "readings": 28
+  },
+  "gu-IN": {
+   "wer_clean": 0.073,
+   "wer_by_condition": {
+    "clean": 0.073,
+    "noise+hesitation": 0.292,
+    "skip": 0.061,
+    "stall": 0.112,
+    "sub": 0.1
+   },
+   "latency_ms_median": 109,
+   "transcript_after_speech_s_median": 0.31,
+   "alignment_accuracy": 0.875,
+   "alignment_accuracy_noisy": 0.438,
+   "missed_error_rate": 0.125,
+   "false_correction_per_50": 0.325,
+   "false_correction_per_50_noisy": 1.623,
+   "stall_detection": "3/4",
+   "prompts_during_hesitations_noisy": 3,
+   "readings": 28
+  }
+ }
+}

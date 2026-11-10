@@ -1,0 +1,263 @@
+{
+ "id": "20261110-112853-71951c",
+ "text_id": "hi-ekdo",
+ "mode": "mic",
+ "summary": {
+  "words_total": 15,
+  "words_read": 13,
+  "words_helped": 1,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 46.1,
+  "words_per_minute": 18.2
+ },
+ "log": [
+  {
+   "t": 0.083,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.555,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.213,
+   "event": "transcript",
+   "text": "एक दो तीन चार"
+  },
+  {
+   "t": 19.213,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 19.213,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 19.213,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 23.793,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.045,
+   "event": "transcript",
+   "text": "भैया बणो होसियार"
+  },
+  {
+   "t": 26.045,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 26.045,
+   "event": "echo_slips_accepted",
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 26.045,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 26.045,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 26.045,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 26.045,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 28.645,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 35.715,
+   "event": "transcript",
+   "text": "पँच छह सात आठ"
+  },
+  {
+   "t": 35.715,
+   "event": "progress",
+   "frm": 7,
+   "to": 11
+  },
+  {
+   "t": 35.715,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 35.715,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 39.461,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.144,
+   "event": "transcript",
+   "text": "पढ़ो रोज़ तुम पाठ"
+  },
+  {
+   "t": 42.144,
+   "event": "progress",
+   "frm": 11,
+   "to": 15
+  },
+  {
+   "t": 42.144,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 42.144,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 42.144,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.692,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.213,
+   "type": "transcript",
+   "text": "एक दो तीन चार",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  },
+  {
+   "t": 23.996,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.045,
+   "type": "transcript",
+   "text": "भैया बणो होसियार",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 33.193,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.715,
+   "type": "transcript",
+   "text": "पँच छह सात आठ",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  },
+  {
+   "t": 39.609,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.144,
+   "type": "transcript",
+   "text": "पढ़ो रोज़ तुम पाठ",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "एक दो तीन चार",
+   "heard": "एक दो तीन चार",
+   "muted_words": 0,
+   "duration_s": 2.1
+  },
+  {
+   "text": "भैया बणो होसियार",
+   "heard": "भैया बणो होसियार",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "पँच छह सात आठ",
+   "heard": "पँच छह सात आठ",
+   "muted_words": 0,
+   "duration_s": 2.1
+  },
+  {
+   "text": "पढ़ो रोज़ तुम पाठ",
+   "heard": "पढ़ो रोज़ तुम पाठ",
+   "muted_words": 0,
+   "duration_s": 2.1
+  }
+ ],
+ "tts_offline": 568
+}

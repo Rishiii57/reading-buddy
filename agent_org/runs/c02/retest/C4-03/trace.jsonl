@@ -1,0 +1,7 @@
+{"t": 3.21, "kind": "open_app", "brief": "Manav, Class 4 (about 9.5 years). Prefers gu-IN. Careful Gujarati reader."}
+{"t": 3.25, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.18, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.15, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 13.23, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.88, "kind": "session_started", "tries": 1}
+{"t": 27.94, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}

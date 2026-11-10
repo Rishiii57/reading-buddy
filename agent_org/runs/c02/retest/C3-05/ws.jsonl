@@ -1,0 +1,14 @@
+{"t": 19.95, "type": "ready", "message": null}
+{"t": 20.0, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 35.85, "type": "speech"}
+{"t": 38.47, "type": "heard", "text": "हड़ा समंदर गोपी"}
+{"t": 38.64, "type": "speech"}
+{"t": 40.66, "type": "speech"}
+{"t": 41.79, "type": "heard", "text": "चंदर"}
+{"t": 41.88, "type": "speech"}
+{"t": 41.89, "type": "say", "kind": "echo_line", "text": "बोल मेरी मछली कितना पानी? अब तुम बोलो!", "spans": [[4, 9]]}
+{"t": 46.03, "type": "speech"}
+{"t": 49.54, "type": "heard", "text": "वोल बोल मेड़ी मछली कितणा पानी"}
+{"t": 49.57, "type": "speech"}
+{"t": 49.63, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 49.63, "type": "summary", "summary": {"words_total": 9, "words_read": 6, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 2, "lines_completed": 2, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 29.6, "words_per_minute": 18.3}}

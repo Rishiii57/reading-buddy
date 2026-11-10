@@ -58,5 +58,29 @@
  "parallel": 4,
  "seed": null,
  "seed_offset": 0,
- "started": "2026-11-10T11:14:00"
+ "started": "2026-11-10T11:14:00",
+ "finished": "2026-11-10T11:36:40",
+ "summary": {
+  "agents": 50,
+  "completed": 20,
+  "abandoned_or_failed": 20,
+  "harness_errors": 0,
+  "outcomes": {
+   "ended_early": 10,
+   "abandoned_frustration": 5,
+   "left_before_start": 6,
+   "abandoned_attention": 9,
+   "completed": 20
+  },
+  "ledger": {
+   "mode": "sim",
+   "wall_s": 1359.4,
+   "gnani_credits": 0,
+   "stt_stream_s_if_live": 4316.8,
+   "note": "In sim mode no Prisma/Timbre calls are made. stt_stream_s_if_live is how many seconds of audio the same sessions would stream to Prisma if run live (sessions stream for their whole length, including Buddy's talking time).",
+   "child_speech_s": 1052.4,
+   "llm_tokens": 0,
+   "llm_note": "Child agents, PM, QA scoring are deterministic code; no LLM calls."
+  }
+ }
 }

@@ -233,7 +233,7 @@ def backlog(state) -> str:
          "deferred / awaiting_human_approval / approved → in_progress → awaiting_qa → validated_fixed "
          "(or returned_to_engineering). A validated item that reappears becomes *regressed*.", "",
          _table([[req_id(i["id"]), i["title"][:70], i.get("priority"), i.get("status"), i.get("first_seen"),
-                  " → ".join(f"{h['label']}:{h.get('agents', '-')}" for h in i.get("history", [])[-4:])]
+                  " → ".join(f"{h.get('label') or h.get('event', '?')}:{h.get('agents', '-')}" for h in i.get("history", [])[-4:])]
                  for i in items], ["Req", "Problem", "P", "Status", "First seen", "Recent history (run:children)"]), "",
          "## Unresolved problems", ""]
     L += [f"- {req_id(i['id'])} {i['title']} ({i.get('status')})" for i in items

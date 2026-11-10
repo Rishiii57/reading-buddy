@@ -1,0 +1,11 @@
+{"t": 4.63, "kind": "open_app", "brief": "Esha, Class 3 (about 8.5 years). Prefers hi-IN. Strong Hindi reader."}
+{"t": 4.64, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.82, "kind": "tap", "target": "हरा समंदर Green Sea Hindi Nursery Rhyme ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.86, "kind": "opened_text", "hash": "#/read/hi-samandar", "title": "हरा समंदर", "tags": ["Hindi", "Nursery"], "words": 9, "lines": 2}
+{"t": 14.12, "kind": "tap", "target": "Listen first", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.68, "kind": "listen_first_by_mistake"}
+{"t": 19.24, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 21.8, "kind": "session_started", "tries": 2}
+{"t": 35.42, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 35.8, "kind": "looked_for_replay", "found": []}
+{"t": 35.8, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}

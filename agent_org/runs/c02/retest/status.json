@@ -254,54 +254,102 @@
    "issues": 5
   },
   "C2-05": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:25:46"
+   "since": "11:25:46",
+   "outcome": "abandoned_attention",
+   "issues": 4
   },
   "C2-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:27:04"
+   "since": "11:27:04",
+   "outcome": "abandoned_attention",
+   "issues": 2
   },
   "C3-01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:28:14"
+   "since": "11:28:14",
+   "outcome": "abandoned_attention",
+   "issues": 4
   },
   "C3-02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:28:32"
+   "since": "11:28:32",
+   "outcome": "completed",
+   "issues": 1
   },
   "C3-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:29:39",
+   "outcome": "completed",
+   "issues": 2
   },
   "C3-04": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:29:43",
+   "outcome": "abandoned_attention",
+   "issues": 4
   },
   "C3-05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:30:47",
+   "outcome": "completed",
+   "issues": 2
   },
   "C3-06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:30:58",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-01": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:31:49",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-02": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:32:40",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:33:02",
+   "outcome": "completed",
+   "issues": 1
   },
   "C4-04": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:33:36",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:34:10",
+   "outcome": "completed",
+   "issues": 2
   },
   "C4-06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:34:17",
+   "outcome": "completed",
+   "issues": 3
   }
  }
 }

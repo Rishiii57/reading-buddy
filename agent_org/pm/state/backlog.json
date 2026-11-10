@@ -86,10 +86,19 @@
      "at": "2026-11-10T11:13:43",
      "by": "user (2026-11-10, chose 'Accept and merge')",
      "note": "QA r4: all guards pass; coverage 0.155->0.412 (target 0.6), level mismatch 1.0->0.2 (target 0), completion 0->0.1, frustration 2.82->2.36. Remaining gap: non-readers can still tap a Grade text; long intro and talk-over are separate deferred items."
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P1",
+     "status": "awaiting_human_approval",
+     "agents": 5,
+     "instances": 5,
+     "score": 19.73
     }
    ],
-   "status": "accepted_by_human",
-   "priority": "P0",
+   "status": "awaiting_human_approval",
+   "priority": "P1",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },
   "RC-CONSENT-GATE": {
@@ -182,10 +191,19 @@
      "event": "validated_fixed",
      "at": "2026-11-09T19:38:32",
      "note": "QA round 1: validated_fixed (1/1 criteria)"
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "validated_fixed",
+     "agents": 1,
+     "instances": 1,
+     "score": 14.54
     }
    ],
    "status": "validated_fixed",
-   "priority": "P1"
+   "priority": "P2"
   },
   "RC-STALL-TIMING": {
    "id": "RC-STALL-TIMING",
@@ -225,6 +243,15 @@
      "event": "validated_fixed",
      "at": "2026-11-09T20:05:45",
      "note": "QA round 2: validated_fixed (2/2 criteria)"
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P1",
+     "status": "validated_fixed",
+     "agents": 11,
+     "instances": 18,
+     "score": 19.21
     }
    ],
    "status": "validated_fixed",
@@ -243,6 +270,15 @@
      "agents": 13,
      "instances": 16,
      "score": 18.49
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 3,
+     "instances": 4,
+     "score": 17.2
     }
    ],
    "status": "deferred",
@@ -305,6 +341,15 @@
      "agents": 26,
      "instances": 46,
      "score": 14.56
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 26,
+     "instances": 49,
+     "score": 14.16
     }
    ],
    "status": "deferred",
@@ -323,6 +368,15 @@
      "agents": 35,
      "instances": 35,
      "score": 15.03
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 33,
+     "instances": 33,
+     "score": 14.18
     }
    ],
    "status": "deferred",
@@ -341,6 +395,15 @@
      "agents": 3,
      "instances": 3,
      "score": 16.68
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 5,
+     "instances": 9,
+     "score": 16.55
     }
    ],
    "status": "deferred",
@@ -359,6 +422,15 @@
      "agents": 4,
      "instances": 4,
      "score": 17.18
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 5,
+     "instances": 5,
+     "score": 17.34
     }
    ],
    "status": "deferred",
@@ -377,6 +449,15 @@
      "agents": 4,
      "instances": 4,
      "score": 15.93
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "awaiting_human_approval",
+     "agents": 2,
+     "instances": 3,
+     "score": 14.64
     }
    ],
    "status": "awaiting_human_approval",
@@ -395,6 +476,15 @@
      "agents": 10,
      "instances": 19,
      "score": 10.91
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "awaiting_human_approval",
+     "agents": 14,
+     "instances": 17,
+     "score": 10.95
     }
    ],
    "status": "awaiting_human_approval",
@@ -413,10 +503,19 @@
      "agents": 12,
      "instances": 32,
      "score": 14.6
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 35,
+     "score": 13.6
     }
    ],
    "status": "deferred",
-   "priority": "P2"
+   "priority": "P3"
   },
   "RC-NAVIGATION": {
    "id": "RC-NAVIGATION",
@@ -431,6 +530,15 @@
      "agents": 12,
      "instances": 12,
      "score": 16.8
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 18,
+     "instances": 18,
+     "score": 18.0
     }
    ],
    "status": "deferred",
@@ -449,6 +557,33 @@
      "agents": 4,
      "instances": 4,
      "score": 12.53
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 11.03
+    }
+   ],
+   "status": "deferred",
+   "priority": "P3"
+  },
+  "RC-RESTART": {
+   "id": "RC-RESTART",
+   "title": "Reading the same text again does not work smoothly",
+   "first_seen": "c02/retest",
+   "history": [
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 1,
+     "instances": 1,
+     "score": 13.52
     }
    ],
    "status": "deferred",
@@ -463,6 +598,14 @@
    "agents": 50,
    "root_causes": 15,
    "unclassified": 3
+  },
+  {
+   "cycle": "c02",
+   "label": "retest",
+   "at": "2026-11-10T11:37:02",
+   "agents": 50,
+   "root_causes": 14,
+   "unclassified": 4
   }
  ]
 }

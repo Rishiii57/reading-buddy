@@ -1,0 +1,57 @@
+{"t": 19.88, "type": "ready", "message": null}
+{"t": 19.88, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 33.97, "type": "speech"}
+{"t": 36.53, "type": "heard", "text": "small ant walked across floor"}
+{"t": 36.53, "type": "speech"}
+{"t": 37.99, "type": "speech"}
+{"t": 39.41, "type": "heard", "text": "the floor"}
+{"t": 39.44, "type": "speech"}
+{"t": 39.47, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. A", "spans": [[0, 1]]}
+{"t": 43.11, "type": "speech"}
+{"t": 44.23, "type": "heard", "text": "A"}
+{"t": 44.23, "type": "speech"}
+{"t": 44.28, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 53.04, "type": "speech"}
+{"t": 56.63, "type": "heard", "text": "A small ant walked across the floor"}
+{"t": 56.64, "type": "speech"}
+{"t": 56.66, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 60.05, "type": "speech"}
+{"t": 65.33, "type": "heard", "text": "It carried a get grain of of rice on its back"}
+{"t": 65.58, "type": "speech"}
+{"t": 65.58, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 68.76, "type": "speech"}
+{"t": 72.58, "type": "heard", "text": "The rice was bigger than dhe ant"}
+{"t": 72.73, "type": "speech"}
+{"t": 72.76, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[21, 22]]}
+{"t": 77.94, "type": "speech"}
+{"t": 78.95, "type": "heard", "text": "the"}
+{"t": 78.95, "type": "speech"}
+{"t": 78.95, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.", "spans": [[16, 23]]}
+{"t": 86.11, "type": "speech"}
+{"t": 86.88, "type": "heard", "text": "ant"}
+{"t": 86.88, "type": "speech"}
+{"t": 88.22, "type": "speech"}
+{"t": 91.77, "type": "heard", "text": "The rice was bigger than the ant"}
+{"t": 91.93, "type": "speech"}
+{"t": 91.99, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 97.07, "type": "speech"}
+{"t": 100.35, "type": "heard", "text": "But the ana did noa give up"}
+{"t": 100.37, "type": "speech"}
+{"t": 100.42, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. ant", "spans": [[25, 26]]}
+{"t": 104.96, "type": "speech"}
+{"t": 106.0, "type": "heard", "text": "ant"}
+{"t": 106.0, "type": "speech"}
+{"t": 106.01, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! not", "spans": [[27, 28]]}
+{"t": 109.92, "type": "speech"}
+{"t": 112.08, "type": "heard", "text": "not"}
+{"t": 112.11, "type": "speech"}
+{"t": 112.11, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! But the ant did not give up. Now you say the whole line.", "spans": [[23, 30]]}
+{"t": 118.33, "type": "speech"}
+{"t": 121.97, "type": "heard", "text": "But the ant did not give up"}
+{"t": 121.99, "type": "speech"}
+{"t": 121.99, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 125.61, "type": "speech"}
+{"t": 130.38, "type": "heard", "text": "It walked walked sun slowly and reached its have home"}
+{"t": 130.38, "type": "speech"}
+{"t": 130.39, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 130.39, "type": "summary", "summary": {"words_total": 37, "words_read": 33, "words_helped": 4, "words_to_practise": ["A", "the", "ant", "not"], "words_practised": 4, "correction_attempts": 4, "lines_total": 5, "lines_completed": 5, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 3, "seconds": 110.5, "words_per_minute": 20.1}}

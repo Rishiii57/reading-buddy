@@ -1,0 +1,16 @@
+{"t": 3.24, "kind": "open_app", "brief": "Parth, Class 2 (about 7.5 years). Prefers gu-IN. Uses the app alone."}
+{"t": 3.31, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.34, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.51, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.48, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.02, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 13.43, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.93, "kind": "session_started", "tries": 1}
+{"t": 27.74, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 29.12, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 52.98, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 203.74, "kind": "tap_mic_to_talk"}
+{"t": 203.74, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 218.4, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 227.25, "kind": "abandon", "why": "attention", "frustration": 0.25}
+{"t": 228.17, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,10 @@
+{"t": 4.41, "kind": "open_app", "brief": "Khushi, Class 4 (about 9.5 years). Prefers en-IN. Finds most texts too easy."}
+{"t": 4.48, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.5, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.42, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.35, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 15.0, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 19.46, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 23.3, "kind": "session_started", "tries": 1}
+{"t": 73.14, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'the' correctly but Buddy asked to practise it."}
+{"t": 86.85, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}

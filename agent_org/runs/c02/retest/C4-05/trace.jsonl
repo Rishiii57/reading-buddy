@@ -1,0 +1,11 @@
+{"t": 4.24, "kind": "open_app", "brief": "Laksh, Class 4 (about 9.5 years). Prefers hi-IN. Very fast reader."}
+{"t": 4.3, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.72, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.56, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 13.2, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.31, "kind": "session_started", "tries": 1}
+{"t": 28.54, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 78.95, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 131.38, "kind": "tap", "target": "Read this again", "why": "wants to read it again", "view": "view-summary"}
+{"t": 133.42, "kind": "tap", "target": "Start reading", "why": "starting again", "view": "view-reader"}
+{"t": 148.2, "kind": "restart_ok", "after_s": 13.9}

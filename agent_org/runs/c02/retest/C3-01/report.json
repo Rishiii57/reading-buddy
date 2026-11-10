@@ -1,0 +1,392 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "C3-01",
+ "seed": 1578,
+ "persona": {
+  "id": "C3-01",
+  "name": "Zoya",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.32,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 29.32,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 163.5,
+    "details": [
+     "Asked to say 'the' 3 times.",
+     "Asked to say 'the' 4 times.",
+     "Asked to say 'the' 5 times."
+    ],
+    "evidence": [
+     {
+      "t": 163.5,
+      "word": "the",
+      "times": 3
+     },
+     {
+      "t": 167.95,
+      "word": "the",
+      "times": 4
+     },
+     {
+      "t": 189.25,
+      "word": "the",
+      "times": 5
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 193.61,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 193.61,
+      "said": "Ravi shares",
+      "heard": ""
+     },
+     {
+      "t": 230.93,
+      "said": "under the tree ana little together",
+      "heard": "tree ana little together"
+     },
+     {
+      "t": 251.97,
+      "said": "to like laugh together",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'the' as 'None' and it was marked as read correctly.",
+     "Read 'and' as 'None' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "the",
+      "child_said": null,
+      "kind": "skip",
+      "speech_model_wrote": "They sit under the and laugh together"
+     },
+     {
+      "word": "and",
+      "child_said": null,
+      "kind": "skip",
+      "speech_model_wrote": "to like laugh together"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 2.55,
+  "frustration_events": [
+   {
+    "t": 29.32,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 36.29,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 42.1,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 48.86,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 67.88,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 87.5,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 87.62,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 95.04,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 100.47,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 105.0,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 122.15,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 138.73,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 144.02,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 160.24,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 163.5,
+    "kind": "drill_repeat",
+    "frustration": 0.7,
+    "word": "the"
+   },
+   {
+    "t": 167.95,
+    "kind": "drill_repeat",
+    "frustration": 1.4,
+    "word": "the"
+   },
+   {
+    "t": 180.19,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 185.79,
+    "kind": "praise",
+    "frustration": 0.85
+   },
+   {
+    "t": 189.25,
+    "kind": "drill_repeat",
+    "frustration": 1.55,
+    "word": "the"
+   },
+   {
+    "t": 193.61,
+    "kind": "unheard_speech",
+    "frustration": 2.35
+   },
+   {
+    "t": 193.61,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 201.59,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 203.58,
+    "kind": "progress",
+    "frustration": 1.9
+   },
+   {
+    "t": 203.68,
+    "kind": "praise",
+    "frustration": 1.5
+   },
+   {
+    "t": 210.84,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 215.2,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 220.84,
+    "kind": "progress",
+    "frustration": 1.05
+   },
+   {
+    "t": 224.91,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 230.93,
+    "kind": "unheard_speech",
+    "frustration": 1.7
+   },
+   {
+    "t": 230.93,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 248.31,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 251.97,
+    "kind": "unheard_speech",
+    "frustration": 2.2
+   },
+   {
+    "t": 251.97,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 261.62,
+    "kind": "dead_click",
+    "frustration": 2.55,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 6,
+  "interruptions": 0,
+  "unheard_words": 8,
+  "buddy_talk_s": 124.0,
+  "child_talk_s": 61.8,
+  "tired_said": false,
+  "time_to_text_s": 6.3,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.2,
+  "time_to_first_word_s": 14.2,
+  "session_s": 246.0,
+  "words_total": 32,
+  "words_attempted": 32,
+  "words_said_wrong": 3,
+  "corrections": 9,
+  "buddy_turns": 29,
+  "stall_prompts": 0,
+  "uncertain_prompts": 3
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 24,
+  "words_helped": 8,
+  "words_to_practise": [
+   "is",
+   "Ravi",
+   "shares",
+   "the",
+   "with",
+   "his",
+   "under",
+   "tree"
+  ],
+  "words_practised": 13,
+  "correction_attempts": 14,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 9,
+  "seconds": 243.9,
+  "words_per_minute": 7.9
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 668,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

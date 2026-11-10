@@ -1,0 +1,12 @@
+{"t": 2.19, "kind": "open_app", "brief": "Veer, Class 3 (about 8.5 years). Prefers gu-IN. Explores the app without a grown-up."}
+{"t": 2.25, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.54, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 6.67, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.54, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.96, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 11.18, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 15.55, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.16, "kind": "session_started", "tries": 1}
+{"t": 30.32, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 118.82, "kind": "tap_mic_to_talk"}
+{"t": 118.85, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}

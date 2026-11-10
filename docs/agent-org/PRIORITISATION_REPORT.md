@@ -1,4 +1,4 @@
-# Prioritisation report: cycle c01 / baseline
+# Prioritisation report: cycle c02 / retest
 
 ## Method
 
@@ -14,38 +14,36 @@ score = 3·severity + 6·reach·grade_weight + 3·max(0, pre-primary reach − r
 
 | P | Req | Problem | Sev | Children | Pre-primary | Grade wt | Langs | Learning | UX | Abandon (affected) | Cplx | Score |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| P0 | REQ-PREPRIMARY-CONTENT | No reading material for Nursery, LKG and UKG | 4 | 26 (52%) | 100% | 1.41 | 3 | 3 | 3 | 85% | L | 24.92 |
-| P0 | REQ-CONSENT-GATE | Parent-consent box is a dead end for pre-readers and a tick- | 4 | 9 (18%) | 15% | 1.2 | 3 | 2 | 3 | 78% | M | 19.45 |
-| P1 | REQ-SPOKEN-ONBOARDING | Before a session starts, all guidance is written English; no | 3 | 35 (70%) | 96% | 1.3 | 3 | 2 | 3 | 74% | S | 22.04 |
-| P1 | REQ-STALL-TIMING | Stall prompt fires during normal thinking pauses of slow and | 3 | 20 (40%) | 31% | 1.18 | 3 | 3 | 3 | 70% | S | 20.03 |
-| P2 | REQ-MIC-TOGGLE | Tapping the big microphone during a session pauses it | 3 | 19 (38%) | 42% | 1.23 | 3 | 2 | 3 | 79% | S | 18.82 |
-| P2 | REQ-MIDLINE-CORRECTION | A slip followed by a thinking pause triggers word practice m | 3 | 13 (26%) | 31% | 1.28 | 3 | 3 | 2 | 77% | S | 18.49 |
-| P2 | REQ-FALSE-CORRECTION-TUTOR | Correctly read words flagged for practice (tutor/aligner) | 3 | 4 (8%) | 8% | 1.2 | 2 | 3 | 3 | 75% | M | 17.18 |
-| P2 | REQ-NAVIGATION | Children cannot find a text or leave the reading page by acc | 3 | 12 (24%) | 35% | 1.31 | 3 | 2 | 3 | 50% | M | 16.8 |
-| P2 | REQ-DRILL-LOOP | Word practice and line repetition loop on the same word or l | 3 | 3 (6%) | 0% | 1.07 | 2 | 2 | 3 | 100% | S | 16.68 |
-| P2 | REQ-FALSE-CORRECTION-STT | Correct reading misheard by the speech model (child voices) | 3 | 4 (8%) | 4% | 1.1 | 2 | 3 | 3 | 50% | L | 15.93 |
-| P2 | REQ-LONG-INTRO | Buddy's opening talk is long before the child gets a turn | 2 | 35 (70%) | 62% | 1.2 | 3 | 1 | 2 | 60% | S | 15.03 |
-| P2 | REQ-LANGUAGE-SELECTION | Children end up in, or hear, a language they did not choose | 2 | 12 (24%) | 35% | 1.38 | 3 | 2 | 2 | 100% | S | 14.6 |
-| P2 | REQ-TALK-OVER-BUDDY | What a child says while Buddy is talking is silently discard | 2 | 26 (52%) | 38% | 1.17 | 3 | 2 | 2 | 65% | M | 14.56 |
-| P3 | REQ-REPLAY | No way to hear a line again during reading | 2 | 4 (8%) | 12% | 1.3 | 2 | 2 | 2 | 75% | S | 12.53 |
-| P3 | REQ-LENIENT-MATCHING | Some misreadings are accepted as correct (vowel length, matr | 2 | 10 (20%) | 8% | 1.09 | 3 | 2 | 1 | 50% | M | 10.91 |
+| P1 | REQ-PREPRIMARY-CONTENT | No reading material for Nursery, LKG and UKG | 4 | 5 (10%) | 19% | 1.42 | 2 | 3 | 3 | 60% | L | 19.73 |
+| P1 | REQ-STALL-TIMING | Stall prompt fires during normal thinking pauses of slow and | 3 | 11 (22%) | 38% | 1.38 | 3 | 3 | 3 | 55% | S | 19.21 |
+| P2 | REQ-NAVIGATION | Children cannot find a text or leave the reading page by acc | 3 | 18 (36%) | 62% | 1.37 | 3 | 2 | 3 | 33% | M | 18.0 |
+| P2 | REQ-FALSE-CORRECTION-TUTOR | Correctly read words flagged for practice (tutor/aligner) | 3 | 5 (10%) | 4% | 1.06 | 3 | 3 | 3 | 80% | M | 17.34 |
+| P2 | REQ-MIDLINE-CORRECTION | A slip followed by a thinking pause triggers word practice m | 3 | 3 (6%) | 4% | 1.1 | 2 | 3 | 2 | 100% | S | 17.2 |
+| P2 | REQ-DRILL-LOOP | Word practice and line repetition loop on the same word or l | 3 | 5 (10%) | 4% | 1.08 | 3 | 2 | 3 | 80% | S | 16.55 |
+| P2 | REQ-FALSE-CORRECTION-STT | Correct reading misheard by the speech model (child voices) | 3 | 2 (4%) | 0% | 1.0 | 2 | 3 | 3 | 0% | L | 14.64 |
+| P2 | REQ-SPOKEN-ONBOARDING | Before a session starts, all guidance is written English; no | 3 | 1 (2%) | 4% | 1.5 | 1 | 2 | 3 | 0% | S | 14.54 |
+| P2 | REQ-LONG-INTRO | Buddy's opening talk is long before the child gets a turn | 2 | 33 (66%) | 62% | 1.21 | 3 | 1 | 2 | 30% | S | 14.18 |
+| P2 | REQ-TALK-OVER-BUDDY | What a child says while Buddy is talking is silently discard | 2 | 26 (52%) | 50% | 1.22 | 3 | 2 | 2 | 38% | M | 14.16 |
+| P3 | REQ-LANGUAGE-SELECTION | Children end up in, or hear, a language they did not choose | 2 | 12 (24%) | 35% | 1.38 | 3 | 2 | 2 | 50% | S | 13.6 |
+| P3 | REQ-RESTART | Reading the same text again does not work smoothly | 3 | 1 (2%) | 4% | 1.4 | 1 | 2 | 2 | 0% | S | 13.52 |
+| P3 | REQ-REPLAY | No way to hear a line again during reading | 2 | 4 (8%) | 12% | 1.3 | 2 | 2 | 2 | 0% | S | 11.03 |
+| P3 | REQ-LENIENT-MATCHING | Some misreadings are accepted as correct (vowel length, matr | 2 | 14 (28%) | 19% | 1.14 | 3 | 2 | 1 | 21% | M | 10.95 |
 
 ## Decisions this cycle
 
-awaiting_human_approval: 4, approved: 2, deferred: 9
+awaiting_human_approval: 3, validated_fixed: 2, deferred: 9
 
-- REQ-PREPRIMARY-CONTENT **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision.
-- REQ-CONSENT-GATE **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision.
-- REQ-SPOKEN-ONBOARDING **approved**: P1 within capacity (1/8 units).
-- REQ-STALL-TIMING **approved**: P1 within capacity (2/8 units).
-- REQ-MIC-TOGGLE **deferred**: P2: below the approval line this cycle.
-- REQ-MIDLINE-CORRECTION **deferred**: P2: below the approval line this cycle.
-- REQ-FALSE-CORRECTION-TUTOR **deferred**: P2: below the approval line this cycle.
-- REQ-NAVIGATION **deferred**: P2: below the approval line this cycle.
-- REQ-DRILL-LOOP **deferred**: P2: below the approval line this cycle.
-- REQ-FALSE-CORRECTION-STT **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision.
-- REQ-LONG-INTRO **deferred**: P2: below the approval line this cycle.
-- REQ-LANGUAGE-SELECTION **deferred**: P2: below the approval line this cycle.
-- REQ-TALK-OVER-BUDDY **deferred**: P2: below the approval line this cycle.
-- REQ-REPLAY **deferred**: P3: below the approval line this cycle.
-- REQ-LENIENT-MATCHING **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision.
+- REQ-PREPRIMARY-CONTENT **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision. (was accepted_by_human)
+- REQ-STALL-TIMING **validated_fixed**: Validated fix holds: residual cases only (11 children, was 20). Kept under watch. (was validated_fixed)
+- REQ-NAVIGATION **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-FALSE-CORRECTION-TUTOR **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-MIDLINE-CORRECTION **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-DRILL-LOOP **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-FALSE-CORRECTION-STT **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision. (was awaiting_human_approval)
+- REQ-SPOKEN-ONBOARDING **validated_fixed**: Validated fix holds: residual cases only (1 children, was 35). Kept under watch. (was validated_fixed)
+- REQ-LONG-INTRO **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-TALK-OVER-BUDDY **deferred**: P2: below the approval line this cycle. (was deferred)
+- REQ-LANGUAGE-SELECTION **deferred**: P3: below the approval line this cycle. (was deferred)
+- REQ-RESTART **deferred**: P3: below the approval line this cycle.
+- REQ-REPLAY **deferred**: P3: below the approval line this cycle. (was deferred)
+- REQ-LENIENT-MATCHING **awaiting_human_approval**: Touches content, privacy or model/data collection: needs a human decision. (was awaiting_human_approval)
