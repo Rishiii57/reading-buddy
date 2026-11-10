@@ -297,7 +297,7 @@ def test_pre_primary_rhyme_models_every_line():
     eng, acts = simulate(text, script, until=t + 1)
     echoes = [a for _, a in acts if a["type"] == "say" and a["kind"] == "echo_line"]
     assert eng.done and len(echoes) == len(text.line_words) - 1
-    assert echoes[0]["parts"][1] == ("span", *text.line_range(1))
+    assert echoes[0]["parts"][0] == ("span", *text.line_range(1))
 
 
 def test_grade_texts_do_not_echo():

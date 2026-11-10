@@ -364,7 +364,8 @@ class TutorEngine:
             return []
         start, end = self._line_range(self.line)
         self._set_state("TEACHER_DEMONSTRATION", now, line=self.line)
-        return [self._say(now, "echo_line", [("phrase", "listen"), ("span", start, end), ("phrase", "now_you_try")])]
+        # short on purpose: just the line and "your turn" (children talk over long Buddy turns)
+        return [self._say(now, "echo_line", [("span", start, end), ("phrase", "now_you_try")])]
 
     def _next_line(self, now: float) -> None:
         self.line_errors.clear()
