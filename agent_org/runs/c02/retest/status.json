@@ -128,14 +128,18 @@
    "issues": 1
   },
   "U01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:18:14"
+   "since": "11:18:14",
+   "outcome": "abandoned_attention",
+   "issues": 5
   },
   "U02": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:18:53"
+   "since": "11:18:53",
+   "outcome": "abandoned_attention",
+   "issues": 3
   },
   "U03": {
    "state": "done",
@@ -169,10 +173,14 @@
    "since": "11:21:34"
   },
   "U08": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:21:46"
   },
   "C1-01": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:22:07"
   },
   "C1-02": {
    "state": "queued"

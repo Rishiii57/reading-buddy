@@ -1,0 +1,977 @@
+{
+ "id": "20261110-111908-85fd84",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 12,
+  "words_helped": 10,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 175.2,
+  "words_per_minute": 7.5
+ },
+ "log": [
+  {
+   "t": 0.107,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.823,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.893,
+   "event": "transcript",
+   "text": "Twinkle twinkle"
+  },
+  {
+   "t": 18.893,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 23.467,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 23.467,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 26.364,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 28.411,
+   "event": "transcript",
+   "text": "little"
+  },
+  {
+   "t": 28.411,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 33.063,
+   "event": "transcript",
+   "text": "star"
+  },
+  {
+   "t": 33.063,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 33.063,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 33.063,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 37.841,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.664,
+   "event": "transcript",
+   "text": "How I"
+  },
+  {
+   "t": 41.664,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 49.209,
+   "event": "transcript",
+   "text": "we what"
+  },
+  {
+   "t": 49.209,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 56.56,
+   "event": "transcript",
+   "text": "are"
+  },
+  {
+   "t": 59.953,
+   "event": "transcript",
+   "text": "yoa"
+  },
+  {
+   "t": 59.953,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 65.608,
+   "event": "transcript",
+   "text": "ara are"
+  },
+  {
+   "t": 65.608,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 65.608,
+   "event": "echo_slips_accepted",
+   "words": [
+    6,
+    8
+   ]
+  },
+  {
+   "t": 65.608,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 65.608,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 65.608,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 65.608,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 69.155,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 79.297,
+   "event": "transcript",
+   "text": "ua all all the"
+  },
+  {
+   "t": 79.297,
+   "event": "uncertain",
+   "text": "ua all all the"
+  },
+  {
+   "t": 83.118,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 83.118,
+   "event": "restart",
+   "frm": 10,
+   "to": 7
+  },
+  {
+   "t": 87.343,
+   "event": "transcript",
+   "text": "sa"
+  },
+  {
+   "t": 87.343,
+   "event": "restart",
+   "frm": 10,
+   "to": 3
+  },
+  {
+   "t": 90.943,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 90.943,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 94.561,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 97.907,
+   "event": "transcript",
+   "text": "Up adove"
+  },
+  {
+   "t": 97.907,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 102.985,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 11,
+   "to": 14,
+   "line": 2
+  },
+  {
+   "t": 102.985,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 11,
+   "to": 14
+  },
+  {
+   "t": 106.101,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 114.297,
+   "event": "transcript",
+   "text": "above above the"
+  },
+  {
+   "t": 114.297,
+   "event": "progress",
+   "frm": 11,
+   "to": 13
+  },
+  {
+   "t": 119.243,
+   "event": "transcript",
+   "text": "world"
+  },
+  {
+   "t": 119.243,
+   "event": "progress",
+   "frm": 13,
+   "to": 14
+  },
+  {
+   "t": 124.301,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 14,
+   "to": 16,
+   "line": 2
+  },
+  {
+   "t": 124.301,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 14,
+   "to": 16
+  },
+  {
+   "t": 128.294,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 130.428,
+   "event": "transcript",
+   "text": "so"
+  },
+  {
+   "t": 130.428,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 135.697,
+   "event": "transcript",
+   "text": "have have"
+  },
+  {
+   "t": 135.697,
+   "event": "uncertain",
+   "text": "have have"
+  },
+  {
+   "t": 135.697,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 139.136,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 141.366,
+   "event": "transcript",
+   "text": "high"
+  },
+  {
+   "t": 141.366,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 141.366,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 141.366,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 146.131,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 148.195,
+   "event": "transcript",
+   "text": "Like"
+  },
+  {
+   "t": 148.195,
+   "event": "progress",
+   "frm": 16,
+   "to": 17
+  },
+  {
+   "t": 155.614,
+   "event": "transcript",
+   "text": "ia sky"
+  },
+  {
+   "t": 155.614,
+   "event": "uncertain",
+   "text": "ia sky"
+  },
+  {
+   "t": 155.614,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 159.064,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 161.053,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 161.053,
+   "event": "progress",
+   "frm": 17,
+   "to": 18
+  },
+  {
+   "t": 165.277,
+   "event": "transcript",
+   "text": "diamond"
+  },
+  {
+   "t": 165.277,
+   "event": "progress",
+   "frm": 18,
+   "to": 19
+  },
+  {
+   "t": 171.492,
+   "event": "transcript",
+   "text": "in the sky"
+  },
+  {
+   "t": 171.492,
+   "event": "progress",
+   "frm": 19,
+   "to": 22
+  },
+  {
+   "t": 171.492,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 171.492,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 171.492,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.156,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.893,
+   "type": "transcript",
+   "text": "Twinkle twinkle",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 26.599,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.411,
+   "type": "transcript",
+   "text": "little",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 31.325,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.063,
+   "type": "transcript",
+   "text": "star",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 38.823,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.664,
+   "type": "transcript",
+   "text": "How I",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 46.339,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.209,
+   "type": "transcript",
+   "text": "we what",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 53.718,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.56,
+   "type": "transcript",
+   "text": "are",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 58.186,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.953,
+   "type": "transcript",
+   "text": "yoa",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 62.742,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.608,
+   "type": "transcript",
+   "text": "ara are",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 74.236,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.297,
+   "type": "transcript",
+   "text": "ua all all the",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 81.387,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.118,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 85.605,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.343,
+   "type": "transcript",
+   "text": "sa",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 95.067,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.907,
+   "type": "transcript",
+   "text": "Up adove",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 109.853,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 114.297,
+   "type": "transcript",
+   "text": "above above the",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 117.512,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.243,
+   "type": "transcript",
+   "text": "world",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 128.688,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.428,
+   "type": "transcript",
+   "text": "so",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 132.848,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 135.697,
+   "type": "transcript",
+   "text": "have have",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 139.523,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 141.366,
+   "type": "transcript",
+   "text": "high",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 146.463,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 148.195,
+   "type": "transcript",
+   "text": "Like",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 151.665,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 155.614,
+   "type": "transcript",
+   "text": "ia sky",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 159.301,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 161.053,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 163.546,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 165.277,
+   "type": "transcript",
+   "text": "diamond",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 167.534,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 171.492,
+   "type": "transcript",
+   "text": "in the sky",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle twinkle",
+   "heard": "Twinkle twinkle",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "littl",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "little",
+   "heard": "little",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "star",
+   "heard": "star",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "How I",
+   "heard": "How I",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "we what",
+   "heard": "we what",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "are",
+   "heard": "are",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "yoa",
+   "heard": "yoa",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ara are",
+   "heard": "ara are",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ua all all the",
+   "heard": "ua all all the",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "sa",
+   "heard": "sa",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "Up adove",
+   "heard": "Up adove",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "above above the",
+   "heard": "above above the",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "world",
+   "heard": "world",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "so",
+   "heard": "so",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "have have",
+   "heard": "have have",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "high",
+   "heard": "high",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "Like",
+   "heard": "Like",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ia sky",
+   "heard": "ia sky",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "diamond",
+   "heard": "diamond",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "in the sky",
+   "heard": "in the sky",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 304
+}

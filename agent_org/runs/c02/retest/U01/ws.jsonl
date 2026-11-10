@@ -1,0 +1,89 @@
+{"t": 11.92, "type": "ready", "message": null}
+{"t": 11.95, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 28.45, "type": "speech"}
+{"t": 32.8, "type": "heard", "text": "મરો પતંગ લલ"}
+{"t": 32.82, "type": "speech"}
+{"t": 32.82, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 36.89, "type": "speech"}
+{"t": 41.21, "type": "heard", "text": "માડૌ મારો પતંગ"}
+{"t": 41.23, "type": "speech"}
+{"t": 43.8, "type": "speech"}
+{"t": 45.7, "type": "heard", "text": "લાલ"}
+{"t": 45.7, "type": "speech"}
+{"t": 49.22, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ને પીળો", "spans": [[3, 5]]}
+{"t": 55.56, "type": "say", "kind": "stall_rest", "text": "ને પીળો હવે તું બોલ!", "spans": [[3, 5]]}
+{"t": 58.69, "type": "speech"}
+{"t": 60.61, "type": "heard", "text": "નૈ"}
+{"t": 60.66, "type": "speech"}
+{"t": 65.83, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... પીળો", "spans": [[4, 5]]}
+{"t": 68.13, "type": "speech"}
+{"t": 70.2, "type": "heard", "text": "પીળો"}
+{"t": 70.21, "type": "speech"}
+{"t": 70.99, "type": "speech"}
+{"t": 74.15, "type": "heard", "text": "આકાશે ઊડૈ"}
+{"t": 74.15, "type": "speech"}
+{"t": 78.22, "type": "speech"}
+{"t": 81.36, "type": "heard", "text": "રંગિલો રંગીલો"}
+{"t": 81.36, "type": "speech"}
+{"t": 81.72, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 85.12, "type": "speech"}
+{"t": 89.75, "type": "heard", "text": "પવણ પવન સથે"}
+{"t": 89.75, "type": "speech"}
+{"t": 89.75, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 94.24, "type": "speech"}
+{"t": 95.61, "type": "heard", "text": "પવણ"}
+{"t": 95.61, "type": "speech"}
+{"t": 99.94, "type": "speech"}
+{"t": 101.79, "type": "heard", "text": "સાથે"}
+{"t": 101.79, "type": "speech"}
+{"t": 105.99, "type": "speech"}
+{"t": 107.66, "type": "heard", "text": "નચે"}
+{"t": 107.73, "type": "speech"}
+{"t": 110.75, "type": "speech"}
+{"t": 112.67, "type": "heard", "text": "ગાય"}
+{"t": 112.67, "type": "speech"}
+{"t": 112.67, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. પવન", "spans": [[8, 9]]}
+{"t": 118.78, "type": "speech"}
+{"t": 121.38, "type": "heard", "text": "પવન પવન"}
+{"t": 121.43, "type": "speech"}
+{"t": 121.43, "type": "say", "kind": "fix_next", "text": "હા! ખૂબ સરસ! નાચે", "spans": [[10, 11]]}
+{"t": 128.12, "type": "speech"}
+{"t": 128.12, "type": "heard", "text": "નાચે"}
+{"t": 128.12, "type": "speech"}
+{"t": 128.12, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! પવન સાથે નાચે ગાય હવે તું આખી પંક્તિ બોલ.", "spans": [[8, 12]]}
+{"t": 136.08, "type": "speech"}
+{"t": 139.28, "type": "heard", "text": "પવન પવન"}
+{"t": 139.29, "type": "speech"}
+{"t": 142.79, "type": "speech"}
+{"t": 144.7, "type": "heard", "text": "સાથે"}
+{"t": 144.7, "type": "speech"}
+{"t": 147.92, "type": "speech"}
+{"t": 149.74, "type": "heard", "text": "નાચે"}
+{"t": 149.76, "type": "speech"}
+{"t": 153.98, "type": "speech"}
+{"t": 155.8, "type": "heard", "text": "ગય"}
+{"t": 155.8, "type": "speech"}
+{"t": 156.73, "type": "speech"}
+{"t": 161.87, "type": "heard", "text": "ઊંચે ઊંચે"}
+{"t": 161.89, "type": "speech"}
+{"t": 161.98, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. ગાય", "spans": [[11, 12]]}
+{"t": 166.62, "type": "speech"}
+{"t": 168.22, "type": "heard", "text": "ગય"}
+{"t": 168.24, "type": "speech"}
+{"t": 168.26, "type": "say", "kind": "fix_again", "text": "ગાય", "spans": [[11, 12]]}
+{"t": 171.96, "type": "speech"}
+{"t": 174.85, "type": "heard", "text": "ગાય"}
+{"t": 174.85, "type": "speech"}
+{"t": 174.85, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! પવન સાથે નાચે ગાય હવે તું આખી પંક્તિ બોલ.", "spans": [[8, 12]]}
+{"t": 181.38, "type": "speech"}
+{"t": 183.1, "type": "heard", "text": "પવન"}
+{"t": 183.16, "type": "speech"}
+{"t": 188.32, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... સાથે નાચે ગાય", "spans": [[9, 12]]}
+{"t": 191.59, "type": "speech"}
+{"t": 195.66, "type": "heard", "text": "સાથે સાથે"}
+{"t": 195.66, "type": "speech"}
+{"t": 199.39, "type": "speech"}
+{"t": 203.78, "type": "heard", "text": "નાચૈ નાચે ગાય"}
+{"t": 203.78, "type": "speech"}
+{"t": 203.78, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સાથે", "spans": [[9, 10]]}
+{"t": 205.71, "type": "summary", "summary": {"words_total": 16, "words_read": 6, "words_helped": 6, "words_to_practise": ["પવન", "સાથે", "નાચે", "ગાય"], "words_practised": 3, "correction_attempts": 4, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 4, "corrections": 3, "seconds": 193.8, "words_per_minute": 3.7}}
