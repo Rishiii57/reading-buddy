@@ -1,7 +1,7 @@
 {
  "utterances": [
   {
-   "t": 42.71,
+   "t": 45.95,
    "said": "मीना मीना के",
    "stt": "मीना मीना के",
    "stt_notes": [],
@@ -13,7 +13,7 @@
    "over_buddy": true
   },
   {
-   "t": 46.23,
+   "t": 49.48,
    "said": "मीणा के",
    "stt": "के",
    "stt_notes": [
@@ -27,7 +27,7 @@
    "over_buddy": false
   },
   {
-   "t": 53.37,
+   "t": 56.12,
    "said": "घड़",
    "stt": "घढ़",
    "stt_notes": [
@@ -41,89 +41,34 @@
    "over_buddy": false
   },
   {
-   "t": 65.25,
-   "said": "मीना के",
-   "stt": "मीना के",
+   "t": 66.61,
+   "said": "पीछै पीछै ए वगीचा",
+   "stt": "पीछै पीछै ए वगीचा",
    "stt_notes": [],
    "words": [
-    0,
-    1
-   ],
-   "muted_words": 1,
-   "over_buddy": true
-  },
-  {
-   "t": 68.49,
-   "said": "घड़",
-   "stt": "घड़",
-   "stt_notes": [],
-   "words": [
-    2,
-    3
+    4,
+    5,
+    6
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 70.92,
-   "said": "",
-   "stt": "",
+   "t": 84.52,
+   "said": "मीणा मीणा",
+   "stt": "मीणा मीणा",
    "stt_notes": [],
    "words": [
-    3
+    0
    ],
    "muted_words": 0,
    "over_buddy": false
-  },
-  {
-   "t": 77.87,
-   "said": "",
-   "stt": "",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "drill": true,
-   "muted_words": 0
-  },
-  {
-   "t": 85.11,
-   "said": "घड़ घड़",
-   "stt": "घड़ घड़",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "drill": true,
-   "muted_words": 0
-  },
-  {
-   "t": 87.57,
-   "said": "",
-   "stt": "",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "muted_words": 0,
-   "over_buddy": true
-  },
-  {
-   "t": 90.64,
-   "said": "घड़",
-   "stt": "घड़",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "drill": true,
-   "muted_words": 0
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 42.71,
+    "t": 45.95,
     "target": "मीना",
     "said": "मीना",
     "correct": true,
@@ -131,7 +76,7 @@
     "stt": "मीना मीना के"
    },
    {
-    "t": 46.23,
+    "t": 49.48,
     "target": "मीना",
     "said": "मीणा",
     "correct": false,
@@ -139,17 +84,17 @@
     "stt": "के"
    },
    {
-    "t": 65.25,
+    "t": 84.52,
     "target": "मीना",
-    "said": "मीना",
-    "correct": true,
-    "kind": "echo",
-    "stt": "मीना के"
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा"
    }
   ],
   "1": [
    {
-    "t": 42.71,
+    "t": 45.95,
     "target": "के",
     "said": "के",
     "correct": true,
@@ -157,105 +102,68 @@
     "stt": "मीना मीना के"
    },
    {
-    "t": 46.23,
+    "t": 49.48,
     "target": "के",
     "said": "के",
     "correct": true,
     "kind": "echo",
     "stt": "के"
-   },
-   {
-    "t": 65.25,
-    "target": "के",
-    "said": "के",
-    "correct": true,
-    "kind": "echo",
-    "stt": "मीना के"
    }
   ],
   "2": [
    {
-    "t": 53.37,
+    "t": 56.12,
     "target": "घर",
     "said": "घड़",
     "correct": false,
     "kind": "sub",
     "stt": "घढ़"
-   },
-   {
-    "t": 68.49,
-    "target": "घर",
-    "said": "घड़",
-    "correct": false,
-    "kind": "sub",
-    "stt": "घड़"
-   },
-   {
-    "t": 77.87,
-    "target": "घर",
-    "said": null,
-    "correct": false,
-    "kind": "skip",
-    "stt": "",
-    "drill": true
-   },
-   {
-    "t": 85.11,
-    "target": "घर",
-    "said": "घड़",
-    "correct": false,
-    "kind": "sub",
-    "stt": "घड़ घड़",
-    "drill": true
-   },
-   {
-    "t": 87.57,
-    "target": "घर",
-    "said": null,
-    "correct": false,
-    "kind": "skip",
-    "stt": ""
-   },
-   {
-    "t": 90.64,
-    "target": "घर",
-    "said": "घड़",
-    "correct": false,
-    "kind": "sub",
-    "stt": "घड़",
-    "drill": true
    }
   ],
   "3": [
    {
-    "t": 53.37,
+    "t": 56.12,
     "target": "के",
     "said": null,
     "correct": false,
     "kind": "skip",
     "stt": "घढ़"
-   },
+   }
+  ],
+  "4": [
    {
-    "t": 68.49,
-    "target": "के",
-    "said": null,
+    "t": 66.61,
+    "target": "पीछे",
+    "said": "पीछै",
     "correct": false,
-    "kind": "skip",
-    "stt": "घड़"
-   },
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
+   }
+  ],
+  "5": [
    {
-    "t": 70.92,
-    "target": "के",
-    "said": null,
+    "t": 66.61,
+    "target": "एक",
+    "said": "ए",
     "correct": false,
-    "kind": "skip",
-    "stt": ""
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
+   }
+  ],
+  "6": [
+   {
+    "t": 66.61,
+    "target": "बगीचा",
+    "said": "वगीचा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 25.43,
+   "t": 28.25,
    "type": "say",
    "kind": "intro",
    "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
@@ -267,7 +175,14 @@
    ]
   },
   {
-   "t": 59.24,
+   "t": 66.79,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 76.32,
    "type": "say",
    "kind": "stall_phrase",
    "text": "सुनो... मीना के घर",
@@ -279,52 +194,11 @@
    ]
   },
   {
-   "t": 71.99,
+   "t": 84.57,
    "type": "say",
-   "kind": "fix_word",
-   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। घर",
-   "spans": [
-    [
-     2,
-     3
-    ]
-   ]
-  },
-  {
-   "t": 80.41,
-   "type": "say",
-   "kind": "fix_again",
-   "text": "घर",
-   "spans": [
-    [
-     2,
-     3
-    ]
-   ]
-  },
-  {
-   "t": 85.38,
-   "type": "say",
-   "kind": "fix_again",
-   "text": "घर",
-   "spans": [
-    [
-     2,
-     3
-    ]
-   ]
-  },
-  {
-   "t": 90.66,
-   "type": "say",
-   "kind": "fix_again",
-   "text": "घर",
-   "spans": [
-    [
-     2,
-     3
-    ]
-   ]
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
   }
  ]
 }

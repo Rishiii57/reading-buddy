@@ -1,0 +1,271 @@
+{
+ "id": "20261109-214228-ad71cb",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 2,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 51.4,
+  "words_per_minute": 4.7
+ },
+ "log": [
+  {
+   "t": 0.339,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.356,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.416,
+   "event": "transcript",
+   "text": "એક"
+  },
+  {
+   "t": 17.416,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.363,
+   "event": "transcript",
+   "text": "બિલાડી"
+  },
+  {
+   "t": 21.363,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 26.472,
+   "event": "transcript",
+   "text": "જાડ"
+  },
+  {
+   "t": 26.472,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 30.98,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 30.98,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 32.842,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.798,
+   "event": "transcript",
+   "text": "તેણ"
+  },
+  {
+   "t": 34.798,
+   "event": "echo_slips_accepted",
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 34.798,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 34.798,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 34.798,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 41.203,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.59,
+   "event": "transcript",
+   "text": "પહેરી સાડ સાડ"
+  },
+  {
+   "t": 45.59,
+   "event": "uncertain",
+   "text": "પહેરી સાડ સાડ"
+  },
+  {
+   "t": 45.59,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 49.895,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.678,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.416,
+   "type": "transcript",
+   "text": "એક",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 19.629,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.363,
+   "type": "transcript",
+   "text": "બિલાડી",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 24.738,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.472,
+   "type": "transcript",
+   "text": "જાડ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 33.068,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.798,
+   "type": "transcript",
+   "text": "તેણ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 41.632,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.59,
+   "type": "transcript",
+   "text": "પહેરી સાડ સાડ",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એક",
+   "heard": "એક",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "બિલાડી",
+   "heard": "બિલાડી",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "જાડ",
+   "heard": "જાડ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "તેણ",
+   "heard": "તેણ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "પહેરી સાડ સાડ",
+   "heard": "પહેરી સાડ સાડ",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "પહેર",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 121
+}

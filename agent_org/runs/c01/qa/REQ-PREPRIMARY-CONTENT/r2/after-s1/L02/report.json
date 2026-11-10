@@ -36,13 +36,13 @@
     "code": "NO_TEXT_FOR_MY_LEVEL",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 9.91,
+    "first_t": 7.08,
     "details": [
      "LKG child landed on a 'Grade 1' text, made for children who already read."
     ],
     "evidence": [
      {
-      "t": 9.91,
+      "t": 7.08,
       "title": "The Rain Song",
       "grade_tag": "Grade 1"
      }
@@ -54,13 +54,13 @@
     "code": "LEFT_READING_BY_ACCIDENT",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 16.67,
+    "first_t": 14.03,
     "details": [
      "Tapped something that left the reading page before starting."
     ],
     "evidence": [
      {
-      "t": 16.67,
+      "t": 14.03,
       "view": "view-library"
      }
     ],
@@ -82,7 +82,7 @@
   "buddy_talk_s": 0.0,
   "child_talk_s": 0.0,
   "tired_said": false,
-  "time_to_text_s": 5.2,
+  "time_to_text_s": 3.1,
   "reader_page_audio_clips": 1,
   "words_total": 24,
   "words_attempted": 0,

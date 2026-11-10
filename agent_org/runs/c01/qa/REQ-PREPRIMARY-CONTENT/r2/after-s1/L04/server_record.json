@@ -1,11 +1,11 @@
 {
- "id": "20261109-212636-ab5405",
+ "id": "20261109-214230-b58dfb",
  "text_id": "en-twinkle",
  "mode": "mic",
  "summary": {
   "words_total": 22,
-  "words_read": 2,
-  "words_helped": 2,
+  "words_read": 5,
+  "words_helped": 4,
   "words_to_practise": [],
   "words_practised": 0,
   "correction_attempts": 0,
@@ -15,84 +15,113 @@
   "finished": false,
   "prompts": 1,
   "corrections": 0,
-  "seconds": 32.3,
-  "words_per_minute": 7.4
+  "seconds": 47.5,
+  "words_per_minute": 11.4
  },
  "log": [
   {
-   "t": 0.083,
+   "t": 0.134,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 13.177,
+   "t": 14.572,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 15.565,
+   "t": 18.187,
    "event": "transcript",
-   "text": "Twinkle twinkle"
+   "text": "Twinkle twinkle like"
   },
   {
-   "t": 15.565,
+   "t": 18.187,
    "event": "progress",
    "frm": 0,
    "to": 2
   },
   {
-   "t": 18.994,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 2,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 18.994,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 2,
-   "to": 4
-  },
-  {
-   "t": 21.991,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 24.614,
-   "event": "transcript",
-   "text": "little star"
-  },
-  {
-   "t": 24.614,
+   "t": 19.833,
    "event": "progress",
-   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 22.455,
+   "event": "transcript",
+   "text": "star"
+  },
+  {
+   "t": 22.455,
+   "event": "progress",
+   "frm": 3,
    "to": 4
   },
   {
-   "t": 24.614,
+   "t": 22.455,
+   "event": "echo_slips_accepted",
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 22.455,
    "event": "state",
    "state": "LINE_COMPLETED",
    "line": 0
   },
   {
-   "t": 24.614,
+   "t": 22.455,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION",
    "line": 1
   },
   {
-   "t": 30.321,
+   "t": 30.29,
    "event": "state",
    "state": "CHILD_READING"
+  },
+  {
+   "t": 33.574,
+   "event": "transcript",
+   "text": "hoa"
+  },
+  {
+   "t": 33.574,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 39.975,
+   "event": "transcript",
+   "text": "wonder wonder"
+  },
+  {
+   "t": 39.975,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 45.069,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 45.069,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 10
   }
  ],
  "stt_events": [
   {
-   "t": 0.0,
+   "t": 0.004,
    "type": "connected",
    "text": null,
    "latency": null,
@@ -100,7 +129,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 13.272,
+   "t": 15.045,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -108,15 +137,15 @@
    "message": null
   },
   {
-   "t": 15.565,
+   "t": 18.187,
    "type": "transcript",
-   "text": "Twinkle twinkle",
+   "text": "Twinkle twinkle like",
    "latency": 120,
-   "audio_duration_ms": 1870,
+   "audio_duration_ms": 2700,
    "message": null
   },
   {
-   "t": 22.26,
+   "t": 20.998,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -124,9 +153,41 @@
    "message": null
   },
   {
-   "t": 24.614,
+   "t": 22.455,
    "type": "transcript",
-   "text": "little star",
+   "text": "star",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 32.119,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.574,
+   "type": "transcript",
+   "text": "hoa",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 37.665,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.975,
+   "type": "transcript",
+   "text": "wonder wonder",
    "latency": 120,
    "audio_duration_ms": 1870,
    "message": null
@@ -146,17 +207,29 @@
    "duration_s": 1.87
   },
   {
-   "text": "Twinkle twinkle",
-   "heard": "Twinkle twinkle",
+   "text": "Twinkle twinkle like",
+   "heard": "Twinkle twinkle like",
    "muted_words": 0,
-   "duration_s": 1.87
+   "duration_s": 2.7
   },
   {
-   "text": "little star",
-   "heard": "little star",
+   "text": "star",
+   "heard": "star",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "hoa",
+   "heard": "hoa",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "wonder wonder",
+   "heard": "wonder wonder",
    "muted_words": 0,
    "duration_s": 1.87
   }
  ],
- "tts_offline": 45
+ "tts_offline": 120
 }

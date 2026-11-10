@@ -1,0 +1,203 @@
+{
+ "utterances": [
+  {
+   "t": 32.79,
+   "said": "a I",
+   "stt": "a I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.61,
+   "said": "I",
+   "stt": "I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.65,
+   "said": "have",
+   "stt": "have",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.12,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.41,
+   "said": "king",
+   "stt": "king",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.65,
+   "said": "of rea ana bed bed",
+   "stt": "of rea ana bed bed",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.79,
+    "target": "I",
+    "said": "a I",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "a I"
+   },
+   {
+    "t": 39.61,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I"
+   }
+  ],
+  "1": [
+   {
+    "t": 44.65,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "have"
+   }
+  ],
+  "2": [
+   {
+    "t": 54.12,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a"
+   }
+  ],
+  "3": [
+   {
+    "t": 59.41,
+    "target": "kite",
+    "said": "king",
+    "correct": false,
+    "kind": "sub",
+    "stt": "king"
+   }
+  ],
+  "4": [
+   {
+    "t": 70.65,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "of rea ana bed bed"
+   }
+  ],
+  "5": [
+   {
+    "t": 70.65,
+    "target": "red",
+    "said": "rea",
+    "correct": false,
+    "kind": "sub",
+    "stt": "of rea ana bed bed"
+   }
+  ],
+  "6": [
+   {
+    "t": 70.65,
+    "target": "and",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "of rea ana bed bed"
+   }
+  ],
+  "7": [
+   {
+    "t": 70.65,
+    "target": "blue",
+    "said": "bed",
+    "correct": false,
+    "kind": "sub",
+    "stt": "of rea ana bed bed"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.31,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 33.09,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 48.22,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... a kite of",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 70.75,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

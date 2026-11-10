@@ -1,0 +1,233 @@
+{
+ "utterances": [
+  {
+   "t": 32.56,
+   "said": "हरा",
+   "stt": "हरा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.14,
+   "said": "समंदर",
+   "stt": "समंदर",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.51,
+   "said": "गोपी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'गोपी'"
+   ],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.09,
+   "said": "गोपी चंदर",
+   "stt": "गोपी चंदर",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.06,
+   "said": "बोल",
+   "stt": "वोल",
+   "stt_notes": [
+    "'बोल' heard as 'वोल'"
+   ],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.62,
+   "said": "मेरी मछली",
+   "stt": "मेरी मछली",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.66,
+   "said": "कितना पानी",
+   "stt": "कितना पानी",
+   "stt_notes": [],
+   "words": [
+    7,
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.56,
+    "target": "हरा",
+    "said": "हरा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हरा"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.14,
+    "target": "समंदर",
+    "said": "समंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "समंदर"
+   }
+  ],
+  "2": [
+   {
+    "t": 41.51,
+    "target": "गोपी",
+    "said": "गोपी",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 49.09,
+    "target": "गोपी",
+    "said": "गोपी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गोपी चंदर"
+   }
+  ],
+  "3": [
+   {
+    "t": 49.09,
+    "target": "चंदर",
+    "said": "चंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गोपी चंदर"
+   }
+  ],
+  "4": [
+   {
+    "t": 59.06,
+    "target": "बोल",
+    "said": "बोल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वोल"
+   }
+  ],
+  "5": [
+   {
+    "t": 66.62,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी मछली"
+   }
+  ],
+  "6": [
+   {
+    "t": 66.62,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी मछली"
+   }
+  ],
+  "7": [
+   {
+    "t": 73.66,
+    "target": "कितना",
+    "said": "कितना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कितना पानी"
+   }
+  ],
+  "8": [
+   {
+    "t": 73.66,
+    "target": "पानी",
+    "said": "पानी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कितना पानी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.88,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 41.94,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गोपी चंदर",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 49.7,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "सुनो... बोल मेरी मछली कितना पानी? अब तुम बोलो!",
+   "spans": [
+    [
+     4,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 74.14,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

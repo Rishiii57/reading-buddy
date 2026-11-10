@@ -1,9 +1,9 @@
 {
  "utterances": [
   {
-   "t": 41.14,
-   "said": "ran rain",
-   "stt": "ran rain",
+   "t": 41.67,
+   "said": "run rain",
+   "stt": "run rain",
    "stt_notes": [],
    "words": [
     0,
@@ -13,25 +13,134 @@
    "over_buddy": false
   },
   {
-   "t": 51.28,
-   "said": "Rain",
-   "stt": "Rain",
+   "t": 50.97,
+   "said": "go go away",
+   "stt": "go go away",
    "stt_notes": [],
    "words": [
-    0
+    2,
+    3
    ],
-   "drill": true,
-   "muted_words": 0
+   "muted_words": 0,
+   "over_buddy": false
   },
   {
-   "t": 60.8,
-   "said": "Rain Rain",
-   "stt": "Rain",
-   "stt_notes": [
-    "lost 'Rain'"
-   ],
+   "t": 60.03,
+   "said": "Come",
+   "stt": "Come",
+   "stt_notes": [],
    "words": [
-    0
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.85,
+   "said": "again",
+   "stt": "again",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.88,
+   "said": "another",
+   "stt": "another",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.61,
+   "said": "daa",
+   "stt": "daa",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 94.57,
+   "said": "Littl Littl",
+   "stt": "Littl Littl",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 101.45,
+   "said": "like Little",
+   "stt": "like Little",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 108.97,
+   "said": "children",
+   "stt": "children",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 115.0,
+   "said": "went",
+   "stt": "went",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 119.54,
+   "said": "to",
+   "stt": "to",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 124.53,
+   "said": "put",
+   "stt": "put",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 127.55,
+   "said": "play",
+   "stt": "play",
+   "stt_notes": [],
+   "words": [
+    12
    ],
    "muted_words": 0,
    "over_buddy": false
@@ -40,45 +149,154 @@
  "attempts": {
   "0": [
    {
-    "t": 41.14,
+    "t": 41.67,
     "target": "Rain",
-    "said": "ran",
+    "said": "run",
     "correct": false,
     "kind": "sub",
-    "stt": "ran rain"
-   },
-   {
-    "t": 51.28,
-    "target": "Rain",
-    "said": "Rain",
-    "correct": true,
-    "kind": "ok",
-    "stt": "Rain",
-    "drill": true
-   },
-   {
-    "t": 60.8,
-    "target": "Rain",
-    "said": "Rain",
-    "correct": true,
-    "kind": "ok",
-    "stt": "Rain"
+    "stt": "run rain"
    }
   ],
   "1": [
    {
-    "t": 41.14,
+    "t": 41.67,
     "target": "rain",
     "said": "rain",
     "correct": true,
     "kind": "ok",
-    "stt": "ran rain"
+    "stt": "run rain"
+   }
+  ],
+  "2": [
+   {
+    "t": 50.97,
+    "target": "go",
+    "said": "go",
+    "correct": true,
+    "kind": "ok",
+    "stt": "go go away"
+   }
+  ],
+  "3": [
+   {
+    "t": 50.97,
+    "target": "away",
+    "said": "away",
+    "correct": true,
+    "kind": "ok",
+    "stt": "go go away"
+   }
+  ],
+  "4": [
+   {
+    "t": 60.03,
+    "target": "Come",
+    "said": "Come",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Come"
+   }
+  ],
+  "5": [
+   {
+    "t": 70.85,
+    "target": "again",
+    "said": "again",
+    "correct": true,
+    "kind": "ok",
+    "stt": "again"
+   }
+  ],
+  "6": [
+   {
+    "t": 75.88,
+    "target": "another",
+    "said": "another",
+    "correct": true,
+    "kind": "ok",
+    "stt": "another"
+   }
+  ],
+  "7": [
+   {
+    "t": 82.61,
+    "target": "day",
+    "said": "daa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "daa"
+   }
+  ],
+  "8": [
+   {
+    "t": 94.57,
+    "target": "Little",
+    "said": "Littl",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Littl Littl"
+   },
+   {
+    "t": 101.45,
+    "target": "Little",
+    "said": "like Little",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "like Little"
+   }
+  ],
+  "9": [
+   {
+    "t": 108.97,
+    "target": "children",
+    "said": "children",
+    "correct": true,
+    "kind": "ok",
+    "stt": "children"
+   }
+  ],
+  "10": [
+   {
+    "t": 115.0,
+    "target": "want",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "went"
+   }
+  ],
+  "11": [
+   {
+    "t": 119.54,
+    "target": "to",
+    "said": "to",
+    "correct": true,
+    "kind": "ok",
+    "stt": "to"
+   }
+  ],
+  "12": [
+   {
+    "t": 124.53,
+    "target": "play",
+    "said": "put",
+    "correct": false,
+    "kind": "sub",
+    "stt": "put"
+   },
+   {
+    "t": 127.55,
+    "target": "play",
+    "said": "play",
+    "correct": true,
+    "kind": "ok",
+    "stt": "play"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 22.32,
+   "t": 25.13,
    "type": "say",
    "kind": "intro",
    "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!",
@@ -90,40 +308,66 @@
    ]
   },
   {
-   "t": 44.67,
+   "t": 51.05,
    "type": "say",
-   "kind": "fix_word",
-   "text": "Let's practise this word together. Rain",
+   "kind": "echo_line",
+   "text": "Listen... Come again another day Now you try!",
    "spans": [
     [
-     0,
-     1
+     4,
+     8
     ]
    ]
   },
   {
-   "t": 51.28,
-   "type": "say",
-   "kind": "repeat_line",
-   "text": "Yes! Very nice! Rain, rain, go away Now you say the whole line.",
-   "spans": [
-    [
-     0,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 64.27,
+   "t": 64.94,
    "type": "say",
    "kind": "stall_phrase",
-   "text": "Listen... rain",
+   "text": "Listen... again another day",
    "spans": [
     [
-     1,
-     2
+     5,
+     8
     ]
    ]
+  },
+  {
+   "t": 88.57,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... Little",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 94.7,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 101.56,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... Little children want to play. Now you try!",
+   "spans": [
+    [
+     8,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 128.01,
+   "type": "say",
+   "kind": "finish",
+   "text": "Well done! You have finished your poem!",
+   "spans": []
   }
  ]
 }

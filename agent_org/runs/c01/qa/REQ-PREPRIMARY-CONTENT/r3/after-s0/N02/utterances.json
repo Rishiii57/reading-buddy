@@ -1,0 +1,83 @@
+{
+ "utterances": [
+  {
+   "t": 32.34,
+   "said": "વિલાડી",
+   "stt": "વિલાડી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 34.29,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.34,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "વિલાડી"
+   },
+   {
+    "t": 34.29,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "1": [
+   {
+    "t": 32.34,
+    "target": "બિલાડી",
+    "said": "વિલાડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "વિલાડી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.86,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક બિલાડી જાડી હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 37.56,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... એક બિલાડી જાડી",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ ]
+}

@@ -1,21 +1,17 @@
-{"t": 2.81, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
-{"t": 2.88, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
-{"t": 4.06, "kind": "tap", "target": "વરસાદ Rain Gujarati Grade 1-2 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 5.81, "kind": "opened_text", "hash": "#/read/gu-varsad", "title": "વરસાદ", "tags": ["Gujarati", "Grade 1-2"], "words": 16, "lines": 4}
-{"t": 8.26, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
-{"t": 8.26, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
-{"t": 12.29, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 16.79, "kind": "session_started", "tries": 1}
-{"t": 29.0, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
-{"t": 44.0, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.6 s into a planned 4.14 s thinking pause."}
-{"t": 50.85, "kind": "tap_mic_to_talk"}
-{"t": 50.92, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
-{"t": 59.02, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ટપ' 3 times."}
-{"t": 66.41, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ટપ' 4 times."}
-{"t": 71.3, "kind": "off_task_tap", "target": "Pause"}
-{"t": 71.33, "kind": "tap", "target": "Pause", "why": "curious tap during reading", "view": "view-reader"}
-{"t": 73.25, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
-{"t": 74.18, "kind": "resumed", "after_s": 1.0}
-{"t": 74.21, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ટપ' 5 times."}
-{"t": 76.92, "kind": "abandon", "why": "frustration", "frustration": 3.85}
-{"t": 77.06, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 3.82, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 3.91, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 5.58, "kind": "tap", "target": "વરસાદ Rain Gujarati Grade 1-2 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.48, "kind": "opened_text", "hash": "#/read/gu-varsad", "title": "વરસાદ", "tags": ["Gujarati", "Grade 1-2"], "words": 16, "lines": 4}
+{"t": 9.21, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 9.21, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 13.7, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.84, "kind": "session_started", "tries": 1}
+{"t": 29.18, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.88, "kind": "tap_mic_to_talk"}
+{"t": 29.98, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 37.24, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 4.44 s thinking pause."}
+{"t": 42.39, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 60.97, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ટપ' 3 times."}
+{"t": 69.77, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 70.06, "kind": "abandon", "why": "frustration", "frustration": 3.65}
+{"t": 70.6, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

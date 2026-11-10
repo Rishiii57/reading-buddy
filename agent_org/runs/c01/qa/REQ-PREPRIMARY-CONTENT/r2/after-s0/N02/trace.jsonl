@@ -1,13 +1,14 @@
-{"t": 1.63, "kind": "open_app", "brief": "Anaya, Nursery (about 3.5 years). Prefers hi-IN. Enjoys rhymes read to her but is shy about speaking."}
-{"t": 1.67, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
-{"t": 2.93, "kind": "tap", "target": "એક બિલાડી જાડી A Fat Cat Gujarati LKG Rh", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 6.74, "kind": "opened_text", "hash": "#/read/gu-biladi", "title": "એક બિલાડી જાડી", "tags": ["Gujarati", "LKG"], "words": 14, "lines": 4}
-{"t": 7.16, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
-{"t": 11.21, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 13.65, "kind": "session_started", "tries": 1}
-{"t": 14.07, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
-{"t": 27.43, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 32.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 3.85 s thinking pause."}
-{"t": 32.83, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
-{"t": 33.57, "kind": "abandon", "why": "frustration", "frustration": 3.0}
-{"t": 34.5, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 2.59, "kind": "open_app", "brief": "Anaya, Nursery (about 3.5 years). Prefers hi-IN. Enjoys rhymes read to her but is shy about speaking."}
+{"t": 2.66, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.31, "kind": "tap", "target": "એક બિલાડી જાડી A Fat Cat Gujarati LKG Rh", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.49, "kind": "opened_text", "hash": "#/read/gu-biladi", "title": "એક બિલાડી જાડી", "tags": ["Gujarati", "LKG"], "words": 14, "lines": 4}
+{"t": 7.82, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
+{"t": 12.15, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.84, "kind": "session_started", "tries": 1}
+{"t": 15.0, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 27.32, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 28.84, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 34.44, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.7 s into a planned 3.85 s thinking pause."}
+{"t": 34.98, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 35.48, "kind": "abandon", "why": "frustration", "frustration": 3.4}
+{"t": 36.74, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

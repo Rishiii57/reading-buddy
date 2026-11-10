@@ -1,6 +1,6 @@
-{"t": 2.3, "kind": "open_app", "brief": "Ayaan, LKG (about 4.5 years). Prefers en-IN. Confuses letters that look alike."}
-{"t": 2.36, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
-{"t": 3.89, "kind": "tap", "target": "Humpty Dumpty English UKG Rhyme 1 min re", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 6.64, "kind": "opened_text", "hash": "#/read/en-humpty", "title": "Humpty Dumpty", "tags": ["English", "UKG"], "words": 26, "lines": 4}
-{"t": 11.43, "kind": "tap", "target": "About", "why": "trying to start reading", "view": "view-reader"}
-{"t": 14.08, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}
+{"t": 2.2, "kind": "open_app", "brief": "Ayaan, LKG (about 4.5 years). Prefers en-IN. Confuses letters that look alike."}
+{"t": 2.26, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 3.14, "kind": "tap", "target": "Humpty Dumpty English UKG Rhyme 1 min re", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.13, "kind": "opened_text", "hash": "#/read/en-humpty", "title": "Humpty Dumpty", "tags": ["English", "UKG"], "words": 26, "lines": 4}
+{"t": 10.19, "kind": "tap", "target": "About", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.65, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

@@ -1,0 +1,188 @@
+{
+ "utterances": [
+  {
+   "t": 38.41,
+   "said": "માડી માડી શાળા",
+   "stt": "માડી માડી શાળા",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.9,
+   "said": "માડી",
+   "stt": "માડી",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.64,
+   "said": "મારી",
+   "stt": "",
+   "stt_notes": [
+    "lost 'મારી'"
+   ],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 60.14,
+   "said": "માડી",
+   "stt": "માડી",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 65.45,
+   "said": "માડી",
+   "stt": "માડી",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 38.41,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી માડી શાળા"
+   },
+   {
+    "t": 44.9,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી"
+   },
+   {
+    "t": 54.64,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 60.14,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી",
+    "drill": true
+   },
+   {
+    "t": 65.45,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 38.41,
+    "target": "શાળા",
+    "said": "શાળા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડી માડી શાળા"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 17.58,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 38.43,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 48.17,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 56.69,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 60.21,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 65.6,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

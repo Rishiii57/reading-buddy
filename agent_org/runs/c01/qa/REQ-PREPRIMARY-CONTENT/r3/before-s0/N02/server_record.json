@@ -1,0 +1,190 @@
+{
+ "id": "20261109-213114-c2e967",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [
+   "નાની",
+   "હતી"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 43.2,
+  "words_per_minute": 5.6
+ },
+ "log": [
+  {
+   "t": 0.396,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.963,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.355,
+   "event": "transcript",
+   "text": "એક"
+  },
+  {
+   "t": 20.355,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 23.358,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 23.358,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 26.678,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.174,
+   "event": "transcript",
+   "text": "ણાની ચકલિ"
+  },
+  {
+   "t": 31.174,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 35.884,
+   "event": "transcript",
+   "text": "હથી"
+  },
+  {
+   "t": 35.884,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 40.978,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1,
+    3
+   ]
+  },
+  {
+   "t": 40.978,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.468,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.355,
+   "type": "transcript",
+   "text": "એક",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 28.051,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.174,
+   "type": "transcript",
+   "text": "ણાની ચકલિ",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 34.013,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.884,
+   "type": "transcript",
+   "text": "હથી",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "એક",
+   "heard": "એક",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "ણાની ચકલિ",
+   "heard": "ણાની ચકલિ",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "હથી",
+   "heard": "હથી",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 76
+}

@@ -1,0 +1,319 @@
+{
+ "utterances": [
+  {
+   "t": 23.77,
+   "said": "Twinkle twinkle",
+   "stt": "Twinkle twinkle",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 28.17,
+   "said": "Twinkle to",
+   "stt": "Twinkle to",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 34.37,
+   "said": "to twinkle little",
+   "stt": "to twinkle little",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.91,
+   "said": "sun",
+   "stt": "sun",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.4,
+   "said": "said",
+   "stt": "said",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.71,
+   "said": "see star",
+   "stt": "see",
+   "stt_notes": [
+    "lost 'star'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.6,
+   "said": "see",
+   "stt": "see",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.61,
+   "said": "sun",
+   "stt": "",
+   "stt_notes": [
+    "lost 'sun'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 57.07,
+   "said": "star",
+   "stt": "star",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.23,
+   "said": "hoa a went went what",
+   "stt": "hoa a went went what",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 23.77,
+    "target": "Twinkle",
+    "said": "Twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Twinkle twinkle"
+   },
+   {
+    "t": 28.17,
+    "target": "Twinkle",
+    "said": "Twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Twinkle to"
+   },
+   {
+    "t": 34.37,
+    "target": "Twinkle",
+    "said": "to",
+    "correct": false,
+    "kind": "sub",
+    "stt": "to twinkle little"
+   }
+  ],
+  "1": [
+   {
+    "t": 23.77,
+    "target": "twinkle",
+    "said": "twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Twinkle twinkle"
+   },
+   {
+    "t": 28.17,
+    "target": "twinkle",
+    "said": "to",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Twinkle to"
+   },
+   {
+    "t": 34.37,
+    "target": "twinkle",
+    "said": "twinkle",
+    "correct": true,
+    "kind": "ok",
+    "stt": "to twinkle little"
+   }
+  ],
+  "2": [
+   {
+    "t": 34.37,
+    "target": "little",
+    "said": "little",
+    "correct": true,
+    "kind": "ok",
+    "stt": "to twinkle little"
+   }
+  ],
+  "3": [
+   {
+    "t": 38.91,
+    "target": "star",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "sun"
+   },
+   {
+    "t": 41.4,
+    "target": "star",
+    "said": "said",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said"
+   },
+   {
+    "t": 47.71,
+    "target": "star",
+    "said": "see star",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "see"
+   },
+   {
+    "t": 52.6,
+    "target": "star",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "see"
+   },
+   {
+    "t": 54.61,
+    "target": "star",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 57.07,
+    "target": "star",
+    "said": "star",
+    "correct": true,
+    "kind": "ok",
+    "stt": "star"
+   }
+  ],
+  "4": [
+   {
+    "t": 70.23,
+    "target": "How",
+    "said": "hoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa a went went what"
+   }
+  ],
+  "5": [
+   {
+    "t": 70.23,
+    "target": "I",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa a went went what"
+   }
+  ],
+  "6": [
+   {
+    "t": 70.23,
+    "target": "wonder",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa a went went what"
+   }
+  ],
+  "7": [
+   {
+    "t": 70.23,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "ok",
+    "stt": "hoa a went went what"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.96,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 41.53,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 57.59,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... How I wonder what you are! Now you try!",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 70.54,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

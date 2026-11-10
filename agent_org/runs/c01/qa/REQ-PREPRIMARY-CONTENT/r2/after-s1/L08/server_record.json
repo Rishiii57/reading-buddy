@@ -1,194 +1,123 @@
 {
- "id": "20261109-212816-886c2b",
+ "id": "20261109-214443-fead99",
  "text_id": "hi-ekdo",
  "mode": "mic",
  "summary": {
   "words_total": 15,
-  "words_read": 3,
-  "words_helped": 1,
-  "words_to_practise": [
-   "चार"
-  ],
-  "words_practised": 1,
-  "correction_attempts": 1,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
   "lines_total": 4,
   "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
   "prompts": 0,
-  "corrections": 1,
-  "seconds": 87.1,
-  "words_per_minute": 2.8
+  "corrections": 0,
+  "seconds": 64.7,
+  "words_per_minute": 0.0
  },
  "log": [
   {
-   "t": 0.066,
+   "t": 0.046,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 15.026,
+   "t": 16.275,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 18.592,
+   "t": 18.994,
    "event": "transcript",
-   "text": "एक एक"
+   "text": "दो"
   },
   {
-   "t": 18.592,
+   "t": 26.591,
+   "event": "transcript",
+   "text": "तीन तीन"
+  },
+  {
+   "t": 26.591,
+   "event": "uncertain",
+   "text": "तीन तीन"
+  },
+  {
+   "t": 26.591,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 31.328,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.689,
+   "event": "transcript",
+   "text": "ए"
+  },
+  {
+   "t": 33.689,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 24.595,
+   "t": 40.04,
    "event": "transcript",
-   "text": "दो तीन"
+   "text": "थीन"
   },
   {
-   "t": 24.595,
-   "event": "progress",
-   "frm": 1,
-   "to": 3
-  },
-  {
-   "t": 30.114,
-   "event": "transcript",
-   "text": "चाड़"
-  },
-  {
-   "t": 30.114,
-   "event": "progress",
-   "frm": 3,
-   "to": 4
-  },
-  {
-   "t": 32.99,
-   "event": "transcript",
-   "text": "भैय"
-  },
-  {
-   "t": 32.99,
-   "event": "uncertain",
-   "text": "चाड भैय"
-  },
-  {
-   "t": 32.99,
-   "event": "state",
-   "state": "UNCERTAIN_AUDIO"
-  },
-  {
-   "t": 36.34,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 38.804,
-   "event": "transcript",
-   "text": "बनो"
-  },
-  {
-   "t": 41.132,
-   "event": "transcript",
-   "text": "भैय"
-  },
-  {
-   "t": 41.132,
-   "event": "uncertain",
-   "text": "बनो भैय"
-  },
-  {
-   "t": 46.491,
-   "event": "transcript",
-   "text": "बनो"
-  },
-  {
-   "t": 51.687,
-   "event": "transcript",
-   "text": "होशियाड़"
-  },
-  {
-   "t": 55.986,
-   "event": "transcript",
-   "text": "भैय वनो"
-  },
-  {
-   "t": 55.986,
-   "event": "uncertain",
-   "text": "होशियाड भैय वनो"
-  },
-  {
-   "t": 55.986,
-   "event": "state",
-   "state": "UNCERTAIN_AUDIO"
-  },
-  {
-   "t": 59.309,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 60.97,
-   "event": "transcript",
-   "text": "मैं थक गया"
-  },
-  {
-   "t": 60.97,
-   "event": "break_requested"
-  },
-  {
-   "t": 61.947,
-   "event": "resume"
-  },
-  {
-   "t": 69.045,
-   "event": "correction",
-   "line": 0,
-   "words": [
-    3
-   ]
-  },
-  {
-   "t": 69.045,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 3
-  },
-  {
-   "t": 75.02,
+   "t": 46.125,
    "event": "transcript",
    "text": "चार"
   },
   {
-   "t": 75.02,
-   "event": "drill_ok",
-   "word": 3
-  },
-  {
-   "t": 75.02,
-   "event": "state",
-   "state": "COMPLETE_LINE_DEMONSTRATION",
-   "line": 0
-  },
-  {
-   "t": 80.89,
-   "event": "state",
-   "state": "COMPLETE_LINE_REPETITION"
-  },
-  {
-   "t": 86.707,
+   "t": 49.163,
    "event": "transcript",
-   "text": "ए दो दो"
+   "text": "थीन"
   },
   {
-   "t": 86.707,
+   "t": 49.163,
    "event": "uncertain",
-   "text": "ए दो दो"
+   "text": "चार थीन"
   },
   {
-   "t": 86.707,
+   "t": 49.163,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 53.165,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 56.088,
+   "event": "transcript",
+   "text": "धो"
+  },
+  {
+   "t": 56.088,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 62.027,
+   "event": "transcript",
+   "text": "थीन थीन"
+  },
+  {
+   "t": 62.027,
+   "event": "uncertain",
+   "text": "थीन थीन"
+  },
+  {
+   "t": 62.027,
    "event": "state",
    "state": "UNCERTAIN_AUDIO"
   }
@@ -203,7 +132,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 15.11,
+   "t": 16.939,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -211,15 +140,31 @@
    "message": null
   },
   {
-   "t": 18.592,
+   "t": 18.994,
    "type": "transcript",
-   "text": "एक एक",
+   "text": "दो",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 23.062,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.591,
+   "type": "transcript",
+   "text": "तीन तीन",
    "latency": 120,
    "audio_duration_ms": 3060,
    "message": null
   },
   {
-   "t": 21.114,
+   "t": 31.628,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -227,31 +172,15 @@
    "message": null
   },
   {
-   "t": 24.595,
+   "t": 33.689,
    "type": "transcript",
-   "text": "दो तीन",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 28.064,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 30.114,
-   "type": "transcript",
-   "text": "चाड़",
+   "text": "ए",
    "latency": 120,
    "audio_duration_ms": 1630,
    "message": null
   },
   {
-   "t": 30.94,
+   "t": 37.979,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -259,15 +188,15 @@
    "message": null
   },
   {
-   "t": 32.99,
+   "t": 40.04,
    "type": "transcript",
-   "text": "भैय",
+   "text": "थीन",
    "latency": 120,
    "audio_duration_ms": 1630,
    "message": null
   },
   {
-   "t": 36.854,
+   "t": 44.073,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -275,103 +204,7 @@
    "message": null
   },
   {
-   "t": 38.804,
-   "type": "transcript",
-   "text": "बनो",
-   "latency": 120,
-   "audio_duration_ms": 1530,
-   "message": null
-  },
-  {
-   "t": 39.082,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 41.132,
-   "type": "transcript",
-   "text": "भैय",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 44.44,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 46.491,
-   "type": "transcript",
-   "text": "बनो",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 49.635,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 51.687,
-   "type": "transcript",
-   "text": "होशियाड़",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 52.504,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 55.986,
-   "type": "transcript",
-   "text": "भैय वनो",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 59.35,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 60.97,
-   "type": "transcript",
-   "text": "मैं थक गया",
-   "latency": 120,
-   "audio_duration_ms": 1200,
-   "message": null
-  },
-  {
-   "t": 72.969,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 75.02,
+   "t": 46.125,
    "type": "transcript",
    "text": "चार",
    "latency": 120,
@@ -379,7 +212,7 @@
    "message": null
   },
   {
-   "t": 81.797,
+   "t": 47.034,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -387,80 +220,70 @@
    "message": null
   },
   {
-   "t": 86.707,
+   "t": 49.163,
    "type": "transcript",
-   "text": "ए दो दो",
+   "text": "थीन",
    "latency": 120,
-   "audio_duration_ms": 4490,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 54.031,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.088,
+   "type": "transcript",
+   "text": "धो",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 58.536,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.027,
+   "type": "transcript",
+   "text": "थीन थीन",
+   "latency": 120,
+   "audio_duration_ms": 3060,
    "message": null
   }
  ],
  "utterances": [
   {
-   "text": "एक एक",
-   "heard": "एक एक",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "दो तीन",
-   "heard": "दो तीन",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "चाड़",
-   "heard": "चाड़",
+   "text": "दो",
+   "heard": "दो",
    "muted_words": 0,
    "duration_s": 1.63
   },
   {
-   "text": "भैय",
-   "heard": "भैय",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "भेया बनो",
-   "heard": "बनो",
-   "muted_words": 1,
-   "duration_s": 3.06
-  },
-  {
-   "text": "भैय",
-   "heard": "भैय",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "बनो",
-   "heard": "बनो",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "होशियाड़",
-   "heard": "होशियाड़",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "भैय वनो",
-   "heard": "भैय वनो",
+   "text": "तीन तीन",
+   "heard": "तीन तीन",
    "muted_words": 0,
    "duration_s": 3.06
   },
   {
-   "text": "मैं थक गया",
-   "heard": "मैं थक गया",
+   "text": "ए",
+   "heard": "ए",
    "muted_words": 0,
-   "duration_s": 1.2
+   "duration_s": 1.63
   },
   {
-   "text": "भैया वनो",
-   "heard": "",
-   "muted_words": 2,
-   "duration_s": 3.06
+   "text": "थीन",
+   "heard": "थीन",
+   "muted_words": 0,
+   "duration_s": 1.63
   },
   {
    "text": "चार",
@@ -469,11 +292,29 @@
    "duration_s": 1.63
   },
   {
-   "text": "ए दो दो",
-   "heard": "ए दो दो",
+   "text": "थीन",
+   "heard": "थीन",
    "muted_words": 0,
-   "duration_s": 4.49
+   "duration_s": 1.63
+  },
+  {
+   "text": "धो",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "धो",
+   "heard": "धो",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "थीन थीन",
+   "heard": "थीन थीन",
+   "muted_words": 0,
+   "duration_s": 3.06
   }
  ],
- "tts_offline": 103
+ "tts_offline": 285
 }

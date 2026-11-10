@@ -1,0 +1,551 @@
+{
+ "utterances": [
+  {
+   "t": 35.54,
+   "said": "A sun",
+   "stt": "A sun",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.83,
+   "said": "A sun",
+   "stt": "A zun",
+   "stt_notes": [
+    "'sun' heard as 'zun'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.68,
+   "said": "ant",
+   "stt": "ant",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.53,
+   "said": "walked across the floor",
+   "stt": "walked across the floor",
+   "stt_notes": [],
+   "words": [
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.56,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 60.6,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 65.65,
+   "said": "A",
+   "stt": "A",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 71.51,
+   "said": "sun",
+   "stt": "sun",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 75.8,
+   "said": "small",
+   "stt": "",
+   "stt_notes": [
+    "lost 'small'"
+   ],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 80.83,
+   "said": "small",
+   "stt": "small",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 87.08,
+   "said": "ant",
+   "stt": "",
+   "stt_notes": [
+    "lost 'ant'"
+   ],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 93.64,
+   "said": "ana",
+   "stt": "ana",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 98.45,
+   "said": "ant",
+   "stt": "ant",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 105.74,
+   "said": "A small small",
+   "stt": "A small small",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 107.35,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 114.08,
+   "said": "small ant walked",
+   "stt": "small ant walked",
+   "stt_notes": [],
+   "words": [
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 35.54,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun"
+   },
+   {
+    "t": 41.83,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zun"
+   },
+   {
+    "t": 56.56,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 60.6,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 65.65,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A",
+    "drill": true
+   },
+   {
+    "t": 105.74,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small small"
+   },
+   {
+    "t": 107.35,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "1": [
+   {
+    "t": 35.54,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun"
+   },
+   {
+    "t": 41.83,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zun"
+   },
+   {
+    "t": 71.51,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "sun",
+    "drill": true
+   },
+   {
+    "t": 75.8,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 80.83,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small",
+    "drill": true
+   },
+   {
+    "t": 105.74,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small small"
+   },
+   {
+    "t": 114.08,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small ant walked"
+   }
+  ],
+  "2": [
+   {
+    "t": 46.68,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ant"
+   },
+   {
+    "t": 87.08,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 93.64,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana",
+    "drill": true
+   },
+   {
+    "t": 98.45,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ant",
+    "drill": true
+   },
+   {
+    "t": 114.08,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small ant walked"
+   }
+  ],
+  "3": [
+   {
+    "t": 53.53,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across the floor"
+   },
+   {
+    "t": 114.08,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small ant walked"
+   }
+  ],
+  "4": [
+   {
+    "t": 53.53,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across the floor"
+   }
+  ],
+  "5": [
+   {
+    "t": 53.53,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across the floor"
+   }
+  ],
+  "6": [
+   {
+    "t": 53.53,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked across the floor"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 18.8,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 35.69,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 54.11,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. A",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 62.06,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "A",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 65.74,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 71.67,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 76.87,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 82.43,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! ant",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 89.89,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ant",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 93.84,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ant",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 98.46,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 117.2,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. A",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

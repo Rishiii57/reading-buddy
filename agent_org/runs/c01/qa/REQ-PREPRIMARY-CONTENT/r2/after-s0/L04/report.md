@@ -1,25 +1,26 @@
 # L04 · Vivaan, LKG (4.5 y) · en-IN
 
-*Journey:* read_whole_poem · *Outcome:* **abandoned_frustration**
+*Journey:* read_whole_poem · *Outcome:* **abandoned_attention**
 
-*Text:* The Rain Song (English, Grade 1)
+*Text:* The Busy Ant (English, Grade 2-4)
 
 ## In my words
 
 > The words were too hard. I can't read those yet.
+> Buddy talked too long.
 > Buddy talked when I was thinking!
-> Buddy said yay! I liked that.
-> Buddy helped me with the hard word.
 
 ## What happened (observed)
 
-- **NO_TEXT_FOR_MY_LEVEL** ×1 (observed): LKG child landed on a 'Grade 1' text, made for children who already read.
-- **INTERRUPTED_WHILE_THINKING** ×3 (observed): Buddy started talking 0.2 s into a planned 3.1 s thinking pause.
+- **NO_TEXT_FOR_MY_LEVEL** ×1 (observed): LKG child landed on a 'Grade 2-4' text, made for children who already read.
+- **LONG_TUTOR_TALK** ×1 (observed): Buddy talked for over 12 s in one go before the child could read.
+- **INTERRUPTED_WHILE_THINKING** ×2 (observed): Buddy started talking 3.0 s into a planned 4.15 s thinking pause.
+- **MISSED_ERROR** ×1 (observed): Read 'A' as 'A' and it was marked as read correctly.
 
 ## Numbers
 
-taps 5 (dead 1) · time to text 3.6 s · intro 12.3 s · first word 12.3 s · words attempted 11/24 · said wrong 5 · corrections 1 · stall prompts 1 · interruptions 3 · unheard words 0 · frustration peak 2.5/2.5
+taps 4 (dead 1) · time to text 3.4 s · intro 14.2 s · first word 14.2 s · words attempted 7/37 · said wrong 3 · corrections 0 · stall prompts 1 · interruptions 2 · unheard words 0 · frustration peak 2.45/2.5
 
-UX scores (1-5): discoverability 5, guidance 5, interruption_load 2, correction_quality 5, completion 2, enjoyment 1
+UX scores (1-5): discoverability 5, guidance 5, interruption_load 3, correction_quality 5, completion 2, enjoyment 1
 
 Screenshots: screens/00-home.png, screens/01-reader.png, screens/02-abandon.png, screens/03-end.png

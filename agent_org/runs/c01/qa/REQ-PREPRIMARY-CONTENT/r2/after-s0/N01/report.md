@@ -1,25 +1,27 @@
 # N01 · Aarav, Nursery (3.5 y) · en-IN
 
-*Journey:* discover_and_start · *Outcome:* **could_not_start**
+*Journey:* discover_and_start · *Outcome:* **abandoned_attention**
 
 *Text:* मछली जल की रानी है (Hindi, Nursery)
 
 ## In my words
 
 > This isn't my language!
-> A box came and I didn't know what it said.
-> It didn't start.
+> I said it but Buddy didn't hear me!
+> Buddy talked too long.
+> Buddy talked when I was thinking!
 
 ## What happened (observed)
 
 - **WRONG_LANGUAGE_TEXT** ×1 (observed): Wanted en-IN but ended up on a hi-IN text.
-- **CONSENT_BLOCKS_CHILD** ×3 (observed): A written grown-ups-only box appeared; the child could not read it and could not start.
-- **COULD_NOT_START_SESSION** ×1 (observed): Never managed to start a reading session.
+- **SPEECH_IGNORED_WHILE_BUDDY_TALKS** ×1 (observed): 1 word(s) the child said were not heard because Buddy was talking or the session was paused.
+- **LONG_TUTOR_TALK** ×1 (observed): Buddy talked for over 12 s in one go before the child could read.
+- **INTERRUPTED_WHILE_THINKING** ×1 (observed): Buddy started talking 0.3 s into a planned 2.32 s thinking pause.
 
 ## Numbers
 
-taps 9 (dead 0) · time to text 2.4 s · intro None s · first word None s · words attempted 0/17 · said wrong 0 · corrections 0 · stall prompts 0 · interruptions 0 · unheard words 0 · frustration peak 1.8/3.0
+taps 7 (dead 2) · time to text 2.1 s · intro 16.5 s · first word 5.7 s · words attempted 8/17 · said wrong 2 · corrections 0 · stall prompts 4 · interruptions 1 · unheard words 1 · frustration peak 2.15/3.0
 
-UX scores (1-5): discoverability 5, guidance 4, interruption_load 5, correction_quality 5, completion 1, enjoyment 1
+UX scores (1-5): discoverability 5, guidance 5, interruption_load 3, correction_quality 5, completion 3, enjoyment 1
 
-Screenshots: screens/00-home.png, screens/01-reader.png, screens/02-consent.png, screens/03-consent.png, screens/04-consent.png, screens/05-end.png
+Screenshots: screens/00-home.png, screens/01-reader.png, screens/02-abandon.png, screens/03-end.png

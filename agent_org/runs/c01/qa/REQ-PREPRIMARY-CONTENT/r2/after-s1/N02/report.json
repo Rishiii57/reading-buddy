@@ -36,13 +36,13 @@
     "code": "LEFT_READING_BY_ACCIDENT",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 22.5,
+    "first_t": 22.89,
     "details": [
      "Tapped something that left the reading page before starting."
     ],
     "evidence": [
      {
-      "t": 22.5,
+      "t": 22.89,
       "view": "view-about"
      }
     ],
@@ -64,9 +64,9 @@
   "buddy_talk_s": 0.0,
   "child_talk_s": 0.0,
   "tired_said": false,
-  "time_to_text_s": 2.2,
+  "time_to_text_s": 2.9,
   "reader_page_audio_clips": 1,
-  "listen_first_s": 8.7,
+  "listen_first_s": 8.4,
   "words_total": 15,
   "words_attempted": 0,
   "words_said_wrong": 0,

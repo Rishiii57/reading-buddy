@@ -7,20 +7,22 @@
 ## In my words
 
 > The words were too hard. I can't read those yet.
+> I said it but Buddy didn't hear me!
 > Buddy talked when I was thinking!
 > Again? I said it already!
+> Buddy said yay! I liked that.
 
 ## What happened (observed)
 
 - **NO_TEXT_FOR_MY_LEVEL** ×1 (observed): LKG child landed on a 'Grade 1' text, made for children who already read.
-- **INTERRUPTED_WHILE_THINKING** ×4 (observed): Buddy started talking 3.9 s into a planned 4.27 s thinking pause.
-- **SAME_WORD_ASKED_AGAIN_AND_AGAIN** ×1 (observed): Asked to say 'गुड़िया' 3 times.
-- **MISSED_ERROR** ×1 (observed): Read 'मेरी' as 'मेड़ी' and it was marked as read correctly.
+- **SPEECH_IGNORED_WHILE_BUDDY_TALKS** ×1 (observed): 1 word(s) the child said were not heard because Buddy was talking or the session was paused.
+- **INTERRUPTED_WHILE_THINKING** ×1 (observed): Buddy started talking 3.4 s into a planned 5.57 s thinking pause.
+- **SAME_WORD_ASKED_AGAIN_AND_AGAIN** ×4 (observed): Asked to say 'मेरी' 3 times.
 
 ## Numbers
 
-taps 7 (dead 2) · time to text 4.0 s · intro 11.5 s · first word 17.4 s · words attempted 3/17 · said wrong 2 · corrections 2 · stall prompts 1 · interruptions 4 · unheard words 0 · frustration peak 5.4/4.5
+taps 5 (dead 2) · time to text 6.8 s · intro 17.9 s · first word 10.7 s · words attempted 2/17 · said wrong 1 · corrections 1 · stall prompts 0 · interruptions 1 · unheard words 1 · frustration peak 5.05/4.5
 
-UX scores (1-5): discoverability 5, guidance 5, interruption_load 1, correction_quality 4, completion 2, enjoyment 1
+UX scores (1-5): discoverability 5, guidance 5, interruption_load 3, correction_quality 4, completion 1, enjoyment 1
 
 Screenshots: screens/00-home.png, screens/01-reader.png, screens/02-abandon.png, screens/03-end.png

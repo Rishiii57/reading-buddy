@@ -1,0 +1,121 @@
+{
+ "id": "20261109-213448-2fc5dc",
+ "text_id": "hi-bagicha",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 40.3,
+  "words_per_minute": 4.5
+ },
+ "log": [
+  {
+   "t": 0.09,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.168,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.615,
+   "event": "transcript",
+   "text": "मीणा के"
+  },
+  {
+   "t": 22.615,
+   "event": "uncertain",
+   "text": "मीणा के"
+  },
+  {
+   "t": 22.615,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 26.69,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 32.77,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 32.77,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 38.305,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 19.482,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.615,
+   "type": "transcript",
+   "text": "मीणा के",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मीना मीना के",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 3.95
+  },
+  {
+   "text": "मीणा के",
+   "heard": "मीणा के",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "मीना के",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 119
+}

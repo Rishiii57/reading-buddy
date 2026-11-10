@@ -1,9 +1,21 @@
 {
  "utterances": [
   {
-   "t": 36.0,
-   "said": "मेरी",
-   "stt": "मेरी",
+   "t": 36.06,
+   "said": "मेड़ी मेड़ी गुड़िया",
+   "stt": "मेड़ी मेड़ी गुड़िया",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 39.15,
+   "said": "मेड़ी",
+   "stt": "मेड़ी",
    "stt_notes": [],
    "words": [
     0
@@ -12,178 +24,161 @@
    "over_buddy": false
   },
   {
-   "t": 45.98,
-   "said": "गुरिया",
-   "stt": "गुरिया",
+   "t": 51.32,
+   "said": "मेड़ी",
+   "stt": "मेड़ी",
    "stt_notes": [],
    "words": [
-    1
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 57.21,
-   "said": "गुड़िया",
-   "stt": "गुड़िया",
-   "stt_notes": [],
-   "words": [
-    1
+    0
    ],
    "drill": true,
    "muted_words": 0
   },
   {
-   "t": 70.88,
-   "said": "मेरी गुरिया प्यारी",
-   "stt": "मेरी गुरिया प्यारी",
+   "t": 57.59,
+   "said": "मेड़ी",
+   "stt": "मेड़ी",
    "stt_notes": [],
    "words": [
-    0,
-    1,
-    2
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 82.79,
-   "said": "गुढ़िया",
-   "stt": "गुढ़िया",
-   "stt_notes": [],
-   "words": [
-    1
+    0
    ],
    "drill": true,
    "muted_words": 0
   },
   {
-   "t": 88.8,
-   "said": "गुड़िया",
-   "stt": "गुड़िया",
-   "stt_notes": [],
+   "t": 63.03,
+   "said": "मेरी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'मेरी'"
+   ],
    "words": [
-    1
+    0
    ],
    "drill": true,
    "muted_words": 0
   },
   {
-   "t": 103.88,
-   "said": "मेड़ी गुरिया प्यारी प्यारी",
-   "stt": "मेड़ी गुरिया प्यारी प्यारी",
+   "t": 71.15,
+   "said": "मेड़ी मेड़ी",
+   "stt": "मेड़ी मेड़ी",
    "stt_notes": [],
    "words": [
-    0,
-    1,
-    2
+    0
    ],
-   "muted_words": 0,
-   "over_buddy": false
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 79.22,
+   "said": "मेड़ी मेड़ी",
+   "stt": "मेड़ी मेड़ी",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 85.45,
+   "said": "मेरी",
+   "stt": "मेरी",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 36.0,
-    "target": "मेरी",
-    "said": "मेरी",
-    "correct": true,
-    "kind": "ok",
-    "stt": "मेरी"
-   },
-   {
-    "t": 70.88,
-    "target": "मेरी",
-    "said": "मेरी",
-    "correct": true,
-    "kind": "ok",
-    "stt": "मेरी गुरिया प्यारी"
-   },
-   {
-    "t": 103.88,
+    "t": 36.06,
     "target": "मेरी",
     "said": "मेड़ी",
     "correct": false,
     "kind": "sub",
-    "stt": "मेड़ी गुरिया प्यारी प्यारी"
+    "stt": "मेड़ी मेड़ी गुड़िया"
+   },
+   {
+    "t": 39.15,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी"
+   },
+   {
+    "t": 51.32,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी",
+    "drill": true
+   },
+   {
+    "t": 57.59,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी",
+    "drill": true
+   },
+   {
+    "t": 63.03,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 71.15,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी मेड़ी",
+    "drill": true
+   },
+   {
+    "t": 79.22,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी मेड़ी",
+    "drill": true
+   },
+   {
+    "t": 85.45,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी",
+    "drill": true
    }
   ],
   "1": [
    {
-    "t": 45.98,
-    "target": "गुड़िया",
-    "said": "गुरिया",
-    "correct": false,
-    "kind": "sub",
-    "stt": "गुरिया"
-   },
-   {
-    "t": 57.21,
+    "t": 36.06,
     "target": "गुड़िया",
     "said": "गुड़िया",
     "correct": true,
     "kind": "ok",
-    "stt": "गुड़िया",
-    "drill": true
-   },
-   {
-    "t": 70.88,
-    "target": "गुड़िया",
-    "said": "गुरिया",
-    "correct": false,
-    "kind": "sub",
-    "stt": "मेरी गुरिया प्यारी"
-   },
-   {
-    "t": 82.79,
-    "target": "गुड़िया",
-    "said": "गुढ़िया",
-    "correct": false,
-    "kind": "sub",
-    "stt": "गुढ़िया",
-    "drill": true
-   },
-   {
-    "t": 88.8,
-    "target": "गुड़िया",
-    "said": "गुड़िया",
-    "correct": true,
-    "kind": "ok",
-    "stt": "गुड़िया",
-    "drill": true
-   },
-   {
-    "t": 103.88,
-    "target": "गुड़िया",
-    "said": "गुरिया",
-    "correct": false,
-    "kind": "sub",
-    "stt": "मेड़ी गुरिया प्यारी प्यारी"
-   }
-  ],
-  "2": [
-   {
-    "t": 70.88,
-    "target": "प्यारी",
-    "said": "प्यारी",
-    "correct": true,
-    "kind": "ok",
-    "stt": "मेरी गुरिया प्यारी"
-   },
-   {
-    "t": 103.88,
-    "target": "प्यारी",
-    "said": "प्यारी",
-    "correct": true,
-    "kind": "ok",
-    "stt": "मेड़ी गुरिया प्यारी प्यारी"
+    "stt": "मेड़ी मेड़ी गुड़िया"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 13.57,
+   "t": 16.89,
    "type": "say",
    "kind": "intro",
    "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
@@ -195,83 +190,88 @@
    ]
   },
   {
-   "t": 39.73,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "सुनो... गुड़िया प्यारी है",
-   "spans": [
-    [
-     1,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 49.43,
+   "t": 42.62,
    "type": "say",
    "kind": "fix_word",
-   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गुड़िया",
-   "spans": [
-    [
-     1,
-     2
-    ]
-   ]
-  },
-  {
-   "t": 57.32,
-   "type": "say",
-   "kind": "repeat_line",
-   "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेरी",
    "spans": [
     [
      0,
-     4
+     1
     ]
    ]
   },
   {
-   "t": 74.47,
-   "type": "say",
-   "kind": "fix_word",
-   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गुड़िया",
-   "spans": [
-    [
-     1,
-     2
-    ]
-   ]
-  },
-  {
-   "t": 83.57,
+   "t": 51.53,
    "type": "say",
    "kind": "fix_again",
-   "text": "गुड़िया",
+   "text": "मेरी",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 57.83,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "मेरी",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 63.04,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "मेरी",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 71.23,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "मेरी",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 79.84,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "मेरी",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 85.9,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! गुड़िया",
    "spans": [
     [
      1,
      2
     ]
    ]
-  },
-  {
-   "t": 89.0,
-   "type": "say",
-   "kind": "repeat_line",
-   "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।",
-   "spans": [
-    [
-     0,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 104.01,
-   "type": "say",
-   "kind": "uncertain",
-   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
-   "spans": []
   }
  ]
 }

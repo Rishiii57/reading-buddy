@@ -1,0 +1,145 @@
+{
+ "id": "20261109-213744-be11dd",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 39.7,
+  "words_per_minute": 6.0
+ },
+ "log": [
+  {
+   "t": 0.229,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.833,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.04,
+   "event": "transcript",
+   "text": "मछली"
+  },
+  {
+   "t": 21.04,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.278,
+   "event": "transcript",
+   "text": "झल"
+  },
+  {
+   "t": 25.278,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 29.81,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 29.81,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 36.233,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 19.306,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.04,
+   "type": "transcript",
+   "text": "मछली",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 23.541,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.278,
+   "type": "transcript",
+   "text": "झल",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "मछली",
+   "heard": "मछली",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "झल",
+   "heard": "झल",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "कि राणी",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  }
+ ],
+ "tts_offline": 97
+}

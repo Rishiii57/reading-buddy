@@ -1,0 +1,17 @@
+{"t": 3.24, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 3.43, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.79, "kind": "tap", "target": "मछली जल की रानी है The Fish Is the Queen", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.42, "kind": "opened_text", "hash": "#/read/hi-machhli", "title": "मछली जल की रानी है", "tags": ["Hindi", "Nursery"], "words": 17, "lines": 4}
+{"t": 10.29, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a hi-IN text."}
+{"t": 14.81, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 25.97, "kind": "listened_first", "seconds": 9.9}
+{"t": 26.05, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 28.84, "kind": "session_started", "tries": 1}
+{"t": 35.84, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 41.62, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 57.28, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 5.3 s into a planned 4.94 s thinking pause."}
+{"t": 62.13, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 62.93, "kind": "tap_mic_to_talk"}
+{"t": 62.94, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 63.77, "kind": "abandon", "why": "frustration", "frustration": 3.05}
+{"t": 65.66, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

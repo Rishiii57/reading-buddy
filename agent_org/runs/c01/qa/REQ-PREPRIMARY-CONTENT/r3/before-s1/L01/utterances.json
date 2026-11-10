@@ -1,0 +1,607 @@
+{
+ "utterances": [
+  {
+   "t": 34.62,
+   "said": "मेरी गुड़िया",
+   "stt": "मेरी गुड़िया",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.0,
+   "said": "प्यारी",
+   "stt": "प्यारी",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.02,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.14,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.21,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.34,
+   "said": "षबसे",
+   "stt": "षबसे",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.04,
+   "said": "न्याड़ी",
+   "stt": "न्याड़ी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.24,
+   "said": "सबसे",
+   "stt": "सबसे",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 80.56,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 86.2,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 94.56,
+   "said": "सबसे",
+   "stt": "सबसे",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 101.76,
+   "said": "न्याड़ी न्यारी",
+   "stt": "न्याड़ी न्यारी",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 107.89,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 114.24,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 126.99,
+   "said": "सबसे न्यारी न्याड़ी न्याड़ी",
+   "stt": "सबसे न्यारी न्याढ़ी न्याड़ी",
+   "stt_notes": [
+    "'न्याड़ी' heard as 'न्याढ़ी'"
+   ],
+   "words": [
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 133.46,
+   "said": "हे",
+   "stt": "हे",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 139.78,
+   "said": "न्यारी",
+   "stt": "न्याड़ी",
+   "stt_notes": [
+    "'न्यारी' heard as 'न्याड़ी'"
+   ],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 145.49,
+   "said": "न्यारी",
+   "stt": "न्यारी",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 158.74,
+   "said": "षबसे सबसे न्यारी",
+   "stt": "षबसे सबसे न्यारी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 165.74,
+   "said": "न्यारी है",
+   "stt": "न्यारी है",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.62,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया"
+   }
+  ],
+  "1": [
+   {
+    "t": 34.62,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी गुड़िया"
+   }
+  ],
+  "2": [
+   {
+    "t": 39.0,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "प्यारी"
+   }
+  ],
+  "3": [
+   {
+    "t": 44.02,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 49.14,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 52.21,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "4": [
+   {
+    "t": 55.34,
+    "target": "सबसे",
+    "said": "षबसे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "षबसे"
+   },
+   {
+    "t": 74.24,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे",
+    "drill": true
+   },
+   {
+    "t": 94.56,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे"
+   },
+   {
+    "t": 126.99,
+    "target": "सबसे",
+    "said": "सबसे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी न्याढ़ी न्याड़ी"
+   },
+   {
+    "t": 158.74,
+    "target": "सबसे",
+    "said": "षबसे सबसे",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "षबसे सबसे न्यारी"
+   }
+  ],
+  "5": [
+   {
+    "t": 60.04,
+    "target": "न्यारी",
+    "said": "न्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "न्याड़ी"
+   },
+   {
+    "t": 80.56,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी",
+    "drill": true
+   },
+   {
+    "t": 101.76,
+    "target": "न्यारी",
+    "said": "न्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "न्याड़ी न्यारी"
+   },
+   {
+    "t": 114.24,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी",
+    "drill": true
+   },
+   {
+    "t": 126.99,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सबसे न्यारी न्याढ़ी न्याड़ी"
+   },
+   {
+    "t": 158.74,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "षबसे सबसे न्यारी"
+   }
+  ],
+  "6": [
+   {
+    "t": 86.2,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी",
+    "drill": true
+   },
+   {
+    "t": 101.76,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्याड़ी न्यारी"
+   },
+   {
+    "t": 126.99,
+    "target": "न्यारी",
+    "said": "न्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "सबसे न्यारी न्याढ़ी न्याड़ी"
+   },
+   {
+    "t": 139.78,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्याड़ी",
+    "drill": true
+   },
+   {
+    "t": 145.49,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी",
+    "drill": true
+   },
+   {
+    "t": 165.74,
+    "target": "न्यारी",
+    "said": "न्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी है"
+   }
+  ],
+  "7": [
+   {
+    "t": 107.89,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   },
+   {
+    "t": 133.46,
+    "target": "है",
+    "said": "हे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हे"
+   },
+   {
+    "t": 165.74,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "न्यारी है"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.55,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 43.08,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... है",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 64.09,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। सबसे",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 74.25,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! न्यारी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 80.58,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! न्यारी",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 86.23,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 107.98,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। न्यारी",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 114.27,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 133.75,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। न्यारी",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 140.11,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "न्यारी",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 145.53,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 165.89,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।",
+   "spans": []
+  }
+ ]
+}

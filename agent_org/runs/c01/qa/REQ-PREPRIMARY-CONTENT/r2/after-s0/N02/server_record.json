@@ -1,5 +1,5 @@
 {
- "id": "20261109-212230-53790e",
+ "id": "20261109-213721-3528bb",
  "text_id": "gu-biladi",
  "mode": "mic",
  "summary": {
@@ -15,22 +15,22 @@
   "finished": false,
   "prompts": 1,
   "corrections": 0,
-  "seconds": 23.7,
-  "words_per_minute": 7.6
+  "seconds": 24.9,
+  "words_per_minute": 7.2
  },
  "log": [
   {
-   "t": 0.236,
+   "t": 0.291,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 14.895,
+   "t": 15.536,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 20.931,
+   "t": 21.61,
    "event": "state",
    "state": "STALL_PROMPT",
    "frm": 0,
@@ -38,7 +38,7 @@
    "line": 0
   },
   {
-   "t": 20.931,
+   "t": 21.61,
    "event": "prompt",
    "level": 1,
    "line": 0,
@@ -70,5 +70,5 @@
    "duration_s": 1.45
   }
  ],
- "tts_offline": 24
+ "tts_offline": 60
 }

@@ -16,7 +16,7 @@
   "patience": 3.3,
   "attention_span_s": 140
  },
- "outcome": "abandoned_frustration",
+ "outcome": "abandoned_attention",
  "harness_error": null,
  "text": {
   "hash": "#/read/gu-patang",
@@ -36,13 +36,13 @@
     "code": "NO_TEXT_FOR_MY_LEVEL",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 9.6,
+    "first_t": 7.8,
     "details": [
      "LKG child landed on a 'Grade 1' text, made for children who already read."
     ],
     "evidence": [
      {
-      "t": 9.6,
+      "t": 7.8,
       "title": "મારો પતંગ",
       "grade_tag": "Grade 1"
      }
@@ -54,14 +54,14 @@
     "code": "LONG_TUTOR_TALK",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 30.73,
+    "first_t": 27.05,
     "details": [
      "Buddy talked for over 12 s in one go before the child could read."
     ],
     "evidence": [
      {
-      "t": 30.73,
-      "talk_s": 12.4
+      "t": 27.05,
+      "talk_s": 12.2
      }
     ],
     "child_quote": "Buddy talked too long.",
@@ -71,13 +71,13 @@
     "code": "NO_REPLAY_CONTROL",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 33.04,
+    "first_t": 30.26,
     "details": [
      "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."
     ],
     "evidence": [
      {
-      "t": 33.04,
+      "t": 30.26,
       "visible": [
        "Reading Buddy",
        "Home",
@@ -95,172 +95,166 @@
    },
    {
     "code": "INTERRUPTED_WHILE_THINKING",
-    "count": 3,
+    "count": 2,
     "evidence_level": "observed",
-    "first_t": 39.02,
+    "first_t": 47.91,
     "details": [
-     "Buddy started talking 3.4 s into a planned 3.5 s thinking pause.",
-     "Buddy started talking 0.3 s into a planned 3.28 s thinking pause.",
-     "Buddy started talking 0.2 s into a planned 3.75 s thinking pause."
+     "Buddy started talking 0.9 s into a planned 3.44 s thinking pause.",
+     "Buddy started talking 4.5 s into a planned 4.34 s thinking pause."
     ],
     "evidence": [
      {
-      "t": 39.02,
-      "paused_s": 3.4,
-      "planned_s": 3.5,
+      "t": 47.91,
+      "paused_s": 0.9,
+      "planned_s": 3.44,
       "line": 0,
-      "buddy_kind": "stall_phrase",
-      "next_words": "પતંગ લાલ ને"
-     },
-     {
-      "t": 114.19,
-      "paused_s": 0.3,
-      "planned_s": 3.28,
-      "line": 0,
-      "buddy_kind": "uncertain",
+      "buddy_kind": "fix_word",
       "next_words": "પીળો,"
      },
      {
-      "t": 154.6,
-      "paused_s": 0.2,
-      "planned_s": 3.75,
+      "t": 168.2,
+      "paused_s": 4.5,
+      "planned_s": 4.34,
       "line": 0,
-      "buddy_kind": "uncertain",
-      "next_words": "ને પીળો,"
+      "buddy_kind": "fix_word",
+      "next_words": "પીળો,"
      }
     ],
     "child_quote": "Buddy talked when I was thinking!",
     "child_severity": "upsetting"
    },
    {
-    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
-    "count": 2,
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
     "evidence_level": "observed",
-    "first_t": 98.33,
+    "first_t": 92.1,
     "details": [
-     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
-     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+     "Asked to say 'મારો' 3 times."
     ],
     "evidence": [
      {
-      "t": 98.33,
-      "said": "માડો",
-      "heard": ""
-     },
+      "t": 92.1,
+      "word": "મારો",
+      "times": 3
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 148.75,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
      {
-      "t": 137.08,
-      "said": "લાલ ણે",
-      "heard": "ણે"
+      "t": 148.75,
+      "said": "મારો પતંગ લાલ",
+      "heard": ""
      }
     ],
     "child_quote": "I said it but Buddy didn't hear me!",
     "child_severity": "confusing"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'પીળો' as 'પીળૌ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "પીળો",
+      "child_said": "પીળૌ",
+      "kind": "sub",
+      "speech_model_wrote": "પીળૌ"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
    }
   ],
-  "positives": [
-   "Buddy said yay! I liked that.",
-   "Buddy helped me with the hard word."
-  ],
-  "frustration_peak": 4.1,
+  "positives": [],
+  "frustration_peak": 3.85,
   "frustration_events": [
    {
-    "t": 30.73,
+    "t": 27.05,
     "kind": "long_wait",
     "frustration": 0.4
    },
    {
-    "t": 35.44,
+    "t": 32.4,
     "kind": "progress",
     "frustration": 0.25
    },
    {
-    "t": 39.02,
-    "kind": "interrupted_pause",
-    "frustration": 1.25,
-    "paused_s": 3.4
+    "t": 42.69,
+    "kind": "progress",
+    "frustration": 0.1
    },
    {
-    "t": 43.38,
+    "t": 47.91,
+    "kind": "interrupted_pause",
+    "frustration": 1.1,
+    "paused_s": 0.9
+   },
+   {
+    "t": 71.71,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 86.84,
     "kind": "dead_click",
-    "frustration": 1.75,
+    "frustration": 1.45,
     "target": "Listening"
    },
    {
-    "t": 56.93,
+    "t": 92.1,
+    "kind": "drill_repeat",
+    "frustration": 2.15,
+    "word": "મારો"
+   },
+   {
+    "t": 104.38,
     "kind": "progress",
-    "frustration": 1.6
+    "frustration": 2.0
    },
    {
-    "t": 74.61,
+    "t": 122.67,
     "kind": "progress",
-    "frustration": 1.45
-   },
-   {
-    "t": 82.35,
-    "kind": "praise",
-    "frustration": 1.05
-   },
-   {
-    "t": 98.33,
-    "kind": "unheard_speech",
     "frustration": 1.85
    },
    {
-    "t": 105.26,
-    "kind": "progress",
-    "frustration": 1.7
-   },
-   {
-    "t": 113.87,
-    "kind": "progress",
-    "frustration": 1.55
-   },
-   {
-    "t": 114.19,
-    "kind": "interrupted_pause",
-    "frustration": 2.55,
-    "paused_s": 0.3
-   },
-   {
-    "t": 123.91,
-    "kind": "progress",
-    "frustration": 2.4
-   },
-   {
-    "t": 129.97,
-    "kind": "progress",
-    "frustration": 2.25
-   },
-   {
-    "t": 137.08,
+    "t": 148.75,
     "kind": "unheard_speech",
-    "frustration": 3.05
+    "frustration": 2.65
    },
    {
-    "t": 137.08,
+    "t": 148.75,
     "kind": "progress",
-    "frustration": 2.9
+    "frustration": 2.5
    },
    {
-    "t": 148.33,
+    "t": 157.05,
     "kind": "progress",
-    "frustration": 2.75
+    "frustration": 2.35
    },
    {
-    "t": 154.4,
-    "kind": "progress",
-    "frustration": 2.6
-   },
-   {
-    "t": 154.6,
+    "t": 168.2,
     "kind": "interrupted_pause",
-    "frustration": 3.6,
-    "paused_s": 0.2
+    "frustration": 3.35,
+    "paused_s": 4.5
    },
    {
-    "t": 155.49,
+    "t": 170.28,
     "kind": "dead_click",
-    "frustration": 4.1,
+    "frustration": 3.85,
     "target": "End"
    }
   ]
@@ -269,49 +263,51 @@
   "clicks": 6,
   "dead_clicks": 2,
   "nav_clicks": 3,
-  "praise_heard": 1,
-  "interruptions": 3,
+  "praise_heard": 0,
+  "interruptions": 2,
   "unheard_words": 2,
-  "buddy_talk_s": 51.5,
-  "child_talk_s": 38.7,
+  "buddy_talk_s": 52.0,
+  "child_talk_s": 33.2,
   "tired_said": false,
-  "time_to_text_s": 4.2,
+  "time_to_text_s": 3.8,
   "reader_page_audio_clips": 1,
-  "intro_s": 14.8,
-  "time_to_first_word_s": 14.8,
-  "session_s": 138.7,
+  "intro_s": 15.6,
+  "time_to_first_word_s": 15.6,
+  "session_s": 157.2,
   "words_total": 16,
   "words_attempted": 5,
-  "words_said_wrong": 2,
-  "corrections": 2,
+  "words_said_wrong": 4,
+  "corrections": 4,
   "buddy_turns": 12,
-  "stall_prompts": 2,
-  "uncertain_prompts": 2
+  "stall_prompts": 0,
+  "uncertain_prompts": 1
  },
  "tutor_summary": {
   "words_total": 16,
   "words_read": 1,
   "words_helped": 4,
   "words_to_practise": [
+   "મારો",
+   "પતંગ",
    "લાલ",
    "ને"
   ],
   "words_practised": 3,
-  "correction_attempts": 5,
+  "correction_attempts": 6,
   "lines_total": 4,
   "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 2,
-  "corrections": 2,
-  "seconds": 139.8,
-  "words_per_minute": 2.1
+  "prompts": 0,
+  "corrections": 4,
+  "seconds": 156.3,
+  "words_per_minute": 1.9
  },
  "ux_scores": {
   "discoverability": 5,
   "guidance": 5,
-  "interruption_load": 1,
-  "correction_quality": 5,
+  "interruption_load": 2,
+  "correction_quality": 4,
   "completion": 2,
   "enjoyment": 1
  },
@@ -328,7 +324,7 @@
   "server_record": "server_record.json"
  },
  "simulation_notes": {
-  "tts_placeholder_clips": 101,
+  "tts_placeholder_clips": 174,
   "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
  }
 }

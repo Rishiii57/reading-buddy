@@ -1,50 +1,49 @@
 {
- "id": "20261109-211804-35423b",
+ "id": "20261109-213307-b0fa2a",
  "text_id": "hi-gudiya",
  "mode": "mic",
  "summary": {
   "words_total": 17,
-  "words_read": 3,
-  "words_helped": 5,
+  "words_read": 1,
+  "words_helped": 3,
   "words_to_practise": [
-   "सबसे",
-   "न्यारी"
+   "गुड़िया"
   ],
-  "words_practised": 2,
-  "correction_attempts": 6,
+  "words_practised": 1,
+  "correction_attempts": 5,
   "lines_total": 4,
-  "lines_completed": 1,
+  "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 2,
+  "prompts": 1,
   "corrections": 1,
-  "seconds": 106.7,
-  "words_per_minute": 4.5
+  "seconds": 64.9,
+  "words_per_minute": 3.7
  },
  "log": [
   {
-   "t": 0.117,
+   "t": 0.469,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 14.597,
+   "t": 13.691,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 17.134,
+   "t": 17.044,
    "event": "transcript",
    "text": "मेरी"
   },
   {
-   "t": 17.134,
+   "t": 17.044,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 20.881,
+   "t": 20.497,
    "event": "state",
    "state": "STALL_PROMPT",
    "frm": 1,
@@ -52,7 +51,7 @@
    "line": 0
   },
   {
-   "t": 20.881,
+   "t": 20.497,
    "event": "prompt",
    "level": 1,
    "line": 0,
@@ -60,196 +59,99 @@
    "to": 4
   },
   {
-   "t": 24.428,
+   "t": 24.362,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 27.011,
+   "t": 26.593,
    "event": "transcript",
-   "text": "गुड़िया"
+   "text": "गुरिया"
   },
   {
-   "t": 27.011,
+   "t": 26.593,
    "event": "progress",
    "frm": 1,
    "to": 2
   },
   {
-   "t": 30.5,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 2,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 30.5,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 2,
-   "to": 4
-  },
-  {
-   "t": 33.356,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 37.004,
-   "event": "transcript",
-   "text": "प्याड़ी है"
-  },
-  {
-   "t": 37.004,
-   "event": "uncertain",
-   "text": "प्याडी है"
-  },
-  {
-   "t": 37.004,
-   "event": "state",
-   "state": "UNCERTAIN_AUDIO"
-  },
-  {
-   "t": 40.708,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 44.561,
-   "event": "transcript",
-   "text": "प्यारी प्यारी"
-  },
-  {
-   "t": 44.561,
-   "event": "progress",
-   "frm": 2,
-   "to": 3
-  },
-  {
-   "t": 50.672,
-   "event": "transcript",
-   "text": "है"
-  },
-  {
-   "t": 50.672,
-   "event": "progress",
-   "frm": 3,
-   "to": 4
-  },
-  {
-   "t": 50.672,
-   "event": "state",
-   "state": "LINE_COMPLETED",
-   "line": 0
-  },
-  {
-   "t": 58.2,
-   "event": "transcript",
-   "text": "सवसे न्यारी ण्याड़ी है"
-  },
-  {
-   "t": 58.2,
-   "event": "progress",
-   "frm": 4,
-   "to": 8
-  },
-  {
-   "t": 58.2,
+   "t": 30.143,
    "event": "correction",
-   "line": 1,
+   "line": 0,
    "words": [
-    4,
-    6
+    1
    ]
   },
   {
-   "t": 58.2,
+   "t": 30.143,
    "event": "state",
    "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 4
+   "word": 1
   },
   {
-   "t": 65.55,
+   "t": 38.639,
    "event": "transcript",
-   "text": "सबसे"
+   "text": "गुरिया"
   },
   {
-   "t": 65.55,
+   "t": 38.639,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गुरिया"
+  },
+  {
+   "t": 44.379,
+   "event": "transcript",
+   "text": "गुढ़िया"
+  },
+  {
+   "t": 44.379,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गुढिया"
+  },
+  {
+   "t": 49.953,
+   "event": "transcript",
+   "text": "गुढ़िया"
+  },
+  {
+   "t": 49.953,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गुढिया"
+  },
+  {
+   "t": 57.084,
+   "event": "transcript",
+   "text": "गुढ़िया गुढ़िया"
+  },
+  {
+   "t": 57.084,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गुढिया गुढिया"
+  },
+  {
+   "t": 62.608,
+   "event": "transcript",
+   "text": "गुड़िया"
+  },
+  {
+   "t": 62.608,
    "event": "drill_ok",
-   "word": 4
+   "word": 1
   },
   {
-   "t": 65.55,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 6
-  },
-  {
-   "t": 71.52,
-   "event": "transcript",
-   "text": "न्याड़ी"
-  },
-  {
-   "t": 71.52,
-   "event": "drill_miss",
-   "word": 6,
-   "heard": "न्याडी"
-  },
-  {
-   "t": 78.057,
-   "event": "transcript",
-   "text": "न्याड़ी"
-  },
-  {
-   "t": 78.057,
-   "event": "drill_miss",
-   "word": 6,
-   "heard": "न्याडी"
-  },
-  {
-   "t": 86.287,
-   "event": "transcript",
-   "text": "न्याड़ी न्याड़ी"
-  },
-  {
-   "t": 86.287,
-   "event": "drill_miss",
-   "word": 6,
-   "heard": "न्याडी न्याडी"
-  },
-  {
-   "t": 92.46,
-   "event": "transcript",
-   "text": "ण्यारी"
-  },
-  {
-   "t": 92.46,
-   "event": "drill_miss",
-   "word": 6,
-   "heard": "ण्यारी"
-  },
-  {
-   "t": 99.44,
-   "event": "transcript",
-   "text": "न्यारी न्यारी"
-  },
-  {
-   "t": 99.44,
-   "event": "drill_ok",
-   "word": 6
-  },
-  {
-   "t": 99.44,
+   "t": 62.608,
    "event": "state",
    "state": "COMPLETE_LINE_DEMONSTRATION",
-   "line": 1
+   "line": 0
   }
  ],
  "stt_events": [
   {
-   "t": 0.001,
+   "t": 0.0,
    "type": "connected",
    "text": null,
    "latency": null,
@@ -257,7 +159,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 15.083,
+   "t": 14.993,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -265,7 +167,7 @@
    "message": null
   },
   {
-   "t": 17.134,
+   "t": 17.044,
    "type": "transcript",
    "text": "मेरी",
    "latency": 120,
@@ -273,7 +175,7 @@
    "message": null
   },
   {
-   "t": 24.948,
+   "t": 24.541,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -281,171 +183,91 @@
    "message": null
   },
   {
-   "t": 27.011,
+   "t": 26.593,
+   "type": "transcript",
+   "text": "गुरिया",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 36.59,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.639,
+   "type": "transcript",
+   "text": "गुरिया",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 42.335,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.379,
+   "type": "transcript",
+   "text": "गुढ़िया",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 47.904,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.953,
+   "type": "transcript",
+   "text": "गुढ़िया",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 53.583,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.084,
+   "type": "transcript",
+   "text": "गुढ़िया गुढ़िया",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 60.556,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.608,
    "type": "transcript",
    "text": "गुड़िया",
    "latency": 120,
    "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 33.523,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 37.004,
-   "type": "transcript",
-   "text": "प्याड़ी है",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 41.076,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 44.561,
-   "type": "transcript",
-   "text": "प्यारी प्यारी",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 48.44,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 50.672,
-   "type": "transcript",
-   "text": "है",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 51.863,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 58.2,
-   "type": "transcript",
-   "text": "सवसे न्यारी ण्याड़ी है",
-   "latency": 120,
-   "audio_duration_ms": 5910,
-   "message": null
-  },
-  {
-   "t": 63.5,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 65.55,
-   "type": "transcript",
-   "text": "सबसे",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 69.391,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 71.52,
-   "type": "transcript",
-   "text": "न्याड़ी",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 76.005,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 78.057,
-   "type": "transcript",
-   "text": "न्याड़ी",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 82.805,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 86.287,
-   "type": "transcript",
-   "text": "न्याड़ी न्याड़ी",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 90.405,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 92.46,
-   "type": "transcript",
-   "text": "ण्यारी",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 95.959,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 99.44,
-   "type": "transcript",
-   "text": "न्यारी न्यारी",
-   "latency": 120,
-   "audio_duration_ms": 3060,
    "message": null
   }
  ],
@@ -457,89 +279,47 @@
    "duration_s": 1.63
   },
   {
-   "text": "गुढ़िया",
-   "heard": "",
-   "muted_words": 1,
+   "text": "गुरिया",
+   "heard": "गुरिया",
+   "muted_words": 0,
    "duration_s": 1.63
+  },
+  {
+   "text": "प्यारी है",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 3.06
+  },
+  {
+   "text": "गुरिया",
+   "heard": "गुरिया",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गुढ़िया",
+   "heard": "गुढ़िया",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गुढ़िया",
+   "heard": "गुढ़िया",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गुढ़िया गुढ़िया",
+   "heard": "गुढ़िया गुढ़िया",
+   "muted_words": 0,
+   "duration_s": 3.06
   },
   {
    "text": "गुड़िया",
    "heard": "गुड़िया",
    "muted_words": 0,
    "duration_s": 1.63
-  },
-  {
-   "text": "प्याड़ी",
-   "heard": "",
-   "muted_words": 1,
-   "duration_s": 1.63
-  },
-  {
-   "text": "प्याड़ी है",
-   "heard": "प्याड़ी है",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "प्यारी प्यारी",
-   "heard": "प्यारी प्यारी",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "है",
-   "heard": "है",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "सवसे न्यारी ण्याड़ी है",
-   "heard": "सवसे न्यारी ण्याड़ी है",
-   "muted_words": 0,
-   "duration_s": 5.91
-  },
-  {
-   "text": "सबसे",
-   "heard": "सबसे",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "न्याड़ी",
-   "heard": "न्याड़ी",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "न्याड़ी",
-   "heard": "न्याड़ी",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "न्याड़ी न्याड़ी",
-   "heard": "न्याड़ी न्याड़ी",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "ण्यारी",
-   "heard": "ण्यारी",
-   "muted_words": 0,
-   "duration_s": 1.63
-  },
-  {
-   "text": "न्यारी न्यारी",
-   "heard": "न्यारी न्यारी",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "सवसे",
-   "heard": "",
-   "muted_words": 1,
-   "duration_s": 1.63
   }
  ],
- "tts_offline": 57
+ "tts_offline": 53
 }

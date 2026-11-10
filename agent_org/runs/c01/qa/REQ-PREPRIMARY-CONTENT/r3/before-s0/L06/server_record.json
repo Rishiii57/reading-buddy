@@ -1,0 +1,175 @@
+{
+ "id": "20261109-213322-ea7ba0",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [
+   "Ravi",
+   "has",
+   "a"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 39.0,
+  "words_per_minute": 4.6
+ },
+ "log": [
+  {
+   "t": 0.294,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.742,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.07,
+   "event": "transcript",
+   "text": "ran"
+  },
+  {
+   "t": 18.07,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.719,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 22.918,
+   "event": "transcript",
+   "text": "haa"
+  },
+  {
+   "t": 22.918,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 25.937,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "t": 25.937,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 33.345,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 33.345,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 33.345,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.012,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.07,
+   "type": "transcript",
+   "text": "ran",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 20.85,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.918,
+   "type": "transcript",
+   "text": "haa",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 31.293,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.345,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ran",
+   "heard": "ran",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "haa",
+   "heard": "haa",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 49
+}

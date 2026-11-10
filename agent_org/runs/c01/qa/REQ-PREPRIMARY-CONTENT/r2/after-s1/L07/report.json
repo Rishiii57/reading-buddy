@@ -33,124 +33,169 @@
  "experience": {
   "issues": [
    {
-    "code": "INTERRUPTED_WHILE_THINKING",
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
     "count": 3,
     "evidence_level": "observed",
-    "first_t": 39.97,
+    "first_t": 86.53,
     "details": [
-     "Buddy started talking 3.1 s into a planned 4.45 s thinking pause.",
-     "Buddy started talking 2.7 s into a planned 4.37 s thinking pause.",
-     "Buddy started talking 0.7 s into a planned 2.0 s thinking pause."
-    ],
-    "evidence": [
-     {
-      "t": 39.97,
-      "paused_s": 3.1,
-      "planned_s": 4.45,
-      "line": 0,
-      "buddy_kind": "stall_phrase",
-      "next_words": "little star,"
-     },
-     {
-      "t": 49.12,
-      "paused_s": 2.7,
-      "planned_s": 4.37,
-      "line": 0,
-      "buddy_kind": "stall_phrase",
-      "next_words": "little star,"
-     },
-     {
-      "t": 78.08,
-      "paused_s": 0.7,
-      "planned_s": 2.0,
-      "line": 1,
-      "buddy_kind": "fix_word",
-      "next_words": "wonder what you"
-     }
-    ],
-    "child_quote": "Buddy talked when I was thinking!",
-    "child_severity": "upsetting"
-   },
-   {
-    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
-    "count": 1,
-    "evidence_level": "observed",
-    "first_t": 88.96,
-    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
      "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
     ],
     "evidence": [
      {
-      "t": 88.96,
-      "said": "hoa",
+      "t": 86.53,
+      "said": "above tha",
+      "heard": "tha"
+     },
+     {
+      "t": 106.89,
+      "said": "world",
+      "heard": ""
+     },
+     {
+      "t": 145.99,
+      "said": "at",
       "heard": ""
      }
     ],
     "child_quote": "I said it but Buddy didn't hear me!",
     "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 142.42,
+    "details": [
+     "Buddy started talking 0.9 s into a planned 2.47 s thinking pause.",
+     "Buddy started talking 2.4 s into a planned 4.21 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 142.42,
+      "paused_s": 0.9,
+      "planned_s": 2.47,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "above the world"
+     },
+     {
+      "t": 150.47,
+      "paused_s": 2.4,
+      "planned_s": 4.21,
+      "line": 2,
+      "buddy_kind": "stall_rest",
+      "next_words": "above the world"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
    }
   ],
-  "positives": [],
-  "frustration_peak": 4.2,
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 4.0,
   "frustration_events": [
    {
-    "t": 30.9,
+    "t": 31.48,
     "kind": "progress",
     "frustration": 0.0
    },
    {
-    "t": 39.97,
-    "kind": "interrupted_pause",
-    "frustration": 1.0,
-    "paused_s": 3.1
+    "t": 41.39,
+    "kind": "progress",
+    "frustration": 0.0
    },
    {
-    "t": 45.69,
+    "t": 53.45,
+    "kind": "dead_click",
+    "frustration": 0.5,
+    "target": "Listening"
+   },
+   {
+    "t": 61.35,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 66.66,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 73.58,
+    "kind": "progress",
+    "frustration": 0.05
+   },
+   {
+    "t": 73.58,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 86.53,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 86.53,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 88.93,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 106.89,
+    "kind": "unheard_speech",
+    "frustration": 1.3
+   },
+   {
+    "t": 106.89,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 112.99,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 125.24,
     "kind": "progress",
     "frustration": 0.85
    },
    {
-    "t": 49.12,
+    "t": 132.92,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 142.42,
     "kind": "interrupted_pause",
-    "frustration": 1.85,
-    "paused_s": 2.7
+    "frustration": 1.7,
+    "paused_s": 0.9
    },
    {
-    "t": 53.34,
-    "kind": "dead_click",
-    "frustration": 2.35,
-    "target": "Listening"
-   },
-   {
-    "t": 57.0,
-    "kind": "progress",
-    "frustration": 2.2
-   },
-   {
-    "t": 64.36,
-    "kind": "progress",
-    "frustration": 2.05
-   },
-   {
-    "t": 77.36,
-    "kind": "progress",
-    "frustration": 1.9
-   },
-   {
-    "t": 78.08,
-    "kind": "interrupted_pause",
-    "frustration": 2.9,
-    "paused_s": 0.7
-   },
-   {
-    "t": 88.96,
+    "t": 145.99,
     "kind": "unheard_speech",
-    "frustration": 3.7
+    "frustration": 2.5
    },
    {
-    "t": 90.36,
+    "t": 150.47,
+    "kind": "interrupted_pause",
+    "frustration": 3.5,
+    "paused_s": 2.4
+   },
+   {
+    "t": 151.73,
     "kind": "dead_click",
-    "frustration": 4.2,
+    "frustration": 4.0,
     "target": "End"
    }
   ]
@@ -159,49 +204,47 @@
   "clicks": 5,
   "dead_clicks": 2,
   "nav_clicks": 2,
-  "praise_heard": 0,
-  "interruptions": 3,
-  "unheard_words": 1,
-  "buddy_talk_s": 26.4,
-  "child_talk_s": 15.9,
+  "praise_heard": 1,
+  "interruptions": 2,
+  "unheard_words": 3,
+  "buddy_talk_s": 39.8,
+  "child_talk_s": 46.5,
   "tired_said": false,
-  "time_to_text_s": 4.4,
+  "time_to_text_s": 5.2,
   "reader_page_audio_clips": 1,
-  "intro_s": 11.9,
-  "time_to_first_word_s": 11.9,
-  "session_s": 75.2,
+  "intro_s": 11.4,
+  "time_to_first_word_s": 11.4,
+  "session_s": 135.4,
   "words_total": 22,
-  "words_attempted": 6,
-  "words_said_wrong": 1,
-  "corrections": 1,
-  "buddy_turns": 6,
-  "stall_prompts": 2,
+  "words_attempted": 16,
+  "words_said_wrong": 5,
+  "corrections": 0,
+  "buddy_turns": 7,
+  "stall_prompts": 3,
   "uncertain_prompts": 0
  },
  "tutor_summary": {
   "words_total": 22,
-  "words_read": 1,
-  "words_helped": 4,
-  "words_to_practise": [
-   "How"
-  ],
-  "words_practised": 1,
-  "correction_attempts": 1,
+  "words_read": 9,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
   "lines_total": 4,
-  "lines_completed": 1,
+  "lines_completed": 2,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 2,
-  "corrections": 1,
-  "seconds": 75.6,
-  "words_per_minute": 4.0
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 135.6,
+  "words_per_minute": 7.1
  },
  "ux_scores": {
   "discoverability": 5,
   "guidance": 5,
-  "interruption_load": 1,
+  "interruption_load": 2,
   "correction_quality": 5,
-  "completion": 2,
+  "completion": 4,
   "enjoyment": 1
  },
  "artefacts": {
@@ -217,7 +260,7 @@
   "server_record": "server_record.json"
  },
  "simulation_notes": {
-  "tts_placeholder_clips": 98,
+  "tts_placeholder_clips": 296,
   "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
  }
 }

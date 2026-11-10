@@ -1,0 +1,180 @@
+{
+ "id": "20261109-213318-dcea98",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 1,
+  "words_to_practise": [
+   "बादल"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 50.1,
+  "words_per_minute": 2.4
+ },
+ "log": [
+  {
+   "t": 0.199,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.195,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.173,
+   "event": "transcript",
+   "text": "वादल गरजे"
+  },
+  {
+   "t": 20.173,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 23.658,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 23.658,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 32.444,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 32.444,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 32.444,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 38.945,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 44.332,
+   "event": "transcript",
+   "text": "वादल वाधल"
+  },
+  {
+   "t": 44.332,
+   "event": "uncertain",
+   "text": "वादल वाधल"
+  },
+  {
+   "t": 44.332,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 48.295,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.551,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.173,
+   "type": "transcript",
+   "text": "वादल गरजे",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 29.824,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.444,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 39.712,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.332,
+   "type": "transcript",
+   "text": "वादल वाधल",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "वादल गरजे",
+   "heard": "वादल गरजे",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "वादल वाधल",
+   "heard": "वादल वाधल",
+   "muted_words": 0,
+   "duration_s": 4.2
+  }
+ ],
+ "tts_offline": 53
+}

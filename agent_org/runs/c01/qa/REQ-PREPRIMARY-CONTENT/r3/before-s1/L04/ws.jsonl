@@ -1,0 +1,14 @@
+{"t": 15.59, "type": "ready", "message": null}
+{"t": 15.86, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!", "spans": [[0, 5]]}
+{"t": 29.74, "type": "speech"}
+{"t": 31.1, "type": "heard", "text": "Pitter"}
+{"t": 31.13, "type": "speech"}
+{"t": 34.31, "type": "speech"}
+{"t": 36.67, "type": "heard", "text": "play patter"}
+{"t": 36.69, "type": "speech"}
+{"t": 40.4, "type": "say", "kind": "stall_phrase", "text": "Listen... falls the rain", "spans": [[2, 5]]}
+{"t": 44.69, "type": "speech"}
+{"t": 46.11, "type": "heard", "text": "falls"}
+{"t": 46.11, "type": "speech"}
+{"t": 51.24, "type": "say", "kind": "stall_phrase", "text": "Listen... the rain", "spans": [[3, 5]]}
+{"t": 57.15, "type": "summary", "summary": {"words_total": 24, "words_read": 2, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 41.6, "words_per_minute": 7.2}}

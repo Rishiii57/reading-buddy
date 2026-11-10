@@ -1,0 +1,214 @@
+{
+ "id": "20261109-213038-40814b",
+ "text_id": "gu-shala",
+ "mode": "demo",
+ "summary": {
+  "words_total": 22,
+  "words_read": 0,
+  "words_helped": 1,
+  "words_to_practise": [
+   "મારી"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 50.6,
+  "words_per_minute": 1.2
+ },
+ "log": [
+  {
+   "t": 0.42,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.958,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.268,
+   "event": "transcript",
+   "text": "માડી માડી શાળા"
+  },
+  {
+   "t": 21.268,
+   "event": "uncertain",
+   "text": "માડી માડી શાળા"
+  },
+  {
+   "t": 21.268,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 24.64,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.746,
+   "event": "transcript",
+   "text": "માડી"
+  },
+  {
+   "t": 27.746,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 30.813,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 30.813,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 39.53,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 42.998,
+   "event": "transcript",
+   "text": "માડી"
+  },
+  {
+   "t": 42.998,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "માડી"
+  },
+  {
+   "t": 48.302,
+   "event": "transcript",
+   "text": "માડી"
+  },
+  {
+   "t": 48.302,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "માડી"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.352,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.268,
+   "type": "transcript",
+   "text": "માડી માડી શાળા",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 25.691,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.746,
+   "type": "transcript",
+   "text": "માડી",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 40.948,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.998,
+   "type": "transcript",
+   "text": "માડી",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 46.251,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.302,
+   "type": "transcript",
+   "text": "માડી",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડી માડી શાળા",
+   "heard": "માડી માડી શાળા",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "માડી",
+   "heard": "માડી",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "માડી",
+   "heard": "માડી",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "માડી",
+   "heard": "માડી",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 49
+}

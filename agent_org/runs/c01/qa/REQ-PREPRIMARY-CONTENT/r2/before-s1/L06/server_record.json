@@ -1,5 +1,5 @@
 {
- "id": "20261109-211931-78030c",
+ "id": "20261109-213425-1d708e",
  "text_id": "gu-patang",
  "mode": "mic",
  "summary": {
@@ -7,251 +7,252 @@
   "words_read": 1,
   "words_helped": 4,
   "words_to_practise": [
+   "મારો",
+   "પતંગ",
    "લાલ",
    "ને"
   ],
   "words_practised": 3,
-  "correction_attempts": 5,
+  "correction_attempts": 6,
   "lines_total": 4,
   "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 2,
-  "corrections": 2,
-  "seconds": 139.8,
-  "words_per_minute": 2.1
+  "prompts": 0,
+  "corrections": 4,
+  "seconds": 156.3,
+  "words_per_minute": 1.9
  },
  "log": [
   {
-   "t": 0.937,
+   "t": 0.12,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 17.559,
+   "t": 16.808,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 20.322,
+   "t": 19.255,
    "event": "transcript",
    "text": "મારો"
   },
   {
-   "t": 20.322,
+   "t": 19.255,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 23.773,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 23.773,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 1,
-   "to": 4
-  },
-  {
-   "t": 26.855,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 32.141,
+   "t": 24.599,
    "event": "transcript",
-   "text": "લલ"
+   "text": "પથંગ"
   },
   {
-   "t": 35.154,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 5,
-   "line": 0
-  },
-  {
-   "t": 35.154,
-   "event": "prompt",
-   "level": 2,
-   "line": 0,
-   "frm": 1,
-   "to": 5
-  },
-  {
-   "t": 38.912,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 41.758,
-   "event": "transcript",
-   "text": "પતંગ"
-  },
-  {
-   "t": 41.758,
+   "t": 24.599,
    "event": "progress",
    "frm": 1,
    "to": 2
   },
   {
-   "t": 46.791,
+   "t": 29.545,
    "event": "transcript",
-   "text": "લલ"
+   "text": "લાલ"
   },
   {
-   "t": 46.791,
+   "t": 29.545,
    "event": "progress",
    "frm": 2,
    "to": 3
   },
   {
-   "t": 53.552,
-   "event": "transcript",
-   "text": "ણે"
-  },
-  {
-   "t": 53.552,
-   "event": "progress",
-   "frm": 3,
-   "to": 4
-  },
-  {
-   "t": 59.462,
-   "event": "transcript",
-   "text": "પીળો પીળો"
-  },
-  {
-   "t": 59.462,
-   "event": "progress",
-   "frm": 4,
-   "to": 5
-  },
-  {
-   "t": 59.462,
+   "t": 34.196,
    "event": "correction",
    "line": 0,
    "words": [
-    2,
-    3
+    1
    ]
   },
   {
-   "t": 59.462,
+   "t": 34.196,
    "event": "state",
    "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 2
+   "word": 1
   },
   {
-   "t": 66.54,
+   "t": 43.102,
    "event": "transcript",
-   "text": "લાલ"
+   "text": "પથંગ પતંગ"
   },
   {
-   "t": 66.54,
+   "t": 43.102,
    "event": "drill_ok",
-   "word": 2
+   "word": 1
   },
   {
-   "t": 66.54,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 3
-  },
-  {
-   "t": 74.568,
-   "event": "transcript",
-   "text": "ણે"
-  },
-  {
-   "t": 74.568,
-   "event": "drill_miss",
-   "word": 3,
-   "heard": "ણે"
-  },
-  {
-   "t": 79.957,
-   "event": "transcript",
-   "text": "ને"
-  },
-  {
-   "t": 79.957,
-   "event": "drill_ok",
-   "word": 3
-  },
-  {
-   "t": 79.957,
+   "t": 43.102,
    "event": "state",
    "state": "COMPLETE_LINE_DEMONSTRATION",
    "line": 0
   },
   {
-   "t": 86.386,
+   "t": 50.189,
    "event": "state",
    "state": "COMPLETE_LINE_REPETITION"
   },
   {
-   "t": 90.145,
+   "t": 53.007,
    "event": "transcript",
-   "text": "મારો મારો"
+   "text": "માડો"
   },
   {
-   "t": 90.145,
+   "t": 53.007,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 98.755,
+   "t": 58.558,
    "event": "transcript",
-   "text": "પતંગ લલ ણે"
+   "text": "પતંગ"
   },
   {
-   "t": 98.755,
-   "event": "uncertain",
-   "text": "પતંગ લલ ણે"
+   "t": 58.558,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
   },
   {
-   "t": 98.755,
+   "t": 63.382,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 63.382,
    "event": "state",
-   "state": "UNCERTAIN_AUDIO"
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
   },
   {
-   "t": 102.207,
+   "t": 70.218,
+   "event": "transcript",
+   "text": "માડો"
+  },
+  {
+   "t": 70.218,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "માડો"
+  },
+  {
+   "t": 75.805,
+   "event": "transcript",
+   "text": "માડો"
+  },
+  {
+   "t": 75.805,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "માડો"
+  },
+  {
+   "t": 81.055,
+   "event": "transcript",
+   "text": "માડો"
+  },
+  {
+   "t": 81.055,
+   "event": "accepted_as_heard",
+   "word": 0,
+   "heard": "માડો"
+  },
+  {
+   "t": 81.055,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 81.055,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 87.727,
    "event": "state",
    "state": "COMPLETE_LINE_REPETITION"
   },
   {
-   "t": 108.795,
+   "t": 91.218,
    "event": "transcript",
-   "text": "પતંગ લલ ણે ને"
+   "text": "મારો પતંગ"
   },
   {
-   "t": 108.795,
+   "t": 91.218,
    "event": "progress",
-   "frm": 1,
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 98.307,
+   "event": "transcript",
+   "text": "લલ લલ"
+  },
+  {
+   "t": 98.307,
+   "event": "uncertain",
+   "text": "લલ લલ"
+  },
+  {
+   "t": 98.307,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 102.523,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 104.854,
+   "event": "transcript",
+   "text": "લલ"
+  },
+  {
+   "t": 104.854,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 109.503,
+   "event": "transcript",
+   "text": "ને"
+  },
+  {
+   "t": 109.503,
+   "event": "progress",
+   "frm": 3,
    "to": 4
   },
   {
-   "t": 114.853,
+   "t": 115.185,
    "event": "transcript",
-   "text": "પીળો"
+   "text": "પીળૌ"
   },
   {
-   "t": 114.853,
+   "t": 115.185,
    "event": "progress",
    "frm": 4,
    "to": 5
   },
   {
-   "t": 114.853,
+   "t": 115.185,
    "event": "correction",
    "line": 0,
    "words": [
@@ -259,62 +260,101 @@
    ]
   },
   {
-   "t": 114.853,
+   "t": 115.185,
    "event": "state",
    "state": "INDIVIDUAL_WORD_CORRECTION",
    "word": 2
   },
   {
-   "t": 121.963,
+   "t": 122.52,
    "event": "transcript",
-   "text": "ણે"
+   "text": "લલ"
   },
   {
-   "t": 121.963,
+   "t": 122.52,
    "event": "drill_miss",
    "word": 2,
-   "heard": "ણે"
+   "heard": "લલ"
   },
   {
-   "t": 125.114,
+   "t": 127.846,
    "event": "transcript",
    "text": "લાલ"
   },
   {
-   "t": 125.114,
+   "t": 127.846,
    "event": "drill_ok",
    "word": 2
   },
   {
-   "t": 125.114,
+   "t": 127.846,
    "event": "state",
    "state": "COMPLETE_LINE_DEMONSTRATION",
    "line": 0
   },
   {
-   "t": 131.34,
+   "t": 134.148,
    "event": "state",
    "state": "COMPLETE_LINE_REPETITION"
   },
   {
-   "t": 139.282,
+   "t": 137.936,
    "event": "transcript",
-   "text": "પથંગ લાલ"
+   "text": "માડો"
   },
   {
-   "t": 139.282,
-   "event": "uncertain",
-   "text": "પથંગ લાલ"
+   "t": 137.936,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
   },
   {
-   "t": 139.282,
+   "t": 143.912,
+   "event": "transcript",
+   "text": "પતંગ લલ"
+  },
+  {
+   "t": 143.912,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 145.544,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 149.719,
+   "event": "transcript",
+   "text": "ણે"
+  },
+  {
+   "t": 149.719,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 154.747,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    2,
+    3
+   ]
+  },
+  {
+   "t": 154.747,
    "event": "state",
-   "state": "UNCERTAIN_AUDIO"
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
   }
  ],
  "stt_events": [
   {
-   "t": 0.0,
+   "t": 0.001,
    "type": "connected",
    "text": null,
    "latency": null,
@@ -322,7 +362,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 18.257,
+   "t": 17.204,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -330,7 +370,7 @@
    "message": null
   },
   {
-   "t": 20.322,
+   "t": 19.255,
    "type": "transcript",
    "text": "મારો",
    "latency": 120,
@@ -338,7 +378,7 @@
    "message": null
   },
   {
-   "t": 28.661,
+   "t": 22.54,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -346,15 +386,47 @@
    "message": null
   },
   {
-   "t": 32.141,
+   "t": 24.599,
    "type": "transcript",
-   "text": "લલ",
+   "text": "પથંગ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 27.495,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.545,
+   "type": "transcript",
+   "text": "લાલ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 39.568,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.102,
+   "type": "transcript",
+   "text": "પથંગ પતંગ",
    "latency": 120,
    "audio_duration_ms": 3060,
    "message": null
   },
   {
-   "t": 39.08,
+   "t": 50.952,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -362,7 +434,23 @@
    "message": null
   },
   {
-   "t": 41.758,
+   "t": 53.007,
+   "type": "transcript",
+   "text": "માડો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 56.506,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.558,
    "type": "transcript",
    "text": "પતંગ",
    "latency": 120,
@@ -370,7 +458,7 @@
    "message": null
   },
   {
-   "t": 44.738,
+   "t": 68.164,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -378,7 +466,87 @@
    "message": null
   },
   {
-   "t": 46.791,
+   "t": 70.218,
+   "type": "transcript",
+   "text": "માડો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 73.755,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.805,
+   "type": "transcript",
+   "text": "માડો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 78.998,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.055,
+   "type": "transcript",
+   "text": "માડો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 87.728,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.218,
+   "type": "transcript",
+   "text": "મારો પતંગ",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 94.824,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 98.307,
+   "type": "transcript",
+   "text": "લલ લલ",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 102.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.854,
    "type": "transcript",
    "text": "લલ",
    "latency": 120,
@@ -386,7 +554,7 @@
    "message": null
   },
   {
-   "t": 51.501,
+   "t": 107.449,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -394,71 +562,7 @@
    "message": null
   },
   {
-   "t": 53.552,
-   "type": "transcript",
-   "text": "ણે",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 55.98,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 59.462,
-   "type": "transcript",
-   "text": "પીળો પીળો",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 64.478,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 66.54,
-   "type": "transcript",
-   "text": "લાલ",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 72.51,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 74.568,
-   "type": "transcript",
-   "text": "ણે",
-   "latency": 120,
-   "audio_duration_ms": 1630,
-   "message": null
-  },
-  {
-   "t": 77.905,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 79.957,
+   "t": 109.503,
    "type": "transcript",
    "text": "ને",
    "latency": 120,
@@ -466,7 +570,7 @@
    "message": null
   },
   {
-   "t": 86.656,
+   "t": 113.134,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -474,63 +578,15 @@
    "message": null
   },
   {
-   "t": 90.145,
+   "t": 115.185,
    "type": "transcript",
-   "text": "મારો મારો",
-   "latency": 120,
-   "audio_duration_ms": 3060,
-   "message": null
-  },
-  {
-   "t": 93.843,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 98.755,
-   "type": "transcript",
-   "text": "પતંગ લલ ણે",
-   "latency": 120,
-   "audio_duration_ms": 4490,
-   "message": null
-  },
-  {
-   "t": 102.463,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 108.795,
-   "type": "transcript",
-   "text": "પતંગ લલ ણે ને",
-   "latency": 120,
-   "audio_duration_ms": 5910,
-   "message": null
-  },
-  {
-   "t": 112.8,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 114.853,
-   "type": "transcript",
-   "text": "પીળો",
+   "text": "પીળૌ",
    "latency": 120,
    "audio_duration_ms": 1630,
    "message": null
   },
   {
-   "t": 120.027,
+   "t": 120.469,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -538,15 +594,15 @@
    "message": null
   },
   {
-   "t": 121.963,
+   "t": 122.52,
    "type": "transcript",
-   "text": "ણે",
+   "text": "લલ",
    "latency": 120,
-   "audio_duration_ms": 1530,
+   "audio_duration_ms": 1630,
    "message": null
   },
   {
-   "t": 123.063,
+   "t": 125.793,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -554,7 +610,7 @@
    "message": null
   },
   {
-   "t": 125.114,
+   "t": 127.846,
    "type": "transcript",
    "text": "લાલ",
    "latency": 120,
@@ -562,7 +618,7 @@
    "message": null
   },
   {
-   "t": 135.801,
+   "t": 135.883,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -570,11 +626,43 @@
    "message": null
   },
   {
-   "t": 139.282,
+   "t": 137.936,
    "type": "transcript",
-   "text": "પથંગ લાલ",
+   "text": "માડો",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 140.431,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 143.912,
+   "type": "transcript",
+   "text": "પતંગ લલ",
    "latency": 120,
    "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 147.667,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 149.719,
+   "type": "transcript",
+   "text": "ણે",
+   "latency": 120,
+   "audio_duration_ms": 1630,
    "message": null
   }
  ],
@@ -586,14 +674,32 @@
    "duration_s": 1.63
   },
   {
-   "text": "લલ",
-   "heard": "લલ",
+   "text": "પથંગ",
+   "heard": "પથંગ",
    "muted_words": 0,
-   "duration_s": 3.06
+   "duration_s": 1.63
+  },
+  {
+   "text": "લાલ",
+   "heard": "લાલ",
+   "muted_words": 0,
+   "duration_s": 1.63
   },
   {
    "text": "",
    "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "પથંગ પતંગ",
+   "heard": "પથંગ પતંગ",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "માડો",
+   "heard": "માડો",
    "muted_words": 0,
    "duration_s": 1.63
   },
@@ -604,32 +710,44 @@
    "duration_s": 1.63
   },
   {
-   "text": "લલ",
-   "heard": "લલ",
+   "text": "",
+   "heard": "",
    "muted_words": 0,
    "duration_s": 1.63
   },
   {
-   "text": "ણે",
-   "heard": "ણે",
+   "text": "માડો",
+   "heard": "માડો",
    "muted_words": 0,
    "duration_s": 1.63
   },
   {
-   "text": "પીળો પીળો",
-   "heard": "પીળો પીળો",
+   "text": "માડો",
+   "heard": "માડો",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "માડો",
+   "heard": "માડો",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "મારો પતંગ",
+   "heard": "મારો પતંગ",
    "muted_words": 0,
    "duration_s": 3.06
   },
   {
-   "text": "લાલ",
-   "heard": "લાલ",
+   "text": "લલ લલ",
+   "heard": "લલ લલ",
    "muted_words": 0,
-   "duration_s": 1.63
+   "duration_s": 3.06
   },
   {
-   "text": "ણે",
-   "heard": "ણે",
+   "text": "લલ",
+   "heard": "લલ",
    "muted_words": 0,
    "duration_s": 1.63
   },
@@ -640,40 +758,16 @@
    "duration_s": 1.63
   },
   {
-   "text": "મારો",
-   "heard": "",
-   "muted_words": 1,
-   "duration_s": 1.63
-  },
-  {
-   "text": "મારો મારો",
-   "heard": "મારો મારો",
-   "muted_words": 0,
-   "duration_s": 3.06
-  },
-  {
-   "text": "પતંગ લલ ણે",
-   "heard": "પતંગ લલ ણે",
-   "muted_words": 0,
-   "duration_s": 4.49
-  },
-  {
-   "text": "પતંગ લલ ણે ને",
-   "heard": "પતંગ લલ ણે ને",
-   "muted_words": 0,
-   "duration_s": 5.91
-  },
-  {
-   "text": "પીળો",
-   "heard": "પીળો",
+   "text": "પીળૌ",
+   "heard": "પીળૌ",
    "muted_words": 0,
    "duration_s": 1.63
   },
   {
-   "text": "લાલ ણે",
-   "heard": "ણે",
-   "muted_words": 1,
-   "duration_s": 3.06
+   "text": "લલ",
+   "heard": "લલ",
+   "muted_words": 0,
+   "duration_s": 1.63
   },
   {
    "text": "લાલ",
@@ -682,17 +776,29 @@
    "duration_s": 1.63
   },
   {
-   "text": "",
+   "text": "મારો લાલ",
    "heard": "",
+   "muted_words": 2,
+   "duration_s": 4.49
+  },
+  {
+   "text": "માડો",
+   "heard": "માડો",
    "muted_words": 0,
    "duration_s": 1.63
   },
   {
-   "text": "પથંગ લાલ",
-   "heard": "પથંગ લાલ",
+   "text": "પતંગ લલ",
+   "heard": "પતંગ લલ",
    "muted_words": 0,
    "duration_s": 3.06
+  },
+  {
+   "text": "ણે",
+   "heard": "ણે",
+   "muted_words": 0,
+   "duration_s": 1.63
   }
  ],
- "tts_offline": 101
+ "tts_offline": 174
 }

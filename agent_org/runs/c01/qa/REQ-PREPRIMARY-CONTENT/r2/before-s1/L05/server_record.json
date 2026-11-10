@@ -1,278 +1,193 @@
 {
- "id": "20261109-211845-dc906e",
+ "id": "20261109-213357-0f2014",
  "text_id": "hi-bagicha",
  "mode": "mic",
  "summary": {
   "words_total": 30,
-  "words_read": 2,
-  "words_helped": 10,
-  "words_to_practise": [],
-  "words_practised": 0,
-  "correction_attempts": 0,
+  "words_read": 3,
+  "words_helped": 2,
+  "words_to_practise": [
+   "मीना",
+   "घर"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 6,
   "lines_total": 4,
-  "lines_completed": 1,
+  "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 6,
-  "corrections": 0,
-  "seconds": 118.3,
-  "words_per_minute": 6.1
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 99.8,
+  "words_per_minute": 3.0
  },
  "log": [
   {
-   "t": 0.028,
+   "t": 0.338,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 16.907,
+   "t": 16.259,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 21.54,
+   "t": 26.895,
+   "event": "transcript",
+   "text": "मीणा के घड़ कै पीछे"
+  },
+  {
+   "t": 26.895,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 33.793,
+   "event": "transcript",
+   "text": "ए वगीचा"
+  },
+  {
+   "t": 33.793,
+   "event": "uncertain",
+   "text": "ए वगीचा"
+  },
+  {
+   "t": 33.793,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 38.41,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.01,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": 42.01,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 52.484,
    "event": "transcript",
    "text": "मीना"
   },
   {
-   "t": 21.54,
+   "t": 52.484,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 52.484,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 58.649,
+   "event": "transcript",
+   "text": "घड़"
+  },
+  {
+   "t": 58.649,
+   "event": "drill_miss",
+   "word": 2,
+   "heard": "घड"
+  },
+  {
+   "t": 64.511,
+   "event": "transcript",
+   "text": "घड़"
+  },
+  {
+   "t": 64.511,
+   "event": "drill_miss",
+   "word": 2,
+   "heard": "घड"
+  },
+  {
+   "t": 70.48,
+   "event": "transcript",
+   "text": "घर"
+  },
+  {
+   "t": 70.48,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 70.48,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 78.065,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 81.27,
+   "event": "transcript",
+   "text": "मीणा"
+  },
+  {
+   "t": 81.27,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 24.615,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 24.615,
-   "event": "prompt",
-   "level": 1,
+   "t": 84.332,
+   "event": "correction",
    "line": 0,
-   "frm": 1,
-   "to": 4
+   "words": [
+    0
+   ]
   },
   {
-   "t": 28.391,
+   "t": 84.332,
    "event": "state",
-   "state": "CHILD_READING"
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
   },
   {
-   "t": 33.35,
+   "t": 91.114,
    "event": "transcript",
-   "text": "के घड़"
+   "text": "मीणा"
   },
   {
-   "t": 33.35,
-   "event": "uncertain",
-   "text": "के घड"
+   "t": 91.114,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "मीणा"
   },
   {
-   "t": 33.35,
-   "event": "state",
-   "state": "UNCERTAIN_AUDIO"
-  },
-  {
-   "t": 38.169,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 43.067,
+   "t": 97.419,
    "event": "transcript",
-   "text": "कै कै"
+   "text": "मीना"
   },
   {
-   "t": 43.067,
-   "event": "uncertain",
-   "text": "कै कै"
+   "t": 97.419,
+   "event": "drill_ok",
+   "word": 0
   },
   {
-   "t": 45.7,
+   "t": 97.419,
    "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 8,
+   "state": "COMPLETE_LINE_DEMONSTRATION",
    "line": 0
-  },
-  {
-   "t": 45.7,
-   "event": "prompt",
-   "level": 2,
-   "line": 0,
-   "frm": 1,
-   "to": 8
-  },
-  {
-   "t": 50.696,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 56.245,
-   "event": "transcript",
-   "text": "के घर"
-  },
-  {
-   "t": 56.245,
-   "event": "progress",
-   "frm": 1,
-   "to": 3
-  },
-  {
-   "t": 59.323,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 3,
-   "to": 6,
-   "line": 0
-  },
-  {
-   "t": 59.323,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 3,
-   "to": 6
-  },
-  {
-   "t": 63.031,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 66.13,
-   "event": "transcript",
-   "text": "के"
-  },
-  {
-   "t": 66.13,
-   "event": "progress",
-   "frm": 3,
-   "to": 4
-  },
-  {
-   "t": 73.211,
-   "event": "transcript",
-   "text": "पीछे"
-  },
-  {
-   "t": 73.211,
-   "event": "progress",
-   "frm": 4,
-   "to": 5
-  },
-  {
-   "t": 80.015,
-   "event": "transcript",
-   "text": "एक"
-  },
-  {
-   "t": 80.015,
-   "event": "progress",
-   "frm": 5,
-   "to": 6
-  },
-  {
-   "t": 87.985,
-   "event": "transcript",
-   "text": "बगीचा"
-  },
-  {
-   "t": 87.985,
-   "event": "progress",
-   "frm": 6,
-   "to": 7
-  },
-  {
-   "t": 93.054,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 7,
-   "to": 8,
-   "line": 0
-  },
-  {
-   "t": 93.054,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 7,
-   "to": 8
-  },
-  {
-   "t": 95.443,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 100.468,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 7,
-   "to": 8,
-   "line": 0
-  },
-  {
-   "t": 100.468,
-   "event": "prompt",
-   "level": 2,
-   "line": 0,
-   "frm": 7,
-   "to": 8
-  },
-  {
-   "t": 103.883,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 107.232,
-   "event": "transcript",
-   "text": "हे"
-  },
-  {
-   "t": 107.232,
-   "event": "progress",
-   "frm": 7,
-   "to": 8
-  },
-  {
-   "t": 107.232,
-   "event": "state",
-   "state": "LINE_COMPLETED",
-   "line": 0
-  },
-  {
-   "t": 110.856,
-   "event": "transcript",
-   "text": "उसमें"
-  },
-  {
-   "t": 110.856,
-   "event": "progress",
-   "frm": 8,
-   "to": 9
-  },
-  {
-   "t": 115.903,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 9,
-   "to": 12,
-   "line": 1
-  },
-  {
-   "t": 115.903,
-   "event": "prompt",
-   "level": 1,
-   "line": 1,
-   "frm": 9,
-   "to": 12
   }
  ],
  "stt_events": [
@@ -285,7 +200,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 18.9,
+   "t": 16.992,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -293,7 +208,39 @@
    "message": null
   },
   {
-   "t": 21.54,
+   "t": 26.895,
+   "type": "transcript",
+   "text": "मीणा के घड़ कै पीछे",
+   "latency": 120,
+   "audio_duration_ms": 9467,
+   "message": null
+  },
+  {
+   "t": 29.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.793,
+   "type": "transcript",
+   "text": "ए वगीचा",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 49.863,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.484,
    "type": "transcript",
    "text": "मीना",
    "latency": 120,
@@ -301,7 +248,7 @@
    "message": null
   },
   {
-   "t": 28.727,
+   "t": 56.033,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -309,63 +256,15 @@
    "message": null
   },
   {
-   "t": 33.35,
+   "t": 58.649,
    "type": "transcript",
-   "text": "के घड़",
-   "latency": 120,
-   "audio_duration_ms": 4200,
-   "message": null
-  },
-  {
-   "t": 38.436,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 43.067,
-   "type": "transcript",
-   "text": "कै कै",
-   "latency": 120,
-   "audio_duration_ms": 4200,
-   "message": null
-  },
-  {
-   "t": 51.617,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 56.245,
-   "type": "transcript",
-   "text": "के घर",
-   "latency": 120,
-   "audio_duration_ms": 4200,
-   "message": null
-  },
-  {
-   "t": 63.497,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 66.13,
-   "type": "transcript",
-   "text": "के",
+   "text": "घड़",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 70.58,
+   "t": 61.89,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -373,15 +272,15 @@
    "message": null
   },
   {
-   "t": 73.211,
+   "t": 64.511,
    "type": "transcript",
-   "text": "पीछे",
+   "text": "घड़",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 77.369,
+   "t": 67.86,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -389,15 +288,15 @@
    "message": null
   },
   {
-   "t": 80.015,
+   "t": 70.48,
    "type": "transcript",
-   "text": "एक",
+   "text": "घर",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 85.009,
+   "t": 78.64,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -405,15 +304,15 @@
    "message": null
   },
   {
-   "t": 87.985,
+   "t": 81.27,
    "type": "transcript",
-   "text": "बगीचा",
+   "text": "मीणा",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 104.61,
+   "t": 88.492,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -421,15 +320,15 @@
    "message": null
   },
   {
-   "t": 107.232,
+   "t": 91.114,
    "type": "transcript",
-   "text": "हे",
+   "text": "मीणा",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 108.171,
+   "t": 94.798,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -437,9 +336,9 @@
    "message": null
   },
   {
-   "t": 110.856,
+   "t": 97.419,
    "type": "transcript",
-   "text": "उसमें",
+   "text": "मीना",
    "latency": 120,
    "audio_duration_ms": 2200,
    "message": null
@@ -447,83 +346,71 @@
  ],
  "utterances": [
   {
+   "text": "मीणा मीणा के घड़ कै पीछे",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 14.2
+  },
+  {
+   "text": "ए वगीचा",
+   "heard": "ए वगीचा",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "मीणा",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 2.2
+  },
+  {
    "text": "मीना",
    "heard": "मीना",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "के घड़",
-   "heard": "के घड़",
-   "muted_words": 0,
-   "duration_s": 4.2
-  },
-  {
-   "text": "कै कै",
-   "heard": "कै कै",
-   "muted_words": 0,
-   "duration_s": 4.2
-  },
-  {
-   "text": "के घर",
-   "heard": "के घर",
-   "muted_words": 0,
-   "duration_s": 4.2
-  },
-  {
-   "text": "के",
-   "heard": "के",
+   "text": "घड़",
+   "heard": "घड़",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "पीछे",
-   "heard": "पीछे",
+   "text": "घड़",
+   "heard": "घड़",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "एक",
-   "heard": "एक",
+   "text": "घर",
+   "heard": "घर",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "बगीचा",
-   "heard": "बगीचा",
+   "text": "मीणा",
+   "heard": "मीणा",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "",
-   "heard": "",
+   "text": "मीणा",
+   "heard": "मीणा",
    "muted_words": 0,
    "duration_s": 2.2
   },
   {
-   "text": "",
-   "heard": "",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "",
-   "heard": "",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "हे",
-   "heard": "हे",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "उसमें",
-   "heard": "उसमें",
+   "text": "मीना",
+   "heard": "मीना",
    "muted_words": 0,
    "duration_s": 2.2
   }
  ],
- "tts_offline": 93
+ "tts_offline": 129
 }

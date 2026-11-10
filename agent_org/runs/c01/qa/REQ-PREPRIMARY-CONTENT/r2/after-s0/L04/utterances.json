@@ -1,9 +1,9 @@
 {
  "utterances": [
   {
-   "t": 30.3,
-   "said": "play play",
-   "stt": "play play",
+   "t": 33.41,
+   "said": "A sun",
+   "stt": "A sun",
    "stt_notes": [],
    "words": [
     0,
@@ -13,9 +13,9 @@
    "over_buddy": false
   },
   {
-   "t": 35.68,
-   "said": "Pitter",
-   "stt": "Pitter",
+   "t": 39.41,
+   "said": "A",
+   "stt": "A",
    "stt_notes": [],
    "words": [
     0
@@ -24,22 +24,53 @@
    "over_buddy": false
   },
   {
-   "t": 47.57,
-   "said": "patter falls the",
-   "stt": "patter falls the",
+   "t": 47.36,
+   "said": "small",
+   "stt": "small",
    "stt_notes": [],
    "words": [
-    1,
-    2,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 50.22,
+   "said": "ana ana",
+   "stt": "ana ana",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.39,
+   "said": "ant",
+   "stt": "ant",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.46,
+   "said": "went",
+   "stt": "went",
+   "stt_notes": [],
+   "words": [
     3
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 52.54,
-   "said": "red",
-   "stt": "red",
+   "t": 65.72,
+   "said": "all all",
+   "stt": "all all",
    "stt_notes": [],
    "words": [
     4
@@ -48,292 +79,273 @@
    "over_buddy": false
   },
   {
-   "t": 55.41,
-   "said": "rain",
-   "stt": "rain",
+   "t": 72.67,
+   "said": "we",
+   "stt": "we",
    "stt_notes": [],
    "words": [
-    4
+    3
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 61.81,
-   "said": "oa tha roof window pig",
-   "stt": "oa tha roof window pig",
+   "t": 79.42,
+   "said": "at the",
+   "stt": "at the",
    "stt_notes": [],
    "words": [
-    5,
-    6,
-    7,
-    8,
-    9,
-    10
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 68.18,
-   "said": "oa",
-   "stt": "oa",
-   "stt_notes": [],
-   "words": [
+    4,
     5
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 73.55,
-   "said": "tha",
-   "stt": "tha",
+   "t": 85.03,
+   "said": "went",
+   "stt": "went",
    "stt_notes": [],
    "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.52,
+   "said": "and",
+   "stt": "and",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 97.12,
+   "said": "tha the fish",
+   "stt": "tha fish",
+   "stt_notes": [
+    "lost 'the'"
+   ],
+   "words": [
+    5,
     6
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 79.38,
-   "said": "red",
-   "stt": "red",
+   "t": 104.62,
+   "said": "and across tha the",
+   "stt": "and across tha the",
    "stt_notes": [],
    "words": [
-    7
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 83.89,
-   "said": "",
-   "stt": "",
-   "stt_notes": [],
-   "words": [
-    8
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 94.22,
-   "said": "On On",
-   "stt": "On om",
-   "stt_notes": [
-    "'On' heard as 'om'"
-   ],
-   "words": [
+    4,
     5
    ],
-   "drill": true,
-   "muted_words": 0
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 110.1,
+   "said": "fish",
+   "stt": "fish",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 30.3,
-    "target": "Pitter",
-    "said": "play",
-    "correct": false,
-    "kind": "sub",
-    "stt": "play play"
-   },
-   {
-    "t": 35.68,
-    "target": "Pitter",
-    "said": "Pitter",
+    "t": 33.41,
+    "target": "A",
+    "said": "A",
     "correct": true,
     "kind": "ok",
-    "stt": "Pitter"
+    "stt": "A sun"
+   },
+   {
+    "t": 39.41,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A"
    }
   ],
   "1": [
    {
-    "t": 30.3,
-    "target": "patter",
-    "said": "play",
+    "t": 33.41,
+    "target": "small",
+    "said": "sun",
     "correct": false,
     "kind": "sub",
-    "stt": "play play"
+    "stt": "A sun"
    },
    {
-    "t": 47.57,
-    "target": "patter",
-    "said": "patter",
+    "t": 47.36,
+    "target": "small",
+    "said": "small",
     "correct": true,
     "kind": "ok",
-    "stt": "patter falls the"
+    "stt": "small"
    }
   ],
   "2": [
    {
-    "t": 47.57,
-    "target": "falls",
-    "said": "falls",
+    "t": 50.22,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana ana"
+   },
+   {
+    "t": 55.39,
+    "target": "ant",
+    "said": "ant",
     "correct": true,
     "kind": "ok",
-    "stt": "patter falls the"
+    "stt": "ant"
    }
   ],
   "3": [
    {
-    "t": 47.57,
-    "target": "the",
-    "said": "the",
-    "correct": true,
-    "kind": "ok",
-    "stt": "patter falls the"
+    "t": 59.46,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "went"
+   },
+   {
+    "t": 72.67,
+    "target": "walked",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "we"
+   },
+   {
+    "t": 85.03,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "went"
    }
   ],
   "4": [
    {
-    "t": 52.54,
-    "target": "rain",
-    "said": "red",
+    "t": 65.72,
+    "target": "across",
+    "said": "all",
     "correct": false,
     "kind": "sub",
-    "stt": "red"
+    "stt": "all all"
    },
    {
-    "t": 55.41,
-    "target": "rain",
-    "said": "rain",
+    "t": 79.42,
+    "target": "across",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at the"
+   },
+   {
+    "t": 90.52,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "and"
+   },
+   {
+    "t": 104.62,
+    "target": "across",
+    "said": "and across",
     "correct": true,
-    "kind": "ok",
-    "stt": "rain"
+    "kind": "self_corrected",
+    "stt": "and across tha the"
    }
   ],
   "5": [
    {
-    "t": 61.81,
-    "target": "On",
-    "said": "oa",
-    "correct": false,
-    "kind": "sub",
-    "stt": "oa tha roof window pig"
-   },
-   {
-    "t": 68.18,
-    "target": "On",
-    "said": "oa",
-    "correct": false,
-    "kind": "sub",
-    "stt": "oa"
-   },
-   {
-    "t": 94.22,
-    "target": "On",
-    "said": "On",
+    "t": 79.42,
+    "target": "the",
+    "said": "the",
     "correct": true,
     "kind": "ok",
-    "stt": "On om",
-    "drill": true
+    "stt": "at the"
+   },
+   {
+    "t": 97.12,
+    "target": "the",
+    "said": "tha the",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "tha fish"
+   },
+   {
+    "t": 104.62,
+    "target": "the",
+    "said": "tha the",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "and across tha the"
    }
   ],
   "6": [
    {
-    "t": 61.81,
-    "target": "the",
-    "said": "tha",
+    "t": 97.12,
+    "target": "floor",
+    "said": "fish",
     "correct": false,
     "kind": "sub",
-    "stt": "oa tha roof window pig"
+    "stt": "tha fish"
    },
    {
-    "t": 73.55,
-    "target": "the",
-    "said": "tha",
+    "t": 110.1,
+    "target": "floor",
+    "said": "fish",
     "correct": false,
     "kind": "sub",
-    "stt": "tha"
-   }
-  ],
-  "7": [
-   {
-    "t": 61.81,
-    "target": "roof",
-    "said": "roof",
-    "correct": true,
-    "kind": "ok",
-    "stt": "oa tha roof window pig"
-   },
-   {
-    "t": 79.38,
-    "target": "roof",
-    "said": "red",
-    "correct": false,
-    "kind": "sub",
-    "stt": "red"
-   }
-  ],
-  "8": [
-   {
-    "t": 61.81,
-    "target": "and",
-    "said": null,
-    "correct": false,
-    "kind": "skip",
-    "stt": "oa tha roof window pig"
-   },
-   {
-    "t": 83.89,
-    "target": "and",
-    "said": null,
-    "correct": false,
-    "kind": "skip",
-    "stt": ""
-   }
-  ],
-  "9": [
-   {
-    "t": 61.81,
-    "target": "window",
-    "said": "window",
-    "correct": true,
-    "kind": "ok",
-    "stt": "oa tha roof window pig"
-   }
-  ],
-  "10": [
-   {
-    "t": 61.81,
-    "target": "pane",
-    "said": "pig",
-    "correct": false,
-    "kind": "sub",
-    "stt": "oa tha roof window pig"
+    "stt": "fish"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 13.94,
+   "t": 14.96,
    "type": "say",
    "kind": "intro",
-   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
    "spans": [
     [
      0,
-     5
+     7
     ]
    ]
   },
   {
-   "t": 30.51,
+   "t": 33.49,
    "type": "say",
    "kind": "uncertain",
    "text": "I didn't quite hear that. Can you read it again?",
    "spans": []
   },
   {
-   "t": 39.28,
+   "t": 42.48,
    "type": "say",
    "kind": "stall_phrase",
-   "text": "Listen... patter falls the",
+   "text": "Listen... small ant walked",
    "spans": [
     [
      1,
@@ -342,35 +354,32 @@
    ]
   },
   {
-   "t": 61.96,
+   "t": 50.24,
    "type": "say",
    "kind": "uncertain",
    "text": "I didn't quite hear that. Can you read it again?",
    "spans": []
   },
   {
-   "t": 84.15,
+   "t": 66.0,
    "type": "say",
-   "kind": "fix_word",
-   "text": "Let's practise this word together. On",
-   "spans": [
-    [
-     5,
-     6
-    ]
-   ]
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
   },
   {
-   "t": 94.45,
+   "t": 79.45,
    "type": "say",
-   "kind": "fix_next",
-   "text": "Yes! Very nice! the",
-   "spans": [
-    [
-     6,
-     7
-    ]
-   ]
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 97.13,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
   }
  ]
 }

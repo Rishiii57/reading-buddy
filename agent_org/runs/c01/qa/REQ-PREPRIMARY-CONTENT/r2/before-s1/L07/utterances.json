@@ -1,7 +1,18 @@
 {
  "utterances": [
   {
-   "t": 29.6,
+   "t": 35.02,
+   "said": "I I",
+   "stt": "I I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.77,
    "said": "I",
    "stt": "I",
    "stt_notes": [],
@@ -12,141 +23,144 @@
    "over_buddy": false
   },
   {
-   "t": 38.17,
+   "t": 45.76,
+   "said": "hav",
+   "stt": "haw",
+   "stt_notes": [
+    "'hav' heard as 'haw'"
+   ],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.97,
+   "said": "kite",
+   "stt": "kite",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.01,
+   "said": "of of",
+   "stt": "of of",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.54,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.74,
    "said": "hav",
    "stt": "hav",
    "stt_notes": [],
    "words": [
     1
    ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 47.73,
-   "said": "have",
-   "stt": "have",
-   "stt_notes": [],
-   "words": [
-    1
-   ],
    "drill": true,
    "muted_words": 0
-  },
-  {
-   "t": 54.13,
-   "said": "a",
-   "stt": "a",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "drill": true,
-   "muted_words": 0
-  },
-  {
-   "t": 64.18,
-   "said": "a",
-   "stt": "a",
-   "stt_notes": [],
-   "words": [
-    0
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 70.89,
-   "said": "have",
-   "stt": "have",
-   "stt_notes": [],
-   "words": [
-    1
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 83.79,
-   "said": "a a",
-   "stt": "a a",
-   "stt_notes": [],
-   "words": [
-    0
-   ],
-   "muted_words": 1,
-   "over_buddy": true
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 29.6,
+    "t": 35.02,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I I"
+   },
+   {
+    "t": 40.77,
     "target": "I",
     "said": "I",
     "correct": true,
     "kind": "ok",
     "stt": "I"
-   },
-   {
-    "t": 64.18,
-    "target": "I",
-    "said": "a",
-    "correct": false,
-    "kind": "sub",
-    "stt": "a"
-   },
-   {
-    "t": 83.79,
-    "target": "I",
-    "said": "a",
-    "correct": false,
-    "kind": "sub",
-    "stt": "a a"
    }
   ],
   "1": [
    {
-    "t": 38.17,
+    "t": 45.76,
     "target": "have",
     "said": "hav",
     "correct": false,
     "kind": "sub",
-    "stt": "hav"
+    "stt": "haw"
    },
    {
-    "t": 47.73,
+    "t": 74.74,
     "target": "have",
-    "said": "have",
-    "correct": true,
-    "kind": "ok",
-    "stt": "have",
+    "said": "hav",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hav",
     "drill": true
-   },
-   {
-    "t": 70.89,
-    "target": "have",
-    "said": "have",
-    "correct": true,
-    "kind": "ok",
-    "stt": "have"
    }
   ],
   "2": [
    {
-    "t": 54.13,
+    "t": 45.76,
     "target": "a",
-    "said": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "haw"
+   }
+  ],
+  "3": [
+   {
+    "t": 50.97,
+    "target": "kite",
+    "said": "kite",
     "correct": true,
     "kind": "ok",
-    "stt": "a",
-    "drill": true
+    "stt": "kite"
+   }
+  ],
+  "4": [
+   {
+    "t": 59.01,
+    "target": "of",
+    "said": "of",
+    "correct": true,
+    "kind": "ok",
+    "stt": "of of"
+   },
+   {
+    "t": 64.54,
+    "target": "of",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 11.6,
+   "t": 14.66,
    "type": "say",
    "kind": "intro",
    "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
@@ -158,19 +172,21 @@
    ]
   },
   {
-   "t": 33.13,
+   "t": 35.15,
    "type": "say",
-   "kind": "stall_phrase",
-   "text": "Listen... have a kite",
-   "spans": [
-    [
-     1,
-     4
-    ]
-   ]
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
   },
   {
-   "t": 41.71,
+   "t": 59.08,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 67.3,
    "type": "say",
    "kind": "fix_word",
    "text": "Let's practise this word together. have",
@@ -182,38 +198,26 @@
    ]
   },
   {
-   "t": 47.76,
+   "t": 74.93,
    "type": "say",
-   "kind": "fix_next",
-   "text": "Yes! Very nice! a",
+   "kind": "fix_again",
+   "text": "have",
    "spans": [
     [
-     2,
-     3
+     1,
+     2
     ]
    ]
   },
   {
-   "t": 54.13,
+   "t": 86.22,
    "type": "say",
-   "kind": "repeat_line",
-   "text": "Yes! Very nice! I have a kite of red and blue Now you say the whole line.",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
    "spans": [
     [
      0,
      8
-    ]
-   ]
-  },
-  {
-   "t": 76.55,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "Listen... I have a",
-   "spans": [
-    [
-     0,
-     3
     ]
    ]
   }

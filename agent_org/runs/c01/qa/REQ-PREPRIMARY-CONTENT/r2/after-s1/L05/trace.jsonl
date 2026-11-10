@@ -1,20 +1,17 @@
-{"t": 3.18, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
+{"t": 3.17, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
 {"t": 3.23, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
-{"t": 4.14, "kind": "tap", "target": "मेरी गुड़िया My Doll Hindi Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 8.04, "kind": "opened_text", "hash": "#/read/hi-gudiya", "title": "मेरी गुड़िया", "tags": ["Hindi", "Grade 1"], "words": 17, "lines": 4}
-{"t": 8.5, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text, made for children who already read."}
-{"t": 12.84, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 15.92, "kind": "session_started", "tries": 1}
-{"t": 27.45, "kind": "off_task_tap", "target": "Pause"}
-{"t": 27.45, "kind": "tap", "target": "Pause", "why": "curious tap during reading", "view": "view-reader"}
-{"t": 31.19, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
-{"t": 32.81, "kind": "resumed", "after_s": 2.0}
-{"t": 39.97, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.9 s into a planned 4.27 s thinking pause."}
-{"t": 49.5, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 5.06 s thinking pause."}
-{"t": 53.58, "kind": "tap_mic_to_talk"}
-{"t": 53.58, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
-{"t": 74.78, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 3.24 s thinking pause."}
-{"t": 85.97, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'गुड़िया' 3 times."}
-{"t": 104.07, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.82 s thinking pause."}
-{"t": 104.09, "kind": "abandon", "why": "frustration", "frustration": 4.9}
-{"t": 104.78, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 5.76, "kind": "tap", "target": "मेरी गुड़िया My Doll Hindi Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.98, "kind": "opened_text", "hash": "#/read/hi-gudiya", "title": "मेरी गुड़िया", "tags": ["Hindi", "Grade 1"], "words": 17, "lines": 4}
+{"t": 11.58, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text, made for children who already read."}
+{"t": 15.83, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.62, "kind": "session_started", "tries": 1}
+{"t": 36.06, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 42.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.4 s into a planned 5.57 s thinking pause."}
+{"t": 52.95, "kind": "tap_mic_to_talk"}
+{"t": 52.96, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 60.75, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'मेरी' 3 times."}
+{"t": 66.4, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'मेरी' 4 times."}
+{"t": 74.39, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'मेरी' 5 times."}
+{"t": 82.67, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'मेरी' 6 times."}
+{"t": 86.37, "kind": "abandon", "why": "frustration", "frustration": 4.55}
+{"t": 87.75, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

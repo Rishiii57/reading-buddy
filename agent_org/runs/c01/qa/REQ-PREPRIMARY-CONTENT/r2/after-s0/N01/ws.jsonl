@@ -1,0 +1,44 @@
+{"t": 22.87, "type": "ready", "message": null}
+{"t": 23.41, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 42.56, "type": "speech"}
+{"t": 44.26, "type": "heard", "text": "मछली"}
+{"t": 44.56, "type": "speech"}
+{"t": 46.76, "type": "speech"}
+{"t": 48.57, "type": "heard", "text": "जल"}
+{"t": 48.57, "type": "speech"}
+{"t": 52.05, "type": "speech"}
+{"t": 53.83, "type": "heard", "text": "की"}
+{"t": 53.83, "type": "speech"}
+{"t": 58.35, "type": "speech"}
+{"t": 60.12, "type": "heard", "text": "रानी"}
+{"t": 60.13, "type": "speech"}
+{"t": 65.24, "type": "say", "kind": "stall_phrase", "text": "सुनो... है", "spans": [[4, 5]]}
+{"t": 73.34, "type": "speech"}
+{"t": 76.16, "type": "heard", "text": "हे हे"}
+{"t": 76.16, "type": "speech"}
+{"t": 76.29, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 84.91, "type": "say", "kind": "stall_rest", "text": "है अब तुम बोलो!", "spans": [[4, 5]]}
+{"t": 88.14, "type": "speech"}
+{"t": 89.82, "type": "heard", "text": "है"}
+{"t": 89.82, "type": "speech"}
+{"t": 89.86, "type": "say", "kind": "echo_line", "text": "सुनो... जीवन उसका पानी है। अब तुम बोलो!", "spans": [[5, 9]]}
+{"t": 95.79, "type": "speech"}
+{"t": 97.46, "type": "heard", "text": "मैं थक गया"}
+{"t": 97.46, "type": "speech"}
+{"t": 97.59, "type": "say", "kind": "break", "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।", "spans": []}
+{"t": 97.64, "type": "auto_pause", "message": null}
+{"t": 107.73, "type": "speech"}
+{"t": 112.76, "type": "heard", "text": "जीवन पान पान"}
+{"t": 112.76, "type": "speech"}
+{"t": 112.84, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 120.28, "type": "say", "kind": "stall_phrase", "text": "सुनो... जीवन उसका पानी", "spans": [[5, 8]]}
+{"t": 125.38, "type": "speech"}
+{"t": 127.03, "type": "heard", "text": "जीव"}
+{"t": 127.03, "type": "speech"}
+{"t": 130.62, "type": "speech"}
+{"t": 132.37, "type": "heard", "text": "उसक"}
+{"t": 132.37, "type": "speech"}
+{"t": 137.3, "type": "speech"}
+{"t": 139.32, "type": "heard", "text": "पानी"}
+{"t": 139.32, "type": "speech"}
+{"t": 145.11, "type": "say", "kind": "stall_phrase", "text": "सुनो... है।", "spans": [[8, 9]]}

@@ -1,0 +1,319 @@
+{
+ "id": "20261109-214300-5601f0",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 3,
+  "words_helped": 1,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 58.8,
+  "words_per_minute": 4.1
+ },
+ "log": [
+  {
+   "t": 0.087,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.129,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.781,
+   "event": "transcript",
+   "text": "to twinkle little"
+  },
+  {
+   "t": 18.781,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 23.326,
+   "event": "transcript",
+   "text": "sun"
+  },
+  {
+   "t": 25.827,
+   "event": "transcript",
+   "text": "said"
+  },
+  {
+   "t": 25.827,
+   "event": "uncertain",
+   "text": "sun said"
+  },
+  {
+   "t": 25.827,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 29.256,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 32.132,
+   "event": "transcript",
+   "text": "see"
+  },
+  {
+   "t": 37.018,
+   "event": "transcript",
+   "text": "see"
+  },
+  {
+   "t": 41.482,
+   "event": "transcript",
+   "text": "star"
+  },
+  {
+   "t": 41.482,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 41.482,
+   "event": "echo_slips_accepted",
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 41.482,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 41.482,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 49.222,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.644,
+   "event": "transcript",
+   "text": "hoa a went went what"
+  },
+  {
+   "t": 54.644,
+   "event": "uncertain",
+   "text": "hoa a went went what"
+  },
+  {
+   "t": 54.644,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 58.076,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.66,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.781,
+   "type": "transcript",
+   "text": "to twinkle little",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 21.868,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.326,
+   "type": "transcript",
+   "text": "sun",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 24.361,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.827,
+   "type": "transcript",
+   "text": "said",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 29.842,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.132,
+   "type": "transcript",
+   "text": "see",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 35.564,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.018,
+   "type": "transcript",
+   "text": "see",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 40.029,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.482,
+   "type": "transcript",
+   "text": "star",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 49.851,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.644,
+   "type": "transcript",
+   "text": "hoa a went went what",
+   "latency": 120,
+   "audio_duration_ms": 4370,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle twinkle",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.87
+  },
+  {
+   "text": "Twinkle to",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.87
+  },
+  {
+   "text": "to twinkle little",
+   "heard": "to twinkle little",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "sun",
+   "heard": "sun",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "said",
+   "heard": "said",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "see",
+   "heard": "see",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "see",
+   "heard": "see",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "star",
+   "heard": "star",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "hoa a went went what",
+   "heard": "hoa a went went what",
+   "muted_words": 0,
+   "duration_s": 4.37
+  }
+ ],
+ "tts_offline": 165
+}

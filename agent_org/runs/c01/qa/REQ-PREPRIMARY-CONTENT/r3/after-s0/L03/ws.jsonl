@@ -1,0 +1,34 @@
+{"t": 15.94, "type": "ready", "message": null}
+{"t": 16.46, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 35.76, "type": "speech"}
+{"t": 39.14, "type": "heard", "text": "એ ણાની"}
+{"t": 39.14, "type": "speech"}
+{"t": 39.15, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 43.93, "type": "speech"}
+{"t": 50.42, "type": "heard", "text": "એ ણાની ચકલી હથી"}
+{"t": 50.42, "type": "speech"}
+{"t": 50.42, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 55.4, "type": "speech"}
+{"t": 61.6, "type": "heard", "text": "ણાની ણાની ચકલી હથી"}
+{"t": 61.6, "type": "speech"}
+{"t": 61.62, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 65.14, "type": "speech"}
+{"t": 68.54, "type": "heard", "text": "એ ણાની"}
+{"t": 68.6, "type": "speech"}
+{"t": 71.97, "type": "speech"}
+{"t": 75.5, "type": "heard", "text": "ચકલિ હથી"}
+{"t": 75.56, "type": "speech"}
+{"t": 75.69, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 82.31, "type": "speech"}
+{"t": 85.63, "type": "heard", "text": "ણાની ચકલિ"}
+{"t": 85.64, "type": "speech"}
+{"t": 85.75, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 89.76, "type": "speech"}
+{"t": 93.3, "type": "heard", "text": "એ"}
+{"t": 93.31, "type": "speech"}
+{"t": 96.39, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 101.66, "type": "speech"}
+{"t": 103.87, "type": "heard", "text": "એ"}
+{"t": 103.87, "type": "speech"}
+{"t": 103.92, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 107.8, "type": "summary", "summary": {"words_total": 23, "words_read": 0, "words_helped": 1, "words_to_practise": ["એક"], "words_practised": 0, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 91.7, "words_per_minute": 0.7}}

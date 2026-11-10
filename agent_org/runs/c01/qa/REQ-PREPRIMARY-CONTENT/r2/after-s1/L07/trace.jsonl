@@ -1,14 +1,15 @@
-{"t": 2.53, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
-{"t": 2.63, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
-{"t": 3.52, "kind": "tap", "target": "Twinkle, Twinkle, Little Star English Nu", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 8.05, "kind": "opened_text", "hash": "#/read/en-twinkle", "title": "Twinkle, Twinkle, Little Star", "tags": ["English", "Nursery"], "words": 22, "lines": 4}
-{"t": 13.05, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 16.68, "kind": "session_started", "tries": 1}
-{"t": 39.97, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.1 s into a planned 4.45 s thinking pause."}
-{"t": 49.12, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.7 s into a planned 4.37 s thinking pause."}
-{"t": 51.69, "kind": "tap_mic_to_talk"}
-{"t": 51.75, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
-{"t": 78.08, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.7 s into a planned 2.0 s thinking pause."}
-{"t": 88.96, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 89.25, "kind": "abandon", "why": "frustration", "frustration": 3.7}
-{"t": 89.54, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 3.34, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 3.41, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.35, "kind": "tap", "target": "Twinkle, Twinkle, Little Star English Nu", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.47, "kind": "opened_text", "hash": "#/read/en-twinkle", "title": "Twinkle, Twinkle, Little Star", "tags": ["English", "Nursery"], "words": 22, "lines": 4}
+{"t": 14.61, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.8, "kind": "session_started", "tries": 1}
+{"t": 52.37, "kind": "tap_mic_to_talk"}
+{"t": 52.52, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 86.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 106.89, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 142.42, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.9 s into a planned 2.47 s thinking pause."}
+{"t": 145.99, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 150.47, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 4.21 s thinking pause."}
+{"t": 150.51, "kind": "abandon", "why": "frustration", "frustration": 3.5}
+{"t": 150.87, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

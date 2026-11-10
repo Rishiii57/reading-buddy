@@ -36,13 +36,13 @@
     "code": "NO_TEXT_FOR_MY_LEVEL",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 8.5,
+    "first_t": 11.58,
     "details": [
      "LKG child landed on a 'Grade 1' text, made for children who already read."
     ],
     "evidence": [
      {
-      "t": 8.5,
+      "t": 11.58,
       "title": "मेरी गुड़िया",
       "grade_tag": "Grade 1"
      }
@@ -51,48 +51,39 @@
     "child_severity": "blocked"
    },
    {
-    "code": "INTERRUPTED_WHILE_THINKING",
-    "count": 4,
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
     "evidence_level": "observed",
-    "first_t": 39.97,
+    "first_t": 36.06,
     "details": [
-     "Buddy started talking 3.9 s into a planned 4.27 s thinking pause.",
-     "Buddy started talking 3.5 s into a planned 5.06 s thinking pause.",
-     "Buddy started talking 3.5 s into a planned 3.24 s thinking pause.",
-     "Buddy started talking 0.2 s into a planned 3.82 s thinking pause."
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
     ],
     "evidence": [
      {
-      "t": 39.97,
-      "paused_s": 3.9,
-      "planned_s": 4.27,
+      "t": 36.06,
+      "said": "मेड़ी मेड़ी गुड़िया",
+      "heard": "मेड़ी गुड़िया"
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 42.7,
+    "details": [
+     "Buddy started talking 3.4 s into a planned 5.57 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 42.7,
+      "paused_s": 3.4,
+      "planned_s": 5.57,
       "line": 0,
-      "buddy_kind": "stall_phrase",
+      "buddy_kind": "fix_word",
       "next_words": "गुड़िया प्यारी है,"
-     },
-     {
-      "t": 49.5,
-      "paused_s": 3.5,
-      "planned_s": 5.06,
-      "line": 0,
-      "buddy_kind": "fix_word",
-      "next_words": "प्यारी है,"
-     },
-     {
-      "t": 74.78,
-      "paused_s": 3.5,
-      "planned_s": 3.24,
-      "line": 0,
-      "buddy_kind": "fix_word",
-      "next_words": "है,"
-     },
-     {
-      "t": 104.07,
-      "paused_s": 0.2,
-      "planned_s": 3.82,
-      "line": 0,
-      "buddy_kind": "uncertain",
-      "next_words": "है,"
      }
     ],
     "child_quote": "Buddy talked when I was thinking!",
@@ -100,151 +91,153 @@
    },
    {
     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
-    "count": 1,
+    "count": 4,
     "evidence_level": "observed",
-    "first_t": 85.97,
+    "first_t": 60.75,
     "details": [
-     "Asked to say 'गुड़िया' 3 times."
+     "Asked to say 'मेरी' 3 times.",
+     "Asked to say 'मेरी' 4 times.",
+     "Asked to say 'मेरी' 5 times.",
+     "Asked to say 'मेरी' 6 times."
     ],
     "evidence": [
      {
-      "t": 85.97,
-      "word": "गुड़िया",
+      "t": 60.75,
+      "word": "मेरी",
       "times": 3
+     },
+     {
+      "t": 66.4,
+      "word": "मेरी",
+      "times": 4
+     },
+     {
+      "t": 74.39,
+      "word": "मेरी",
+      "times": 5
+     },
+     {
+      "t": 82.67,
+      "word": "मेरी",
+      "times": 6
      }
     ],
     "child_quote": "Again? I said it already!",
     "child_severity": "upsetting"
-   },
-   {
-    "code": "MISSED_ERROR",
-    "count": 1,
-    "evidence_level": "observed",
-    "first_t": null,
-    "details": [
-     "Read 'मेरी' as 'मेड़ी' and it was marked as read correctly."
-    ],
-    "evidence": [
-     {
-      "word": "मेरी",
-      "child_said": "मेड़ी",
-      "kind": "sub",
-      "speech_model_wrote": "मेड़ी गुरिया प्यारी प्यारी"
-     }
-    ],
-    "child_quote": "",
-    "child_severity": "annoying"
    }
   ],
-  "positives": [],
-  "frustration_peak": 5.4,
+  "positives": [
+   "Buddy said yay! I liked that."
+  ],
+  "frustration_peak": 5.05,
   "frustration_events": [
    {
-    "t": 36.0,
+    "t": 36.06,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 36.06,
     "kind": "progress",
-    "frustration": 0.0
+    "frustration": 0.65
    },
    {
-    "t": 39.97,
+    "t": 42.7,
     "kind": "interrupted_pause",
-    "frustration": 1.0,
-    "paused_s": 3.9
+    "frustration": 1.65,
+    "paused_s": 3.4
    },
    {
-    "t": 49.5,
-    "kind": "interrupted_pause",
-    "frustration": 2.0,
-    "paused_s": 3.5
-   },
-   {
-    "t": 54.56,
+    "t": 53.97,
     "kind": "dead_click",
-    "frustration": 2.5,
+    "frustration": 2.15,
     "target": "Listening"
    },
    {
-    "t": 70.88,
-    "kind": "progress",
-    "frustration": 2.35
-   },
-   {
-    "t": 74.78,
-    "kind": "interrupted_pause",
-    "frustration": 3.35,
-    "paused_s": 3.5
-   },
-   {
-    "t": 85.97,
+    "t": 60.75,
     "kind": "drill_repeat",
-    "frustration": 4.05,
-    "word": "गुड़िया"
+    "frustration": 2.85,
+    "word": "मेरी"
    },
    {
-    "t": 103.88,
-    "kind": "progress",
-    "frustration": 3.9
+    "t": 66.4,
+    "kind": "drill_repeat",
+    "frustration": 3.55,
+    "word": "मेरी"
    },
    {
-    "t": 104.07,
-    "kind": "interrupted_pause",
-    "frustration": 4.9,
-    "paused_s": 0.2
+    "t": 74.39,
+    "kind": "drill_repeat",
+    "frustration": 4.25,
+    "word": "मेरी"
    },
    {
-    "t": 106.46,
+    "t": 82.67,
+    "kind": "drill_repeat",
+    "frustration": 4.95,
+    "word": "मेरी"
+   },
+   {
+    "t": 85.9,
+    "kind": "praise",
+    "frustration": 4.55
+   },
+   {
+    "t": 89.03,
     "kind": "dead_click",
-    "frustration": 5.4,
+    "frustration": 5.05,
     "target": "End"
    }
   ]
  },
  "metrics": {
-  "clicks": 7,
+  "clicks": 5,
   "dead_clicks": 2,
   "nav_clicks": 2,
-  "praise_heard": 0,
-  "interruptions": 4,
-  "unheard_words": 0,
-  "buddy_talk_s": 36.5,
-  "child_talk_s": 18.8,
+  "praise_heard": 1,
+  "interruptions": 1,
+  "unheard_words": 1,
+  "buddy_talk_s": 27.4,
+  "child_talk_s": 8.4,
   "tired_said": false,
-  "time_to_text_s": 4.0,
+  "time_to_text_s": 6.8,
   "reader_page_audio_clips": 1,
-  "intro_s": 11.5,
-  "time_to_first_word_s": 17.4,
-  "session_s": 92.1,
+  "time_to_first_word_s": 10.7,
+  "intro_s": 17.9,
+  "session_s": 71.9,
   "words_total": 17,
-  "words_attempted": 3,
-  "words_said_wrong": 2,
-  "corrections": 2,
+  "words_attempted": 2,
+  "words_said_wrong": 1,
+  "corrections": 1,
   "buddy_turns": 8,
-  "stall_prompts": 1,
-  "uncertain_prompts": 1
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
  },
  "tutor_summary": {
   "words_total": 17,
-  "words_read": 1,
-  "words_helped": 3,
+  "words_read": 0,
+  "words_helped": 2,
   "words_to_practise": [
+   "मेरी",
    "गुड़िया"
   ],
-  "words_practised": 2,
-  "correction_attempts": 3,
+  "words_practised": 1,
+  "correction_attempts": 5,
   "lines_total": 4,
   "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 1,
-  "corrections": 2,
-  "seconds": 92.3,
-  "words_per_minute": 2.6
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 72.3,
+  "words_per_minute": 1.7
  },
  "ux_scores": {
   "discoverability": 5,
   "guidance": 5,
-  "interruption_load": 1,
+  "interruption_load": 3,
   "correction_quality": 4,
-  "completion": 2,
+  "completion": 1,
   "enjoyment": 1
  },
  "artefacts": {
@@ -260,7 +253,7 @@
   "server_record": "server_record.json"
  },
  "simulation_notes": {
-  "tts_placeholder_clips": 91,
+  "tts_placeholder_clips": 198,
   "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
  }
 }

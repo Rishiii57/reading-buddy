@@ -1,20 +1,19 @@
-{"t": 4.44, "kind": "open_app", "brief": "Krish, LKG (about 4.5 years). Prefers gu-IN. Bilingual Gujarati-Hindi; reads very little yet."}
-{"t": 4.7, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
-{"t": 5.84, "kind": "tap", "target": "ગુજરાતી", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 7.23, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 9.48, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
-{"t": 9.6, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text, made for children who already read."}
-{"t": 14.67, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 18.29, "kind": "session_started", "tries": 1}
-{"t": 30.73, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
-{"t": 33.04, "kind": "looked_for_replay", "found": []}
-{"t": 33.04, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
-{"t": 39.02, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.4 s into a planned 3.5 s thinking pause."}
-{"t": 42.06, "kind": "tap_mic_to_talk"}
-{"t": 42.14, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
-{"t": 98.33, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 114.19, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 3.28 s thinking pause."}
-{"t": 137.08, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 154.6, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.75 s thinking pause."}
-{"t": 154.63, "kind": "abandon", "why": "frustration", "frustration": 3.6}
-{"t": 154.71, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 2.73, "kind": "open_app", "brief": "Krish, LKG (about 4.5 years). Prefers gu-IN. Bilingual Gujarati-Hindi; reads very little yet."}
+{"t": 2.79, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.69, "kind": "tap", "target": "ગુજરાતી", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.26, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.44, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 7.8, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text, made for children who already read."}
+{"t": 11.82, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.69, "kind": "session_started", "tries": 1}
+{"t": 27.05, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 30.26, "kind": "looked_for_replay", "found": []}
+{"t": 30.26, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 47.91, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.9 s into a planned 3.44 s thinking pause."}
+{"t": 85.75, "kind": "tap_mic_to_talk"}
+{"t": 85.93, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 92.1, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'મારો' 3 times."}
+{"t": 148.75, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 168.2, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.5 s into a planned 4.34 s thinking pause."}
+{"t": 168.22, "kind": "abandon", "why": "attention", "frustration": 3.35}
+{"t": 168.84, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

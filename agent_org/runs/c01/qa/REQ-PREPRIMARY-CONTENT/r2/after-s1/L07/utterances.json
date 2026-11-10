@@ -1,7 +1,7 @@
 {
  "utterances": [
   {
-   "t": 30.9,
+   "t": 31.48,
    "said": "Twinkle",
    "stt": "Twinkle",
    "stt_notes": [],
@@ -12,100 +12,206 @@
    "over_buddy": false
   },
   {
-   "t": 36.2,
-   "said": "tree",
-   "stt": "tree",
+   "t": 41.39,
+   "said": "twinkle little star star",
+   "stt": "twinkle little star star",
    "stt_notes": [],
    "words": [
-    1
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 45.69,
-   "said": "twinkle",
-   "stt": "twinkle",
-   "stt_notes": [],
-   "words": [
-    1
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 57.0,
-   "said": "littl little",
-   "stt": "littl little",
-   "stt_notes": [],
-   "words": [
-    2
-   ],
-   "muted_words": 0,
-   "over_buddy": false
-  },
-  {
-   "t": 64.36,
-   "said": "star star",
-   "stt": "star star",
-   "stt_notes": [],
-   "words": [
+    1,
+    2,
     3
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 72.92,
-   "said": "hoa",
-   "stt": "hoa",
+   "t": 61.35,
+   "said": "How I I was what",
+   "stt": "How I I was what",
    "stt_notes": [],
    "words": [
-    4
+    4,
+    5,
+    6,
+    7
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 77.36,
-   "said": "I",
-   "stt": "",
-   "stt_notes": [
-    "lost 'I'"
-   ],
+   "t": 66.66,
+   "said": "you",
+   "stt": "you",
+   "stt_notes": [],
    "words": [
-    5
+    8
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 83.69,
-   "said": "How",
-   "stt": "How",
+   "t": 73.58,
+   "said": "are",
+   "stt": "are",
    "stt_notes": [],
    "words": [
-    4
+    9
    ],
-   "drill": true,
-   "muted_words": 0
+   "muted_words": 0,
+   "over_buddy": false
   },
   {
-   "t": 88.96,
-   "said": "hoa",
-   "stt": "hoa",
+   "t": 86.53,
+   "said": "above tha",
+   "stt": "above tha",
    "stt_notes": [],
    "words": [
-    4
+    10,
+    11,
+    12
    ],
    "muted_words": 1,
    "over_buddy": true
+  },
+  {
+   "t": 88.93,
+   "said": "Up",
+   "stt": "Up",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 95.43,
+   "said": "all",
+   "stt": "all",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 101.2,
+   "said": "tha",
+   "stt": "tha",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 106.89,
+   "said": "world",
+   "stt": "world",
+   "stt_notes": [],
+   "words": [
+    13
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 112.99,
+   "said": "Up Up",
+   "stt": "Up Up",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 119.03,
+   "said": "all all",
+   "stt": "all all",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 125.24,
+   "said": "the the",
+   "stt": "the the",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 132.92,
+   "said": "was so",
+   "stt": "was so",
+   "stt_notes": [],
+   "words": [
+    13,
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 138.71,
+   "said": "have",
+   "stt": "have",
+   "stt_notes": [],
+   "words": [
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 141.24,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 145.99,
+   "said": "at",
+   "stt": "at",
+   "stt_notes": [],
+   "words": [
+    10,
+    11
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 148.01,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 30.9,
+    "t": 31.48,
     "target": "Twinkle",
     "said": "Twinkle",
     "correct": true,
@@ -115,83 +221,246 @@
   ],
   "1": [
    {
-    "t": 36.2,
-    "target": "twinkle",
-    "said": "tree",
-    "correct": false,
-    "kind": "sub",
-    "stt": "tree"
-   },
-   {
-    "t": 45.69,
+    "t": 41.39,
     "target": "twinkle",
     "said": "twinkle",
     "correct": true,
     "kind": "ok",
-    "stt": "twinkle"
+    "stt": "twinkle little star star"
    }
   ],
   "2": [
    {
-    "t": 57.0,
+    "t": 41.39,
     "target": "little",
-    "said": "littl little",
+    "said": "little",
     "correct": true,
-    "kind": "self_corrected",
-    "stt": "littl little"
+    "kind": "ok",
+    "stt": "twinkle little star star"
    }
   ],
   "3": [
    {
-    "t": 64.36,
+    "t": 41.39,
     "target": "star",
     "said": "star",
     "correct": true,
     "kind": "ok",
-    "stt": "star star"
+    "stt": "twinkle little star star"
    }
   ],
   "4": [
    {
-    "t": 72.92,
-    "target": "How",
-    "said": "hoa",
-    "correct": false,
-    "kind": "sub",
-    "stt": "hoa"
-   },
-   {
-    "t": 83.69,
+    "t": 61.35,
     "target": "How",
     "said": "How",
     "correct": true,
     "kind": "ok",
-    "stt": "How",
-    "drill": true
-   },
-   {
-    "t": 88.96,
-    "target": "How",
-    "said": "hoa",
-    "correct": false,
-    "kind": "sub",
-    "stt": "hoa"
+    "stt": "How I I was what"
    }
   ],
   "5": [
    {
-    "t": 77.36,
+    "t": 61.35,
     "target": "I",
     "said": "I",
     "correct": true,
     "kind": "ok",
+    "stt": "How I I was what"
+   }
+  ],
+  "6": [
+   {
+    "t": 61.35,
+    "target": "wonder",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "How I I was what"
+   }
+  ],
+  "7": [
+   {
+    "t": 61.35,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "ok",
+    "stt": "How I I was what"
+   }
+  ],
+  "8": [
+   {
+    "t": 66.66,
+    "target": "you",
+    "said": "you",
+    "correct": true,
+    "kind": "ok",
+    "stt": "you"
+   }
+  ],
+  "9": [
+   {
+    "t": 73.58,
+    "target": "are",
+    "said": "are",
+    "correct": true,
+    "kind": "ok",
+    "stt": "are"
+   }
+  ],
+  "10": [
+   {
+    "t": 86.53,
+    "target": "Up",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "above tha"
+   },
+   {
+    "t": 88.93,
+    "target": "Up",
+    "said": "Up",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Up"
+   },
+   {
+    "t": 112.99,
+    "target": "Up",
+    "said": "Up",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Up Up"
+   },
+   {
+    "t": 141.24,
+    "target": "Up",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
     "stt": ""
+   },
+   {
+    "t": 145.99,
+    "target": "Up",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "at"
+   },
+   {
+    "t": 148.01,
+    "target": "Up",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "11": [
+   {
+    "t": 86.53,
+    "target": "above",
+    "said": "above",
+    "correct": true,
+    "kind": "ok",
+    "stt": "above tha"
+   },
+   {
+    "t": 95.43,
+    "target": "above",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "all"
+   },
+   {
+    "t": 119.03,
+    "target": "above",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "all all"
+   },
+   {
+    "t": 145.99,
+    "target": "above",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at"
+   }
+  ],
+  "12": [
+   {
+    "t": 86.53,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "above tha"
+   },
+   {
+    "t": 101.2,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha"
+   },
+   {
+    "t": 125.24,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the the"
+   }
+  ],
+  "13": [
+   {
+    "t": 106.89,
+    "target": "world",
+    "said": "world",
+    "correct": true,
+    "kind": "ok",
+    "stt": "world"
+   },
+   {
+    "t": 132.92,
+    "target": "world",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "was so"
+   }
+  ],
+  "14": [
+   {
+    "t": 132.92,
+    "target": "so",
+    "said": "so",
+    "correct": true,
+    "kind": "ok",
+    "stt": "was so"
+   }
+  ],
+  "15": [
+   {
+    "t": 138.71,
+    "target": "high",
+    "said": "have",
+    "correct": false,
+    "kind": "sub",
+    "stt": "have"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 14.47,
+   "t": 15.75,
    "type": "say",
    "kind": "intro",
    "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
@@ -203,31 +472,7 @@
    ]
   },
   {
-   "t": 39.83,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "Listen... twinkle",
-   "spans": [
-    [
-     1,
-     2
-    ]
-   ]
-  },
-  {
-   "t": 48.97,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "Listen... little star",
-   "spans": [
-    [
-     2,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 64.39,
+   "t": 41.44,
    "type": "say",
    "kind": "echo_line",
    "text": "Listen... How I wonder what you are! Now you try!",
@@ -239,26 +484,57 @@
    ]
   },
   {
-   "t": 77.9,
+   "t": 73.58,
    "type": "say",
-   "kind": "fix_word",
-   "text": "Let's practise this word together. How",
+   "kind": "praise",
+   "text": "Very nice! Keep going.",
+   "spans": []
+  },
+  {
+   "t": 73.59,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... Up above the world so high Now you try!",
    "spans": [
     [
-     4,
-     5
+     10,
+     16
     ]
    ]
   },
   {
-   "t": 83.74,
+   "t": 106.56,
    "type": "say",
-   "kind": "repeat_line",
-   "text": "Yes! Very nice! How I wonder what you are! Now you say the whole line.",
+   "kind": "stall_phrase",
+   "text": "Listen... Up above the",
    "spans": [
     [
-     4,
-     10
+     10,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 142.4,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... Up above the",
+   "spans": [
+    [
+     10,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 150.33,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "Up above the world so high Now you try!",
+   "spans": [
+    [
+     10,
+     16
     ]
    ]
   }

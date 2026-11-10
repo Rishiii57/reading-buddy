@@ -1,14 +1,12 @@
 {
- "id": "20261109-211836-f21200",
+ "id": "20261109-213341-8a5adc",
  "text_id": "en-rain",
  "mode": "mic",
  "summary": {
   "words_total": 24,
   "words_read": 1,
   "words_helped": 3,
-  "words_to_practise": [
-   "patter"
-  ],
+  "words_to_practise": [],
   "words_practised": 0,
   "correction_attempts": 0,
   "lines_total": 4,
@@ -16,34 +14,54 @@
   "lines_skipped": [],
   "finished": false,
   "prompts": 1,
-  "corrections": 1,
-  "seconds": 35.6,
-  "words_per_minute": 6.7
+  "corrections": 0,
+  "seconds": 27.2,
+  "words_per_minute": 8.8
  },
  "log": [
   {
-   "t": 0.056,
+   "t": 0.039,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 14.141,
+   "t": 12.52,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 16.749,
+   "t": 16.958,
    "event": "transcript",
-   "text": "Pitter qlay"
+   "text": "play play play play"
   },
   {
-   "t": 16.749,
+   "t": 16.958,
+   "event": "uncertain",
+   "text": "play play play play"
+  },
+  {
+   "t": 16.958,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 20.476,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.206,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 22.206,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 20.181,
+   "t": 25.639,
    "event": "state",
    "state": "STALL_PROMPT",
    "frm": 1,
@@ -51,47 +69,17 @@
    "line": 0
   },
   {
-   "t": 20.181,
+   "t": 25.639,
    "event": "prompt",
    "level": 1,
    "line": 0,
    "frm": 1,
    "to": 4
-  },
-  {
-   "t": 22.939,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 25.75,
-   "event": "transcript",
-   "text": "pig falls"
-  },
-  {
-   "t": 25.75,
-   "event": "progress",
-   "frm": 1,
-   "to": 3
-  },
-  {
-   "t": 29.218,
-   "event": "correction",
-   "line": 0,
-   "words": [
-    1
-   ]
-  },
-  {
-   "t": 29.218,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 1
   }
  ],
  "stt_events": [
   {
-   "t": 0.001,
+   "t": 0.0,
    "type": "connected",
    "text": null,
    "latency": null,
@@ -99,7 +87,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 14.429,
+   "t": 13.003,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -107,15 +95,15 @@
    "message": null
   },
   {
-   "t": 16.749,
+   "t": 16.958,
    "type": "transcript",
-   "text": "Pitter qlay",
+   "text": "play play play play",
    "latency": 120,
-   "audio_duration_ms": 1870,
+   "audio_duration_ms": 3530,
    "message": null
   },
   {
-   "t": 23.453,
+   "t": 20.753,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -123,11 +111,11 @@
    "message": null
   },
   {
-   "t": 25.75,
+   "t": 22.206,
    "type": "transcript",
-   "text": "pig falls",
+   "text": "Pitter",
    "latency": 120,
-   "audio_duration_ms": 1870,
+   "audio_duration_ms": 1030,
    "message": null
   }
  ],
@@ -139,17 +127,17 @@
    "duration_s": 1.03
   },
   {
-   "text": "Pitter qlay",
-   "heard": "Pitter qlay",
+   "text": "play play play play",
+   "heard": "play play play play",
    "muted_words": 0,
-   "duration_s": 1.87
+   "duration_s": 3.53
   },
   {
-   "text": "pig falls",
-   "heard": "pig falls",
+   "text": "Pitter",
+   "heard": "Pitter",
    "muted_words": 0,
-   "duration_s": 1.87
+   "duration_s": 1.03
   }
  ],
- "tts_offline": 40
+ "tts_offline": 53
 }

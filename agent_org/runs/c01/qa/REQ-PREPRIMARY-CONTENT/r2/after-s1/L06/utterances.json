@@ -1,20 +1,32 @@
 {
  "utterances": [
   {
-   "t": 30.56,
+   "t": 35.92,
    "said": "મામાનું",
    "stt": "મામાનું",
    "stt_notes": [],
    "words": [
-    0
+    0,
+    1
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 40.63,
-   "said": "ઘર",
-   "stt": "ઘર",
+   "t": 41.71,
+   "said": "કેઠલે",
+   "stt": "કેઠલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.77,
+   "said": "",
+   "stt": "",
    "stt_notes": [],
    "words": [
     1
@@ -23,20 +35,20 @@
    "over_buddy": false
   },
   {
-   "t": 47.86,
-   "said": "કેટલે",
-   "stt": "કેટલે",
+   "t": 52.79,
+   "said": "ઘર ઘર",
+   "stt": "ઘર ઘર",
    "stt_notes": [],
    "words": [
-    2
+    1
    ],
-   "muted_words": 1,
-   "over_buddy": true
+   "muted_words": 0,
+   "over_buddy": false
   },
   {
-   "t": 51.06,
-   "said": "કેટલે",
-   "stt": "કેટલે",
+   "t": 59.59,
+   "said": "કેટલે કેટલે",
+   "stt": "કેટલે કેટલે",
    "stt_notes": [],
    "words": [
     2
@@ -45,9 +57,9 @@
    "over_buddy": false
   },
   {
-   "t": 58.83,
-   "said": "દીબો",
-   "stt": "દીબો",
+   "t": 67.54,
+   "said": "દીવો",
+   "stt": "દીવો",
    "stt_notes": [],
    "words": [
     3
@@ -56,9 +68,9 @@
    "over_buddy": false
   },
   {
-   "t": 63.8,
-   "said": "બળે",
-   "stt": "બળે",
+   "t": 73.04,
+   "said": "વળે",
+   "stt": "વળે",
    "stt_notes": [],
    "words": [
     4
@@ -67,7 +79,7 @@
    "over_buddy": false
   },
   {
-   "t": 69.71,
+   "t": 79.17,
    "said": "એટલે",
    "stt": "એટલે",
    "stt_notes": [],
@@ -78,34 +90,102 @@
    "over_buddy": false
   },
   {
-   "t": 77.17,
-   "said": "દીબો",
-   "stt": "ધીબો",
-   "stt_notes": [
-    "'દીબો' heard as 'ધીબો'"
-   ],
-   "words": [
-    3
-   ],
-   "drill": true,
-   "muted_words": 0
-  },
-  {
-   "t": 82.78,
-   "said": "દીબો",
-   "stt": "દીબો",
+   "t": 92.07,
+   "said": "દીબો મૈં",
+   "stt": "દીબો મૈં",
    "stt_notes": [],
    "words": [
-    3
+    6,
+    7
    ],
-   "drill": true,
-   "muted_words": 0
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 100.0,
+   "said": "તો દીટો",
+   "stt": "તો દીટો",
+   "stt_notes": [],
+   "words": [
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 103.26,
+   "said": "દીટો",
+   "stt": "",
+   "stt_notes": [
+    "lost 'દીટો'"
+   ],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 106.28,
+   "said": "ધીઠો",
+   "stt": "ધીઠો",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 113.73,
+   "said": "મામો",
+   "stt": "મામો",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 119.19,
+   "said": "લાગે",
+   "stt": "લાગે",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 127.45,
+   "said": "મીટો મીટો",
+   "stt": "મીટો મીટો",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 130.42,
+   "said": "મીટો",
+   "stt": "મીટો",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
   }
  ],
  "attempts": {
   "0": [
    {
-    "t": 30.56,
+    "t": 35.93,
     "target": "મામાનું",
     "said": "મામાનું",
     "correct": true,
@@ -115,84 +195,176 @@
   ],
   "1": [
    {
-    "t": 40.63,
+    "t": 35.93,
+    "target": "ઘર",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "મામાનું"
+   },
+   {
+    "t": 44.77,
+    "target": "ઘર",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 52.79,
     "target": "ઘર",
     "said": "ઘર",
     "correct": true,
     "kind": "ok",
-    "stt": "ઘર"
+    "stt": "ઘર ઘર"
    }
   ],
   "2": [
    {
-    "t": 47.86,
+    "t": 41.71,
     "target": "કેટલે",
-    "said": "કેટલે",
-    "correct": true,
-    "kind": "ok",
-    "stt": "કેટલે"
+    "said": "કેઠલે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "કેઠલે"
    },
    {
-    "t": 51.06,
+    "t": 59.59,
     "target": "કેટલે",
     "said": "કેટલે",
     "correct": true,
     "kind": "ok",
-    "stt": "કેટલે"
+    "stt": "કેટલે કેટલે"
    }
   ],
   "3": [
    {
-    "t": 58.83,
+    "t": 67.54,
     "target": "દીવો",
-    "said": "દીબો",
-    "correct": false,
-    "kind": "sub",
-    "stt": "દીબો"
-   },
-   {
-    "t": 77.17,
-    "target": "દીવો",
-    "said": "દીબો",
-    "correct": false,
-    "kind": "sub",
-    "stt": "ધીબો",
-    "drill": true
-   },
-   {
-    "t": 82.78,
-    "target": "દીવો",
-    "said": "દીબો",
-    "correct": false,
-    "kind": "sub",
-    "stt": "દીબો",
-    "drill": true
+    "said": "દીવો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો"
    }
   ],
   "4": [
    {
-    "t": 63.8,
+    "t": 73.04,
     "target": "બળે",
-    "said": "બળે",
-    "correct": true,
-    "kind": "ok",
-    "stt": "બળે"
+    "said": "વળે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "વળે"
    }
   ],
   "5": [
    {
-    "t": 69.71,
+    "t": 79.17,
     "target": "એટલે",
     "said": "એટલે",
     "correct": true,
     "kind": "ok",
     "stt": "એટલે"
    }
+  ],
+  "6": [
+   {
+    "t": 92.07,
+    "target": "દીવો",
+    "said": "દીબો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીબો મૈં"
+   }
+  ],
+  "7": [
+   {
+    "t": 92.07,
+    "target": "મેં",
+    "said": "મૈં",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીબો મૈં"
+   }
+  ],
+  "8": [
+   {
+    "t": 100.0,
+    "target": "તો",
+    "said": "તો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તો દીટો"
+   }
+  ],
+  "9": [
+   {
+    "t": 100.0,
+    "target": "દીઠો",
+    "said": "દીટો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તો દીટો"
+   },
+   {
+    "t": 103.26,
+    "target": "દીઠો",
+    "said": "દીટો",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 106.28,
+    "target": "દીઠો",
+    "said": "ધીઠો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ધીઠો"
+   }
+  ],
+  "10": [
+   {
+    "t": 113.73,
+    "target": "મામો",
+    "said": "મામો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામો"
+   }
+  ],
+  "11": [
+   {
+    "t": 119.19,
+    "target": "લાગે",
+    "said": "લાગે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "લાગે"
+   }
+  ],
+  "12": [
+   {
+    "t": 127.45,
+    "target": "મીઠો",
+    "said": "મીટો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મીટો મીટો"
+   },
+   {
+    "t": 130.42,
+    "target": "મીઠો",
+    "said": "મીટો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મીટો"
+   }
   ]
  },
  "buddy_said": [
   {
-   "t": 12.76,
+   "t": 15.22,
    "type": "say",
    "kind": "intro",
    "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!",
@@ -204,7 +376,7 @@
    ]
   },
   {
-   "t": 34.01,
+   "t": 46.13,
    "type": "say",
    "kind": "stall_phrase",
    "text": "સાંભળ... ઘર કેટલે",
@@ -216,19 +388,7 @@
    ]
   },
   {
-   "t": 44.2,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "સાંભળ... કેટલે",
-   "spans": [
-    [
-     2,
-     3
-    ]
-   ]
-  },
-  {
-   "t": 51.09,
+   "t": 59.73,
    "type": "say",
    "kind": "echo_line",
    "text": "સાંભળ... દીવો બળે એટલે. હવે તું બોલ!",
@@ -240,52 +400,42 @@
    ]
   },
   {
-   "t": 69.81,
+   "t": 79.29,
    "type": "say",
-   "kind": "fix_word",
-   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. દીવો",
+   "kind": "praise",
+   "text": "બહુ સરસ! વાંચતો રહે.",
+   "spans": []
+  },
+  {
+   "t": 79.66,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "સાંભળ... દીવો મેં તો દીઠો હવે તું બોલ!",
    "spans": [
     [
-     3,
-     4
+     6,
+     10
     ]
    ]
   },
   {
-   "t": 77.8,
+   "t": 106.49,
    "type": "say",
-   "kind": "fix_again",
-   "text": "દીવો",
+   "kind": "echo_line",
+   "text": "સાંભળ... મામો લાગે મીઠો. હવે તું બોલ!",
    "spans": [
     [
-     3,
-     4
+     10,
+     13
     ]
    ]
   },
   {
-   "t": 82.82,
+   "t": 130.72,
    "type": "say",
-   "kind": "fix_again",
-   "text": "દીવો",
-   "spans": [
-    [
-     3,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 87.95,
-   "type": "say",
-   "kind": "fix_again",
-   "text": "દીવો",
-   "spans": [
-    [
-     3,
-     4
-    ]
-   ]
+   "kind": "finish",
+   "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!",
+   "spans": []
   }
  ]
 }

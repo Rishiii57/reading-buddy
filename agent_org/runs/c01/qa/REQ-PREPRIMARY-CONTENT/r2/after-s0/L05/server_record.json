@@ -1,300 +1,373 @@
 {
- "id": "20261109-212313-d9e37b",
+ "id": "20261109-213924-7c9f8b",
  "text_id": "hi-machhli",
  "mode": "mic",
  "summary": {
   "words_total": 17,
-  "words_read": 2,
-  "words_helped": 7,
-  "words_to_practise": [
-   "जल"
-  ],
-  "words_practised": 1,
-  "correction_attempts": 1,
+  "words_read": 8,
+  "words_helped": 8,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
   "lines_total": 4,
-  "lines_completed": 1,
+  "lines_completed": 4,
   "lines_skipped": [],
-  "finished": false,
-  "prompts": 5,
-  "corrections": 1,
-  "seconds": 129.8,
-  "words_per_minute": 4.2
+  "finished": true,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 142.0,
+  "words_per_minute": 6.8
  },
  "log": [
   {
-   "t": 0.189,
+   "t": 0.083,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 17.783,
+   "t": 16.688,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 20.553,
+   "t": 22.278,
    "event": "transcript",
-   "text": "मछली"
+   "text": "मछलि जल"
   },
   {
-   "t": 20.553,
+   "t": 22.278,
    "event": "progress",
    "frm": 0,
-   "to": 1
-  },
-  {
-   "t": 24.0,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 24.0,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 1,
-   "to": 4
-  },
-  {
-   "t": 28.89,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 34.694,
-   "event": "transcript",
-   "text": "झल की"
-  },
-  {
-   "t": 34.694,
-   "event": "uncertain",
-   "text": "झल की"
-  },
-  {
-   "t": 34.694,
-   "event": "state",
-   "state": "UNCERTAIN_AUDIO"
-  },
-  {
-   "t": 38.747,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 41.444,
-   "event": "transcript",
-   "text": "झल"
-  },
-  {
-   "t": 41.444,
-   "event": "progress",
-   "frm": 1,
    "to": 2
   },
   {
-   "t": 45.052,
-   "event": "correction",
-   "line": 0,
-   "words": [
-    1
-   ]
-  },
-  {
-   "t": 45.052,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 1
-  },
-  {
-   "t": 52.658,
-   "event": "transcript",
-   "text": "जल"
-  },
-  {
-   "t": 52.658,
-   "event": "drill_ok",
-   "word": 1
-  },
-  {
-   "t": 52.658,
-   "event": "state",
-   "state": "COMPLETE_LINE_DEMONSTRATION",
-   "line": 0
-  },
-  {
-   "t": 60.227,
-   "event": "state",
-   "state": "COMPLETE_LINE_REPETITION"
-  },
-  {
-   "t": 63.013,
-   "event": "transcript",
-   "text": "मछली"
-  },
-  {
-   "t": 63.013,
-   "event": "progress",
-   "frm": 0,
-   "to": 1
-  },
-  {
-   "t": 68.326,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 4,
-   "line": 0
-  },
-  {
-   "t": 68.326,
-   "event": "prompt",
-   "level": 1,
-   "line": 0,
-   "frm": 1,
-   "to": 4
-  },
-  {
-   "t": 71.377,
-   "event": "state",
-   "state": "COMPLETE_LINE_REPETITION"
-  },
-  {
-   "t": 74.905,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 1,
-   "to": 5,
-   "line": 0
-  },
-  {
-   "t": 74.905,
-   "event": "prompt",
-   "level": 2,
-   "line": 0,
-   "frm": 1,
-   "to": 5
-  },
-  {
-   "t": 78.678,
-   "event": "state",
-   "state": "COMPLETE_LINE_REPETITION"
-  },
-  {
-   "t": 81.391,
+   "t": 28.817,
    "event": "transcript",
    "text": "की"
   },
   {
-   "t": 81.391,
+   "t": 28.817,
    "event": "progress",
-   "frm": 1,
+   "frm": 2,
    "to": 3
   },
   {
-   "t": 88.19,
+   "t": 33.368,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 33.368,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 36.937,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.524,
    "event": "transcript",
    "text": "रानी"
   },
   {
-   "t": 88.19,
+   "t": 42.524,
    "event": "progress",
    "frm": 3,
    "to": 4
   },
   {
-   "t": 94.802,
+   "t": 46.544,
    "event": "transcript",
-   "text": "हे"
+   "text": "है"
   },
   {
-   "t": 94.802,
+   "t": 46.544,
    "event": "progress",
    "frm": 4,
    "to": 5
   },
   {
-   "t": 94.802,
+   "t": 46.544,
    "event": "state",
    "state": "LINE_COMPLETED",
    "line": 0
   },
   {
-   "t": 94.802,
-   "event": "praise",
-   "phrase": "line_done"
-  },
-  {
-   "t": 94.802,
+   "t": 46.544,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION",
    "line": 1
   },
   {
-   "t": 98.414,
+   "t": 51.836,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 109.757,
+   "t": 58.977,
    "event": "transcript",
-   "text": "जीवन उषका"
+   "text": "जीवण उसका"
   },
   {
-   "t": 109.757,
+   "t": 58.977,
    "event": "progress",
    "frm": 5,
-   "to": 6
-  },
-  {
-   "t": 114.794,
-   "event": "state",
-   "state": "STALL_PROMPT",
-   "frm": 6,
-   "to": 9,
-   "line": 1
-  },
-  {
-   "t": 114.794,
-   "event": "prompt",
-   "level": 1,
-   "line": 1,
-   "frm": 6,
-   "to": 9
-  },
-  {
-   "t": 118.1,
-   "event": "state",
-   "state": "CHILD_READING"
-  },
-  {
-   "t": 122.82,
-   "event": "transcript",
-   "text": "उशका"
-  },
-  {
-   "t": 122.82,
-   "event": "progress",
-   "frm": 6,
    "to": 7
   },
   {
-   "t": 127.894,
+   "t": 64.961,
+   "event": "transcript",
+   "text": "पाणी"
+  },
+  {
+   "t": 64.961,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 70.048,
    "event": "state",
    "state": "STALL_PROMPT",
-   "frm": 7,
+   "frm": 8,
    "to": 9,
    "line": 1
   },
   {
-   "t": 127.894,
+   "t": 70.048,
    "event": "prompt",
    "level": 1,
    "line": 1,
-   "frm": 7,
+   "frm": 8,
    "to": 9
+  },
+  {
+   "t": 72.444,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 75.222,
+   "event": "transcript",
+   "text": "हे"
+  },
+  {
+   "t": 75.222,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 75.222,
+   "event": "echo_slips_accepted",
+   "words": [
+    5,
+    7
+   ]
+  },
+  {
+   "t": 75.222,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 75.222,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 75.222,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 75.222,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 78.031,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 86.77,
+   "event": "transcript",
+   "text": "हाथ"
+  },
+  {
+   "t": 86.77,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 94.096,
+   "event": "transcript",
+   "text": "लगओ"
+  },
+  {
+   "t": 94.096,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 99.136,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 11,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 99.136,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 11,
+   "to": 13
+  },
+  {
+   "t": 102.07,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 104.814,
+   "event": "transcript",
+   "text": "ढर"
+  },
+  {
+   "t": 104.814,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 109.905,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 12,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 109.905,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 112.684,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 115.477,
+   "event": "transcript",
+   "text": "जाएगी"
+  },
+  {
+   "t": 115.477,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 115.477,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 115.477,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 120.405,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 129.064,
+   "event": "transcript",
+   "text": "वाहर निकालो मर झाएगी"
+  },
+  {
+   "t": 129.064,
+   "event": "progress",
+   "frm": 13,
+   "to": 16
+  },
+  {
+   "t": 132.539,
+   "event": "transcript",
+   "text": "झाएगी"
+  },
+  {
+   "t": 132.539,
+   "event": "uncertain",
+   "text": "झाएगी झाएगी"
+  },
+  {
+   "t": 132.539,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 135.888,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 138.679,
+   "event": "transcript",
+   "text": "जाएगी"
+  },
+  {
+   "t": 138.679,
+   "event": "progress",
+   "frm": 16,
+   "to": 17
+  },
+  {
+   "t": 138.679,
+   "event": "echo_slips_accepted",
+   "words": [
+    13
+   ]
+  },
+  {
+   "t": 138.679,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 138.679,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 138.679,
+   "event": "finish",
+   "skipped": []
   }
  ],
  "stt_events": [
@@ -307,7 +380,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 17.923,
+   "t": 17.653,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -315,31 +388,15 @@
    "message": null
   },
   {
-   "t": 20.553,
+   "t": 22.278,
    "type": "transcript",
-   "text": "मछली",
-   "latency": 120,
-   "audio_duration_ms": 2200,
-   "message": null
-  },
-  {
-   "t": 30.073,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 34.694,
-   "type": "transcript",
-   "text": "झल की",
+   "text": "मछलि जल",
    "latency": 120,
    "audio_duration_ms": 4200,
    "message": null
   },
   {
-   "t": 38.819,
+   "t": 26.191,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -347,55 +404,7 @@
    "message": null
   },
   {
-   "t": 41.444,
-   "type": "transcript",
-   "text": "झल",
-   "latency": 120,
-   "audio_duration_ms": 2200,
-   "message": null
-  },
-  {
-   "t": 50.013,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 52.658,
-   "type": "transcript",
-   "text": "जल",
-   "latency": 120,
-   "audio_duration_ms": 2200,
-   "message": null
-  },
-  {
-   "t": 60.389,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 63.013,
-   "type": "transcript",
-   "text": "मछली",
-   "latency": 120,
-   "audio_duration_ms": 2200,
-   "message": null
-  },
-  {
-   "t": 78.773,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 81.391,
+   "t": 28.817,
    "type": "transcript",
    "text": "की",
    "latency": 120,
@@ -403,7 +412,7 @@
    "message": null
   },
   {
-   "t": 85.558,
+   "t": 39.904,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -411,7 +420,7 @@
    "message": null
   },
   {
-   "t": 88.19,
+   "t": 42.524,
    "type": "transcript",
    "text": "रानी",
    "latency": 120,
@@ -419,7 +428,7 @@
    "message": null
   },
   {
-   "t": 92.163,
+   "t": 43.916,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -427,7 +436,55 @@
    "message": null
   },
   {
-   "t": 94.802,
+   "t": 46.544,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 54.356,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.977,
+   "type": "transcript",
+   "text": "जीवण उसका",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 62.253,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.961,
+   "type": "transcript",
+   "text": "पाणी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 72.594,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.222,
    "type": "transcript",
    "text": "हे",
    "latency": 120,
@@ -435,7 +492,7 @@
    "message": null
   },
   {
-   "t": 105.137,
+   "t": 84.15,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -443,15 +500,15 @@
    "message": null
   },
   {
-   "t": 109.757,
+   "t": 86.77,
    "type": "transcript",
-   "text": "जीवन उषका",
+   "text": "हाथ",
    "latency": 120,
-   "audio_duration_ms": 4200,
+   "audio_duration_ms": 2200,
    "message": null
   },
   {
-   "t": 118.2,
+   "t": 91.476,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -459,50 +516,100 @@
    "message": null
   },
   {
-   "t": 122.82,
+   "t": 94.096,
    "type": "transcript",
-   "text": "उशका",
+   "text": "लगओ",
    "latency": 120,
-   "audio_duration_ms": 4200,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 102.184,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.814,
+   "type": "transcript",
+   "text": "ढर",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 112.854,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.477,
+   "type": "transcript",
+   "text": "जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 120.444,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 129.064,
+   "type": "transcript",
+   "text": "वाहर निकालो मर झाएगी",
+   "latency": 120,
+   "audio_duration_ms": 8200,
+   "message": null
+  },
+  {
+   "t": 129.919,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 132.539,
+   "type": "transcript",
+   "text": "झाएगी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 136.058,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 138.679,
+   "type": "transcript",
+   "text": "जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
    "message": null
   }
  ],
  "utterances": [
   {
-   "text": "मछली",
-   "heard": "मछली",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "झल की",
-   "heard": "झल की",
+   "text": "मछलि जल",
+   "heard": "मछलि जल",
    "muted_words": 0,
    "duration_s": 4.2
-  },
-  {
-   "text": "झल",
-   "heard": "झल",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "जल",
-   "heard": "जल",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "मछली",
-   "heard": "मछली",
-   "muted_words": 0,
-   "duration_s": 2.2
-  },
-  {
-   "text": "",
-   "heard": "",
-   "muted_words": 0,
-   "duration_s": 2.2
   },
   {
    "text": "की",
@@ -513,6 +620,24 @@
   {
    "text": "रानी",
    "heard": "रानी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जीवण उसका",
+   "heard": "जीवण उसका",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "पाणी",
+   "heard": "पाणी",
    "muted_words": 0,
    "duration_s": 2.2
   },
@@ -529,23 +654,53 @@
    "duration_s": 2.2
   },
   {
-   "text": "जीवन उषका",
-   "heard": "जीवन उषका",
-   "muted_words": 0,
-   "duration_s": 4.2
-  },
-  {
-   "text": "पानी",
+   "text": "हात",
    "heard": "",
    "muted_words": 1,
    "duration_s": 2.2
   },
   {
-   "text": "उशका",
-   "heard": "उशका",
+   "text": "हाथ",
+   "heard": "हाथ",
    "muted_words": 0,
-   "duration_s": 4.2
+   "duration_s": 2.2
+  },
+  {
+   "text": "लगओ",
+   "heard": "लगओ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ढर",
+   "heard": "ढर",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जाएगी",
+   "heard": "जाएगी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "वाहर निकालो मर झाएगी",
+   "heard": "वाहर निकालो मर झाएगी",
+   "muted_words": 0,
+   "duration_s": 8.2
+  },
+  {
+   "text": "झाएगी",
+   "heard": "झाएगी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जाएगी",
+   "heard": "जाएगी",
+   "muted_words": 0,
+   "duration_s": 2.2
   }
  ],
- "tts_offline": 115
+ "tts_offline": 266
 }

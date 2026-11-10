@@ -20,7 +20,7 @@
 
 ## Numbers
 
-taps 4 (dead 0) · time to text 1.8 s · intro None s · first word None s · words attempted 0/23 · said wrong 0 · corrections 0 · stall prompts 0 · interruptions 0 · unheard words 0 · frustration peak 0.0/3.0
+taps 4 (dead 0) · time to text 3.0 s · intro None s · first word None s · words attempted 0/23 · said wrong 0 · corrections 0 · stall prompts 0 · interruptions 0 · unheard words 0 · frustration peak 0.0/3.0
 
 UX scores (1-5): discoverability 5, guidance 4, interruption_load 5, correction_quality 5, completion 1, enjoyment 3
 

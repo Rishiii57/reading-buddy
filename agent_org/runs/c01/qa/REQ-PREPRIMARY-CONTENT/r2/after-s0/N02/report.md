@@ -8,6 +8,7 @@
 
 > This isn't my language!
 > I don't know what Buddy said.
+> Buddy talked too long.
 > I said it but Buddy didn't hear me!
 > Buddy talked when I was thinking!
 
@@ -15,12 +16,13 @@
 
 - **WRONG_LANGUAGE_TEXT** ×1 (observed): Wanted hi-IN but ended up on a gu-IN text.
 - **BUDDY_LANGUAGE_NOT_UNDERSTOOD** ×2 (observed): Buddy spoke in gu-IN, which this child understands poorly (0.0).
+- **LONG_TUTOR_TALK** ×1 (observed): Buddy talked for over 12 s in one go before the child could read.
 - **SPEECH_IGNORED_WHILE_BUDDY_TALKS** ×1 (observed): 1 word(s) the child said were not heard because Buddy was talking or the session was paused.
-- **INTERRUPTED_WHILE_THINKING** ×1 (observed): Buddy started talking 3.5 s into a planned 3.85 s thinking pause.
+- **INTERRUPTED_WHILE_THINKING** ×1 (observed): Buddy started talking 3.7 s into a planned 3.85 s thinking pause.
 
 ## Numbers
 
-taps 4 (dead 0) · time to text 4.2 s · intro 14.0 s · first word 12.3 s · words attempted 2/14 · said wrong 2 · corrections 0 · stall prompts 1 · interruptions 1 · unheard words 1 · frustration peak 3.0/3.0
+taps 4 (dead 1) · time to text 4.0 s · intro 14.4 s · first word 12.5 s · words attempted 2/14 · said wrong 2 · corrections 0 · stall prompts 1 · interruptions 1 · unheard words 1 · frustration peak 3.9/3.0
 
 UX scores (1-5): discoverability 5, guidance 4, interruption_load 3, correction_quality 5, completion 2, enjoyment 1
 

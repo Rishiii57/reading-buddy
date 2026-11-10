@@ -18,25 +18,26 @@
  "parallel": 4,
  "seed": null,
  "seed_offset": 1000,
- "started": "2026-11-09T21:17:52",
- "finished": "2026-11-09T21:22:17",
+ "started": "2026-11-09T21:32:51",
+ "finished": "2026-11-09T21:37:06",
  "summary": {
   "agents": 10,
   "completed": 0,
-  "abandoned_or_failed": 10,
+  "abandoned_or_failed": 8,
   "harness_errors": 0,
   "outcomes": {
    "left_before_start": 3,
-   "abandoned_frustration": 6,
-   "abandoned_attention": 1
+   "abandoned_frustration": 4,
+   "abandoned_attention": 1,
+   "ended_early": 2
   },
   "ledger": {
    "mode": "sim",
-   "wall_s": 265.6,
+   "wall_s": 255.3,
    "gnani_credits": 0,
-   "stt_stream_s_if_live": 662.7,
+   "stt_stream_s_if_live": 523.9,
    "note": "In sim mode no Prisma/Timbre calls are made. stt_stream_s_if_live is how many seconds of audio the same sessions would stream to Prisma if run live (sessions stream for their whole length, including Buddy's talking time).",
-   "child_speech_s": 162.1,
+   "child_speech_s": 103.6,
    "llm_tokens": 0,
    "llm_note": "Child agents, PM, QA scoring are deterministic code; no LLM calls."
   }

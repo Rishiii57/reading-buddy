@@ -1,0 +1,35 @@
+{"t": 14.79, "type": "ready", "message": null}
+{"t": 14.88, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 30.46, "type": "speech"}
+{"t": 32.82, "type": "heard", "text": "the"}
+{"t": 32.82, "type": "speech"}
+{"t": 35.95, "type": "speech"}
+{"t": 39.28, "type": "heard", "text": "to to"}
+{"t": 39.28, "type": "speech"}
+{"t": 39.34, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 43.1, "type": "speech"}
+{"t": 47.94, "type": "heard", "text": "tree tree the"}
+{"t": 47.98, "type": "speech"}
+{"t": 50.63, "type": "speech"}
+{"t": 54.15, "type": "heard", "text": "littl little"}
+{"t": 54.15, "type": "speech"}
+{"t": 59.03, "type": "say", "kind": "stall_phrase", "text": "Listen... star", "spans": [[3, 4]]}
+{"t": 61.48, "type": "speech"}
+{"t": 63.58, "type": "heard", "text": "sun"}
+{"t": 63.58, "type": "speech"}
+{"t": 64.74, "type": "speech"}
+{"t": 66.67, "type": "heard", "text": "star"}
+{"t": 66.67, "type": "speech"}
+{"t": 66.68, "type": "say", "kind": "echo_line", "text": "Listen... How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 74.57, "type": "speech"}
+{"t": 79.39, "type": "heard", "text": "How I went"}
+{"t": 79.46, "type": "speech"}
+{"t": 83.9, "type": "say", "kind": "stall_phrase", "text": "Listen... what you are!", "spans": [[7, 10]]}
+{"t": 89.89, "type": "speech"}
+{"t": 92.27, "type": "heard", "text": "what"}
+{"t": 92.35, "type": "speech"}
+{"t": 95.51, "type": "speech"}
+{"t": 98.99, "type": "heard", "text": "yoa yoa"}
+{"t": 99.03, "type": "speech"}
+{"t": 99.03, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 100.27, "type": "summary", "summary": {"words_total": 22, "words_read": 3, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 85.5, "words_per_minute": 6.3}}

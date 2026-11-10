@@ -1,17 +1,12 @@
-{"t": 4.01, "kind": "open_app", "brief": "Shaurya, LKG (about 4.5 years). Prefers hi-IN. Gets tired after a minute of reading."}
-{"t": 4.09, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
-{"t": 5.36, "kind": "tap", "target": "एक दो तीन चार One Two Three Four Hindi U", "why": "looking for something to read (view-library)", "view": "view-library"}
-{"t": 9.34, "kind": "opened_text", "hash": "#/read/hi-ekdo", "title": "एक दो तीन चार", "tags": ["Hindi", "UKG"], "words": 15, "lines": 4}
-{"t": 15.57, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
-{"t": 19.48, "kind": "session_started", "tries": 1}
-{"t": 54.66, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 76.82, "kind": "said_tired", "heard": "मैं थक गया"}
-{"t": 77.64, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
-{"t": 78.4, "kind": "resumed", "after_s": 0.5}
-{"t": 81.48, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
-{"t": 84.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.4 s into a planned 3.5 s thinking pause."}
-{"t": 96.86, "kind": "tap_mic_to_talk"}
-{"t": 96.86, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
-{"t": 102.73, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.89 s thinking pause."}
-{"t": 102.74, "kind": "abandon", "why": "frustration", "frustration": 3.5}
-{"t": 102.82, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
+{"t": 4.57, "kind": "open_app", "brief": "Shaurya, LKG (about 4.5 years). Prefers hi-IN. Gets tired after a minute of reading."}
+{"t": 4.67, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.16, "kind": "tap", "target": "एक दो तीन चार One Two Three Four Hindi U", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.05, "kind": "opened_text", "hash": "#/read/hi-ekdo", "title": "एक दो तीन चार", "tags": ["Hindi", "UKG"], "words": 15, "lines": 4}
+{"t": 15.4, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.94, "kind": "session_started", "tries": 1}
+{"t": 31.38, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 44.45, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.8 s into a planned 3.82 s thinking pause."}
+{"t": 66.76, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.2 s thinking pause."}
+{"t": 70.61, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 79.99, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.6 s into a planned 3.37 s thinking pause."}
+{"t": 80.15, "kind": "abandon", "why": "frustration", "frustration": 3.9}

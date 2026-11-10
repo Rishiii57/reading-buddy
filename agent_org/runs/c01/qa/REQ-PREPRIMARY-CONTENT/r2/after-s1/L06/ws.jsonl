@@ -1,33 +1,51 @@
-{"t": 12.53, "type": "ready", "message": null}
-{"t": 12.76, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
-{"t": 28.54, "type": "speech"}
-{"t": 30.61, "type": "heard", "text": "મામાનું"}
-{"t": 30.62, "type": "speech"}
-{"t": 34.01, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ઘર કેટલે", "spans": [[1, 3]]}
-{"t": 38.59, "type": "speech"}
-{"t": 40.83, "type": "heard", "text": "ઘર"}
-{"t": 40.83, "type": "speech"}
-{"t": 44.2, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... કેટલે", "spans": [[2, 3]]}
-{"t": 48.99, "type": "speech"}
-{"t": 51.07, "type": "heard", "text": "કેટલે"}
-{"t": 51.07, "type": "speech"}
-{"t": 51.09, "type": "say", "kind": "echo_line", "text": "સાંભળ... દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
-{"t": 56.78, "type": "speech"}
-{"t": 58.84, "type": "heard", "text": "દીબો"}
-{"t": 58.85, "type": "speech"}
-{"t": 62.08, "type": "speech"}
-{"t": 64.12, "type": "heard", "text": "બળે"}
-{"t": 64.12, "type": "speech"}
-{"t": 67.77, "type": "speech"}
-{"t": 69.75, "type": "heard", "text": "એટલે"}
-{"t": 69.77, "type": "speech"}
-{"t": 69.81, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. દીવો", "spans": [[3, 4]]}
-{"t": 75.13, "type": "speech"}
-{"t": 77.8, "type": "heard", "text": "ધીબો"}
-{"t": 77.8, "type": "speech"}
-{"t": 77.8, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}
-{"t": 81.04, "type": "speech"}
-{"t": 82.8, "type": "heard", "text": "દીબો"}
-{"t": 82.8, "type": "speech"}
-{"t": 82.82, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}
-{"t": 87.95, "type": "say", "kind": "fix_again", "text": "દીવો", "spans": [[3, 4]]}
+{"t": 14.69, "type": "ready", "message": null}
+{"t": 15.22, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 33.89, "type": "speech"}
+{"t": 36.25, "type": "heard", "text": "મામાનું"}
+{"t": 36.33, "type": "speech"}
+{"t": 39.67, "type": "speech"}
+{"t": 41.87, "type": "heard", "text": "કેઠલે"}
+{"t": 41.96, "type": "speech"}
+{"t": 46.13, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ઘર કેટલે", "spans": [[1, 3]]}
+{"t": 49.29, "type": "speech"}
+{"t": 52.79, "type": "heard", "text": "ઘર ઘર"}
+{"t": 52.96, "type": "speech"}
+{"t": 56.31, "type": "speech"}
+{"t": 59.68, "type": "heard", "text": "કેટલે કેટલે"}
+{"t": 59.68, "type": "speech"}
+{"t": 59.73, "type": "say", "kind": "echo_line", "text": "સાંભળ... દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 65.57, "type": "speech"}
+{"t": 67.58, "type": "heard", "text": "દીવો"}
+{"t": 67.58, "type": "speech"}
+{"t": 71.15, "type": "speech"}
+{"t": 73.05, "type": "heard", "text": "વળે"}
+{"t": 73.14, "type": "speech"}
+{"t": 77.13, "type": "speech"}
+{"t": 79.2, "type": "heard", "text": "એટલે"}
+{"t": 79.2, "type": "speech"}
+{"t": 79.29, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 79.66, "type": "say", "kind": "echo_line", "text": "સાંભળ... દીવો મેં તો દીઠો હવે તું બોલ!", "spans": [[6, 10]]}
+{"t": 88.87, "type": "speech"}
+{"t": 92.14, "type": "heard", "text": "દીબો મૈં"}
+{"t": 92.14, "type": "speech"}
+{"t": 96.54, "type": "speech"}
+{"t": 100.16, "type": "heard", "text": "તો દીટો"}
+{"t": 100.23, "type": "speech"}
+{"t": 104.26, "type": "speech"}
+{"t": 106.47, "type": "heard", "text": "ધીઠો"}
+{"t": 106.47, "type": "speech"}
+{"t": 106.49, "type": "say", "kind": "echo_line", "text": "સાંભળ... મામો લાગે મીઠો. હવે તું બોલ!", "spans": [[10, 13]]}
+{"t": 111.65, "type": "speech"}
+{"t": 113.89, "type": "heard", "text": "મામો"}
+{"t": 113.89, "type": "speech"}
+{"t": 117.18, "type": "speech"}
+{"t": 119.31, "type": "heard", "text": "લાગે"}
+{"t": 119.33, "type": "speech"}
+{"t": 123.89, "type": "speech"}
+{"t": 127.46, "type": "heard", "text": "મીટો મીટો"}
+{"t": 127.46, "type": "speech"}
+{"t": 128.36, "type": "speech"}
+{"t": 130.43, "type": "heard", "text": "મીટો"}
+{"t": 130.43, "type": "speech"}
+{"t": 130.72, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 131.16, "type": "summary", "summary": {"words_total": 13, "words_read": 7, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 0, "seconds": 115.8, "words_per_minute": 5.2}}

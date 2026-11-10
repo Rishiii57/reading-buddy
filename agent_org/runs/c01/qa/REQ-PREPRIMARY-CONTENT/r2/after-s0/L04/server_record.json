@@ -1,70 +1,67 @@
 {
- "id": "20261109-212303-6cfb2a",
- "text_id": "en-rain",
+ "id": "20261109-213806-700479",
+ "text_id": "en-ant",
  "mode": "mic",
  "summary": {
-  "words_total": 24,
-  "words_read": 2,
-  "words_helped": 5,
-  "words_to_practise": [
-   "On",
-   "the"
-  ],
-  "words_practised": 1,
-  "correction_attempts": 1,
-  "lines_total": 4,
-  "lines_completed": 1,
+  "words_total": 37,
+  "words_read": 3,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
   "prompts": 1,
-  "corrections": 1,
-  "seconds": 86.6,
-  "words_per_minute": 4.9
+  "corrections": 0,
+  "seconds": 98.2,
+  "words_per_minute": 3.7
  },
  "log": [
   {
-   "t": 0.223,
+   "t": 0.443,
    "event": "state",
    "state": "TEACHER_DEMONSTRATION"
   },
   {
-   "t": 14.052,
+   "t": 16.296,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 16.697,
+   "t": 19.151,
    "event": "transcript",
-   "text": "play play"
+   "text": "A sun"
   },
   {
-   "t": 16.697,
+   "t": 19.151,
    "event": "uncertain",
-   "text": "play play"
+   "text": "a sun"
   },
   {
-   "t": 16.697,
+   "t": 19.151,
    "event": "state",
    "state": "UNCERTAIN_AUDIO"
   },
   {
-   "t": 20.422,
+   "t": 23.246,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 22.082,
+   "t": 25.151,
    "event": "transcript",
-   "text": "Pitter"
+   "text": "A"
   },
   {
-   "t": 22.082,
+   "t": 25.151,
    "event": "progress",
    "frm": 0,
    "to": 1
   },
   {
-   "t": 25.555,
+   "t": 28.179,
    "event": "state",
    "state": "STALL_PROMPT",
    "frm": 1,
@@ -72,7 +69,7 @@
    "line": 0
   },
   {
-   "t": 25.555,
+   "t": 28.179,
    "event": "prompt",
    "level": 1,
    "line": 0,
@@ -80,125 +77,193 @@
    "to": 4
   },
   {
-   "t": 30.595,
+   "t": 31.58,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 33.976,
+   "t": 33.098,
    "event": "transcript",
-   "text": "patter falls the"
+   "text": "small"
   },
   {
-   "t": 33.976,
+   "t": 33.098,
    "event": "progress",
    "frm": 1,
-   "to": 4
+   "to": 2
   },
   {
-   "t": 38.892,
+   "t": 35.941,
    "event": "transcript",
-   "text": "red"
+   "text": "ana ana"
   },
   {
-   "t": 41.812,
-   "event": "transcript",
-   "text": "rain"
-  },
-  {
-   "t": 41.812,
-   "event": "progress",
-   "frm": 4,
-   "to": 5
-  },
-  {
-   "t": 41.812,
-   "event": "state",
-   "state": "LINE_COMPLETED",
-   "line": 0
-  },
-  {
-   "t": 48.215,
-   "event": "transcript",
-   "text": "oa tha roof window pig"
-  },
-  {
-   "t": 48.215,
+   "t": 35.941,
    "event": "uncertain",
-   "text": "oa tha roof window pig"
+   "text": "ana ana"
   },
   {
-   "t": 48.215,
+   "t": 35.941,
    "event": "state",
    "state": "UNCERTAIN_AUDIO"
   },
   {
-   "t": 52.966,
+   "t": 39.299,
    "event": "state",
    "state": "CHILD_READING"
   },
   {
-   "t": 54.577,
+   "t": 41.109,
    "event": "transcript",
-   "text": "oa"
+   "text": "ant"
   },
   {
-   "t": 54.577,
+   "t": 41.109,
    "event": "progress",
-   "frm": 5,
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 45.197,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 45.197,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 45.197,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 51.455,
+   "event": "transcript",
+   "text": "all all"
+  },
+  {
+   "t": 51.455,
+   "event": "uncertain",
+   "text": "all all"
+  },
+  {
+   "t": 51.455,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 54.966,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.414,
+   "event": "transcript",
+   "text": "we"
+  },
+  {
+   "t": 65.141,
+   "event": "transcript",
+   "text": "at the"
+  },
+  {
+   "t": 65.141,
+   "event": "uncertain",
+   "text": "at the"
+  },
+  {
+   "t": 65.141,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 68.754,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 70.71,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 70.71,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 70.71,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 76.259,
+   "event": "transcript",
+   "text": "and"
+  },
+  {
+   "t": 76.259,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 76.259,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 77.911,
+   "event": "progress",
+   "to": 4
+  },
+  {
+   "t": 82.865,
+   "event": "transcript",
+   "text": "tha fish"
+  },
+  {
+   "t": 82.865,
+   "event": "uncertain",
+   "text": "tha fish"
+  },
+  {
+   "t": 82.865,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 86.002,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 90.309,
+   "event": "transcript",
+   "text": "and across tha the"
+  },
+  {
+   "t": 90.309,
+   "event": "progress",
+   "frm": 4,
    "to": 6
   },
   {
-   "t": 59.839,
+   "t": 95.839,
    "event": "transcript",
-   "text": "tha"
-  },
-  {
-   "t": 59.839,
-   "event": "progress",
-   "frm": 6,
-   "to": 7
-  },
-  {
-   "t": 65.782,
-   "event": "transcript",
-   "text": "red"
-  },
-  {
-   "t": 70.422,
-   "event": "correction",
-   "line": 1,
-   "words": [
-    5,
-    6
-   ]
-  },
-  {
-   "t": 70.422,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 5
-  },
-  {
-   "t": 80.621,
-   "event": "transcript",
-   "text": "On om"
-  },
-  {
-   "t": 80.621,
-   "event": "drill_ok",
-   "word": 5
-  },
-  {
-   "t": 80.621,
-   "event": "state",
-   "state": "INDIVIDUAL_WORD_CORRECTION",
-   "word": 6
+   "text": "fish"
   }
  ],
  "stt_events": [
   {
-   "t": 0.0,
+   "t": 0.001,
    "type": "connected",
    "text": null,
    "latency": null,
@@ -206,7 +271,7 @@
    "message": "simulated STT ready"
   },
   {
-   "t": 14.385,
+   "t": 16.856,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -214,15 +279,15 @@
    "message": null
   },
   {
-   "t": 16.697,
+   "t": 19.151,
    "type": "transcript",
-   "text": "play play",
+   "text": "A sun",
    "latency": 120,
    "audio_duration_ms": 1870,
    "message": null
   },
   {
-   "t": 20.626,
+   "t": 23.695,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -230,15 +295,15 @@
    "message": null
   },
   {
-   "t": 22.082,
+   "t": 25.151,
    "type": "transcript",
-   "text": "Pitter",
+   "text": "A",
    "latency": 120,
    "audio_duration_ms": 1030,
    "message": null
   },
   {
-   "t": 30.826,
+   "t": 31.649,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -246,15 +311,159 @@
    "message": null
   },
   {
-   "t": 33.976,
+   "t": 33.098,
    "type": "transcript",
-   "text": "patter falls the",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 33.649,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.941,
+   "type": "transcript",
+   "text": "ana ana",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 39.654,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.109,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 43.745,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.197,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 49.146,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.455,
+   "type": "transcript",
+   "text": "all all",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 56.963,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.414,
+   "type": "transcript",
+   "text": "we",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 62.839,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.141,
+   "type": "transcript",
+   "text": "at the",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 69.213,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.71,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 74.767,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.259,
+   "type": "transcript",
+   "text": "and",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 79.746,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.865,
+   "type": "transcript",
+   "text": "tha fish",
    "latency": 120,
    "audio_duration_ms": 2700,
    "message": null
   },
   {
-   "t": 37.295,
+   "t": 86.358,
    "type": "speech_start",
    "text": null,
    "latency": null,
@@ -262,177 +471,115 @@
    "message": null
   },
   {
-   "t": 38.892,
+   "t": 90.309,
    "type": "transcript",
-   "text": "red",
+   "text": "and across tha the",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 94.389,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 95.839,
+   "type": "transcript",
+   "text": "fish",
    "latency": 120,
    "audio_duration_ms": 1030,
-   "message": null
-  },
-  {
-   "t": 40.36,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 41.812,
-   "type": "transcript",
-   "text": "rain",
-   "latency": 120,
-   "audio_duration_ms": 1030,
-   "message": null
-  },
-  {
-   "t": 43.14,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 48.215,
-   "type": "transcript",
-   "text": "oa tha roof window pig",
-   "latency": 120,
-   "audio_duration_ms": 4370,
-   "message": null
-  },
-  {
-   "t": 53.125,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 54.577,
-   "type": "transcript",
-   "text": "oa",
-   "latency": 120,
-   "audio_duration_ms": 1030,
-   "message": null
-  },
-  {
-   "t": 58.388,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 59.839,
-   "type": "transcript",
-   "text": "tha",
-   "latency": 120,
-   "audio_duration_ms": 1030,
-   "message": null
-  },
-  {
-   "t": 64.298,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 65.782,
-   "type": "transcript",
-   "text": "red",
-   "latency": 120,
-   "audio_duration_ms": 1030,
-   "message": null
-  },
-  {
-   "t": 78.331,
-   "type": "speech_start",
-   "text": null,
-   "latency": null,
-   "audio_duration_ms": null,
-   "message": null
-  },
-  {
-   "t": 80.621,
-   "type": "transcript",
-   "text": "On om",
-   "latency": 120,
-   "audio_duration_ms": 1870,
    "message": null
   }
  ],
  "utterances": [
   {
-   "text": "play play",
-   "heard": "play play",
+   "text": "A sun",
+   "heard": "A sun",
    "muted_words": 0,
    "duration_s": 1.87
   },
   {
-   "text": "Pitter",
-   "heard": "Pitter",
+   "text": "A",
+   "heard": "A",
    "muted_words": 0,
    "duration_s": 1.03
   },
   {
-   "text": "patter falls the",
-   "heard": "patter falls the",
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ana ana",
+   "heard": "ana ana",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "all all",
+   "heard": "all all",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "we",
+   "heard": "we",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "at the",
+   "heard": "at the",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "and",
+   "heard": "and",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "tha fish",
+   "heard": "tha fish",
    "muted_words": 0,
    "duration_s": 2.7
   },
   {
-   "text": "red",
-   "heard": "red",
+   "text": "and across tha the",
+   "heard": "and across tha the",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "fish",
+   "heard": "fish",
    "muted_words": 0,
    "duration_s": 1.03
-  },
-  {
-   "text": "rain",
-   "heard": "rain",
-   "muted_words": 0,
-   "duration_s": 1.03
-  },
-  {
-   "text": "oa tha roof window pig",
-   "heard": "oa tha roof window pig",
-   "muted_words": 0,
-   "duration_s": 4.37
-  },
-  {
-   "text": "oa",
-   "heard": "oa",
-   "muted_words": 0,
-   "duration_s": 1.03
-  },
-  {
-   "text": "tha",
-   "heard": "tha",
-   "muted_words": 0,
-   "duration_s": 1.03
-  },
-  {
-   "text": "red",
-   "heard": "red",
-   "muted_words": 0,
-   "duration_s": 1.03
-  },
-  {
-   "text": "",
-   "heard": "",
-   "muted_words": 0,
-   "duration_s": 1.03
-  },
-  {
-   "text": "On om",
-   "heard": "On om",
-   "muted_words": 0,
-   "duration_s": 1.87
   }
  ],
- "tts_offline": 84
+ "tts_offline": 177
 }

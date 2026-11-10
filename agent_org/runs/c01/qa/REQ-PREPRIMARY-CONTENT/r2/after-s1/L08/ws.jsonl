@@ -1,46 +1,29 @@
-{"t": 16.23, "type": "ready", "message": null}
-{"t": 16.32, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
-{"t": 31.0, "type": "speech"}
-{"t": 34.47, "type": "heard", "text": "एक एक"}
-{"t": 34.47, "type": "speech"}
-{"t": 36.98, "type": "speech"}
-{"t": 40.49, "type": "heard", "text": "दो तीन"}
-{"t": 40.52, "type": "speech"}
-{"t": 43.92, "type": "speech"}
-{"t": 45.97, "type": "heard", "text": "चाड़"}
-{"t": 45.97, "type": "speech"}
-{"t": 46.79, "type": "speech"}
-{"t": 48.85, "type": "heard", "text": "भैय"}
-{"t": 48.85, "type": "speech"}
-{"t": 48.85, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
-{"t": 52.71, "type": "speech"}
-{"t": 54.66, "type": "heard", "text": "बनो"}
-{"t": 54.66, "type": "speech"}
-{"t": 54.93, "type": "speech"}
-{"t": 56.99, "type": "heard", "text": "भैय"}
-{"t": 56.99, "type": "speech"}
-{"t": 60.29, "type": "speech"}
-{"t": 62.35, "type": "heard", "text": "बनो"}
-{"t": 62.35, "type": "speech"}
-{"t": 65.49, "type": "speech"}
-{"t": 67.54, "type": "heard", "text": "होशियाड़"}
-{"t": 67.54, "type": "speech"}
-{"t": 68.36, "type": "speech"}
-{"t": 71.85, "type": "heard", "text": "भैय वनो"}
-{"t": 71.85, "type": "speech"}
-{"t": 71.85, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
-{"t": 75.21, "type": "speech"}
-{"t": 76.82, "type": "heard", "text": "मैं थक गया"}
-{"t": 76.82, "type": "speech"}
-{"t": 76.83, "type": "say", "kind": "break", "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।", "spans": []}
-{"t": 76.83, "type": "auto_pause", "message": null}
-{"t": 84.9, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। चार", "spans": [[3, 4]]}
-{"t": 88.83, "type": "speech"}
-{"t": 90.87, "type": "heard", "text": "चार"}
-{"t": 90.88, "type": "speech"}
-{"t": 90.88, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! एक दो तीन चार अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
-{"t": 97.65, "type": "speech"}
-{"t": 102.57, "type": "heard", "text": "ए दो दो"}
-{"t": 102.57, "type": "speech"}
-{"t": 102.57, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
-{"t": 102.99, "type": "summary", "summary": {"words_total": 15, "words_read": 3, "words_helped": 1, "words_to_practise": ["चार"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 87.1, "words_per_minute": 2.8}}
+{"t": 17.04, "type": "ready", "message": null}
+{"t": 17.32, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 33.97, "type": "speech"}
+{"t": 36.04, "type": "heard", "text": "दो"}
+{"t": 36.04, "type": "speech"}
+{"t": 40.13, "type": "speech"}
+{"t": 43.74, "type": "heard", "text": "तीन तीन"}
+{"t": 43.74, "type": "speech"}
+{"t": 43.94, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 48.78, "type": "speech"}
+{"t": 50.86, "type": "heard", "text": "ए"}
+{"t": 50.86, "type": "speech"}
+{"t": 55.16, "type": "speech"}
+{"t": 57.17, "type": "heard", "text": "थीन"}
+{"t": 57.28, "type": "speech"}
+{"t": 61.16, "type": "speech"}
+{"t": 63.17, "type": "heard", "text": "चार"}
+{"t": 63.17, "type": "speech"}
+{"t": 64.16, "type": "speech"}
+{"t": 66.24, "type": "heard", "text": "थीन"}
+{"t": 66.35, "type": "speech"}
+{"t": 66.68, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 71.1, "type": "speech"}
+{"t": 73.15, "type": "heard", "text": "धो"}
+{"t": 73.16, "type": "speech"}
+{"t": 75.56, "type": "speech"}
+{"t": 79.27, "type": "heard", "text": "थीन थीन"}
+{"t": 79.76, "type": "speech"}
+{"t": 79.83, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}

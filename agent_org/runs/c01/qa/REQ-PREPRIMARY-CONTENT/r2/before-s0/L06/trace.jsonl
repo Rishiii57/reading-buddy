@@ -1,0 +1,20 @@
+{"t": 2.39, "kind": "open_app", "brief": "Krish, LKG (about 4.5 years). Prefers gu-IN. Bilingual Gujarati-Hindi; reads very little yet."}
+{"t": 2.53, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 3.68, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.46, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 6.74, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 6.74, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 3' text, made for children who already read."}
+{"t": 11.19, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 23.97, "kind": "listened_first", "seconds": 11.8}
+{"t": 24.06, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 27.85, "kind": "session_started", "tries": 1}
+{"t": 27.87, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 40.13, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 42.6, "kind": "looked_for_replay", "found": []}
+{"t": 42.6, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 53.74, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 63.75, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 2.22 s thinking pause."}
+{"t": 63.81, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 63.81, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 64.12, "kind": "abandon", "why": "frustration", "frustration": 3.55}
+{"t": 65.87, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,7 +1,7 @@
 {
  "utterances": [
   {
-   "t": 18.57,
+   "t": 22.56,
    "said": "Twinkle twinkle",
    "stt": "Twinkle twinkle",
    "stt_notes": [],
@@ -13,7 +13,7 @@
    "over_buddy": true
   },
   {
-   "t": 22.53,
+   "t": 27.83,
    "said": "Twinkle to",
    "stt": "Twinkle to",
    "stt_notes": [],
@@ -25,25 +25,48 @@
    "over_buddy": true
   },
   {
-   "t": 25.74,
-   "said": "Twinkle twinkle",
-   "stt": "Twinkle twinkle",
+   "t": 32.95,
+   "said": "Twinkle twinkle like",
+   "stt": "Twinkle twinkle like",
    "stt_notes": [],
    "words": [
     0,
-    1
+    1,
+    2
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 34.86,
-   "said": "little star",
-   "stt": "little star",
+   "t": 37.23,
+   "said": "star",
+   "stt": "star",
    "stt_notes": [],
    "words": [
-    2,
     3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.34,
+   "said": "hoa",
+   "stt": "hoa",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.74,
+   "said": "wonder wonder",
+   "stt": "wonder wonder",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
    ],
    "muted_words": 0,
    "over_buddy": false
@@ -52,7 +75,7 @@
  "attempts": {
   "0": [
    {
-    "t": 18.57,
+    "t": 22.56,
     "target": "Twinkle",
     "said": "Twinkle",
     "correct": true,
@@ -60,7 +83,7 @@
     "stt": "Twinkle twinkle"
    },
    {
-    "t": 22.53,
+    "t": 27.83,
     "target": "Twinkle",
     "said": "Twinkle",
     "correct": true,
@@ -68,17 +91,17 @@
     "stt": "Twinkle to"
    },
    {
-    "t": 25.74,
+    "t": 32.95,
     "target": "Twinkle",
     "said": "Twinkle",
     "correct": true,
     "kind": "ok",
-    "stt": "Twinkle twinkle"
+    "stt": "Twinkle twinkle like"
    }
   ],
   "1": [
    {
-    "t": 18.57,
+    "t": 22.56,
     "target": "twinkle",
     "said": "twinkle",
     "correct": true,
@@ -86,7 +109,7 @@
     "stt": "Twinkle twinkle"
    },
    {
-    "t": 22.53,
+    "t": 27.83,
     "target": "twinkle",
     "said": "to",
     "correct": false,
@@ -94,38 +117,68 @@
     "stt": "Twinkle to"
    },
    {
-    "t": 25.74,
+    "t": 32.95,
     "target": "twinkle",
     "said": "twinkle",
     "correct": true,
     "kind": "ok",
-    "stt": "Twinkle twinkle"
+    "stt": "Twinkle twinkle like"
    }
   ],
   "2": [
    {
-    "t": 34.86,
+    "t": 32.95,
     "target": "little",
-    "said": "little",
-    "correct": true,
-    "kind": "ok",
-    "stt": "little star"
+    "said": "like",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Twinkle twinkle like"
    }
   ],
   "3": [
    {
-    "t": 34.86,
+    "t": 37.23,
     "target": "star",
     "said": "star",
     "correct": true,
     "kind": "ok",
-    "stt": "little star"
+    "stt": "star"
+   }
+  ],
+  "4": [
+   {
+    "t": 48.34,
+    "target": "How",
+    "said": "hoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa"
+   }
+  ],
+  "5": [
+   {
+    "t": 54.74,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "wonder wonder"
+   }
+  ],
+  "6": [
+   {
+    "t": 54.74,
+    "target": "wonder",
+    "said": "wonder",
+    "correct": true,
+    "kind": "ok",
+    "stt": "wonder wonder"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 10.26,
+   "t": 15.19,
    "type": "say",
    "kind": "intro",
    "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
@@ -137,25 +190,25 @@
    ]
   },
   {
-   "t": 29.19,
-   "type": "say",
-   "kind": "stall_phrase",
-   "text": "Listen... little star",
-   "spans": [
-    [
-     2,
-     4
-    ]
-   ]
-  },
-  {
-   "t": 35.05,
+   "t": 37.29,
    "type": "say",
    "kind": "echo_line",
    "text": "Listen... How I wonder what you are! Now you try!",
    "spans": [
     [
      4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 59.95,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... what you are!",
+   "spans": [
+    [
+     7,
      10
     ]
    ]

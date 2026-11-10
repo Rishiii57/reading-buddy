@@ -55,7 +55,8 @@ OBSERVE_JS = r"""() => {
 }"""
 
 STATE_JS = r"""() => ({ view: document.querySelector('.view.is-active')?.id || null, hash: location.hash,
-  dialog: document.querySelector('dialog[open]')?.id || null, dock: document.getElementById('micDock')?.dataset.state || null })"""
+  dialog: document.querySelector('dialog[open]')?.id || null, dock: document.getElementById('micDock')?.dataset.state || null,
+  bubble: (document.getElementById('bubbleText')?.textContent || '') + '|' + (document.getElementById('bubbleLabel')?.textContent || '') })"""
 
 # The child's ears: record every sound the page starts playing (time and length). Perception only:
 # it does not change what the app does.
@@ -245,8 +246,9 @@ class ChildAgent:
                 raise RuntimeError(f"harness could not tap reliably: {exc}")
         await asyncio.sleep(0.6)
         after = await self.state(page)
-        changed = (after.get("view"), after.get("hash"), after.get("dialog"), after.get("dock")) != \
-                  (before.get("view"), before.get("hash"), before.get("dialog"), before.get("dock"))
+        # the tap "did something" if the screen visibly responded: new screen, dialog, mic state or Buddy's bubble
+        keys = ("view", "hash", "dialog", "dock", "bubble")
+        changed = tuple(after.get(k) for k in keys) != tuple(before.get(k) for k in keys)
         if tapped and not changed and c["tag"] != "input" and "chip" not in c["cls"]:
             self.metrics["dead_clicks"] += 1
             self.affect.add("dead_click", self.now(), target=c["text"][:40])

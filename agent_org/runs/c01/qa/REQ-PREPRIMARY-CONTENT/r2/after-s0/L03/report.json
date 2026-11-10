@@ -36,13 +36,13 @@
     "code": "NO_TEXT_FOR_MY_LEVEL",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 10.12,
+    "first_t": 9.14,
     "details": [
      "LKG child landed on a 'Grade 2-3' text, made for children who already read."
     ],
     "evidence": [
      {
-      "t": 10.12,
+      "t": 9.14,
       "title": "ચકલી અને દાણા",
       "grade_tag": "Grade 2-3"
      }
@@ -51,41 +51,17 @@
     "child_severity": "blocked"
    },
    {
-    "code": "CONSENT_BLOCKS_CHILD",
-    "count": 2,
-    "evidence_level": "observed",
-    "first_t": 16.78,
-    "details": [
-     "A written grown-ups-only box appeared; the child could not read it and could not start.",
-     "A written grown-ups-only box appeared; the child could not read it and could not start."
-    ],
-    "evidence": [
-     {
-      "t": 16.78,
-      "grade": "LKG",
-      "tapped": "Not now"
-     },
-     {
-      "t": 18.87,
-      "grade": "LKG",
-      "tapped": "Not now"
-     }
-    ],
-    "child_quote": "A box came and I didn't know what it said.",
-    "child_severity": "blocked"
-   },
-   {
     "code": "LONG_TUTOR_TALK",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 34.22,
+    "first_t": 28.28,
     "details": [
      "Buddy talked for over 12 s in one go before the child could read."
     ],
     "evidence": [
      {
-      "t": 34.22,
-      "talk_s": 12.5
+      "t": 28.28,
+      "talk_s": 12.1
      }
     ],
     "child_quote": "Buddy talked too long.",
@@ -95,206 +71,162 @@
     "code": "INTERRUPTED_WHILE_THINKING",
     "count": 2,
     "evidence_level": "observed",
-    "first_t": 78.04,
+    "first_t": 63.53,
     "details": [
-     "Buddy started talking 2.4 s into a planned 2.96 s thinking pause.",
-     "Buddy started talking 2.4 s into a planned 3.78 s thinking pause."
+     "Buddy started talking 0.6 s into a planned 2.17 s thinking pause.",
+     "Buddy started talking 4.5 s into a planned 4.09 s thinking pause."
     ],
     "evidence": [
      {
-      "t": 78.04,
-      "paused_s": 2.4,
-      "planned_s": 2.96,
-      "line": 1,
-      "buddy_kind": "stall_phrase",
-      "next_words": "રોજ સવારે દાણા"
+      "t": 63.53,
+      "paused_s": 0.6,
+      "planned_s": 2.17,
+      "line": 0,
+      "buddy_kind": "uncertain",
+      "next_words": "ચકલી હતી."
      },
      {
-      "t": 149.57,
-      "paused_s": 2.4,
-      "planned_s": 3.78,
-      "line": 1,
-      "buddy_kind": "stall_rest",
-      "next_words": "શોધવા જતી."
+      "t": 94.59,
+      "paused_s": 4.5,
+      "planned_s": 4.09,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "નાની ચકલી હતી."
      }
     ],
     "child_quote": "Buddy talked when I was thinking!",
     "child_severity": "upsetting"
    },
    {
-    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "code": "FALSE_CORRECTION_STT",
     "count": 1,
     "evidence_level": "observed",
-    "first_t": 114.35,
+    "first_t": 74.76,
     "details": [
-     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+     "Read 'નાની' correctly but Buddy asked to practise it (the speech model wrote it differently)."
     ],
     "evidence": [
      {
-      "t": 114.35,
-      "said": "સબારે સવારે ધાણા સોધવા ઝતી",
-      "heard": "ધાણા સોધવા ઝતી"
+      "t": 74.76,
+      "word": "નાની",
+      "child_said": "નાની",
+      "speech_model_wrote": "એક ણાની ચકલિ હતી"
      }
     ],
-    "child_quote": "I said it but Buddy didn't hear me!",
-    "child_severity": "confusing"
-   },
-   {
-    "code": "MISSED_ERROR",
-    "count": 1,
-    "evidence_level": "observed",
-    "first_t": null,
-    "details": [
-     "Read 'ચકલી' as 'ચકલિ' and it was marked as read correctly."
-    ],
-    "evidence": [
-     {
-      "word": "ચકલી",
-      "child_said": "ચકલિ",
-      "kind": "sub",
-      "speech_model_wrote": "એક એક નાની ચકલિ ચકલિ હતી"
-     }
-    ],
-    "child_quote": "",
-    "child_severity": "annoying"
+    "child_quote": "But I said it right!",
+    "child_severity": "upsetting"
    }
   ],
   "positives": [],
-  "frustration_peak": 4.5,
+  "frustration_peak": 4.15,
   "frustration_events": [
    {
-    "t": 16.78,
-    "kind": "not_understood",
-    "frustration": 0.6,
-    "what": "consent dialog"
-   },
-   {
-    "t": 18.87,
-    "kind": "not_understood",
-    "frustration": 1.2,
-    "what": "consent dialog"
-   },
-   {
-    "t": 34.22,
+    "t": 28.28,
     "kind": "long_wait",
-    "frustration": 1.6
+    "frustration": 0.4
    },
    {
-    "t": 44.9,
+    "t": 32.81,
+    "kind": "dead_click",
+    "frustration": 0.9,
+    "target": "Listening"
+   },
+   {
+    "t": 36.56,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 42.71,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 63.53,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 0.6
+   },
+   {
+    "t": 73.88,
     "kind": "progress",
     "frustration": 1.45
    },
    {
-    "t": 48.36,
-    "kind": "dead_click",
-    "frustration": 1.95,
-    "target": "Listening"
+    "t": 74.76,
+    "kind": "false_correction",
+    "frustration": 2.65,
+    "word": "નાની"
    },
    {
-    "t": 58.62,
-    "kind": "progress",
-    "frustration": 1.8
-   },
-   {
-    "t": 78.04,
+    "t": 94.59,
     "kind": "interrupted_pause",
-    "frustration": 2.8,
-    "paused_s": 2.4
+    "frustration": 3.65,
+    "paused_s": 4.5
    },
    {
-    "t": 95.99,
-    "kind": "progress",
-    "frustration": 2.65
-   },
-   {
-    "t": 101.75,
-    "kind": "progress",
-    "frustration": 2.5
-   },
-   {
-    "t": 114.35,
-    "kind": "unheard_speech",
-    "frustration": 3.3
-   },
-   {
-    "t": 114.35,
-    "kind": "progress",
-    "frustration": 3.15
-   },
-   {
-    "t": 129.11,
-    "kind": "progress",
-    "frustration": 3.0
-   },
-   {
-    "t": 149.57,
-    "kind": "interrupted_pause",
-    "frustration": 4.0,
-    "paused_s": 2.4
-   },
-   {
-    "t": 152.11,
+    "t": 97.55,
     "kind": "dead_click",
-    "frustration": 4.5,
+    "frustration": 4.15,
     "target": "End"
    }
   ]
  },
  "metrics": {
-  "clicks": 9,
+  "clicks": 5,
   "dead_clicks": 2,
   "nav_clicks": 2,
   "praise_heard": 0,
   "interruptions": 2,
-  "unheard_words": 2,
-  "buddy_talk_s": 39.5,
-  "child_talk_s": 63.4,
+  "unheard_words": 0,
+  "buddy_talk_s": 39.8,
+  "child_talk_s": 18.1,
   "tired_said": false,
-  "time_to_text_s": 4.3,
+  "time_to_text_s": 3.7,
   "reader_page_audio_clips": 1,
-  "intro_s": 14.0,
-  "time_to_first_word_s": 14.0,
-  "session_s": 132.0,
+  "intro_s": 15.4,
+  "time_to_first_word_s": 16.7,
+  "session_s": 82.9,
   "words_total": 23,
-  "words_attempted": 10,
-  "words_said_wrong": 6,
-  "corrections": 0,
-  "buddy_turns": 10,
-  "stall_prompts": 3,
-  "uncertain_prompts": 6
+  "words_attempted": 4,
+  "words_said_wrong": 2,
+  "corrections": 2,
+  "buddy_turns": 7,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
  },
  "tutor_summary": {
   "words_total": 23,
-  "words_read": 4,
-  "words_helped": 6,
-  "words_to_practise": [],
-  "words_practised": 0,
-  "correction_attempts": 0,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [
+   "નાની"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
   "lines_total": 4,
-  "lines_completed": 1,
+  "lines_completed": 0,
   "lines_skipped": [],
   "finished": false,
-  "prompts": 3,
-  "corrections": 0,
-  "seconds": 132.4,
-  "words_per_minute": 4.5
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 82.7,
+  "words_per_minute": 2.9
  },
  "ux_scores": {
   "discoverability": 5,
-  "guidance": 4,
-  "interruption_load": 2,
-  "correction_quality": 5,
-  "completion": 3,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 2,
   "enjoyment": 1
  },
  "artefacts": {
   "screens": [
    "screens/00-home.png",
    "screens/01-reader.png",
-   "screens/02-consent.png",
-   "screens/03-consent.png",
-   "screens/04-abandon.png",
-   "screens/05-end.png"
+   "screens/02-abandon.png",
+   "screens/03-end.png"
   ],
   "trace": "trace.jsonl",
   "ws": "ws.jsonl",
@@ -302,7 +234,7 @@
   "server_record": "server_record.json"
  },
  "simulation_notes": {
-  "tts_placeholder_clips": 103,
+  "tts_placeholder_clips": 129,
   "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
  }
 }

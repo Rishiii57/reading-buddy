@@ -30,30 +30,46 @@
    "issues": 2
   },
   "L03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:30:21"
+   "since": "21:30:21",
+   "outcome": "abandoned_frustration",
+   "issues": 5
   },
   "L04": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:30:40"
+   "since": "21:30:40",
+   "outcome": "abandoned_frustration",
+   "issues": 3
   },
   "L05": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:30:44"
+   "since": "21:30:44",
+   "outcome": "abandoned_frustration",
+   "issues": 4
   },
   "L06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "21:30:52"
+   "since": "21:30:52",
+   "outcome": "abandoned_frustration",
+   "issues": 8
   },
   "L07": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:35",
+   "outcome": "abandoned_frustration",
+   "issues": 6
   },
   "L08": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "21:32:05",
+   "outcome": "left_before_start",
+   "issues": 2
   }
  }
 }

@@ -1,0 +1,33 @@
+{"t": 15.85, "type": "ready", "message": null}
+{"t": 15.89, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 33.21, "type": "speech"}
+{"t": 37.93, "type": "heard", "text": "આવ ડે વરસાદ"}
+{"t": 37.99, "type": "speech"}
+{"t": 38.17, "type": "say", "kind": "echo_line", "text": "સાંભળ... ઘેવરિયો પરસાદ. હવે તું બોલ!", "spans": [[3, 5]]}
+{"t": 42.72, "type": "speech"}
+{"t": 44.94, "type": "heard", "text": "ઘેવડિયો"}
+{"t": 44.99, "type": "speech"}
+{"t": 47.51, "type": "speech"}
+{"t": 49.7, "type": "heard", "text": "પરસાદ"}
+{"t": 49.7, "type": "speech"}
+{"t": 49.71, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 49.71, "type": "say", "kind": "echo_line", "text": "સાંભળ... ઊની ઊની રોટલી હવે તું બોલ!", "spans": [[5, 8]]}
+{"t": 60.17, "type": "speech"}
+{"t": 63.69, "type": "heard", "text": "ઊણી ઊણી"}
+{"t": 63.73, "type": "speech"}
+{"t": 67.44, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ઊની ઊની રોટલી", "spans": [[5, 8]]}
+{"t": 70.8, "type": "speech"}
+{"t": 74.32, "type": "heard", "text": "ઊણી ઊણી"}
+{"t": 74.42, "type": "speech"}
+{"t": 78.02, "type": "speech"}
+{"t": 81.1, "type": "heard", "text": "ઊણી રોટલી"}
+{"t": 81.1, "type": "speech"}
+{"t": 81.17, "type": "say", "kind": "echo_line", "text": "સાંભળ... ને કારેલાનું શાક. હવે તું બોલ!", "spans": [[8, 11]]}
+{"t": 86.21, "type": "speech"}
+{"t": 91.21, "type": "heard", "text": "કારેલાનું સાક"}
+{"t": 91.21, "type": "speech"}
+{"t": 92.23, "type": "speech"}
+{"t": 94.57, "type": "heard", "text": "સાક"}
+{"t": 94.57, "type": "speech"}
+{"t": 94.81, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 95.13, "type": "summary", "summary": {"words_total": 11, "words_read": 5, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 0, "seconds": 78.5, "words_per_minute": 6.9}}

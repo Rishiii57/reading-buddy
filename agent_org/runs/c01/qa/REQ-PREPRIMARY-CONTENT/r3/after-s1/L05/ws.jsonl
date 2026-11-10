@@ -1,0 +1,42 @@
+{"t": 16.64, "type": "ready", "message": null}
+{"t": 16.67, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 34.33, "type": "speech"}
+{"t": 36.63, "type": "heard", "text": "गुड़िया"}
+{"t": 36.63, "type": "speech"}
+{"t": 36.99, "type": "speech"}
+{"t": 39.67, "type": "heard", "text": "मेड़ी"}
+{"t": 39.75, "type": "speech"}
+{"t": 40.05, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 44.12, "type": "speech"}
+{"t": 46.61, "type": "heard", "text": "मेड़ी"}
+{"t": 46.63, "type": "speech"}
+{"t": 50.38, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेरी", "spans": [[0, 1]]}
+{"t": 55.35, "type": "speech"}
+{"t": 57.98, "type": "heard", "text": "मेड़ी"}
+{"t": 57.98, "type": "speech"}
+{"t": 58.07, "type": "say", "kind": "fix_again", "text": "मेरी", "spans": [[0, 1]]}
+{"t": 62.47, "type": "speech"}
+{"t": 67.11, "type": "heard", "text": "मेरी मेरी"}
+{"t": 67.11, "type": "speech"}
+{"t": 67.3, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! गुड़िया", "spans": [[1, 2]]}
+{"t": 72.47, "type": "speech"}
+{"t": 75.04, "type": "heard", "text": "गुढ़िया"}
+{"t": 75.05, "type": "speech"}
+{"t": 75.05, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 78.31, "type": "speech"}
+{"t": 80.91, "type": "heard", "text": "गुढ़िया"}
+{"t": 80.93, "type": "speech"}
+{"t": 80.95, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 84.15, "type": "speech"}
+{"t": 86.89, "type": "heard", "text": "गुड़िया"}
+{"t": 86.89, "type": "speech"}
+{"t": 86.94, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 93.57, "type": "speech"}
+{"t": 96.25, "type": "heard", "text": "मेरी"}
+{"t": 96.29, "type": "speech"}
+{"t": 99.73, "type": "say", "kind": "stall_phrase", "text": "सुनो... गुड़िया प्यारी है", "spans": [[1, 4]]}
+{"t": 105.19, "type": "speech"}
+{"t": 109.25, "type": "heard", "text": "गुड़िया प्यारी"}
+{"t": 109.28, "type": "speech"}
+{"t": 112.69, "type": "say", "kind": "stall_phrase", "text": "सुनो... है", "spans": [[3, 4]]}
+{"t": 114.91, "type": "summary", "summary": {"words_total": 17, "words_read": 0, "words_helped": 4, "words_to_practise": ["मेरी", "गुड़िया"], "words_practised": 2, "correction_attempts": 5, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 1, "seconds": 98.2, "words_per_minute": 2.4}}

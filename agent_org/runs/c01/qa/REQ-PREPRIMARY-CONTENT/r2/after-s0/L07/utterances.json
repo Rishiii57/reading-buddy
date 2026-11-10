@@ -1,7 +1,7 @@
 {
  "utterances": [
   {
-   "t": 30.57,
+   "t": 34.82,
    "said": "આબ",
    "stt": "આબ",
    "stt_notes": [],
@@ -12,48 +12,35 @@
    "over_buddy": false
   },
   {
-   "t": 40.1,
-   "said": "આવ",
-   "stt": "આવ",
+   "t": 43.09,
+   "said": "ડે વરશાદ",
+   "stt": "ડે વરશાદ",
    "stt_notes": [],
    "words": [
-    0
-   ],
-   "drill": true,
-   "muted_words": 0
-  },
-  {
-   "t": 44.55,
-   "said": "આબ આબ",
-   "stt": "આબ આબ",
-   "stt_notes": [],
-   "words": [
-    0
+    1,
+    2
    ],
    "muted_words": 2,
-   "over_buddy": true
+   "over_buddy": false
   },
   {
-   "t": 47.47,
+   "t": 45.73,
    "said": "",
    "stt": "",
    "stt_notes": [],
    "words": [
-    0
+    1
    ],
    "muted_words": 0,
    "over_buddy": false
   },
   {
-   "t": 52.09,
-   "said": "વડસાદ",
+   "t": 53.26,
+   "said": "",
    "stt": "",
-   "stt_notes": [
-    "lost 'વડસાદ'"
-   ],
+   "stt_notes": [],
    "words": [
-    1,
-    2
+    1
    ],
    "muted_words": 0,
    "over_buddy": false
@@ -62,42 +49,33 @@
  "attempts": {
   "0": [
    {
-    "t": 30.57,
+    "t": 34.82,
     "target": "આવ",
     "said": "આબ",
     "correct": false,
     "kind": "sub",
     "stt": "આબ"
-   },
-   {
-    "t": 40.1,
-    "target": "આવ",
-    "said": "આવ",
-    "correct": true,
-    "kind": "ok",
-    "stt": "આવ",
-    "drill": true
-   },
-   {
-    "t": 44.55,
-    "target": "આવ",
-    "said": "આબ",
-    "correct": false,
-    "kind": "sub",
-    "stt": "આબ આબ"
-   },
-   {
-    "t": 47.47,
-    "target": "આવ",
-    "said": null,
-    "correct": false,
-    "kind": "skip",
-    "stt": ""
    }
   ],
   "1": [
    {
-    "t": 52.09,
+    "t": 43.09,
+    "target": "રે",
+    "said": "ડે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડે વરશાદ"
+   },
+   {
+    "t": 45.73,
+    "target": "રે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 53.26,
     "target": "રે",
     "said": null,
     "correct": false,
@@ -107,18 +85,18 @@
   ],
   "2": [
    {
-    "t": 52.09,
+    "t": 43.09,
     "target": "વરસાદ",
-    "said": "વડસાદ",
+    "said": "વરશાદ",
     "correct": false,
     "kind": "sub",
-    "stt": ""
+    "stt": "ડે વરશાદ"
    }
   ]
  },
  "buddy_said": [
   {
-   "t": 12.35,
+   "t": 14.4,
    "type": "say",
    "kind": "intro",
    "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!",
@@ -130,40 +108,35 @@
    ]
   },
   {
-   "t": 34.11,
-   "type": "say",
-   "kind": "fix_word",
-   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. આવ",
-   "spans": [
-    [
-     0,
-     1
-    ]
-   ]
-  },
-  {
-   "t": 40.1,
-   "type": "say",
-   "kind": "repeat_line",
-   "text": "હા! ખૂબ સરસ! આવ રે વરસાદ હવે તું આખી પંક્તિ બોલ.",
-   "spans": [
-    [
-     0,
-     3
-    ]
-   ]
-  },
-  {
-   "t": 51.84,
+   "t": 39.98,
    "type": "say",
    "kind": "stall_phrase",
-   "text": "સાંભળ... આવ રે વરસાદ",
+   "text": "સાંભળ... રે વરસાદ",
    "spans": [
     [
-     0,
+     1,
      3
     ]
    ]
+  },
+  {
+   "t": 48.16,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "રે વરસાદ હવે તું બોલ!",
+   "spans": [
+    [
+     1,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 55.69,
+   "type": "say",
+   "kind": "take_time",
+   "text": "આરામથી. હું તારી મદદ માટે અહીં જ છું.",
+   "spans": []
   }
  ]
 }
