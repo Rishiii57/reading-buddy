@@ -399,5 +399,10 @@
    "from_base": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0",
    "to_base": "af436556b841ffc9d6e1c7d0c02b1bf5fd4c00b1"
   }
- ]
+ ],
+ "merged": {
+  "at": "2026-11-10T11:13:45",
+  "into": "agent-org-handoff",
+  "commit": "2ebe27df3c85b4e8a5ac20c298ee4b2342bf6b92"
+ }
 }
