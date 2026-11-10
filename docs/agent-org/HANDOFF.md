@@ -31,7 +31,7 @@ Built in a cloud session on branch `agent-org-handoff` (pushed to `Rishiii57/rea
 
 ## Waiting for a human decision
 
-- `REQ-PREPRIMARY-CONTENT`: merged (13 traditional rhymes). Hindi/Gujarati text needs a native speaker's check; 10 % of pre-primary children still open a Grade text (PM flagged it again).
+- `REQ-PREPRIMARY-CONTENT`: merged (13 traditional rhymes). Hindi/Gujarati text needs a native speaker's check; 5 of 26 pre-primary children still opened a Grade text in the re-test (PM flagged it again).
 - `REQ-CONSENT-GATE`: consent dialog removed on the team's decision.
 - `REQ-FALSE-CORRECTION-STT`, `REQ-LENIENT-MATCHING`: voice-data collection and a product decision on error tolerance.
 - Credits (approved, must run where Gnani is reachable): `python -m backend.pregen --words` for the new rhymes and phrases, then the augmented audio set (see RUN_INSTRUCTIONS.md).
