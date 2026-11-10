@@ -1,0 +1,36 @@
+{"t": 14.63, "type": "ready", "message": null}
+{"t": 14.98, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 33.02, "type": "speech"}
+{"t": 33.53, "type": "heard", "text": "मीना"}
+{"t": 33.59, "type": "speech"}
+{"t": 35.56, "type": "speech"}
+{"t": 39.09, "type": "heard", "text": "के घड़ के पीछे एक बगीचा"}
+{"t": 39.09, "type": "speech"}
+{"t": 40.15, "type": "speech"}
+{"t": 41.15, "type": "heard", "text": "है"}
+{"t": 41.17, "type": "speech"}
+{"t": 41.21, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। घर", "spans": [[2, 3]]}
+{"t": 46.2, "type": "speech"}
+{"t": 47.33, "type": "heard", "text": "घर"}
+{"t": 47.33, "type": "speech"}
+{"t": 47.42, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मीना के घर के पीछे एक बगीचा है। अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 8]]}
+{"t": 55.53, "type": "speech"}
+{"t": 58.66, "type": "heard", "text": "मीना के घर के पीछे"}
+{"t": 58.66, "type": "speech"}
+{"t": 60.25, "type": "speech"}
+{"t": 62.28, "type": "heard", "text": "एक बगीचा है"}
+{"t": 62.42, "type": "speech"}
+{"t": 62.57, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 66.62, "type": "speech"}
+{"t": 68.83, "type": "heard", "text": "उसमें लाल"}
+{"t": 68.83, "type": "speech"}
+{"t": 70.66, "type": "say", "kind": "stall_phrase", "text": "सुनो... और पीले फूल", "spans": [[10, 13]]}
+{"t": 76.45, "type": "speech"}
+{"t": 79.43, "type": "heard", "text": "और पीले फूल खिलते हैं"}
+{"t": 79.5, "type": "speech"}
+{"t": 79.5, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 82.74, "type": "speech"}
+{"t": 88.23, "type": "heard", "text": "मीना हड़ हड़ षुबह सुबह पौधों कौ को पानी देती"}
+{"t": 88.23, "type": "speech"}
+{"t": 90.27, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। हर", "spans": [[16, 17]]}
+{"t": 90.74, "type": "summary", "summary": {"words_total": 30, "words_read": 17, "words_helped": 5, "words_to_practise": ["घर", "हर"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 75.9, "words_per_minute": 17.4}}

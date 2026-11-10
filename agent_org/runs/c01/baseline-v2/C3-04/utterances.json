@@ -1,0 +1,646 @@
+{
+ "utterances": [
+  {
+   "t": 47.24,
+   "said": "Ravi",
+   "stt": "Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.23,
+   "said": "haz",
+   "stt": "haz",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.41,
+   "said": "a a mango",
+   "stt": "a a mango",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 3,
+   "over_buddy": false
+  },
+  {
+   "t": 57.67,
+   "said": "has",
+   "stt": "has",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 62.78,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 68.9,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 78.46,
+   "said": "Ravi",
+   "stt": "Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.99,
+   "said": "has",
+   "stt": "has",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 93.25,
+   "said": "a mango",
+   "stt": "a mango",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 99.39,
+   "said": "tree in his garden",
+   "stt": "tree in his garden",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 4,
+   "over_buddy": false
+  },
+  {
+   "t": 101.78,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 111.2,
+   "said": "in hiz his garden",
+   "stt": "in hiz his garden",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 115.95,
+   "said": "Every",
+   "stt": "Every",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 120.6,
+   "said": "summer the",
+   "stt": "summer the",
+   "stt_notes": [],
+   "words": [
+    9,
+    10
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 124.46,
+   "said": "summer the",
+   "stt": "summer the",
+   "stt_notes": [],
+   "words": [
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 132.06,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 138.92,
+   "said": "is is full ov sweet",
+   "stt": "is is full ov sweet",
+   "stt_notes": [],
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 142.24,
+   "said": "nangoes",
+   "stt": "nangoes",
+   "stt_notes": [],
+   "words": [
+    16
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 47.24,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi"
+   },
+   {
+    "t": 78.46,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi"
+   }
+  ],
+  "1": [
+   {
+    "t": 50.23,
+    "target": "has",
+    "said": "haz",
+    "correct": false,
+    "kind": "sub",
+    "stt": "haz"
+   },
+   {
+    "t": 57.67,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has",
+    "drill": true
+   },
+   {
+    "t": 84.99,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has"
+   }
+  ],
+  "2": [
+   {
+    "t": 55.41,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a a mango"
+   },
+   {
+    "t": 62.78,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 68.9,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a",
+    "drill": true
+   },
+   {
+    "t": 93.25,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a mango"
+   }
+  ],
+  "3": [
+   {
+    "t": 55.41,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a a mango"
+   },
+   {
+    "t": 93.25,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a mango"
+   }
+  ],
+  "4": [
+   {
+    "t": 99.39,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree in his garden"
+   },
+   {
+    "t": 101.78,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree"
+   }
+  ],
+  "5": [
+   {
+    "t": 99.39,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree in his garden"
+   },
+   {
+    "t": 111.2,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "in hiz his garden"
+   }
+  ],
+  "6": [
+   {
+    "t": 99.39,
+    "target": "his",
+    "said": "his",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree in his garden"
+   },
+   {
+    "t": 111.2,
+    "target": "his",
+    "said": "hiz his",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "in hiz his garden"
+   }
+  ],
+  "7": [
+   {
+    "t": 99.39,
+    "target": "garden",
+    "said": "garden",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree in his garden"
+   },
+   {
+    "t": 111.2,
+    "target": "garden",
+    "said": "garden",
+    "correct": true,
+    "kind": "ok",
+    "stt": "in hiz his garden"
+   }
+  ],
+  "8": [
+   {
+    "t": 115.95,
+    "target": "Every",
+    "said": "Every",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Every"
+   }
+  ],
+  "9": [
+   {
+    "t": 120.6,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "summer the"
+   },
+   {
+    "t": 124.46,
+    "target": "summer",
+    "said": "summer",
+    "correct": true,
+    "kind": "ok",
+    "stt": "summer the"
+   }
+  ],
+  "10": [
+   {
+    "t": 120.6,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "summer the"
+   },
+   {
+    "t": 124.46,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "summer the"
+   }
+  ],
+  "11": [
+   {
+    "t": 132.06,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree"
+   }
+  ],
+  "12": [
+   {
+    "t": 138.92,
+    "target": "is",
+    "said": "is",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is is full ov sweet"
+   }
+  ],
+  "13": [
+   {
+    "t": 138.92,
+    "target": "full",
+    "said": "full",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is is full ov sweet"
+   }
+  ],
+  "14": [
+   {
+    "t": 138.92,
+    "target": "of",
+    "said": "ov",
+    "correct": false,
+    "kind": "sub",
+    "stt": "is is full ov sweet"
+   }
+  ],
+  "15": [
+   {
+    "t": 138.92,
+    "target": "sweet",
+    "said": "sweet",
+    "correct": true,
+    "kind": "ok",
+    "stt": "is is full ov sweet"
+   }
+  ],
+  "16": [
+   {
+    "t": 142.24,
+    "target": "mangoes",
+    "said": "nangoes",
+    "correct": false,
+    "kind": "sub",
+    "stt": "nangoes"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 28.56,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 52.55,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. has",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 58.05,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! a",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 65.45,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "a",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 69.08,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 80.6,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... has a mango",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 87.16,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... a mango tree",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 95.54,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... tree in his",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 103.85,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... in his garden.",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 111.22,
+   "type": "say",
+   "kind": "praise",
+   "text": "Wonderful! Let's move to the next line.",
+   "spans": []
+  },
+  {
+   "t": 118.09,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... summer the tree",
+   "spans": [
+    [
+     9,
+     12
+    ]
+   ]
+  },
+  {
+   "t": 126.56,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... tree is full",
+   "spans": [
+    [
+     11,
+     14
+    ]
+   ]
+  },
+  {
+   "t": 141.16,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. of",
+   "spans": [
+    [
+     14,
+     15
+    ]
+   ]
+  }
+ ]
+}

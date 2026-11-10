@@ -1,0 +1,21 @@
+{"t": 1.94, "kind": "open_app", "brief": "Navya, UKG (about 5.5 years). Prefers en-IN. Can read words, not yet sentences."}
+{"t": 1.98, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.42, "kind": "tap", "target": "Reading Buddy", "why": "curious tap", "view": "view-languages"}
+{"t": 4.36, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.39, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.35, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 8.37, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 13.21, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 13.33, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.59, "kind": "session_started", "tries": 1}
+{"t": 29.37, "kind": "tap_mic_to_talk"}
+{"t": 29.38, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 31.0, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 33.34, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 34.35, "kind": "resumed", "after_s": 2.0}
+{"t": 42.2, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 47.93, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.93 s thinking pause."}
+{"t": 63.65, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.0 s into a planned 2.49 s thinking pause."}
+{"t": 66.14, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 66.4, "kind": "abandon", "why": "frustration", "frustration": 4.55}
+{"t": 66.75, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

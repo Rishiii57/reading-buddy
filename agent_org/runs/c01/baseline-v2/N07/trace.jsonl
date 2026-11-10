@@ -1,0 +1,17 @@
+{"t": 3.02, "kind": "open_app", "brief": "Arjun, Nursery (about 3.5 years). Prefers en-IN. English-medium school, Hindi at home; tires fast."}
+{"t": 3.03, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.46, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.96, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 7.48, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 11.6, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 11.64, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.12, "kind": "session_started", "tries": 1}
+{"t": 31.35, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 4.85 s thinking pause."}
+{"t": 37.89, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.88 s thinking pause."}
+{"t": 41.2, "kind": "tap_mic_to_talk"}
+{"t": 41.25, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 42.19, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 46.36, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 47.48, "kind": "resumed", "after_s": 4.0}
+{"t": 47.67, "kind": "abandon", "why": "frustration", "frustration": 3.1}
+{"t": 49.22, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

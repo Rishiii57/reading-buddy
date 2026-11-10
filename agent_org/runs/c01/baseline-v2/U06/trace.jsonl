@@ -1,0 +1,19 @@
+{"t": 2.4, "kind": "open_app", "brief": "Tara, UKG (about 5.5 years). Prefers en-IN. Uses a tablet daily; explores."}
+{"t": 2.44, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.46, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.46, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 5.65, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 2-4' text, made for children who already read."}
+{"t": 9.72, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.61, "kind": "session_started", "tries": 1}
+{"t": 28.77, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.48 s thinking pause."}
+{"t": 37.73, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.43 s thinking pause."}
+{"t": 64.7, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 91.82, "kind": "tap_mic_to_talk"}
+{"t": 91.85, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 93.26, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 97.65, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 98.49, "kind": "resumed", "after_s": 4.0}
+{"t": 117.74, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 2.3 s thinking pause."}
+{"t": 137.23, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.6 s into a planned 2.98 s thinking pause."}
+{"t": 137.29, "kind": "abandon", "why": "frustration", "frustration": 4.55}
+{"t": 140.43, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

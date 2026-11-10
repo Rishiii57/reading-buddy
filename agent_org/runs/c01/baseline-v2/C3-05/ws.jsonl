@@ -1,0 +1,28 @@
+{"t": 14.3, "type": "ready", "message": null}
+{"t": 14.55, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 32.31, "type": "speech"}
+{"t": 35.33, "type": "heard", "text": "बादल गरजे बारिश बारिश आई"}
+{"t": 35.33, "type": "speech"}
+{"t": 36.48, "type": "speech"}
+{"t": 39.63, "type": "heard", "text": "ठंडी ठंडी हवा भी"}
+{"t": 39.63, "type": "speech"}
+{"t": 39.93, "type": "speech"}
+{"t": 41.5, "type": "heard", "text": "आई"}
+{"t": 41.5, "type": "speech"}
+{"t": 41.6, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 44.18, "type": "speech"}
+{"t": 45.77, "type": "heard", "text": "मेंडक मेंढक"}
+{"t": 45.77, "type": "speech"}
+{"t": 48.15, "type": "say", "kind": "stall_phrase", "text": "सुनो... गाते मीठे गाने", "spans": [[10, 13]]}
+{"t": 53.37, "type": "speech"}
+{"t": 55.4, "type": "heard", "text": "गाते मीठे गाने"}
+{"t": 55.43, "type": "speech"}
+{"t": 56.26, "type": "speech"}
+{"t": 57.37, "type": "heard", "text": "बच्चे"}
+{"t": 57.37, "type": "speech"}
+{"t": 59.57, "type": "say", "kind": "stall_phrase", "text": "सुनो... निकले नाव चलाने।", "spans": [[14, 17]]}
+{"t": 64.16, "type": "speech"}
+{"t": 66.9, "type": "heard", "text": "णिकले निकले नाव चलाने"}
+{"t": 66.9, "type": "speech"}
+{"t": 67.97, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 67.97, "type": "summary", "summary": {"words_total": 17, "words_read": 11, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 2, "corrections": 0, "seconds": 52.5, "words_per_minute": 19.4}}

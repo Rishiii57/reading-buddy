@@ -1,0 +1,243 @@
+{
+ "id": "20261110-114101-a56f4a",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 2,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 52.2,
+  "words_per_minute": 9.2
+ },
+ "log": [
+  {
+   "t": 0.117,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.233,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 14.821,
+   "event": "pause"
+  },
+  {
+   "t": 18.657,
+   "event": "resume"
+  },
+  {
+   "t": 22.505,
+   "event": "transcript",
+   "text": "I have"
+  },
+  {
+   "t": 22.505,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 24.588,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 24.588,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 27.853,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.854,
+   "event": "transcript",
+   "text": "a kite"
+  },
+  {
+   "t": 30.854,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 32.859,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 32.859,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 35.893,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.905,
+   "event": "transcript",
+   "text": "rea rea"
+  },
+  {
+   "t": 38.905,
+   "event": "uncertain",
+   "text": "rea rea"
+  },
+  {
+   "t": 38.905,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 42.538,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 46.091,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 46.091,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 4,
+   "to": 8
+  },
+  {
+   "t": 50.356,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.011,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 19.66,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.505,
+   "type": "transcript",
+   "text": "I have",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 28.013,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.854,
+   "type": "transcript",
+   "text": "a kite",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 36.063,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.905,
+   "type": "transcript",
+   "text": "rea rea",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "I have",
+   "heard": "I have",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "a kite",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "a kite",
+   "heard": "a kite",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "rea rea",
+   "heard": "rea rea",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "oa",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 108
+}

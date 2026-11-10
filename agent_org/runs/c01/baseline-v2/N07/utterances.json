@@ -1,0 +1,98 @@
+{
+ "utterances": [
+  {
+   "t": 29.08,
+   "said": "I",
+   "stt": "I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.62,
+   "said": "have",
+   "stt": "have",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.08,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "echo",
+    "stt": "I"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.62,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "echo",
+    "stt": "have"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.43,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 31.2,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... have a kite",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 37.78,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... a kite of",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 48.97,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "a kite of red and blue Now you try!",
+   "spans": [
+    [
+     2,
+     8
+    ]
+   ]
+  }
+ ]
+}

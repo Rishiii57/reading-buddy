@@ -1,0 +1,23 @@
+{"t": 2.99, "kind": "open_app", "brief": "Rudra, Class 1 (about 6.5 years). Prefers en-IN. Frequently skips small words."}
+{"t": 3.05, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.19, "kind": "tap", "target": "English", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.25, "kind": "tap", "target": "The Rain Song English Grade 1 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.15, "kind": "opened_text", "hash": "#/read/en-rain", "title": "The Rain Song", "tags": ["English", "Grade 1"], "words": 24, "lines": 4}
+{"t": 12.41, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.44, "kind": "session_started", "tries": 1}
+{"t": 32.97, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 34.07, "kind": "tap_mic_to_talk"}
+{"t": 34.43, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.12, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'Pitter' correctly but Buddy asked to practise it."}
+{"t": 75.57, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.31 s thinking pause."}
+{"t": 86.4, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 1.67 s thinking pause."}
+{"t": 108.77, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 1.8 s thinking pause."}
+{"t": 120.38, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.7 s into a planned 1.7 s thinking pause."}
+{"t": 134.6, "kind": "tap_mic_to_talk"}
+{"t": 134.63, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 135.47, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 137.35, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 138.46, "kind": "resumed", "after_s": 1.5}
+{"t": 141.58, "kind": "off_task_tap", "target": "Home"}
+{"t": 141.75, "kind": "tap", "target": "Home", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 142.99, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Home' left the reading page."}

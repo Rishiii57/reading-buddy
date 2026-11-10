@@ -1,0 +1,45 @@
+{"t": 12.41, "type": "ready", "message": null}
+{"t": 12.41, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 25.53, "type": "speech"}
+{"t": 27.88, "type": "heard", "text": "A sun"}
+{"t": 27.88, "type": "speech"}
+{"t": 27.88, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 33.09, "type": "speech"}
+{"t": 35.85, "type": "heard", "text": "A zun"}
+{"t": 35.85, "type": "speech"}
+{"t": 39.72, "type": "speech"}
+{"t": 40.85, "type": "heard", "text": "ant"}
+{"t": 40.85, "type": "speech"}
+{"t": 43.53, "type": "speech"}
+{"t": 47.62, "type": "heard", "text": "walked across the floor"}
+{"t": 47.62, "type": "speech"}
+{"t": 47.62, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. A", "spans": [[0, 1]]}
+{"t": 52.13, "type": "speech"}
+{"t": 53.58, "type": "heard", "text": "A"}
+{"t": 53.58, "type": "speech"}
+{"t": 53.59, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! small", "spans": [[1, 2]]}
+{"t": 57.59, "type": "speech"}
+{"t": 59.14, "type": "heard", "text": "sun"}
+{"t": 59.14, "type": "speech"}
+{"t": 59.14, "type": "say", "kind": "fix_again", "text": "small", "spans": [[1, 2]]}
+{"t": 65.0, "type": "speech"}
+{"t": 66.67, "type": "heard", "text": "small"}
+{"t": 66.67, "type": "speech"}
+{"t": 66.67, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! ant", "spans": [[2, 3]]}
+{"t": 70.2, "type": "speech"}
+{"t": 72.16, "type": "heard", "text": "ana"}
+{"t": 72.28, "type": "speech"}
+{"t": 72.34, "type": "say", "kind": "fix_again", "text": "ant", "spans": [[2, 3]]}
+{"t": 74.95, "type": "speech"}
+{"t": 76.48, "type": "heard", "text": "ana"}
+{"t": 76.48, "type": "speech"}
+{"t": 76.48, "type": "say", "kind": "fix_again", "text": "ant", "spans": [[2, 3]]}
+{"t": 79.74, "type": "speech"}
+{"t": 81.2, "type": "heard", "text": "ana"}
+{"t": 81.26, "type": "speech"}
+{"t": 81.26, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 88.7, "type": "speech"}
+{"t": 90.27, "type": "heard", "text": "A"}
+{"t": 90.3, "type": "speech"}
+{"t": 92.2, "type": "say", "kind": "stall_phrase", "text": "Listen... small ant walked", "spans": [[1, 4]]}
+{"t": 97.4, "type": "summary", "summary": {"words_total": 37, "words_read": 3, "words_helped": 4, "words_to_practise": ["A", "small", "ant"], "words_practised": 3, "correction_attempts": 6, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 85.1, "words_per_minute": 4.9}}

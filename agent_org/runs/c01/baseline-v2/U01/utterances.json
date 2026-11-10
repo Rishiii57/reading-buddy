@@ -1,0 +1,205 @@
+{
+ "utterances": [
+  {
+   "t": 31.08,
+   "said": "મારો પતંગ",
+   "stt": "મારો પતંગ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.65,
+   "said": "લલ લલ",
+   "stt": "લલ લલ",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 2,
+   "over_buddy": false
+  },
+  {
+   "t": 41.63,
+   "said": "ને",
+   "stt": "ને",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.43,
+   "said": "પીળો",
+   "stt": "પીળો",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.13,
+   "said": "આકાશે",
+   "stt": "આકાશે",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.59,
+   "said": "ઊડે",
+   "stt": "ઊડે",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.08,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.08,
+    "target": "પતંગ",
+    "said": "પતંગ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.65,
+    "target": "લાલ",
+    "said": "લલ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "લલ લલ"
+   }
+  ],
+  "3": [
+   {
+    "t": 41.63,
+    "target": "ને",
+    "said": "ને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ને"
+   }
+  ],
+  "4": [
+   {
+    "t": 50.43,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પીળો"
+   }
+  ],
+  "5": [
+   {
+    "t": 53.13,
+    "target": "આકાશે",
+    "said": "આકાશે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે"
+   }
+  ],
+  "6": [
+   {
+    "t": 59.59,
+    "target": "ઊડે",
+    "said": "ઊડે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊડે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.23,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 33.95,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... લાલ ને પીળો",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 44.11,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પીળો",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 55.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ઊડે રંગીલો.",
+   "spans": [
+    [
+     6,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 61.76,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... રંગીલો.",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  }
+ ]
+}

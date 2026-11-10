@@ -1,0 +1,273 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "U01",
+ "seed": 301,
+ "persona": {
+  "id": "U01",
+  "name": "Dhruv",
+  "grade": "UKG",
+  "age": 5.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.6,
+  "patience": 4.0,
+  "attention_span_s": 180
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-patang",
+  "title": "મારો પતંગ",
+  "tags": [
+   "Gujarati",
+   "Grade 1"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.32,
+    "details": [
+     "UKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 6.32,
+      "title": "મારો પતંગ",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 10.77,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 10.77,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 26.57,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 26.57,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.65,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 36.65,
+      "said": "લલ લલ",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 44.12,
+    "details": [
+     "Buddy started talking 2.5 s into a planned 2.88 s thinking pause.",
+     "Buddy started talking 2.3 s into a planned 3.95 s thinking pause.",
+     "Buddy started talking 2.8 s into a planned 2.95 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 44.12,
+      "paused_s": 2.5,
+      "planned_s": 2.88,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "પીળો,"
+     },
+     {
+      "t": 55.58,
+      "paused_s": 2.3,
+      "planned_s": 3.95,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "ઊડે રંગીલો."
+     },
+     {
+      "t": 62.45,
+      "paused_s": 2.8,
+      "planned_s": 2.95,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "રંગીલો."
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 4.05,
+  "frustration_events": [
+   {
+    "t": 10.77,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 26.57,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 31.08,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 36.65,
+    "kind": "unheard_speech",
+    "frustration": 1.65
+   },
+   {
+    "t": 41.63,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 44.12,
+    "kind": "interrupted_pause",
+    "frustration": 2.5,
+    "paused_s": 2.5
+   },
+   {
+    "t": 50.43,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 53.13,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 55.58,
+    "kind": "interrupted_pause",
+    "frustration": 3.2,
+    "paused_s": 2.3
+   },
+   {
+    "t": 59.59,
+    "kind": "progress",
+    "frustration": 3.05
+   },
+   {
+    "t": 62.45,
+    "kind": "interrupted_pause",
+    "frustration": 4.05,
+    "paused_s": 2.8
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 3,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 3,
+  "unheard_words": 2,
+  "buddy_talk_s": 19.9,
+  "child_talk_s": 11.2,
+  "tired_said": false,
+  "time_to_text_s": 2.8,
+  "reader_page_audio_clips": 0,
+  "intro_s": 13.4,
+  "time_to_first_word_s": 13.4,
+  "session_s": 48.9,
+  "words_total": 16,
+  "words_attempted": 7,
+  "words_said_wrong": 1,
+  "corrections": 0,
+  "buddy_turns": 5,
+  "stall_prompts": 4,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 51.5,
+  "words_per_minute": 9.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 107,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,347 @@
+{
+ "utterances": [
+  {
+   "t": 46.79,
+   "said": "મારી શાળા વહુ સુંદર છે",
+   "stt": "મારી શાળા વહુ સુંદર છે",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 57.06,
+   "said": "વહુ સુંધર સુંધર",
+   "stt": "વહુ સુંધર સુંધર",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 61.92,
+   "said": "બહુ",
+   "stt": "બહુ",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 77.78,
+   "said": "માડી શાળા વહુ સુંદર છે",
+   "stt": "માડી શાળા બહુ સુંદર છે",
+   "stt_notes": [
+    "'વહુ' heard as 'બહુ'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.54,
+   "said": "માડી",
+   "stt": "માડી",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 89.84,
+   "said": "મારી",
+   "stt": "",
+   "stt_notes": [
+    "lost 'મારી'"
+   ],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 95.36,
+   "said": "મારી",
+   "stt": "માડી",
+   "stt_notes": [
+    "'મારી' heard as 'માડી'"
+   ],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 46.79,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારી શાળા વહુ સુંદર છે"
+   },
+   {
+    "t": 77.78,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી શાળા બહુ સુંદર છે"
+   },
+   {
+    "t": 84.54,
+    "target": "મારી",
+    "said": "માડી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી",
+    "drill": true
+   },
+   {
+    "t": 89.84,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 95.36,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડી",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 46.79,
+    "target": "શાળા",
+    "said": "શાળા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારી શાળા વહુ સુંદર છે"
+   },
+   {
+    "t": 77.78,
+    "target": "શાળા",
+    "said": "શાળા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડી શાળા બહુ સુંદર છે"
+   }
+  ],
+  "2": [
+   {
+    "t": 46.79,
+    "target": "બહુ",
+    "said": "વહુ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મારી શાળા વહુ સુંદર છે"
+   },
+   {
+    "t": 57.06,
+    "target": "બહુ",
+    "said": "વહુ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "વહુ સુંધર સુંધર"
+   },
+   {
+    "t": 61.92,
+    "target": "બહુ",
+    "said": "બહુ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "બહુ",
+    "drill": true
+   },
+   {
+    "t": 77.78,
+    "target": "બહુ",
+    "said": "વહુ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડી શાળા બહુ સુંદર છે"
+   }
+  ],
+  "3": [
+   {
+    "t": 46.79,
+    "target": "સુંદર",
+    "said": "સુંદર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારી શાળા વહુ સુંદર છે"
+   },
+   {
+    "t": 57.06,
+    "target": "સુંદર",
+    "said": "સુંધર",
+    "correct": false,
+    "kind": "sub",
+    "stt": "વહુ સુંધર સુંધર"
+   },
+   {
+    "t": 77.78,
+    "target": "સુંદર",
+    "said": "સુંદર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડી શાળા બહુ સુંદર છે"
+   }
+  ],
+  "4": [
+   {
+    "t": 46.79,
+    "target": "છે",
+    "said": "છે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારી શાળા વહુ સુંદર છે"
+   },
+   {
+    "t": 57.06,
+    "target": "છે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "વહુ સુંધર સુંધર"
+   },
+   {
+    "t": 77.78,
+    "target": "છે",
+    "said": "છે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડી શાળા બહુ સુંદર છે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 17.87,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 47.0,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. બહુ",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 57.06,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "બહુ",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 61.98,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 77.96,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 84.55,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 89.84,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 95.37,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારી",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

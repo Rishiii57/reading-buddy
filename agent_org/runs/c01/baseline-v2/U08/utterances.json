@@ -1,0 +1,138 @@
+{
+ "utterances": [
+  {
+   "t": 30.52,
+   "said": "बादल गड़जे बारिश आ",
+   "stt": "बादल गड़जे बारिस आ",
+   "stt_notes": [
+    "'बारिश' heard as 'बारिस'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 37.99,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.14,
+   "said": "गरजे",
+   "stt": "गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.52,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 37.99,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   }
+  ],
+  "1": [
+   {
+    "t": 30.52,
+    "target": "गरजे",
+    "said": "गड़जे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बादल गड़जे बारिस आ"
+   },
+   {
+    "t": 45.14,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गरजे"
+   }
+  ],
+  "2": [
+   {
+    "t": 30.52,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गड़जे बारिस आ"
+   }
+  ],
+  "3": [
+   {
+    "t": 30.52,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बादल गड़जे बारिस आ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.4,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 40.68,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 47.36,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बारिश आई",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  }
+ ]
+}

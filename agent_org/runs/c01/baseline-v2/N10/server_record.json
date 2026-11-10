@@ -1,0 +1,60 @@
+{
+ "id": "20261110-113817-816e43",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 21.6,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.021,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.191,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.516,
+   "event": "pause"
+  },
+  {
+   "t": 20.532,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડો",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 30
+}

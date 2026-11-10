@@ -1,0 +1,253 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "C4-02",
+ "seed": 1680,
+ "persona": {
+  "id": "C4-02",
+  "name": "Trisha",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.85,
+  "patience": 4.8,
+  "attention_span_s": 280
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 53.77,
+    "details": [
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 53.77,
+      "said": "rice on its back",
+      "heard": "back"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 80.9,
+    "details": [
+     "Buddy started talking 0.9 s into a planned 1.36 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 80.9,
+      "paused_s": 0.9,
+      "planned_s": 1.36,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "a grain of"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'A' as 'A' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "A",
+      "child_said": "A",
+      "kind": "sub",
+      "speech_model_wrote": "A small ant walked across the floor"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 1.1,
+  "frustration_events": [
+   {
+    "t": 33.32,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 37.71,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 43.56,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 48.56,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 53.77,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 53.77,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 59.34,
+    "kind": "praise",
+    "frustration": 0.25
+   },
+   {
+    "t": 78.46,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 80.9,
+    "kind": "interrupted_pause",
+    "frustration": 1.1,
+    "paused_s": 0.9
+   },
+   {
+    "t": 90.98,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 107.93,
+    "kind": "progress",
+    "frustration": 0.8
+   },
+   {
+    "t": 108.21,
+    "kind": "praise",
+    "frustration": 0.4
+   },
+   {
+    "t": 115.35,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 120.09,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 124.89,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 125.47,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 5,
+  "interruptions": 1,
+  "unheard_words": 3,
+  "buddy_talk_s": 61.6,
+  "child_talk_s": 26.4,
+  "tired_said": false,
+  "time_to_text_s": 5.0,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.6,
+  "time_to_first_word_s": 12.6,
+  "session_s": 116.4,
+  "words_total": 37,
+  "words_attempted": 37,
+  "words_said_wrong": 1,
+  "corrections": 2,
+  "buddy_turns": 13,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 31,
+  "words_helped": 6,
+  "words_to_practise": [
+   "carried",
+   "grain",
+   "of",
+   "rice",
+   "on"
+  ],
+  "words_practised": 5,
+  "correction_attempts": 7,
+  "lines_total": 5,
+  "lines_completed": 5,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 111.2,
+  "words_per_minute": 20.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 4
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 438,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

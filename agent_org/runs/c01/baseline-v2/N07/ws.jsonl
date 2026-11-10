@@ -1,0 +1,12 @@
+{"t": 12.21, "type": "ready", "message": null}
+{"t": 12.43, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 27.24, "type": "speech"}
+{"t": 29.21, "type": "heard", "text": "I"}
+{"t": 29.21, "type": "speech"}
+{"t": 31.2, "type": "say", "kind": "stall_phrase", "text": "Listen... have a kite", "spans": [[1, 4]]}
+{"t": 33.72, "type": "speech"}
+{"t": 35.69, "type": "heard", "text": "have"}
+{"t": 35.78, "type": "speech"}
+{"t": 37.78, "type": "say", "kind": "stall_phrase", "text": "Listen... a kite of", "spans": [[2, 5]]}
+{"t": 48.97, "type": "say", "kind": "stall_rest", "text": "a kite of red and blue Now you try!", "spans": [[2, 8]]}
+{"t": 49.42, "type": "summary", "summary": {"words_total": 29, "words_read": 1, "words_helped": 7, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 37.2, "words_per_minute": 12.9}}

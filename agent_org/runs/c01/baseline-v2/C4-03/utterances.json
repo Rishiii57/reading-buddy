@@ -1,0 +1,462 @@
+{
+ "utterances": [
+  {
+   "t": 36.51,
+   "said": "મારો પતંગ લાલ ને પીળો",
+   "stt": "મારો પતંગ લાલ પીળો",
+   "stt_notes": [
+    "lost 'ને'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.07,
+   "said": "ને પીળો",
+   "stt": "ને પીળો",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.63,
+   "said": "આકાસે ઊડે રંગીલો",
+   "stt": "આકાસે ઊડે",
+   "stt_notes": [
+    "lost 'રંગીલો'"
+   ],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.62,
+   "said": "રંગીલો",
+   "stt": "ડંગીલો",
+   "stt_notes": [
+    "'રંગીલો' heard as 'ડંગીલો'"
+   ],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.59,
+   "said": "પવન સાથે ણાચે નાચે ગાય",
+   "stt": "પવન સાથે ણાચે નાચે ગાય",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.18,
+   "said": "આકાશે",
+   "stt": "આકાશે",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 64.33,
+   "said": "રંગીલો",
+   "stt": "રંગીલો",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 72.35,
+   "said": "આકાશે ઊડે રંગીલો",
+   "stt": "આકાશે ઊડે રંગીલો",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.18,
+   "said": "પવન સાથે નાચે ગાય",
+   "stt": "પવન સાથે નાચે ગાય",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.52,
+   "said": "ઊંચે ઊંચે ઊડતો જાય",
+   "stt": "ઊંચે ઊંચે ઊડતો જાય",
+   "stt_notes": [],
+   "words": [
+    12,
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.51,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ પીળો"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.51,
+    "target": "પતંગ",
+    "said": "પતંગ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ પીળો"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.51,
+    "target": "લાલ",
+    "said": "લાલ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ પીળો"
+   }
+  ],
+  "3": [
+   {
+    "t": 36.51,
+    "target": "ને",
+    "said": "ને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ પીળો"
+   },
+   {
+    "t": 39.07,
+    "target": "ને",
+    "said": "ને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ને પીળો"
+   }
+  ],
+  "4": [
+   {
+    "t": 36.51,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ પીળો"
+   },
+   {
+    "t": 39.07,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ને પીળો"
+   }
+  ],
+  "5": [
+   {
+    "t": 44.63,
+    "target": "આકાશે",
+    "said": "આકાસે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "આકાસે ઊડે"
+   },
+   {
+    "t": 56.18,
+    "target": "આકાશે",
+    "said": "આકાશે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે",
+    "drill": true
+   },
+   {
+    "t": 72.35,
+    "target": "આકાશે",
+    "said": "આકાશે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે ઊડે રંગીલો"
+   }
+  ],
+  "6": [
+   {
+    "t": 44.63,
+    "target": "ઊડે",
+    "said": "ઊડે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાસે ઊડે"
+   },
+   {
+    "t": 72.35,
+    "target": "ઊડે",
+    "said": "ઊડે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે ઊડે રંગીલો"
+   }
+  ],
+  "7": [
+   {
+    "t": 44.63,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાસે ઊડે"
+   },
+   {
+    "t": 46.62,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડંગીલો"
+   },
+   {
+    "t": 64.33,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રંગીલો",
+    "drill": true
+   },
+   {
+    "t": 72.35,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે ઊડે રંગીલો"
+   }
+  ],
+  "8": [
+   {
+    "t": 50.59,
+    "target": "પવન",
+    "said": "પવન",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે ણાચે નાચે ગાય"
+   },
+   {
+    "t": 79.18,
+    "target": "પવન",
+    "said": "પવન",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે નાચે ગાય"
+   }
+  ],
+  "9": [
+   {
+    "t": 50.59,
+    "target": "સાથે",
+    "said": "સાથે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે ણાચે નાચે ગાય"
+   },
+   {
+    "t": 79.18,
+    "target": "સાથે",
+    "said": "સાથે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે નાચે ગાય"
+   }
+  ],
+  "10": [
+   {
+    "t": 50.59,
+    "target": "નાચે",
+    "said": "ણાચે નાચે",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "પવન સાથે ણાચે નાચે ગાય"
+   },
+   {
+    "t": 79.18,
+    "target": "નાચે",
+    "said": "નાચે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે નાચે ગાય"
+   }
+  ],
+  "11": [
+   {
+    "t": 50.59,
+    "target": "ગાય",
+    "said": "ગાય",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે ણાચે નાચે ગાય"
+   },
+   {
+    "t": 79.18,
+    "target": "ગાય",
+    "said": "ગાય",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન સાથે નાચે ગાય"
+   }
+  ],
+  "12": [
+   {
+    "t": 82.52,
+    "target": "ઊંચે",
+    "said": "ઊંચે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊંચે ઊંચે ઊડતો જાય"
+   }
+  ],
+  "13": [
+   {
+    "t": 82.52,
+    "target": "ઊંચે",
+    "said": "ઊંચે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊંચે ઊંચે ઊડતો જાય"
+   }
+  ],
+  "14": [
+   {
+    "t": 82.52,
+    "target": "ઊડતો",
+    "said": "ઊડતો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊંચે ઊંચે ઊડતો જાય"
+   }
+  ],
+  "15": [
+   {
+    "t": 82.52,
+    "target": "જાય",
+    "said": "જાય",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊંચે ઊંચે ઊડતો જાય"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.17,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 50.71,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. આકાશે",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 57.53,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "હા! ખૂબ સરસ! રંગીલો.",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 64.43,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! આકાશે ઊડે રંગીલો. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 72.43,
+   "type": "say",
+   "kind": "praise",
+   "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.",
+   "spans": []
+  },
+  {
+   "t": 82.52,
+   "type": "say",
+   "kind": "finish",
+   "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!",
+   "spans": []
+  }
+ ]
+}

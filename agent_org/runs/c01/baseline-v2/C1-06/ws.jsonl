@@ -1,0 +1,38 @@
+{"t": 10.08, "type": "ready", "message": null}
+{"t": 10.16, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 25.16, "type": "speech"}
+{"t": 29.19, "type": "heard", "text": "મારો પતંગ લાલ લાલ"}
+{"t": 29.19, "type": "speech"}
+{"t": 32.6, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ને પીળો", "spans": [[3, 5]]}
+{"t": 38.62, "type": "speech"}
+{"t": 40.03, "type": "heard", "text": "પીળો"}
+{"t": 40.03, "type": "speech"}
+{"t": 46.99, "type": "speech"}
+{"t": 50.01, "type": "heard", "text": "આકાશે આકાશે"}
+{"t": 50.01, "type": "speech"}
+{"t": 52.17, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ઊડે રંગીલો.", "spans": [[6, 8]]}
+{"t": 55.93, "type": "speech"}
+{"t": 58.85, "type": "heard", "text": "ઊઢે રંગીલો ડંગીલો"}
+{"t": 58.85, "type": "speech"}
+{"t": 58.85, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 63.09, "type": "speech"}
+{"t": 64.48, "type": "heard", "text": "ઊડે"}
+{"t": 64.48, "type": "speech"}
+{"t": 66.5, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... રંગીલો.", "spans": [[7, 8]]}
+{"t": 70.23, "type": "speech"}
+{"t": 71.65, "type": "heard", "text": "રંગીલો"}
+{"t": 71.65, "type": "speech"}
+{"t": 71.65, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 74.88, "type": "speech"}
+{"t": 76.35, "type": "heard", "text": "પવન"}
+{"t": 76.47, "type": "speech"}
+{"t": 78.34, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... સાથે નાચે ગાય", "spans": [[9, 12]]}
+{"t": 81.48, "type": "speech"}
+{"t": 85.14, "type": "heard", "text": "સાથે સાથે નાચે ગાય"}
+{"t": 85.29, "type": "speech"}
+{"t": 86.46, "type": "speech"}
+{"t": 89.41, "type": "heard", "text": "હું થાકી ગયો"}
+{"t": 89.48, "type": "speech"}
+{"t": 89.56, "type": "say", "kind": "break", "text": "કંઈ વાંધો નહીં. આપણે થોડો આરામ કરી શકીએ.", "spans": []}
+{"t": 89.69, "type": "auto_pause", "message": null}
+{"t": 96.96, "type": "summary", "summary": {"words_total": 16, "words_read": 5, "words_helped": 7, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 3, "lines_skipped": [], "finished": false, "prompts": 4, "corrections": 0, "seconds": 86.8, "words_per_minute": 8.3}}

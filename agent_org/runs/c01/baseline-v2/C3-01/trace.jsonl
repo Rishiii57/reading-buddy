@@ -1,0 +1,15 @@
+{"t": 2.99, "kind": "open_app", "brief": "Zoya, Class 3 (about 8.5 years). Prefers en-IN. Struggles with reading expression."}
+{"t": 3.09, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.33, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.66, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 11.5, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.14, "kind": "session_started", "tries": 1}
+{"t": 28.1, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 55.06, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.9 s into a planned 2.28 s thinking pause."}
+{"t": 156.79, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 161.8, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 162.6, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'Ravi' correctly but Buddy asked to practise it."}
+{"t": 211.01, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'the' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 213.64, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'the' 3 times."}
+{"t": 255.4, "kind": "abandon", "why": "attention", "frustration": 1.75}
+{"t": 257.0, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
