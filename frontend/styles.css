@@ -628,7 +628,13 @@ dialog#consentDlg { max-width: 520px; }
 @media (max-width: 860px) { .stats--4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 #consentDlg:focus, #consentDlg:focus-visible { outline: none; box-shadow: var(--shadow-lg); border-radius: 24px; }
 
+/* pre-primary rhymes: bigger cards, first on the shelf, easy for small hands */
+.story--rhyme { grid-column: span 2; min-height: 260px; }
+.story--rhyme .story-title { font-size: 1.6em; }
+@media (max-width: 640px) { .story--rhyme { grid-column: span 1; } }
 /* mic tapped while listening: a short bounce, no state change */
 .mic-dock.is-nudge .mic { animation: mic-nudge .45s cubic-bezier(.34,1.56,.64,1); }
 @keyframes mic-nudge { 0% { transform: scale(1); } 40% { transform: scale(1.12); } 100% { transform: scale(1); } }
 @media (prefers-reduced-motion: reduce) { .mic-dock.is-nudge .mic { animation: none; } }
+
+.shelf-head { grid-column: 1 / -1; margin: 6px 0 -4px; font-size: 1.15rem; }

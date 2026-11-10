@@ -69,11 +69,11 @@ async def clip_for(part, text) -> dict:
 @app.get("/api/library")
 def get_library():
     out = {lang: [] for lang in LANGUAGES}
-    for t in library.values():
+    for t in sorted(library.values(), key=lambda t: t.level_order):  # youngest first
         demo = (DEMO_DIR / t.id / "demo.json").exists()  # the interactive demo child's plan
         out[t.language].append({"id": t.id, "title": t.title, "title_en": t.title_en,
-                                "type": t.type, "grade": t.grade, "words": len(t.words),
-                                "demo": demo})
+                                "type": t.type, "grade": t.grade, "pre_primary": t.pre_primary,
+                                "words": len(t.words), "demo": demo})
     return {"languages": LANGUAGES, "texts": out}
 
 

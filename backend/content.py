@@ -7,6 +7,7 @@ from .normalize import loose, norm
 
 CONTENT_DIR = Path(__file__).resolve().parent.parent / "content"
 LANGUAGES = {"gu-IN": "ગુજરાતી", "en-IN": "English", "hi-IN": "हिन्दी"}
+PRE_PRIMARY = ("Nursery", "LKG", "UKG")  # rhymes for pre-readers: Buddy models every line (echo reading)
 
 # Short function words: skipping one of these alone is forgiven.
 _SHORT_WORDS = {
@@ -46,13 +47,24 @@ class Text:
     words: list[Word] = field(default_factory=list)
     line_words: list[tuple[int, int]] = field(default_factory=list)  # [start, end) per line
 
+    @property
+    def pre_primary(self) -> bool:
+        return self.grade in PRE_PRIMARY
+
+    @property
+    def level_order(self) -> int:
+        """Sort key: Nursery 0, LKG 1, UKG 2, then Grade n -> n + 2."""
+        if self.grade in PRE_PRIMARY:
+            return PRE_PRIMARY.index(self.grade)
+        return 2 + int(str(self.grade).split("-")[0])
+
     def line_range(self, line: int) -> tuple[int, int]:
         return self.line_words[line]
 
     def public(self) -> dict:
         return {
             "id": self.id, "language": self.language, "title": self.title,
-            "title_en": self.title_en, "type": self.type, "grade": self.grade,
+            "title_en": self.title_en, "type": self.type, "grade": self.grade, "pre_primary": self.pre_primary,
             "words": [{"i": w.idx, "t": w.display, "line": w.line, "stanza": w.stanza,
                        "line_end": w.line_end, "stanza_end": w.stanza_end} for w in self.words],
         }
