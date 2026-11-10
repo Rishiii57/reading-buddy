@@ -1,0 +1,37 @@
+{"t": 12.59, "type": "ready", "message": null}
+{"t": 12.8, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 28.43, "type": "speech"}
+{"t": 29.92, "type": "heard", "text": "small"}
+{"t": 30.29, "type": "speech"}
+{"t": 34.93, "type": "speech"}
+{"t": 36.17, "type": "heard", "text": "ant"}
+{"t": 36.17, "type": "speech"}
+{"t": 39.92, "type": "speech"}
+{"t": 42.31, "type": "heard", "text": "walked at"}
+{"t": 42.41, "type": "speech"}
+{"t": 42.54, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 46.11, "type": "speech"}
+{"t": 47.64, "type": "heard", "text": "see"}
+{"t": 47.76, "type": "speech"}
+{"t": 50.54, "type": "speech"}
+{"t": 51.93, "type": "heard", "text": "ana"}
+{"t": 51.94, "type": "speech"}
+{"t": 56.74, "type": "speech"}
+{"t": 58.06, "type": "heard", "text": "went"}
+{"t": 58.06, "type": "speech"}
+{"t": 60.26, "type": "speech"}
+{"t": 62.56, "type": "heard", "text": "all tha"}
+{"t": 62.56, "type": "speech"}
+{"t": 62.56, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 66.33, "type": "speech"}
+{"t": 67.65, "type": "heard", "text": "A"}
+{"t": 67.65, "type": "speech"}
+{"t": 70.7, "type": "speech"}
+{"t": 73.55, "type": "heard", "text": "said ana"}
+{"t": 73.55, "type": "speech"}
+{"t": 73.55, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 77.31, "type": "speech"}
+{"t": 78.94, "type": "heard", "text": "small"}
+{"t": 79.1, "type": "speech"}
+{"t": 81.9, "type": "say", "kind": "stall_phrase", "text": "Listen... ant walked across", "spans": [[2, 5]]}
+{"t": 83.38, "type": "summary", "summary": {"words_total": 37, "words_read": 2, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 70.6, "words_per_minute": 4.2}}

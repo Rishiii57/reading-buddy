@@ -1,0 +1,536 @@
+{
+ "utterances": [
+  {
+   "t": 30.5,
+   "said": "એક નાની ચકલી હતી",
+   "stt": "એક નાની ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 4,
+   "over_buddy": true
+  },
+  {
+   "t": 41.05,
+   "said": "એક નાની ચકલિ હતી",
+   "stt": "એક નાની ચકલિ હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.32,
+   "said": "તે ડોજ સવારે દાના શોદવા શોધવા જથી",
+   "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.17,
+   "said": "તે",
+   "stt": "તે",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.29,
+   "said": "ડોજ સવારે દાણા શોદવા ઝતી જતી",
+   "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી",
+   "stt_notes": [
+    "'ડોજ' heard as 'ડોઝ'"
+   ],
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.53,
+   "said": "રોઝ",
+   "stt": "રોઝ",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 79.04,
+   "said": "રોજ",
+   "stt": "રોજ",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 85.27,
+   "said": "શોધવા",
+   "stt": "શોધવા",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 89.73,
+   "said": "તે રોઝ સવારે દાણા શોદવા જતી",
+   "stt": "તે રોઝ સવારે દાણા શોદવા જથી",
+   "stt_notes": [
+    "'જતી' heard as 'જથી'"
+   ],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 6,
+   "over_buddy": true
+  },
+  {
+   "t": 94.49,
+   "said": "તે રોજ",
+   "stt": "તે રોજ",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 102.79,
+   "said": "સબારે સવારે",
+   "stt": "સબારે સવારે",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.5,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 41.05,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "1": [
+   {
+    "t": 30.5,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 41.05,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "2": [
+   {
+    "t": 30.5,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 41.05,
+    "target": "ચકલી",
+    "said": "ચકલિ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "3": [
+   {
+    "t": 30.5,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 41.05,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલિ હતી"
+   }
+  ],
+  "4": [
+   {
+    "t": 49.32,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 54.17,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે"
+   },
+   {
+    "t": 89.73,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   },
+   {
+    "t": 94.49,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ"
+   }
+  ],
+  "5": [
+   {
+    "t": 49.32,
+    "target": "રોજ",
+    "said": "ડોજ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 64.29,
+    "target": "રોજ",
+    "said": "ડોજ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી"
+   },
+   {
+    "t": 70.53,
+    "target": "રોજ",
+    "said": "રોઝ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "રોઝ",
+    "drill": true
+   },
+   {
+    "t": 79.04,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રોજ",
+    "drill": true
+   },
+   {
+    "t": 89.73,
+    "target": "રોજ",
+    "said": "રોઝ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   },
+   {
+    "t": 94.49,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોજ"
+   }
+  ],
+  "6": [
+   {
+    "t": 49.32,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 64.29,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી"
+   },
+   {
+    "t": 89.73,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   },
+   {
+    "t": 102.79,
+    "target": "સવારે",
+    "said": "સબારે સવારે",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "સબારે સવારે"
+   }
+  ],
+  "7": [
+   {
+    "t": 49.32,
+    "target": "દાણા",
+    "said": "દાના",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 64.29,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી"
+   },
+   {
+    "t": 89.73,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   }
+  ],
+  "8": [
+   {
+    "t": 49.32,
+    "target": "શોધવા",
+    "said": "શોદવા શોધવા",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 64.29,
+    "target": "શોધવા",
+    "said": "શોદવા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી"
+   },
+   {
+    "t": 85.27,
+    "target": "શોધવા",
+    "said": "શોધવા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "શોધવા",
+    "drill": true
+   },
+   {
+    "t": 89.73,
+    "target": "શોધવા",
+    "said": "શોદવા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   }
+  ],
+  "9": [
+   {
+    "t": 49.32,
+    "target": "જતી",
+    "said": "જથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે ડોજ સવારે દાના શોદવા શોધવા જથી"
+   },
+   {
+    "t": 64.29,
+    "target": "જતી",
+    "said": "ઝતી જતી",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ડોઝ સવારે દાણા શોદવા ઝતી જતી"
+   },
+   {
+    "t": 89.73,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા જથી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 18.59,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 49.57,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 56.25,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... રોજ સવારે દાણા",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 64.58,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. રોજ",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 70.66,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "રોજ",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 80.25,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "હા! ખૂબ સરસ! શોધવા",
+   "spans": [
+    [
+     8,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 85.28,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 96.79,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... સવારે દાણા શોધવા",
+   "spans": [
+    [
+     6,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 104.87,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... દાણા શોધવા જતી.",
+   "spans": [
+    [
+     7,
+     10
+    ]
+   ]
+  }
+ ]
+}

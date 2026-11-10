@@ -1,0 +1,19 @@
+{"t": 2.3, "kind": "open_app", "brief": "Ira, Class 1 (about 6.5 years). Prefers hi-IN. Confuses similar Hindi letters."}
+{"t": 2.35, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.38, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "curious tap", "view": "view-languages"}
+{"t": 4.27, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.21, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 11.49, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.19, "kind": "session_started", "tries": 1}
+{"t": 24.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 32.57, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "9 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 39.27, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 3.02 s thinking pause."}
+{"t": 43.54, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 63.39, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 3.04 s thinking pause."}
+{"t": 71.59, "kind": "tap_mic_to_talk"}
+{"t": 71.64, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 72.79, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 74.67, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 75.52, "kind": "resumed", "after_s": 1.5}
+{"t": 75.55, "kind": "abandon", "why": "frustration", "frustration": 4.6}
+{"t": 75.81, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

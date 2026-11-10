@@ -1,0 +1,326 @@
+{
+ "utterances": [
+  {
+   "t": 36.01,
+   "said": "Humpty day sat oa a a wall",
+   "stt": "Humpty day sat oa a a wall",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.47,
+   "said": "Humpty Humpty Dumpty haa haa a a get fall",
+   "stt": "Humpty Humpty Dumpty haa haa a a get fall",
+   "stt_notes": [],
+   "words": [
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.73,
+   "said": "ala ala tha king's here and all the king's men",
+   "stt": "ala tha king's here and all the king's men",
+   "stt_notes": [
+    "lost 'ala'"
+   ],
+   "words": [
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.01,
+    "target": "Humpty",
+    "said": "Humpty",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.01,
+    "target": "Dumpty",
+    "said": "day",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.01,
+    "target": "sat",
+    "said": "sat",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "3": [
+   {
+    "t": 36.01,
+    "target": "on",
+    "said": "oa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "4": [
+   {
+    "t": 36.01,
+    "target": "a",
+    "said": "a a",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "5": [
+   {
+    "t": 36.01,
+    "target": "wall",
+    "said": "wall",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty day sat oa a a wall"
+   }
+  ],
+  "6": [
+   {
+    "t": 51.47,
+    "target": "Humpty",
+    "said": "Humpty",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "7": [
+   {
+    "t": 51.47,
+    "target": "Dumpty",
+    "said": "Dumpty",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "8": [
+   {
+    "t": 51.47,
+    "target": "had",
+    "said": "haa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "9": [
+   {
+    "t": 51.47,
+    "target": "a",
+    "said": "a a",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "10": [
+   {
+    "t": 51.47,
+    "target": "great",
+    "said": "get",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "11": [
+   {
+    "t": 51.47,
+    "target": "fall",
+    "said": "fall",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Humpty Humpty Dumpty haa haa a a get fall"
+   }
+  ],
+  "12": [
+   {
+    "t": 75.73,
+    "target": "All",
+    "said": "ala",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "13": [
+   {
+    "t": 75.73,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "14": [
+   {
+    "t": 75.73,
+    "target": "king's",
+    "said": "king's",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "15": [
+   {
+    "t": 75.73,
+    "target": "horses",
+    "said": "here",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "16": [
+   {
+    "t": 75.73,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "17": [
+   {
+    "t": 75.73,
+    "target": "all",
+    "said": "all",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "18": [
+   {
+    "t": 75.73,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "19": [
+   {
+    "t": 75.73,
+    "target": "king's",
+    "said": "king's",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ],
+  "20": [
+   {
+    "t": 75.73,
+    "target": "men",
+    "said": "men",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ala tha king's here and all the king's men"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.42,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Humpty Dumpty Listen carefully to how I read it. Humpty Dumpty sat on a wall Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 36.07,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Humpty Dumpty had a great fall. Now you try!",
+   "spans": [
+    [
+     6,
+     12
+    ]
+   ]
+  },
+  {
+   "t": 50.95,
+   "type": "say",
+   "kind": "praise",
+   "text": "Very nice! Keep going.",
+   "spans": []
+  },
+  {
+   "t": 50.95,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "All the king's horses and all the king's men Now you try!",
+   "spans": [
+    [
+     12,
+     21
+    ]
+   ]
+  },
+  {
+   "t": 75.98,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Couldn't put Humpty together again. Now you try!",
+   "spans": [
+    [
+     21,
+     26
+    ]
+   ]
+  }
+ ]
+}

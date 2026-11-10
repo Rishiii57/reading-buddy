@@ -1,0 +1,117 @@
+{
+ "utterances": [
+  {
+   "t": 28.61,
+   "said": "आलू",
+   "stt": "आलू",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 33.93,
+   "said": "कचालू",
+   "stt": "कचालू",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 36.65,
+   "said": "कचालू",
+   "stt": "कचालू",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.61,
+    "target": "आलू",
+    "said": "आलू",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आलू"
+   }
+  ],
+  "1": [
+   {
+    "t": 33.93,
+    "target": "कचालू",
+    "said": "कचालू",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कचालू"
+   },
+   {
+    "t": 36.65,
+    "target": "कचालू",
+    "said": "कचालू",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कचालू"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.52,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे आलू कचालू ध्यान से सुनो, मैं कैसे पढ़ता हूँ। आलू कचालू बेटा कहाँ गए थे अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 30.76,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... कचालू बेटा कहाँ",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 38.81,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बेटा कहाँ गए",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 47.48,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "बेटा कहाँ गए थे अब तुम बोलो!",
+   "spans": [
+    [
+     2,
+     6
+    ]
+   ]
+  }
+ ]
+}

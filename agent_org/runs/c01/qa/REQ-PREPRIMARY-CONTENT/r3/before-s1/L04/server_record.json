@@ -1,0 +1,205 @@
+{
+ "id": "20261109-213505-43ef87",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 2,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 41.6,
+  "words_per_minute": 7.2
+ },
+ "log": [
+  {
+   "t": 0.109,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.391,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.413,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 15.413,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.062,
+   "event": "transcript",
+   "text": "play patter"
+  },
+  {
+   "t": 21.062,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 24.496,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 24.496,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 28.756,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.537,
+   "event": "transcript",
+   "text": "falls"
+  },
+  {
+   "t": 30.537,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 35.613,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 35.613,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 39.093,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.964,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.413,
+   "type": "transcript",
+   "text": "Pitter",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 18.767,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.062,
+   "type": "transcript",
+   "text": "play patter",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 29.086,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.537,
+   "type": "transcript",
+   "text": "falls",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter",
+   "heard": "Pitter",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "play patter",
+   "heard": "play patter",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "falls tha tha red",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 3.53
+  },
+  {
+   "text": "falls",
+   "heard": "falls",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 136
+}

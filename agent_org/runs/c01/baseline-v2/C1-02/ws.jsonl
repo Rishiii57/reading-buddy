@@ -1,0 +1,100 @@
+{"t": 13.45, "type": "ready", "message": null}
+{"t": 13.6, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 30.81, "type": "speech"}
+{"t": 34.49, "type": "heard", "text": "बादल गरजे बाड़िश आई"}
+{"t": 34.49, "type": "speech"}
+{"t": 34.53, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बारिश", "spans": [[2, 3]]}
+{"t": 39.52, "type": "speech"}
+{"t": 40.92, "type": "heard", "text": "बारिश"}
+{"t": 40.97, "type": "speech"}
+{"t": 40.97, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 49.06, "type": "speech"}
+{"t": 52.06, "type": "heard", "text": "बादल गरजे गरजे"}
+{"t": 52.13, "type": "speech"}
+{"t": 54.14, "type": "say", "kind": "stall_phrase", "text": "सुनो... बारिश आई", "spans": [[2, 4]]}
+{"t": 57.11, "type": "speech"}
+{"t": 58.53, "type": "heard", "text": "बारिश"}
+{"t": 58.56, "type": "speech"}
+{"t": 60.73, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई", "spans": [[3, 4]]}
+{"t": 63.6, "type": "speech"}
+{"t": 65.06, "type": "heard", "text": "आई"}
+{"t": 65.06, "type": "speech"}
+{"t": 65.08, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 69.15, "type": "speech"}
+{"t": 72.89, "type": "heard", "text": "ठंडी ठंडी हवा भी"}
+{"t": 72.89, "type": "speech"}
+{"t": 75.02, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई।", "spans": [[8, 9]]}
+{"t": 78.96, "type": "speech"}
+{"t": 80.32, "type": "heard", "text": "आ"}
+{"t": 80.35, "type": "speech"}
+{"t": 81.48, "type": "speech"}
+{"t": 82.88, "type": "heard", "text": "आई"}
+{"t": 82.88, "type": "speech"}
+{"t": 82.94, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 86.72, "type": "speech"}
+{"t": 89.99, "type": "heard", "text": "मेंडक गाथे मीठे गाने"}
+{"t": 90.0, "type": "speech"}
+{"t": 90.05, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेंढक", "spans": [[9, 10]]}
+{"t": 96.2, "type": "speech"}
+{"t": 98.34, "type": "heard", "text": "मेंडक"}
+{"t": 98.34, "type": "speech"}
+{"t": 98.34, "type": "say", "kind": "fix_again", "text": "मेंढक", "spans": [[9, 10]]}
+{"t": 103.72, "type": "speech"}
+{"t": 105.15, "type": "heard", "text": "मेंढक"}
+{"t": 105.18, "type": "speech"}
+{"t": 105.22, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! गाते", "spans": [[10, 11]]}
+{"t": 108.68, "type": "speech"}
+{"t": 110.96, "type": "heard", "text": "गाथे गाते"}
+{"t": 110.97, "type": "speech"}
+{"t": 110.98, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 118.28, "type": "speech"}
+{"t": 122.86, "type": "heard", "text": "मेंडक गाते मीटे गाने गाने"}
+{"t": 122.87, "type": "speech"}
+{"t": 122.95, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 126.57, "type": "speech"}
+{"t": 131.16, "type": "heard", "text": "मेंढक गाते मीटे गाणे गाने"}
+{"t": 131.16, "type": "speech"}
+{"t": 131.24, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीठे", "spans": [[11, 12]]}
+{"t": 137.25, "type": "speech"}
+{"t": 138.65, "type": "heard", "text": "मीठे"}
+{"t": 138.66, "type": "speech"}
+{"t": 138.73, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 145.78, "type": "speech"}
+{"t": 149.45, "type": "heard", "text": "मेंडक गाते मीठे गाणे"}
+{"t": 149.45, "type": "speech"}
+{"t": 150.33, "type": "speech"}
+{"t": 151.72, "type": "heard", "text": "गाने"}
+{"t": 151.72, "type": "speech"}
+{"t": 151.84, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेंढक", "spans": [[9, 10]]}
+{"t": 155.86, "type": "speech"}
+{"t": 157.05, "type": "heard", "text": "गाने"}
+{"t": 157.05, "type": "speech"}
+{"t": 157.05, "type": "say", "kind": "fix_again", "text": "मेंढक", "spans": [[9, 10]]}
+{"t": 161.08, "type": "speech"}
+{"t": 161.08, "type": "heard", "text": "मेंढक मेंढक"}
+{"t": 161.11, "type": "speech"}
+{"t": 161.11, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 168.8, "type": "speech"}
+{"t": 172.61, "type": "heard", "text": "मेंडक गाते मीठे गाणे"}
+{"t": 172.61, "type": "speech"}
+{"t": 173.67, "type": "speech"}
+{"t": 176.03, "type": "heard", "text": "गाने गाने"}
+{"t": 176.03, "type": "speech"}
+{"t": 176.03, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 179.49, "type": "speech"}
+{"t": 180.92, "type": "heard", "text": "गाने"}
+{"t": 180.92, "type": "speech"}
+{"t": 180.92, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मेंढक", "spans": [[9, 10]]}
+{"t": 185.7, "type": "speech"}
+{"t": 187.62, "type": "heard", "text": "मेंडक"}
+{"t": 187.62, "type": "speech"}
+{"t": 187.75, "type": "say", "kind": "fix_again", "text": "मेंढक", "spans": [[9, 10]]}
+{"t": 191.44, "type": "speech"}
+{"t": 193.89, "type": "heard", "text": "मेंडक"}
+{"t": 194.01, "type": "speech"}
+{"t": 194.01, "type": "say", "kind": "fix_again", "text": "मेंढक", "spans": [[9, 10]]}
+{"t": 197.08, "type": "speech"}
+{"t": 198.56, "type": "heard", "text": "मेंढक"}
+{"t": 198.57, "type": "speech"}
+{"t": 198.58, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेंढक गाते मीठे गाने अब तुम पूरी पंक्ति बोलो।", "spans": [[9, 13]]}
+{"t": 201.06, "type": "summary", "summary": {"words_total": 17, "words_read": 7, "words_helped": 6, "words_to_practise": ["बारिश", "मेंढक", "गाते", "मीठे"], "words_practised": 6, "correction_attempts": 10, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 5, "seconds": 187.6, "words_per_minute": 4.2}}

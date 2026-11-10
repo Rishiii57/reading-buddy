@@ -1,0 +1,635 @@
+{
+ "utterances": [
+  {
+   "t": 33.47,
+   "said": "मछली जल राणी है",
+   "stt": "जल राणी है",
+   "stt_notes": [
+    "lost 'मछली'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.97,
+   "said": "मछली की रानी रानी",
+   "stt": "मछली की रानी रानी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 43.0,
+   "said": "मछली जल की रानी",
+   "stt": "मछली जल की रानी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.88,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.26,
+   "said": "हे",
+   "stt": "हे",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.28,
+   "said": "जीवन जीवन उसका पानी",
+   "stt": "जीवन जीवन उसका पानी",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.58,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 72.48,
+   "said": "हात लगाओ लगाओ डर जाएगी",
+   "stt": "हात लगाओ लगाओ डर जाएगी",
+   "stt_notes": [],
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 78.63,
+   "said": "बाहर णिकालो",
+   "stt": "बाहर णिकालो",
+   "stt_notes": [],
+   "words": [
+    13,
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.01,
+   "said": "मर जाएगी",
+   "stt": "मर जाएगी",
+   "stt_notes": [],
+   "words": [
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 87.01,
+   "said": "बाहर निकालो",
+   "stt": "बाहर निकालो",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.88,
+   "said": "जाएगी",
+   "stt": "जाएगी",
+   "stt_notes": [],
+   "words": [
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 100.94,
+   "said": "बाहर निकालो",
+   "stt": "बाहर निकालो",
+   "stt_notes": [],
+   "words": [
+    13,
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 106.05,
+   "said": "झाएगी",
+   "stt": "झाएगी",
+   "stt_notes": [],
+   "words": [
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 109.81,
+   "said": "वाहर निकालो जाएगी",
+   "stt": "वाहर निकालो जाएगी",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.47,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जल राणी है"
+   },
+   {
+    "t": 38.97,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली की रानी रानी"
+   },
+   {
+    "t": 43.0,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल की रानी"
+   }
+  ],
+  "1": [
+   {
+    "t": 33.47,
+    "target": "जल",
+    "said": "जल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जल राणी है"
+   },
+   {
+    "t": 38.97,
+    "target": "जल",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "मछली की रानी रानी"
+   },
+   {
+    "t": 43.0,
+    "target": "जल",
+    "said": "जल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल की रानी"
+   }
+  ],
+  "2": [
+   {
+    "t": 33.47,
+    "target": "की",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "जल राणी है"
+   },
+   {
+    "t": 38.97,
+    "target": "की",
+    "said": "की",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली की रानी रानी"
+   },
+   {
+    "t": 43.0,
+    "target": "की",
+    "said": "की",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल की रानी"
+   }
+  ],
+  "3": [
+   {
+    "t": 33.47,
+    "target": "रानी",
+    "said": "राणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "जल राणी है"
+   },
+   {
+    "t": 38.97,
+    "target": "रानी",
+    "said": "रानी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली की रानी रानी"
+   },
+   {
+    "t": 43.0,
+    "target": "रानी",
+    "said": "रानी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल की रानी"
+   }
+  ],
+  "4": [
+   {
+    "t": 33.47,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जल राणी है"
+   },
+   {
+    "t": 43.0,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "मछली जल की रानी"
+   },
+   {
+    "t": 44.88,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 48.26,
+    "target": "है",
+    "said": "हे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हे"
+   }
+  ],
+  "5": [
+   {
+    "t": 56.28,
+    "target": "जीवन",
+    "said": "जीवन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन जीवन उसका पानी"
+   }
+  ],
+  "6": [
+   {
+    "t": 56.28,
+    "target": "उसका",
+    "said": "उसका",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन जीवन उसका पानी"
+   }
+  ],
+  "7": [
+   {
+    "t": 56.28,
+    "target": "पानी",
+    "said": "पानी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन जीवन उसका पानी"
+   }
+  ],
+  "8": [
+   {
+    "t": 60.58,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "9": [
+   {
+    "t": 72.48,
+    "target": "हाथ",
+    "said": "हात",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हात लगाओ लगाओ डर जाएगी"
+   }
+  ],
+  "10": [
+   {
+    "t": 72.48,
+    "target": "लगाओ",
+    "said": "लगाओ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हात लगाओ लगाओ डर जाएगी"
+   }
+  ],
+  "11": [
+   {
+    "t": 72.48,
+    "target": "डर",
+    "said": "डर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हात लगाओ लगाओ डर जाएगी"
+   }
+  ],
+  "12": [
+   {
+    "t": 72.48,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हात लगाओ लगाओ डर जाएगी"
+   }
+  ],
+  "13": [
+   {
+    "t": 78.63,
+    "target": "बाहर",
+    "said": "बाहर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर णिकालो"
+   },
+   {
+    "t": 87.01,
+    "target": "बाहर",
+    "said": "बाहर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो"
+   },
+   {
+    "t": 100.94,
+    "target": "बाहर",
+    "said": "बाहर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो"
+   },
+   {
+    "t": 109.81,
+    "target": "बाहर",
+    "said": "वाहर",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वाहर निकालो जाएगी"
+   }
+  ],
+  "14": [
+   {
+    "t": 78.63,
+    "target": "निकालो",
+    "said": "णिकालो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाहर णिकालो"
+   },
+   {
+    "t": 87.01,
+    "target": "निकालो",
+    "said": "निकालो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो"
+   },
+   {
+    "t": 100.94,
+    "target": "निकालो",
+    "said": "निकालो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो"
+   },
+   {
+    "t": 109.81,
+    "target": "निकालो",
+    "said": "निकालो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वाहर निकालो जाएगी"
+   }
+  ],
+  "15": [
+   {
+    "t": 84.01,
+    "target": "मर",
+    "said": "मर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मर जाएगी"
+   },
+   {
+    "t": 87.01,
+    "target": "मर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "बाहर निकालो"
+   },
+   {
+    "t": 106.05,
+    "target": "मर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "झाएगी"
+   },
+   {
+    "t": 109.81,
+    "target": "मर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "वाहर निकालो जाएगी"
+   }
+  ],
+  "16": [
+   {
+    "t": 84.01,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मर जाएगी"
+   },
+   {
+    "t": 90.88,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जाएगी"
+   },
+   {
+    "t": 106.05,
+    "target": "जाएगी",
+    "said": "झाएगी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "झाएगी"
+   },
+   {
+    "t": 109.81,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वाहर निकालो जाएगी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.83,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 33.56,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 48.27,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "जीवन उसका पानी है। अब तुम बोलो!",
+   "spans": [
+    [
+     5,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 60.8,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 60.91,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "हाथ लगाओ डर जाएगी अब तुम बोलो!",
+   "spans": [
+    [
+     9,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 72.53,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "बाहर निकालो मर जाएगी। अब तुम बोलो!",
+   "spans": [
+    [
+     13,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 94.88,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बाहर निकालो मर",
+   "spans": [
+    [
+     13,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 109.97,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

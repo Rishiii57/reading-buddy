@@ -1,0 +1,27 @@
+{"t": 15.06, "type": "ready", "message": null}
+{"t": 15.19, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 32.78, "type": "speech"}
+{"t": 37.82, "type": "heard", "text": "આવ ડે વરસાદ"}
+{"t": 37.82, "type": "speech"}
+{"t": 37.82, "type": "say", "kind": "echo_line", "text": "ઘેવરિયો પરસાદ. હવે તું બોલ!", "spans": [[3, 5]]}
+{"t": 40.72, "type": "speech"}
+{"t": 46.26, "type": "heard", "text": "ઘેવડિયો પરશાદ"}
+{"t": 46.38, "type": "speech"}
+{"t": 47.22, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 47.28, "type": "say", "kind": "echo_line", "text": "ઊની ઊની રોટલી હવે તું બોલ!", "spans": [[5, 8]]}
+{"t": 54.73, "type": "speech"}
+{"t": 56.91, "type": "heard", "text": "ઊણી"}
+{"t": 56.96, "type": "speech"}
+{"t": 61.03, "type": "speech"}
+{"t": 64.5, "type": "heard", "text": "ઊણી રોટલી"}
+{"t": 64.52, "type": "speech"}
+{"t": 64.52, "type": "say", "kind": "echo_line", "text": "ને કારેલાનું શાક. હવે તું બોલ!", "spans": [[8, 11]]}
+{"t": 72.39, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ને કારેલાનું શાક.", "spans": [[8, 11]]}
+{"t": 77.74, "type": "speech"}
+{"t": 81.19, "type": "heard", "text": "ણે કારેલાનું"}
+{"t": 81.19, "type": "speech"}
+{"t": 83.66, "type": "speech"}
+{"t": 85.84, "type": "heard", "text": "સાક"}
+{"t": 85.94, "type": "speech"}
+{"t": 86.05, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 86.23, "type": "summary", "summary": {"words_total": 11, "words_read": 4, "words_helped": 5, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 0, "seconds": 70.6, "words_per_minute": 7.6}}

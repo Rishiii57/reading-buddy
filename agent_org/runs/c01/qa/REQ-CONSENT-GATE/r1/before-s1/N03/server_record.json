@@ -1,0 +1,103 @@
+{
+ "id": "20261109-203636-91eb0d",
+ "text_id": "gu-shala",
+ "mode": "demo",
+ "summary": {
+  "words_total": 22,
+  "words_read": 0,
+  "words_helped": 1,
+  "words_to_practise": [
+   "મારી"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 26.4,
+  "words_per_minute": 2.3
+ },
+ "log": [
+  {
+   "t": 0.124,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.807,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.086,
+   "event": "pause"
+  },
+  {
+   "t": 21.258,
+   "event": "resume"
+  },
+  {
+   "t": 23.793,
+   "event": "transcript",
+   "text": "માડી"
+  },
+  {
+   "t": 23.793,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.873,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 25.873,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 21.922,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.793,
+   "type": "transcript",
+   "text": "માડી",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડી",
+   "heard": "માડી",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 7
+}

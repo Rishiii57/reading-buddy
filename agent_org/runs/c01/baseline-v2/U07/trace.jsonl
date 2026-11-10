@@ -1,0 +1,18 @@
+{"t": 3.42, "kind": "open_app", "brief": "Yash, UKG (about 5.5 years). Prefers gu-IN. Low confidence, reads very softly."}
+{"t": 3.46, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.22, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.37, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 7.87, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1' text, made for children who already read."}
+{"t": 12.38, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.39, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.43, "kind": "session_started", "tries": 1}
+{"t": 27.97, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 33.44, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.3 s into a planned 3.17 s thinking pause."}
+{"t": 41.14, "kind": "tap_mic_to_talk"}
+{"t": 41.15, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 42.91, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 45.23, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 46.15, "kind": "resumed", "after_s": 1.5}
+{"t": 62.79, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારો' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 62.87, "kind": "abandon", "why": "frustration", "frustration": 3.85}
+{"t": 63.63, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

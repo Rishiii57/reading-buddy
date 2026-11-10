@@ -1,0 +1,45 @@
+{"t": 16.5, "type": "ready", "message": null}
+{"t": 16.66, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 31.98, "type": "speech"}
+{"t": 34.83, "type": "heard", "text": "એક નાની ચકલિ હતી"}
+{"t": 34.84, "type": "speech"}
+{"t": 35.8, "type": "speech"}
+{"t": 40.19, "type": "heard", "text": "તે રોજ સબારે દાણા શોધબા શોધવા જથી"}
+{"t": 40.2, "type": "speech"}
+{"t": 41.22, "type": "speech"}
+{"t": 42.54, "type": "heard", "text": "જતી"}
+{"t": 42.54, "type": "speech"}
+{"t": 42.6, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સવારે", "spans": [[6, 7]]}
+{"t": 49.09, "type": "speech"}
+{"t": 50.22, "type": "heard", "text": "સવારે"}
+{"t": 50.22, "type": "speech"}
+{"t": 50.23, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 57.99, "type": "speech"}
+{"t": 60.93, "type": "heard", "text": "થે તે રોજ"}
+{"t": 60.94, "type": "speech"}
+{"t": 62.4, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... સવારે દાણા શોધવા", "spans": [[6, 9]]}
+{"t": 67.47, "type": "speech"}
+{"t": 69.77, "type": "heard", "text": "શવારે દાણા શોધવા જતી"}
+{"t": 69.79, "type": "speech"}
+{"t": 69.81, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સવારે", "spans": [[6, 7]]}
+{"t": 74.69, "type": "speech"}
+{"t": 75.78, "type": "heard", "text": "સબારે"}
+{"t": 75.78, "type": "speech"}
+{"t": 75.78, "type": "say", "kind": "fix_again", "text": "સવારે", "spans": [[6, 7]]}
+{"t": 79.66, "type": "speech"}
+{"t": 80.76, "type": "heard", "text": "શવારે"}
+{"t": 80.76, "type": "speech"}
+{"t": 80.76, "type": "say", "kind": "fix_again", "text": "સવારે", "spans": [[6, 7]]}
+{"t": 84.36, "type": "speech"}
+{"t": 85.56, "type": "heard", "text": "સવારે"}
+{"t": 85.94, "type": "speech"}
+{"t": 85.95, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 96.17, "type": "speech"}
+{"t": 101.08, "type": "heard", "text": "તે રોજ રોજ સવાડે દાણા શોદવા શોધવા જતી"}
+{"t": 101.17, "type": "speech"}
+{"t": 101.2, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. સવારે", "spans": [[6, 7]]}
+{"t": 105.11, "type": "speech"}
+{"t": 107.57, "type": "heard", "text": "સવારે"}
+{"t": 107.57, "type": "speech"}
+{"t": 107.57, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[4, 10]]}
+{"t": 108.68, "type": "summary", "summary": {"words_total": 23, "words_read": 7, "words_helped": 3, "words_to_practise": ["સવારે"], "words_practised": 3, "correction_attempts": 5, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 3, "seconds": 92.2, "words_per_minute": 6.5}}

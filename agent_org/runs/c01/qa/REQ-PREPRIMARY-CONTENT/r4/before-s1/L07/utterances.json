@@ -1,0 +1,277 @@
+{
+ "utterances": [
+  {
+   "t": 33.74,
+   "said": "a I",
+   "stt": "a I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.82,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.0,
+   "said": "have a",
+   "stt": "have a",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.26,
+   "said": "I",
+   "stt": "I",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 68.68,
+   "said": "a have",
+   "stt": "a have",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.38,
+   "said": "a kite",
+   "stt": "a kite",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.87,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 89.9,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.74,
+    "target": "I",
+    "said": "a I",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "a I"
+   },
+   {
+    "t": 38.82,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 55.26,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "I",
+    "drill": true
+   },
+   {
+    "t": 68.68,
+    "target": "I",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a have"
+   },
+   {
+    "t": 83.87,
+    "target": "I",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a",
+    "drill": true
+   },
+   {
+    "t": 89.9,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 45.0,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "have a"
+   },
+   {
+    "t": 68.68,
+    "target": "have",
+    "said": "have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a have"
+   }
+  ],
+  "2": [
+   {
+    "t": 45.0,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "have a"
+   },
+   {
+    "t": 74.38,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a kite"
+   }
+  ],
+  "3": [
+   {
+    "t": 74.38,
+    "target": "kite",
+    "said": "kite",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a kite"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.67,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 33.8,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 49.28,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 55.47,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! I have a kite of red and blue Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 78.03,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 84.03,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 89.02,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "I",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

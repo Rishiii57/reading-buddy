@@ -1,0 +1,27 @@
+{"t": 14.4, "type": "ready", "message": null}
+{"t": 14.66, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 31.66, "type": "speech"}
+{"t": 35.07, "type": "heard", "text": "I I"}
+{"t": 35.07, "type": "speech"}
+{"t": 35.15, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 38.68, "type": "speech"}
+{"t": 40.78, "type": "heard", "text": "I"}
+{"t": 40.78, "type": "speech"}
+{"t": 43.71, "type": "speech"}
+{"t": 45.98, "type": "heard", "text": "haw"}
+{"t": 46.1, "type": "speech"}
+{"t": 48.94, "type": "speech"}
+{"t": 51.04, "type": "heard", "text": "kite"}
+{"t": 51.16, "type": "speech"}
+{"t": 56.04, "type": "speech"}
+{"t": 59.08, "type": "heard", "text": "of of"}
+{"t": 59.08, "type": "speech"}
+{"t": 59.08, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 67.3, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. have", "spans": [[1, 2]]}
+{"t": 72.74, "type": "speech"}
+{"t": 74.87, "type": "heard", "text": "hav"}
+{"t": 74.91, "type": "speech"}
+{"t": 74.93, "type": "say", "kind": "fix_again", "text": "have", "spans": [[1, 2]]}
+{"t": 78.41, "type": "summary", "summary": {"words_total": 29, "words_read": 2, "words_helped": 2, "words_to_practise": ["have", "a"], "words_practised": 0, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 64.0, "words_per_minute": 3.7}}
+{"t": 85.29, "type": "ready", "message": null}
+{"t": 86.22, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!", "spans": [[0, 8]]}

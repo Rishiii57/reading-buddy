@@ -1,0 +1,106 @@
+{
+ "utterances": [
+  {
+   "t": 44.83,
+   "said": "ran",
+   "stt": "ran",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.68,
+   "said": "haa",
+   "stt": "haa",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.1,
+   "said": "Ravi",
+   "stt": "Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 44.83,
+    "target": "Ravi",
+    "said": "ran",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ran"
+   },
+   {
+    "t": 60.1,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 49.68,
+    "target": "has",
+    "said": "haa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "haa"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 27.41,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 52.94,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. Ravi",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 60.24,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! has",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

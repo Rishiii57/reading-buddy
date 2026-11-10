@@ -1,0 +1,54 @@
+{"t": 28.43, "type": "ready", "message": null}
+{"t": 28.56, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 46.04, "type": "speech"}
+{"t": 47.28, "type": "heard", "text": "Ravi"}
+{"t": 47.28, "type": "speech"}
+{"t": 48.75, "type": "speech"}
+{"t": 50.24, "type": "heard", "text": "haz"}
+{"t": 50.47, "type": "speech"}
+{"t": 52.55, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. has", "spans": [[1, 2]]}
+{"t": 56.05, "type": "speech"}
+{"t": 58.05, "type": "heard", "text": "has"}
+{"t": 58.05, "type": "speech"}
+{"t": 58.05, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! a", "spans": [[2, 3]]}
+{"t": 65.45, "type": "say", "kind": "fix_again", "text": "a", "spans": [[2, 3]]}
+{"t": 67.01, "type": "speech"}
+{"t": 69.08, "type": "heard", "text": "a"}
+{"t": 69.08, "type": "speech"}
+{"t": 69.08, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.", "spans": [[0, 8]]}
+{"t": 76.95, "type": "speech"}
+{"t": 78.49, "type": "heard", "text": "Ravi"}
+{"t": 78.54, "type": "speech"}
+{"t": 80.6, "type": "say", "kind": "stall_phrase", "text": "Listen... has a mango", "spans": [[1, 4]]}
+{"t": 83.52, "type": "speech"}
+{"t": 85.73, "type": "heard", "text": "has"}
+{"t": 85.73, "type": "speech"}
+{"t": 87.16, "type": "say", "kind": "stall_phrase", "text": "Listen... a mango tree", "spans": [[2, 5]]}
+{"t": 90.86, "type": "speech"}
+{"t": 93.25, "type": "heard", "text": "a mango"}
+{"t": 93.25, "type": "speech"}
+{"t": 95.54, "type": "say", "kind": "stall_phrase", "text": "Listen... tree in his", "spans": [[4, 7]]}
+{"t": 100.25, "type": "speech"}
+{"t": 101.86, "type": "heard", "text": "tree"}
+{"t": 101.87, "type": "speech"}
+{"t": 103.85, "type": "say", "kind": "stall_phrase", "text": "Listen... in his garden.", "spans": [[5, 8]]}
+{"t": 106.93, "type": "speech"}
+{"t": 111.2, "type": "heard", "text": "in hiz his garden"}
+{"t": 111.22, "type": "speech"}
+{"t": 111.22, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 114.42, "type": "speech"}
+{"t": 116.06, "type": "heard", "text": "Every"}
+{"t": 116.06, "type": "speech"}
+{"t": 118.09, "type": "say", "kind": "stall_phrase", "text": "Listen... summer the tree", "spans": [[9, 12]]}
+{"t": 121.99, "type": "speech"}
+{"t": 124.47, "type": "heard", "text": "summer the"}
+{"t": 124.47, "type": "speech"}
+{"t": 126.56, "type": "say", "kind": "stall_phrase", "text": "Listen... tree is full", "spans": [[11, 14]]}
+{"t": 130.53, "type": "speech"}
+{"t": 132.11, "type": "heard", "text": "tree"}
+{"t": 132.13, "type": "speech"}
+{"t": 133.74, "type": "speech"}
+{"t": 138.97, "type": "heard", "text": "is is full ov sweet"}
+{"t": 139.0, "type": "speech"}
+{"t": 141.16, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. of", "spans": [[14, 15]]}
+{"t": 143.53, "type": "summary", "summary": {"words_total": 32, "words_read": 3, "words_helped": 13, "words_to_practise": ["has", "a", "of"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 6, "corrections": 2, "seconds": 115.1, "words_per_minute": 8.3}}

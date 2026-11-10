@@ -1,0 +1,783 @@
+{
+ "utterances": [
+  {
+   "t": 35.23,
+   "said": "एक पेड़ पर एक छोठी चिड़िया रहती",
+   "stt": "एक पेड़ पर एक छोठी चिड़िया रहती",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 7,
+   "over_buddy": true
+  },
+  {
+   "t": 38.63,
+   "said": "ए एक पेड़",
+   "stt": "ए एक पेड़",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.33,
+   "said": "पर ए छोटी चिरिया रहती ती ती",
+   "stt": "पर ए छोटी चिरिया रहती ती ती",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 6,
+   "over_buddy": false
+  },
+  {
+   "t": 48.47,
+   "said": "पर एक छोटी",
+   "stt": "पर एक छोटी",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 57.34,
+   "said": "चिड़िया रहथी थी",
+   "stt": "चिड़िया रहथी थी",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 63.29,
+   "said": "रहती",
+   "stt": "रहती",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 75.63,
+   "said": "एक पेड़ पर एक छोटी चिड़िया रहती",
+   "stt": "एक पेड़ पर एक छोटी चिड़िया रहती",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 78.05,
+   "said": "थी",
+   "stt": "थी",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 93.11,
+   "said": "उसने तिनकों से",
+   "stt": "उसने तिनकों से",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 104.25,
+   "said": "सुंदर घोंसला",
+   "stt": "सुंदर घोंसला",
+   "stt_notes": [],
+   "words": [
+    11,
+    12,
+    13
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 115.87,
+   "said": "बनाया",
+   "stt": "बनाया",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 119.12,
+   "said": "बनाया",
+   "stt": "बनाया",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 132.99,
+   "said": "घोंसले में थीन तीन",
+   "stt": "घोंसले में थीन तीन",
+   "stt_notes": [],
+   "words": [
+    15,
+    16,
+    17
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 142.11,
+   "said": "छोटे अंडे थे",
+   "stt": "छोटे अंडे थे",
+   "stt_notes": [],
+   "words": [
+    18,
+    19,
+    20
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 149.28,
+   "said": "छोटे छोटे अंढे अंडे अंढे अंडे थे",
+   "stt": "छोटे छोटे अंढे अंडे अंढे अंडे थे",
+   "stt_notes": [],
+   "words": [
+    18,
+    19,
+    20
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 35.23,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 38.63,
+    "target": "एक",
+    "said": "ए एक",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ए एक पेड़"
+   },
+   {
+    "t": 75.63,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.23,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 38.63,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए एक पेड़"
+   },
+   {
+    "t": 75.63,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "2": [
+   {
+    "t": 35.23,
+    "target": "पर",
+    "said": "पर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "पर",
+    "said": "पर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 48.47,
+    "target": "पर",
+    "said": "पर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर एक छोटी"
+   },
+   {
+    "t": 75.63,
+    "target": "पर",
+    "said": "पर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "3": [
+   {
+    "t": 35.23,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 48.47,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर एक छोटी"
+   },
+   {
+    "t": 75.63,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "4": [
+   {
+    "t": 35.23,
+    "target": "छोटी",
+    "said": "छोठी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "छोटी",
+    "said": "छोटी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 48.47,
+    "target": "छोटी",
+    "said": "छोटी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर एक छोटी"
+   },
+   {
+    "t": 75.63,
+    "target": "छोटी",
+    "said": "छोटी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "5": [
+   {
+    "t": 35.23,
+    "target": "चिड़िया",
+    "said": "चिड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "चिड़िया",
+    "said": "चिरिया",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 57.34,
+    "target": "चिड़िया",
+    "said": "चिड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चिड़िया रहथी थी"
+   },
+   {
+    "t": 75.63,
+    "target": "चिड़िया",
+    "said": "चिड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "6": [
+   {
+    "t": 35.23,
+    "target": "रहती",
+    "said": "रहती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "रहती",
+    "said": "रहती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 57.34,
+    "target": "रहती",
+    "said": "रहथी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "चिड़िया रहथी थी"
+   },
+   {
+    "t": 63.29,
+    "target": "रहती",
+    "said": "रहती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "रहती",
+    "drill": true
+   },
+   {
+    "t": 75.63,
+    "target": "रहती",
+    "said": "रहती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   }
+  ],
+  "7": [
+   {
+    "t": 35.23,
+    "target": "थी",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "एक पेड़ पर एक छोठी चिड़िया रहती"
+   },
+   {
+    "t": 45.33,
+    "target": "थी",
+    "said": "ती",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पर ए छोटी चिरिया रहती ती ती"
+   },
+   {
+    "t": 57.34,
+    "target": "थी",
+    "said": "थी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चिड़िया रहथी थी"
+   },
+   {
+    "t": 75.63,
+    "target": "थी",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "एक पेड़ पर एक छोटी चिड़िया रहती"
+   },
+   {
+    "t": 78.05,
+    "target": "थी",
+    "said": "थी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "थी"
+   }
+  ],
+  "8": [
+   {
+    "t": 93.11,
+    "target": "उसने",
+    "said": "उसने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसने तिनकों से"
+   }
+  ],
+  "9": [
+   {
+    "t": 93.11,
+    "target": "तिनकों",
+    "said": "तिनकों",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसने तिनकों से"
+   }
+  ],
+  "10": [
+   {
+    "t": 93.11,
+    "target": "से",
+    "said": "से",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसने तिनकों से"
+   }
+  ],
+  "11": [
+   {
+    "t": 104.25,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "सुंदर घोंसला"
+   }
+  ],
+  "12": [
+   {
+    "t": 104.25,
+    "target": "सुंदर",
+    "said": "सुंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सुंदर घोंसला"
+   }
+  ],
+  "13": [
+   {
+    "t": 104.25,
+    "target": "घोंसला",
+    "said": "घोंसला",
+    "correct": true,
+    "kind": "ok",
+    "stt": "सुंदर घोंसला"
+   }
+  ],
+  "14": [
+   {
+    "t": 115.87,
+    "target": "बनाया",
+    "said": "बनाया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बनाया"
+   },
+   {
+    "t": 119.12,
+    "target": "बनाया",
+    "said": "बनाया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बनाया"
+   }
+  ],
+  "15": [
+   {
+    "t": 132.99,
+    "target": "घोंसले",
+    "said": "घोंसले",
+    "correct": true,
+    "kind": "ok",
+    "stt": "घोंसले में थीन तीन"
+   }
+  ],
+  "16": [
+   {
+    "t": 132.99,
+    "target": "में",
+    "said": "में",
+    "correct": true,
+    "kind": "ok",
+    "stt": "घोंसले में थीन तीन"
+   }
+  ],
+  "17": [
+   {
+    "t": 132.99,
+    "target": "तीन",
+    "said": "थीन तीन",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "घोंसले में थीन तीन"
+   }
+  ],
+  "18": [
+   {
+    "t": 142.11,
+    "target": "छोटे",
+    "said": "छोटे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "छोटे अंडे थे"
+   },
+   {
+    "t": 149.28,
+    "target": "छोटे",
+    "said": "छोटे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "छोटे छोटे अंढे अंडे अंढे अंडे थे"
+   }
+  ],
+  "19": [
+   {
+    "t": 142.11,
+    "target": "अंडे",
+    "said": "अंडे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "छोटे अंडे थे"
+   },
+   {
+    "t": 149.28,
+    "target": "अंडे",
+    "said": "अंढे अंडे",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "छोटे छोटे अंढे अंडे अंढे अंडे थे"
+   }
+  ],
+  "20": [
+   {
+    "t": 142.11,
+    "target": "थे",
+    "said": "थे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "छोटे अंडे थे"
+   },
+   {
+    "t": 149.28,
+    "target": "थे",
+    "said": "थे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "छोटे छोटे अंढे अंडे अंढे अंडे थे"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.93,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 40.75,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... पर एक छोटी",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 50.54,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... चिड़िया रहती थी।",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 57.8,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। रहती",
+   "spans": [
+    [
+     6,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 63.29,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 78.22,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।",
+   "spans": []
+  },
+  {
+   "t": 86.69,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... उसने तिनकों से",
+   "spans": [
+    [
+     8,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 98.16,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... एक सुंदर घोंसला",
+   "spans": [
+    [
+     11,
+     14
+    ]
+   ]
+  },
+  {
+   "t": 111.48,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बनाया।",
+   "spans": [
+    [
+     14,
+     15
+    ]
+   ]
+  },
+  {
+   "t": 119.21,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 126.27,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... घोंसले में तीन",
+   "spans": [
+    [
+     15,
+     18
+    ]
+   ]
+  },
+  {
+   "t": 139.52,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... छोटे अंडे थे।",
+   "spans": [
+    [
+     18,
+     21
+    ]
+   ]
+  },
+  {
+   "t": 149.45,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  }
+ ]
+}

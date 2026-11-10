@@ -1,0 +1,104 @@
+{
+ "utterances": [
+  {
+   "t": 36.83,
+   "said": "मीना",
+   "stt": "मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.56,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.51,
+   "said": "घर",
+   "stt": "घर",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.83,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना"
+   }
+  ],
+  "1": [
+   {
+    "t": 41.56,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 45.51,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "घर"
+   }
+  ],
+  "2": [
+   {
+    "t": 45.51,
+    "target": "घर",
+    "said": "घर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "घर"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.25,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 40.29,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... के घर के",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ ]
+}

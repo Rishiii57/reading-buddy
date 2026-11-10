@@ -1,0 +1,68 @@
+{"t": 15.88, "type": "ready", "message": null}
+{"t": 16.17, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 31.32, "type": "speech"}
+{"t": 34.83, "type": "heard", "text": "Twinkle the"}
+{"t": 34.83, "type": "speech"}
+{"t": 37.56, "type": "speech"}
+{"t": 40.99, "type": "heard", "text": "like like"}
+{"t": 40.99, "type": "speech"}
+{"t": 41.0, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 44.49, "type": "speech"}
+{"t": 46.71, "type": "heard", "text": "to"}
+{"t": 46.71, "type": "speech"}
+{"t": 50.84, "type": "say", "kind": "stall_phrase", "text": "Listen... twinkle", "spans": [[1, 2]]}
+{"t": 54.96, "type": "speech"}
+{"t": 57.1, "type": "heard", "text": "to"}
+{"t": 57.1, "type": "speech"}
+{"t": 59.96, "type": "speech"}
+{"t": 64.92, "type": "heard", "text": "littl littl see"}
+{"t": 64.95, "type": "speech"}
+{"t": 64.97, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 68.17, "type": "speech"}
+{"t": 70.27, "type": "heard", "text": "tree"}
+{"t": 70.29, "type": "speech"}
+{"t": 73.82, "type": "speech"}
+{"t": 76.03, "type": "heard", "text": "like"}
+{"t": 76.03, "type": "speech"}
+{"t": 79.96, "type": "speech"}
+{"t": 82.18, "type": "heard", "text": "sun"}
+{"t": 82.26, "type": "speech"}
+{"t": 84.73, "type": "speech"}
+{"t": 86.94, "type": "heard", "text": "to"}
+{"t": 86.94, "type": "speech"}
+{"t": 89.91, "type": "speech"}
+{"t": 92.01, "type": "heard", "text": "look"}
+{"t": 92.01, "type": "speech"}
+{"t": 95.45, "type": "speech"}
+{"t": 98.95, "type": "heard", "text": "sun sun"}
+{"t": 98.95, "type": "speech"}
+{"t": 98.95, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 102.38, "type": "speech"}
+{"t": 104.46, "type": "heard", "text": "the"}
+{"t": 104.47, "type": "speech"}
+{"t": 107.75, "type": "speech"}
+{"t": 112.62, "type": "heard", "text": "like said said"}
+{"t": 112.62, "type": "speech"}
+{"t": 112.63, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 116.04, "type": "speech"}
+{"t": 119.54, "type": "heard", "text": "to to"}
+{"t": 119.56, "type": "speech"}
+{"t": 123.13, "type": "speech"}
+{"t": 125.15, "type": "heard", "text": "like"}
+{"t": 125.15, "type": "speech"}
+{"t": 129.36, "type": "say", "kind": "stall_rest", "text": "twinkle, little star Now you try!", "spans": [[1, 4]]}
+{"t": 133.33, "type": "speech"}
+{"t": 135.38, "type": "heard", "text": "twinkle"}
+{"t": 135.39, "type": "speech"}
+{"t": 138.45, "type": "speech"}
+{"t": 140.51, "type": "heard", "text": "little"}
+{"t": 140.53, "type": "speech"}
+{"t": 144.39, "type": "speech"}
+{"t": 146.55, "type": "heard", "text": "star"}
+{"t": 146.55, "type": "speech"}
+{"t": 146.55, "type": "say", "kind": "echo_line", "text": "How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 151.48, "type": "speech"}
+{"t": 154.92, "type": "heard", "text": "hoa How"}
+{"t": 154.96, "type": "speech"}
+{"t": 159.57, "type": "say", "kind": "stall_phrase", "text": "Listen... I wonder what", "spans": [[5, 8]]}
+{"t": 160.79, "type": "summary", "summary": {"words_total": 22, "words_read": 2, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 144.9, "words_per_minute": 3.3}}

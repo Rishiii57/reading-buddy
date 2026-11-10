@@ -230,7 +230,7 @@ def test_unclear_transcript_while_reading_asks_to_read_again():
 
 def test_pause_holds_prompts_until_resume():
     eng, acts = simulate(KITE, L0 + [(4, "ss", ""), (5, "tr", "it flies up"), (5.5, "pause", ""),
-                                     (20, "resume", "")], until=23)
+                                     (20, "resume", "")], until=25)  # Grade 1-2 text: young threshold
     prompts = [t for t, a in acts if a["type"] == "say" and a["kind"].startswith("stall")]
     assert prompts and prompts[0] >= 22  # nothing while paused; the stall timer restarts on resume
 
@@ -277,4 +277,69 @@ def test_every_text_reads_through_cleanly(text_id):
         t += 3
     eng, acts = simulate(text, script, until=t + 1)
     assert eng.done
-    assert not [k for k in kinds(acts) if k not in ("praise", "finish")]
+    allowed = ("praise", "finish", "echo_line") if text.pre_primary else ("praise", "finish")
+    assert not [k for k in kinds(acts) if k not in allowed]
+
+
+# ---------- REQ-PREPRIMARY-CONTENT: rhymes for Nursery/LKG/UKG with echo reading ----------
+def test_library_has_pre_primary_rhymes_in_every_language():
+    from collections import Counter
+    c = Counter(t.language for t in LIB.values() if t.pre_primary)
+    assert all(c[lang] >= 4 for lang in ("en-IN", "hi-IN", "gu-IN")), c
+
+
+def test_pre_primary_rhyme_models_every_line():
+    text = LIB["en-twinkle"]
+    script, t = [], 1.0
+    for a, b in text.line_words:
+        script += [(t, "ss", ""), (t + 2, "tr", " ".join(w.display for w in text.words[a:b]))]
+        t += 6
+    eng, acts = simulate(text, script, until=t + 1)
+    echoes = [a for _, a in acts if a["type"] == "say" and a["kind"] == "echo_line"]
+    assert eng.done and len(echoes) == len(text.line_words) - 1
+    assert echoes[0]["parts"][0] == ("span", *text.line_range(1))
+
+
+def test_grade_texts_do_not_echo():
+    text = KITE
+    script = [(1, "ss", ""), (3, "tr", "i have a kite of red and blue")]
+    eng, acts = simulate(text, script, until=6)
+    assert not [a for _, a in acts if a["type"] == "say" and a["kind"] == "echo_line"]
+
+
+# ---------- REQ-STALL-TIMING: adaptive mid-line stall threshold ----------
+def _stall_prompts(acts):
+    return [t for t, a in acts if a["type"] == "say" and a["kind"].startswith("stall")]
+
+
+def test_young_text_waits_longer_mid_line():
+    # "I have a kite" then silence: a Grade 1-2 text waits ~3 s (was 2 s) before helping
+    eng, acts = simulate(KITE, L0 + [(4, "ss", ""), (5, "tr", "it flies up")], until=12)
+    p = _stall_prompts(acts)
+    assert p and 5 + 3.0 < p[0] < 5 + 4.6
+
+
+def test_word_by_word_reader_is_not_interrupted():
+    # a reader who pauses ~2.8 s between chunks and always carries on alone
+    script = L0 + [(4.0, "ss", ""), (4.6, "tr", "it"), (7.4, "ss", ""), (8.0, "tr", "flies"),
+                   (10.8, "ss", ""), (11.4, "tr", "up high"), (14.2, "ss", ""), (14.8, "tr", "the whole"),
+                   (17.6, "ss", ""), (18.2, "tr", "day through")]
+    eng, acts = simulate(KITE, script, until=20)
+    assert _stall_prompts(acts) == []
+
+
+def test_adaptive_limit_is_capped_and_still_helps_a_stuck_reader():
+    from backend.tutor import TutorConfig
+    eng, acts = simulate(KITE, L0 + [(4, "ss", ""), (5, "tr", "it flies up")], until=12,
+                         cfg=TutorConfig(stall_mid_max_s=5.0))
+    eng.pause_gaps = [9.0, 9.0, 9.0]
+    assert eng.mid_limit() == 5.0
+
+
+def test_rhyme_slips_are_helped_not_drilled():
+    text = LIB["en-twinkle"]
+    a, b = text.line_range(0)
+    script = [(1, "ss", ""), (3, "tr", "twinkle twinkle little tar")]
+    eng, acts = simulate(text, script, until=8)
+    assert not [a for _, a in acts if a["type"] == "say" and a["kind"].startswith("fix")]
+    assert eng.line == 1 and "helped" in eng.status[a:b]

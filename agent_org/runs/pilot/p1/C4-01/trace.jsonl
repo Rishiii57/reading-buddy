@@ -1,0 +1,17 @@
+{"t": 2.17, "kind": "open_app", "brief": "Meera, Class 4 (about 9.5 years). Prefers hi-IN. Reads Hindi fluently; wants to sound good reading poems aloud."}
+{"t": 2.27, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.91, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.86, "kind": "tap", "target": "हिन्दी", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.9, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.78, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.47, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 8.87, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 9.87, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 10.71, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 11.62, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 13.15, "kind": "session_started", "tries": 1}
+{"t": 17.56, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 22.4, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "5 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 22.58, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.23 s thinking pause."}
+{"t": 25.4, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 86.66, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused."}

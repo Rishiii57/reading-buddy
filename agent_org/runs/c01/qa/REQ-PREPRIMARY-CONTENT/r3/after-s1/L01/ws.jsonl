@@ -1,0 +1,60 @@
+{"t": 16.9, "type": "ready", "message": null}
+{"t": 17.21, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 37.19, "type": "speech"}
+{"t": 39.45, "type": "heard", "text": "मछली"}
+{"t": 39.45, "type": "speech"}
+{"t": 42.8, "type": "speech"}
+{"t": 44.15, "type": "heard", "text": "जल"}
+{"t": 44.15, "type": "speech"}
+{"t": 47.02, "type": "speech"}
+{"t": 49.15, "type": "heard", "text": "कि"}
+{"t": 49.36, "type": "speech"}
+{"t": 53.63, "type": "speech"}
+{"t": 55.25, "type": "heard", "text": "रानी"}
+{"t": 55.25, "type": "speech"}
+{"t": 56.36, "type": "speech"}
+{"t": 58.38, "type": "heard", "text": "हे"}
+{"t": 58.39, "type": "speech"}
+{"t": 58.6, "type": "say", "kind": "echo_line", "text": "सुनो... जीवन उसका पानी है। अब तुम बोलो!", "spans": [[5, 9]]}
+{"t": 68.01, "type": "speech"}
+{"t": 70.12, "type": "heard", "text": "जीवन"}
+{"t": 70.12, "type": "speech"}
+{"t": 72.66, "type": "speech"}
+{"t": 74.9, "type": "heard", "text": "उसका"}
+{"t": 74.94, "type": "speech"}
+{"t": 78.75, "type": "speech"}
+{"t": 80.91, "type": "heard", "text": "पानी"}
+{"t": 81.18, "type": "speech"}
+{"t": 84.89, "type": "speech"}
+{"t": 87.18, "type": "heard", "text": "है"}
+{"t": 87.31, "type": "speech"}
+{"t": 87.81, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 88.08, "type": "say", "kind": "echo_line", "text": "सुनो... हाथ लगाओ डर जाएगी अब तुम बोलो!", "spans": [[9, 13]]}
+{"t": 97.83, "type": "speech"}
+{"t": 101.14, "type": "heard", "text": "हात हात"}
+{"t": 101.15, "type": "speech"}
+{"t": 105.05, "type": "say", "kind": "stall_phrase", "text": "सुनो... हाथ लगाओ डर", "spans": [[9, 12]]}
+{"t": 109.23, "type": "speech"}
+{"t": 111.25, "type": "heard", "text": "हाथ"}
+{"t": 111.25, "type": "speech"}
+{"t": 115.73, "type": "speech"}
+{"t": 119.09, "type": "heard", "text": "लगाओ डड़"}
+{"t": 119.12, "type": "speech"}
+{"t": 124.31, "type": "speech"}
+{"t": 126.05, "type": "heard", "text": "जाएगी"}
+{"t": 126.05, "type": "speech"}
+{"t": 126.09, "type": "say", "kind": "echo_line", "text": "सुनो... बाहर निकालो मर जाएगी। अब तुम बोलो!", "spans": [[13, 17]]}
+{"t": 132.57, "type": "speech"}
+{"t": 134.69, "type": "heard", "text": "वाहड़"}
+{"t": 134.69, "type": "speech"}
+{"t": 138.31, "type": "speech"}
+{"t": 141.88, "type": "heard", "text": "निकालो झाएगी"}
+{"t": 141.89, "type": "speech"}
+{"t": 142.79, "type": "speech"}
+{"t": 144.81, "type": "heard", "text": "मर"}
+{"t": 144.82, "type": "speech"}
+{"t": 147.43, "type": "speech"}
+{"t": 149.64, "type": "heard", "text": "झाएगी"}
+{"t": 149.64, "type": "speech"}
+{"t": 149.65, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 149.65, "type": "summary", "summary": {"words_total": 17, "words_read": 12, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 0, "seconds": 132.6, "words_per_minute": 6.8}}

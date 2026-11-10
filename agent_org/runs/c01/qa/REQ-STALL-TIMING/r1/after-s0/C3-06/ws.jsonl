@@ -1,0 +1,38 @@
+{"t": 15.13, "type": "ready", "message": null}
+{"t": 15.2, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 32.65, "type": "speech"}
+{"t": 36.61, "type": "heard", "text": "માડી શાળા બહુ બહુ શુંદર સુંદર છે"}
+{"t": 36.63, "type": "speech"}
+{"t": 36.66, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 40.51, "type": "speech"}
+{"t": 41.67, "type": "heard", "text": "મારી"}
+{"t": 41.67, "type": "speech"}
+{"t": 41.96, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 49.2, "type": "speech"}
+{"t": 52.22, "type": "heard", "text": "માડી શાળા બહુ સુંદર છૈ"}
+{"t": 52.23, "type": "speech"}
+{"t": 52.24, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 56.55, "type": "speech"}
+{"t": 57.69, "type": "heard", "text": "મારી"}
+{"t": 57.69, "type": "speech"}
+{"t": 57.69, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 64.69, "type": "speech"}
+{"t": 67.7, "type": "heard", "text": "મારી શાળા બહુ સુંદર છે"}
+{"t": 67.73, "type": "speech"}
+{"t": 67.8, "type": "say", "kind": "praise", "text": "સરસ! ચાલો આગળની પંક્તિ વાંચીએ.", "spans": []}
+{"t": 71.2, "type": "speech"}
+{"t": 74.31, "type": "heard", "text": "શાળામાં એક મોટું મેદાન છે"}
+{"t": 74.31, "type": "speech"}
+{"t": 74.31, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 78.88, "type": "speech"}
+{"t": 82.65, "type": "heard", "text": "અમે ત્યાં રોજ સાથે ડમીએ રમીએ છીએ"}
+{"t": 82.66, "type": "speech"}
+{"t": 83.74, "type": "speech"}
+{"t": 85.4, "type": "heard", "text": "મારા શિક્ષક"}
+{"t": 85.4, "type": "speech"}
+{"t": 87.38, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... અમને વાર્તા કહે", "spans": [[18, 21]]}
+{"t": 90.55, "type": "speech"}
+{"t": 94.14, "type": "heard", "text": "અમને વાર્તા કહે છે"}
+{"t": 94.14, "type": "speech"}
+{"t": 94.14, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 94.14, "type": "summary", "summary": {"words_total": 22, "words_read": 18, "words_helped": 4, "words_to_practise": ["મારી"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 2, "seconds": 78.0, "words_per_minute": 16.9}}

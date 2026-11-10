@@ -1,0 +1,15 @@
+{"t": 22.69, "type": "ready", "message": null}
+{"t": 22.97, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 38.37, "type": "speech"}
+{"t": 41.01, "type": "heard", "text": "बादल"}
+{"t": 41.01, "type": "speech"}
+{"t": 43.09, "type": "say", "kind": "stall_phrase", "text": "सुनो... गरजे", "spans": [[1, 2]]}
+{"t": 46.09, "type": "speech"}
+{"t": 48.71, "type": "heard", "text": "गरझे"}
+{"t": 48.71, "type": "speech"}
+{"t": 50.78, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे", "spans": [[1, 2]]}
+{"t": 61.48, "type": "speech"}
+{"t": 64.16, "type": "heard", "text": "गड़झे"}
+{"t": 64.16, "type": "speech"}
+{"t": 64.16, "type": "say", "kind": "fix_again", "text": "गरजे", "spans": [[1, 2]]}
+{"t": 68.51, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 1, "words_to_practise": ["गरजे"], "words_practised": 0, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 45.5, "words_per_minute": 2.6}}

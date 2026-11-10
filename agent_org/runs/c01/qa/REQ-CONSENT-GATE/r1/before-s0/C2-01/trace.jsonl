@@ -1,0 +1,24 @@
+{"t": 2.67, "kind": "open_app", "brief": "Kabir, Class 2 (about 7.5 years). Prefers en-IN. Reads quickly and guesses words from the first letter."}
+{"t": 2.73, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.72, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.62, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.46, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 10.73, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.4, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 13.79, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 15.29, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 16.81, "kind": "session_started", "tries": 1}
+{"t": 22.29, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 28.95, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 39.96, "kind": "tap_mic_to_talk"}
+{"t": 40.04, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 77.91, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 3 times."}
+{"t": 99.98, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 4 times."}
+{"t": 105.04, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 5 times."}
+{"t": 108.85, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 6 times."}
+{"t": 112.62, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 7 times."}
+{"t": 117.5, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 8 times."}
+{"t": 132.48, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'A' 9 times."}
+{"t": 136.45, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 138.12, "kind": "abandon", "why": "frustration", "frustration": 4.45}
+{"t": 138.38, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

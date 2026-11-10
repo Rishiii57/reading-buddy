@@ -1,0 +1,22 @@
+{"t": 26.73, "type": "ready", "message": null}
+{"t": 26.73, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 42.8, "type": "speech"}
+{"t": 46.4, "type": "heard", "text": "raim rain"}
+{"t": 46.41, "type": "speech"}
+{"t": 50.85, "type": "say", "kind": "stall_phrase", "text": "Listen... go away", "spans": [[2, 4]]}
+{"t": 57.96, "type": "say", "kind": "stall_rest", "text": "go away Now you try!", "spans": [[2, 4]]}
+{"t": 64.06, "type": "speech"}
+{"t": 65.79, "type": "heard", "text": "go"}
+{"t": 65.82, "type": "speech"}
+{"t": 68.24, "type": "speech"}
+{"t": 70.27, "type": "heard", "text": "away"}
+{"t": 70.27, "type": "speech"}
+{"t": 70.27, "type": "say", "kind": "echo_line", "text": "Come again another day Now you try!", "spans": [[4, 8]]}
+{"t": 74.25, "type": "speech"}
+{"t": 79.12, "type": "heard", "text": "Come again"}
+{"t": 79.17, "type": "speech"}
+{"t": 82.47, "type": "speech"}
+{"t": 86.55, "type": "heard", "text": "another daa"}
+{"t": 86.56, "type": "speech"}
+{"t": 87.52, "type": "say", "kind": "echo_line", "text": "Little children want to play. Now you try!", "spans": [[8, 13]]}
+{"t": 92.7, "type": "summary", "summary": {"words_total": 13, "words_read": 4, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 3, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 66.2, "words_per_minute": 7.3}}

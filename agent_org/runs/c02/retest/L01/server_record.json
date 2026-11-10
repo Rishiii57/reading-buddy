@@ -1,0 +1,393 @@
+{
+ "id": "20261110-111603-ca7fea",
+ "text_id": "hi-samandar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 9,
+  "words_read": 3,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 2,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 79.9,
+  "words_per_minute": 5.3
+ },
+ "log": [
+  {
+   "t": 0.071,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.6,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.344,
+   "event": "transcript",
+   "text": "हड़ा"
+  },
+  {
+   "t": 18.344,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 22.872,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 22.872,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 25.433,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.098,
+   "event": "transcript",
+   "text": "समंदर समंदर"
+  },
+  {
+   "t": 30.098,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 36.16,
+   "event": "transcript",
+   "text": "गोपि"
+  },
+  {
+   "t": 36.16,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 41.044,
+   "event": "transcript",
+   "text": "चंदर"
+  },
+  {
+   "t": 41.044,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 41.044,
+   "event": "echo_slips_accepted",
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 41.044,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 41.044,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 45.448,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 48.754,
+   "event": "transcript",
+   "text": "बोल"
+  },
+  {
+   "t": 48.754,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 55.413,
+   "event": "transcript",
+   "text": "मेड़ी"
+  },
+  {
+   "t": 55.413,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 57.016,
+   "event": "progress",
+   "to": 7
+  },
+  {
+   "t": 60.56,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 60.56,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 9
+  },
+  {
+   "t": 66.023,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 68.669,
+   "event": "transcript",
+   "text": "कितना"
+  },
+  {
+   "t": 68.669,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 73.608,
+   "event": "transcript",
+   "text": "पाणी"
+  },
+  {
+   "t": 73.608,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.864,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.344,
+   "type": "transcript",
+   "text": "हड़ा",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 26.616,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.098,
+   "type": "transcript",
+   "text": "समंदर समंदर",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 34.088,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.16,
+   "type": "transcript",
+   "text": "गोपि",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 38.992,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.044,
+   "type": "transcript",
+   "text": "चंदर",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 46.663,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.754,
+   "type": "transcript",
+   "text": "बोल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 53.354,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.413,
+   "type": "transcript",
+   "text": "मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 66.616,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.669,
+   "type": "transcript",
+   "text": "कितना",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 71.522,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.608,
+   "type": "transcript",
+   "text": "पाणी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "हड़ा",
+   "heard": "हड़ा",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "समंदर",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "समंदर समंदर",
+   "heard": "समंदर समंदर",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "गोपि",
+   "heard": "गोपि",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "चंदर",
+   "heard": "चंदर",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बोल",
+   "heard": "बोल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मेड़ी",
+   "heard": "मेड़ी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "कितना",
+   "heard": "कितना",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "पाणी",
+   "heard": "पाणी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 136
+}

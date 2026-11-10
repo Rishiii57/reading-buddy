@@ -1,0 +1,110 @@
+{
+ "utterances": [
+  {
+   "t": 41.25,
+   "said": "Ravi has a",
+   "stt": "Ravi has a",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.72,
+   "said": "me mango",
+   "stt": "ne mango",
+   "stt_notes": [
+    "'me' heard as 'ne'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 41.25,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a"
+   }
+  ],
+  "1": [
+   {
+    "t": 41.25,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi has a"
+   }
+  ],
+  "2": [
+   {
+    "t": 41.25,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ravi has a"
+   }
+  ],
+  "3": [
+   {
+    "t": 49.72,
+    "target": "mango",
+    "said": "me mango",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ne mango"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 22.29,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 43.39,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... mango tree in",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 51.75,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... tree in his",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  }
+ ]
+}

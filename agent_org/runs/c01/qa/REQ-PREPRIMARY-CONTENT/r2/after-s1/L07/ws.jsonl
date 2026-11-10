@@ -1,0 +1,51 @@
+{"t": 15.63, "type": "ready", "message": null}
+{"t": 15.75, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 29.49, "type": "speech"}
+{"t": 31.55, "type": "heard", "text": "Twinkle"}
+{"t": 31.55, "type": "speech"}
+{"t": 35.17, "type": "speech"}
+{"t": 41.41, "type": "heard", "text": "twinkle little star star"}
+{"t": 41.42, "type": "speech"}
+{"t": 41.44, "type": "say", "kind": "echo_line", "text": "Listen... How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 53.8, "type": "speech"}
+{"t": 61.37, "type": "heard", "text": "How I I was what"}
+{"t": 61.37, "type": "speech"}
+{"t": 64.89, "type": "speech"}
+{"t": 66.94, "type": "heard", "text": "you"}
+{"t": 67.03, "type": "speech"}
+{"t": 71.39, "type": "speech"}
+{"t": 73.57, "type": "heard", "text": "are"}
+{"t": 73.58, "type": "speech"}
+{"t": 73.58, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 73.59, "type": "say", "kind": "echo_line", "text": "Listen... Up above the world so high Now you try!", "spans": [[10, 16]]}
+{"t": 84.6, "type": "speech"}
+{"t": 86.69, "type": "heard", "text": "tha"}
+{"t": 86.69, "type": "speech"}
+{"t": 86.86, "type": "speech"}
+{"t": 90.0, "type": "heard", "text": "Up"}
+{"t": 90.74, "type": "speech"}
+{"t": 93.43, "type": "speech"}
+{"t": 95.56, "type": "heard", "text": "all"}
+{"t": 95.56, "type": "speech"}
+{"t": 99.14, "type": "speech"}
+{"t": 101.23, "type": "heard", "text": "tha"}
+{"t": 101.23, "type": "speech"}
+{"t": 106.56, "type": "say", "kind": "stall_phrase", "text": "Listen... Up above the", "spans": [[10, 13]]}
+{"t": 109.82, "type": "speech"}
+{"t": 113.16, "type": "heard", "text": "Up Up"}
+{"t": 113.16, "type": "speech"}
+{"t": 115.76, "type": "speech"}
+{"t": 119.03, "type": "heard", "text": "all all"}
+{"t": 119.03, "type": "speech"}
+{"t": 121.81, "type": "speech"}
+{"t": 125.25, "type": "heard", "text": "the the"}
+{"t": 125.25, "type": "speech"}
+{"t": 129.45, "type": "speech"}
+{"t": 132.97, "type": "heard", "text": "was so"}
+{"t": 133.39, "type": "speech"}
+{"t": 136.66, "type": "speech"}
+{"t": 138.74, "type": "heard", "text": "have"}
+{"t": 138.77, "type": "speech"}
+{"t": 142.4, "type": "say", "kind": "stall_phrase", "text": "Listen... Up above the", "spans": [[10, 13]]}
+{"t": 150.33, "type": "say", "kind": "stall_rest", "text": "Up above the world so high Now you try!", "spans": [[10, 16]]}
+{"t": 151.13, "type": "summary", "summary": {"words_total": 22, "words_read": 9, "words_helped": 7, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 135.6, "words_per_minute": 7.1}}

@@ -1,0 +1,119 @@
+{
+ "utterances": [
+  {
+   "t": 25.64,
+   "said": "મારો",
+   "stt": "મારો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.38,
+   "said": "પતંગ",
+   "stt": "પતંગ",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.18,
+   "said": "લાલ",
+   "stt": "લાલ",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 25.64,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો"
+   }
+  ],
+  "1": [
+   {
+    "t": 48.38,
+    "target": "પતંગ",
+    "said": "પતંગ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પતંગ"
+   }
+  ],
+  "2": [
+   {
+    "t": 55.18,
+    "target": "લાલ",
+    "said": "લાલ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "લાલ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 7.62,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 27.83,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પતંગ લાલ ને",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 50.82,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... લાલ ને પીળો",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 57.37,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ને પીળો",
+   "spans": [
+    [
+     3,
+     5
+    ]
+   ]
+  }
+ ]
+}

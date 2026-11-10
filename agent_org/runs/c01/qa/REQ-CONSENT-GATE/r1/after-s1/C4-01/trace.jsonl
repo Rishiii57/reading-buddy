@@ -1,0 +1,14 @@
+{"t": 4.21, "kind": "open_app", "brief": "Meera, Class 4 (about 9.5 years). Prefers hi-IN. Reads Hindi fluently; wants to sound good reading poems aloud."}
+{"t": 5.21, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 7.1, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 8.48, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 10.31, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 11.26, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 13.58, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 17.97, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 21.69, "kind": "session_started", "tries": 1}
+{"t": 33.97, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 40.41, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 41.21, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'मीना' correctly but Buddy asked to practise it."}
+{"t": 104.14, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.09 s thinking pause."}
+{"t": 112.65, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'बहुत' correctly but Buddy asked to practise it (the speech model wrote it differently)."}

@@ -1,0 +1,222 @@
+{
+ "id": "20261109-175732-19c007",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 43.0,
+  "words_per_minute": 7.0
+ },
+ "log": [
+  {
+   "t": 0.049,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.388,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.891,
+   "event": "transcript",
+   "text": "મારો"
+  },
+  {
+   "t": 17.891,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.938,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 19.938,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 23.036,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.268,
+   "event": "transcript",
+   "text": "પતંગ લાલ"
+  },
+  {
+   "t": 26.268,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 28.291,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 28.291,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 30.724,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.155,
+   "event": "pause"
+  },
+  {
+   "t": 33.832,
+   "event": "resume"
+  },
+  {
+   "t": 36.422,
+   "event": "transcript",
+   "text": "નૈ"
+  },
+  {
+   "t": 36.422,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 40.211,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 40.211,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 42.118,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.006,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.018,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.891,
+   "type": "transcript",
+   "text": "મારો",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 23.146,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.268,
+   "type": "transcript",
+   "text": "પતંગ લાલ",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 34.507,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.422,
+   "type": "transcript",
+   "text": "નૈ",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો",
+   "heard": "મારો",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "પતંગ લાલ",
+   "heard": "પતંગ લાલ",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "નૈ",
+   "heard": "નૈ",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "પીળો",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 15
+}

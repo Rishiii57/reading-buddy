@@ -1,0 +1,79 @@
+{
+ "started": "2026-11-09T21:30:58",
+ "agents": {
+  "N01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:00",
+   "outcome": "could_not_start",
+   "issues": 4
+  },
+  "N02": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:00",
+   "outcome": "abandoned_frustration",
+   "issues": 5
+  },
+  "L01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:00",
+   "outcome": "abandoned_frustration",
+   "issues": 4
+  },
+  "L02": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:00",
+   "outcome": "left_before_start",
+   "issues": 2
+  },
+  "L03": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:31:19",
+   "outcome": "abandoned_frustration",
+   "issues": 4
+  },
+  "L04": {
+   "state": "done",
+   "attempt": 2,
+   "since": "21:32:55",
+   "error": "ConnectError: All connection attempts failed",
+   "outcome": "ended_early",
+   "issues": 2
+  },
+  "L05": {
+   "state": "done",
+   "attempt": 2,
+   "since": "21:32:54",
+   "error": "ConnectError: All connection attempts failed",
+   "outcome": "ended_early",
+   "issues": 4
+  },
+  "L06": {
+   "state": "done",
+   "attempt": 2,
+   "since": "21:32:55",
+   "error": "ConnectError: All connection attempts failed",
+   "outcome": "abandoned_frustration",
+   "issues": 6
+  },
+  "L07": {
+   "state": "done",
+   "attempt": 1,
+   "since": "21:32:20",
+   "outcome": "session_stopped",
+   "issues": 4
+  },
+  "L08": {
+   "state": "done",
+   "attempt": 2,
+   "since": "21:32:55",
+   "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8801/\nCall log:\n  - navigating to \"http://127.0.0.1:8801/\", waiting until \"domcontentloaded\"\n",
+   "outcome": "left_before_start",
+   "issues": 2
+  }
+ }
+}

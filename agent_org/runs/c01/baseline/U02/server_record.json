@@ -1,0 +1,190 @@
+{
+ "id": "20261109-182040-8c1145",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 2,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 45.3,
+  "words_per_minute": 10.6
+ },
+ "log": [
+  {
+   "t": 0.211,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.091,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.745,
+   "event": "pause"
+  },
+  {
+   "t": 20.579,
+   "event": "resume"
+  },
+  {
+   "t": 24.329,
+   "event": "transcript",
+   "text": "I have"
+  },
+  {
+   "t": 24.329,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 27.396,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 27.396,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 30.339,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.849,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 33.849,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 2,
+   "to": 8
+  },
+  {
+   "t": 38.512,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.532,
+   "event": "transcript",
+   "text": "a king kite"
+  },
+  {
+   "t": 42.532,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 44.631,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 44.631,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 21.489,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.329,
+   "type": "transcript",
+   "text": "I have",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 38.58,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.532,
+   "type": "transcript",
+   "text": "a king kite",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "I have",
+   "heard": "I have",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "a kite",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "a king kite",
+   "heard": "a king kite",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 75
+}

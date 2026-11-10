@@ -1,0 +1,293 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-after-s0",
+ "agent_id": "C2-02",
+ "seed": 1493,
+ "persona": {
+  "id": "C2-02",
+  "name": "Neel",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-baarish",
+  "title": "बारिश आई",
+  "tags": [
+   "Hindi",
+   "Grade 1-2"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.04,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.04,
+      "talk_s": 12.7
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 43.7,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 43.7,
+      "said": "बादल गरजे बाड़िश आई",
+      "heard": "बाड़िश आई"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 121.02,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 121.02,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 144.22,
+    "details": [
+     "Buddy started talking 2.7 s into a planned 2.93 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 144.22,
+      "paused_s": 2.7,
+      "planned_s": 2.93,
+      "line": 3,
+      "buddy_kind": "stall_phrase",
+      "next_words": "निकले नाव चलाने।"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 1.5,
+  "frustration_events": [
+   {
+    "t": 25.04,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 28.91,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 43.7,
+    "kind": "unheard_speech",
+    "frustration": 1.05
+   },
+   {
+    "t": 43.7,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 51.95,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 51.96,
+    "kind": "praise",
+    "frustration": 0.35
+   },
+   {
+    "t": 60.05,
+    "kind": "progress",
+    "frustration": 0.2
+   },
+   {
+    "t": 66.35,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 83.6,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 84.04,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 90.78,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 97.68,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 113.26,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 115.29,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 115.69,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 121.02,
+    "kind": "unexpected_pause",
+    "frustration": 0.8
+   },
+   {
+    "t": 127.54,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 141.51,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 144.22,
+    "kind": "interrupted_pause",
+    "frustration": 1.5,
+    "paused_s": 2.7
+   },
+   {
+    "t": 153.02,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 153.41,
+    "kind": "praise",
+    "frustration": 0.95
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 5,
+  "interruptions": 1,
+  "unheard_words": 2,
+  "buddy_talk_s": 83.6,
+  "child_talk_s": 28.5,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 1,
+  "intro_s": 13.3,
+  "time_to_first_word_s": 13.3,
+  "session_s": 148.0,
+  "words_total": 17,
+  "words_attempted": 17,
+  "words_said_wrong": 0,
+  "corrections": 4,
+  "buddy_turns": 17,
+  "stall_prompts": 1,
+  "uncertain_prompts": 2
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 10,
+  "words_helped": 7,
+  "words_to_practise": [
+   "गरजे",
+   "ठंडी",
+   "हवा",
+   "मीठे",
+   "निकले"
+  ],
+  "words_practised": 5,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 4,
+  "seconds": 143.2,
+  "words_per_minute": 7.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 116,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

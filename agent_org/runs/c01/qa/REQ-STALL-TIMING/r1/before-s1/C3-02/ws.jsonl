@@ -1,0 +1,29 @@
+{"t": 14.84, "type": "ready", "message": null}
+{"t": 14.93, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 29.17, "type": "speech"}
+{"t": 32.38, "type": "heard", "text": "मेरी गुड़िया प्यारी है है"}
+{"t": 32.39, "type": "speech"}
+{"t": 34.4, "type": "speech"}
+{"t": 36.27, "type": "heard", "text": "षबसे नयारी ण्यारी है"}
+{"t": 36.27, "type": "speech"}
+{"t": 36.27, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। सबसे", "spans": [[4, 5]]}
+{"t": 40.48, "type": "speech"}
+{"t": 41.63, "type": "heard", "text": "सबसे"}
+{"t": 41.63, "type": "speech"}
+{"t": 41.63, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! न्यारी", "spans": [[6, 7]]}
+{"t": 46.21, "type": "speech"}
+{"t": 46.99, "type": "heard", "text": "न्यारी"}
+{"t": 47.0, "type": "speech"}
+{"t": 47.04, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! सबसे न्यारी न्यारी है। अब तुम पूरी पंक्ति बोलो।", "spans": [[4, 8]]}
+{"t": 54.12, "type": "speech"}
+{"t": 57.22, "type": "heard", "text": "सबसे न्यारी न्यारी न्यारी है"}
+{"t": 57.22, "type": "speech"}
+{"t": 57.22, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 60.8, "type": "speech"}
+{"t": 64.31, "type": "heard", "text": "लाल चुनड़ी चुनरी ओढ़ के आती"}
+{"t": 64.39, "type": "speech"}
+{"t": 65.65, "type": "speech"}
+{"t": 68.24, "type": "heard", "text": "मीठे मीठे गाने गाती"}
+{"t": 68.24, "type": "speech"}
+{"t": 68.51, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 69.73, "type": "summary", "summary": {"words_total": 17, "words_read": 15, "words_helped": 2, "words_to_practise": ["सबसे", "न्यारी"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 1, "seconds": 53.4, "words_per_minute": 19.1}}

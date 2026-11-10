@@ -1,0 +1,15 @@
+{"t": 12.24, "type": "ready", "message": null}
+{"t": 12.62, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 28.11, "type": "speech"}
+{"t": 29.63, "type": "heard", "text": "એક"}
+{"t": 29.63, "type": "speech"}
+{"t": 31.82, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... નાની ચકલી હતી.", "spans": [[1, 4]]}
+{"t": 34.87, "type": "speech"}
+{"t": 36.6, "type": "heard", "text": "નાની"}
+{"t": 36.6, "type": "speech"}
+{"t": 38.72, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ચકલી હતી.", "spans": [[2, 4]]}
+{"t": 41.21, "type": "speech"}
+{"t": 43.16, "type": "heard", "text": "ચકલિ"}
+{"t": 43.33, "type": "speech"}
+{"t": 45.06, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... હતી.", "spans": [[3, 4]]}
+{"t": 46.76, "type": "summary", "summary": {"words_total": 23, "words_read": 1, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 34.5, "words_per_minute": 7.0}}

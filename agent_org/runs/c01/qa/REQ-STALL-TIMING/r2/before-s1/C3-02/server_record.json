@@ -1,0 +1,294 @@
+{
+ "id": "20261109-194658-264bfe",
+ "text_id": "hi-gudiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 16,
+  "words_helped": 1,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 43.1,
+  "words_per_minute": 23.7
+ },
+ "log": [
+  {
+   "t": 0.052,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.207,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.679,
+   "event": "transcript",
+   "text": "मेरी गुरिया गुड़िया प्यारी हे"
+  },
+  {
+   "t": 17.679,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 17.679,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 20.816,
+   "event": "transcript",
+   "text": "सबसे नयारी न्यारी"
+  },
+  {
+   "t": 20.816,
+   "event": "progress",
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 22.912,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 22.912,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 25.886,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.521,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 27.521,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 27.521,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 27.521,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 27.521,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 30.23,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.793,
+   "event": "transcript",
+   "text": "लाल चुनरी चुनरी ओढ़ के आती"
+  },
+  {
+   "t": 34.793,
+   "event": "progress",
+   "frm": 8,
+   "to": 13
+  },
+  {
+   "t": 34.793,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 38.433,
+   "event": "transcript",
+   "text": "मीठे मीठे गाने गाती"
+  },
+  {
+   "t": 38.433,
+   "event": "progress",
+   "frm": 13,
+   "to": 17
+  },
+  {
+   "t": 38.433,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 38.433,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 38.433,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.654,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.679,
+   "type": "transcript",
+   "text": "मेरी गुरिया गुड़िया प्यारी हे",
+   "latency": 120,
+   "audio_duration_ms": 2580,
+   "message": null
+  },
+  {
+   "t": 18.688,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.816,
+   "type": "transcript",
+   "text": "सबसे नयारी न्यारी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 26.376,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.521,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 31.301,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.793,
+   "type": "transcript",
+   "text": "लाल चुनरी चुनरी ओढ़ के आती",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 35.693,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.433,
+   "type": "transcript",
+   "text": "मीठे मीठे गाने गाती",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "मेरी गुरिया गुड़िया प्यारी हे",
+   "heard": "मेरी गुरिया गुड़िया प्यारी हे",
+   "muted_words": 0,
+   "duration_s": 2.58
+  },
+  {
+   "text": "सबसे नयारी न्यारी",
+   "heard": "सबसे नयारी न्यारी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "लाल चुनरी चुनरी ओढ़ के आती",
+   "heard": "लाल चुनरी चुनरी ओढ़ के आती",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "मीठे मीठे गाने गाती",
+   "heard": "मीठे मीठे गाने गाती",
+   "muted_words": 0,
+   "duration_s": 2.1
+  }
+ ],
+ "tts_offline": 76
+}

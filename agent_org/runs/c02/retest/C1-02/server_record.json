@@ -1,0 +1,616 @@
+{
+ "id": "20261110-112246-bccc38",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 13,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 100.0,
+  "words_per_minute": 9.6
+ },
+ "log": [
+  {
+   "t": 0.027,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.664,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.727,
+   "event": "transcript",
+   "text": "जल राणी है"
+  },
+  {
+   "t": 19.727,
+   "event": "uncertain",
+   "text": "जल राणी है"
+  },
+  {
+   "t": 19.727,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 23.298,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.22,
+   "event": "transcript",
+   "text": "रानी"
+  },
+  {
+   "t": 29.26,
+   "event": "transcript",
+   "text": "मछली जल की रानी"
+  },
+  {
+   "t": 29.26,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 34.519,
+   "event": "transcript",
+   "text": "हे"
+  },
+  {
+   "t": 34.519,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 34.519,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 34.519,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 38.39,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.525,
+   "event": "transcript",
+   "text": "जीवन जीवन उसका पानी"
+  },
+  {
+   "t": 42.525,
+   "event": "progress",
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 46.843,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 46.843,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 46.843,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 46.843,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 46.843,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 46.843,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 49.561,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.738,
+   "event": "transcript",
+   "text": "हात लगाओ लगाओ डर जाएगी"
+  },
+  {
+   "t": 58.738,
+   "event": "progress",
+   "frm": 9,
+   "to": 13
+  },
+  {
+   "t": 58.738,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 58.738,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 62.437,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 64.889,
+   "event": "transcript",
+   "text": "बाहर णिकालो"
+  },
+  {
+   "t": 64.889,
+   "event": "progress",
+   "frm": 13,
+   "to": 14
+  },
+  {
+   "t": 70.269,
+   "event": "transcript",
+   "text": "मर जाएगी"
+  },
+  {
+   "t": 70.269,
+   "event": "restart",
+   "frm": 14,
+   "to": 11
+  },
+  {
+   "t": 73.271,
+   "event": "transcript",
+   "text": "बाहर निकालो"
+  },
+  {
+   "t": 73.271,
+   "event": "progress",
+   "frm": 13,
+   "to": 15
+  },
+  {
+   "t": 77.138,
+   "event": "transcript",
+   "text": "जाएगी"
+  },
+  {
+   "t": 77.138,
+   "event": "restart",
+   "frm": 15,
+   "to": 12
+  },
+  {
+   "t": 80.775,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 13,
+   "to": 16,
+   "line": 3
+  },
+  {
+   "t": 80.775,
+   "event": "prompt",
+   "level": 1,
+   "line": 3,
+   "frm": 13,
+   "to": 16
+  },
+  {
+   "t": 84.723,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 87.202,
+   "event": "transcript",
+   "text": "बाहर निकालो"
+  },
+  {
+   "t": 87.202,
+   "event": "progress",
+   "frm": 13,
+   "to": 15
+  },
+  {
+   "t": 92.314,
+   "event": "transcript",
+   "text": "झाएगी"
+  },
+  {
+   "t": 92.314,
+   "event": "restart",
+   "frm": 15,
+   "to": 12
+  },
+  {
+   "t": 96.064,
+   "event": "transcript",
+   "text": "वाहर निकालो जाएगी"
+  },
+  {
+   "t": 96.064,
+   "event": "progress",
+   "frm": 13,
+   "to": 17
+  },
+  {
+   "t": 96.064,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 96.064,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 96.064,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.026,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.727,
+   "type": "transcript",
+   "text": "जल राणी है",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 23.984,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.22,
+   "type": "transcript",
+   "text": "रानी",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 25.559,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.26,
+   "type": "transcript",
+   "text": "मछली जल की रानी",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 33.127,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.519,
+   "type": "transcript",
+   "text": "हे",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 38.818,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.525,
+   "type": "transcript",
+   "text": "जीवन जीवन उसका पानी",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 45.448,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.843,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 54.246,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.738,
+   "type": "transcript",
+   "text": "हात लगाओ लगाओ डर जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 62.675,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.889,
+   "type": "transcript",
+   "text": "बाहर णिकालो",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 68.108,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.269,
+   "type": "transcript",
+   "text": "मर जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 71.11,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.271,
+   "type": "transcript",
+   "text": "बाहर निकालो",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 75.74,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.138,
+   "type": "transcript",
+   "text": "जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 84.992,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.202,
+   "type": "transcript",
+   "text": "बाहर निकालो",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 90.911,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.314,
+   "type": "transcript",
+   "text": "झाएगी",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 93.133,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.064,
+   "type": "transcript",
+   "text": "वाहर निकालो जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "जल राणी है",
+   "heard": "जल राणी है",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "मछली की रानी रानी",
+   "heard": "रानी",
+   "muted_words": 3,
+   "duration_s": 3.28
+  },
+  {
+   "text": "मछली जल की रानी",
+   "heard": "मछली जल की रानी",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "हे",
+   "heard": "हे",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "जीवन जीवन उसका पानी",
+   "heard": "जीवन जीवन उसका पानी",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "हात लगाओ लगाओ डर जाएगी",
+   "heard": "हात लगाओ लगाओ डर जाएगी",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "बाहर णिकालो",
+   "heard": "बाहर णिकालो",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "मर जाएगी",
+   "heard": "मर जाएगी",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "बाहर निकालो",
+   "heard": "बाहर निकालो",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "जाएगी",
+   "heard": "जाएगी",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "बाहर निकालो",
+   "heard": "बाहर निकालो",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "झाएगी",
+   "heard": "झाएगी",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "वाहर निकालो जाएगी",
+   "heard": "वाहर निकालो जाएगी",
+   "muted_words": 0,
+   "duration_s": 2.51
+  }
+ ],
+ "tts_offline": 407
+}

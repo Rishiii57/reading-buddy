@@ -1,0 +1,480 @@
+{
+ "utterances": [
+  {
+   "t": 41.9,
+   "said": "मेड़ी मेड़ी गुड़िया",
+   "stt": "मेड़ी मेड़ी गुड़िया",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 48.66,
+   "said": "मेरी",
+   "stt": "मेरी",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.24,
+   "said": "गुड़िया",
+   "stt": "गुड़िया",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 67.62,
+   "said": "प्यारी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'प्यारी'"
+   ],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.94,
+   "said": "प्याड़ी",
+   "stt": "प्याड़ी",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.44,
+   "said": "हे",
+   "stt": "हे",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 91.19,
+   "said": "प्याड़ी",
+   "stt": "प्याड़ी",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 97.25,
+   "said": "प्यारी",
+   "stt": "प्यारी",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 110.66,
+   "said": "मेड़ी गुड़िया प्याड़ी",
+   "stt": "मेड़ी गुड़िया प्याड़ी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 123.3,
+   "said": "मेरी मेरी गुढ़िया प्यारी",
+   "stt": "मेरी मेरी गुड़िया प्यारी",
+   "stt_notes": [
+    "'गुढ़िया' heard as 'गुड़िया'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 132.89,
+   "said": "है है",
+   "stt": "है है",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 137.82,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 141.72,
+   "said": "हे",
+   "stt": "हे",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 150.87,
+   "said": "षबसे",
+   "stt": "षबसे",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 158.39,
+   "said": "ण्यारी",
+   "stt": "ण्यारी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 41.9,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी मेड़ी गुड़िया"
+   },
+   {
+    "t": 48.66,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी"
+   },
+   {
+    "t": 110.66,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी गुड़िया प्याड़ी"
+   },
+   {
+    "t": 123.3,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी मेरी गुड़िया प्यारी"
+   }
+  ],
+  "1": [
+   {
+    "t": 41.9,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेड़ी मेड़ी गुड़िया"
+   },
+   {
+    "t": 59.24,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गुड़िया"
+   },
+   {
+    "t": 110.66,
+    "target": "गुड़िया",
+    "said": "गुड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेड़ी गुड़िया प्याड़ी"
+   },
+   {
+    "t": 123.3,
+    "target": "गुड़िया",
+    "said": "गुढ़िया",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेरी मेरी गुड़िया प्यारी"
+   }
+  ],
+  "2": [
+   {
+    "t": 67.62,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 75.94,
+    "target": "प्यारी",
+    "said": "प्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "प्याड़ी"
+   },
+   {
+    "t": 91.19,
+    "target": "प्यारी",
+    "said": "प्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "प्याड़ी",
+    "drill": true
+   },
+   {
+    "t": 97.25,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "प्यारी",
+    "drill": true
+   },
+   {
+    "t": 110.66,
+    "target": "प्यारी",
+    "said": "प्याड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी गुड़िया प्याड़ी"
+   },
+   {
+    "t": 123.3,
+    "target": "प्यारी",
+    "said": "प्यारी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी मेरी गुड़िया प्यारी"
+   }
+  ],
+  "3": [
+   {
+    "t": 83.44,
+    "target": "है",
+    "said": "हे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हे"
+   },
+   {
+    "t": 132.89,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है है"
+   },
+   {
+    "t": 137.82,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 141.72,
+    "target": "है",
+    "said": "हे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हे"
+   }
+  ],
+  "4": [
+   {
+    "t": 150.87,
+    "target": "सबसे",
+    "said": "षबसे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "षबसे"
+   }
+  ],
+  "5": [
+   {
+    "t": 158.39,
+    "target": "न्यारी",
+    "said": "ण्यारी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ण्यारी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.74,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 42.0,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 52.24,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गुड़िया प्यारी है",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 62.68,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... प्यारी है",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 68.97,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "प्यारी है अब तुम बोलो!",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 83.5,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। प्यारी",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 91.2,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "प्यारी",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 97.37,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 110.86,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 133.14,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 142.47,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।",
+   "spans": []
+  },
+  {
+   "t": 163.5,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। सबसे",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ ]
+}

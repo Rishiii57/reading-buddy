@@ -1,0 +1,128 @@
+{
+ "id": "20261109-200603-3731ce",
+ "text_id": "gu-shala",
+ "mode": "demo",
+ "summary": {
+  "words_total": 22,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 39.6,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.09,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.134,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.51,
+   "event": "pause"
+  },
+  {
+   "t": 22.216,
+   "event": "resume"
+  },
+  {
+   "t": 30.943,
+   "event": "transcript",
+   "text": "માડી સાળા વહુ સુંદર છે"
+  },
+  {
+   "t": 30.943,
+   "event": "uncertain",
+   "text": "માડી સાળા વહુ સુંદર છે"
+  },
+  {
+   "t": 30.943,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 34.408,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.849,
+   "event": "transcript",
+   "text": "સાળા સાળા"
+  },
+  {
+   "t": 38.849,
+   "event": "uncertain",
+   "text": "સાળા સાળા"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 23.129,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.943,
+   "type": "transcript",
+   "text": "માડી સાળા વહુ સુંદર છે",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 35.434,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.849,
+   "type": "transcript",
+   "text": "સાળા સાળા",
+   "latency": 120,
+   "audio_duration_ms": 2993,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડી સાળા વહુ સુંદર છે",
+   "heard": "માડી સાળા વહુ સુંદર છે",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "માડી સાળા સાળા",
+   "heard": "સાળા સાળા",
+   "muted_words": 1,
+   "duration_s": 4.49
+  }
+ ],
+ "tts_offline": 16
+}

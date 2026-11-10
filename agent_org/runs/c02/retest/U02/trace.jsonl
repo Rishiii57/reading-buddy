@@ -1,0 +1,17 @@
+{"t": 2.2, "kind": "open_app", "brief": "Navya, UKG (about 5.5 years). Prefers en-IN. Can read words, not yet sentences."}
+{"t": 2.25, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.43, "kind": "tap", "target": "Reading Buddy", "why": "curious tap", "view": "view-languages"}
+{"t": 4.88, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.23, "kind": "tap", "target": "Twinkle, Twinkle, Little Star English Nu", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.45, "kind": "opened_text", "hash": "#/read/en-twinkle", "title": "Twinkle, Twinkle, Little Star", "tags": ["English", "Nursery"], "words": 22, "lines": 4}
+{"t": 13.37, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.27, "kind": "session_started", "tries": 1}
+{"t": 28.59, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 39.75, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 105.33, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 3.73 s thinking pause."}
+{"t": 117.35, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.7 s into a planned 2.09 s thinking pause."}
+{"t": 120.4, "kind": "tap_mic_to_talk"}
+{"t": 120.43, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 138.7, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.71 s thinking pause."}
+{"t": 186.38, "kind": "abandon", "why": "attention", "frustration": 1.1}
+{"t": 187.58, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

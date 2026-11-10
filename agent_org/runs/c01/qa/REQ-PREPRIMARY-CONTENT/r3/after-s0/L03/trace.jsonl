@@ -1,0 +1,15 @@
+{"t": 3.43, "kind": "open_app", "brief": "Aadhya, LKG (about 4.5 years). Prefers gu-IN. Guesses words from the picture or first letter."}
+{"t": 3.74, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 5.22, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.26, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 10.61, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 2-3' text, made for children who already read."}
+{"t": 14.91, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.02, "kind": "session_started", "tries": 1}
+{"t": 30.24, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 34.3, "kind": "tap_mic_to_talk"}
+{"t": 34.31, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 86.21, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.6 s into a planned 2.19 s thinking pause."}
+{"t": 96.46, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.1 s into a planned 3.14 s thinking pause."}
+{"t": 107.01, "kind": "off_task_tap", "target": "End"}
+{"t": 107.12, "kind": "tap", "target": "End", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 108.32, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'End' left the reading page."}

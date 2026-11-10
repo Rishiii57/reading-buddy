@@ -1,0 +1,1411 @@
+{
+ "id": "20261109-201052-e66da3",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 20,
+  "words_helped": 12,
+  "words_to_practise": [
+   "Every",
+   "summer",
+   "the",
+   "tree",
+   "is",
+   "full",
+   "shares",
+   "laugh"
+  ],
+  "words_practised": 13,
+  "correction_attempts": 13,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [
+   {
+    "line": 2,
+    "text": "Every summer the tree is full of sweet mangoes.",
+    "mistakes": 12,
+    "words": [
+     "Every",
+     "summer",
+     "the",
+     "tree",
+     "is",
+     "full"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 9,
+  "seconds": 233.2,
+  "words_per_minute": 8.2
+ },
+ "log": [
+  {
+   "t": 0.045,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.183,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.333,
+   "event": "transcript",
+   "text": "Ravi has a mango tree in his get"
+  },
+  {
+   "t": 18.333,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 20.255,
+   "event": "transcript",
+   "text": "garden"
+  },
+  {
+   "t": 20.255,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 20.255,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 25.507,
+   "event": "transcript",
+   "text": "um um sun the tree ia full of"
+  },
+  {
+   "t": 25.507,
+   "event": "progress",
+   "frm": 8,
+   "to": 15
+  },
+  {
+   "t": 27.526,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    9,
+    12
+   ]
+  },
+  {
+   "t": 27.526,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 32.023,
+   "event": "transcript",
+   "text": "um"
+  },
+  {
+   "t": 36.296,
+   "event": "transcript",
+   "text": "Every"
+  },
+  {
+   "t": 36.296,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 36.296,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 40.609,
+   "event": "transcript",
+   "text": "summer"
+  },
+  {
+   "t": 40.609,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 40.609,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 45.374,
+   "event": "transcript",
+   "text": "is is"
+  },
+  {
+   "t": 45.374,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 45.374,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 52.555,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 58.06,
+   "event": "transcript",
+   "text": "um Every summer tha tree is full of sweet mangoes"
+  },
+  {
+   "t": 58.06,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 58.06,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10
+   ]
+  },
+  {
+   "t": 58.06,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 62.544,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 62.544,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 62.544,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 69.694,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 70.011,
+   "event": "pause"
+  },
+  {
+   "t": 71.796,
+   "event": "resume"
+  },
+  {
+   "t": 77.806,
+   "event": "transcript",
+   "text": "Every summer tree tree is for of said sweet mangoes"
+  },
+  {
+   "t": 77.806,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 77.806,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    13
+   ]
+  },
+  {
+   "t": 77.806,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 85.01,
+   "event": "silence",
+   "word": 10
+  },
+  {
+   "t": 87.192,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 87.192,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 87.192,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 91.474,
+   "event": "transcript",
+   "text": "full"
+  },
+  {
+   "t": 91.474,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 91.474,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 98.624,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 103.21,
+   "event": "transcript",
+   "text": "Every summer tree ia full of sweet mangoes"
+  },
+  {
+   "t": 103.21,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 103.21,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    12
+   ]
+  },
+  {
+   "t": 103.21,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 107.684,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 107.684,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 107.684,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 111.97,
+   "event": "transcript",
+   "text": "is"
+  },
+  {
+   "t": 111.97,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 111.97,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 119.123,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 123.233,
+   "event": "transcript",
+   "text": "Every sun tree full of sweet mangoes"
+  },
+  {
+   "t": 123.233,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 123.233,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ]
+  },
+  {
+   "t": 123.233,
+   "event": "state",
+   "state": "LINE_SKIPPED",
+   "line": 1,
+   "mistakes": 12
+  },
+  {
+   "t": 125.971,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 130.572,
+   "event": "transcript",
+   "text": "Ravi see tha mangoes with his friends friends"
+  },
+  {
+   "t": 130.572,
+   "event": "progress",
+   "frm": 17,
+   "to": 24
+  },
+  {
+   "t": 130.572,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    18,
+    19
+   ]
+  },
+  {
+   "t": 130.572,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 18
+  },
+  {
+   "t": 135.528,
+   "event": "transcript",
+   "text": "sun shares"
+  },
+  {
+   "t": 135.528,
+   "event": "drill_ok",
+   "word": 18
+  },
+  {
+   "t": 135.528,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 19
+  },
+  {
+   "t": 139.805,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 139.805,
+   "event": "drill_ok",
+   "word": 19
+  },
+  {
+   "t": 139.805,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 146.167,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 148.404,
+   "event": "transcript",
+   "text": "Ravi sun shares"
+  },
+  {
+   "t": 148.404,
+   "event": "progress",
+   "frm": 17,
+   "to": 19
+  },
+  {
+   "t": 150.452,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 19,
+   "to": 22,
+   "line": 2
+  },
+  {
+   "t": 150.452,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 19,
+   "to": 22
+  },
+  {
+   "t": 153.192,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 156.322,
+   "event": "transcript",
+   "text": "the mangoes with his friends"
+  },
+  {
+   "t": 156.322,
+   "event": "progress",
+   "frm": 19,
+   "to": 24
+  },
+  {
+   "t": 156.322,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 156.322,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 159.386,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 163.881,
+   "event": "transcript",
+   "text": "They sit under the tree and like together"
+  },
+  {
+   "t": 163.881,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 163.881,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    30
+   ]
+  },
+  {
+   "t": 163.881,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 30
+  },
+  {
+   "t": 168.376,
+   "event": "transcript",
+   "text": "laugh"
+  },
+  {
+   "t": 168.376,
+   "event": "drill_ok",
+   "word": 30
+  },
+  {
+   "t": 168.376,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 174.742,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 178.367,
+   "event": "transcript",
+   "text": "They sit under tree and laugh"
+  },
+  {
+   "t": 178.367,
+   "event": "progress",
+   "frm": 24,
+   "to": 31
+  },
+  {
+   "t": 181.224,
+   "event": "transcript",
+   "text": "together"
+  },
+  {
+   "t": 181.224,
+   "event": "progress",
+   "frm": 31,
+   "to": 32
+  },
+  {
+   "t": 181.224,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    27
+   ]
+  },
+  {
+   "t": 181.224,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 27
+  },
+  {
+   "t": 186.571,
+   "event": "pause"
+  },
+  {
+   "t": 188.857,
+   "event": "resume"
+  },
+  {
+   "t": 190.588,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 190.588,
+   "event": "drill_ok",
+   "word": 27
+  },
+  {
+   "t": 190.588,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 196.958,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 198.708,
+   "event": "transcript",
+   "text": "laugh together"
+  },
+  {
+   "t": 198.708,
+   "event": "uncertain",
+   "text": "laugh together"
+  },
+  {
+   "t": 198.708,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 201.815,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 206.756,
+   "event": "transcript",
+   "text": "They sia sit under dhe tree and laugh together"
+  },
+  {
+   "t": 206.756,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 206.756,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    27
+   ]
+  },
+  {
+   "t": 206.756,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 27
+  },
+  {
+   "t": 211.242,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 211.242,
+   "event": "drill_ok",
+   "word": 27
+  },
+  {
+   "t": 211.242,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 217.593,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 222.666,
+   "event": "transcript",
+   "text": "They sit under the tree and and laugh together"
+  },
+  {
+   "t": 222.666,
+   "event": "progress",
+   "frm": 24,
+   "to": 32
+  },
+  {
+   "t": 222.666,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 222.666,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": [
+    1
+   ]
+  },
+  {
+   "t": 222.666,
+   "event": "finish",
+   "skipped": [
+    1
+   ]
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.423,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.333,
+   "type": "transcript",
+   "text": "Ravi has a mango tree in his get",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 19.153,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.255,
+   "type": "transcript",
+   "text": "garden",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 21.077,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.507,
+   "type": "transcript",
+   "text": "um um sun the tree ia full of",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 30.922,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.023,
+   "type": "transcript",
+   "text": "um",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 35.194,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.296,
+   "type": "transcript",
+   "text": "Every",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 39.508,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.609,
+   "type": "transcript",
+   "text": "summer",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 43.802,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.374,
+   "type": "transcript",
+   "text": "is is",
+   "latency": 120,
+   "audio_duration_ms": 1150,
+   "message": null
+  },
+  {
+   "t": 52.68,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.06,
+   "type": "transcript",
+   "text": "um Every summer tha tree is full of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4960,
+   "message": null
+  },
+  {
+   "t": 61.443,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.544,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 72.423,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.806,
+   "type": "transcript",
+   "text": "Every summer tree tree is for of said sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4960,
+   "message": null
+  },
+  {
+   "t": 86.092,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.192,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 90.373,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.474,
+   "type": "transcript",
+   "text": "full",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 98.778,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.21,
+   "type": "transcript",
+   "text": "Every summer tree ia full of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 106.583,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 107.684,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 110.869,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 111.97,
+   "type": "transcript",
+   "text": "is",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 119.282,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.233,
+   "type": "transcript",
+   "text": "Every sun tree full of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 126.141,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.572,
+   "type": "transcript",
+   "text": "Ravi see tha mangoes with his friends friends",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 133.956,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 135.528,
+   "type": "transcript",
+   "text": "sun shares",
+   "latency": 120,
+   "audio_duration_ms": 1150,
+   "message": null
+  },
+  {
+   "t": 138.703,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 139.805,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 146.353,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 148.404,
+   "type": "transcript",
+   "text": "Ravi sun shares",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 153.32,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 156.322,
+   "type": "transcript",
+   "text": "the mangoes with his friends",
+   "latency": 120,
+   "audio_duration_ms": 2580,
+   "message": null
+  },
+  {
+   "t": 159.449,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 163.881,
+   "type": "transcript",
+   "text": "They sit under the tree and like together",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 167.274,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 168.376,
+   "type": "transcript",
+   "text": "laugh",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 174.887,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 178.367,
+   "type": "transcript",
+   "text": "They sit under tree and laugh",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 180.123,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 181.224,
+   "type": "transcript",
+   "text": "together",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 189.486,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 190.588,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 197.287,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 198.708,
+   "type": "transcript",
+   "text": "laugh together",
+   "latency": 120,
+   "audio_duration_ms": 1002,
+   "message": null
+  },
+  {
+   "t": 201.846,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 206.756,
+   "type": "transcript",
+   "text": "They sia sit under dhe tree and laugh together",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 210.141,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 211.242,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 217.755,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 222.666,
+   "type": "transcript",
+   "text": "They sit under the tree and and laugh together",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has a mango tree in his get",
+   "heard": "Ravi has a mango tree in his get",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "garden",
+   "heard": "garden",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "um um sun the tree ia full of",
+   "heard": "um um sun the tree ia full of",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "um",
+   "heard": "um",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every",
+   "heard": "Every",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "summer",
+   "heard": "summer",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "is is",
+   "heard": "is is",
+   "muted_words": 0,
+   "duration_s": 1.15
+  },
+  {
+   "text": "um Every summer tha tree is full of sweet mangoes",
+   "heard": "um Every summer tha tree is full of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.96
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every summer tree tree is for of said sweet mangoes",
+   "heard": "Every summer tree tree is for of said sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.96
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "full",
+   "heard": "full",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every summer tree ia full of sweet mangoes",
+   "heard": "Every summer tree ia full of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "is",
+   "heard": "is",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Every sun tree full of sweet mangoes",
+   "heard": "Every sun tree full of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "Ravi see tha mangoes with his friends friends",
+   "heard": "Ravi see tha mangoes with his friends friends",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "sun shares",
+   "heard": "sun shares",
+   "muted_words": 0,
+   "duration_s": 1.15
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "Ravi shares mangoes with his fun",
+   "heard": "",
+   "muted_words": 6,
+   "duration_s": 3.06
+  },
+  {
+   "text": "Ravi sun shares",
+   "heard": "Ravi sun shares",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "the mangoes with his friends",
+   "heard": "the mangoes with his friends",
+   "muted_words": 0,
+   "duration_s": 2.58
+  },
+  {
+   "text": "They sit under the tree and like together",
+   "heard": "They sit under the tree and like together",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "laugh",
+   "heard": "laugh",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "They sit under tree and laugh",
+   "heard": "They sit under tree and laugh",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "together",
+   "heard": "together",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "They sit under the tree and laugh together",
+   "heard": "laugh together",
+   "muted_words": 6,
+   "duration_s": 4.01
+  },
+  {
+   "text": "They sia sit under dhe tree and laugh together",
+   "heard": "They sia sit under dhe tree and laugh together",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "They sit under the tree and and laugh together",
+   "heard": "They sit under the tree and and laugh together",
+   "muted_words": 0,
+   "duration_s": 4.49
+  }
+ ],
+ "tts_offline": 160
+}

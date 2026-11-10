@@ -1,0 +1,300 @@
+{
+ "id": "20261109-202331-25d4c6",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 15,
+  "words_helped": 2,
+  "words_to_practise": [
+   "Every",
+   "of"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 63.6,
+  "words_per_minute": 16.0
+ },
+ "log": [
+  {
+   "t": 0.027,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.975,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.653,
+   "event": "transcript",
+   "text": "Ravi has a mango tree in his garden"
+  },
+  {
+   "t": 19.653,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 19.653,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 24.244,
+   "event": "transcript",
+   "text": "um see tha tree"
+  },
+  {
+   "t": 24.244,
+   "event": "uncertain",
+   "text": "see tha tree"
+  },
+  {
+   "t": 24.244,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 27.709,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.172,
+   "event": "transcript",
+   "text": "um Every summer the tre is fun full said sweet my"
+  },
+  {
+   "t": 34.172,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 36.924,
+   "event": "transcript",
+   "text": "mangoes"
+  },
+  {
+   "t": 36.924,
+   "event": "progress",
+   "frm": 16,
+   "to": 17
+  },
+  {
+   "t": 36.924,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    14
+   ]
+  },
+  {
+   "t": 36.924,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  },
+  {
+   "t": 42.382,
+   "event": "transcript",
+   "text": "of of"
+  },
+  {
+   "t": 42.382,
+   "event": "drill_ok",
+   "word": 14
+  },
+  {
+   "t": 42.382,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 51.689,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 56.718,
+   "event": "transcript",
+   "text": "um summer the tree is full of sweet mangoes"
+  },
+  {
+   "t": 56.718,
+   "event": "progress",
+   "frm": 8,
+   "to": 17
+  },
+  {
+   "t": 56.718,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8
+   ]
+  },
+  {
+   "t": 56.718,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.05,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.653,
+   "type": "transcript",
+   "text": "Ravi has a mango tree in his garden",
+   "latency": 120,
+   "audio_duration_ms": 4010,
+   "message": null
+  },
+  {
+   "t": 21.614,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.244,
+   "type": "transcript",
+   "text": "um see tha tree",
+   "latency": 120,
+   "audio_duration_ms": 2100,
+   "message": null
+  },
+  {
+   "t": 28.311,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.172,
+   "type": "transcript",
+   "text": "um Every summer the tre is fun full said sweet my",
+   "latency": 120,
+   "audio_duration_ms": 5440,
+   "message": null
+  },
+  {
+   "t": 35.814,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.924,
+   "type": "transcript",
+   "text": "mangoes",
+   "latency": 120,
+   "audio_duration_ms": 680,
+   "message": null
+  },
+  {
+   "t": 40.813,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.382,
+   "type": "transcript",
+   "text": "of of",
+   "latency": 120,
+   "audio_duration_ms": 1150,
+   "message": null
+  },
+  {
+   "t": 51.805,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.718,
+   "type": "transcript",
+   "text": "um summer the tree is full of sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has a mango tree in his garden",
+   "heard": "Ravi has a mango tree in his garden",
+   "muted_words": 0,
+   "duration_s": 4.01
+  },
+  {
+   "text": "um see tha tree",
+   "heard": "um see tha tree",
+   "muted_words": 0,
+   "duration_s": 2.1
+  },
+  {
+   "text": "um Every summer the tre is fun full said sweet my",
+   "heard": "um Every summer the tre is fun full said sweet my",
+   "muted_words": 0,
+   "duration_s": 5.44
+  },
+  {
+   "text": "mangoes",
+   "heard": "mangoes",
+   "muted_words": 0,
+   "duration_s": 0.68
+  },
+  {
+   "text": "of of",
+   "heard": "of of",
+   "muted_words": 0,
+   "duration_s": 1.15
+  },
+  {
+   "text": "um summer the tree is full of sweet mangoes",
+   "heard": "um summer the tree is full of sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 4.49
+  }
+ ],
+ "tts_offline": 105
+}

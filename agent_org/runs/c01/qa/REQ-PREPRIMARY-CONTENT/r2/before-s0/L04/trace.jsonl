@@ -1,0 +1,14 @@
+{"t": 2.61, "kind": "open_app", "brief": "Vivaan, LKG (about 4.5 years). Prefers en-IN. Impatient; dislikes waiting."}
+{"t": 2.7, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.81, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.41, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 8.06, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 2-4' text, made for children who already read."}
+{"t": 12.19, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.93, "kind": "session_started", "tries": 1}
+{"t": 26.87, "kind": "tap_mic_to_talk"}
+{"t": 26.92, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 42.71, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 4.12 s thinking pause."}
+{"t": 73.71, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.93 s thinking pause."}
+{"t": 82.2, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.3 s into a planned 3.17 s thinking pause."}
+{"t": 82.21, "kind": "abandon", "why": "frustration", "frustration": 2.9}
+{"t": 82.77, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

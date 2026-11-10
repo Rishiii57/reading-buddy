@@ -1,0 +1,22 @@
+{"t": 4.06, "kind": "open_app", "brief": "Krish, LKG (about 4.5 years). Prefers gu-IN. Bilingual Gujarati-Hindi; reads very little yet."}
+{"t": 4.2, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 5.34, "kind": "tap", "target": "Jack and Jill English UKG Rhyme 1 min re", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.87, "kind": "opened_text", "hash": "#/read/en-jackjill", "title": "Jack and Jill", "tags": ["English", "UKG"], "words": 25, "lines": 4}
+{"t": 9.1, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 13.22, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 13.22, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 27.27, "kind": "listened_first", "seconds": 12.9}
+{"t": 28.04, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 30.69, "kind": "session_started", "tries": 1}
+{"t": 30.73, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 42.95, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 44.23, "kind": "looked_for_replay", "found": []}
+{"t": 44.23, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 44.23, "kind": "tap_mic_to_talk"}
+{"t": 44.26, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 45.4, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 49.92, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 51.04, "kind": "resumed", "after_s": 4.0}
+{"t": 59.04, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.4 s into a planned 4.48 s thinking pause."}
+{"t": 59.08, "kind": "abandon", "why": "frustration", "frustration": 3.4}
+{"t": 59.54, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,14 @@
+{"t": 2.47, "kind": "open_app", "brief": "Kiara, Nursery (about 4.2 years). Prefers en-IN. Recognises a few letters; loves repeating favourites."}
+{"t": 2.58, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 4.24, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.1, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 7.5, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 11.61, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.32, "kind": "session_started", "tries": 1}
+{"t": 14.46, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 27.68, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 28.05, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 36.77, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 5.6 s into a planned 4.5 s thinking pause."}
+{"t": 36.91, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 37.23, "kind": "abandon", "why": "frustration", "frustration": 3.25}
+{"t": 38.09, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

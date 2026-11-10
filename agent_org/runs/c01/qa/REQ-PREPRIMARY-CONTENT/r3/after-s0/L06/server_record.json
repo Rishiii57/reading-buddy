@@ -1,0 +1,327 @@
+{
+ "id": "20261109-213905-09eea4",
+ "text_id": "en-rainrain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 1,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 3,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 65.0,
+  "words_per_minute": 6.5
+ },
+ "log": [
+  {
+   "t": 0.027,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.243,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.861,
+   "event": "transcript",
+   "text": "rum"
+  },
+  {
+   "t": 22.049,
+   "event": "transcript",
+   "text": "rain"
+  },
+  {
+   "t": 22.049,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 27.556,
+   "event": "transcript",
+   "text": "ga"
+  },
+  {
+   "t": 27.556,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 34.009,
+   "event": "transcript",
+   "text": "all"
+  },
+  {
+   "t": 38.653,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 38.653,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 41.732,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.335,
+   "event": "transcript",
+   "text": "away"
+  },
+  {
+   "t": 45.335,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 45.335,
+   "event": "echo_slips_accepted",
+   "words": [
+    1,
+    2
+   ]
+  },
+  {
+   "t": 45.335,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 45.335,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 50.045,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.484,
+   "event": "transcript",
+   "text": "Com"
+  },
+  {
+   "t": 52.484,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 57.669,
+   "event": "transcript",
+   "text": "at"
+  },
+  {
+   "t": 62.322,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 62.322,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 5,
+   "to": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.811,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.861,
+   "type": "transcript",
+   "text": "rum",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 19.995,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.049,
+   "type": "transcript",
+   "text": "rain",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 25.511,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.556,
+   "type": "transcript",
+   "text": "ga",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 31.945,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.009,
+   "type": "transcript",
+   "text": "all",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 43.282,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.335,
+   "type": "transcript",
+   "text": "away",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 50.433,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.484,
+   "type": "transcript",
+   "text": "Com",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 55.619,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.669,
+   "type": "transcript",
+   "text": "at",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "rum",
+   "heard": "rum",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "rain",
+   "heard": "rain",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "ga",
+   "heard": "ga",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "all",
+   "heard": "all",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "ant",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "away",
+   "heard": "away",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "Com",
+   "heard": "Com",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "at",
+   "heard": "at",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 213
+}

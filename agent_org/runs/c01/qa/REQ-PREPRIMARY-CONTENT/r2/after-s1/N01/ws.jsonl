@@ -1,0 +1,17 @@
+{"t": 10.18, "type": "ready", "message": null}
+{"t": 10.23, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક બિલાડી જાડી હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 26.07, "type": "speech"}
+{"t": 27.69, "type": "heard", "text": "એ"}
+{"t": 27.69, "type": "speech"}
+{"t": 31.38, "type": "speech"}
+{"t": 34.25, "type": "heard", "text": "બિલાડી જાડ"}
+{"t": 34.25, "type": "speech"}
+{"t": 36.01, "type": "say", "kind": "echo_line", "text": "સાંભળ... તેણે પહેરી સાડી. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 43.82, "type": "speech"}
+{"t": 45.71, "type": "heard", "text": "તેણે"}
+{"t": 45.71, "type": "speech"}
+{"t": 48.69, "type": "speech"}
+{"t": 52.76, "type": "heard", "text": "પહેર પહેર સાડ"}
+{"t": 52.76, "type": "speech"}
+{"t": 52.84, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 56.59, "type": "summary", "summary": {"words_total": 14, "words_read": 2, "words_helped": 2, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 0, "seconds": 46.0, "words_per_minute": 5.2}}

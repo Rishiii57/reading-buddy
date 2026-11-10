@@ -1,0 +1,18 @@
+{"t": 2.35, "kind": "open_app", "brief": "Jiya, Class 1 (about 6.5 years). Prefers en-IN. Gujarati at home; English-medium school."}
+{"t": 2.37, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.23, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.2, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 10.85, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.83, "kind": "session_started", "tries": 1}
+{"t": 13.84, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 32.74, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.9 s into a planned 1.81 s thinking pause."}
+{"t": 32.78, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 38.36, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 40.02, "kind": "tap_mic_to_talk"}
+{"t": 40.06, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.03, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 43.69, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 45.17, "kind": "resumed", "after_s": 2.0}
+{"t": 47.33, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 47.66, "kind": "abandon", "why": "frustration", "frustration": 4.05}
+{"t": 47.98, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

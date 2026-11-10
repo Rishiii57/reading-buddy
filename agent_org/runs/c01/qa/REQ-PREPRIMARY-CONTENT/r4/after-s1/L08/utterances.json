@@ -1,0 +1,474 @@
+{
+ "utterances": [
+  {
+   "t": 32.13,
+   "said": "एक दो",
+   "stt": "एक दो",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.68,
+   "said": "तीन",
+   "stt": "थीन",
+   "stt_notes": [
+    "'तीन' heard as 'थीन'"
+   ],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.39,
+   "said": "चार",
+   "stt": "चार",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.62,
+   "said": "भैय",
+   "stt": "भैय",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.68,
+   "said": "वनो",
+   "stt": "वनो",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.52,
+   "said": "होशियार",
+   "stt": "होशियार",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.65,
+   "said": "पाँच",
+   "stt": "पाँच",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 72.4,
+   "said": "पँच पाँच",
+   "stt": "पँच",
+   "stt_notes": [
+    "lost 'पाँच'"
+   ],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 78.56,
+   "said": "छ",
+   "stt": "छ",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.29,
+   "said": "शात",
+   "stt": "शात",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 89.16,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 97.45,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 100.97,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 103.88,
+   "said": "आठ",
+   "stt": "आठ",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 112.09,
+   "said": "पढ़ो पढ़ो",
+   "stt": "पढ़ो पढ़ो",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 116.33,
+   "said": "रोज़",
+   "stt": "रोज़",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 122.56,
+   "said": "थुम",
+   "stt": "थुम",
+   "stt_notes": [],
+   "words": [
+    13
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 128.26,
+   "said": "पाठ",
+   "stt": "पाठ",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.13,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक दो"
+   }
+  ],
+  "1": [
+   {
+    "t": 32.13,
+    "target": "दो",
+    "said": "दो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक दो"
+   }
+  ],
+  "2": [
+   {
+    "t": 38.68,
+    "target": "तीन",
+    "said": "तीन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "थीन"
+   }
+  ],
+  "3": [
+   {
+    "t": 43.39,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चार"
+   }
+  ],
+  "4": [
+   {
+    "t": 50.62,
+    "target": "भैया",
+    "said": "भैय",
+    "correct": false,
+    "kind": "sub",
+    "stt": "भैय"
+   }
+  ],
+  "5": [
+   {
+    "t": 55.68,
+    "target": "बनो",
+    "said": "वनो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वनो"
+   }
+  ],
+  "6": [
+   {
+    "t": 60.52,
+    "target": "होशियार",
+    "said": "होशियार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "होशियार"
+   }
+  ],
+  "7": [
+   {
+    "t": 68.65,
+    "target": "पाँच",
+    "said": "पाँच",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पाँच"
+   },
+   {
+    "t": 72.4,
+    "target": "पाँच",
+    "said": "पँच पाँच",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "पँच"
+   }
+  ],
+  "8": [
+   {
+    "t": 78.56,
+    "target": "छह",
+    "said": "छ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "छ"
+   }
+  ],
+  "9": [
+   {
+    "t": 84.29,
+    "target": "सात",
+    "said": "शात",
+    "correct": false,
+    "kind": "sub",
+    "stt": "शात"
+   }
+  ],
+  "10": [
+   {
+    "t": 89.16,
+    "target": "आठ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 97.45,
+    "target": "आठ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 100.97,
+    "target": "आठ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 103.88,
+    "target": "आठ",
+    "said": "आठ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आठ"
+   }
+  ],
+  "11": [
+   {
+    "t": 112.09,
+    "target": "पढ़ो",
+    "said": "पढ़ो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पढ़ो पढ़ो"
+   }
+  ],
+  "12": [
+   {
+    "t": 116.33,
+    "target": "रोज़",
+    "said": "रोज़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "रोज़"
+   }
+  ],
+  "13": [
+   {
+    "t": 122.56,
+    "target": "तुम",
+    "said": "थुम",
+    "correct": false,
+    "kind": "sub",
+    "stt": "थुम"
+   }
+  ],
+  "14": [
+   {
+    "t": 128.26,
+    "target": "पाठ",
+    "said": "पाठ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पाठ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.71,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 43.48,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "भैया बनो होशियार। अब तुम बोलो!",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 60.68,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 60.68,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "पाँच छह सात आठ अब तुम बोलो!",
+   "spans": [
+    [
+     7,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 89.22,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आठ",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 93.62,
+   "type": "say",
+   "kind": "break",
+   "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।",
+   "spans": []
+  },
+  {
+   "t": 103.95,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "पढ़ो रोज़ तुम पाठ। अब तुम बोलो!",
+   "spans": [
+    [
+     11,
+     15
+    ]
+   ]
+  },
+  {
+   "t": 128.27,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

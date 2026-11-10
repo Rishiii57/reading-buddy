@@ -1,0 +1,498 @@
+{
+ "id": "20261110-114455-eeb386",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 5,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 86.8,
+  "words_per_minute": 8.3
+ },
+ "log": [
+  {
+   "t": 0.05,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.801,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.088,
+   "event": "transcript",
+   "text": "મારો પતંગ લાલ લાલ"
+  },
+  {
+   "t": 19.088,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 21.187,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 21.187,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 25.343,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.942,
+   "event": "transcript",
+   "text": "પીળો"
+  },
+  {
+   "t": 29.942,
+   "event": "progress",
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 29.942,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 31.145,
+   "event": "pause"
+  },
+  {
+   "t": 36.216,
+   "event": "resume"
+  },
+  {
+   "t": 39.901,
+   "event": "transcript",
+   "text": "આકાશે આકાશે"
+  },
+  {
+   "t": 39.901,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 41.938,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 6,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 41.938,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 45.081,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 48.753,
+   "event": "transcript",
+   "text": "ઊઢે રંગીલો ડંગીલો"
+  },
+  {
+   "t": 48.753,
+   "event": "uncertain",
+   "text": "ઊઢે રંગીલો ડંગીલો"
+  },
+  {
+   "t": 48.753,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 52.515,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.359,
+   "event": "transcript",
+   "text": "ઊડે"
+  },
+  {
+   "t": 54.359,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 56.39,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 56.39,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 59.125,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 61.553,
+   "event": "transcript",
+   "text": "રંગીલો"
+  },
+  {
+   "t": 61.553,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 61.553,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 61.553,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 61.553,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 64.316,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 66.127,
+   "event": "transcript",
+   "text": "પવન"
+  },
+  {
+   "t": 66.127,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 68.17,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 9,
+   "to": 12,
+   "line": 2
+  },
+  {
+   "t": 68.17,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 9,
+   "to": 12
+  },
+  {
+   "t": 71.105,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 75.03,
+   "event": "transcript",
+   "text": "સાથે સાથે નાચે ગાય"
+  },
+  {
+   "t": 75.03,
+   "event": "progress",
+   "frm": 9,
+   "to": 12
+  },
+  {
+   "t": 75.03,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 78.818,
+   "event": "transcript",
+   "text": "હું થાકી ગયો"
+  },
+  {
+   "t": 78.818,
+   "event": "break_requested"
+  },
+  {
+   "t": 83.565,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.01,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.088,
+   "type": "transcript",
+   "text": "મારો પતંગ લાલ લાલ",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 28.536,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.942,
+   "type": "transcript",
+   "text": "પીળો",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 36.898,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.901,
+   "type": "transcript",
+   "text": "આકાશે આકાશે",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 45.82,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.753,
+   "type": "transcript",
+   "text": "ઊઢે રંગીલો ડંગીલો",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 52.958,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.359,
+   "type": "transcript",
+   "text": "ઊડે",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 60.163,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.553,
+   "type": "transcript",
+   "text": "રંગીલો",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 64.736,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.127,
+   "type": "transcript",
+   "text": "પવન",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 71.328,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.03,
+   "type": "transcript",
+   "text": "સાથે સાથે નાચે ગાય",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 76.377,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.818,
+   "type": "transcript",
+   "text": "હું થાકી ગયો",
+   "latency": 120,
+   "audio_duration_ms": 1200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો પતંગ લાલ લાલ",
+   "heard": "મારો પતંગ લાલ લાલ",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "પીળો",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "પીળો",
+   "heard": "પીળો",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "આકાશે આકાશે",
+   "heard": "આકાશે આકાશે",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "ડંગીલો",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.97
+  },
+  {
+   "text": "ઊઢે રંગીલો ડંગીલો",
+   "heard": "ઊઢે રંગીલો ડંગીલો",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "ઊડે",
+   "heard": "ઊડે",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "રંગીલો",
+   "heard": "રંગીલો",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "પવન",
+   "heard": "પવન",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "સાથે સાથે નાચે ગાય",
+   "heard": "સાથે સાથે નાચે ગાય",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "હું થાકી ગયો",
+   "heard": "હું થાકી ગયો",
+   "muted_words": 0,
+   "duration_s": 1.2
+  }
+ ],
+ "tts_offline": 219
+}

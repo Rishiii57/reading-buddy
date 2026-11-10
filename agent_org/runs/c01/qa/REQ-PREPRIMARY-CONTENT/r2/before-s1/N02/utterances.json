@@ -1,0 +1,204 @@
+{
+ "utterances": [
+  {
+   "t": 45.95,
+   "said": "मीना मीना के",
+   "stt": "मीना मीना के",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 49.48,
+   "said": "मीणा के",
+   "stt": "के",
+   "stt_notes": [
+    "lost 'मीणा'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.12,
+   "said": "घड़",
+   "stt": "घढ़",
+   "stt_notes": [
+    "'घड़' heard as 'घढ़'"
+   ],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.61,
+   "said": "पीछै पीछै ए वगीचा",
+   "stt": "पीछै पीछै ए वगीचा",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.52,
+   "said": "मीणा मीणा",
+   "stt": "मीणा मीणा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 45.95,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 49.48,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "के"
+   },
+   {
+    "t": 84.52,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा"
+   }
+  ],
+  "1": [
+   {
+    "t": 45.95,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 49.48,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "के"
+   }
+  ],
+  "2": [
+   {
+    "t": 56.12,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घढ़"
+   }
+  ],
+  "3": [
+   {
+    "t": 56.12,
+    "target": "के",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "घढ़"
+   }
+  ],
+  "4": [
+   {
+    "t": 66.61,
+    "target": "पीछे",
+    "said": "पीछै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
+   }
+  ],
+  "5": [
+   {
+    "t": 66.61,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
+   }
+  ],
+  "6": [
+   {
+    "t": 66.61,
+    "target": "बगीचा",
+    "said": "वगीचा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पीछै पीछै ए वगीचा"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 28.25,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 66.79,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 76.32,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मीना के घर",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 84.57,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  }
+ ]
+}

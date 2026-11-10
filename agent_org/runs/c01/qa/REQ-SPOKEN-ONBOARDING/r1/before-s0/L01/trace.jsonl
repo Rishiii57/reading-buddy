@@ -1,0 +1,14 @@
+{"t": 2.86, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.94, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.93, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.77, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 6.99, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 12.05, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 12.06, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.76, "kind": "session_started", "tries": 1}
+{"t": 26.98, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 35.49, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.3 s into a planned 4.27 s thinking pause."}
+{"t": 39.87, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 42.91, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'बादल' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 44.16, "kind": "abandon", "why": "frustration", "frustration": 3.7}
+{"t": 44.96, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

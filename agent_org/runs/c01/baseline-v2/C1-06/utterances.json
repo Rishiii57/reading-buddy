@@ -1,0 +1,389 @@
+{
+ "utterances": [
+  {
+   "t": 29.17,
+   "said": "મારો પતંગ લાલ લાલ",
+   "stt": "મારો પતંગ લાલ લાલ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 33.58,
+   "said": "પીળો",
+   "stt": "પીળો",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 36.57,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.03,
+   "said": "પીળો",
+   "stt": "પીળો",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.97,
+   "said": "આકાશે આકાશે ઊડે",
+   "stt": "આકાશે આકાશે",
+   "stt_notes": [
+    "lost 'ઊડે'"
+   ],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.01,
+   "said": "ડંગીલો",
+   "stt": "ડંગીલો",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 58.82,
+   "said": "ઊઢે રંગીલો રંગીલો",
+   "stt": "ઊઢે રંગીલો ડંગીલો",
+   "stt_notes": [
+    "'રંગીલો' heard as 'ડંગીલો'"
+   ],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.44,
+   "said": "ઊડે",
+   "stt": "ઊડે",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.62,
+   "said": "રંગીલો",
+   "stt": "રંગીલો",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 76.19,
+   "said": "પવન",
+   "stt": "પવન",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.11,
+   "said": "સાથે સાથે નાચે ગાય",
+   "stt": "સાથે સાથે નાચે ગાય",
+   "stt_notes": [],
+   "words": [
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.17,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ લાલ"
+   }
+  ],
+  "1": [
+   {
+    "t": 29.17,
+    "target": "પતંગ",
+    "said": "પતંગ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ લાલ"
+   }
+  ],
+  "2": [
+   {
+    "t": 29.17,
+    "target": "લાલ",
+    "said": "લાલ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો પતંગ લાલ લાલ"
+   }
+  ],
+  "3": [
+   {
+    "t": 29.17,
+    "target": "ને",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "મારો પતંગ લાલ લાલ"
+   },
+   {
+    "t": 36.57,
+    "target": "ને",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "4": [
+   {
+    "t": 33.58,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પીળો"
+   },
+   {
+    "t": 40.03,
+    "target": "પીળો",
+    "said": "પીળો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પીળો"
+   }
+  ],
+  "5": [
+   {
+    "t": 49.97,
+    "target": "આકાશે",
+    "said": "આકાશે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે આકાશે"
+   }
+  ],
+  "6": [
+   {
+    "t": 49.97,
+    "target": "ઊડે",
+    "said": "ઊડે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આકાશે આકાશે"
+   },
+   {
+    "t": 58.82,
+    "target": "ઊડે",
+    "said": "ઊઢે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઊઢે રંગીલો ડંગીલો"
+   },
+   {
+    "t": 64.44,
+    "target": "ઊડે",
+    "said": "ઊડે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊડે"
+   }
+  ],
+  "7": [
+   {
+    "t": 53.01,
+    "target": "રંગીલો",
+    "said": "ડંગીલો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડંગીલો"
+   },
+   {
+    "t": 58.82,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊઢે રંગીલો ડંગીલો"
+   },
+   {
+    "t": 71.62,
+    "target": "રંગીલો",
+    "said": "રંગીલો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રંગીલો"
+   }
+  ],
+  "8": [
+   {
+    "t": 76.19,
+    "target": "પવન",
+    "said": "પવન",
+    "correct": true,
+    "kind": "ok",
+    "stt": "પવન"
+   }
+  ],
+  "9": [
+   {
+    "t": 85.11,
+    "target": "સાથે",
+    "said": "સાથે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સાથે સાથે નાચે ગાય"
+   }
+  ],
+  "10": [
+   {
+    "t": 85.11,
+    "target": "નાચે",
+    "said": "નાચે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સાથે સાથે નાચે ગાય"
+   }
+  ],
+  "11": [
+   {
+    "t": 85.11,
+    "target": "ગાય",
+    "said": "ગાય",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સાથે સાથે નાચે ગાય"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 10.16,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 32.6,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ને પીળો",
+   "spans": [
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 52.17,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ઊડે રંગીલો.",
+   "spans": [
+    [
+     6,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 58.85,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 66.5,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... રંગીલો.",
+   "spans": [
+    [
+     7,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 71.65,
+   "type": "say",
+   "kind": "praise",
+   "text": "બહુ સરસ! વાંચતો રહે.",
+   "spans": []
+  },
+  {
+   "t": 78.34,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... સાથે નાચે ગાય",
+   "spans": [
+    [
+     9,
+     12
+    ]
+   ]
+  },
+  {
+   "t": 89.56,
+   "type": "say",
+   "kind": "break",
+   "text": "કંઈ વાંધો નહીં. આપણે થોડો આરામ કરી શકીએ.",
+   "spans": []
+  }
+ ]
+}

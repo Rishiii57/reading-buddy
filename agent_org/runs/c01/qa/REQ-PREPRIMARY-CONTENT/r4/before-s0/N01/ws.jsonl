@@ -1,0 +1,51 @@
+{"t": 20.16, "type": "ready", "message": null}
+{"t": 20.17, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 36.87, "type": "speech"}
+{"t": 39.63, "type": "heard", "text": "बाद बाद"}
+{"t": 39.63, "type": "speech"}
+{"t": 39.63, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 43.82, "type": "speech"}
+{"t": 45.85, "type": "heard", "text": "बादल"}
+{"t": 45.85, "type": "speech"}
+{"t": 48.98, "type": "speech"}
+{"t": 51.84, "type": "heard", "text": "गरझ गरज"}
+{"t": 51.84, "type": "speech"}
+{"t": 51.84, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 59.19, "type": "say", "kind": "stall_phrase", "text": "सुनो... गरजे", "spans": [[1, 2]]}
+{"t": 64.26, "type": "speech"}
+{"t": 65.79, "type": "heard", "text": "गरज"}
+{"t": 65.79, "type": "speech"}
+{"t": 69.27, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे", "spans": [[1, 2]]}
+{"t": 73.78, "type": "speech"}
+{"t": 75.55, "type": "heard", "text": "गरज"}
+{"t": 75.55, "type": "speech"}
+{"t": 75.55, "type": "say", "kind": "fix_again", "text": "गरजे", "spans": [[1, 2]]}
+{"t": 79.15, "type": "speech"}
+{"t": 82.13, "type": "heard", "text": "गरजे गरजे"}
+{"t": 82.13, "type": "speech"}
+{"t": 82.13, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 89.32, "type": "speech"}
+{"t": 91.83, "type": "heard", "text": "बाद गरजे"}
+{"t": 91.83, "type": "speech"}
+{"t": 95.36, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल", "spans": [[0, 1]]}
+{"t": 99.66, "type": "speech"}
+{"t": 101.42, "type": "heard", "text": "मैं थक गया"}
+{"t": 101.42, "type": "speech"}
+{"t": 101.47, "type": "say", "kind": "break", "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।", "spans": []}
+{"t": 101.47, "type": "auto_pause", "message": null}
+{"t": 110.7, "type": "speech"}
+{"t": 112.29, "type": "heard", "text": "बादल"}
+{"t": 112.29, "type": "speech"}
+{"t": 112.31, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 119.02, "type": "speech"}
+{"t": 122.09, "type": "heard", "text": "बादल गरजे"}
+{"t": 122.09, "type": "speech"}
+{"t": 125.86, "type": "say", "kind": "stall_phrase", "text": "सुनो... बारिश आई", "spans": [[2, 4]]}
+{"t": 128.7, "type": "speech"}
+{"t": 130.49, "type": "heard", "text": "बारिश"}
+{"t": 130.49, "type": "speech"}
+{"t": 132.94, "type": "speech"}
+{"t": 134.72, "type": "heard", "text": "आ"}
+{"t": 134.72, "type": "speech"}
+{"t": 139.22, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई", "spans": [[3, 4]]}
+{"t": 143.37, "type": "summary", "summary": {"words_total": 17, "words_read": 0, "words_helped": 4, "words_to_practise": ["बादल", "गरजे"], "words_practised": 2, "correction_attempts": 3, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 2, "seconds": 123.2, "words_per_minute": 1.9}}

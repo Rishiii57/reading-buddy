@@ -1,0 +1,42 @@
+{"t": 10.52, "type": "ready", "message": null}
+{"t": 10.55, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 32.03, "type": "speech"}
+{"t": 33.63, "type": "heard", "text": "ચકલી"}
+{"t": 33.63, "type": "speech"}
+{"t": 35.33, "type": "speech"}
+{"t": 37.1, "type": "heard", "text": "હતી"}
+{"t": 37.16, "type": "speech"}
+{"t": 38.18, "type": "speech"}
+{"t": 43.15, "type": "heard", "text": "એ ણાની નાની ચકલી"}
+{"t": 43.15, "type": "speech"}
+{"t": 43.15, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 47.71, "type": "speech"}
+{"t": 49.42, "type": "heard", "text": "એક"}
+{"t": 49.44, "type": "speech"}
+{"t": 51.68, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... નાની ચકલી હતી.", "spans": [[1, 4]]}
+{"t": 54.89, "type": "speech"}
+{"t": 58.72, "type": "heard", "text": "નાની ચકલિ હતી"}
+{"t": 58.72, "type": "speech"}
+{"t": 60.44, "type": "speech"}
+{"t": 63.02, "type": "heard", "text": "થે તે"}
+{"t": 63.05, "type": "speech"}
+{"t": 63.05, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 66.92, "type": "speech"}
+{"t": 70.85, "type": "heard", "text": "થે રોઝ રોઝ"}
+{"t": 70.85, "type": "speech"}
+{"t": 73.58, "type": "speech"}
+{"t": 75.31, "type": "heard", "text": "સવાડે"}
+{"t": 75.31, "type": "speech"}
+{"t": 78.53, "type": "speech"}
+{"t": 80.23, "type": "heard", "text": "દાણા"}
+{"t": 80.26, "type": "speech"}
+{"t": 83.75, "type": "speech"}
+{"t": 85.66, "type": "heard", "text": "શોધવા"}
+{"t": 85.67, "type": "speech"}
+{"t": 89.31, "type": "speech"}
+{"t": 91.0, "type": "heard", "text": "જથી"}
+{"t": 91.0, "type": "speech"}
+{"t": 94.96, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... તે રોજ સવારે", "spans": [[4, 7]]}
+{"t": 102.45, "type": "say", "kind": "stall_rest", "text": "તે રોજ સવારે દાણા શોધવા જતી. હવે તું બોલ!", "spans": [[4, 10]]}
+{"t": 112.31, "type": "say", "kind": "take_time", "text": "આરામથી. હું તારી મદદ માટે અહીં જ છું.", "spans": []}
+{"t": 114.11, "type": "summary", "summary": {"words_total": 23, "words_read": 1, "words_helped": 9, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 103.5, "words_per_minute": 5.8}}

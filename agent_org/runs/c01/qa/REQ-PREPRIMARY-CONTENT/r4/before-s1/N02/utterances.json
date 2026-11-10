@@ -1,0 +1,150 @@
+{
+ "utterances": [
+  {
+   "t": 44.49,
+   "said": "मीना मीना के",
+   "stt": "मीना मीना के",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 48.19,
+   "said": "मीणा के",
+   "stt": "के",
+   "stt_notes": [
+    "lost 'मीणा'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.82,
+   "said": "मीणा के",
+   "stt": "मीणा",
+   "stt_notes": [
+    "lost 'के'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 61.65,
+   "said": "मीना",
+   "stt": "मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 44.49,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 48.19,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "के"
+   },
+   {
+    "t": 51.82,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा"
+   },
+   {
+    "t": 61.65,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना"
+   }
+  ],
+  "1": [
+   {
+    "t": 44.49,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीना मीना के"
+   },
+   {
+    "t": 48.19,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "के"
+   },
+   {
+    "t": 51.82,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मीणा"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 25.38,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 48.29,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 58.01,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मीना के घर",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ ]
+}

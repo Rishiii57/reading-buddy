@@ -1,0 +1,19 @@
+{"t": 2.26, "kind": "open_app", "brief": "Navya, UKG (about 5.5 years). Prefers en-IN. Can read words, not yet sentences."}
+{"t": 2.32, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.48, "kind": "tap", "target": "Reading Buddy", "why": "curious tap", "view": "view-languages"}
+{"t": 7.58, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 10.1, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 12.09, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 13.5, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 13.51, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 13.52, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.2, "kind": "session_started", "tries": 1}
+{"t": 45.01, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 3.09 s thinking pause."}
+{"t": 53.44, "kind": "tap_mic_to_talk"}
+{"t": 53.44, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 54.25, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 56.94, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 57.78, "kind": "resumed", "after_s": 2.5}
+{"t": 67.61, "kind": "off_task_tap", "target": "Library"}
+{"t": 67.61, "kind": "tap", "target": "Library", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 68.39, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Library' left the reading page."}

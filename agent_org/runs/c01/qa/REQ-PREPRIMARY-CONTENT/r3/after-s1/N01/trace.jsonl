@@ -1,0 +1,19 @@
+{"t": 3.19, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 3.26, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.82, "kind": "tap", "target": "એક બિલાડી જાડી A Fat Cat Gujarati LKG Rh", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.95, "kind": "opened_text", "hash": "#/read/gu-biladi", "title": "એક બિલાડી જાડી", "tags": ["Gujarati", "LKG"], "words": 14, "lines": 4}
+{"t": 8.67, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 13.0, "kind": "issue", "code": "LISTEN_FIRST_NOT_FOUND", "detail": "Wanted to hear the poem first but could not tell which button does that."}
+{"t": 13.11, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.6, "kind": "session_started", "tries": 1}
+{"t": 15.79, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 27.8, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 40.94, "kind": "tap_mic_to_talk"}
+{"t": 41.2, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 44.9, "kind": "stuck", "word": "તેણે", "waited": 2.8}
+{"t": 45.04, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 49.37, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 60.06, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 61.88, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 62.19, "kind": "abandon", "why": "frustration", "frustration": 3.65}
+{"t": 64.64, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

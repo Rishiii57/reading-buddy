@@ -1,0 +1,11 @@
+{"t": 2.63, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 2.64, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.99, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.73, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 7.44, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 7.44, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 2-3' text, made for children who already read."}
+{"t": 11.57, "kind": "issue", "code": "LISTEN_FIRST_NOT_FOUND", "detail": "Wanted to hear the poem first but could not tell which button does that."}
+{"t": 11.65, "kind": "tap", "target": "Listen first", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.53, "kind": "listen_first_by_mistake"}
+{"t": 25.84, "kind": "tap", "target": "About", "why": "trying to start reading", "view": "view-reader"}
+{"t": 28.35, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

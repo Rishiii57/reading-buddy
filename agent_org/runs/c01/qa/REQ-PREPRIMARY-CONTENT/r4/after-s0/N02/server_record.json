@@ -1,0 +1,224 @@
+{
+ "id": "20261110-011948-843860",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 47.8,
+  "words_per_minute": 5.0
+ },
+ "log": [
+  {
+   "t": 0.022,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.33,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.391,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 21.391,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 25.148,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.135,
+   "event": "transcript",
+   "text": "એ બિલાડી"
+  },
+  {
+   "t": 31.135,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 36.035,
+   "event": "transcript",
+   "text": "જારી"
+  },
+  {
+   "t": 36.035,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 40.588,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 40.588,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 43.715,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.793,
+   "event": "transcript",
+   "text": "થેણે"
+  },
+  {
+   "t": 45.793,
+   "event": "echo_slips_accepted",
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 45.793,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 45.793,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 45.793,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 27.985,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.135,
+   "type": "transcript",
+   "text": "એ બિલાડી",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 34.159,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.035,
+   "type": "transcript",
+   "text": "જારી",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 43.923,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.793,
+   "type": "transcript",
+   "text": "થેણે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "વિલાડી",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "બિલાડી",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "એ બિલાડી",
+   "heard": "એ બિલાડી",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "જારી",
+   "heard": "જારી",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "થેણે",
+   "heard": "થેણે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 50
+}

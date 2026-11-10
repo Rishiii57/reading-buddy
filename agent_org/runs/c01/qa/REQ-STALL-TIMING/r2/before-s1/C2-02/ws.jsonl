@@ -1,0 +1,57 @@
+{"t": 13.87, "type": "ready", "message": null}
+{"t": 13.97, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 32.3, "type": "speech"}
+{"t": 33.25, "type": "heard", "text": "एक"}
+{"t": 33.25, "type": "speech"}
+{"t": 35.87, "type": "say", "kind": "stall_phrase", "text": "सुनो... पेड़ पर एक", "spans": [[1, 4]]}
+{"t": 39.4, "type": "speech"}
+{"t": 41.07, "type": "heard", "text": "ती थी"}
+{"t": 41.07, "type": "speech"}
+{"t": 41.07, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। छोटी", "spans": [[4, 5]]}
+{"t": 47.2, "type": "speech"}
+{"t": 48.37, "type": "heard", "text": "छोटी"}
+{"t": 48.37, "type": "speech"}
+{"t": 48.38, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! चिड़िया", "spans": [[5, 6]]}
+{"t": 51.6, "type": "speech"}
+{"t": 53.27, "type": "heard", "text": "रहथी रहती"}
+{"t": 53.27, "type": "speech"}
+{"t": 53.32, "type": "say", "kind": "uncertain_word", "text": "क्या तुम इसे फिर से बोलोगे? चिड़िया", "spans": [[5, 6]]}
+{"t": 56.61, "type": "speech"}
+{"t": 57.83, "type": "heard", "text": "चिड़िया"}
+{"t": 57.83, "type": "speech"}
+{"t": 57.83, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! रहती", "spans": [[6, 7]]}
+{"t": 61.1, "type": "speech"}
+{"t": 62.41, "type": "heard", "text": "रहती"}
+{"t": 62.43, "type": "speech"}
+{"t": 62.45, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 8]]}
+{"t": 69.54, "type": "speech"}
+{"t": 73.67, "type": "heard", "text": "एक पेड़ पर छोटी चिड़िया रहती"}
+{"t": 73.71, "type": "speech"}
+{"t": 75.23, "type": "speech"}
+{"t": 76.33, "type": "heard", "text": "थी"}
+{"t": 76.33, "type": "speech"}
+{"t": 76.33, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। एक", "spans": [[3, 4]]}
+{"t": 89.09, "type": "speech"}
+{"t": 90.35, "type": "heard", "text": "ए"}
+{"t": 90.37, "type": "speech"}
+{"t": 90.41, "type": "say", "kind": "fix_again", "text": "एक", "spans": [[3, 4]]}
+{"t": 94.92, "type": "speech"}
+{"t": 95.56, "type": "heard", "text": "एक"}
+{"t": 95.56, "type": "speech"}
+{"t": 95.65, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 8]]}
+{"t": 103.08, "type": "speech"}
+{"t": 109.36, "type": "heard", "text": "एक पेड़ पर एक छोटी चिड़िया चिड़िया रहती रहती थी"}
+{"t": 109.4, "type": "speech"}
+{"t": 109.4, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 113.19, "type": "speech"}
+{"t": 117.17, "type": "heard", "text": "उसने तिनकों एक सुंदर घोंशला"}
+{"t": 117.17, "type": "speech"}
+{"t": 119.04, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। से", "spans": [[10, 11]]}
+{"t": 123.27, "type": "speech"}
+{"t": 124.44, "type": "heard", "text": "से"}
+{"t": 124.44, "type": "speech"}
+{"t": 124.44, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! घोंसला", "spans": [[13, 14]]}
+{"t": 128.24, "type": "speech"}
+{"t": 129.43, "type": "heard", "text": "घोंसला"}
+{"t": 129.48, "type": "speech"}
+{"t": 129.48, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! उसने तिनकों से एक सुंदर घोंसला बनाया। अब तुम पूरी पंक्ति बोलो।", "spans": [[8, 15]]}

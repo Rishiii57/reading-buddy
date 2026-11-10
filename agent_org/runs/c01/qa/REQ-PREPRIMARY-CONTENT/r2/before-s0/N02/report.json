@@ -1,0 +1,238 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r2-before-s0",
+ "agent_id": "N02",
+ "seed": 1000,
+ "persona": {
+  "id": "N02",
+  "name": "Anaya",
+  "grade": "Nursery",
+  "age": 3.5,
+  "reading_proficiency": "pre_reader",
+  "language_preference": "hi-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.4,
+  "patience": 3.0,
+  "attention_span_s": 110
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.5,
+    "details": [
+     "Wanted hi-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 6.5,
+      "wanted": "hi-IN",
+      "got": "gu-IN",
+      "title": "ચકલી અને દાણા"
+     }
+    ],
+    "child_quote": "This isn't my language!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.5,
+    "details": [
+     "Nursery child landed on a 'Grade 2-3' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 6.5,
+      "title": "ચકલી અને દાણા",
+      "grade_tag": "Grade 2-3"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 13.33,
+    "details": [
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 13.33,
+      "kind": "intro",
+      "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સ"
+     },
+     {
+      "t": 32.88,
+      "kind": "stall_phrase",
+      "said": "સાંભળ... એક નાની ચકલી"
+     }
+    ],
+    "child_quote": "I don't know what Buddy said.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.54,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.54,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 32.5,
+    "details": [
+     "Buddy started talking 3.4 s into a planned 3.24 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 32.5,
+      "paused_s": 3.4,
+      "planned_s": 3.24,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "નાની ચકલી હતી."
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.6,
+  "frustration_events": [
+   {
+    "t": 13.33,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 25.54,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 27.45,
+    "kind": "dead_click",
+    "frustration": 1.5,
+    "target": "Listening"
+   },
+   {
+    "t": 32.5,
+    "kind": "interrupted_pause",
+    "frustration": 2.5,
+    "paused_s": 3.4
+   },
+   {
+    "t": 32.88,
+    "kind": "not_understood",
+    "frustration": 3.1,
+    "say_kind": "stall_phrase"
+   },
+   {
+    "t": 34.56,
+    "kind": "dead_click",
+    "frustration": 3.6,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 2,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 1,
+  "unheard_words": 0,
+  "buddy_talk_s": 13.2,
+  "child_talk_s": 1.4,
+  "tired_said": false,
+  "time_to_text_s": 2.9,
+  "reader_page_audio_clips": 1,
+  "intro_s": 13.4,
+  "time_to_first_word_s": 14.4,
+  "session_s": 22.9,
+  "words_total": 23,
+  "words_attempted": 1,
+  "words_said_wrong": 1,
+  "corrections": 0,
+  "buddy_turns": 2,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 22.8,
+  "words_per_minute": 7.9
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 18,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

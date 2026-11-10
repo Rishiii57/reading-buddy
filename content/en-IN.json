@@ -6,8 +6,14 @@
     "type": "poem",
     "grade": "1-2",
     "stanzas": [
-      ["I have a kite of red and blue,", "It flies up high the whole day through."],
-      ["It dances with the morning breeze,", "Above the roofs and tall green trees."]
+      [
+        "I have a kite of red and blue,",
+        "It flies up high the whole day through."
+      ],
+      [
+        "It dances with the morning breeze,",
+        "Above the roofs and tall green trees."
+      ]
     ]
   },
   {
@@ -17,8 +23,14 @@
     "type": "poem",
     "grade": "1",
     "stanzas": [
-      ["Pitter patter falls the rain,", "On the roof and window pane."],
-      ["Frogs are happy, ducks can play,", "The rain has come to stay today."]
+      [
+        "Pitter patter falls the rain,",
+        "On the roof and window pane."
+      ],
+      [
+        "Frogs are happy, ducks can play,",
+        "The rain has come to stay today."
+      ]
     ]
   },
   {
@@ -28,8 +40,14 @@
     "type": "passage",
     "grade": "3",
     "stanzas": [
-      ["Ravi has a mango tree in his garden.", "Every summer the tree is full of sweet mangoes."],
-      ["Ravi shares the mangoes with his friends.", "They sit under the tree and laugh together."]
+      [
+        "Ravi has a mango tree in his garden.",
+        "Every summer the tree is full of sweet mangoes."
+      ],
+      [
+        "Ravi shares the mangoes with his friends.",
+        "They sit under the tree and laugh together."
+      ]
     ]
   },
   {
@@ -39,8 +57,100 @@
     "type": "passage",
     "grade": "2-4",
     "stanzas": [
-      ["A small ant walked across the floor.", "It carried a grain of rice on its back."],
-      ["The rice was bigger than the ant.", "But the ant did not give up.", "It walked slowly and reached its home."]
+      [
+        "A small ant walked across the floor.",
+        "It carried a grain of rice on its back."
+      ],
+      [
+        "The rice was bigger than the ant.",
+        "But the ant did not give up.",
+        "It walked slowly and reached its home."
+      ]
+    ]
+  },
+  {
+    "id": "en-twinkle",
+    "language": "en-IN",
+    "title": "Twinkle, Twinkle, Little Star",
+    "type": "poem",
+    "grade": "Nursery",
+    "source": "traditional rhyme (public domain); text to be checked by a native-speaking teacher",
+    "stanzas": [
+      [
+        "Twinkle, twinkle, little star,",
+        "How I wonder what you are!"
+      ],
+      [
+        "Up above the world so high,",
+        "Like a diamond in the sky."
+      ]
+    ]
+  },
+  {
+    "id": "en-rainrain",
+    "language": "en-IN",
+    "title": "Rain, Rain, Go Away",
+    "type": "poem",
+    "grade": "Nursery",
+    "source": "traditional rhyme (public domain); text to be checked by a native-speaking teacher",
+    "stanzas": [
+      [
+        "Rain, rain, go away,",
+        "Come again another day,",
+        "Little children want to play."
+      ]
+    ]
+  },
+  {
+    "id": "en-baabaa",
+    "language": "en-IN",
+    "title": "Baa, Baa, Black Sheep",
+    "type": "poem",
+    "grade": "LKG",
+    "source": "traditional rhyme (public domain); text to be checked by a native-speaking teacher",
+    "stanzas": [
+      [
+        "Baa, baa, black sheep,",
+        "Have you any wool?",
+        "Yes sir, yes sir,",
+        "Three bags full."
+      ]
+    ]
+  },
+  {
+    "id": "en-jackjill",
+    "language": "en-IN",
+    "title": "Jack and Jill",
+    "type": "poem",
+    "grade": "UKG",
+    "source": "traditional rhyme (public domain); text to be checked by a native-speaking teacher",
+    "stanzas": [
+      [
+        "Jack and Jill went up the hill",
+        "To fetch a pail of water."
+      ],
+      [
+        "Jack fell down and broke his crown,",
+        "And Jill came tumbling after."
+      ]
+    ]
+  },
+  {
+    "id": "en-humpty",
+    "language": "en-IN",
+    "title": "Humpty Dumpty",
+    "type": "poem",
+    "grade": "UKG",
+    "source": "traditional rhyme (public domain); text to be checked by a native-speaking teacher",
+    "stanzas": [
+      [
+        "Humpty Dumpty sat on a wall,",
+        "Humpty Dumpty had a great fall."
+      ],
+      [
+        "All the king's horses and all the king's men",
+        "Couldn't put Humpty together again."
+      ]
     ]
   }
 ]

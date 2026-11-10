@@ -1,0 +1,358 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "C3-04",
+ "seed": 1629,
+ "persona": {
+  "id": "C3-04",
+  "name": "Aarush",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 5.5,
+  "attention_span_s": 240
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 42.87,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 42.87,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 55.41,
+    "details": [
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 55.41,
+      "said": "a a mango",
+      "heard": ""
+     },
+     {
+      "t": 99.39,
+      "said": "tree in his garden",
+      "heard": ""
+     },
+     {
+      "t": 120.6,
+      "said": "summer the",
+      "heard": ""
+     },
+     {
+      "t": 142.24,
+      "said": "nangoes",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 80.6,
+    "details": [
+     "Buddy started talking 2.1 s into a planned 1.9 s thinking pause.",
+     "Buddy started talking 1.4 s into a planned 2.02 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 2.27 s thinking pause.",
+     "Buddy started talking 2.0 s into a planned 2.29 s thinking pause.",
+     "Buddy started talking 2.1 s into a planned 2.36 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 80.6,
+      "paused_s": 2.1,
+      "planned_s": 1.9,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "has a mango"
+     },
+     {
+      "t": 87.18,
+      "paused_s": 1.4,
+      "planned_s": 2.02,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "a mango tree"
+     },
+     {
+      "t": 103.98,
+      "paused_s": 2.1,
+      "planned_s": 2.27,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "in his garden."
+     },
+     {
+      "t": 118.15,
+      "paused_s": 2.0,
+      "planned_s": 2.29,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "summer the tree"
+     },
+     {
+      "t": 126.62,
+      "paused_s": 2.1,
+      "planned_s": 2.36,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "tree is full"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 6.35,
+  "frustration_events": [
+   {
+    "t": 42.87,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 47.24,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 55.41,
+    "kind": "unheard_speech",
+    "frustration": 1.05
+   },
+   {
+    "t": 55.41,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 58.05,
+    "kind": "praise",
+    "frustration": 0.5
+   },
+   {
+    "t": 78.46,
+    "kind": "progress",
+    "frustration": 0.35
+   },
+   {
+    "t": 80.6,
+    "kind": "interrupted_pause",
+    "frustration": 1.35,
+    "paused_s": 2.1
+   },
+   {
+    "t": 84.99,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 87.18,
+    "kind": "interrupted_pause",
+    "frustration": 2.2,
+    "paused_s": 1.4
+   },
+   {
+    "t": 93.25,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 99.39,
+    "kind": "unheard_speech",
+    "frustration": 2.85
+   },
+   {
+    "t": 99.39,
+    "kind": "progress",
+    "frustration": 2.7
+   },
+   {
+    "t": 101.78,
+    "kind": "progress",
+    "frustration": 2.55
+   },
+   {
+    "t": 103.98,
+    "kind": "interrupted_pause",
+    "frustration": 3.55,
+    "paused_s": 2.1
+   },
+   {
+    "t": 111.2,
+    "kind": "progress",
+    "frustration": 3.4
+   },
+   {
+    "t": 111.22,
+    "kind": "praise",
+    "frustration": 3.0
+   },
+   {
+    "t": 115.95,
+    "kind": "progress",
+    "frustration": 2.85
+   },
+   {
+    "t": 118.15,
+    "kind": "interrupted_pause",
+    "frustration": 3.85,
+    "paused_s": 2.0
+   },
+   {
+    "t": 120.6,
+    "kind": "unheard_speech",
+    "frustration": 4.65
+   },
+   {
+    "t": 120.6,
+    "kind": "progress",
+    "frustration": 4.5
+   },
+   {
+    "t": 124.46,
+    "kind": "progress",
+    "frustration": 4.35
+   },
+   {
+    "t": 126.62,
+    "kind": "interrupted_pause",
+    "frustration": 5.35,
+    "paused_s": 2.1
+   },
+   {
+    "t": 132.06,
+    "kind": "progress",
+    "frustration": 5.2
+   },
+   {
+    "t": 138.92,
+    "kind": "progress",
+    "frustration": 5.05
+   },
+   {
+    "t": 142.24,
+    "kind": "unheard_speech",
+    "frustration": 5.85
+   },
+   {
+    "t": 144.1,
+    "kind": "dead_click",
+    "frustration": 6.35,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 2,
+  "interruptions": 5,
+  "unheard_words": 10,
+  "buddy_talk_s": 44.0,
+  "child_talk_s": 30.3,
+  "tired_said": false,
+  "time_to_text_s": 6.4,
+  "reader_page_audio_clips": 0,
+  "listen_first_s": 12.6,
+  "intro_s": 15.0,
+  "time_to_first_word_s": 15.0,
+  "session_s": 115.0,
+  "words_total": 32,
+  "words_attempted": 17,
+  "words_said_wrong": 3,
+  "corrections": 2,
+  "buddy_turns": 13,
+  "stall_prompts": 6,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 3,
+  "words_helped": 13,
+  "words_to_practise": [
+   "has",
+   "a",
+   "of"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 6,
+  "corrections": 2,
+  "seconds": 115.1,
+  "words_per_minute": 8.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 404,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

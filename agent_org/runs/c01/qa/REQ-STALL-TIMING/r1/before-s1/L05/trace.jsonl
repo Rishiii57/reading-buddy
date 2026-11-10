@@ -1,0 +1,18 @@
+{"t": 2.81, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
+{"t": 2.9, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.82, "kind": "tap", "target": "मीना का बगीचा Meena's Garden Hindi Grade", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.7, "kind": "opened_text", "hash": "#/read/hi-bagicha", "title": "मीना का बगीचा", "tags": ["Hindi", "Grade 3-4"], "words": 30, "lines": 4}
+{"t": 5.9, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 3-4' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 9.93, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.03, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.3, "kind": "session_started", "tries": 1}
+{"t": 39.93, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 45.86, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.21 s thinking pause."}
+{"t": 49.48, "kind": "tap_mic_to_talk"}
+{"t": 49.64, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.2, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 52.32, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 53.52, "kind": "resumed", "after_s": 1.0}
+{"t": 60.36, "kind": "off_task_tap", "target": "Back"}
+{"t": 60.39, "kind": "tap", "target": "Back", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 61.49, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Back' left the reading page."}

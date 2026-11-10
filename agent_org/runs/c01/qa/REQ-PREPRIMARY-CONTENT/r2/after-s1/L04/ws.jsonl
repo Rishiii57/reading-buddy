@@ -1,0 +1,17 @@
+{"t": 14.9, "type": "ready", "message": null}
+{"t": 15.19, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 30.13, "type": "speech"}
+{"t": 32.99, "type": "heard", "text": "Twinkle twinkle like"}
+{"t": 33.0, "type": "speech"}
+{"t": 35.94, "type": "speech"}
+{"t": 37.29, "type": "heard", "text": "star"}
+{"t": 37.29, "type": "speech"}
+{"t": 37.29, "type": "say", "kind": "echo_line", "text": "Listen... How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 47.1, "type": "speech"}
+{"t": 48.34, "type": "heard", "text": "hoa"}
+{"t": 48.37, "type": "speech"}
+{"t": 52.58, "type": "speech"}
+{"t": 55.56, "type": "heard", "text": "wonder wonder"}
+{"t": 56.45, "type": "speech"}
+{"t": 59.95, "type": "say", "kind": "stall_phrase", "text": "Listen... what you are!", "spans": [[7, 10]]}
+{"t": 62.52, "type": "summary", "summary": {"words_total": 22, "words_read": 5, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 47.5, "words_per_minute": 11.4}}

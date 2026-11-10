@@ -1,0 +1,137 @@
+{
+ "utterances": [
+  {
+   "t": 30.39,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 33.21,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.04,
+   "said": "ણાની ચકલિ",
+   "stt": "ણાની ચકલિ",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.74,
+   "said": "હથી",
+   "stt": "હથી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.39,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 33.21,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "echo",
+    "stt": "એક"
+   }
+  ],
+  "1": [
+   {
+    "t": 44.04,
+    "target": "નાની",
+    "said": "ણાની",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ણાની ચકલિ"
+   }
+  ],
+  "2": [
+   {
+    "t": 44.04,
+    "target": "ચકલી",
+    "said": "ચકલિ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ણાની ચકલિ"
+   }
+  ],
+  "3": [
+   {
+    "t": 48.74,
+    "target": "હતી",
+    "said": "હથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "હથી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.85,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 36.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... નાની ચકલી હતી.",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 54.06,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. નાની",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,42 @@
+{"t": 12.77, "type": "ready", "message": null}
+{"t": 12.8, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 28.02, "type": "speech"}
+{"t": 33.42, "type": "heard", "text": "મામાનું ઘડ ઘર કેટલે"}
+{"t": 33.44, "type": "speech"}
+{"t": 33.44, "type": "say", "kind": "echo_line", "text": "દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 40.67, "type": "speech"}
+{"t": 42.45, "type": "heard", "text": "દીવો"}
+{"t": 42.45, "type": "speech"}
+{"t": 46.13, "type": "speech"}
+{"t": 48.93, "type": "heard", "text": "બળે એઠલે"}
+{"t": 48.93, "type": "speech"}
+{"t": 51.35, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 51.51, "type": "say", "kind": "echo_line", "text": "દીવો મેં તો દીઠો હવે તું બોલ!", "spans": [[6, 10]]}
+{"t": 58.62, "type": "speech"}
+{"t": 62.56, "type": "heard", "text": "ધીવો મૈં મૈં"}
+{"t": 62.56, "type": "speech"}
+{"t": 65.56, "type": "speech"}
+{"t": 67.6, "type": "heard", "text": "દીઠો"}
+{"t": 67.61, "type": "speech"}
+{"t": 68.1, "type": "speech"}
+{"t": 73.19, "type": "heard", "text": "મેં તો દીઠો દીઠો"}
+{"t": 73.25, "type": "speech"}
+{"t": 73.34, "type": "say", "kind": "echo_line", "text": "મામો લાગે મીઠો. હવે તું બોલ!", "spans": [[10, 13]]}
+{"t": 77.37, "type": "speech"}
+{"t": 79.39, "type": "heard", "text": "મામો"}
+{"t": 79.4, "type": "speech"}
+{"t": 81.94, "type": "speech"}
+{"t": 85.69, "type": "heard", "text": "મીઠો"}
+{"t": 85.69, "type": "speech"}
+{"t": 86.54, "type": "speech"}
+{"t": 90.48, "type": "heard", "text": "મામૌ મીટો"}
+{"t": 90.48, "type": "speech"}
+{"t": 91.24, "type": "speech"}
+{"t": 93.19, "type": "heard", "text": "લાગે"}
+{"t": 93.19, "type": "speech"}
+{"t": 97.86, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... મીઠો.", "spans": [[12, 13]]}
+{"t": 100.37, "type": "speech"}
+{"t": 102.08, "type": "heard", "text": "મીઠો"}
+{"t": 102.08, "type": "speech"}
+{"t": 102.08, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 102.08, "type": "summary", "summary": {"words_total": 13, "words_read": 10, "words_helped": 2, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 1, "corrections": 0, "seconds": 89.3, "words_per_minute": 8.1}}

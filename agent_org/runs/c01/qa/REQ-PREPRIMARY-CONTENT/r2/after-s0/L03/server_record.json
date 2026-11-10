@@ -1,0 +1,330 @@
+{
+ "id": "20261109-213739-f40e8f",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [
+   "નાની"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 82.7,
+  "words_per_minute": 2.9
+ },
+ "log": [
+  {
+   "t": 0.241,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.341,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.421,
+   "event": "transcript",
+   "text": "એક ણાની"
+  },
+  {
+   "t": 22.421,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 24.009,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 28.529,
+   "event": "transcript",
+   "text": "ચકલી હતી"
+  },
+  {
+   "t": 28.529,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 28.529,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 28.529,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 36.217,
+   "event": "transcript",
+   "text": "નાની"
+  },
+  {
+   "t": 36.217,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 36.217,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 43.041,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.473,
+   "event": "transcript",
+   "text": "એ ણાની નાની"
+  },
+  {
+   "t": 48.473,
+   "event": "uncertain",
+   "text": "એ ણાની નાની"
+  },
+  {
+   "t": 48.473,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 52.872,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 59.74,
+   "event": "transcript",
+   "text": "એક ણાની ચકલિ હતી"
+  },
+  {
+   "t": 59.74,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 59.74,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 59.74,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 67.611,
+   "event": "transcript",
+   "text": "નાની"
+  },
+  {
+   "t": 67.611,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 67.611,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 73.83,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 79.878,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 79.878,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.937,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.421,
+   "type": "transcript",
+   "text": "એક ણાની",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 25.049,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.529,
+   "type": "transcript",
+   "text": "ચકલી હતી",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 34.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.217,
+   "type": "transcript",
+   "text": "નાની",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 43.559,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.473,
+   "type": "transcript",
+   "text": "એ ણાની નાની",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 53.409,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.74,
+   "type": "transcript",
+   "text": "એક ણાની ચકલિ હતી",
+   "latency": 120,
+   "audio_duration_ms": 5910,
+   "message": null
+  },
+  {
+   "t": 65.548,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.611,
+   "type": "transcript",
+   "text": "નાની",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એક ણાની",
+   "heard": "એક ણાની",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "ચકલી હતી",
+   "heard": "ચકલી હતી",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "નાની",
+   "heard": "નાની",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "એ ણાની નાની",
+   "heard": "એ ણાની નાની",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "એક ણાની ચકલિ હતી",
+   "heard": "એક ણાની ચકલિ હતી",
+   "muted_words": 0,
+   "duration_s": 5.91
+  },
+  {
+   "text": "નાની",
+   "heard": "નાની",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 129
+}

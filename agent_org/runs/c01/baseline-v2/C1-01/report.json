@@ -1,0 +1,358 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "C1-01",
+ "seed": 1391,
+ "persona": {
+  "id": "C1-01",
+  "name": "Rudra",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-rain",
+  "title": "The Rain Song",
+  "tags": [
+   "English",
+   "Grade 1"
+  ],
+  "words": 24,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 32.97,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 32.97,
+      "said": "Pitter patter falls the run",
+      "heard": "falls the run"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 41.12,
+    "details": [
+     "Read 'Pitter' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 41.12,
+      "word": "Pitter",
+      "child_said": "Pitter",
+      "speech_model_wrote": "Pitter patter falls the run"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 75.57,
+    "details": [
+     "Buddy started talking 2.2 s into a planned 2.31 s thinking pause.",
+     "Buddy started talking 0.2 s into a planned 1.67 s thinking pause.",
+     "Buddy started talking 0.2 s into a planned 1.8 s thinking pause.",
+     "Buddy started talking 0.7 s into a planned 1.7 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 75.57,
+      "paused_s": 2.2,
+      "planned_s": 2.31,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "rain,"
+     },
+     {
+      "t": 86.4,
+      "paused_s": 0.2,
+      "planned_s": 1.67,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "roof and window"
+     },
+     {
+      "t": 108.77,
+      "paused_s": 0.2,
+      "planned_s": 1.8,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "roof and window"
+     },
+     {
+      "t": 120.38,
+      "paused_s": 0.7,
+      "planned_s": 1.7,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "pane."
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 135.47,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 135.47,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 142.99,
+    "details": [
+     "A curious tap on 'Home' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 142.99,
+      "tapped": "Home",
+      "view": "view-home"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.25,
+  "frustration_events": [
+   {
+    "t": 32.97,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 32.97,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 40.7,
+    "kind": "praise",
+    "frustration": 0.25
+   },
+   {
+    "t": 41.12,
+    "kind": "false_correction",
+    "frustration": 1.45,
+    "word": "Pitter"
+   },
+   {
+    "t": 45.59,
+    "kind": "praise",
+    "frustration": 1.05
+   },
+   {
+    "t": 62.58,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 71.05,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 73.34,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 75.57,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 2.2
+   },
+   {
+    "t": 79.46,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 79.57,
+    "kind": "praise",
+    "frustration": 1.05
+   },
+   {
+    "t": 86.17,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 86.4,
+    "kind": "interrupted_pause",
+    "frustration": 1.9,
+    "paused_s": 0.2
+   },
+   {
+    "t": 96.39,
+    "kind": "progress",
+    "frustration": 1.75
+   },
+   {
+    "t": 102.74,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 106.23,
+    "kind": "progress",
+    "frustration": 1.45
+   },
+   {
+    "t": 108.48,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 108.77,
+    "kind": "interrupted_pause",
+    "frustration": 2.3,
+    "paused_s": 0.2
+   },
+   {
+    "t": 115.85,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 119.66,
+    "kind": "progress",
+    "frustration": 2.0
+   },
+   {
+    "t": 120.38,
+    "kind": "interrupted_pause",
+    "frustration": 3.0,
+    "paused_s": 0.7
+   },
+   {
+    "t": 128.43,
+    "kind": "progress",
+    "frustration": 2.85
+   },
+   {
+    "t": 135.47,
+    "kind": "unexpected_pause",
+    "frustration": 3.65
+   },
+   {
+    "t": 142.99,
+    "kind": "wrong_screen",
+    "frustration": 4.25
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 3,
+  "interruptions": 4,
+  "unheard_words": 2,
+  "buddy_talk_s": 54.9,
+  "child_talk_s": 34.6,
+  "tired_said": false,
+  "time_to_text_s": 4.3,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 12.0,
+  "intro_s": 17.6,
+  "session_s": 129.9,
+  "words_total": 24,
+  "words_attempted": 11,
+  "words_said_wrong": 2,
+  "corrections": 2,
+  "buddy_turns": 14,
+  "stall_prompts": 1,
+  "uncertain_prompts": 5
+ },
+ "tutor_summary": {
+  "words_total": 24,
+  "words_read": 6,
+  "words_helped": 5,
+  "words_to_practise": [
+   "Pitter",
+   "patter",
+   "rain",
+   "On",
+   "and"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 127.7,
+  "words_per_minute": 5.2
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 4,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 190,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

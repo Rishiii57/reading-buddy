@@ -1,0 +1,276 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r3-after-s0",
+ "agent_id": "L04",
+ "seed": 1187,
+ "persona": {
+  "id": "L04",
+  "name": "Vivaan",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 2.5,
+  "attention_span_s": 90
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 12.59,
+    "details": [
+     "LKG child landed on a 'Grade 2-4' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 12.59,
+      "title": "The Busy Ant",
+      "grade_tag": "Grade 2-4"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 36.37,
+    "details": [
+     "Buddy started talking 0.8 s into a planned 2.75 s thinking pause.",
+     "Buddy started talking 3.3 s into a planned 3.77 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 36.37,
+      "paused_s": 0.8,
+      "planned_s": 2.75,
+      "line": 0,
+      "buddy_kind": "uncertain",
+      "next_words": "ant walked across"
+     },
+     {
+      "t": 117.44,
+      "paused_s": 3.3,
+      "planned_s": 3.77,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "across the floor."
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 79.29,
+    "details": [
+     "Asked to say 'small' 3 times.",
+     "Asked to say 'ant' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 79.29,
+      "word": "small",
+      "times": 3
+     },
+     {
+      "t": 96.89,
+      "word": "ant",
+      "times": 3
+     }
+    ],
+    "child_quote": "Again? I said it already!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 105.75,
+    "details": [
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 105.75,
+      "said": "A small small",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that."
+  ],
+  "frustration_peak": 3.8,
+  "frustration_events": [
+   {
+    "t": 35.54,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 36.37,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 0.8
+   },
+   {
+    "t": 46.68,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 53.53,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 59.36,
+    "kind": "dead_click",
+    "frustration": 1.2,
+    "target": "Listening"
+   },
+   {
+    "t": 65.74,
+    "kind": "praise",
+    "frustration": 0.8
+   },
+   {
+    "t": 79.29,
+    "kind": "drill_repeat",
+    "frustration": 1.5,
+    "word": "small"
+   },
+   {
+    "t": 82.43,
+    "kind": "praise",
+    "frustration": 1.1
+   },
+   {
+    "t": 96.89,
+    "kind": "drill_repeat",
+    "frustration": 1.8,
+    "word": "ant"
+   },
+   {
+    "t": 105.75,
+    "kind": "unheard_speech",
+    "frustration": 2.6
+   },
+   {
+    "t": 105.75,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 114.08,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 117.44,
+    "kind": "interrupted_pause",
+    "frustration": 3.3,
+    "paused_s": 3.3
+   },
+   {
+    "t": 120.23,
+    "kind": "dead_click",
+    "frustration": 3.8,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 2,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 2,
+  "unheard_words": 3,
+  "buddy_talk_s": 39.4,
+  "child_talk_s": 15.8,
+  "tired_said": false,
+  "time_to_text_s": 5.8,
+  "reader_page_audio_clips": 1,
+  "intro_s": 12.6,
+  "time_to_first_word_s": 12.6,
+  "session_s": 101.3,
+  "words_total": 37,
+  "words_attempted": 7,
+  "words_said_wrong": 1,
+  "corrections": 2,
+  "buddy_turns": 12,
+  "stall_prompts": 0,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 4,
+  "words_helped": 3,
+  "words_to_practise": [
+   "A",
+   "small",
+   "ant"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 5,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 101.4,
+  "words_per_minute": 4.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 205,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

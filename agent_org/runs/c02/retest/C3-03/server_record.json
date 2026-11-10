@@ -1,0 +1,336 @@
+{
+ "id": "20261110-112953-529b04",
+ "text_id": "gu-varsad",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 16,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 48.2,
+  "words_per_minute": 19.9
+ },
+ "log": [
+  {
+   "t": 0.029,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.298,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.174,
+   "event": "transcript",
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે"
+  },
+  {
+   "t": 18.174,
+   "event": "progress",
+   "frm": 0,
+   "to": 6
+  },
+  {
+   "t": 18.174,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 21.534,
+   "event": "transcript",
+   "text": "દેડક મીઠું ગીત ગીત બોલ"
+  },
+  {
+   "t": 21.534,
+   "event": "uncertain",
+   "text": "દેડક મીઠું ગીત ગીત બોલ"
+  },
+  {
+   "t": 21.534,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 24.874,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.246,
+   "event": "transcript",
+   "text": "દેડકા મીઠુ ગીત બોલે"
+  },
+  {
+   "t": 27.246,
+   "event": "progress",
+   "frm": 6,
+   "to": 10
+  },
+  {
+   "t": 27.246,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 27.246,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 27.246,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 31.513,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.956,
+   "event": "transcript",
+   "text": "છોકરાં પાણીમાં પાણીમાં ડમે રમે"
+  },
+  {
+   "t": 34.956,
+   "event": "progress",
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 34.956,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 37.607,
+   "event": "transcript",
+   "text": "છોકરાં પાણીમાં રમે"
+  },
+  {
+   "t": 37.607,
+   "event": "restart",
+   "frm": 13,
+   "to": 10
+  },
+  {
+   "t": 39.545,
+   "event": "transcript",
+   "text": "કાગળની"
+  },
+  {
+   "t": 39.545,
+   "event": "progress",
+   "frm": 13,
+   "to": 14
+  },
+  {
+   "t": 43.573,
+   "event": "transcript",
+   "text": "હોડી ડોલે"
+  },
+  {
+   "t": 43.573,
+   "event": "progress",
+   "frm": 14,
+   "to": 16
+  },
+  {
+   "t": 43.573,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 43.573,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 43.573,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.519,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.174,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 19.243,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.534,
+   "type": "transcript",
+   "text": "દેડક મીઠું ગીત ગીત બોલ",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 25.295,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.246,
+   "type": "transcript",
+   "text": "દેડકા મીઠુ ગીત બોલે",
+   "latency": 120,
+   "audio_duration_ms": 1530,
+   "message": null
+  },
+  {
+   "t": 32.651,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.956,
+   "type": "transcript",
+   "text": "છોકરાં પાણીમાં પાણીમાં ડમે રમે",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 35.987,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.607,
+   "type": "transcript",
+   "text": "છોકરાં પાણીમાં રમે",
+   "latency": 120,
+   "audio_duration_ms": 1200,
+   "message": null
+  },
+  {
+   "t": 38.595,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.545,
+   "type": "transcript",
+   "text": "કાગળની",
+   "latency": 120,
+   "audio_duration_ms": 530,
+   "message": null
+  },
+  {
+   "t": 42.256,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.573,
+   "type": "transcript",
+   "text": "હોડી ડોલે",
+   "latency": 120,
+   "audio_duration_ms": 870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "heard": "ટપ ટપ ટપ ટપ વરસાદ પડે",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "દેડક મીઠું ગીત ગીત બોલ",
+   "heard": "દેડક મીઠું ગીત ગીત બોલ",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "દેડકા મીઠુ ગીત બોલે",
+   "heard": "દેડકા મીઠુ ગીત બોલે",
+   "muted_words": 0,
+   "duration_s": 1.53
+  },
+  {
+   "text": "છોકરાં પાણીમાં પાણીમાં ડમે રમે",
+   "heard": "છોકરાં પાણીમાં પાણીમાં ડમે રમે",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "છોકરાં પાણીમાં રમે",
+   "heard": "છોકરાં પાણીમાં રમે",
+   "muted_words": 0,
+   "duration_s": 1.2
+  },
+  {
+   "text": "કાગળની",
+   "heard": "કાગળની",
+   "muted_words": 0,
+   "duration_s": 0.53
+  },
+  {
+   "text": "હોડી ડોલે",
+   "heard": "હોડી ડોલે",
+   "muted_words": 0,
+   "duration_s": 0.87
+  }
+ ],
+ "tts_offline": 601
+}

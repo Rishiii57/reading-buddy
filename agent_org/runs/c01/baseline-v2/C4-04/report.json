@@ -1,0 +1,248 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "C4-04",
+ "seed": 1714,
+ "persona": {
+  "id": "C4-04",
+  "name": "Khushi",
+  "grade": "Class 4",
+  "age": 9.5,
+  "reading_proficiency": "fluent",
+  "language_preference": "en-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.85,
+  "patience": 2.5,
+  "attention_span_s": 120
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 39.13,
+    "details": [
+     "Buddy started talking 0.5 s into a planned 2.2 s thinking pause.",
+     "Buddy started talking 1.6 s into a planned 1.9 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 39.13,
+      "paused_s": 0.5,
+      "planned_s": 2.2,
+      "line": 0,
+      "buddy_kind": "uncertain",
+      "next_words": "floor."
+     },
+     {
+      "t": 83.24,
+      "paused_s": 1.6,
+      "planned_s": 1.9,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "was bigger than"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 89.86,
+    "details": [
+     "Read 'the' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 89.86,
+      "word": "the",
+      "child_said": "the",
+      "speech_model_wrote": "was bigger than dhe ant"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.05,
+  "frustration_events": [
+   {
+    "t": 36.22,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 38.54,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 39.13,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 0.5
+   },
+   {
+    "t": 48.01,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 53.38,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 55.8,
+    "kind": "progress",
+    "frustration": 0.55
+   },
+   {
+    "t": 56.22,
+    "kind": "praise",
+    "frustration": 0.15
+   },
+   {
+    "t": 64.86,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 81.11,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 83.24,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 1.6
+   },
+   {
+    "t": 89.06,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 89.86,
+    "kind": "false_correction",
+    "frustration": 2.05,
+    "word": "the"
+   },
+   {
+    "t": 104.04,
+    "kind": "progress",
+    "frustration": 1.9
+   },
+   {
+    "t": 104.09,
+    "kind": "praise",
+    "frustration": 1.5
+   },
+   {
+    "t": 110.92,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 115.54,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 115.72,
+    "kind": "praise",
+    "frustration": 0.8
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 4,
+  "praise_heard": 3,
+  "interruptions": 2,
+  "unheard_words": 0,
+  "buddy_talk_s": 51.3,
+  "child_talk_s": 25.5,
+  "tired_said": false,
+  "time_to_text_s": 6.2,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.1,
+  "time_to_first_word_s": 12.1,
+  "session_s": 102.4,
+  "words_total": 37,
+  "words_attempted": 37,
+  "words_said_wrong": 0,
+  "corrections": 2,
+  "buddy_turns": 10,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 33,
+  "words_helped": 4,
+  "words_to_practise": [
+   "bigger",
+   "the"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 5,
+  "lines_completed": 5,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 96.5,
+  "words_per_minute": 23.0
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 467,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,25 @@
+{"t": 13.21, "type": "ready", "message": null}
+{"t": 13.22, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 28.24, "type": "speech"}
+{"t": 32.89, "type": "heard", "text": "Ravi has a mango tree in his garden"}
+{"t": 33.17, "type": "speech"}
+{"t": 34.9, "type": "speech"}
+{"t": 37.44, "type": "heard", "text": "um see tha tree"}
+{"t": 37.57, "type": "speech"}
+{"t": 37.57, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 41.63, "type": "speech"}
+{"t": 47.47, "type": "heard", "text": "um Every summer the tre is fun full said sweet my"}
+{"t": 47.47, "type": "speech"}
+{"t": 49.18, "type": "speech"}
+{"t": 50.14, "type": "heard", "text": "mangoes"}
+{"t": 50.18, "type": "speech"}
+{"t": 50.18, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. of", "spans": [[14, 15]]}
+{"t": 54.03, "type": "speech"}
+{"t": 55.6, "type": "heard", "text": "of of"}
+{"t": 55.6, "type": "speech"}
+{"t": 55.6, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Every summer the tree is full of sweet mangoes. Now you say the whole line.", "spans": [[8, 17]]}
+{"t": 65.02, "type": "speech"}
+{"t": 70.38, "type": "heard", "text": "um summer the tree is full of sweet mangoes"}
+{"t": 70.39, "type": "speech"}
+{"t": 70.39, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Every", "spans": [[8, 9]]}
+{"t": 77.07, "type": "summary", "summary": {"words_total": 32, "words_read": 15, "words_helped": 2, "words_to_practise": ["Every", "of"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 63.6, "words_per_minute": 16.0}}

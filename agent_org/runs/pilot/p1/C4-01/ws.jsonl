@@ -1,0 +1,42 @@
+{"t": 11.12, "type": "ready", "message": null}
+{"t": 11.19, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 26.83, "type": "speech"}
+{"t": 30.79, "type": "heard", "text": "मीना के घर के पीछे एक बगीचा है"}
+{"t": 30.82, "type": "speech"}
+{"t": 31.65, "type": "speech"}
+{"t": 35.17, "type": "heard", "text": "उसमें लाल और पीले फूल खिलते हें"}
+{"t": 35.2, "type": "speech"}
+{"t": 35.24, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 38.02, "type": "speech"}
+{"t": 42.37, "type": "heard", "text": "मीणा हर सुबह पौदों पौधों को पानी देती है"}
+{"t": 42.39, "type": "speech"}
+{"t": 42.4, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीना", "spans": [[15, 16]]}
+{"t": 46.68, "type": "speech"}
+{"t": 47.74, "type": "heard", "text": "मीना"}
+{"t": 47.74, "type": "speech"}
+{"t": 47.77, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मीना हर सुबह पौधों को पानी देती है। अब तुम पूरी पंक्ति बोलो।", "spans": [[15, 23]]}
+{"t": 55.47, "type": "speech"}
+{"t": 59.02, "type": "heard", "text": "मीना सुबह पौधों को पानी देती है"}
+{"t": 59.03, "type": "speech"}
+{"t": 59.05, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। हर", "spans": [[16, 17]]}
+{"t": 63.29, "type": "speech"}
+{"t": 64.32, "type": "heard", "text": "हर"}
+{"t": 64.33, "type": "speech"}
+{"t": 64.34, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मीना हर सुबह पौधों को पानी देती है। अब तुम पूरी पंक्ति बोलो।", "spans": [[15, 23]]}
+{"t": 71.73, "type": "speech"}
+{"t": 75.75, "type": "heard", "text": "मीना हर सुबह पौधों को पानी देथी है"}
+{"t": 75.75, "type": "speech"}
+{"t": 75.78, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। देती", "spans": [[21, 22]]}
+{"t": 80.03, "type": "speech"}
+{"t": 81.07, "type": "heard", "text": "देती"}
+{"t": 81.09, "type": "speech"}
+{"t": 81.12, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मीना हर सुबह पौधों को पानी देती है। अब तुम पूरी पंक्ति बोलो।", "spans": [[15, 23]]}
+{"t": 88.81, "type": "speech"}
+{"t": 92.77, "type": "heard", "text": "मीना हर सुबह पौधों को पानी देती है"}
+{"t": 92.8, "type": "speech"}
+{"t": 92.83, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 96.63, "type": "speech"}
+{"t": 101.03, "type": "heard", "text": "उसे अपने वगीचे बगीचे से बहुत प्यार है है"}
+{"t": 101.07, "type": "speech"}
+{"t": 101.12, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 101.13, "type": "summary", "summary": {"words_total": 30, "words_read": 27, "words_helped": 3, "words_to_practise": ["मीना", "हर", "देती"], "words_practised": 3, "correction_attempts": 3, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 3, "seconds": 89.9, "words_per_minute": 20.0}}

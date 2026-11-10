@@ -1,0 +1,176 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "C1-06",
+ "seed": 1476,
+ "persona": {
+  "id": "C1-06",
+  "name": "Siya",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 120
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-mamanughar",
+  "title": "મામાનું ઘર કેટલે",
+  "tags": [
+   "Gujarati",
+   "Nursery"
+  ],
+  "words": 13,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 30.72,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 30.72,
+      "talk_s": 13.0
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 62.64,
+    "details": [
+     "A curious tap on 'Home' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 62.64,
+      "tapped": "Home",
+      "view": "view-home"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 0.6,
+  "frustration_events": [
+   {
+    "t": 30.72,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 36.13,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 41.73,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 48.92,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 52.83,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 52.95,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 62.64,
+    "kind": "wrong_screen",
+    "frustration": 0.6
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 24.6,
+  "child_talk_s": 7.0,
+  "tired_said": false,
+  "time_to_text_s": 5.4,
+  "reader_page_audio_clips": 1,
+  "intro_s": 14.1,
+  "time_to_first_word_s": 15.7,
+  "session_s": 47.9,
+  "words_total": 13,
+  "words_attempted": 6,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 4,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 13,
+  "words_read": 6,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 46.9,
+  "words_per_minute": 7.7
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 456,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

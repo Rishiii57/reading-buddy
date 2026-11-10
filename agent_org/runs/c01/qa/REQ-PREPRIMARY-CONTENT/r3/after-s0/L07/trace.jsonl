@@ -1,0 +1,16 @@
+{"t": 4.13, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 4.21, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 5.61, "kind": "tap", "target": "આવ રે વરસાદ Come, Rain Gujarati LKG Rhym", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.27, "kind": "opened_text", "hash": "#/read/gu-avre", "title": "આવ રે વરસાદ", "tags": ["Gujarati", "LKG"], "words": 11, "lines": 4}
+{"t": 10.8, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 14.85, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.92, "kind": "session_started", "tries": 1}
+{"t": 30.37, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 31.8, "kind": "tap_mic_to_talk"}
+{"t": 31.89, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.77, "kind": "stuck", "word": "રે", "waited": 4.5}
+{"t": 92.3, "kind": "tap_mic_to_talk"}
+{"t": 92.31, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 129.22, "kind": "tap", "target": "Read this again", "why": "wants to read it again", "view": "view-summary"}
+{"t": 131.2, "kind": "tap", "target": "Start reading", "why": "starting again", "view": "view-reader"}
+{"t": 157.42, "kind": "issue", "code": "RESTART_FAILED", "detail": "After 'Read this again' the new session did not get to the child's turn in 25 s."}

@@ -1,0 +1,429 @@
+{
+ "utterances": [
+  {
+   "t": 35.56,
+   "said": "मछली जल कि ड़ानी",
+   "stt": "मछली जल कि ड़ानी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 38.52,
+   "said": "रानी",
+   "stt": "रानी",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.51,
+   "said": "हे है",
+   "stt": "हे है",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.08,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.33,
+   "said": "जीवन उसका पाणी पानी",
+   "stt": "जीवन उसका पाणी पानी",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.8,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.44,
+   "said": "हाथ लगाओ डड़ डर जाएगी",
+   "stt": "हाथ लगाओ डड़ डर जाएगी",
+   "stt_notes": [],
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 80.24,
+   "said": "वाहर वाहर",
+   "stt": "वाहर वाहर",
+   "stt_notes": [],
+   "words": [
+    13
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 88.12,
+   "said": "निकालो मर मर जाएगी",
+   "stt": "निकालो मर मर झाएगी",
+   "stt_notes": [
+    "'जाएगी' heard as 'झाएगी'"
+   ],
+   "words": [
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 94.06,
+   "said": "बाहर निकालो मर जाएगी",
+   "stt": "बाहर निकालो मर जाएगी",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 35.56,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल कि ड़ानी"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.56,
+    "target": "जल",
+    "said": "जल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली जल कि ड़ानी"
+   }
+  ],
+  "2": [
+   {
+    "t": 35.56,
+    "target": "की",
+    "said": "कि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछली जल कि ड़ानी"
+   }
+  ],
+  "3": [
+   {
+    "t": 35.56,
+    "target": "रानी",
+    "said": "ड़ानी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछली जल कि ड़ानी"
+   },
+   {
+    "t": 38.52,
+    "target": "रानी",
+    "said": "रानी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "रानी"
+   }
+  ],
+  "4": [
+   {
+    "t": 35.56,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "मछली जल कि ड़ानी"
+   },
+   {
+    "t": 43.51,
+    "target": "है",
+    "said": "हे है",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "हे है"
+   },
+   {
+    "t": 49.08,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "5": [
+   {
+    "t": 58.33,
+    "target": "जीवन",
+    "said": "जीवन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन उसका पाणी पानी"
+   }
+  ],
+  "6": [
+   {
+    "t": 58.33,
+    "target": "उसका",
+    "said": "उसका",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन उसका पाणी पानी"
+   }
+  ],
+  "7": [
+   {
+    "t": 58.33,
+    "target": "पानी",
+    "said": "पाणी पानी",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "जीवन उसका पाणी पानी"
+   }
+  ],
+  "8": [
+   {
+    "t": 62.8,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "9": [
+   {
+    "t": 73.44,
+    "target": "हाथ",
+    "said": "हाथ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हाथ लगाओ डड़ डर जाएगी"
+   }
+  ],
+  "10": [
+   {
+    "t": 73.44,
+    "target": "लगाओ",
+    "said": "लगाओ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हाथ लगाओ डड़ डर जाएगी"
+   }
+  ],
+  "11": [
+   {
+    "t": 73.44,
+    "target": "डर",
+    "said": "डड़ डर",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "हाथ लगाओ डड़ डर जाएगी"
+   }
+  ],
+  "12": [
+   {
+    "t": 73.44,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हाथ लगाओ डड़ डर जाएगी"
+   }
+  ],
+  "13": [
+   {
+    "t": 80.24,
+    "target": "बाहर",
+    "said": "वाहर",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वाहर वाहर"
+   },
+   {
+    "t": 94.06,
+    "target": "बाहर",
+    "said": "बाहर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो मर जाएगी"
+   }
+  ],
+  "14": [
+   {
+    "t": 88.12,
+    "target": "निकालो",
+    "said": "निकालो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "निकालो मर मर झाएगी"
+   },
+   {
+    "t": 94.06,
+    "target": "निकालो",
+    "said": "निकालो",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो मर जाएगी"
+   }
+  ],
+  "15": [
+   {
+    "t": 88.12,
+    "target": "मर",
+    "said": "मर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "निकालो मर मर झाएगी"
+   },
+   {
+    "t": 94.06,
+    "target": "मर",
+    "said": "मर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो मर जाएगी"
+   }
+  ],
+  "16": [
+   {
+    "t": 88.12,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "निकालो मर मर झाएगी"
+   },
+   {
+    "t": 94.06,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बाहर निकालो मर जाएगी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.3,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 43.56,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 49.12,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "जीवन उसका पानी है। अब तुम बोलो!",
+   "spans": [
+    [
+     5,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 62.91,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 62.91,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "हाथ लगाओ डर जाएगी अब तुम बोलो!",
+   "spans": [
+    [
+     9,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 73.46,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "बाहर निकालो मर जाएगी। अब तुम बोलो!",
+   "spans": [
+    [
+     13,
+     17
+    ]
+   ]
+  },
+  {
+   "t": 94.19,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

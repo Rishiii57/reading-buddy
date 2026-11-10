@@ -9,3 +9,7 @@ cache/usage.json
 cache/tts/*.part
 # synthetic test audio is rebuilt from the TTS cache by eval/make_testset.py (no API calls)
 eval/testset/*/*.wav
+cache/tts_offline/
+agent_org/runs/**/screens/
+agent_org/runs/**/live/
+eval/testset/*/aug_*.wav

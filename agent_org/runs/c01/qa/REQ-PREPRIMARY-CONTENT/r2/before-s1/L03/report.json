@@ -1,0 +1,158 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r2-before-s1",
+ "agent_id": "L03",
+ "seed": 2170,
+ "persona": {
+  "id": "L03",
+  "name": "Aadhya",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "discover_and_start",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "left_before_start",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 8.98,
+    "details": [
+     "LKG child landed on a 'Grade 2-3' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 8.98,
+      "title": "ચકલી અને દાણા",
+      "grade_tag": "Grade 2-3"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "CONSENT_BLOCKS_CHILD",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 16.5,
+    "details": [
+     "A written grown-ups-only box appeared; the child could not read it and could not start.",
+     "A written grown-ups-only box appeared; the child could not read it and could not start."
+    ],
+    "evidence": [
+     {
+      "t": 16.5,
+      "grade": "LKG",
+      "tapped": "Not now"
+     },
+     {
+      "t": 20.64,
+      "grade": "LKG",
+      "tapped": "Not now"
+     }
+    ],
+    "child_quote": "A box came and I didn't know what it said.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 23.58,
+    "details": [
+     "Tapped something that left the reading page before starting."
+    ],
+    "evidence": [
+     {
+      "t": 23.58,
+      "view": "view-home"
+     }
+    ],
+    "child_quote": "Where did my poem go?",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 1.2,
+  "frustration_events": [
+   {
+    "t": 16.5,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "consent dialog"
+   },
+   {
+    "t": 20.64,
+    "kind": "not_understood",
+    "frustration": 1.2,
+    "what": "consent dialog"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 0.0,
+  "child_talk_s": 0.0,
+  "tired_said": false,
+  "time_to_text_s": 4.6,
+  "reader_page_audio_clips": 1,
+  "words_total": 23,
+  "words_attempted": 0,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 0,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": null,
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-consent.png",
+   "screens/04-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": null,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

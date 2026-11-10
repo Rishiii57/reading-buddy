@@ -1,0 +1,434 @@
+{
+ "utterances": [
+  {
+   "t": 31.34,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 39.58,
+   "said": "बाद बाद",
+   "stt": "बाद बाद",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.64,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.83,
+   "said": "गरज गरज",
+   "stt": "गरझ गरज",
+   "stt_notes": [
+    "'गरज' heard as 'गरझ'"
+   ],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.75,
+   "said": "गरज",
+   "stt": "गरज",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.51,
+   "said": "गरज",
+   "stt": "गरज",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 82.03,
+   "said": "गरजे गरजे",
+   "stt": "गरजे गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 91.8,
+   "said": "बाद गरजे",
+   "stt": "बाद गरजे",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 112.28,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 121.87,
+   "said": "बादल गरजे",
+   "stt": "बादल गरजे",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 130.37,
+   "said": "बारिश",
+   "stt": "बारिश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 134.6,
+   "said": "आ",
+   "stt": "आ",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 137.81,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 140.11,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.34,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बादल"
+   },
+   {
+    "t": 39.58,
+    "target": "बादल",
+    "said": "बाद",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाद बाद"
+   },
+   {
+    "t": 45.64,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बादल"
+   },
+   {
+    "t": 91.8,
+    "target": "बादल",
+    "said": "बाद",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाद गरजे"
+   },
+   {
+    "t": 112.28,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बादल",
+    "drill": true
+   },
+   {
+    "t": 121.87,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बादल गरजे"
+   }
+  ],
+  "1": [
+   {
+    "t": 51.83,
+    "target": "गरजे",
+    "said": "गरज",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गरझ गरज"
+   },
+   {
+    "t": 65.75,
+    "target": "गरजे",
+    "said": "गरज",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गरज"
+   },
+   {
+    "t": 75.51,
+    "target": "गरजे",
+    "said": "गरज",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गरज",
+    "drill": true
+   },
+   {
+    "t": 82.03,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "echo",
+    "stt": "गरजे गरजे",
+    "drill": true
+   },
+   {
+    "t": 91.8,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बाद गरजे"
+   },
+   {
+    "t": 121.87,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बादल गरजे"
+   }
+  ],
+  "2": [
+   {
+    "t": 130.37,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "echo",
+    "stt": "बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 134.6,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "आ"
+   },
+   {
+    "t": 137.81,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 140.11,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 20.17,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 39.63,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 51.84,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 59.19,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 69.27,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 75.55,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 82.13,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 95.36,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 101.47,
+   "type": "say",
+   "kind": "break",
+   "text": "कोई बात नहीं। हम थोड़ा आराम कर सकते हैं।",
+   "spans": []
+  },
+  {
+   "t": 112.31,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 125.86,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बारिश आई",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 139.22,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आई",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ ]
+}

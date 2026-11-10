@@ -1,0 +1,216 @@
+{
+ "utterances": [
+  {
+   "t": 33.71,
+   "said": "ઠપ",
+   "stt": "ઠપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 42.39,
+   "said": "ઠપ ઠપ",
+   "stt": "ઠપ ઠપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 46.48,
+   "said": "ઠપ ટપ",
+   "stt": "ઠપ ટપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 52.05,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 57.81,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 62.64,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 69.77,
+   "said": "ટપ",
+   "stt": "ટપ",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.71,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઠપ"
+   },
+   {
+    "t": 42.39,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઠપ ઠપ"
+   },
+   {
+    "t": 46.48,
+    "target": "ટપ",
+    "said": "ઠપ ટપ",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ઠપ ટપ",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 52.05,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 57.81,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 62.64,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 69.77,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ટપ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.01,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. ટપ ટપ ટપ ટપ વરસાદ પડે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 37.24,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. ટપ",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 46.56,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "હા! ખૂબ સરસ! ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 54.64,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 59.74,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 65.08,
+   "type": "say",
+   "kind": "take_time",
+   "text": "આરામથી. હું તારી મદદ માટે અહીં જ છું.",
+   "spans": []
+  }
+ ]
+}

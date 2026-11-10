@@ -1,0 +1,80 @@
+{"t": 14.13, "type": "ready", "message": null}
+{"t": 14.49, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 30.21, "type": "speech"}
+{"t": 33.01, "type": "heard", "text": "Twinkle twinkle"}
+{"t": 33.02, "type": "speech"}
+{"t": 37.53, "type": "say", "kind": "stall_phrase", "text": "Listen... little star", "spans": [[2, 4]]}
+{"t": 40.66, "type": "speech"}
+{"t": 42.54, "type": "heard", "text": "little"}
+{"t": 42.67, "type": "speech"}
+{"t": 45.42, "type": "speech"}
+{"t": 47.16, "type": "heard", "text": "star"}
+{"t": 47.21, "type": "speech"}
+{"t": 47.21, "type": "say", "kind": "echo_line", "text": "How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 53.01, "type": "speech"}
+{"t": 55.83, "type": "heard", "text": "How I"}
+{"t": 55.83, "type": "speech"}
+{"t": 60.42, "type": "speech"}
+{"t": 64.24, "type": "heard", "text": "we what"}
+{"t": 64.28, "type": "speech"}
+{"t": 67.88, "type": "speech"}
+{"t": 70.65, "type": "heard", "text": "are"}
+{"t": 70.65, "type": "speech"}
+{"t": 72.28, "type": "speech"}
+{"t": 74.04, "type": "heard", "text": "yoa"}
+{"t": 74.04, "type": "speech"}
+{"t": 76.81, "type": "speech"}
+{"t": 79.71, "type": "heard", "text": "ara are"}
+{"t": 79.71, "type": "speech"}
+{"t": 79.74, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 79.76, "type": "say", "kind": "echo_line", "text": "Up above the world so high Now you try!", "spans": [[10, 16]]}
+{"t": 88.47, "type": "speech"}
+{"t": 93.41, "type": "heard", "text": "ua all all the"}
+{"t": 93.41, "type": "speech"}
+{"t": 95.54, "type": "speech"}
+{"t": 97.17, "type": "heard", "text": "went"}
+{"t": 97.17, "type": "speech"}
+{"t": 99.66, "type": "speech"}
+{"t": 101.8, "type": "heard", "text": "sa"}
+{"t": 101.8, "type": "speech"}
+{"t": 105.31, "type": "say", "kind": "stall_phrase", "text": "Listen... Up above the", "spans": [[10, 13]]}
+{"t": 109.21, "type": "speech"}
+{"t": 112.31, "type": "heard", "text": "Up adove"}
+{"t": 112.31, "type": "speech"}
+{"t": 117.12, "type": "say", "kind": "stall_phrase", "text": "Listen... above the world", "spans": [[11, 14]]}
+{"t": 123.95, "type": "speech"}
+{"t": 128.4, "type": "heard", "text": "above above the"}
+{"t": 128.41, "type": "speech"}
+{"t": 131.62, "type": "speech"}
+{"t": 133.33, "type": "heard", "text": "world"}
+{"t": 133.37, "type": "speech"}
+{"t": 138.53, "type": "say", "kind": "stall_phrase", "text": "Listen... so high", "spans": [[14, 16]]}
+{"t": 142.98, "type": "speech"}
+{"t": 144.59, "type": "heard", "text": "so"}
+{"t": 144.59, "type": "speech"}
+{"t": 147.04, "type": "speech"}
+{"t": 149.75, "type": "heard", "text": "have have"}
+{"t": 149.79, "type": "speech"}
+{"t": 149.79, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 153.77, "type": "speech"}
+{"t": 155.43, "type": "heard", "text": "high"}
+{"t": 155.43, "type": "speech"}
+{"t": 155.59, "type": "say", "kind": "echo_line", "text": "Like a diamond in the sky. Now you try!", "spans": [[16, 22]]}
+{"t": 160.55, "type": "speech"}
+{"t": 162.39, "type": "heard", "text": "Like"}
+{"t": 162.39, "type": "speech"}
+{"t": 165.75, "type": "speech"}
+{"t": 169.73, "type": "heard", "text": "ia sky"}
+{"t": 169.74, "type": "speech"}
+{"t": 169.76, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 173.37, "type": "speech"}
+{"t": 175.13, "type": "heard", "text": "a"}
+{"t": 175.13, "type": "speech"}
+{"t": 177.61, "type": "speech"}
+{"t": 179.4, "type": "heard", "text": "diamond"}
+{"t": 179.44, "type": "speech"}
+{"t": 181.6, "type": "speech"}
+{"t": 185.77, "type": "heard", "text": "in the sky"}
+{"t": 185.77, "type": "speech"}
+{"t": 185.77, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 185.77, "type": "summary", "summary": {"words_total": 22, "words_read": 12, "words_helped": 10, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 4, "corrections": 0, "seconds": 171.5, "words_per_minute": 7.7}}

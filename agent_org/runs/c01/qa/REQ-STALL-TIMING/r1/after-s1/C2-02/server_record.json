@@ -1,0 +1,1204 @@
+{
+ "id": "20261109-190505-365245",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 5,
+  "words_helped": 10,
+  "words_to_practise": [
+   "एक",
+   "पर",
+   "चिड़िया",
+   "से",
+   "सुंदर",
+   "घोंसला"
+  ],
+  "words_practised": 11,
+  "correction_attempts": 11,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 7,
+  "seconds": 213.5,
+  "words_per_minute": 4.2
+ },
+ "log": [
+  {
+   "t": 0.144,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.207,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.5,
+   "event": "transcript",
+   "text": "एक पेड़ एक छोटी चिढ़िया रहती रहती थी"
+  },
+  {
+   "t": 23.5,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 23.5,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2,
+    5
+   ]
+  },
+  {
+   "t": 23.5,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 29.915,
+   "event": "transcript",
+   "text": "पर"
+  },
+  {
+   "t": 29.915,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 29.915,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 34.487,
+   "event": "transcript",
+   "text": "चिड़िया"
+  },
+  {
+   "t": 34.487,
+   "event": "drill_ok",
+   "word": 5
+  },
+  {
+   "t": 34.487,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 41.625,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 46.721,
+   "event": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी"
+  },
+  {
+   "t": 46.721,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 46.721,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    3
+   ]
+  },
+  {
+   "t": 46.721,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 52.982,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 52.982,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 52.982,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 57.659,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 57.659,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 57.659,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 64.385,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 68.073,
+   "event": "transcript",
+   "text": "एक पेड़ पर पर एक"
+  },
+  {
+   "t": 68.073,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 70.138,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 70.138,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 75.642,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 78.706,
+   "event": "transcript",
+   "text": "छोटी चिड़िया रहती थी"
+  },
+  {
+   "t": 78.706,
+   "event": "progress",
+   "frm": 4,
+   "to": 8
+  },
+  {
+   "t": 78.706,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 78.706,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 83.319,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 89.093,
+   "event": "transcript",
+   "text": "उसने तिनकों तिनकों से एक सुंदर घोंषला बनाया"
+  },
+  {
+   "t": 89.093,
+   "event": "progress",
+   "frm": 8,
+   "to": 15
+  },
+  {
+   "t": 89.093,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    13
+   ]
+  },
+  {
+   "t": 89.093,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 94.854,
+   "event": "transcript",
+   "text": "घोंसला"
+  },
+  {
+   "t": 94.854,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 94.854,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 102.132,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 104.161,
+   "event": "transcript",
+   "text": "उसने तिनकों"
+  },
+  {
+   "t": 104.161,
+   "event": "progress",
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 106.203,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 13,
+   "line": 1
+  },
+  {
+   "t": 106.203,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 110.819,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 113.133,
+   "event": "transcript",
+   "text": "सुंधर घोंसला बनाया"
+  },
+  {
+   "t": 113.133,
+   "event": "progress",
+   "frm": 10,
+   "to": 15
+  },
+  {
+   "t": 113.133,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    12
+   ]
+  },
+  {
+   "t": 113.133,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 119.836,
+   "event": "transcript",
+   "text": "सुंदर"
+  },
+  {
+   "t": 119.836,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 119.836,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 127.102,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 131.873,
+   "event": "transcript",
+   "text": "उसने तिनकों से एक सुंदड़ घोंसला बणाया"
+  },
+  {
+   "t": 131.873,
+   "event": "progress",
+   "frm": 8,
+   "to": 14
+  },
+  {
+   "t": 133.937,
+   "event": "transcript",
+   "text": "बनाया"
+  },
+  {
+   "t": 133.937,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 133.937,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    12
+   ]
+  },
+  {
+   "t": 133.937,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 139.223,
+   "event": "transcript",
+   "text": "सुंदर"
+  },
+  {
+   "t": 139.223,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 139.223,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 146.547,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 150.386,
+   "event": "transcript",
+   "text": "उसने तिनकों एक षुंदर घोंसला"
+  },
+  {
+   "t": 150.386,
+   "event": "progress",
+   "frm": 8,
+   "to": 14
+  },
+  {
+   "t": 154.347,
+   "event": "transcript",
+   "text": "बनाया बनाया"
+  },
+  {
+   "t": 154.347,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 154.347,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    12
+   ]
+  },
+  {
+   "t": 154.347,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 160.451,
+   "event": "transcript",
+   "text": "घोंसला बनाया"
+  },
+  {
+   "t": 160.451,
+   "event": "uncertain",
+   "text": "घोंसला बनाया"
+  },
+  {
+   "t": 160.451,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 163.982,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 167.17,
+   "event": "transcript",
+   "text": "सुंदर घोंसला बनाया"
+  },
+  {
+   "t": 167.17,
+   "event": "uncertain",
+   "text": "सुंदर घोंसला बनाया"
+  },
+  {
+   "t": 169.458,
+   "event": "transcript",
+   "text": "से"
+  },
+  {
+   "t": 169.458,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 169.458,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 173.617,
+   "event": "pause"
+  },
+  {
+   "t": 176.559,
+   "event": "resume"
+  },
+  {
+   "t": 178.527,
+   "event": "transcript",
+   "text": "सुंदर"
+  },
+  {
+   "t": 178.527,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 178.527,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 186.574,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 190.471,
+   "event": "transcript",
+   "text": "उसने तिनकों सुंदर घोंसला बनाया"
+  },
+  {
+   "t": 190.471,
+   "event": "progress",
+   "frm": 8,
+   "to": 15
+  },
+  {
+   "t": 190.471,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    10,
+    11
+   ]
+  },
+  {
+   "t": 190.471,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 196.035,
+   "event": "transcript",
+   "text": "घोंसला वनाया"
+  },
+  {
+   "t": 196.035,
+   "event": "uncertain",
+   "text": "घोंसला वनाया"
+  },
+  {
+   "t": 196.035,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 199.027,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 201.184,
+   "event": "transcript",
+   "text": "से"
+  },
+  {
+   "t": 201.184,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 201.184,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 205.998,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 205.998,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 205.998,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 212.977,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.44,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.5,
+   "type": "transcript",
+   "text": "एक पेड़ एक छोटी चिढ़िया रहती रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 28.75,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.915,
+   "type": "transcript",
+   "text": "पर",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 33.299,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.487,
+   "type": "transcript",
+   "text": "चिड़िया",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 42.212,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.721,
+   "type": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 51.784,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.982,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 56.473,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.659,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 64.668,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.073,
+   "type": "transcript",
+   "text": "एक पेड़ पर पर एक",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 75.864,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.706,
+   "type": "transcript",
+   "text": "छोटी चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 84.031,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.093,
+   "type": "transcript",
+   "text": "उसने तिनकों तिनकों से एक सुंदर घोंषला बनाया",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 93.674,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 94.854,
+   "type": "transcript",
+   "text": "घोंसला",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 102.43,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 104.161,
+   "type": "transcript",
+   "text": "उसने तिनकों",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 110.819,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.133,
+   "type": "transcript",
+   "text": "सुंधर घोंसला बनाया",
+   "latency": 120,
+   "audio_duration_ms": 1788,
+   "message": null
+  },
+  {
+   "t": 118.617,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.836,
+   "type": "transcript",
+   "text": "सुंदर",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 127.204,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 131.873,
+   "type": "transcript",
+   "text": "उसने तिनकों से एक सुंदड़ घोंसला बणाया",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 132.757,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 133.937,
+   "type": "transcript",
+   "text": "बनाया",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 138.041,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 139.223,
+   "type": "transcript",
+   "text": "सुंदर",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 146.984,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 150.386,
+   "type": "transcript",
+   "text": "उसने तिनकों एक षुंदर घोंसला",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 152.609,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 154.347,
+   "type": "transcript",
+   "text": "बनाया बनाया",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 158.772,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 160.451,
+   "type": "transcript",
+   "text": "घोंसला बनाया",
+   "latency": 120,
+   "audio_duration_ms": 1192,
+   "message": null
+  },
+  {
+   "t": 164.179,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 167.17,
+   "type": "transcript",
+   "text": "सुंदर घोंसला बनाया",
+   "latency": 120,
+   "audio_duration_ms": 1765,
+   "message": null
+  },
+  {
+   "t": 168.278,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 169.458,
+   "type": "transcript",
+   "text": "से",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 177.346,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 178.527,
+   "type": "transcript",
+   "text": "सुंदर",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 187.067,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 190.471,
+   "type": "transcript",
+   "text": "उसने तिनकों सुंदर घोंसला बनाया",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 194.404,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 196.035,
+   "type": "transcript",
+   "text": "घोंसला वनाया",
+   "latency": 120,
+   "audio_duration_ms": 1210,
+   "message": null
+  },
+  {
+   "t": 200.003,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 201.184,
+   "type": "transcript",
+   "text": "से",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 204.817,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 205.998,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "एक पेड़ एक छोटी चिढ़िया रहती रहती थी",
+   "heard": "एक पेड़ एक छोटी चिढ़िया रहती रहती थी",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "पर",
+   "heard": "पर",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "चिड़िया",
+   "heard": "चिड़िया",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पर एक",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "heard": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पर पर एक",
+   "heard": "एक पेड़ पर पर एक",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "छोटी छोटी चिड़िया रहती थी",
+   "heard": "",
+   "muted_words": 5,
+   "duration_s": 2.98
+  },
+  {
+   "text": "छोटी चिड़िया रहती थी",
+   "heard": "छोटी चिड़िया रहती थी",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "उसने तिनकों तिनकों से एक सुंदर घोंषला बनाया",
+   "heard": "उसने तिनकों तिनकों से एक सुंदर घोंषला बनाया",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "घोंसला",
+   "heard": "घोंसला",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "उसने तिनकों",
+   "heard": "उसने तिनकों",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "से से सुंधर घोंसला बनाया",
+   "heard": "सुंधर घोंसला बनाया",
+   "muted_words": 2,
+   "duration_s": 2.98
+  },
+  {
+   "text": "सुंदर",
+   "heard": "सुंदर",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "उसने तिनकों",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 1.31
+  },
+  {
+   "text": "उसने तिनकों से एक सुंदड़ घोंसला बणाया",
+   "heard": "उसने तिनकों से एक सुंदड़ घोंसला बणाया",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "बनाया",
+   "heard": "बनाया",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "सुंदर",
+   "heard": "सुंदर",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "उसने तिनकों एक षुंदर घोंसला",
+   "heard": "उसने तिनकों एक षुंदर घोंसला",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "बनाया बनाया",
+   "heard": "बनाया बनाया",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "से एक सुंदर घोंसला बनाया",
+   "heard": "घोंसला बनाया",
+   "muted_words": 3,
+   "duration_s": 2.98
+  },
+  {
+   "text": "शे एक षुंदर सुंदर घोंसला बनाया",
+   "heard": "सुंदर घोंसला बनाया",
+   "muted_words": 3,
+   "duration_s": 3.53
+  },
+  {
+   "text": "से",
+   "heard": "से",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "सुंदर",
+   "heard": "सुंदर",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "उसने तिनकों सुंदर घोंसला बनाया",
+   "heard": "उसने तिनकों सुंदर घोंसला बनाया",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "षे षुंदर घोंसला वनाया",
+   "heard": "घोंसला वनाया",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "से",
+   "heard": "से",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 95
+}

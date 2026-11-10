@@ -1,0 +1,199 @@
+{
+ "id": "20261109-175733-3b23f2",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 0,
+  "words_helped": 2,
+  "words_to_practise": [
+   "बादल",
+   "गरजे"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 53.8,
+  "words_per_minute": 2.2
+ },
+ "log": [
+  {
+   "t": 0.119,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.274,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.484,
+   "event": "transcript",
+   "text": "बाधल"
+  },
+  {
+   "t": 17.484,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.579,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 19.579,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 23.743,
+   "event": "pause"
+  },
+  {
+   "t": 34.983,
+   "event": "resume"
+  },
+  {
+   "t": 39.966,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 39.966,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 39.966,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 46.786,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 50.63,
+   "event": "transcript",
+   "text": "बादल गरझे"
+  },
+  {
+   "t": 50.63,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 52.231,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 52.634,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 52.634,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.004,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.431,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.484,
+   "type": "transcript",
+   "text": "बाधल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 35.906,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.966,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 47.137,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.63,
+   "type": "transcript",
+   "text": "बादल गरझे",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बाधल",
+   "heard": "बाधल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "बादल गरझे",
+   "heard": "बादल गरझे",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 19
+}

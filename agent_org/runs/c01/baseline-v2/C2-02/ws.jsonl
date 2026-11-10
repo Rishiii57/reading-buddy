@@ -1,0 +1,19 @@
+{"t": 12.08, "type": "ready", "message": null}
+{"t": 12.14, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 29.34, "type": "speech"}
+{"t": 32.59, "type": "heard", "text": "वादल गरजे बारिश आई"}
+{"t": 32.6, "type": "speech"}
+{"t": 32.62, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल", "spans": [[0, 1]]}
+{"t": 37.35, "type": "speech"}
+{"t": 38.54, "type": "heard", "text": "बादल"}
+{"t": 38.54, "type": "speech"}
+{"t": 38.56, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 45.02, "type": "speech"}
+{"t": 47.65, "type": "heard", "text": "गरजे बाड़िश आई"}
+{"t": 47.99, "type": "speech"}
+{"t": 47.99, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल", "spans": [[0, 1]]}
+{"t": 52.65, "type": "speech"}
+{"t": 53.77, "type": "heard", "text": "बादल"}
+{"t": 53.77, "type": "speech"}
+{"t": 53.79, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! बारिश", "spans": [[2, 3]]}
+{"t": 58.78, "type": "summary", "summary": {"words_total": 17, "words_read": 2, "words_helped": 2, "words_to_practise": ["बादल", "बारिश"], "words_practised": 2, "correction_attempts": 2, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 46.7, "words_per_minute": 5.1}}

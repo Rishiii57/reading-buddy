@@ -1,0 +1,1151 @@
+{
+ "cycle": "pilot",
+ "label": "p1",
+ "generated": "2026-11-09T18:05:50",
+ "agents": 5,
+ "harness_errors": [],
+ "metrics": {
+  "session_start_rate": 0.8,
+  "completion_rate": 0.2,
+  "abandon_rate": 0.8,
+  "coverage": 0.373,
+  "stall_interruptions_per_agent": 0.0,
+  "correction_interruptions_per_agent": 0.0,
+  "interruptions_per_agent": 1.0,
+  "mic_tap_pause_rate": 0.6,
+  "unheard_words_per_agent": 10.6,
+  "drill_repeat_rate": 0.2,
+  "spoken_guidance_gap_rate": 0.6,
+  "consent_blocked_rate": 0.2,
+  "consent_self_approved_rate": 0.4,
+  "level_mismatch_rate": 0.6,
+  "false_corrections_per_agent": 0.0,
+  "missed_errors_per_agent": 0.6,
+  "long_talk_rate": 0.8,
+  "intro_s_median": 13.4,
+  "frustration_peak_mean": 3.7,
+  "stuck_rate": 0.0,
+  "break_ignored_rate": 0.0,
+  "wrong_language_rate": 0.2,
+  "harness_error_rate": 0.0
+ },
+ "by_grade": {
+  "Class 2": {
+   "n": 1,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.432,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.0,
+   "mic_tap_pause_rate": 1.0,
+   "unheard_words_per_agent": 31.0,
+   "drill_repeat_rate": 1.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 1.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 2.0,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.4,
+   "frustration_peak_mean": 4.95,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "Class 4": {
+   "n": 1,
+   "session_start_rate": 1.0,
+   "completion_rate": 1.0,
+   "abandon_rate": 0.0,
+   "coverage": 1.0,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 1.0,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 21.0,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 1.0,
+   "level_mismatch_rate": 0.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 1.0,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.7,
+   "frustration_peak_mean": 2.7,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "LKG": {
+   "n": 1,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.118,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 2.0,
+   "mic_tap_pause_rate": 1.0,
+   "unheard_words_per_agent": 0.0,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 1.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 1.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.0,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.4,
+   "frustration_peak_mean": 4.15,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "Nursery": {
+   "n": 1,
+   "session_start_rate": 0.0,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.0,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.0,
+   "mic_tap_pause_rate": 0.0,
+   "unheard_words_per_agent": 0.0,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 1.0,
+   "consent_blocked_rate": 1.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 1.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.0,
+   "long_talk_rate": 0.0,
+   "intro_s_median": 0,
+   "frustration_peak_mean": 2.4,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 1.0,
+   "harness_error_rate": 0.0
+  },
+  "UKG": {
+   "n": 1,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.312,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 2.0,
+   "mic_tap_pause_rate": 1.0,
+   "unheard_words_per_agent": 1.0,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 1.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 1.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.0,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.3,
+   "frustration_peak_mean": 4.3,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  }
+ },
+ "by_language": {
+  "en-IN": {
+   "n": 2,
+   "session_start_rate": 0.5,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.216,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 0.0,
+   "mic_tap_pause_rate": 0.5,
+   "unheard_words_per_agent": 15.5,
+   "drill_repeat_rate": 0.5,
+   "spoken_guidance_gap_rate": 0.5,
+   "consent_blocked_rate": 0.5,
+   "consent_self_approved_rate": 0.5,
+   "level_mismatch_rate": 0.5,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 1.0,
+   "long_talk_rate": 0.5,
+   "intro_s_median": 13.4,
+   "frustration_peak_mean": 3.675,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.5,
+   "harness_error_rate": 0.0
+  },
+  "gu-IN": {
+   "n": 1,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.0,
+   "abandon_rate": 1.0,
+   "coverage": 0.312,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 2.0,
+   "mic_tap_pause_rate": 1.0,
+   "unheard_words_per_agent": 1.0,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 1.0,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.0,
+   "level_mismatch_rate": 1.0,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.0,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.3,
+   "frustration_peak_mean": 4.3,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  },
+  "hi-IN": {
+   "n": 2,
+   "session_start_rate": 1.0,
+   "completion_rate": 0.5,
+   "abandon_rate": 0.5,
+   "coverage": 0.559,
+   "stall_interruptions_per_agent": 0.0,
+   "correction_interruptions_per_agent": 0.0,
+   "interruptions_per_agent": 1.5,
+   "mic_tap_pause_rate": 0.5,
+   "unheard_words_per_agent": 10.5,
+   "drill_repeat_rate": 0.0,
+   "spoken_guidance_gap_rate": 0.5,
+   "consent_blocked_rate": 0.0,
+   "consent_self_approved_rate": 0.5,
+   "level_mismatch_rate": 0.5,
+   "false_corrections_per_agent": 0.0,
+   "missed_errors_per_agent": 0.5,
+   "long_talk_rate": 1.0,
+   "intro_s_median": 13.6,
+   "frustration_peak_mean": 3.425,
+   "stuck_rate": 0.0,
+   "break_ignored_rate": 0.0,
+   "wrong_language_rate": 0.0,
+   "harness_error_rate": 0.0
+  }
+ },
+ "outcomes": {
+  "abandoned_frustration": 3,
+  "completed": 1,
+  "could_not_start": 1
+ },
+ "results": [
+  {
+   "agents": [
+    "L01",
+    "N01",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 3,
+   "reach": 0.6,
+   "pre_primary_reach": 1.0,
+   "grades": {
+    "LKG": 1,
+    "Nursery": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "hi-IN": 1,
+    "en-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.4,
+   "score": 25.64,
+   "priority": "P0",
+   "quotes": [
+    "The words were too hard. I can't read those yet."
+   ],
+   "samples": [
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "LKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG.",
+     "evidence": [
+      {
+       "t": 5.24,
+       "title": "बारिश आई",
+       "grade_tag": "Grade 1-2"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": null
+    },
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "Nursery child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG.",
+     "evidence": [
+      {
+       "t": 5.3,
+       "title": "बारिश आई",
+       "grade_tag": "Grade 1-2"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/N01",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "NO_TEXT_FOR_MY_LEVEL",
+     "detail": "UKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG.",
+     "evidence": [
+      {
+       "t": 4.74,
+       "title": "મારો પતંગ",
+       "grade_tag": "Grade 1"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "NO_TEXT_FOR_MY_LEVEL": 3
+   },
+   "testable": true,
+   "rc_id": "RC-PREPRIMARY-CONTENT"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C4-01",
+    "N01"
+   ],
+   "n_agents": 3,
+   "instances": 6,
+   "reach": 0.6,
+   "pre_primary_reach": 0.333,
+   "grades": {
+    "Class 2": 1,
+    "Class 4": 1,
+    "Nursery": 1
+   },
+   "languages": {
+    "en-IN": 2,
+    "hi-IN": 1
+   },
+   "abandon_rate_affected": 0.667,
+   "grade_weight": 1.17,
+   "score": 22.13,
+   "priority": "P0",
+   "quotes": [
+    "There was a box for parents, so I just ticked it myself.",
+    "A box came and I didn't know what it said.",
+    "It didn't start."
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "CONSENT_SELF_APPROVED",
+     "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent.",
+     "evidence": [
+      {
+       "t": 11.89,
+       "grade": "Class 2"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C4-01",
+     "grade": "Class 4",
+     "lang": "hi-IN",
+     "code": "CONSENT_SELF_APPROVED",
+     "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent.",
+     "evidence": [
+      {
+       "t": 11.62,
+       "grade": "Class 4"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C4-01",
+     "via": null
+    },
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "CONSENT_BLOCKS_CHILD",
+     "detail": "A written grown-ups-only box appeared; the child could not read it and could not start.",
+     "evidence": [
+      {
+       "t": 17.68,
+       "grade": "Nursery",
+       "tapped": "Not now"
+      },
+      {
+       "t": 20.21,
+       "grade": "Nursery",
+       "tapped": "Not now"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/N01",
+     "via": null
+    },
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "COULD_NOT_START_SESSION",
+     "detail": "Never managed to start a reading session.",
+     "evidence": [
+      {
+       "t": 22.64,
+       "tries": 3
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/N01",
+     "via": "CONSENT_BLOCKS_CHILD"
+    }
+   ],
+   "codes": {
+    "CONSENT_SELF_APPROVED": 2,
+    "CONSENT_BLOCKS_CHILD": 1,
+    "COULD_NOT_START_SESSION": 1
+   },
+   "testable": true,
+   "rc_id": "RC-CONSENT-GATE"
+  },
+  {
+   "agents": [
+    "L01",
+    "N01",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 3,
+   "reach": 0.6,
+   "pre_primary_reach": 1.0,
+   "grades": {
+    "LKG": 1,
+    "Nursery": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "hi-IN": 1,
+    "en-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.4,
+   "score": 22.54,
+   "priority": "P1",
+   "quotes": [
+    "Nobody told me what to do."
+   ],
+   "samples": [
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+     "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read.",
+     "evidence": [
+      {
+       "t": 5.33,
+       "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": null
+    },
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+     "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read.",
+     "evidence": [
+      {
+       "t": 5.35,
+       "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/N01",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+     "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read.",
+     "evidence": [
+      {
+       "t": 4.74,
+       "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "NO_SPOKEN_GUIDANCE_BEFORE_START": 3
+   },
+   "testable": true,
+   "rc_id": "RC-SPOKEN-ONBOARDING"
+  },
+  {
+   "agents": [
+    "C4-01",
+    "L01",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 5,
+   "reach": 0.6,
+   "pre_primary_reach": 0.667,
+   "grades": {
+    "Class 4": 1,
+    "LKG": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "hi-IN": 2,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.667,
+   "grade_weight": 1.23,
+   "score": 21.77,
+   "priority": "P1",
+   "quotes": [
+    "Buddy talked when I was thinking!",
+    "I was just thinking and Buddy jumped in."
+   ],
+   "samples": [
+    {
+     "agent": "C4-01",
+     "grade": "Class 4",
+     "lang": "hi-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 0.2 s into a planned 2.23 s thinking pause.",
+     "evidence": [
+      {
+       "t": 22.58,
+       "paused_s": 0.2,
+       "planned_s": 2.23,
+       "line": 0,
+       "next_words": "एक बगीचा है।"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C4-01",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 2.3 s into a planned 3.46 s thinking pause.",
+     "evidence": [
+      {
+       "t": 26.18,
+       "paused_s": 2.3,
+       "planned_s": 3.46,
+       "line": 0,
+       "next_words": "गरजे, बारिश आई,"
+      },
+      {
+       "t": 59.07,
+       "paused_s": 2.0,
+       "planned_s": 3.23,
+       "line": 0,
+       "next_words": "बारिश आई,"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "INTERRUPTED_WHILE_THINKING",
+     "detail": "Buddy started talking 2.1 s into a planned 2.32 s thinking pause.",
+     "evidence": [
+      {
+       "t": 25.7,
+       "paused_s": 2.1,
+       "planned_s": 2.32,
+       "line": 0,
+       "next_words": "પતંગ લાલ ને"
+      },
+      {
+       "t": 34.1,
+       "paused_s": 2.1,
+       "planned_s": 2.1,
+       "line": 0,
+       "next_words": "ને પીળો,"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "INTERRUPTED_WHILE_THINKING": 3
+   },
+   "testable": true,
+   "rc_id": "RC-STALL-TIMING"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "L01",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 4,
+   "reach": 0.6,
+   "pre_primary_reach": 0.667,
+   "grades": {
+    "Class 2": 1,
+    "LKG": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "en-IN": 1,
+    "hi-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.23,
+   "score": 20.94,
+   "priority": "P1",
+   "quotes": [
+    "I pressed the mic to talk and it stopped!",
+    "I pressed the microphone and it paused.",
+    "It stopped and I didn't know how to make it go."
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "MIC_TAP_PAUSED_SESSION",
+     "detail": "Tapped the big microphone to talk; the session paused instead.",
+     "evidence": [
+      {
+       "t": 35.06,
+       "bubble": "Press play when you're ready to keep reading."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "MIC_TAP_PAUSED_SESSION",
+     "detail": "Tapped the big microphone to talk; the session paused instead.",
+     "evidence": [
+      {
+       "t": 30.74,
+       "bubble": "Press play when you're ready to keep reading."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "HARD_TO_RESUME",
+     "detail": "Took 8 s to work out how to carry on after a pause.",
+     "evidence": [
+      {
+       "t": 42.18,
+       "waited_s": 8.5
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": "MIC_TAP_PAUSED_SESSION"
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "MIC_TAP_PAUSED_SESSION",
+     "detail": "Tapped the big microphone to talk; the session paused instead.",
+     "evidence": [
+      {
+       "t": 37.68,
+       "bubble": "Press play when you're ready to keep reading."
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "MIC_TAP_PAUSED_SESSION": 3,
+    "HARD_TO_RESUME": 1
+   },
+   "testable": true,
+   "rc_id": "RC-MIC-TOGGLE"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C4-01",
+    "U01"
+   ],
+   "n_agents": 3,
+   "instances": 11,
+   "reach": 0.6,
+   "pre_primary_reach": 0.333,
+   "grades": {
+    "Class 2": 1,
+    "Class 4": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "en-IN": 1,
+    "hi-IN": 1,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.667,
+   "grade_weight": 1.1,
+   "score": 14.89,
+   "priority": "P2",
+   "quotes": [
+    "Buddy didn't hear me when I was talking.",
+    "I said it but Buddy didn't hear me!"
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "7 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 23.6,
+       "said": "A small ant walk across tree floor",
+       "heard": ""
+      },
+      {
+       "t": 51.33,
+       "said": "ant walked across the floor",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C4-01",
+     "grade": "Class 4",
+     "lang": "hi-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "8 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 17.56,
+       "said": "मीना के घड़ के पीछे एक बगीचा है",
+       "heard": ""
+      },
+      {
+       "t": 22.4,
+       "said": "मीणा के घर के पीछे",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C4-01",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+     "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "evidence": [
+      {
+       "t": 47.39,
+       "said": "પીળો",
+       "heard": ""
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "SPEECH_IGNORED_WHILE_BUDDY_TALKS": 3
+   },
+   "testable": true,
+   "rc_id": "RC-TALK-OVER-BUDDY"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C4-01",
+    "L01",
+    "U01"
+   ],
+   "n_agents": 4,
+   "instances": 4,
+   "reach": 0.8,
+   "pre_primary_reach": 0.667,
+   "grades": {
+    "Class 2": 1,
+    "Class 4": 1,
+    "LKG": 1,
+    "UKG": 1
+   },
+   "languages": {
+    "en-IN": 1,
+    "hi-IN": 2,
+    "gu-IN": 1
+   },
+   "abandon_rate_affected": 0.75,
+   "grade_weight": 1.18,
+   "score": 15.94,
+   "priority": "P2",
+   "quotes": [
+    "Buddy talks a lot before I get to read.",
+    "Buddy talked too long."
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 26.2,
+       "talk_s": 12.5
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C4-01",
+     "grade": "Class 4",
+     "lang": "hi-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 25.4,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C4-01",
+     "via": null
+    },
+    {
+     "agent": "L01",
+     "grade": "LKG",
+     "lang": "hi-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 20.63,
+       "talk_s": 12.2
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/L01",
+     "via": null
+    },
+    {
+     "agent": "U01",
+     "grade": "UKG",
+     "lang": "gu-IN",
+     "code": "LONG_TUTOR_TALK",
+     "detail": "Buddy talked for over 12 s in one go before the child could read.",
+     "evidence": [
+      {
+       "t": 20.94,
+       "talk_s": 12.6
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/U01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "LONG_TUTOR_TALK": 4
+   },
+   "testable": true,
+   "rc_id": "RC-LONG-INTRO"
+  },
+  {
+   "agents": [
+    "C2-01"
+   ],
+   "n_agents": 1,
+   "instances": 2,
+   "reach": 0.2,
+   "pre_primary_reach": 0.0,
+   "grades": {
+    "Class 2": 1
+   },
+   "languages": {
+    "en-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.0,
+   "score": 17.5,
+   "priority": "P2",
+   "quotes": [
+    "Buddy made me say the same word again and again."
+   ],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+     "detail": "Asked to say 'grain' 3 times.",
+     "evidence": [
+      {
+       "t": 143.66,
+       "word": "grain",
+       "times": 3
+      },
+      {
+       "t": 152.18,
+       "word": "grain",
+       "times": 4
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "SAME_WORD_ASKED_AGAIN_AND_AGAIN": 1
+   },
+   "testable": true,
+   "rc_id": "RC-DRILL-LOOP"
+  },
+  {
+   "agents": [
+    "C2-01",
+    "C4-01"
+   ],
+   "n_agents": 2,
+   "instances": 3,
+   "reach": 0.4,
+   "pre_primary_reach": 0.0,
+   "grades": {
+    "Class 2": 1,
+    "Class 4": 1
+   },
+   "languages": {
+    "en-IN": 1,
+    "hi-IN": 1
+   },
+   "abandon_rate_affected": 0.5,
+   "grade_weight": 1.0,
+   "score": 12.0,
+   "priority": "P3",
+   "quotes": [],
+   "samples": [
+    {
+     "agent": "C2-01",
+     "grade": "Class 2",
+     "lang": "en-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'carried' as 'carri' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "carried",
+       "child_said": "carri",
+       "kind": "sub",
+       "speech_model_wrote": "is carri a grain rice its back"
+      },
+      {
+       "word": "on",
+       "child_said": null,
+       "kind": "skip",
+       "speech_model_wrote": "is carri a grain rice its back"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C2-01",
+     "via": null
+    },
+    {
+     "agent": "C4-01",
+     "grade": "Class 4",
+     "lang": "hi-IN",
+     "code": "MISSED_ERROR",
+     "detail": "Read 'हैं' as 'हें' and it was marked as read correctly.",
+     "evidence": [
+      {
+       "word": "हैं",
+       "child_said": "हें",
+       "kind": "sub",
+       "speech_model_wrote": "उसमें लाल और पीले फूल खिलते हें"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/C4-01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "MISSED_ERROR": 2
+   },
+   "testable": false,
+   "rc_id": "RC-LENIENT-MATCHING"
+  },
+  {
+   "agents": [
+    "N01"
+   ],
+   "n_agents": 1,
+   "instances": 1,
+   "reach": 0.2,
+   "pre_primary_reach": 0.333,
+   "grades": {
+    "Nursery": 1
+   },
+   "languages": {
+    "en-IN": 1
+   },
+   "abandon_rate_affected": 1.0,
+   "grade_weight": 1.5,
+   "score": 14.5,
+   "priority": "P2",
+   "quotes": [
+    "This isn't my language!"
+   ],
+   "samples": [
+    {
+     "agent": "N01",
+     "grade": "Nursery",
+     "lang": "en-IN",
+     "code": "WRONG_LANGUAGE_TEXT",
+     "detail": "Wanted en-IN but ended up on a hi-IN text.",
+     "evidence": [
+      {
+       "t": 5.3,
+       "wanted": "en-IN",
+       "got": "hi-IN",
+       "title": "बारिश आई"
+      }
+     ],
+     "artefacts": "agent_org/runs/pilot/p1/N01",
+     "via": null
+    }
+   ],
+   "codes": {
+    "WRONG_LANGUAGE_TEXT": 1
+   },
+   "testable": true,
+   "rc_id": "RC-LANGUAGE-SELECTION"
+  }
+ ],
+ "decisions": [
+  {
+   "rc": "RC-PREPRIMARY-CONTENT",
+   "priority": "P0",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": null
+  },
+  {
+   "rc": "RC-CONSENT-GATE",
+   "priority": "P0",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": null
+  },
+  {
+   "rc": "RC-SPOKEN-ONBOARDING",
+   "priority": "P1",
+   "status": "approved",
+   "why": "P1 within capacity (1/8 units).",
+   "previous": null
+  },
+  {
+   "rc": "RC-STALL-TIMING",
+   "priority": "P1",
+   "status": "approved",
+   "why": "P1 within capacity (2/8 units).",
+   "previous": null
+  },
+  {
+   "rc": "RC-MIC-TOGGLE",
+   "priority": "P1",
+   "status": "approved",
+   "why": "P1 within capacity (3/8 units).",
+   "previous": null
+  },
+  {
+   "rc": "RC-DRILL-LOOP",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": null
+  },
+  {
+   "rc": "RC-LONG-INTRO",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": null
+  },
+  {
+   "rc": "RC-TALK-OVER-BUDDY",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": null
+  },
+  {
+   "rc": "RC-LANGUAGE-SELECTION",
+   "priority": "P2",
+   "status": "deferred",
+   "why": "P2: below the approval line this cycle.",
+   "previous": null
+  },
+  {
+   "rc": "RC-LENIENT-MATCHING",
+   "priority": "P3",
+   "status": "awaiting_human_approval",
+   "why": "Touches content, privacy or model/data collection: needs a human decision.",
+   "previous": null
+  }
+ ],
+ "unclassified": [],
+ "audio_eval": null
+}

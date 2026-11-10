@@ -1,0 +1,585 @@
+{
+ "id": "20261109-213806-700479",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 3,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 98.2,
+  "words_per_minute": 3.7
+ },
+ "log": [
+  {
+   "t": 0.443,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.296,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.151,
+   "event": "transcript",
+   "text": "A sun"
+  },
+  {
+   "t": 19.151,
+   "event": "uncertain",
+   "text": "a sun"
+  },
+  {
+   "t": 19.151,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 23.246,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.151,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 25.151,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 28.179,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 28.179,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 31.58,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.098,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 33.098,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 35.941,
+   "event": "transcript",
+   "text": "ana ana"
+  },
+  {
+   "t": 35.941,
+   "event": "uncertain",
+   "text": "ana ana"
+  },
+  {
+   "t": 35.941,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 39.299,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.109,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 41.109,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 45.197,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 45.197,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 45.197,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 51.455,
+   "event": "transcript",
+   "text": "all all"
+  },
+  {
+   "t": 51.455,
+   "event": "uncertain",
+   "text": "all all"
+  },
+  {
+   "t": 51.455,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 54.966,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.414,
+   "event": "transcript",
+   "text": "we"
+  },
+  {
+   "t": 65.141,
+   "event": "transcript",
+   "text": "at the"
+  },
+  {
+   "t": 65.141,
+   "event": "uncertain",
+   "text": "at the"
+  },
+  {
+   "t": 65.141,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 68.754,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 70.71,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 70.71,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 70.71,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 76.259,
+   "event": "transcript",
+   "text": "and"
+  },
+  {
+   "t": 76.259,
+   "event": "restart",
+   "frm": 3,
+   "to": 2
+  },
+  {
+   "t": 76.259,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 77.911,
+   "event": "progress",
+   "to": 4
+  },
+  {
+   "t": 82.865,
+   "event": "transcript",
+   "text": "tha fish"
+  },
+  {
+   "t": 82.865,
+   "event": "uncertain",
+   "text": "tha fish"
+  },
+  {
+   "t": 82.865,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 86.002,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 90.309,
+   "event": "transcript",
+   "text": "and across tha the"
+  },
+  {
+   "t": 90.309,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 95.839,
+   "event": "transcript",
+   "text": "fish"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.856,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.151,
+   "type": "transcript",
+   "text": "A sun",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 23.695,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.151,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 31.649,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.098,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 33.649,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.941,
+   "type": "transcript",
+   "text": "ana ana",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 39.654,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.109,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 43.745,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.197,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 49.146,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.455,
+   "type": "transcript",
+   "text": "all all",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 56.963,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.414,
+   "type": "transcript",
+   "text": "we",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 62.839,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.141,
+   "type": "transcript",
+   "text": "at the",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 69.213,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.71,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 74.767,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.259,
+   "type": "transcript",
+   "text": "and",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 79.746,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.865,
+   "type": "transcript",
+   "text": "tha fish",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 86.358,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 90.309,
+   "type": "transcript",
+   "text": "and across tha the",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 94.389,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 95.839,
+   "type": "transcript",
+   "text": "fish",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A sun",
+   "heard": "A sun",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ana ana",
+   "heard": "ana ana",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "all all",
+   "heard": "all all",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "we",
+   "heard": "we",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "at the",
+   "heard": "at the",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "and",
+   "heard": "and",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "tha fish",
+   "heard": "tha fish",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "and across tha the",
+   "heard": "and across tha the",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "fish",
+   "heard": "fish",
+   "muted_words": 0,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 177
+}

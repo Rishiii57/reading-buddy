@@ -1,0 +1,20 @@
+{"t": 17.24, "type": "ready", "message": null}
+{"t": 17.58, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 34.04, "type": "speech"}
+{"t": 38.43, "type": "heard", "text": "માડી માડી શાળા"}
+{"t": 38.43, "type": "speech"}
+{"t": 38.43, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 42.89, "type": "speech"}
+{"t": 44.91, "type": "heard", "text": "માડી"}
+{"t": 44.91, "type": "speech"}
+{"t": 48.17, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 56.69, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 58.1, "type": "speech"}
+{"t": 60.21, "type": "heard", "text": "માડી"}
+{"t": 60.21, "type": "speech"}
+{"t": 60.21, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 63.41, "type": "speech"}
+{"t": 65.55, "type": "heard", "text": "માડી"}
+{"t": 65.55, "type": "speech"}
+{"t": 65.6, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 67.83, "type": "summary", "summary": {"words_total": 22, "words_read": 0, "words_helped": 1, "words_to_practise": ["મારી"], "words_practised": 0, "correction_attempts": 2, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 50.6, "words_per_minute": 1.2}}

@@ -1,0 +1,15 @@
+{"t": 2.45, "kind": "open_app", "brief": "Dev, Class 1 (about 6.5 years). Prefers gu-IN. Slow, careful Gujarati reader."}
+{"t": 2.46, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.61, "kind": "tap", "target": "વરસાદ Rain Gujarati Grade 1-2 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.37, "kind": "opened_text", "hash": "#/read/gu-varsad", "title": "વરસાદ", "tags": ["Gujarati", "Grade 1-2"], "words": 16, "lines": 4}
+{"t": 10.76, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.83, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.12, "kind": "session_started", "tries": 1}
+{"t": 18.87, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 23.95, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 26.28, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 32.64, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.1 s into a planned 3.29 s thinking pause."}
+{"t": 86.14, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.3 s into a planned 2.11 s thinking pause."}
+{"t": 92.42, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'ટપ' correctly but Buddy asked to practise it."}
+{"t": 92.5, "kind": "abandon", "why": "frustration", "frustration": 4.05}
+{"t": 92.89, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,15 @@
+{"t": 2.21, "kind": "open_app", "brief": "Dhruv, UKG (about 5.5 years). Prefers gu-IN. Can read single Gujarati words but struggles to string them into a sentence."}
+{"t": 2.22, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.4, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.36, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 5.5, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "UKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 5.56, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 5.61, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 8.86, "kind": "session_started", "tries": 1}
+{"t": 21.02, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.62, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.5 s into a planned 3.19 s thinking pause."}
+{"t": 35.52, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 3.02 s thinking pause."}
+{"t": 42.84, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.9 s into a planned 2.8 s thinking pause."}
+{"t": 49.63, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.4 s thinking pause."}
+{"t": 49.64, "kind": "abandon", "why": "frustration", "frustration": 4.7}
+{"t": 49.86, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

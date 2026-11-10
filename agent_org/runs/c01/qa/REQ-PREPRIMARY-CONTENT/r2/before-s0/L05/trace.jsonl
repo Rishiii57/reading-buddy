@@ -1,0 +1,19 @@
+{"t": 3.62, "kind": "open_app", "brief": "Prisha, LKG (about 4.5 years). Prefers hi-IN. Careful, sounds out each letter."}
+{"t": 3.7, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.61, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.92, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 7.61, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 11.85, "kind": "tap", "target": "Listen first", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.43, "kind": "listen_first_by_mistake"}
+{"t": 23.35, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 26.04, "kind": "session_started", "tries": 2}
+{"t": 38.38, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 49.61, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.1 s into a planned 3.89 s thinking pause."}
+{"t": 58.81, "kind": "tap_mic_to_talk"}
+{"t": 59.3, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 77.42, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.7 s into a planned 5.02 s thinking pause."}
+{"t": 81.64, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'बादल' 3 times."}
+{"t": 87.54, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'बादल' 4 times."}
+{"t": 93.51, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'बादल' 5 times."}
+{"t": 96.85, "kind": "abandon", "why": "frustration", "frustration": 4.85}
+{"t": 97.69, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,71 @@
+{"t": 24.14, "type": "ready", "message": null}
+{"t": 24.42, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 38.7, "type": "speech"}
+{"t": 41.19, "type": "heard", "text": "Ravi has"}
+{"t": 41.19, "type": "speech"}
+{"t": 44.09, "type": "say", "kind": "stall_phrase", "text": "Listen... a mango tree", "spans": [[2, 5]]}
+{"t": 48.99, "type": "speech"}
+{"t": 50.72, "type": "heard", "text": "a"}
+{"t": 50.72, "type": "speech"}
+{"t": 52.42, "type": "speech"}
+{"t": 53.78, "type": "heard", "text": "mango"}
+{"t": 53.82, "type": "speech"}
+{"t": 55.79, "type": "say", "kind": "stall_phrase", "text": "Listen... tree in his", "spans": [[4, 7]]}
+{"t": 58.95, "type": "speech"}
+{"t": 61.42, "type": "heard", "text": "tree in"}
+{"t": 61.43, "type": "speech"}
+{"t": 63.48, "type": "say", "kind": "stall_phrase", "text": "Listen... his garden.", "spans": [[6, 8]]}
+{"t": 66.11, "type": "speech"}
+{"t": 67.7, "type": "heard", "text": "his"}
+{"t": 67.7, "type": "speech"}
+{"t": 69.53, "type": "speech"}
+{"t": 71.16, "type": "heard", "text": "garden"}
+{"t": 71.16, "type": "speech"}
+{"t": 72.47, "type": "speech"}
+{"t": 75.79, "type": "heard", "text": "Every sunmer summer"}
+{"t": 75.79, "type": "speech"}
+{"t": 77.7, "type": "speech"}
+{"t": 79.78, "type": "heard", "text": "the tree"}
+{"t": 79.78, "type": "speech"}
+{"t": 80.93, "type": "speech"}
+{"t": 85.23, "type": "heard", "text": "is vull full of"}
+{"t": 85.24, "type": "speech"}
+{"t": 87.91, "type": "say", "kind": "stall_phrase", "text": "Listen... sweet mangoes.", "spans": [[15, 17]]}
+{"t": 90.7, "type": "speech"}
+{"t": 93.18, "type": "heard", "text": "sweet mangoes"}
+{"t": 93.19, "type": "speech"}
+{"t": 93.19, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 96.77, "type": "speech"}
+{"t": 99.15, "type": "heard", "text": "Ravi shares"}
+{"t": 99.27, "type": "speech"}
+{"t": 100.63, "type": "speech"}
+{"t": 102.93, "type": "heard", "text": "the"}
+{"t": 102.93, "type": "speech"}
+{"t": 104.66, "type": "say", "kind": "stall_phrase", "text": "Listen... mangoes with his", "spans": [[20, 23]]}
+{"t": 107.78, "type": "speech"}
+{"t": 109.47, "type": "heard", "text": "mangoes"}
+{"t": 109.47, "type": "speech"}
+{"t": 111.08, "type": "speech"}
+{"t": 113.93, "type": "heard", "text": "with his"}
+{"t": 113.93, "type": "speech"}
+{"t": 115.56, "type": "say", "kind": "stall_phrase", "text": "Listen... friends.", "spans": [[23, 24]]}
+{"t": 118.03, "type": "speech"}
+{"t": 119.45, "type": "heard", "text": "friends"}
+{"t": 119.67, "type": "speech"}
+{"t": 120.45, "type": "speech"}
+{"t": 122.01, "type": "heard", "text": "They"}
+{"t": 122.01, "type": "speech"}
+{"t": 123.68, "type": "speech"}
+{"t": 127.07, "type": "heard", "text": "sid under under"}
+{"t": 127.07, "type": "speech"}
+{"t": 127.45, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 131.03, "type": "speech"}
+{"t": 133.49, "type": "heard", "text": "sit unber"}
+{"t": 133.49, "type": "speech"}
+{"t": 135.57, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. under", "spans": [[26, 27]]}
+{"t": 140.2, "type": "speech"}
+{"t": 141.74, "type": "heard", "text": "under"}
+{"t": 141.74, "type": "speech"}
+{"t": 141.74, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! They sit under the tree and laugh together. Now you say the whole line.", "spans": [[24, 32]]}
+{"t": 152.56, "type": "say", "kind": "stall_phrase", "text": "Listen... They sit under", "spans": [[24, 27]]}
+{"t": 153.85, "type": "summary", "summary": {"words_total": 32, "words_read": 12, "words_helped": 15, "words_to_practise": ["under"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 3, "lines_skipped": [], "finished": false, "prompts": 7, "corrections": 1, "seconds": 129.7, "words_per_minute": 12.5}}

@@ -1,0 +1,29 @@
+{"t": 13.12, "type": "ready", "message": null}
+{"t": 13.58, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 29.28, "type": "speech"}
+{"t": 30.46, "type": "heard", "text": "મામાણું"}
+{"t": 30.46, "type": "speech"}
+{"t": 34.23, "type": "speech"}
+{"t": 34.46, "type": "heard", "text": "કેટલે"}
+{"t": 34.46, "type": "speech"}
+{"t": 35.57, "type": "speech"}
+{"t": 37.23, "type": "heard", "text": "ઘર કેટલે"}
+{"t": 37.27, "type": "speech"}
+{"t": 37.33, "type": "say", "kind": "echo_line", "text": "દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 42.83, "type": "speech"}
+{"t": 45.06, "type": "heard", "text": "દીવો વળે એટલે"}
+{"t": 45.07, "type": "speech"}
+{"t": 45.09, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 45.09, "type": "say", "kind": "echo_line", "text": "દીવો મેં તો દીઠો હવે તું બોલ!", "spans": [[6, 10]]}
+{"t": 52.6, "type": "speech"}
+{"t": 55.87, "type": "heard", "text": "દીવો મૈં મેં તો ધીઠો"}
+{"t": 55.87, "type": "speech"}
+{"t": 56.73, "type": "speech"}
+{"t": 58.27, "type": "heard", "text": "દીઠો"}
+{"t": 58.28, "type": "speech"}
+{"t": 58.28, "type": "say", "kind": "echo_line", "text": "મામો લાગે મીઠો. હવે તું બોલ!", "spans": [[10, 13]]}
+{"t": 62.65, "type": "speech"}
+{"t": 67.08, "type": "heard", "text": "મામૌ લાગે મીઠો"}
+{"t": 67.08, "type": "speech"}
+{"t": 67.12, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 67.12, "type": "summary", "summary": {"words_total": 13, "words_read": 11, "words_helped": 2, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 54.0, "words_per_minute": 14.5}}

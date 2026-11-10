@@ -1,0 +1,20 @@
+{"t": 3.81, "kind": "open_app", "brief": "Diya, Nursery (about 3.5 years). Prefers gu-IN. Speaks only Gujarati at home; wants to hear things twice."}
+{"t": 3.89, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.94, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.77, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 7.88, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 3-4' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 7.89, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."}
+{"t": 7.89, "kind": "issue", "code": "LISTEN_FIRST_NOT_FOUND", "detail": "Wanted to hear the poem first but could not tell which button does that."}
+{"t": 7.93, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 10.8, "kind": "session_started", "tries": 1}
+{"t": 23.09, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 25.58, "kind": "looked_for_replay", "found": []}
+{"t": 25.58, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 37.58, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 4.58 s thinking pause."}
+{"t": 53.2, "kind": "tap_mic_to_talk"}
+{"t": 53.22, "kind": "tap", "target": "Pause", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 54.54, "kind": "issue", "code": "MIC_TAP_PAUSED_SESSION", "detail": "Tapped the big microphone to talk; the session paused instead."}
+{"t": 57.43, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 58.38, "kind": "resumed", "after_s": 1.5}
+{"t": 62.85, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.1 s into a planned 3.28 s thinking pause."}
+{"t": 62.86, "kind": "abandon", "why": "frustration", "frustration": 3.8}

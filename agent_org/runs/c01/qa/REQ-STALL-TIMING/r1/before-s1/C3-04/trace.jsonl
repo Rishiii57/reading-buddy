@@ -1,0 +1,18 @@
+{"t": 2.78, "kind": "open_app", "brief": "Aarush, Class 3 (about 8.5 years). Prefers en-IN. Reverses letters (dyslexia-like pattern)."}
+{"t": 2.88, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.15, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 5.08, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.84, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 12.21, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 25.11, "kind": "listened_first", "seconds": 11.5}
+{"t": 25.18, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 27.99, "kind": "session_started", "tries": 1}
+{"t": 40.12, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 47.53, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.1 s into a planned 1.6 s thinking pause."}
+{"t": 55.15, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.3 s into a planned 2.42 s thinking pause."}
+{"t": 62.97, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.4 s into a planned 2.47 s thinking pause."}
+{"t": 69.55, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.0 s into a planned 2.27 s thinking pause."}
+{"t": 76.16, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'tree' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 85.89, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.7 s into a planned 1.71 s thinking pause."}
+{"t": 85.98, "kind": "abandon", "why": "frustration", "frustration": 5.85}
+{"t": 86.48, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

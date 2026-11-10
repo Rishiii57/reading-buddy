@@ -1,0 +1,32 @@
+{"t": 13.73, "type": "ready", "message": null}
+{"t": 14.18, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 35.11, "type": "speech"}
+{"t": 39.63, "type": "heard", "text": "मछलि मछली"}
+{"t": 39.63, "type": "speech"}
+{"t": 44.34, "type": "say", "kind": "stall_phrase", "text": "सुनो... जल की रानी", "spans": [[1, 4]]}
+{"t": 48.62, "type": "speech"}
+{"t": 51.13, "type": "heard", "text": "जल"}
+{"t": 51.13, "type": "speech"}
+{"t": 56.17, "type": "say", "kind": "stall_phrase", "text": "सुनो... की रानी है", "spans": [[2, 5]]}
+{"t": 60.03, "type": "speech"}
+{"t": 64.94, "type": "heard", "text": "की राणी"}
+{"t": 64.96, "type": "speech"}
+{"t": 64.97, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 69.93, "type": "speech"}
+{"t": 72.55, "type": "heard", "text": "कि"}
+{"t": 72.55, "type": "speech"}
+{"t": 76.33, "type": "speech"}
+{"t": 78.85, "type": "heard", "text": "ड़ाणी"}
+{"t": 78.85, "type": "speech"}
+{"t": 83.18, "type": "speech"}
+{"t": 86.58, "type": "heard", "text": "है"}
+{"t": 86.67, "type": "speech"}
+{"t": 86.67, "type": "say", "kind": "echo_line", "text": "सुनो... जीवन उसका पानी है। अब तुम बोलो!", "spans": [[5, 9]]}
+{"t": 91.76, "type": "speech"}
+{"t": 96.17, "type": "heard", "text": "जीवन जीवन"}
+{"t": 96.17, "type": "speech"}
+{"t": 100.25, "type": "speech"}
+{"t": 102.92, "type": "heard", "text": "उषका"}
+{"t": 103.11, "type": "speech"}
+{"t": 108.07, "type": "say", "kind": "stall_phrase", "text": "सुनो... पानी है।", "spans": [[7, 9]]}
+{"t": 114.55, "type": "summary", "summary": {"words_total": 17, "words_read": 2, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 100.9, "words_per_minute": 4.8}}

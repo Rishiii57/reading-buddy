@@ -1,0 +1,37 @@
+{"t": 12.57, "type": "ready", "message": null}
+{"t": 12.62, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 27.1, "type": "speech"}
+{"t": 30.45, "type": "heard", "text": "हड़ा"}
+{"t": 30.45, "type": "speech"}
+{"t": 34.98, "type": "say", "kind": "stall_phrase", "text": "सुनो... समंदर", "spans": [[1, 2]]}
+{"t": 39.94, "type": "speech"}
+{"t": 43.02, "type": "heard", "text": "समंदर समंदर"}
+{"t": 43.03, "type": "speech"}
+{"t": 46.56, "type": "speech"}
+{"t": 48.61, "type": "heard", "text": "गोपि"}
+{"t": 48.61, "type": "speech"}
+{"t": 51.25, "type": "speech"}
+{"t": 53.41, "type": "heard", "text": "चंदर"}
+{"t": 53.44, "type": "speech"}
+{"t": 53.44, "type": "say", "kind": "echo_line", "text": "सुनो... बोल मेरी मछली कितना पानी? अब तुम बोलो!", "spans": [[4, 9]]}
+{"t": 60.41, "type": "speech"}
+{"t": 63.7, "type": "heard", "text": "वोल मेड़ी"}
+{"t": 63.72, "type": "speech"}
+{"t": 63.82, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 67.56, "type": "speech"}
+{"t": 73.97, "type": "heard", "text": "वोल वोल मेरी मेरी"}
+{"t": 73.97, "type": "speech"}
+{"t": 74.15, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 77.88, "type": "speech"}
+{"t": 80.07, "type": "heard", "text": "बोल"}
+{"t": 80.07, "type": "speech"}
+{"t": 82.6, "type": "speech"}
+{"t": 84.69, "type": "heard", "text": "मेड़ी"}
+{"t": 84.7, "type": "speech"}
+{"t": 88.7, "type": "speech"}
+{"t": 92.28, "type": "heard", "text": "मछलि कितना"}
+{"t": 92.29, "type": "speech"}
+{"t": 96.41, "type": "speech"}
+{"t": 98.44, "type": "heard", "text": "पाणी"}
+{"t": 98.58, "type": "speech"}
+{"t": 113.07, "type": "summary", "summary": {"words_total": 9, "words_read": 5, "words_helped": 2, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 2, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 100.3, "words_per_minute": 4.2}}

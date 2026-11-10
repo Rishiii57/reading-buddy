@@ -1,0 +1,7 @@
+{"t": 28.57, "type": "ready", "message": null}
+{"t": 28.73, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Jack and Jill Listen carefully to how I read it. Jack and Jill went up the hill Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 51.17, "type": "speech"}
+{"t": 53.24, "type": "heard", "text": "um"}
+{"t": 53.24, "type": "speech"}
+{"t": 58.85, "type": "say", "kind": "stall_phrase", "text": "Listen... Jack and Jill", "spans": [[0, 3]]}
+{"t": 59.72, "type": "summary", "summary": {"words_total": 25, "words_read": 0, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 31.1, "words_per_minute": 5.8}}

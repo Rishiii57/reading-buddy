@@ -1,0 +1,16 @@
+{"t": 2.74, "kind": "open_app", "brief": "Aadhya, LKG (about 4.5 years). Prefers gu-IN. Guesses words from the picture or first letter."}
+{"t": 2.77, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.67, "kind": "tap", "target": "આવ રે વરસાદ Come, Rain Gujarati LKG Rhym", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.24, "kind": "opened_text", "hash": "#/read/gu-avre", "title": "આવ રે વરસાદ", "tags": ["Gujarati", "LKG"], "words": 11, "lines": 4}
+{"t": 10.54, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.2, "kind": "session_started", "tries": 1}
+{"t": 26.46, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 38.09, "kind": "tap_mic_to_talk"}
+{"t": 38.3, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 50.3, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 62.22, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 70.07, "kind": "tap_mic_to_talk"}
+{"t": 70.1, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 88.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.61 s thinking pause."}
+{"t": 105.49, "kind": "tap_mic_to_talk"}
+{"t": 105.91, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}

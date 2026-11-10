@@ -1,0 +1,15 @@
+{"t": 12.26, "type": "ready", "message": null}
+{"t": 12.63, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 29.05, "type": "speech"}
+{"t": 32.49, "type": "heard", "text": "મારી સાળા"}
+{"t": 32.49, "type": "speech"}
+{"t": 34.17, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. શાળા", "spans": [[1, 2]]}
+{"t": 41.5, "type": "speech"}
+{"t": 44.67, "type": "heard", "text": "શાળા શાળા"}
+{"t": 44.72, "type": "speech"}
+{"t": 44.8, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 53.82, "type": "speech"}
+{"t": 55.63, "type": "heard", "text": "માડી"}
+{"t": 55.63, "type": "speech"}
+{"t": 58.12, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 60.32, "type": "summary", "summary": {"words_total": 22, "words_read": 0, "words_helped": 2, "words_to_practise": ["મારી", "શાળા"], "words_practised": 1, "correction_attempts": 1, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 48.1, "words_per_minute": 2.5}}

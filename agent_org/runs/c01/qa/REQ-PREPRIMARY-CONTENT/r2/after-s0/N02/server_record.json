@@ -1,0 +1,74 @@
+{
+ "id": "20261109-213721-3528bb",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 24.9,
+  "words_per_minute": 7.2
+ },
+ "log": [
+  {
+   "t": 0.291,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.536,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.61,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 21.61,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  }
+ ],
+ "utterances": [
+  {
+   "text": "વિલાડી",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 60
+}

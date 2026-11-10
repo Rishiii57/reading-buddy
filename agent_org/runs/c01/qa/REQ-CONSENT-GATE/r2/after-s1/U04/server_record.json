@@ -1,0 +1,106 @@
+{
+ "id": "20261109-211020-1faa02",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 6,
+  "words_helped": 1,
+  "words_to_practise": [
+   "in"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 28.3,
+  "words_per_minute": 14.9
+ },
+ "log": [
+  {
+   "t": 0.721,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.431,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 24.208,
+   "event": "transcript",
+   "text": "Ravi Ravi has a mango tree his"
+  },
+  {
+   "t": 24.208,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 25.815,
+   "event": "progress",
+   "to": 7
+  },
+  {
+   "t": 27.244,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 27.244,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.806,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.208,
+   "type": "transcript",
+   "text": "Ravi Ravi has a mango tree his",
+   "latency": 120,
+   "audio_duration_ms": 7980,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has mango the in his good good",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 9.09
+  },
+  {
+   "text": "Ravi Ravi has a mango tree his",
+   "heard": "Ravi Ravi has a mango tree his",
+   "muted_words": 0,
+   "duration_s": 7.98
+  }
+ ],
+ "tts_offline": 29
+}

@@ -1,0 +1,165 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "N07",
+ "seed": 1085,
+ "persona": {
+  "id": "N07",
+  "name": "Arjun",
+  "grade": "Nursery",
+  "age": 3.5,
+  "reading_proficiency": "pre_reader",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.4,
+  "patience": 3.0,
+  "attention_span_s": 80
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-twinkle",
+  "title": "Twinkle, Twinkle, Little Star",
+  "tags": [
+   "English",
+   "Nursery"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 28.48,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 28.48,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 0.4,
+  "frustration_events": [
+   {
+    "t": 28.48,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 32.5,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 37.2,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 43.38,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 61.99,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 68.4,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 80.75,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 80.9,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 29.9,
+  "child_talk_s": 21.1,
+  "tired_said": true,
+  "time_to_text_s": 3.5,
+  "reader_page_audio_clips": 1,
+  "intro_s": 13.1,
+  "time_to_first_word_s": 13.1,
+  "break_honoured": true,
+  "session_s": 94.7,
+  "words_total": 22,
+  "words_attempted": 13,
+  "words_said_wrong": 7,
+  "corrections": 0,
+  "buddy_turns": 7,
+  "stall_prompts": 2,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 4,
+  "words_helped": 9,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 97.9,
+  "words_per_minute": 8.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 4
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 108,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

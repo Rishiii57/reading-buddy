@@ -1,0 +1,389 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r1-after-s1",
+ "agent_id": "C2-04",
+ "seed": 2527,
+ "persona": {
+  "id": "C2-04",
+  "name": "Kian",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-ant",
+  "title": "The Busy Ant",
+  "tags": [
+   "English",
+   "Grade 2-4"
+  ],
+  "words": 37,
+  "lines": 5,
+  "language": "en-IN",
+  "grade_tag": "Grade 2-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 30.18,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 30.18,
+      "talk_s": 12.2
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 41.65,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 41.65,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 105.2,
+    "details": [
+     "Asked to say 'grain' 3 times.",
+     "Asked to say 'on' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 105.2,
+      "word": "grain",
+      "times": 3
+     },
+     {
+      "t": 183.51,
+      "word": "on",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 197.62,
+    "details": [
+     "Buddy started talking 1.8 s into a planned 1.97 s thinking pause.",
+     "Buddy started talking 2.3 s into a planned 2.55 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 197.62,
+      "paused_s": 1.8,
+      "planned_s": 1.97,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "carried a grain"
+     },
+     {
+      "t": 206.35,
+      "paused_s": 2.3,
+      "planned_s": 2.55,
+      "line": 1,
+      "buddy_kind": "skip_line",
+      "next_words": "its back."
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 199.12,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 199.12,
+      "said": "It",
+      "heard": ""
+     },
+     {
+      "t": 212.5,
+      "said": "The rice waa was waa was big the the",
+      "heard": "waa was big the the"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.0,
+  "frustration_events": [
+   {
+    "t": 30.18,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 32.78,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 37.63,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 39.72,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 41.65,
+    "kind": "unexpected_pause",
+    "frustration": 0.8
+   },
+   {
+    "t": 56.07,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 61.7,
+    "kind": "praise",
+    "frustration": 0.25
+   },
+   {
+    "t": 77.08,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 82.15,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 87.46,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 105.2,
+    "kind": "drill_repeat",
+    "frustration": 0.7,
+    "word": "grain"
+   },
+   {
+    "t": 119.28,
+    "kind": "progress",
+    "frustration": 0.55
+   },
+   {
+    "t": 127.55,
+    "kind": "praise",
+    "frustration": 0.15
+   },
+   {
+    "t": 132.68,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 157.08,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 176.7,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 178.73,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 183.51,
+    "kind": "drill_repeat",
+    "frustration": 0.7,
+    "word": "on"
+   },
+   {
+    "t": 197.62,
+    "kind": "interrupted_pause",
+    "frustration": 1.7,
+    "paused_s": 1.8
+   },
+   {
+    "t": 199.12,
+    "kind": "unheard_speech",
+    "frustration": 2.5
+   },
+   {
+    "t": 199.12,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 204.02,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 206.35,
+    "kind": "interrupted_pause",
+    "frustration": 3.2,
+    "paused_s": 2.3
+   },
+   {
+    "t": 212.5,
+    "kind": "unheard_speech",
+    "frustration": 4.0
+   },
+   {
+    "t": 212.5,
+    "kind": "progress",
+    "frustration": 3.85
+   },
+   {
+    "t": 221.29,
+    "kind": "progress",
+    "frustration": 3.7
+   },
+   {
+    "t": 226.84,
+    "kind": "praise",
+    "frustration": 3.3
+   },
+   {
+    "t": 229.6,
+    "kind": "dead_click",
+    "frustration": 3.8,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 7,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 5,
+  "interruptions": 2,
+  "unheard_words": 5,
+  "buddy_talk_s": 98.1,
+  "child_talk_s": 46.9,
+  "tired_said": false,
+  "time_to_text_s": 4.4,
+  "reader_page_audio_clips": 0,
+  "intro_s": 13.0,
+  "time_to_first_word_s": 13.0,
+  "session_s": 213.1,
+  "words_total": 37,
+  "words_attempted": 23,
+  "words_said_wrong": 4,
+  "corrections": 6,
+  "buddy_turns": 23,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 37,
+  "words_read": 13,
+  "words_helped": 10,
+  "words_to_practise": [
+   "It",
+   "a",
+   "grain",
+   "of",
+   "rice",
+   "on",
+   "its",
+   "The"
+  ],
+  "words_practised": 10,
+  "correction_attempts": 10,
+  "lines_total": 5,
+  "lines_completed": 1,
+  "lines_skipped": [
+   {
+    "line": 2,
+    "text": "It carried a grain of rice on its back.",
+    "mistakes": 11,
+    "words": [
+     "It",
+     "a",
+     "grain",
+     "of",
+     "rice",
+     "on",
+     "its"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 7,
+  "seconds": 212.3,
+  "words_per_minute": 6.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 4,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 107,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

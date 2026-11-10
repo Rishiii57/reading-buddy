@@ -1,0 +1,721 @@
+{
+ "id": "20261110-111657-c9e861",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 5,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 5,
+  "corrections": 0,
+  "seconds": 148.4,
+  "words_per_minute": 4.9
+ },
+ "log": [
+  {
+   "t": 0.025,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.434,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.423,
+   "event": "transcript",
+   "text": "मछली"
+  },
+  {
+   "t": 18.423,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 22.965,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 22.965,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 26.472,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.483,
+   "event": "transcript",
+   "text": "जल"
+  },
+  {
+   "t": 29.483,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 34.073,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 34.073,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 37.221,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.734,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 41.734,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 44.818,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 49.334,
+   "event": "take_time"
+  },
+  {
+   "t": 55.765,
+   "event": "transcript",
+   "text": "कि"
+  },
+  {
+   "t": 55.765,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 62.201,
+   "event": "transcript",
+   "text": "ड़ाणी"
+  },
+  {
+   "t": 62.201,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 69.073,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 69.073,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 69.073,
+   "event": "echo_slips_accepted",
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 69.073,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 69.073,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 73.122,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 75.924,
+   "event": "transcript",
+   "text": "जीवन"
+  },
+  {
+   "t": 75.924,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 82.619,
+   "event": "transcript",
+   "text": "उषका"
+  },
+  {
+   "t": 82.619,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 87.678,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 87.678,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 9
+  },
+  {
+   "t": 91.018,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 96.059,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 96.059,
+   "event": "prompt",
+   "level": 2,
+   "line": 1,
+   "frm": 7,
+   "to": 9
+  },
+  {
+   "t": 98.652,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 101.678,
+   "event": "transcript",
+   "text": "पाणी"
+  },
+  {
+   "t": 101.678,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 110.696,
+   "event": "transcript",
+   "text": "है है"
+  },
+  {
+   "t": 110.696,
+   "event": "uncertain",
+   "text": "है है"
+  },
+  {
+   "t": 110.696,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 114.426,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 117.23,
+   "event": "transcript",
+   "text": "हे"
+  },
+  {
+   "t": 117.23,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 117.23,
+   "event": "echo_slips_accepted",
+   "words": [
+    6,
+    7
+   ]
+  },
+  {
+   "t": 117.23,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 117.23,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 117.23,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 117.23,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 120.32,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 126.978,
+   "event": "transcript",
+   "text": "हात"
+  },
+  {
+   "t": 126.978,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 133.256,
+   "event": "transcript",
+   "text": "लगाओ"
+  },
+  {
+   "t": 133.256,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 139.521,
+   "event": "transcript",
+   "text": "डर"
+  },
+  {
+   "t": 139.521,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 146.561,
+   "event": "transcript",
+   "text": "जाएगी"
+  },
+  {
+   "t": 146.561,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 146.561,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 146.561,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.792,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.423,
+   "type": "transcript",
+   "text": "मछली",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 26.858,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.483,
+   "type": "transcript",
+   "text": "जल",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 53.129,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.765,
+   "type": "transcript",
+   "text": "कि",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 59.578,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.201,
+   "type": "transcript",
+   "text": "ड़ाणी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 66.347,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.073,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 73.302,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.924,
+   "type": "transcript",
+   "text": "जीवन",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 79.987,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.619,
+   "type": "transcript",
+   "text": "उषका",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 99.021,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 101.678,
+   "type": "transcript",
+   "text": "पाणी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 106.052,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.696,
+   "type": "transcript",
+   "text": "है है",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 114.604,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.23,
+   "type": "transcript",
+   "text": "हे",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 124.351,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 126.978,
+   "type": "transcript",
+   "text": "हात",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 130.635,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 133.256,
+   "type": "transcript",
+   "text": "लगाओ",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 136.899,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 139.521,
+   "type": "transcript",
+   "text": "डर",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 143.932,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 146.561,
+   "type": "transcript",
+   "text": "जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "मछली",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "कि",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जल",
+   "heard": "जल",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "कि",
+   "heard": "कि",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ड़ाणी",
+   "heard": "ड़ाणी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जीवन",
+   "heard": "जीवन",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "उषका",
+   "heard": "उषका",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "पाणी",
+   "heard": "पाणी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "है है",
+   "heard": "है है",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "हे",
+   "heard": "हे",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "हात",
+   "heard": "हात",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "लगाओ",
+   "heard": "लगाओ",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "डर",
+   "heard": "डर",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जाएगी",
+   "heard": "जाएगी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  }
+ ],
+ "tts_offline": 211
+}

@@ -1,0 +1,488 @@
+{
+ "utterances": [
+  {
+   "t": 46.63,
+   "said": "rawi",
+   "stt": "rawi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.51,
+   "said": "haz",
+   "stt": "haz",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.53,
+   "said": "has",
+   "stt": "has",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.48,
+   "said": "a a",
+   "stt": "a a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.65,
+   "said": "mango tree in",
+   "stt": "mango tree in",
+   "stt_notes": [],
+   "words": [
+    3,
+    4,
+    5
+   ],
+   "muted_words": 3,
+   "over_buddy": false
+  },
+  {
+   "t": 66.89,
+   "said": "Ravi",
+   "stt": "Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 76.47,
+   "said": "Ravi Ravi",
+   "stt": "Ravi Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.0,
+   "said": "has",
+   "stt": "has",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.53,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 86.69,
+   "said": "a",
+   "stt": "a",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 94.96,
+   "said": "mamgo tree",
+   "stt": "mamgo tree",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 98.53,
+   "said": "in",
+   "stt": "in",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 104.07,
+   "said": "nango mango",
+   "stt": "nango mango",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 112.06,
+   "said": "Ravi",
+   "stt": "Ravi",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 121.38,
+   "said": "has a mango mango",
+   "stt": "has a mamgo mango",
+   "stt_notes": [
+    "'mango' heard as 'mamgo'"
+   ],
+   "words": [
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 124.54,
+   "said": "tree",
+   "stt": "tree",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 46.63,
+    "target": "Ravi",
+    "said": "rawi",
+    "correct": false,
+    "kind": "sub",
+    "stt": "rawi"
+   },
+   {
+    "t": 66.89,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi",
+    "drill": true
+   },
+   {
+    "t": 76.47,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi Ravi"
+   },
+   {
+    "t": 112.06,
+    "target": "Ravi",
+    "said": "Ravi",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ravi"
+   }
+  ],
+  "1": [
+   {
+    "t": 49.51,
+    "target": "has",
+    "said": "haz",
+    "correct": false,
+    "kind": "sub",
+    "stt": "haz"
+   },
+   {
+    "t": 55.53,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has"
+   },
+   {
+    "t": 80.0,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has"
+   },
+   {
+    "t": 121.38,
+    "target": "has",
+    "said": "has",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has a mamgo mango"
+   }
+  ],
+  "2": [
+   {
+    "t": 59.48,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a a"
+   },
+   {
+    "t": 84.53,
+    "target": "a",
+    "said": "a",
+    "correct": true,
+    "kind": "ok",
+    "stt": "a"
+   },
+   {
+    "t": 86.69,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "a"
+   },
+   {
+    "t": 121.38,
+    "target": "a",
+    "said": "a",
+    "correct": false,
+    "kind": "sub",
+    "stt": "has a mamgo mango"
+   }
+  ],
+  "3": [
+   {
+    "t": 64.65,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mango tree in"
+   },
+   {
+    "t": 94.96,
+    "target": "mango",
+    "said": "mamgo",
+    "correct": false,
+    "kind": "sub",
+    "stt": "mamgo tree"
+   },
+   {
+    "t": 104.07,
+    "target": "mango",
+    "said": "nango mango",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "nango mango",
+    "drill": true
+   },
+   {
+    "t": 121.38,
+    "target": "mango",
+    "said": "mango",
+    "correct": true,
+    "kind": "ok",
+    "stt": "has a mamgo mango"
+   }
+  ],
+  "4": [
+   {
+    "t": 64.65,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mango tree in"
+   },
+   {
+    "t": 94.96,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mamgo tree"
+   },
+   {
+    "t": 124.54,
+    "target": "tree",
+    "said": "tree",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tree"
+   }
+  ],
+  "5": [
+   {
+    "t": 64.65,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "mango tree in"
+   },
+   {
+    "t": 98.53,
+    "target": "in",
+    "said": "in",
+    "correct": true,
+    "kind": "ok",
+    "stt": "in"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 30.43,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 49.84,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 61.71,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. Ravi",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 67.13,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 81.91,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... a mango tree",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 88.8,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... mango tree in",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 97.4,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. mango",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 104.23,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 114.26,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... has a mango",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 123.45,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... tree in his",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  }
+ ]
+}

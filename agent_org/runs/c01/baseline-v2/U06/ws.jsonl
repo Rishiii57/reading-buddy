@@ -1,0 +1,43 @@
+{"t": 10.48, "type": "ready", "message": null}
+{"t": 10.87, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 25.06, "type": "speech"}
+{"t": 26.57, "type": "heard", "text": "A"}
+{"t": 26.62, "type": "speech"}
+{"t": 28.67, "type": "say", "kind": "stall_phrase", "text": "Listen... small ant walked", "spans": [[1, 4]]}
+{"t": 32.24, "type": "speech"}
+{"t": 37.43, "type": "heard", "text": "said walked walked"}
+{"t": 37.44, "type": "speech"}
+{"t": 37.49, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 42.04, "type": "speech"}
+{"t": 50.83, "type": "heard", "text": "said small ant walked all the for floor"}
+{"t": 50.85, "type": "speech"}
+{"t": 50.88, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. across", "spans": [[4, 5]]}
+{"t": 56.29, "type": "speech"}
+{"t": 57.42, "type": "heard", "text": "across"}
+{"t": 57.42, "type": "speech"}
+{"t": 57.42, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 65.15, "type": "speech"}
+{"t": 73.58, "type": "heard", "text": "A zmall ama ant we all the"}
+{"t": 73.6, "type": "speech"}
+{"t": 73.63, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 77.16, "type": "speech"}
+{"t": 85.78, "type": "heard", "text": "A small ant walked across tha floor"}
+{"t": 85.87, "type": "speech"}
+{"t": 85.89, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. the", "spans": [[5, 6]]}
+{"t": 98.54, "type": "speech"}
+{"t": 100.33, "type": "heard", "text": "the"}
+{"t": 100.37, "type": "speech"}
+{"t": 100.38, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 107.97, "type": "speech"}
+{"t": 115.35, "type": "heard", "text": "A sun ant walked across across"}
+{"t": 115.35, "type": "speech"}
+{"t": 117.38, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. small", "spans": [[1, 2]]}
+{"t": 120.88, "type": "speech"}
+{"t": 122.67, "type": "heard", "text": "small"}
+{"t": 122.69, "type": "speech"}
+{"t": 122.71, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 129.58, "type": "speech"}
+{"t": 134.6, "type": "heard", "text": "A zmall ant we"}
+{"t": 134.65, "type": "speech"}
+{"t": 136.93, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. small", "spans": [[1, 2]]}
+{"t": 140.84, "type": "summary", "summary": {"words_total": 37, "words_read": 2, "words_helped": 5, "words_to_practise": ["small", "walked", "across", "the"], "words_practised": 3, "correction_attempts": 3, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 4, "seconds": 130.2, "words_per_minute": 3.2}}

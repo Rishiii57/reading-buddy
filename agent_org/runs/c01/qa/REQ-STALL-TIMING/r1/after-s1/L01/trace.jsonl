@@ -1,0 +1,15 @@
+{"t": 2.16, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.19, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.23, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.12, "kind": "tap", "target": "मेरी गुड़िया My Doll Hindi Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.24, "kind": "opened_text", "hash": "#/read/hi-gudiya", "title": "मेरी गुड़िया", "tags": ["Hindi", "Grade 1"], "words": 17, "lines": 4}
+{"t": 6.71, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 11.05, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 11.1, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.26, "kind": "session_started", "tries": 1}
+{"t": 26.54, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 35.49, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.9 s into a planned 4.19 s thinking pause."}
+{"t": 50.92, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.2 s into a planned 2.93 s thinking pause."}
+{"t": 60.27, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 60.33, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 61.2, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}

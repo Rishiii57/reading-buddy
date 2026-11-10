@@ -1,0 +1,285 @@
+{
+ "utterances": [
+  {
+   "t": 32.72,
+   "said": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी",
+   "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 7,
+   "over_buddy": true
+  },
+  {
+   "t": 39.23,
+   "said": "एक",
+   "stt": "एक",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 44.9,
+   "said": "पेड़",
+   "stt": "पेड़",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 50.05,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 55.66,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 60.65,
+   "said": "पड़",
+   "stt": "पड़",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 1
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.72,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   },
+   {
+    "t": 39.23,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 32.72,
+    "target": "पेड़",
+    "said": "पेर पेड़",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   },
+   {
+    "t": 44.9,
+    "target": "पेड़",
+    "said": "पेड़",
+    "correct": true,
+    "kind": "ok",
+    "stt": "पेड़",
+    "drill": true
+   }
+  ],
+  "2": [
+   {
+    "t": 32.72,
+    "target": "पर",
+    "said": "पर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   },
+   {
+    "t": 50.05,
+    "target": "पर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 55.66,
+    "target": "पर",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 60.65,
+    "target": "पर",
+    "said": "पड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पड़",
+    "drill": true
+   }
+  ],
+  "3": [
+   {
+    "t": 32.72,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   }
+  ],
+  "4": [
+   {
+    "t": 32.72,
+    "target": "छोटी",
+    "said": "छोठी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   }
+  ],
+  "5": [
+   {
+    "t": 32.72,
+    "target": "चिड़िया",
+    "said": "चिड़िया",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   }
+  ],
+  "6": [
+   {
+    "t": 32.72,
+    "target": "रहती",
+    "said": "रहती",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   }
+  ],
+  "7": [
+   {
+    "t": 32.72,
+    "target": "थी",
+    "said": "थी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.3,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 32.82,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। एक",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 39.28,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! पेड़",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 45.06,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! पर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 52.97,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "पर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 58.68,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "पर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 65.05,
+   "type": "say",
+   "kind": "take_time",
+   "text": "आराम से। मैं तुम्हारी मदद के लिए यहीं हूँ।",
+   "spans": []
+  }
+ ]
+}

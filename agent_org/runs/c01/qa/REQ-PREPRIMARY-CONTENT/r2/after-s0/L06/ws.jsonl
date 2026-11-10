@@ -1,0 +1,48 @@
+{"t": 25.13, "type": "ready", "message": null}
+{"t": 25.13, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 38.43, "type": "speech"}
+{"t": 42.04, "type": "heard", "text": "run rain"}
+{"t": 42.32, "type": "speech"}
+{"t": 46.4, "type": "speech"}
+{"t": 51.0, "type": "heard", "text": "go go away"}
+{"t": 51.02, "type": "speech"}
+{"t": 51.05, "type": "say", "kind": "echo_line", "text": "Listen... Come again another day Now you try!", "spans": [[4, 8]]}
+{"t": 58.03, "type": "speech"}
+{"t": 60.38, "type": "heard", "text": "Come"}
+{"t": 60.38, "type": "speech"}
+{"t": 64.94, "type": "say", "kind": "stall_phrase", "text": "Listen... again another day", "spans": [[5, 8]]}
+{"t": 68.88, "type": "speech"}
+{"t": 71.35, "type": "heard", "text": "again"}
+{"t": 71.42, "type": "speech"}
+{"t": 73.85, "type": "speech"}
+{"t": 75.99, "type": "heard", "text": "another"}
+{"t": 76.0, "type": "speech"}
+{"t": 80.47, "type": "speech"}
+{"t": 82.91, "type": "heard", "text": "daa"}
+{"t": 82.92, "type": "speech"}
+{"t": 88.57, "type": "say", "kind": "stall_phrase", "text": "Listen... Little", "spans": [[8, 9]]}
+{"t": 91.04, "type": "speech"}
+{"t": 94.7, "type": "heard", "text": "Littl Littl"}
+{"t": 94.7, "type": "speech"}
+{"t": 94.7, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 97.97, "type": "speech"}
+{"t": 101.46, "type": "heard", "text": "like Little"}
+{"t": 101.52, "type": "speech"}
+{"t": 101.56, "type": "say", "kind": "echo_line", "text": "Listen... Little children want to play. Now you try!", "spans": [[8, 13]]}
+{"t": 106.92, "type": "speech"}
+{"t": 109.18, "type": "heard", "text": "children"}
+{"t": 109.18, "type": "speech"}
+{"t": 112.88, "type": "speech"}
+{"t": 115.03, "type": "heard", "text": "went"}
+{"t": 115.05, "type": "speech"}
+{"t": 117.49, "type": "speech"}
+{"t": 119.58, "type": "heard", "text": "to"}
+{"t": 119.59, "type": "speech"}
+{"t": 122.5, "type": "speech"}
+{"t": 124.6, "type": "heard", "text": "put"}
+{"t": 124.6, "type": "speech"}
+{"t": 125.48, "type": "speech"}
+{"t": 127.9, "type": "heard", "text": "play"}
+{"t": 127.9, "type": "speech"}
+{"t": 128.01, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 128.18, "type": "summary", "summary": {"words_total": 13, "words_read": 7, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 3, "lines_completed": 3, "lines_skipped": [], "finished": true, "prompts": 2, "corrections": 0, "seconds": 102.5, "words_per_minute": 7.6}}

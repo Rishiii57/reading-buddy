@@ -1,0 +1,620 @@
+{
+ "id": "20261109-203713-3d4326",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 16,
+  "words_helped": 6,
+  "words_to_practise": [
+   "flies",
+   "the",
+   "whole",
+   "It",
+   "dances",
+   "with"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 4,
+  "seconds": 106.6,
+  "words_per_minute": 12.4
+ },
+ "log": [
+  {
+   "t": 0.04,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.544,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.588,
+   "event": "transcript",
+   "text": "I have a a kite of red and blue"
+  },
+  {
+   "t": 18.588,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 18.588,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 23.191,
+   "event": "transcript",
+   "text": "It fish up high the whol whole down day through"
+  },
+  {
+   "t": 23.191,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 23.191,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    9
+   ]
+  },
+  {
+   "t": 23.191,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 9
+  },
+  {
+   "t": 30.295,
+   "event": "transcript",
+   "text": "fish fish"
+  },
+  {
+   "t": 30.295,
+   "event": "drill_miss",
+   "word": 9,
+   "heard": "fish fish"
+  },
+  {
+   "t": 34.581,
+   "event": "transcript",
+   "text": "flies"
+  },
+  {
+   "t": 34.581,
+   "event": "drill_ok",
+   "word": 9
+  },
+  {
+   "t": 34.581,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 41.307,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 44.829,
+   "event": "transcript",
+   "text": "It flies up high to was day through"
+  },
+  {
+   "t": 44.829,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 44.829,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    12,
+    13
+   ]
+  },
+  {
+   "t": 44.829,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  },
+  {
+   "t": 49.503,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 49.503,
+   "event": "drill_ok",
+   "word": 12
+  },
+  {
+   "t": 49.503,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 13
+  },
+  {
+   "t": 56.913,
+   "event": "transcript",
+   "text": "whole"
+  },
+  {
+   "t": 56.913,
+   "event": "drill_ok",
+   "word": 13
+  },
+  {
+   "t": 56.913,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 63.734,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 67.55,
+   "event": "transcript",
+   "text": "It flies up high the whole"
+  },
+  {
+   "t": 67.55,
+   "event": "progress",
+   "frm": 8,
+   "to": 14
+  },
+  {
+   "t": 70.775,
+   "event": "transcript",
+   "text": "day through"
+  },
+  {
+   "t": 70.775,
+   "event": "progress",
+   "frm": 14,
+   "to": 16
+  },
+  {
+   "t": 70.775,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 70.775,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 74.044,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 77.605,
+   "event": "transcript",
+   "text": "is It dances dances wit the morning breez breeze"
+  },
+  {
+   "t": 77.605,
+   "event": "progress",
+   "frm": 16,
+   "to": 22
+  },
+  {
+   "t": 77.605,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    18
+   ]
+  },
+  {
+   "t": 77.605,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 18
+  },
+  {
+   "t": 83.221,
+   "event": "transcript",
+   "text": "with"
+  },
+  {
+   "t": 83.221,
+   "event": "drill_ok",
+   "word": 18
+  },
+  {
+   "t": 83.221,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 90.606,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 93.543,
+   "event": "transcript",
+   "text": "is with the morn morning ball"
+  },
+  {
+   "t": 93.543,
+   "event": "progress",
+   "frm": 16,
+   "to": 21
+  },
+  {
+   "t": 95.418,
+   "event": "transcript",
+   "text": "breeze"
+  },
+  {
+   "t": 95.418,
+   "event": "progress",
+   "frm": 21,
+   "to": 22
+  },
+  {
+   "t": 95.418,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16,
+    17
+   ]
+  },
+  {
+   "t": 95.418,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 104.124,
+   "event": "silence",
+   "word": 16
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.155,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.588,
+   "type": "transcript",
+   "text": "I have a a kite of red and blue",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 19.431,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.191,
+   "type": "transcript",
+   "text": "It fish up high the whol whole down day through",
+   "latency": 120,
+   "audio_duration_ms": 3330,
+   "message": null
+  },
+  {
+   "t": 29.015,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.295,
+   "type": "transcript",
+   "text": "fish fish",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 33.648,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.581,
+   "type": "transcript",
+   "text": "flies",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 41.615,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.829,
+   "type": "transcript",
+   "text": "It flies up high to was day through",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 48.493,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.503,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 55.925,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.913,
+   "type": "transcript",
+   "text": "whole",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 65.049,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.55,
+   "type": "transcript",
+   "text": "It flies up high the whole",
+   "latency": 120,
+   "audio_duration_ms": 2080,
+   "message": null
+  },
+  {
+   "t": 69.512,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.775,
+   "type": "transcript",
+   "text": "day through",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 74.175,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.605,
+   "type": "transcript",
+   "text": "is It dances dances wit the morning breez breeze",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 82.291,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.221,
+   "type": "transcript",
+   "text": "with",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 90.728,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 93.543,
+   "type": "transcript",
+   "text": "is with the morn morning ball",
+   "latency": 120,
+   "audio_duration_ms": 2390,
+   "message": null
+  },
+  {
+   "t": 94.486,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 95.418,
+   "type": "transcript",
+   "text": "breeze",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "I I have a kite red and blue",
+   "heard": "",
+   "muted_words": 8,
+   "duration_s": 2.7
+  },
+  {
+   "text": "I have a a kite of red and blue",
+   "heard": "I have a a kite of red and blue",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "It fish up high the whol whole down day through",
+   "heard": "It fish up high the whol whole down day through",
+   "muted_words": 0,
+   "duration_s": 3.33
+  },
+  {
+   "text": "fish fish",
+   "heard": "fish fish",
+   "muted_words": 0,
+   "duration_s": 0.82
+  },
+  {
+   "text": "flies",
+   "heard": "flies",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "It flies up high to was day through",
+   "heard": "It flies up high to was day through",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "whole",
+   "heard": "whole",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "It flies up high the whole",
+   "heard": "It flies up high the whole",
+   "muted_words": 0,
+   "duration_s": 2.08
+  },
+  {
+   "text": "day through",
+   "heard": "day through",
+   "muted_words": 0,
+   "duration_s": 0.82
+  },
+  {
+   "text": "is It dances dances wit the morning breez breeze",
+   "heard": "is It dances dances wit the morning breez breeze",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "with",
+   "heard": "with",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "is with the morn morning ball",
+   "heard": "is with the morn morning ball",
+   "muted_words": 0,
+   "duration_s": 2.39
+  },
+  {
+   "text": "breeze",
+   "heard": "breeze",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "It",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.51
+  }
+ ],
+ "tts_offline": 62
+}

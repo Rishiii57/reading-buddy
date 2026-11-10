@@ -1,0 +1,705 @@
+{
+ "id": "20261110-115058-6b714a",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 3,
+  "words_helped": 13,
+  "words_to_practise": [
+   "has",
+   "a",
+   "of"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 6,
+  "corrections": 2,
+  "seconds": 115.1,
+  "words_per_minute": 8.3
+ },
+ "log": [
+  {
+   "t": 0.073,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.991,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.88,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 18.88,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 21.871,
+   "event": "transcript",
+   "text": "haz"
+  },
+  {
+   "t": 21.871,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 23.507,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 24.085,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1,
+    2
+   ]
+  },
+  {
+   "t": 24.085,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 29.223,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 29.223,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 29.223,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 37.062,
+   "event": "silence",
+   "word": 2
+  },
+  {
+   "t": 40.16,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 40.16,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 40.16,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 47.808,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 50.092,
+   "event": "transcript",
+   "text": "Ravi"
+  },
+  {
+   "t": 50.092,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 52.131,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 52.131,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 54.94,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 56.635,
+   "event": "transcript",
+   "text": "has"
+  },
+  {
+   "t": 56.635,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 58.703,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 58.703,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 61.721,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 64.838,
+   "event": "transcript",
+   "text": "a mango"
+  },
+  {
+   "t": 64.838,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 66.919,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 66.919,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 71.113,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 73.413,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 73.413,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 75.48,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 75.48,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 78.236,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 82.814,
+   "event": "transcript",
+   "text": "in hiz his garden"
+  },
+  {
+   "t": 82.814,
+   "event": "progress",
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 82.814,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 82.814,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 85.916,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 87.587,
+   "event": "transcript",
+   "text": "Every"
+  },
+  {
+   "t": 87.587,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 89.644,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 9,
+   "to": 12,
+   "line": 1
+  },
+  {
+   "t": 89.644,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 9,
+   "to": 12
+  },
+  {
+   "t": 93.403,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 96.072,
+   "event": "transcript",
+   "text": "summer the"
+  },
+  {
+   "t": 96.072,
+   "event": "progress",
+   "frm": 9,
+   "to": 11
+  },
+  {
+   "t": 98.143,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 11,
+   "to": 14,
+   "line": 1
+  },
+  {
+   "t": 98.143,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 11,
+   "to": 14
+  },
+  {
+   "t": 101.848,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 103.692,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 103.692,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 110.56,
+   "event": "transcript",
+   "text": "is is full ov sweet"
+  },
+  {
+   "t": 110.56,
+   "event": "progress",
+   "frm": 12,
+   "to": 16
+  },
+  {
+   "t": 112.612,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    14
+   ]
+  },
+  {
+   "t": 112.612,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 14
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.348,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.88,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 20.333,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.871,
+   "type": "transcript",
+   "text": "haz",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 27.682,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.223,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 38.624,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.16,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 48.56,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.092,
+   "type": "transcript",
+   "text": "Ravi",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 55.089,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.635,
+   "type": "transcript",
+   "text": "has",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 62.392,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.838,
+   "type": "transcript",
+   "text": "a mango",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 71.883,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.413,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 78.548,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.814,
+   "type": "transcript",
+   "text": "in hiz his garden",
+   "latency": 120,
+   "audio_duration_ms": 3840,
+   "message": null
+  },
+  {
+   "t": 86.053,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 87.587,
+   "type": "transcript",
+   "text": "Every",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 93.62,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.072,
+   "type": "transcript",
+   "text": "summer the",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 102.159,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.692,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 105.374,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.56,
+   "type": "transcript",
+   "text": "is is full ov sweet",
+   "latency": 120,
+   "audio_duration_ms": 4750,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "haz",
+   "heard": "haz",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a a mango",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.93
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "Ravi",
+   "heard": "Ravi",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "has",
+   "heard": "has",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a mango",
+   "heard": "a mango",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "tree in his garden",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 3.84
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "in hiz his garden",
+   "heard": "in hiz his garden",
+   "muted_words": 0,
+   "duration_s": 3.84
+  },
+  {
+   "text": "Every",
+   "heard": "Every",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "summer the",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.02
+  },
+  {
+   "text": "summer the",
+   "heard": "summer the",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "is is full ov sweet",
+   "heard": "is is full ov sweet",
+   "muted_words": 0,
+   "duration_s": 4.75
+  },
+  {
+   "text": "nangoes",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  }
+ ],
+ "tts_offline": 404
+}

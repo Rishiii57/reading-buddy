@@ -1,0 +1,798 @@
+{
+ "utterances": [
+  {
+   "t": 32.97,
+   "said": "Pitter patter falls the run",
+   "stt": "Pitter patter falls the run",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 40.52,
+   "said": "Pitter",
+   "stt": "Pitter",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 45.53,
+   "said": "patter",
+   "stt": "patter",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 51.05,
+   "said": "ran rain",
+   "stt": "ran rain",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 62.58,
+   "said": "Pitter patter falls rain",
+   "stt": "Pitter patter falls rain",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.9,
+   "said": "tha",
+   "stt": "tha",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.05,
+   "said": "tha tha rain",
+   "stt": "tha tha rain",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.34,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.46,
+   "said": "rain",
+   "stt": "rain",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 86.17,
+   "said": "oa On the",
+   "stt": "oa On the",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 96.39,
+   "said": "On On red ana ana went went pane",
+   "stt": "On On red ana ana went went pane",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 102.74,
+   "said": "ran and window",
+   "stt": "ran and",
+   "stt_notes": [
+    "lost 'window'"
+   ],
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 106.23,
+   "said": "pane",
+   "stt": "pane",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 108.48,
+   "said": "On",
+   "stt": "On",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 115.85,
+   "said": "the roof went pane",
+   "stt": "the roof went pane",
+   "stt_notes": [],
+   "words": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 119.66,
+   "said": "ana we window",
+   "stt": "ana we window",
+   "stt_notes": [],
+   "words": [
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 124.05,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 128.43,
+   "said": "window pane",
+   "stt": "window pane",
+   "stt_notes": [],
+   "words": [
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 133.97,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 139.61,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.97,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls the run"
+   },
+   {
+    "t": 40.52,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter",
+    "drill": true
+   },
+   {
+    "t": 62.58,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls rain"
+   }
+  ],
+  "1": [
+   {
+    "t": 32.97,
+    "target": "patter",
+    "said": "patter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls the run"
+   },
+   {
+    "t": 45.53,
+    "target": "patter",
+    "said": "patter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "patter",
+    "drill": true
+   },
+   {
+    "t": 62.58,
+    "target": "patter",
+    "said": "patter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls rain"
+   }
+  ],
+  "2": [
+   {
+    "t": 32.97,
+    "target": "falls",
+    "said": "falls",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls the run"
+   },
+   {
+    "t": 62.58,
+    "target": "falls",
+    "said": "falls",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls rain"
+   }
+  ],
+  "3": [
+   {
+    "t": 32.97,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls the run"
+   },
+   {
+    "t": 62.58,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "Pitter patter falls rain"
+   },
+   {
+    "t": 64.9,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha"
+   },
+   {
+    "t": 71.05,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha tha rain"
+   },
+   {
+    "t": 73.34,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the"
+   }
+  ],
+  "4": [
+   {
+    "t": 32.97,
+    "target": "rain",
+    "said": "run",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Pitter patter falls the run"
+   },
+   {
+    "t": 51.05,
+    "target": "rain",
+    "said": "ran rain",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ran rain",
+    "drill": true
+   },
+   {
+    "t": 62.58,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter patter falls rain"
+   },
+   {
+    "t": 71.05,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "tha tha rain"
+   },
+   {
+    "t": 79.46,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "rain"
+   }
+  ],
+  "5": [
+   {
+    "t": 86.17,
+    "target": "On",
+    "said": "oa On",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "oa On the"
+   },
+   {
+    "t": 96.39,
+    "target": "On",
+    "said": "On",
+    "correct": true,
+    "kind": "ok",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 102.74,
+    "target": "On",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ran and"
+   },
+   {
+    "t": 108.48,
+    "target": "On",
+    "said": "On",
+    "correct": true,
+    "kind": "ok",
+    "stt": "On"
+   },
+   {
+    "t": 115.85,
+    "target": "On",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "the roof went pane"
+   },
+   {
+    "t": 133.97,
+    "target": "On",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 139.61,
+    "target": "On",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   }
+  ],
+  "6": [
+   {
+    "t": 86.17,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "oa On the"
+   },
+   {
+    "t": 96.39,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 102.74,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ran and"
+   },
+   {
+    "t": 108.48,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "On"
+   },
+   {
+    "t": 115.85,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the roof went pane"
+   }
+  ],
+  "7": [
+   {
+    "t": 96.39,
+    "target": "roof",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 102.74,
+    "target": "roof",
+    "said": "ran",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ran and"
+   },
+   {
+    "t": 115.85,
+    "target": "roof",
+    "said": "roof",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the roof went pane"
+   }
+  ],
+  "8": [
+   {
+    "t": 96.39,
+    "target": "and",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 102.74,
+    "target": "and",
+    "said": "and",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ran and"
+   },
+   {
+    "t": 115.85,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "the roof went pane"
+   },
+   {
+    "t": 119.66,
+    "target": "and",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana we window"
+   },
+   {
+    "t": 124.05,
+    "target": "and",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "9": [
+   {
+    "t": 96.39,
+    "target": "window",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 102.74,
+    "target": "window",
+    "said": "window",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ran and"
+   },
+   {
+    "t": 115.85,
+    "target": "window",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "the roof went pane"
+   },
+   {
+    "t": 119.66,
+    "target": "window",
+    "said": "we window",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ana we window"
+   },
+   {
+    "t": 128.43,
+    "target": "window",
+    "said": "window",
+    "correct": true,
+    "kind": "ok",
+    "stt": "window pane"
+   }
+  ],
+  "10": [
+   {
+    "t": 96.39,
+    "target": "pane",
+    "said": "pane",
+    "correct": true,
+    "kind": "ok",
+    "stt": "On On red ana ana went went pane"
+   },
+   {
+    "t": 106.23,
+    "target": "pane",
+    "said": "pane",
+    "correct": true,
+    "kind": "ok",
+    "stt": "pane"
+   },
+   {
+    "t": 115.85,
+    "target": "pane",
+    "said": "pane",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the roof went pane"
+   },
+   {
+    "t": 128.43,
+    "target": "pane",
+    "said": "pane",
+    "correct": true,
+    "kind": "ok",
+    "stt": "window pane"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.42,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 34.92,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. Pitter",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 40.7,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! patter",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 45.59,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! rain",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 51.05,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! Pitter patter falls the rain Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 64.92,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 75.41,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... rain",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 79.57,
+   "type": "say",
+   "kind": "praise",
+   "text": "Wonderful! Let's move to the next line.",
+   "spans": []
+  },
+  {
+   "t": 86.24,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 96.43,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 108.6,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 119.71,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 128.86,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. On",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 141.79,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "On",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  }
+ ]
+}

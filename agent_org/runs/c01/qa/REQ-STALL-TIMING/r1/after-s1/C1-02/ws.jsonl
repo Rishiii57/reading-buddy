@@ -1,0 +1,46 @@
+{"t": 11.64, "type": "ready", "message": null}
+{"t": 11.77, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 30.53, "type": "speech"}
+{"t": 33.24, "type": "heard", "text": "छोटी चिड़िया रहती"}
+{"t": 33.5, "type": "speech"}
+{"t": 34.25, "type": "speech"}
+{"t": 35.69, "type": "heard", "text": "थी"}
+{"t": 35.69, "type": "speech"}
+{"t": 35.69, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। एक", "spans": [[0, 1]]}
+{"t": 47.21, "type": "speech"}
+{"t": 48.68, "type": "heard", "text": "एक"}
+{"t": 48.68, "type": "speech"}
+{"t": 48.68, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! पेड़", "spans": [[1, 2]]}
+{"t": 52.95, "type": "speech"}
+{"t": 54.09, "type": "heard", "text": "पेड़"}
+{"t": 54.09, "type": "speech"}
+{"t": 54.1, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! पर", "spans": [[2, 3]]}
+{"t": 57.61, "type": "speech"}
+{"t": 59.0, "type": "heard", "text": "पर"}
+{"t": 59.0, "type": "speech"}
+{"t": 59.06, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! एक", "spans": [[3, 4]]}
+{"t": 62.77, "type": "speech"}
+{"t": 64.13, "type": "heard", "text": "एक"}
+{"t": 64.13, "type": "speech"}
+{"t": 64.13, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 8]]}
+{"t": 72.24, "type": "speech"}
+{"t": 79.0, "type": "heard", "text": "एक पेड़ पड़ छोटी चिरिया चिरिया रहती थी"}
+{"t": 79.31, "type": "speech"}
+{"t": 79.31, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। पर", "spans": [[2, 3]]}
+{"t": 87.69, "type": "say", "kind": "fix_again", "text": "पर", "spans": [[2, 3]]}
+{"t": 89.7, "type": "speech"}
+{"t": 91.94, "type": "heard", "text": "पड़ पर"}
+{"t": 92.0, "type": "speech"}
+{"t": 92.04, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! एक", "spans": [[3, 4]]}
+{"t": 99.41, "type": "say", "kind": "fix_again", "text": "एक", "spans": [[3, 4]]}
+{"t": 104.97, "type": "say", "kind": "fix_again", "text": "एक", "spans": [[3, 4]]}
+{"t": 110.62, "type": "say", "kind": "take_time", "text": "आराम से। मैं तुम्हारी मदद के लिए यहीं हूँ।", "spans": []}
+{"t": 114.69, "type": "speech"}
+{"t": 117.09, "type": "heard", "text": "एक एक"}
+{"t": 117.09, "type": "speech"}
+{"t": 117.09, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! छोटी", "spans": [[4, 5]]}
+{"t": 120.61, "type": "speech"}
+{"t": 123.5, "type": "heard", "text": "चिड़िया रहथी थी"}
+{"t": 123.56, "type": "speech"}
+{"t": 123.56, "type": "say", "kind": "uncertain_word", "text": "क्या तुम इसे फिर से बोलोगे? छोटी", "spans": [[4, 5]]}
+{"t": 125.09, "type": "summary", "summary": {"words_total": 30, "words_read": 2, "words_helped": 6, "words_to_practise": ["एक", "पेड़", "पर", "छोटी", "चिड़िया"], "words_practised": 6, "correction_attempts": 6, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 113.5, "words_per_minute": 4.2}}

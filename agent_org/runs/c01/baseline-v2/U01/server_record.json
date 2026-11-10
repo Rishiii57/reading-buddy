@@ -1,0 +1,302 @@
+{
+ "id": "20261110-114056-afe170",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 51.5,
+  "words_per_minute": 9.3
+ },
+ "log": [
+  {
+   "t": 0.012,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.621,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.878,
+   "event": "transcript",
+   "text": "મારો પતંગ"
+  },
+  {
+   "t": 18.878,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 20.888,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 20.888,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 24.397,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.43,
+   "event": "transcript",
+   "text": "ને"
+  },
+  {
+   "t": 29.43,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 31.515,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 31.515,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 35.942,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.235,
+   "event": "transcript",
+   "text": "પીળો"
+  },
+  {
+   "t": 38.235,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 38.235,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 40.938,
+   "event": "transcript",
+   "text": "આકાશે"
+  },
+  {
+   "t": 40.938,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 42.955,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 6,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 42.955,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 45.293,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 47.397,
+   "event": "transcript",
+   "text": "ઊડે"
+  },
+  {
+   "t": 47.397,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 49.47,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 49.47,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.756,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.878,
+   "type": "transcript",
+   "text": "મારો પતંગ",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 27.562,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.43,
+   "type": "transcript",
+   "text": "ને",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 36.356,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.235,
+   "type": "transcript",
+   "text": "પીળો",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 39.068,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.938,
+   "type": "transcript",
+   "text": "આકાશે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 45.526,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.397,
+   "type": "transcript",
+   "text": "ઊડે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો પતંગ",
+   "heard": "મારો પતંગ",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "લલ લલ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.7
+  },
+  {
+   "text": "ને",
+   "heard": "ને",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "પીળો",
+   "heard": "પીળો",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "આકાશે",
+   "heard": "આકાશે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "ઊડે",
+   "heard": "ઊડે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 107
+}

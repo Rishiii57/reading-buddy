@@ -1,0 +1,206 @@
+{
+ "id": "20261109-213322-37e492",
+ "text_id": "hi-bagicha",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 58.4,
+  "words_per_minute": 3.1
+ },
+ "log": [
+  {
+   "t": 0.17,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.811,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.405,
+   "event": "transcript",
+   "text": "के"
+  },
+  {
+   "t": 28.05,
+   "event": "transcript",
+   "text": "घढ़"
+  },
+  {
+   "t": 38.542,
+   "event": "transcript",
+   "text": "पीछै पीछै ए वगीचा"
+  },
+  {
+   "t": 38.542,
+   "event": "uncertain",
+   "text": "पीछै पीछै ए वगीचा"
+  },
+  {
+   "t": 38.542,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 42.136,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 48.225,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 48.225,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 51.857,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 56.449,
+   "event": "transcript",
+   "text": "मीणा मीणा"
+  },
+  {
+   "t": 56.449,
+   "event": "uncertain",
+   "text": "मीणा मीणा"
+  },
+  {
+   "t": 56.449,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.285,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.405,
+   "type": "transcript",
+   "text": "के",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 26.179,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.05,
+   "type": "transcript",
+   "text": "घढ़",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 32.911,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.542,
+   "type": "transcript",
+   "text": "पीछै पीछै ए वगीचा",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 53.329,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.449,
+   "type": "transcript",
+   "text": "मीणा मीणा",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मीना मीना के",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 3.95
+  },
+  {
+   "text": "के",
+   "heard": "के",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "घढ़",
+   "heard": "घढ़",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "पीछै पीछै ए वगीचा",
+   "heard": "पीछै पीछै ए वगीचा",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "मीणा मीणा",
+   "heard": "मीणा मीणा",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 54
+}

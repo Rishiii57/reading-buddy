@@ -1,0 +1,35 @@
+{"t": 10.84, "type": "ready", "message": null}
+{"t": 11.42, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Baa, Baa, Black Sheep Listen carefully to how I read it. Baa, baa, black sheep Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 25.37, "type": "speech"}
+{"t": 27.7, "type": "heard", "text": "Ba baa"}
+{"t": 27.75, "type": "speech"}
+{"t": 31.18, "type": "speech"}
+{"t": 33.36, "type": "heard", "text": "black sheep"}
+{"t": 33.54, "type": "speech"}
+{"t": 33.54, "type": "say", "kind": "echo_line", "text": "Have you any wool? Now you try!", "spans": [[4, 8]]}
+{"t": 37.71, "type": "speech"}
+{"t": 39.96, "type": "heard", "text": "Have yoa"}
+{"t": 39.96, "type": "speech"}
+{"t": 42.27, "type": "speech"}
+{"t": 45.19, "type": "heard", "text": "ana any went"}
+{"t": 45.25, "type": "speech"}
+{"t": 45.28, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 50.29, "type": "speech"}
+{"t": 53.24, "type": "heard", "text": "any any was"}
+{"t": 53.24, "type": "speech"}
+{"t": 54.49, "type": "speech"}
+{"t": 56.69, "type": "heard", "text": "any wool"}
+{"t": 57.05, "type": "speech"}
+{"t": 57.06, "type": "say", "kind": "echo_line", "text": "Yes sir, yes sir Now you try!", "spans": [[8, 12]]}
+{"t": 61.37, "type": "speech"}
+{"t": 64.99, "type": "heard", "text": "Yes sir yes sir"}
+{"t": 64.99, "type": "speech"}
+{"t": 65.14, "type": "say", "kind": "echo_line", "text": "Three bags full. Now you try!", "spans": [[12, 15]]}
+{"t": 71.34, "type": "speech"}
+{"t": 74.34, "type": "heard", "text": "Three bags for"}
+{"t": 74.37, "type": "speech"}
+{"t": 75.81, "type": "speech"}
+{"t": 77.17, "type": "heard", "text": "full"}
+{"t": 77.18, "type": "speech"}
+{"t": 77.49, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 77.67, "type": "summary", "summary": {"words_total": 15, "words_read": 14, "words_helped": 1, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 66.3, "words_per_minute": 13.6}}

@@ -1,0 +1,16 @@
+{"t": 2.74, "kind": "open_app", "brief": "Siya, Class 1 (about 6.5 years). Prefers gu-IN. Tires quickly in the evening."}
+{"t": 2.76, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.63, "kind": "tap", "target": "મારો પતંગ My Kite Gujarati Grade 1 Poem ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.52, "kind": "opened_text", "hash": "#/read/gu-patang", "title": "મારો પતંગ", "tags": ["Gujarati", "Grade 1"], "words": 16, "lines": 4}
+{"t": 9.83, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 9.88, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.98, "kind": "session_started", "tries": 1}
+{"t": 25.05, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 34.06, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.9 s into a planned 2.64 s thinking pause."}
+{"t": 38.48, "kind": "tap_mic_to_talk"}
+{"t": 38.49, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.91, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'મારો' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 55.82, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ને' 3 times."}
+{"t": 60.38, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'ને' 4 times."}
+{"t": 62.14, "kind": "abandon", "why": "frustration", "frustration": 4.4}
+{"t": 62.35, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

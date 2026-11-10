@@ -1,0 +1,216 @@
+{
+ "utterances": [
+  {
+   "t": 36.86,
+   "said": "मछली",
+   "stt": "मछली",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 45.18,
+   "said": "मछल मछल",
+   "stt": "मछल मछल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.22,
+   "said": "मछली जल",
+   "stt": "मछली जल",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 66.59,
+   "said": "मछली मछली झल कि",
+   "stt": "मछली मछली झल",
+   "stt_notes": [
+    "lost 'कि'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.37,
+   "said": "मछल",
+   "stt": "मछल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.6,
+   "said": "की",
+   "stt": "की",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.86,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली"
+   },
+   {
+    "t": 45.18,
+    "target": "मछली",
+    "said": "मछल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछल मछल"
+   },
+   {
+    "t": 51.22,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली जल"
+   },
+   {
+    "t": 66.59,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली मछली झल"
+   },
+   {
+    "t": 73.37,
+    "target": "मछली",
+    "said": "मछल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछल"
+   }
+  ],
+  "1": [
+   {
+    "t": 51.22,
+    "target": "जल",
+    "said": "जल",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली जल"
+   },
+   {
+    "t": 66.59,
+    "target": "जल",
+    "said": "झल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछली मछली झल"
+   },
+   {
+    "t": 79.6,
+    "target": "जल",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "की"
+   }
+  ],
+  "2": [
+   {
+    "t": 66.59,
+    "target": "की",
+    "said": "कि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछली मछली झल"
+   },
+   {
+    "t": 79.6,
+    "target": "की",
+    "said": "की",
+    "correct": true,
+    "kind": "echo",
+    "stt": "की"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 25.42,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 45.28,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 57.04,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मछली जल की",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 66.74,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 84.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... रानी है",
+   "spans": [
+    [
+     3,
+     5
+    ]
+   ]
+  }
+ ]
+}

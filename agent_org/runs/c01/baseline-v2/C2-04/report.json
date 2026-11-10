@@ -1,0 +1,203 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "C2-04",
+ "seed": 1527,
+ "persona": {
+  "id": "C2-04",
+  "name": "Kian",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-chidiya",
+  "title": "चिड़िया का घोंसला",
+  "tags": [
+   "Hindi",
+   "Grade 2-3"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 7.15,
+    "details": [
+     "Wanted en-IN but ended up on a hi-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 7.15,
+      "wanted": "en-IN",
+      "got": "hi-IN",
+      "title": "चिड़िया का घोंसला"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 14.72,
+    "details": [
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 14.72,
+      "kind": "intro",
+      "said": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान"
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.24,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 27.24,
+      "talk_s": 12.5
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 30.81,
+    "details": [
+     "A curious tap on 'About' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 30.81,
+      "tapped": "About",
+      "view": "view-about"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "RESTART_NOT_FOUND",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 32.77,
+    "details": [
+     "Wanted to read it again but found no way from the end screen."
+    ],
+    "evidence": [],
+    "child_quote": "I wanted to read it again but couldn't.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 1.6,
+  "frustration_events": [
+   {
+    "t": 14.72,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 27.24,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 30.81,
+    "kind": "wrong_screen",
+    "frustration": 1.6
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 15.3,
+  "child_talk_s": 0.0,
+  "tired_said": false,
+  "time_to_text_s": 3.3,
+  "reader_page_audio_clips": 0,
+  "intro_s": 15.3,
+  "session_s": 18.1,
+  "words_total": 30,
+  "words_attempted": 0,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 1,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 17.6,
+  "words_per_minute": 0.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 230,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

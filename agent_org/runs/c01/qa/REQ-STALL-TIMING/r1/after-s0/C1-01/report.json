@@ -1,0 +1,222 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r1-after-s0",
+ "agent_id": "C1-01",
+ "seed": 1391,
+ "persona": {
+  "id": "C1-01",
+  "name": "Rudra",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "ended_early",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-rain",
+  "title": "The Rain Song",
+  "tags": [
+   "English",
+   "Grade 1"
+  ],
+  "words": 24,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 24.24,
+    "details": [
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 24.24,
+      "said": "Pitter patter falls the run",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.16,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 27.16,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 62.08,
+    "details": [
+     "Asked to say 'the' 3 times."
+    ],
+    "evidence": [
+     {
+      "t": 62.08,
+      "word": "the",
+      "times": 3
+     }
+    ],
+    "child_quote": "Buddy made me say the same word again and again.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "LEFT_READING_BY_ACCIDENT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 66.6,
+    "details": [
+     "A curious tap on 'Library' left the reading page."
+    ],
+    "evidence": [
+     {
+      "t": 66.6,
+      "tapped": "Library",
+      "view": "view-library"
+     }
+    ],
+    "child_quote": "I pressed something and the poem went away.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 2.7,
+  "frustration_events": [
+   {
+    "t": 24.24,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 24.24,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 27.16,
+    "kind": "unexpected_pause",
+    "frustration": 1.45
+   },
+   {
+    "t": 30.64,
+    "kind": "dead_click",
+    "frustration": 1.95,
+    "target": "Resume"
+   },
+   {
+    "t": 40.86,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 47.9,
+    "kind": "praise",
+    "frustration": 1.4
+   },
+   {
+    "t": 62.08,
+    "kind": "drill_repeat",
+    "frustration": 2.1,
+    "word": "the"
+   },
+   {
+    "t": 66.6,
+    "kind": "wrong_screen",
+    "frustration": 2.7
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 5,
+  "buddy_talk_s": 22.5,
+  "child_talk_s": 8.9,
+  "tired_said": false,
+  "time_to_text_s": 2.7,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 7.3,
+  "intro_s": 12.5,
+  "session_s": 56.0,
+  "words_total": 24,
+  "words_attempted": 5,
+  "words_said_wrong": 2,
+  "corrections": 1,
+  "buddy_turns": 6,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 24,
+  "words_read": 3,
+  "words_helped": 2,
+  "words_to_practise": [
+   "falls",
+   "the"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 54.9,
+  "words_per_minute": 5.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 29,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

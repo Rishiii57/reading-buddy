@@ -1,0 +1,1061 @@
+{
+ "id": "20261109-195011-0f64a3",
+ "text_id": "gu-varsad",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 10,
+  "words_to_practise": [
+   "વરસાદ",
+   "દેડકા",
+   "મીઠું",
+   "છોકરાં",
+   "પાણીમાં"
+  ],
+  "words_practised": 6,
+  "correction_attempts": 6,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 4,
+  "seconds": 194.5,
+  "words_per_minute": 4.0
+ },
+ "log": [
+  {
+   "t": 0.052,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.092,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.075,
+   "event": "transcript",
+   "text": "ટપ"
+  },
+  {
+   "t": 18.075,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 26.127,
+   "event": "transcript",
+   "text": "ટપ ટપ ટપ વડસાદ"
+  },
+  {
+   "t": 26.127,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 27.747,
+   "event": "progress",
+   "to": 5
+  },
+  {
+   "t": 30.409,
+   "event": "transcript",
+   "text": "પડે"
+  },
+  {
+   "t": 30.409,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 30.409,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 30.409,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 4
+  },
+  {
+   "t": 37.307,
+   "event": "transcript",
+   "text": "વરસાદ"
+  },
+  {
+   "t": 37.307,
+   "event": "drill_ok",
+   "word": 4
+  },
+  {
+   "t": 37.307,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 45.352,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 51.44,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 51.44,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 54.452,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 56.774,
+   "event": "transcript",
+   "text": "ટપ"
+  },
+  {
+   "t": 56.774,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 60.951,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 60.951,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 63.852,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 68.112,
+   "event": "transcript",
+   "text": "ટપ ટપ ટપ"
+  },
+  {
+   "t": 68.112,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 72.62,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 72.62,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 75.606,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 79.865,
+   "event": "transcript",
+   "text": "બરશાદ વરસાદ પડે"
+  },
+  {
+   "t": 79.865,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 79.865,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 79.865,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 83.377,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 88.318,
+   "event": "transcript",
+   "text": "મીટું મીઠું"
+  },
+  {
+   "t": 88.318,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 94.41,
+   "event": "transcript",
+   "text": "ગીત"
+  },
+  {
+   "t": 94.41,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 98.882,
+   "event": "transcript",
+   "text": "બોલે"
+  },
+  {
+   "t": 98.882,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 98.882,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    6
+   ]
+  },
+  {
+   "t": 98.882,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 105.543,
+   "event": "transcript",
+   "text": "દેડકા"
+  },
+  {
+   "t": 105.543,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 105.543,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 114.028,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 117.113,
+   "event": "transcript",
+   "text": "ધેડકા"
+  },
+  {
+   "t": 117.113,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 123.689,
+   "event": "transcript",
+   "text": "ગીત બોલે"
+  },
+  {
+   "t": 123.689,
+   "event": "progress",
+   "frm": 7,
+   "to": 10
+  },
+  {
+   "t": 123.689,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    6,
+    7
+   ]
+  },
+  {
+   "t": 123.689,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 6
+  },
+  {
+   "t": 130.428,
+   "event": "transcript",
+   "text": "દેડકા"
+  },
+  {
+   "t": 130.428,
+   "event": "drill_ok",
+   "word": 6
+  },
+  {
+   "t": 130.428,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 7
+  },
+  {
+   "t": 135.79,
+   "event": "transcript",
+   "text": "મીઠું"
+  },
+  {
+   "t": 135.79,
+   "event": "drill_ok",
+   "word": 7
+  },
+  {
+   "t": 135.79,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 142.076,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 145.327,
+   "event": "transcript",
+   "text": "ધેડકા દેડકા"
+  },
+  {
+   "t": 145.327,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 150.202,
+   "event": "transcript",
+   "text": "મીઠું ગીત"
+  },
+  {
+   "t": 150.202,
+   "event": "progress",
+   "frm": 7,
+   "to": 9
+  },
+  {
+   "t": 154.121,
+   "event": "transcript",
+   "text": "બોલે"
+  },
+  {
+   "t": 154.121,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 154.121,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 154.121,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 157.278,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 160.479,
+   "event": "transcript",
+   "text": "છોકડાં"
+  },
+  {
+   "t": 160.479,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 166.229,
+   "event": "transcript",
+   "text": "પાનીમાં"
+  },
+  {
+   "t": 166.229,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 170.476,
+   "event": "transcript",
+   "text": "રમે"
+  },
+  {
+   "t": 170.476,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 170.476,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    10,
+    11
+   ]
+  },
+  {
+   "t": 170.476,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 10
+  },
+  {
+   "t": 176.987,
+   "event": "transcript",
+   "text": "છોકરાં"
+  },
+  {
+   "t": 176.987,
+   "event": "drill_ok",
+   "word": 10
+  },
+  {
+   "t": 176.987,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 11
+  },
+  {
+   "t": 185.047,
+   "event": "silence",
+   "word": 11
+  },
+  {
+   "t": 189.662,
+   "event": "transcript",
+   "text": "પાણીમાં"
+  },
+  {
+   "t": 189.662,
+   "event": "drill_ok",
+   "word": 11
+  },
+  {
+   "t": 189.662,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.343,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.075,
+   "type": "transcript",
+   "text": "ટપ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 21.058,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.127,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ વડસાદ",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 28.673,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.409,
+   "type": "transcript",
+   "text": "પડે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 35.558,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.307,
+   "type": "transcript",
+   "text": "વરસાદ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 55.044,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.774,
+   "type": "transcript",
+   "text": "ટપ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 64.161,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.112,
+   "type": "transcript",
+   "text": "ટપ ટપ ટપ",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 75.911,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.865,
+   "type": "transcript",
+   "text": "બરશાદ વરસાદ પડે",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 84.367,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 88.318,
+   "type": "transcript",
+   "text": "મીટું મીઠું",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 92.679,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 94.41,
+   "type": "transcript",
+   "text": "ગીત",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 97.152,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 98.882,
+   "type": "transcript",
+   "text": "બોલે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 103.807,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 105.543,
+   "type": "transcript",
+   "text": "દેડકા",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 114.264,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.113,
+   "type": "transcript",
+   "text": "ધેડકા",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 120.849,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.689,
+   "type": "transcript",
+   "text": "ગીત બોલે",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 128.679,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.428,
+   "type": "transcript",
+   "text": "દેડકા",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 134.06,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 135.79,
+   "type": "transcript",
+   "text": "મીઠું",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 142.39,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 145.327,
+   "type": "transcript",
+   "text": "ધેડકા દેડકા",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 147.358,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 150.202,
+   "type": "transcript",
+   "text": "મીઠું ગીત",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 152.39,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 154.121,
+   "type": "transcript",
+   "text": "બોલે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 158.715,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 160.479,
+   "type": "transcript",
+   "text": "છોકડાં",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 164.498,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 166.229,
+   "type": "transcript",
+   "text": "પાનીમાં",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 168.746,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 170.476,
+   "type": "transcript",
+   "text": "રમે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 175.253,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 176.987,
+   "type": "transcript",
+   "text": "છોકરાં",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 187.931,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 189.662,
+   "type": "transcript",
+   "text": "પાણીમાં",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ટપ ઠપ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ઠપ",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ",
+   "heard": "ટપ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ ટપ ટપ વડસાદ",
+   "heard": "ટપ ટપ ટપ વડસાદ",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "પડે",
+   "heard": "પડે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "વરસાદ",
+   "heard": "વરસાદ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ",
+   "heard": "ટપ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ટપ ટપ ટપ",
+   "heard": "ટપ ટપ ટપ",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "ટપ વરસાદ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "બરશાદ વરસાદ પડે",
+   "heard": "બરશાદ વરસાદ પડે",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "મીટું મીઠું",
+   "heard": "મીટું મીઠું",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "ગીત",
+   "heard": "ગીત",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "બોલે",
+   "heard": "બોલે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "દેડકા",
+   "heard": "દેડકા",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ધેડકા",
+   "heard": "ધેડકા",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ગીત બોલે",
+   "heard": "ગીત બોલે",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "દેડકા",
+   "heard": "દેડકા",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મીઠું",
+   "heard": "મીઠું",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ધેડકા દેડકા",
+   "heard": "ધેડકા દેડકા",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "મીઠું ગીત",
+   "heard": "મીઠું ગીત",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "બોલે",
+   "heard": "બોલે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "છોકડાં",
+   "heard": "છોકડાં",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "પાનીમાં",
+   "heard": "પાનીમાં",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "રમે",
+   "heard": "રમે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "છોકરાં",
+   "heard": "છોકરાં",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "પાણીમાં",
+   "heard": "પાણીમાં",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 78
+}

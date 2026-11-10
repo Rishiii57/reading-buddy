@@ -1,0 +1,27 @@
+{"t": 14.84, "type": "ready", "message": null}
+{"t": 14.85, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 32.43, "type": "speech"}
+{"t": 35.09, "type": "heard", "text": "मछली"}
+{"t": 35.24, "type": "speech"}
+{"t": 39.28, "type": "speech"}
+{"t": 41.88, "type": "heard", "text": "कि"}
+{"t": 41.9, "type": "speech"}
+{"t": 46.0, "type": "say", "kind": "stall_phrase", "text": "सुनो... जल की रानी", "spans": [[1, 4]]}
+{"t": 50.08, "type": "speech"}
+{"t": 52.82, "type": "heard", "text": "कि"}
+{"t": 52.82, "type": "speech"}
+{"t": 57.63, "type": "say", "kind": "stall_phrase", "text": "सुनो... रानी है", "spans": [[3, 5]]}
+{"t": 61.6, "type": "speech"}
+{"t": 64.71, "type": "heard", "text": "रानी"}
+{"t": 64.71, "type": "speech"}
+{"t": 69.93, "type": "say", "kind": "stall_phrase", "text": "सुनो... है", "spans": [[4, 5]]}
+{"t": 72.59, "type": "speech"}
+{"t": 75.31, "type": "heard", "text": "है"}
+{"t": 75.31, "type": "speech"}
+{"t": 75.55, "type": "say", "kind": "echo_line", "text": "जीवन उसका पानी है। अब तुम बोलो!", "spans": [[5, 9]]}
+{"t": 81.25, "type": "speech"}
+{"t": 84.14, "type": "heard", "text": "जीवन"}
+{"t": 84.14, "type": "speech"}
+{"t": 88.99, "type": "say", "kind": "stall_phrase", "text": "सुनो... उसका पानी है।", "spans": [[6, 9]]}
+{"t": 97.93, "type": "say", "kind": "stall_rest", "text": "उसका पानी है। अब तुम बोलो!", "spans": [[6, 9]]}
+{"t": 99.45, "type": "summary", "summary": {"words_total": 17, "words_read": 2, "words_helped": 7, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 5, "corrections": 0, "seconds": 84.5, "words_per_minute": 6.4}}

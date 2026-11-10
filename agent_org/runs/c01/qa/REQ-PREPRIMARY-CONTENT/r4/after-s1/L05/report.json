@@ -1,0 +1,269 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-after-s1",
+ "agent_id": "L05",
+ "seed": 2204,
+ "persona": {
+  "id": "L05",
+  "name": "Prisha",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 4.5,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-gudiya",
+  "title": "मेरी गुड़िया",
+  "tags": [
+   "Hindi",
+   "Grade 1"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 10.76,
+    "details": [
+     "LKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 10.76,
+      "title": "मेरी गुड़िया",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.71,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 29.71,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 52.46,
+    "details": [
+     "Buddy started talking 3.8 s into a planned 5.02 s thinking pause.",
+     "Buddy started talking 3.4 s into a planned 3.57 s thinking pause.",
+     "Buddy started talking 1.3 s into a planned 5.48 s thinking pause.",
+     "Buddy started talking 4.3 s into a planned 5.82 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 52.46,
+      "paused_s": 3.8,
+      "planned_s": 5.02,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "गुड़िया प्यारी है,"
+     },
+     {
+      "t": 62.93,
+      "paused_s": 3.4,
+      "planned_s": 3.57,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "प्यारी है,"
+     },
+     {
+      "t": 69.16,
+      "paused_s": 1.3,
+      "planned_s": 5.48,
+      "line": 0,
+      "buddy_kind": "stall_rest",
+      "next_words": "है,"
+     },
+     {
+      "t": 163.71,
+      "paused_s": 4.3,
+      "planned_s": 5.82,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "न्यारी है।"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 3.45,
+  "frustration_events": [
+   {
+    "t": 29.71,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 41.9,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 48.66,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 52.46,
+    "kind": "interrupted_pause",
+    "frustration": 1.1,
+    "paused_s": 3.8
+   },
+   {
+    "t": 59.24,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 62.93,
+    "kind": "interrupted_pause",
+    "frustration": 1.95,
+    "paused_s": 3.4
+   },
+   {
+    "t": 67.62,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 69.16,
+    "kind": "interrupted_pause",
+    "frustration": 2.8,
+    "paused_s": 1.3
+   },
+   {
+    "t": 110.66,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 123.3,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 132.89,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 142.47,
+    "kind": "praise",
+    "frustration": 1.95
+   },
+   {
+    "t": 163.71,
+    "kind": "interrupted_pause",
+    "frustration": 2.95,
+    "paused_s": 4.3
+   },
+   {
+    "t": 166.78,
+    "kind": "dead_click",
+    "frustration": 3.45,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 4,
+  "unheard_words": 0,
+  "buddy_talk_s": 59.7,
+  "child_talk_s": 44.6,
+  "tired_said": false,
+  "time_to_text_s": 4.8,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 17.7,
+  "intro_s": 28.4,
+  "session_s": 150.8,
+  "words_total": 17,
+  "words_attempted": 6,
+  "words_said_wrong": 4,
+  "corrections": 2,
+  "buddy_turns": 12,
+  "stall_prompts": 3,
+  "uncertain_prompts": 3
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 6,
+  "words_to_practise": [
+   "प्यारी",
+   "सबसे",
+   "न्यारी"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 2,
+  "seconds": 149.4,
+  "words_per_minute": 2.8
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 151,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

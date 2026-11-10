@@ -1,0 +1,911 @@
+{
+ "id": "20261110-114511-d4b1e5",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 11,
+  "words_helped": 5,
+  "words_to_practise": [
+   "A",
+   "small",
+   "ant",
+   "walked",
+   "the"
+  ],
+  "words_practised": 6,
+  "correction_attempts": 10,
+  "lines_total": 5,
+  "lines_completed": 1,
+  "lines_skipped": [
+   {
+    "line": 1,
+    "text": "A small ant walked across the floor.",
+    "mistakes": 11,
+    "words": [
+     "A",
+     "small",
+     "ant",
+     "walked",
+     "the"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 134.5,
+  "words_per_minute": 7.1
+ },
+ "log": [
+  {
+   "t": 0.139,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.634,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.614,
+   "event": "transcript",
+   "text": "at small small ant walked across the fish floor"
+  },
+  {
+   "t": 17.614,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 17.614,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 17.614,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 22.692,
+   "event": "transcript",
+   "text": "all"
+  },
+  {
+   "t": 22.692,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "all"
+  },
+  {
+   "t": 27.198,
+   "event": "transcript",
+   "text": "A A"
+  },
+  {
+   "t": 27.198,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 27.198,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 34.219,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 35.842,
+   "event": "transcript",
+   "text": "acros the floor"
+  },
+  {
+   "t": 35.842,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 35.842,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ]
+  },
+  {
+   "t": 35.842,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 40.307,
+   "event": "transcript",
+   "text": "floor"
+  },
+  {
+   "t": 40.307,
+   "event": "drill_miss",
+   "word": 0,
+   "heard": "floor"
+  },
+  {
+   "t": 42.393,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 42.393,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 42.393,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 47.044,
+   "event": "transcript",
+   "text": "sun"
+  },
+  {
+   "t": 47.044,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "sun"
+  },
+  {
+   "t": 50.454,
+   "event": "pause"
+  },
+  {
+   "t": 53.677,
+   "event": "resume"
+  },
+  {
+   "t": 55.003,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 55.003,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 55.003,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 60.831,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 60.831,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 60.831,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 66.163,
+   "event": "transcript",
+   "text": "walked"
+  },
+  {
+   "t": 66.163,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 66.163,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 72.566,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 74.999,
+   "event": "transcript",
+   "text": "small ant walked across floor"
+  },
+  {
+   "t": 74.999,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 76.827,
+   "event": "transcript",
+   "text": "floor"
+  },
+  {
+   "t": 76.827,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 76.827,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    5
+   ]
+  },
+  {
+   "t": 76.827,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 84.03,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 86.496,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 86.496,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 86.496,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 5
+  },
+  {
+   "t": 90.955,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 90.955,
+   "event": "drill_miss",
+   "word": 5,
+   "heard": "tree"
+  },
+  {
+   "t": 90.955,
+   "event": "state",
+   "state": "LINE_SKIPPED",
+   "line": 0,
+   "mistakes": 11
+  },
+  {
+   "t": 93.802,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 97.869,
+   "event": "transcript",
+   "text": "It carried a a grain of of rice on back"
+  },
+  {
+   "t": 97.869,
+   "event": "progress",
+   "frm": 7,
+   "to": 14
+  },
+  {
+   "t": 100.443,
+   "event": "transcript",
+   "text": "in bac back"
+  },
+  {
+   "t": 100.443,
+   "event": "uncertain",
+   "text": "back in bac back"
+  },
+  {
+   "t": 100.443,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 106.163,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 107.944,
+   "event": "transcript",
+   "text": "is its back"
+  },
+  {
+   "t": 107.944,
+   "event": "progress",
+   "frm": 14,
+   "to": 16
+  },
+  {
+   "t": 107.944,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 107.944,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 107.944,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 111.757,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 115.2,
+   "event": "transcript",
+   "text": "rice we big than than to all"
+  },
+  {
+   "t": 115.2,
+   "event": "uncertain",
+   "text": "rice we big than than to all"
+  },
+  {
+   "t": 115.2,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 118.571,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 119.363,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 125.571,
+   "event": "transcript",
+   "text": "rice went bigge the the the and ant"
+  },
+  {
+   "t": 125.571,
+   "event": "uncertain",
+   "text": "rice went bigge the the the and ant"
+  },
+  {
+   "t": 125.571,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 128.665,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 129.071,
+   "event": "pause"
+  },
+  {
+   "t": 132.478,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.184,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.614,
+   "type": "transcript",
+   "text": "at small small ant walked across the fish floor",
+   "latency": 120,
+   "audio_duration_ms": 3010,
+   "message": null
+  },
+  {
+   "t": 21.743,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.692,
+   "type": "transcript",
+   "text": "all",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 25.953,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.198,
+   "type": "transcript",
+   "text": "A A",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 34.362,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.842,
+   "type": "transcript",
+   "text": "acros the floor",
+   "latency": 120,
+   "audio_duration_ms": 1024,
+   "message": null
+  },
+  {
+   "t": 39.479,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.307,
+   "type": "transcript",
+   "text": "floor",
+   "latency": 120,
+   "audio_duration_ms": 416,
+   "message": null
+  },
+  {
+   "t": 41.458,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.393,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 45.678,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.044,
+   "type": "transcript",
+   "text": "sun",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 54.059,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.003,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 59.858,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.831,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 65.229,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.163,
+   "type": "transcript",
+   "text": "walked",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 72.787,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.999,
+   "type": "transcript",
+   "text": "small ant walked across floor",
+   "latency": 120,
+   "audio_duration_ms": 1760,
+   "message": null
+  },
+  {
+   "t": 75.895,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.827,
+   "type": "transcript",
+   "text": "floor",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 85.562,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.496,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 90.024,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 90.955,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 510,
+   "message": null
+  },
+  {
+   "t": 94.109,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.869,
+   "type": "transcript",
+   "text": "It carried a a grain of of rice on back",
+   "latency": 120,
+   "audio_duration_ms": 3330,
+   "message": null
+  },
+  {
+   "t": 98.735,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 100.443,
+   "type": "transcript",
+   "text": "in bac back",
+   "latency": 120,
+   "audio_duration_ms": 1140,
+   "message": null
+  },
+  {
+   "t": 106.383,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 107.944,
+   "type": "transcript",
+   "text": "is its back",
+   "latency": 120,
+   "audio_duration_ms": 1140,
+   "message": null
+  },
+  {
+   "t": 112.085,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.2,
+   "type": "transcript",
+   "text": "rice we big than than to all",
+   "latency": 120,
+   "audio_duration_ms": 2634,
+   "message": null
+  },
+  {
+   "t": 118.601,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.363,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 337,
+   "message": null
+  },
+  {
+   "t": 122.451,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 125.571,
+   "type": "transcript",
+   "text": "rice went bigge the the the and ant",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant walk across tree floor",
+   "heard": "",
+   "muted_words": 7,
+   "duration_s": 2.39
+  },
+  {
+   "text": "at small small ant walked across the fish floor",
+   "heard": "at small small ant walked across the fish floor",
+   "muted_words": 0,
+   "duration_s": 3.01
+  },
+  {
+   "text": "all",
+   "heard": "all",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "A A",
+   "heard": "A A",
+   "muted_words": 0,
+   "duration_s": 0.82
+  },
+  {
+   "text": "A small ant walked across the floor",
+   "heard": "",
+   "muted_words": 7,
+   "duration_s": 2.39
+  },
+  {
+   "text": "and small at walked acros the floor",
+   "heard": "acros the floor",
+   "muted_words": 4,
+   "duration_s": 2.39
+  },
+  {
+   "text": "said ant walked across floor",
+   "heard": "floor",
+   "muted_words": 4,
+   "duration_s": 2.08
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "sun",
+   "heard": "sun",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "walked",
+   "heard": "walked",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "small ant walked across floor",
+   "heard": "small ant walked across floor",
+   "muted_words": 0,
+   "duration_s": 1.76
+  },
+  {
+   "text": "floor",
+   "heard": "floor",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "It carried a a grain of of rice on back",
+   "heard": "It carried a a grain of of rice on back",
+   "muted_words": 0,
+   "duration_s": 3.33
+  },
+  {
+   "text": "in bac back",
+   "heard": "in bac back",
+   "muted_words": 0,
+   "duration_s": 1.14
+  },
+  {
+   "text": "is its back",
+   "heard": "is its back",
+   "muted_words": 0,
+   "duration_s": 1.14
+  },
+  {
+   "text": "The rice we big than than to all",
+   "heard": "rice we big than than to all",
+   "muted_words": 1,
+   "duration_s": 3.01
+  },
+  {
+   "text": "The ric we bigge to to the ant",
+   "heard": "ant",
+   "muted_words": 7,
+   "duration_s": 2.7
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.51
+  },
+  {
+   "text": "rice went bigge the the the and ant",
+   "heard": "rice went bigge the the the and ant",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 241
+}

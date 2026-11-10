@@ -1,0 +1,925 @@
+{
+ "utterances": [
+  {
+   "t": 22.1,
+   "said": "small",
+   "stt": "small",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 29.49,
+   "said": "ana was across floor",
+   "stt": "ana was across floor",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.64,
+   "said": "A sun",
+   "stt": "A sun",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.86,
+   "said": "ana was and tha floor floor",
+   "stt": "ana was and tha floor floor",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.76,
+   "said": "A A see ant went and the fish",
+   "stt": "A A ant went and the fish",
+   "stt_notes": [
+    "lost 'see'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.77,
+   "said": "A small small ant ant went all tha for floor",
+   "stt": "A small small ant ant went all tha for floor",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 91.81,
+   "said": "A small ana was across tha fish",
+   "stt": "A small ana vas across tha fish",
+   "stt_notes": [
+    "'was' heard as 'vas'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 105.19,
+   "said": "A sun ana we we and the floor",
+   "stt": "A ana we we and floor",
+   "stt_notes": [
+    "lost 'sun'",
+    "lost 'the'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 111.64,
+   "said": "A see",
+   "stt": "A see",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 120.96,
+   "said": "ana went all the fish",
+   "stt": "ana went all the fish",
+   "stt_notes": [],
+   "words": [
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 134.09,
+   "said": "A sun sun ana was and tha fun",
+   "stt": "A sun sun ana was and tha fun",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 147.25,
+   "said": "A A sun ana was all across the",
+   "stt": "A A sun ana was all across the",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 155.5,
+   "said": "said ana ant",
+   "stt": "said ana ant",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 158.81,
+   "said": "said",
+   "stt": "said",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 164.98,
+   "said": "said small",
+   "stt": "sait small",
+   "stt_notes": [
+    "'said' heard as 'sait'"
+   ],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 170.78,
+   "said": "ant",
+   "stt": "ant",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 22.1,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "small"
+   },
+   {
+    "t": 36.64,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun"
+   },
+   {
+    "t": 65.76,
+    "target": "A",
+    "said": "A A",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 111.64,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A see"
+   },
+   {
+    "t": 134.09,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "A",
+    "said": "A A",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A A sun ana was all across the"
+   }
+  ],
+  "1": [
+   {
+    "t": 22.1,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small"
+   },
+   {
+    "t": 36.64,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun"
+   },
+   {
+    "t": 65.76,
+    "target": "small",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 111.64,
+    "target": "small",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A see"
+   },
+   {
+    "t": 134.09,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A sun ana was all across the"
+   },
+   {
+    "t": 155.5,
+    "target": "small",
+    "said": "said",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said ana ant"
+   },
+   {
+    "t": 158.81,
+    "target": "small",
+    "said": "said",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said",
+    "drill": true
+   },
+   {
+    "t": 164.98,
+    "target": "small",
+    "said": "said small",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "sait small",
+    "drill": true
+   }
+  ],
+  "2": [
+   {
+    "t": 29.49,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was across floor"
+   },
+   {
+    "t": 47.86,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was and tha floor floor"
+   },
+   {
+    "t": 65.76,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 120.96,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana went all the fish"
+   },
+   {
+    "t": 134.09,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A sun ana was all across the"
+   },
+   {
+    "t": 155.5,
+    "target": "ant",
+    "said": "ana ant",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "said ana ant"
+   },
+   {
+    "t": 170.78,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ant",
+    "drill": true
+   }
+  ],
+  "3": [
+   {
+    "t": 29.49,
+    "target": "walked",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was across floor"
+   },
+   {
+    "t": 47.86,
+    "target": "walked",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was and tha floor floor"
+   },
+   {
+    "t": 65.76,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "walked",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "walked",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 120.96,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana went all the fish"
+   },
+   {
+    "t": 134.09,
+    "target": "walked",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "walked",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A sun ana was all across the"
+   }
+  ],
+  "4": [
+   {
+    "t": 29.49,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ana was across floor"
+   },
+   {
+    "t": 47.86,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was and tha floor floor"
+   },
+   {
+    "t": 65.76,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "across",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 120.96,
+    "target": "across",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana went all the fish"
+   },
+   {
+    "t": 134.09,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "across",
+    "said": "all across",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A A sun ana was all across the"
+   }
+  ],
+  "5": [
+   {
+    "t": 29.49,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ana was across floor"
+   },
+   {
+    "t": 47.86,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana was and tha floor floor"
+   },
+   {
+    "t": 65.76,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 120.96,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ana went all the fish"
+   },
+   {
+    "t": 134.09,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   },
+   {
+    "t": 147.25,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A A sun ana was all across the"
+   }
+  ],
+  "6": [
+   {
+    "t": 29.49,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ana was across floor"
+   },
+   {
+    "t": 47.86,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ana was and tha floor floor"
+   },
+   {
+    "t": 65.76,
+    "target": "floor",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A A ant went and the fish"
+   },
+   {
+    "t": 80.77,
+    "target": "floor",
+    "said": "for floor",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A small small ant ant went all tha for floor"
+   },
+   {
+    "t": 91.81,
+    "target": "floor",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ana vas across tha fish"
+   },
+   {
+    "t": 105.19,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A ana we we and floor"
+   },
+   {
+    "t": 120.96,
+    "target": "floor",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana went all the fish"
+   },
+   {
+    "t": 134.09,
+    "target": "floor",
+    "said": "fun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun sun ana was and tha fun"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 5.91,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 29.64,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 48.56,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 66.76,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 78.95,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 92.04,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 105.37,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 121.28,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 134.2,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 149.37,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 155.6,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 158.85,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 165.16,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! ant",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 170.84,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "Yes! Very nice! walked",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ ]
+}

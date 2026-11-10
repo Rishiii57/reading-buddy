@@ -1,0 +1,13 @@
+{"t": 3.94, "kind": "open_app", "brief": "Advik, Nursery (about 3.5 years). Prefers gu-IN. Speech sounds still developing (r/l, s/sh)."}
+{"t": 4.04, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 5.21, "kind": "tap", "target": "Rain, Rain, Go Away English Nursery Rhym", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.94, "kind": "opened_text", "hash": "#/read/en-rainrain", "title": "Rain, Rain, Go Away", "tags": ["English", "Nursery"], "words": 13, "lines": 3}
+{"t": 8.38, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 12.39, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.25, "kind": "session_started", "tries": 1}
+{"t": 15.33, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 28.49, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 28.89, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.27, "kind": "off_task_tap", "target": "Library"}
+{"t": 29.39, "kind": "tap", "target": "Library", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 30.21, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Library' left the reading page."}

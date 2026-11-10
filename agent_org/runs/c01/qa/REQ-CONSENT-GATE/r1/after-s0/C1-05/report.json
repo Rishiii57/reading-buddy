@@ -1,0 +1,322 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r1-after-s0",
+ "agent_id": "C1-05",
+ "seed": 1459,
+ "persona": {
+  "id": "C1-05",
+  "name": "Om",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-patang",
+  "title": "મારો પતંગ",
+  "tags": [
+   "Gujarati",
+   "Grade 1"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 8.44,
+    "details": [
+     "Wanted hi-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 8.44,
+      "wanted": "hi-IN",
+      "got": "gu-IN",
+      "title": "મારો પતંગ"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 12.51,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 12.51,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 15.41,
+    "details": [
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 15.41,
+      "kind": "intro",
+      "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ"
+     },
+     {
+      "t": 35.39,
+      "kind": "fix_word",
+      "said": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારો"
+     },
+     {
+      "t": 40.98,
+      "kind": "fix_next",
+      "said": "હા! ખૂબ સરસ! લાલ"
+     },
+     {
+      "t": 47.36,
+      "kind": "repeat_line",
+      "said": "હા! ખૂબ સરસ! મારો પતંગ લાલ ને પીળો હવે તું આખી પંક્તિ બોલ."
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 23.64,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 23.64,
+      "said": "માડો",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.92,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 27.92,
+      "talk_s": 12.5
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 58.61,
+    "details": [
+     "Read 'મારો' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 58.61,
+      "word": "મારો",
+      "child_said": "મારો",
+      "speech_model_wrote": "માડો પતંગ લાલ ને પીળૌ"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'પીળો' as 'પીળૌ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "પીળો",
+      "child_said": "પીળૌ",
+      "kind": "sub",
+      "speech_model_wrote": "માડો પતંગ લાલ ને પીળૌ"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done."
+  ],
+  "frustration_peak": 5.2,
+  "frustration_events": [
+   {
+    "t": 12.51,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 15.41,
+    "kind": "not_understood",
+    "frustration": 1.2,
+    "say_kind": "intro"
+   },
+   {
+    "t": 23.64,
+    "kind": "unheard_speech",
+    "frustration": 2.0
+   },
+   {
+    "t": 27.92,
+    "kind": "long_wait",
+    "frustration": 2.4
+   },
+   {
+    "t": 34.59,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 35.39,
+    "kind": "not_understood",
+    "frustration": 2.85,
+    "say_kind": "fix_word"
+   },
+   {
+    "t": 40.29,
+    "kind": "praise",
+    "frustration": 2.45
+   },
+   {
+    "t": 40.98,
+    "kind": "not_understood",
+    "frustration": 3.05,
+    "say_kind": "fix_next"
+   },
+   {
+    "t": 47.36,
+    "kind": "not_understood",
+    "frustration": 3.65,
+    "say_kind": "repeat_line"
+   },
+   {
+    "t": 57.81,
+    "kind": "progress",
+    "frustration": 3.5
+   },
+   {
+    "t": 58.61,
+    "kind": "false_correction",
+    "frustration": 4.7,
+    "word": "મારો"
+   },
+   {
+    "t": 60.1,
+    "kind": "dead_click",
+    "frustration": 5.2,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 1,
+  "buddy_talk_s": 30.0,
+  "child_talk_s": 6.4,
+  "tired_said": false,
+  "time_to_text_s": 3.4,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 7.5,
+  "intro_s": 16.0,
+  "session_s": 46.2,
+  "words_total": 16,
+  "words_attempted": 5,
+  "words_said_wrong": 1,
+  "corrections": 2,
+  "buddy_turns": 5,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 2,
+  "words_to_practise": [
+   "મારો",
+   "લાલ"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 46.3,
+  "words_per_minute": 6.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 2,
+  "interruption_load": 4,
+  "correction_quality": 4,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 34,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

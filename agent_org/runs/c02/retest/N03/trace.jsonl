@@ -1,0 +1,10 @@
+{"t": 2.95, "kind": "open_app", "brief": "Vihaan, Nursery (about 3.5 years). Prefers gu-IN. Very curious with tablets; short attention."}
+{"t": 2.97, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.9, "kind": "tap", "target": "Reading Buddy", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.84, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.31, "kind": "tap", "target": "Ravi and the Mango Tree English Grade 3 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.23, "kind": "opened_text", "hash": "#/read/en-mango", "title": "Ravi and the Mango Tree", "tags": ["English", "Grade 3"], "words": 32, "lines": 4}
+{"t": 9.86, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 9.86, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 3' text, made for children who already read."}
+{"t": 14.3, "kind": "tap", "target": "Back", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.71, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

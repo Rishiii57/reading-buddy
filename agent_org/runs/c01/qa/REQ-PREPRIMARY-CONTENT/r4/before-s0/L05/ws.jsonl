@@ -1,0 +1,27 @@
+{"t": 25.2, "type": "ready", "message": null}
+{"t": 25.37, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 44.18, "type": "speech"}
+{"t": 46.87, "type": "heard", "text": "बादल"}
+{"t": 46.87, "type": "speech"}
+{"t": 50.28, "type": "say", "kind": "stall_phrase", "text": "सुनो... गरजे", "spans": [[1, 2]]}
+{"t": 56.63, "type": "speech"}
+{"t": 59.52, "type": "heard", "text": "गरजे"}
+{"t": 59.52, "type": "speech"}
+{"t": 62.83, "type": "say", "kind": "stall_phrase", "text": "सुनो... बारिश आई", "spans": [[2, 4]]}
+{"t": 66.11, "type": "speech"}
+{"t": 69.03, "type": "heard", "text": "बारिश"}
+{"t": 69.03, "type": "speech"}
+{"t": 73.0, "type": "speech"}
+{"t": 75.68, "type": "heard", "text": "आई"}
+{"t": 75.72, "type": "speech"}
+{"t": 76.57, "type": "speech"}
+{"t": 81.27, "type": "heard", "text": "ठंढी टंडी"}
+{"t": 81.27, "type": "speech"}
+{"t": 81.27, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 85.5, "type": "speech"}
+{"t": 90.1, "type": "heard", "text": "ठंढी ठंढी"}
+{"t": 90.1, "type": "speech"}
+{"t": 94.22, "type": "say", "kind": "stall_phrase", "text": "सुनो... ठंडी ठंडी हवा", "spans": [[4, 7]]}
+{"t": 102.57, "type": "say", "kind": "stall_rest", "text": "ठंडी ठंडी हवा भी आई। अब तुम बोलो!", "spans": [[4, 9]]}
+{"t": 112.23, "type": "say", "kind": "take_time", "text": "आराम से। मैं तुम्हारी मदद के लिए यहीं हूँ।", "spans": []}
+{"t": 112.81, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 8, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 4, "corrections": 0, "seconds": 87.6, "words_per_minute": 6.2}}

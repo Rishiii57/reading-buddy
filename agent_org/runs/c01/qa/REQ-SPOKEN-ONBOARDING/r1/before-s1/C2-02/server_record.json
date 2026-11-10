@@ -1,0 +1,951 @@
+{
+ "id": "20261109-192113-6e6f4a",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 10,
+  "words_helped": 5,
+  "words_to_practise": [
+   "एक",
+   "पर",
+   "चिड़िया",
+   "सुंदर"
+  ],
+  "words_practised": 8,
+  "correction_attempts": 8,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [
+   {
+    "line": 1,
+    "text": "एक पेड़ पर एक छोटी चिड़िया रहती थी।",
+    "mistakes": 11,
+    "words": [
+     "एक",
+     "पर",
+     "एक",
+     "चिड़िया"
+    ],
+    "reason": "more than 10 mistakes"
+   }
+  ],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 8,
+  "seconds": 183.7,
+  "words_per_minute": 4.9
+ },
+ "log": [
+  {
+   "t": 0.282,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.866,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.809,
+   "event": "transcript",
+   "text": "ए पेड़ पर एक छोठी छोटी चिड़िया रहती थी"
+  },
+  {
+   "t": 22.809,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 22.809,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 22.809,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 30.046,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 30.046,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 30.046,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 38.28,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 42.888,
+   "event": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी"
+  },
+  {
+   "t": 42.888,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 42.888,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    3
+   ]
+  },
+  {
+   "t": 42.888,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 49.084,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 49.084,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 49.084,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 54.528,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 54.528,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 54.528,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 63.45,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 67.666,
+   "event": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया"
+  },
+  {
+   "t": 67.666,
+   "event": "progress",
+   "frm": 0,
+   "to": 6
+  },
+  {
+   "t": 70.731,
+   "event": "transcript",
+   "text": "रहती"
+  },
+  {
+   "t": 70.731,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 73.289,
+   "event": "transcript",
+   "text": "थी"
+  },
+  {
+   "t": 73.289,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 73.289,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    3
+   ]
+  },
+  {
+   "t": 73.289,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 79.206,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 79.206,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 79.206,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 88.575,
+   "event": "silence",
+   "word": 3
+  },
+  {
+   "t": 91.386,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 91.386,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 91.386,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 98.385,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 103.52,
+   "event": "transcript",
+   "text": "एक पेड़ पड़ एक छोटी चिड़िया रहती थी"
+  },
+  {
+   "t": 103.52,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 103.52,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 103.52,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 110.115,
+   "event": "transcript",
+   "text": "पर पर"
+  },
+  {
+   "t": 110.115,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 110.115,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 117.299,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 123.012,
+   "event": "transcript",
+   "text": "एक पेड़ पड़ पर ए छोटी चिड़िया रहती"
+  },
+  {
+   "t": 123.012,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 125.216,
+   "event": "transcript",
+   "text": "थी"
+  },
+  {
+   "t": 125.216,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 125.216,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 125.216,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 131.139,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 131.139,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 131.139,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 137.966,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 147.159,
+   "event": "transcript",
+   "text": "पेड़ पर एक छोटी चिड़िया चिड़िया ड़हती रहती थी"
+  },
+  {
+   "t": 147.159,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 147.159,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 147.159,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 152.947,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 152.947,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 152.947,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 160.357,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 165.548,
+   "event": "transcript",
+   "text": "एक पेड़ पड़ छोटी चिरिया रहती थी"
+  },
+  {
+   "t": 165.548,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 165.548,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2,
+    3,
+    5
+   ]
+  },
+  {
+   "t": 165.548,
+   "event": "state",
+   "state": "LINE_SKIPPED",
+   "line": 0,
+   "mistakes": 11
+  },
+  {
+   "t": 170.653,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 175.8,
+   "event": "transcript",
+   "text": "उसने तिनकों तिनकों से एक सुंधर घोंसला बणाया"
+  },
+  {
+   "t": 175.8,
+   "event": "progress",
+   "frm": 8,
+   "to": 14
+  },
+  {
+   "t": 177.849,
+   "event": "transcript",
+   "text": "बनाया"
+  },
+  {
+   "t": 177.849,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 177.849,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    12
+   ]
+  },
+  {
+   "t": 177.849,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 12
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.051,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.809,
+   "type": "transcript",
+   "text": "ए पेड़ पर एक छोठी छोटी चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 28.862,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.046,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 38.379,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.888,
+   "type": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 47.903,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.084,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 53.335,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.528,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 64.261,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.666,
+   "type": "transcript",
+   "text": "ए पेड़ पर छोटी चिड़िया",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 69.549,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.731,
+   "type": "transcript",
+   "text": "रहती",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 72.043,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.289,
+   "type": "transcript",
+   "text": "थी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 78.026,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.206,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 90.176,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.386,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 98.459,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.52,
+   "type": "transcript",
+   "text": "एक पेड़ पड़ एक छोटी चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 108.381,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.115,
+   "type": "transcript",
+   "text": "पर पर",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 117.946,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.012,
+   "type": "transcript",
+   "text": "एक पेड़ पड़ पर ए छोटी चिड़िया रहती",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 123.963,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 125.216,
+   "type": "transcript",
+   "text": "थी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 129.958,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 131.139,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 141.535,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 147.159,
+   "type": "transcript",
+   "text": "पेड़ पर एक छोटी चिड़िया चिड़िया ड़हती रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 5200,
+   "message": null
+  },
+  {
+   "t": 151.763,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 152.947,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 160.993,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 165.548,
+   "type": "transcript",
+   "text": "एक पेड़ पड़ छोटी चिरिया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 170.697,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 175.8,
+   "type": "transcript",
+   "text": "उसने तिनकों तिनकों से एक सुंधर घोंसला बणाया",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 176.668,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 177.849,
+   "type": "transcript",
+   "text": "बनाया",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "ए पेड़ पर एक छोठी छोटी चिड़िया रहती थी",
+   "heard": "ए पेड़ पर एक छोठी छोटी चिड़िया रहती थी",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पर एक",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "heard": "ए पेड़ पर छोटी चिड़िया रहती थी",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ए पेड़ पर छोटी चिड़िया",
+   "heard": "ए पेड़ पर छोटी चिड़िया",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "रहती",
+   "heard": "रहती",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "थी",
+   "heard": "थी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पड़ एक छोटी चिड़िया रहती थी",
+   "heard": "एक पेड़ पड़ एक छोटी चिड़िया रहती थी",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "पर पर",
+   "heard": "पर पर",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "एक पेड़ पड़ पर ए छोटी चिड़िया रहती",
+   "heard": "एक पेड़ पड़ पर ए छोटी चिड़िया रहती",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "थी",
+   "heard": "थी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "पेड़ पर एक छोटी चिड़िया चिड़िया ड़हती रहती थी",
+   "heard": "पेड़ पर एक छोटी चिड़िया चिड़िया ड़हती रहती थी",
+   "muted_words": 0,
+   "duration_s": 5.2
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "एक पेड़ पड़ छोटी चिरिया रहती थी",
+   "heard": "एक पेड़ पड़ छोटी चिरिया रहती थी",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "उसने",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.76
+  },
+  {
+   "text": "उसने तिनकों तिनकों से एक सुंधर घोंसला बणाया",
+   "heard": "उसने तिनकों तिनकों से एक सुंधर घोंसला बणाया",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "बनाया",
+   "heard": "बनाया",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "बणाया",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 77
+}

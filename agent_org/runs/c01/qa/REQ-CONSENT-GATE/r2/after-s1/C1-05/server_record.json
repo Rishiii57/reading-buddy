@@ -1,0 +1,211 @@
+{
+ "id": "20261109-211031-f6a5dc",
+ "text_id": "hi-chidiya",
+ "mode": "mic",
+ "summary": {
+  "words_total": 30,
+  "words_read": 3,
+  "words_helped": 5,
+  "words_to_practise": [
+   "एक",
+   "पेड़",
+   "पर",
+   "छोटी"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 51.0,
+  "words_per_minute": 9.4
+ },
+ "log": [
+  {
+   "t": 0.03,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.392,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.48,
+   "event": "transcript",
+   "text": "चिड़िया रहती थी"
+  },
+  {
+   "t": 19.48,
+   "event": "progress",
+   "frm": 0,
+   "to": 8
+  },
+  {
+   "t": 19.48,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  },
+  {
+   "t": 19.48,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 26.003,
+   "event": "transcript",
+   "text": "एक"
+  },
+  {
+   "t": 26.003,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 26.003,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 31.667,
+   "event": "transcript",
+   "text": "पेड़"
+  },
+  {
+   "t": 31.667,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 31.667,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 39.708,
+   "event": "silence",
+   "word": 2
+  },
+  {
+   "t": 44.884,
+   "event": "silence",
+   "word": 2
+  },
+  {
+   "t": 50.774,
+   "event": "silence",
+   "word": 2
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.416,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.48,
+   "type": "transcript",
+   "text": "चिड़िया रहती थी",
+   "latency": 120,
+   "audio_duration_ms": 1638,
+   "message": null
+  },
+  {
+   "t": 24.81,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.003,
+   "type": "transcript",
+   "text": "एक",
+   "latency": 120,
+   "audio_duration_ms": 730,
+   "message": null
+  },
+  {
+   "t": 30.509,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.667,
+   "type": "transcript",
+   "text": "पेड़",
+   "latency": 120,
+   "audio_duration_ms": 730,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "एक पेर पेड़ पर ए ए छोठी चिड़िया रहती थी",
+   "heard": "चिड़िया रहती थी",
+   "muted_words": 7,
+   "duration_s": 5.46
+  },
+  {
+   "text": "एक",
+   "heard": "एक",
+   "muted_words": 0,
+   "duration_s": 0.73
+  },
+  {
+   "text": "पेड़",
+   "heard": "पेड़",
+   "muted_words": 0,
+   "duration_s": 0.73
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.73
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.73
+  },
+  {
+   "text": "पड़",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.73
+  }
+ ],
+ "tts_offline": 59
+}

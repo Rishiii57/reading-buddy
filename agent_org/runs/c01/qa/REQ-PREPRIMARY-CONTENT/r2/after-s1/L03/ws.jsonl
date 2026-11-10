@@ -1,0 +1,34 @@
+{"t": 11.21, "type": "ready", "message": null}
+{"t": 11.31, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 28.69, "type": "speech"}
+{"t": 33.22, "type": "heard", "text": "આવ ડે વરસાદ"}
+{"t": 33.23, "type": "speech"}
+{"t": 33.35, "type": "say", "kind": "echo_line", "text": "સાંભળ... ઘેવરિયો પરસાદ. હવે તું બોલ!", "spans": [[3, 5]]}
+{"t": 39.98, "type": "speech"}
+{"t": 42.06, "type": "heard", "text": "ઘેબરિયો"}
+{"t": 42.06, "type": "speech"}
+{"t": 46.79, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... પરસાદ.", "spans": [[4, 5]]}
+{"t": 51.51, "type": "speech"}
+{"t": 53.59, "type": "heard", "text": "પરસાદ"}
+{"t": 53.59, "type": "speech"}
+{"t": 53.63, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 53.85, "type": "say", "kind": "echo_line", "text": "સાંભળ... ઊની ઊની રોટલી હવે તું બોલ!", "spans": [[5, 8]]}
+{"t": 62.8, "type": "speech"}
+{"t": 69.13, "type": "heard", "text": "ઊણી ઊની ડોટલી ડોટલી"}
+{"t": 69.16, "type": "speech"}
+{"t": 71.28, "type": "speech"}
+{"t": 77.52, "type": "heard", "text": "ઊની ઊની ઊણી રોઠલી"}
+{"t": 77.52, "type": "speech"}
+{"t": 78.56, "type": "speech"}
+{"t": 80.68, "type": "heard", "text": "રોઠલી"}
+{"t": 80.69, "type": "speech"}
+{"t": 80.69, "type": "say", "kind": "echo_line", "text": "સાંભળ... ને કારેલાનું શાક. હવે તું બોલ!", "spans": [[8, 11]]}
+{"t": 88.81, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ને કારેલાનું શાક.", "spans": [[8, 11]]}
+{"t": 92.69, "type": "speech"}
+{"t": 94.74, "type": "heard", "text": "કાડેલાનું"}
+{"t": 94.74, "type": "speech"}
+{"t": 98.37, "type": "speech"}
+{"t": 100.82, "type": "heard", "text": "શાક"}
+{"t": 100.82, "type": "speech"}
+{"t": 101.06, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 101.5, "type": "summary", "summary": {"words_total": 11, "words_read": 5, "words_helped": 5, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 2, "corrections": 0, "seconds": 89.2, "words_per_minute": 6.7}}

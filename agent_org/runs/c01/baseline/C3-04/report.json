@@ -1,0 +1,357 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline",
+ "agent_id": "C3-04",
+ "seed": 1629,
+ "persona": {
+  "id": "C3-04",
+  "name": "Aarush",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 5.5,
+  "attention_span_s": 240
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 45.53,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 45.53,
+      "said": "a",
+      "heard": ""
+     },
+     {
+      "t": 64.63,
+      "said": "hiz",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 7,
+    "evidence_level": "observed",
+    "first_t": 56.31,
+    "details": [
+     "Buddy started talking 2.5 s into a planned 2.25 s thinking pause.",
+     "Buddy started talking 2.7 s into a planned 2.18 s thinking pause.",
+     "Buddy started talking 1.5 s into a planned 2.39 s thinking pause.",
+     "Buddy started talking 1.7 s into a planned 2.13 s thinking pause.",
+     "Buddy started talking 0.4 s into a planned 1.18 s thinking pause.",
+     "Buddy started talking 2.9 s into a planned 2.07 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 56.31,
+      "paused_s": 2.5,
+      "planned_s": 2.25,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "tree in his"
+     },
+     {
+      "t": 87.95,
+      "paused_s": 2.7,
+      "planned_s": 2.18,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "sweet mangoes."
+     },
+     {
+      "t": 104.7,
+      "paused_s": 1.5,
+      "planned_s": 2.39,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "mangoes with his"
+     },
+     {
+      "t": 115.61,
+      "paused_s": 1.7,
+      "planned_s": 2.13,
+      "line": 2,
+      "buddy_kind": "stall_phrase",
+      "next_words": "friends."
+     },
+     {
+      "t": 127.45,
+      "paused_s": 0.4,
+      "planned_s": 1.18,
+      "line": 3,
+      "buddy_kind": "uncertain",
+      "next_words": "the tree and"
+     },
+     {
+      "t": 136.42,
+      "paused_s": 2.9,
+      "planned_s": 2.07,
+      "line": 3,
+      "buddy_kind": "fix_word",
+      "next_words": "the tree and"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 6.0,
+  "frustration_events": [
+   {
+    "t": 41.15,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 45.53,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 50.52,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 53.76,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 56.31,
+    "kind": "interrupted_pause",
+    "frustration": 1.5,
+    "paused_s": 2.5
+   },
+   {
+    "t": 61.39,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 64.63,
+    "kind": "unheard_speech",
+    "frustration": 2.15
+   },
+   {
+    "t": 67.63,
+    "kind": "progress",
+    "frustration": 2.0
+   },
+   {
+    "t": 71.1,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 75.79,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 79.72,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 85.19,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 87.95,
+    "kind": "interrupted_pause",
+    "frustration": 2.4,
+    "paused_s": 2.7
+   },
+   {
+    "t": 93.14,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 93.19,
+    "kind": "praise",
+    "frustration": 1.85
+   },
+   {
+    "t": 99.11,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 102.63,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 104.7,
+    "kind": "interrupted_pause",
+    "frustration": 2.55,
+    "paused_s": 1.5
+   },
+   {
+    "t": 109.31,
+    "kind": "progress",
+    "frustration": 2.4
+   },
+   {
+    "t": 113.48,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 115.61,
+    "kind": "interrupted_pause",
+    "frustration": 3.25,
+    "paused_s": 1.7
+   },
+   {
+    "t": 119.43,
+    "kind": "progress",
+    "frustration": 3.1
+   },
+   {
+    "t": 121.97,
+    "kind": "progress",
+    "frustration": 2.95
+   },
+   {
+    "t": 127.02,
+    "kind": "progress",
+    "frustration": 2.8
+   },
+   {
+    "t": 127.45,
+    "kind": "interrupted_pause",
+    "frustration": 3.8,
+    "paused_s": 0.4
+   },
+   {
+    "t": 133.48,
+    "kind": "progress",
+    "frustration": 3.65
+   },
+   {
+    "t": 136.42,
+    "kind": "interrupted_pause",
+    "frustration": 4.65,
+    "paused_s": 2.9
+   },
+   {
+    "t": 150.0,
+    "kind": "progress",
+    "frustration": 4.5
+   },
+   {
+    "t": 152.63,
+    "kind": "interrupted_pause",
+    "frustration": 5.5,
+    "paused_s": 0.7
+   },
+   {
+    "t": 154.56,
+    "kind": "dead_click",
+    "frustration": 6.0,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 3,
+  "praise_heard": 1,
+  "interruptions": 7,
+  "unheard_words": 2,
+  "buddy_talk_s": 40.4,
+  "child_talk_s": 36.0,
+  "tired_said": false,
+  "time_to_text_s": 3.7,
+  "listen_first_s": 12.9,
+  "intro_s": 12.3,
+  "time_to_first_word_s": 12.3,
+  "session_s": 129.7,
+  "words_total": 32,
+  "words_attempted": 27,
+  "words_said_wrong": 1,
+  "corrections": 1,
+  "buddy_turns": 12,
+  "stall_prompts": 7,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 12,
+  "words_helped": 15,
+  "words_to_practise": [
+   "under"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 7,
+  "corrections": 1,
+  "seconds": 129.7,
+  "words_per_minute": 12.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 4,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 345,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

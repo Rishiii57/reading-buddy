@@ -24,6 +24,7 @@ from fastapi.staticfiles import StaticFiles  # noqa: E402
 from .content import LANGUAGES, load_library  # noqa: E402
 from .gnani import CACHE_DIR, TTS, StreamClock, open_stt, usage  # noqa: E402
 from .phrases import PHRASES  # noqa: E402
+from . import sim  # noqa: E402
 from .tutor import TutorConfig, TutorEngine  # noqa: E402
 
 log = logging.getLogger("tutor")
@@ -68,11 +69,11 @@ async def clip_for(part, text) -> dict:
 @app.get("/api/library")
 def get_library():
     out = {lang: [] for lang in LANGUAGES}
-    for t in library.values():
+    for t in sorted(library.values(), key=lambda t: t.level_order):  # youngest first
         demo = (DEMO_DIR / t.id / "demo.json").exists()  # the interactive demo child's plan
         out[t.language].append({"id": t.id, "title": t.title, "title_en": t.title_en,
-                                "type": t.type, "grade": t.grade, "words": len(t.words),
-                                "demo": demo})
+                                "type": t.type, "grade": t.grade, "pre_primary": t.pre_primary,
+                                "words": len(t.words), "demo": demo})
     return {"languages": LANGUAGES, "texts": out}
 
 
@@ -125,7 +126,19 @@ async def demo_say(text_id: str, a: int, b: int, swap: int = -1, said: str = "")
         raise HTTPException(400)
     words = [said if i == swap and said else t.words[i].display for i in range(a, b)]
     k = await tts.get(" ".join(words), t.language, DEMO_SPEED, voice=DEMO_VOICE, container="wav", sample_rate=16000)
-    return FileResponse(tts.path(k, "wav"), media_type="audio/wav")
+    f = tts.path(k, "wav")
+    if not f.exists() and tts.offline:
+        f = tts.offline_dir / f.name
+    return FileResponse(f, media_type="audio/wav")
+
+
+@app.get("/api/phrase/{lang}/{key}")
+async def phrase(lang: str, key: str):
+    """One of Buddy's fixed phrases as a cached clip (e.g. the spoken hint on the reading page)."""
+    if lang not in PHRASES or key not in PHRASES[lang]:
+        raise HTTPException(404)
+    k = await tts.get(PHRASES[lang][key], lang, 1.0)
+    return {"url": f"/tts/{k}.mp3", "text": PHRASES[lang][key]}
 
 
 @app.get("/api/usage")
@@ -138,9 +151,35 @@ def tts_file(name: str):
     if "/" in name or ".." in name:
         raise HTTPException(400)
     f = CACHE_DIR / "tts" / name
+    if not f.exists() and tts.offline:
+        f = tts.offline_dir / name  # placeholder clip (offline test mode only)
     if not f.exists():
         raise HTTPException(404)
     return FileResponse(f, media_type="audio/mpeg", headers={"Cache-Control": "public, max-age=31536000"})
+
+
+if sim.SIM_ENABLED:
+    from pydantic import BaseModel
+
+    class Utterance(BaseModel):
+        token: str
+        text: str
+        duration_s: float
+
+    @app.post("/api/sim/utter")
+    async def sim_utter(u: Utterance):
+        """Test agents only: 'say' something into the session that holds this token."""
+        s = sim.lookup(u.token)
+        if s is None:
+            raise HTTPException(404, "no live simulated session for this token")
+        return await s.utter(u.text, u.duration_s)
+
+    @app.get("/api/sim/record/{token}")
+    def sim_record(token: str):
+        r = sim.get_record(token)
+        if r is None:
+            raise HTTPException(404)
+        return r
 
 
 @app.get("/healthz")
@@ -151,6 +190,8 @@ def healthz():
 class Session:
     def __init__(self, ws: WebSocket, text_id: str, mode: str):
         self.ws = ws
+        # automated testing only (RB_SIM=1): the agent's token, from the rb_sim cookie
+        self.sim_token = ws.cookies.get("rb_sim") if sim.SIM_ENABLED else None
         self.text = library[text_id]
         self.mode = mode
         self.id = time.strftime("%Y%m%d-%H%M%S-") + uuid.uuid4().hex[:6]
@@ -228,6 +269,9 @@ class Session:
         await self.prefetch()
 
     async def connect_stt(self):
+        if self.sim_token:
+            self.stt = sim.SimSTT(self.sim_token, self, self.cfg.vad_silence_ms)
+            return
         self.stt = await open_stt(self.text.language, self.cfg.vad_silence_ms)
 
     async def stt_reader(self):
@@ -292,6 +336,13 @@ class Session:
             self.engine.on_tutor_audio_end(self.now())
 
     def save(self):
+        if self.sim_token:  # simulated sessions: no credits used; keep the record for the test agent
+            sim.store_record(self.sim_token, {
+                "id": self.id, "text_id": self.text.id, "mode": self.mode,
+                "summary": self.engine.summary(self.now()), "log": self.engine.log,
+                "stt_events": self.stt_events, "utterances": getattr(self.stt, "utterances", []),
+                "tts_offline": tts.offline_count})
+            return
         usage.add(stt_stream_seconds=self.clock.seconds)
         if not SAVE_SESSIONS:
             return

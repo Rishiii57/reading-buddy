@@ -1,0 +1,282 @@
+{
+ "utterances": [
+  {
+   "t": 28.57,
+   "said": "हड़ा",
+   "stt": "हड़ा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.11,
+   "said": "समंदर समंदर गोपी",
+   "stt": "समंदर समंदर गोपी",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.86,
+   "said": "चंदर",
+   "stt": "चंदर",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.58,
+   "said": "वोल",
+   "stt": "वोल",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 52.39,
+   "said": "बोल",
+   "stt": "बोल",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 56.91,
+   "said": "वोल",
+   "stt": "वोल",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.69,
+   "said": "मेरी",
+   "stt": "मेरी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.92,
+   "said": "मछली",
+   "stt": "मछली",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 74.47,
+   "said": "मछलि किथना",
+   "stt": "मछलि किथना",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.34,
+   "said": "पाणी",
+   "stt": "पाणी",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.57,
+    "target": "हरा",
+    "said": "हड़ा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हड़ा"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.11,
+    "target": "समंदर",
+    "said": "समंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "समंदर समंदर गोपी"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.11,
+    "target": "गोपी",
+    "said": "गोपी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "समंदर समंदर गोपी"
+   }
+  ],
+  "3": [
+   {
+    "t": 40.86,
+    "target": "चंदर",
+    "said": "चंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चंदर"
+   }
+  ],
+  "4": [
+   {
+    "t": 47.58,
+    "target": "बोल",
+    "said": "वोल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वोल"
+   },
+   {
+    "t": 52.39,
+    "target": "बोल",
+    "said": "बोल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बोल"
+   },
+   {
+    "t": 56.91,
+    "target": "बोल",
+    "said": "वोल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वोल"
+   }
+  ],
+  "5": [
+   {
+    "t": 62.69,
+    "target": "मेरी",
+    "said": "मेरी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेरी"
+   }
+  ],
+  "6": [
+   {
+    "t": 68.92,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली"
+   },
+   {
+    "t": 74.47,
+    "target": "मछली",
+    "said": "मछलि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछलि किथना"
+   }
+  ],
+  "7": [
+   {
+    "t": 74.47,
+    "target": "कितना",
+    "said": "किथना",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मछलि किथना"
+   }
+  ],
+  "8": [
+   {
+    "t": 80.34,
+    "target": "पानी",
+    "said": "पाणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पाणी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.55,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 40.98,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "बोल मेरी मछली कितना पानी? अब तुम बोलो!",
+   "spans": [
+    [
+     4,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 50.9,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बोल मेरी मछली",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 67.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... मछली कितना पानी?",
+   "spans": [
+    [
+     6,
+     9
+    ]
+   ]
+  }
+ ]
+}

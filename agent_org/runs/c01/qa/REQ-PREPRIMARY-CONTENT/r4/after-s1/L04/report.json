@@ -1,0 +1,253 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-after-s1",
+ "agent_id": "L04",
+ "seed": 2187,
+ "persona": {
+  "id": "L04",
+  "name": "Vivaan",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 2.5,
+  "attention_span_s": 90
+ },
+ "outcome": "abandoned_attention",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-twinkle",
+  "title": "Twinkle, Twinkle, Little Star",
+  "tags": [
+   "English",
+   "Nursery"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 22.55,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 22.55,
+      "said": "Twinkle twinkle",
+      "heard": ""
+     },
+     {
+      "t": 28.28,
+      "said": "Twinkle to",
+      "heard": ""
+     },
+     {
+      "t": 36.8,
+      "said": "little",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 97.63,
+    "details": [
+     "Buddy started talking 0.2 s into a planned 3.16 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 97.63,
+      "paused_s": 0.2,
+      "planned_s": 3.16,
+      "line": 2,
+      "buddy_kind": "echo_line",
+      "next_words": "above the world"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'I' as 'a' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "I",
+      "child_said": "a",
+      "kind": "sub",
+      "speech_model_wrote": "a wonder"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 1.95,
+  "frustration_events": [
+   {
+    "t": 22.55,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 22.55,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 28.28,
+    "kind": "unheard_speech",
+    "frustration": 1.45
+   },
+   {
+    "t": 28.28,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 31.1,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 36.8,
+    "kind": "unheard_speech",
+    "frustration": 1.95
+   },
+   {
+    "t": 36.8,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 46.49,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 54.46,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 59.43,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 68.13,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 82.76,
+    "kind": "progress",
+    "frustration": 1.05
+   },
+   {
+    "t": 87.66,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 97.51,
+    "kind": "praise",
+    "frustration": 0.5
+   },
+   {
+    "t": 97.63,
+    "kind": "interrupted_pause",
+    "frustration": 1.5,
+    "paused_s": 0.2
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 1,
+  "unheard_words": 5,
+  "buddy_talk_s": 22.3,
+  "child_talk_s": 23.2,
+  "tired_said": false,
+  "time_to_text_s": 2.9,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 4.9,
+  "intro_s": 13.0,
+  "session_s": 94.9,
+  "words_total": 22,
+  "words_attempted": 11,
+  "words_said_wrong": 5,
+  "corrections": 0,
+  "buddy_turns": 6,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 6,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 94.9,
+  "words_per_minute": 6.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 102,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "text_id": "en-kite",
+ "language": "en-IN",
+ "variant": "aug_childlike",
+ "voice": "Riyaa",
+ "duration": 18.53,
+ "segments": [
+  {
+   "start": 1.0,
+   "end": 2.778,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+   ],
+   "line": 0
+  },
+  {
+   "start": 5.778,
+   "end": 8.8,
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+   ],
+   "line": 1
+  },
+  {
+   "start": 10.4,
+   "end": 12.711,
+   "words": [
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+   ],
+   "line": 2
+  },
+  {
+   "start": 13.511,
+   "end": 16.533,
+   "words": [
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_childlike); synthetic voice"
+}

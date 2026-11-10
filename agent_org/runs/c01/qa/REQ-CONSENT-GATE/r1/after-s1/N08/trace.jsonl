@@ -1,0 +1,9 @@
+{"t": 1.93, "kind": "open_app", "brief": "Myra, Nursery (about 3.5 years). Prefers hi-IN. Code-mixes Hindi and English."}
+{"t": 1.94, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 2.78, "kind": "tap", "target": "My Little Kite English Grade 1-2 Poem 1 ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.86, "kind": "opened_text", "hash": "#/read/en-kite", "title": "My Little Kite", "tags": ["English", "Grade 1-2"], "words": 29, "lines": 4}
+{"t": 5.93, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a en-IN text."}
+{"t": 5.93, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 10.05, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 10.11, "kind": "tap", "target": "Reading Buddy", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.73, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

@@ -1,0 +1,380 @@
+{
+ "id": "20261110-012338-485d63",
+ "text_id": "gu-avre",
+ "mode": "mic",
+ "summary": {
+  "words_total": 11,
+  "words_read": 4,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 74.6,
+  "words_per_minute": 7.2
+ },
+ "log": [
+  {
+   "t": 0.06,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.982,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.595,
+   "event": "transcript",
+   "text": "આવ ડે વરસાદ"
+  },
+  {
+   "t": 22.595,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 22.595,
+   "event": "echo_slips_accepted",
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 22.595,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 22.595,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 25.354,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.063,
+   "event": "transcript",
+   "text": "ઘેવડિયો પરશાદ"
+  },
+  {
+   "t": 29.063,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 30.665,
+   "event": "progress",
+   "to": 5
+  },
+  {
+   "t": 30.665,
+   "event": "echo_slips_accepted",
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 30.665,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 30.665,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 30.665,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 30.665,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 34.745,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.623,
+   "event": "transcript",
+   "text": "ઊણી"
+  },
+  {
+   "t": 41.623,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 49.436,
+   "event": "transcript",
+   "text": "ઊણી રોટલી"
+  },
+  {
+   "t": 49.436,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 49.436,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 49.436,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 53.193,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 57.225,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 8,
+   "to": 11,
+   "line": 3
+  },
+  {
+   "t": 57.225,
+   "event": "prompt",
+   "level": 1,
+   "line": 3,
+   "frm": 8,
+   "to": 11
+  },
+  {
+   "t": 60.547,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 66.103,
+   "event": "transcript",
+   "text": "ણે કારેલાનું"
+  },
+  {
+   "t": 66.103,
+   "event": "progress",
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 70.643,
+   "event": "transcript",
+   "text": "સાક"
+  },
+  {
+   "t": 70.643,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 70.643,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 70.643,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 70.643,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.683,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.595,
+   "type": "transcript",
+   "text": "આવ ડે વરસાદ",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 25.582,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.063,
+   "type": "transcript",
+   "text": "ઘેવડિયો પરશાદ",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 39.553,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.623,
+   "type": "transcript",
+   "text": "ઊણી",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 45.951,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.436,
+   "type": "transcript",
+   "text": "ઊણી રોટલી",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 62.62,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.103,
+   "type": "transcript",
+   "text": "ણે કારેલાનું",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 68.59,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.643,
+   "type": "transcript",
+   "text": "સાક",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "આવ ડે વડસાદ",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 4.49
+  },
+  {
+   "text": "આવ ડે વરસાદ",
+   "heard": "આવ ડે વરસાદ",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "ઘેવડિયો પરશાદ",
+   "heard": "ઘેવડિયો પરશાદ",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "ઊણી ઊની ઊની",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 4.49
+  },
+  {
+   "text": "ઊણી",
+   "heard": "ઊણી",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "ઊણી રોટલી",
+   "heard": "ઊણી રોટલી",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "ણે કારેલાનું",
+   "heard": "ણે કારેલાનું",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "સાક",
+   "heard": "સાક",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 81
+}

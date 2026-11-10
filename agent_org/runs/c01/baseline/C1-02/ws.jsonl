@@ -1,0 +1,34 @@
+{"t": 9.79, "type": "ready", "message": null}
+{"t": 9.89, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 25.91, "type": "speech"}
+{"t": 28.83, "type": "heard", "text": "बादल गरजे बारिश"}
+{"t": 28.83, "type": "speech"}
+{"t": 30.91, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई", "spans": [[3, 4]]}
+{"t": 35.43, "type": "speech"}
+{"t": 37.63, "type": "heard", "text": "आई"}
+{"t": 37.63, "type": "speech"}
+{"t": 38.5, "type": "speech"}
+{"t": 43.84, "type": "heard", "text": "ठंडी टंडी हबा भी आई आई"}
+{"t": 43.84, "type": "speech"}
+{"t": 43.9, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। ठंडी", "spans": [[5, 6]]}
+{"t": 48.59, "type": "speech"}
+{"t": 50.06, "type": "heard", "text": "ठंडी"}
+{"t": 50.06, "type": "speech"}
+{"t": 50.87, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! हवा", "spans": [[6, 7]]}
+{"t": 54.89, "type": "speech"}
+{"t": 56.88, "type": "heard", "text": "हवा"}
+{"t": 56.88, "type": "speech"}
+{"t": 56.88, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! ठंडी ठंडी हवा भी आई। अब तुम पूरी पंक्ति बोलो।", "spans": [[4, 9]]}
+{"t": 62.58, "type": "speech"}
+{"t": 63.98, "type": "heard", "text": "ठंढी"}
+{"t": 63.98, "type": "speech"}
+{"t": 66.15, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। ठंडी", "spans": [[4, 5]]}
+{"t": 70.19, "type": "speech"}
+{"t": 71.69, "type": "heard", "text": "ठंडी"}
+{"t": 71.69, "type": "speech"}
+{"t": 71.7, "type": "say", "kind": "fix_next", "text": "हाँ! बहुत अच्छे! ठंडी", "spans": [[5, 6]]}
+{"t": 75.79, "type": "speech"}
+{"t": 77.98, "type": "heard", "text": "ठंढी"}
+{"t": 77.98, "type": "speech"}
+{"t": 77.98, "type": "say", "kind": "fix_again", "text": "ठंडी", "spans": [[5, 6]]}
+{"t": 80.32, "type": "summary", "summary": {"words_total": 17, "words_read": 5, "words_helped": 4, "words_to_practise": ["ठंडी", "हवा"], "words_practised": 3, "correction_attempts": 4, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 70.5, "words_per_minute": 7.7}}

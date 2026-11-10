@@ -1,0 +1,483 @@
+{
+ "id": "20261109-213819-7167f9",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 4,
+  "words_helped": 3,
+  "words_to_practise": [
+   "A",
+   "small",
+   "ant"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 5,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 101.4,
+  "words_per_minute": 4.1
+ },
+ "log": [
+  {
+   "t": 0.082,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.586,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.447,
+   "event": "transcript",
+   "text": "A sun"
+  },
+  {
+   "t": 17.447,
+   "event": "uncertain",
+   "text": "a sun"
+  },
+  {
+   "t": 17.447,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 20.915,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.739,
+   "event": "transcript",
+   "text": "A zun"
+  },
+  {
+   "t": 23.739,
+   "event": "uncertain",
+   "text": "a zun"
+  },
+  {
+   "t": 28.58,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 35.435,
+   "event": "transcript",
+   "text": "walked across the floor"
+  },
+  {
+   "t": 35.435,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 35.435,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1,
+    2
+   ]
+  },
+  {
+   "t": 35.435,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 43.631,
+   "event": "silence",
+   "word": 0
+  },
+  {
+   "t": 47.558,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 47.558,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 47.558,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 53.421,
+   "event": "transcript",
+   "text": "sun"
+  },
+  {
+   "t": 53.421,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "sun"
+  },
+  {
+   "t": 58.645,
+   "event": "silence",
+   "word": 1
+  },
+  {
+   "t": 62.741,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 62.741,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 62.741,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 71.795,
+   "event": "silence",
+   "word": 2
+  },
+  {
+   "t": 75.551,
+   "event": "transcript",
+   "text": "ana"
+  },
+  {
+   "t": 75.551,
+   "event": "drill_miss",
+   "word": 2,
+   "heard": "ana"
+  },
+  {
+   "t": 80.369,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 80.369,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 80.369,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 86.859,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 96.0,
+   "event": "transcript",
+   "text": "small ant walked"
+  },
+  {
+   "t": 96.0,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 99.091,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 99.091,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.155,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.447,
+   "type": "transcript",
+   "text": "A sun",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 21.444,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.739,
+   "type": "transcript",
+   "text": "A zun",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 27.125,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.58,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 31.479,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.435,
+   "type": "transcript",
+   "text": "walked across the floor",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 46.06,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.558,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 51.968,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.421,
+   "type": "transcript",
+   "text": "sun",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 61.289,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 62.741,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 74.101,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.551,
+   "type": "transcript",
+   "text": "ana",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 78.915,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.369,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 92.869,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.0,
+   "type": "transcript",
+   "text": "small ant walked",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A sun",
+   "heard": "A sun",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "A zun",
+   "heard": "A zun",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "walked across the floor",
+   "heard": "walked across the floor",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "sun",
+   "heard": "sun",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ana",
+   "heard": "ana",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "A small small",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.7
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "small ant walked",
+   "heard": "small ant walked",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 205
+}

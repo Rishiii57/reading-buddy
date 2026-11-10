@@ -1,0 +1,766 @@
+{
+ "id": "20261109-181539-660687",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 35,
+  "words_helped": 2,
+  "words_to_practise": [
+   "The",
+   "rice"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 5,
+  "lines_completed": 5,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 120.0,
+  "words_per_minute": 18.5
+ },
+ "log": [
+  {
+   "t": 0.029,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.318,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.27,
+   "event": "transcript",
+   "text": "A small ana ant walked across the floor"
+  },
+  {
+   "t": 18.27,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 18.27,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 24.054,
+   "event": "transcript",
+   "text": "It carried a grain grain of rice on its back"
+  },
+  {
+   "t": 24.054,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 24.054,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 24.054,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 24.054,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 27.258,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.514,
+   "event": "transcript",
+   "text": "tha ran rice was bigger than the ant"
+  },
+  {
+   "t": 31.514,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 31.514,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16
+   ]
+  },
+  {
+   "t": 31.514,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 37.107,
+   "event": "transcript",
+   "text": "The"
+  },
+  {
+   "t": 37.107,
+   "event": "drill_ok",
+   "word": 16
+  },
+  {
+   "t": 37.107,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 44.261,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.63,
+   "event": "transcript",
+   "text": "tha rice waa was bigger than the ant"
+  },
+  {
+   "t": 48.63,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 48.63,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16
+   ]
+  },
+  {
+   "t": 48.63,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 53.395,
+   "event": "transcript",
+   "text": "The"
+  },
+  {
+   "t": 53.395,
+   "event": "drill_ok",
+   "word": 16
+  },
+  {
+   "t": 53.395,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 60.608,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 63.957,
+   "event": "transcript",
+   "text": "The red was bigger than ant"
+  },
+  {
+   "t": 63.957,
+   "event": "progress",
+   "frm": 16,
+   "to": 21
+  },
+  {
+   "t": 65.903,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 65.903,
+   "event": "uncertain",
+   "text": "ant the"
+  },
+  {
+   "t": 65.903,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 69.644,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 72.411,
+   "event": "transcript",
+   "text": "the ant"
+  },
+  {
+   "t": 72.411,
+   "event": "progress",
+   "frm": 21,
+   "to": 23
+  },
+  {
+   "t": 72.411,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    17
+   ]
+  },
+  {
+   "t": 72.411,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 80.061,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 80.061,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 80.061,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 86.316,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 89.231,
+   "event": "transcript",
+   "text": "The red rice was bigger"
+  },
+  {
+   "t": 89.231,
+   "event": "progress",
+   "frm": 16,
+   "to": 20
+  },
+  {
+   "t": 92.804,
+   "event": "transcript",
+   "text": "than the ant"
+  },
+  {
+   "t": 92.804,
+   "event": "progress",
+   "frm": 20,
+   "to": 23
+  },
+  {
+   "t": 92.804,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 92.804,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 96.873,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 102.247,
+   "event": "transcript",
+   "text": "But the ana ant did not give ua up"
+  },
+  {
+   "t": 102.247,
+   "event": "progress",
+   "frm": 23,
+   "to": 30
+  },
+  {
+   "t": 102.247,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 106.25,
+   "event": "transcript",
+   "text": "It walked slowly and reached home"
+  },
+  {
+   "t": 106.25,
+   "event": "progress",
+   "frm": 30,
+   "to": 35
+  },
+  {
+   "t": 109.066,
+   "event": "transcript",
+   "text": "ita its he"
+  },
+  {
+   "t": 109.066,
+   "event": "uncertain",
+   "text": "home ita its he"
+  },
+  {
+   "t": 109.066,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 112.204,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 113.445,
+   "event": "transcript",
+   "text": "its"
+  },
+  {
+   "t": 113.445,
+   "event": "progress",
+   "frm": 35,
+   "to": 36
+  },
+  {
+   "t": 115.997,
+   "event": "transcript",
+   "text": "home"
+  },
+  {
+   "t": 115.997,
+   "event": "progress",
+   "frm": 36,
+   "to": 37
+  },
+  {
+   "t": 115.997,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 4
+  },
+  {
+   "t": 115.997,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 115.997,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.32,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.27,
+   "type": "transcript",
+   "text": "A small ana ant walked across the floor",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 19.264,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.054,
+   "type": "transcript",
+   "text": "It carried a grain grain of rice on its back",
+   "latency": 120,
+   "audio_duration_ms": 4370,
+   "message": null
+  },
+  {
+   "t": 27.564,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.514,
+   "type": "transcript",
+   "text": "tha ran rice was bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 36.066,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.107,
+   "type": "transcript",
+   "text": "The",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 44.643,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.63,
+   "type": "transcript",
+   "text": "tha rice waa was bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 52.307,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 53.395,
+   "type": "transcript",
+   "text": "The",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 60.818,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.957,
+   "type": "transcript",
+   "text": "The red was bigger than ant",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 64.862,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 65.903,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 70.961,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 72.411,
+   "type": "transcript",
+   "text": "the ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 79.02,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.061,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 86.399,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.231,
+   "type": "transcript",
+   "text": "The red rice was bigger",
+   "latency": 120,
+   "audio_duration_ms": 2280,
+   "message": null
+  },
+  {
+   "t": 90.933,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.804,
+   "type": "transcript",
+   "text": "than the ant",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 97.344,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.247,
+   "type": "transcript",
+   "text": "But the ana ant did not give ua up",
+   "latency": 120,
+   "audio_duration_ms": 3950,
+   "message": null
+  },
+  {
+   "t": 103.111,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 106.25,
+   "type": "transcript",
+   "text": "It walked slowly and reached home",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 107.195,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 109.066,
+   "type": "transcript",
+   "text": "ita its he",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 112.403,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.445,
+   "type": "transcript",
+   "text": "its",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 114.957,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 115.997,
+   "type": "transcript",
+   "text": "home",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ana ant walked across the floor",
+   "heard": "A small ana ant walked across the floor",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "It carried a grain grain of rice on its back",
+   "heard": "It carried a grain grain of rice on its back",
+   "muted_words": 0,
+   "duration_s": 4.37
+  },
+  {
+   "text": "tha ran rice was bigger than the ant",
+   "heard": "tha ran rice was bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "The",
+   "heard": "The",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "tha rice waa was bigger than the ant",
+   "heard": "tha rice waa was bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "The",
+   "heard": "The",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "The red was bigger than ant",
+   "heard": "The red was bigger than ant",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "the ant",
+   "heard": "the ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "The red rice was bigger",
+   "heard": "The red rice was bigger",
+   "muted_words": 0,
+   "duration_s": 2.28
+  },
+  {
+   "text": "than the ant",
+   "heard": "than the ant",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "But the ana ant did not give ua up",
+   "heard": "But the ana ant did not give ua up",
+   "muted_words": 0,
+   "duration_s": 3.95
+  },
+  {
+   "text": "It walked slowly and reached home",
+   "heard": "It walked slowly and reached home",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "ita its he",
+   "heard": "ita its he",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "its",
+   "heard": "its",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "home",
+   "heard": "home",
+   "muted_words": 0,
+   "duration_s": 0.62
+  }
+ ],
+ "tts_offline": 71
+}

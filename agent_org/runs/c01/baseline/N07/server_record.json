@@ -1,0 +1,170 @@
+{
+ "id": "20261109-181849-f3c7b7",
+ "text_id": "en-kite",
+ "mode": "mic",
+ "summary": {
+  "words_total": 29,
+  "words_read": 0,
+  "words_helped": 8,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 46.4,
+  "words_per_minute": 10.4
+ },
+ "log": [
+  {
+   "t": 0.055,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.673,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.579,
+   "event": "transcript",
+   "text": "a king"
+  },
+  {
+   "t": 19.579,
+   "event": "uncertain",
+   "text": "a king"
+  },
+  {
+   "t": 19.579,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 22.741,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.575,
+   "event": "transcript",
+   "text": "have"
+  },
+  {
+   "t": 36.319,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 36.319,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 39.862,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.399,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 43.399,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 0,
+   "to": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.2,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.579,
+   "type": "transcript",
+   "text": "a king",
+   "latency": 120,
+   "audio_duration_ms": 3950,
+   "message": null
+  },
+  {
+   "t": 28.646,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.575,
+   "type": "transcript",
+   "text": "have",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "a king",
+   "heard": "a king",
+   "muted_words": 0,
+   "duration_s": 3.95
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "have",
+   "heard": "have",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "kite",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 31
+}

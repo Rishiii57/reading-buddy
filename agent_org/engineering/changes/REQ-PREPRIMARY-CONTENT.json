@@ -1,0 +1,408 @@
+{
+ "requirement": "REQ-PREPRIMARY-CONTENT",
+ "rounds": [
+  {
+   "at": "2026-11-09T19:13:13",
+   "summary": "13 traditional public-domain rhymes (en 5, hi 4, gu 4) for Nursery/LKG/UKG; level-aware library (youngest first, bigger rhyme cards, Nursery/LKG/UKG chips); echo reading: Buddy models every line of a pre-primary rhyme",
+   "root_cause": "Library held only Grade 1-4 continuous texts and the grade filter offered Grade 1-5; pre-readers could only stall. Confirmed for 26/26 pre-primary personas in c01.",
+   "commit": "54811fcfeab274545c4620ac4ee03c9381bb0b3f",
+   "files": [
+    "backend/content.py",
+    "backend/main.py",
+    "backend/tutor.py",
+    "content/en-IN.json",
+    "content/gu-IN.json",
+    "content/hi-IN.json",
+    "frontend/app.js",
+    "frontend/styles.css",
+    "tests/test_tutor.py"
+   ],
+   "outside_ownership": [
+    "backend/content.py"
+   ],
+   "roles": [
+    "Data Engineer",
+    "Frontend Engineer",
+    "Backend Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "58 passed in 0.44s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 2.39,
+    "stall_prompt_s_max": 2.46,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  },
+  {
+   "at": "2026-11-09T20:58:18",
+   "summary": "Round 2: refreshed onto the integration build (conflicts in tutor.py/styles.css/tests resolved keeping both); library split into two shelves: 'Rhymes for little ones' first, then 'Poems and stories'",
+   "root_cause": "QA round 1: 40% of pre-primary children still picked Grade texts because rhymes and grade texts were mixed on one shelf, and coverage stayed low because the branch lacked the validated mic/stall/onboarding fixes.",
+   "commit": "2249bb97a20bd937aad870d0fb640fbefd687f64",
+   "files": [
+    "backend/content.py",
+    "backend/main.py",
+    "backend/tutor.py",
+    "content/en-IN.json",
+    "content/gu-IN.json",
+    "content/hi-IN.json",
+    "frontend/app.js",
+    "frontend/styles.css",
+    "tests/test_tutor.py"
+   ],
+   "outside_ownership": [
+    "backend/content.py"
+   ],
+   "roles": [
+    "Data Engineer",
+    "Frontend Engineer",
+    "Backend Engineer",
+    "Integration Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "63 passed in 6.73s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 3.39,
+    "stall_prompt_s_max": 3.91,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  },
+  {
+   "at": "2026-11-09T21:30:56",
+   "summary": "Round 3: refreshed onto integration (consent removal included); pre-primary rhymes use lenient echo reading (slips marked 'helped', no word drills; mid-line slip -> help, not correction) and a 4.5 s mid-line wait",
+   "root_cause": "QA round 2: on rhymes, pre-readers repeating Buddy word by word were interrupted (20) and pulled into strict word drills on pronunciation slips, so 95% gave up; the strict Grade-level correction loop does not fit oral echo reading.",
+   "commit": "c78f125f9cfba154a823740676c3f5a6405929da",
+   "files": [
+    "backend/content.py",
+    "backend/main.py",
+    "backend/tutor.py",
+    "content/en-IN.json",
+    "content/gu-IN.json",
+    "content/hi-IN.json",
+    "frontend/app.js",
+    "frontend/styles.css",
+    "tests/test_tutor.py"
+   ],
+   "outside_ownership": [
+    "backend/content.py"
+   ],
+   "roles": [
+    "Data Engineer",
+    "Frontend Engineer",
+    "Backend Engineer",
+    "AI/ML Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "64 passed in 3.98s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 3.39,
+    "stall_prompt_s_max": 3.91,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  },
+  {
+   "at": "2026-11-10T01:11:50",
+   "summary": "Round 4: shorter echo demonstration (line + 'your turn' only)",
+   "root_cause": "QA round 3: on rhymes, children lost speech talking over Buddy (14) during the longer echo demonstration ('Listen...' + line + 'Now you try').",
+   "commit": "b8d73d08287f1d937f6accf63f19dd2e4e8cd395",
+   "files": [
+    "backend/content.py",
+    "backend/main.py",
+    "backend/tutor.py",
+    "content/en-IN.json",
+    "content/gu-IN.json",
+    "content/hi-IN.json",
+    "frontend/app.js",
+    "frontend/styles.css",
+    "tests/test_tutor.py"
+   ],
+   "outside_ownership": [
+    "backend/content.py",
+    "content/en-IN.json",
+    "content/gu-IN.json",
+    "content/hi-IN.json",
+    "frontend/app.js",
+    "frontend/styles.css"
+   ],
+   "roles": [
+    "Backend Engineer",
+    "AI/ML Engineer"
+   ],
+   "tests": {
+    "passed": true,
+    "tail": [
+     "64 passed in 1.01s"
+    ]
+   },
+   "replay": {
+    "readings": 84,
+    "tracking_pass": "23/24",
+    "errors_caught": "23/24",
+    "subs_caught": "11/12",
+    "skips_caught": "12/12",
+    "error_response_s_median": 0.41,
+    "stalls_prompted": "11/12",
+    "stall_prompt_s_median": 3.39,
+    "stall_prompt_s_max": 3.91,
+    "false_corrections": 3,
+    "correct_words": 1441,
+    "false_corrections_per_50_words": 0.104,
+    "prompts_in_clean_readings": 0,
+    "prisma_latency_ms_median": 117,
+    "transcript_after_line_end_s_median": 0.35,
+    "prisma_wer_clean": {
+     "en-IN": 0.014,
+     "gu-IN": 0.073,
+     "hi-IN": 0.0
+    },
+    "stress_sets": {
+     "hard": {
+      "tracking_pass": "3/12",
+      "false_corrections": 6,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 1.02,
+      "prompts_during_hesitations": 2
+     },
+     "hard2": {
+      "tracking_pass": "2/12",
+      "false_corrections": 13,
+      "words": 293,
+      "false_silent_notes": 0,
+      "false_corrections_per_50_words": 2.22,
+      "prompts_during_hesitations": 2
+     }
+    },
+    "by_language": {
+     "en-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     },
+     "gu-IN": {
+      "tracking": "7/8",
+      "errors": "7/8",
+      "stall": "3/4"
+     },
+     "hi-IN": {
+      "tracking": "8/8",
+      "errors": "8/8",
+      "stall": "4/4"
+     }
+    }
+   }
+  }
+ ],
+ "branch": "eng/REQ-PREPRIMARY-CONTENT",
+ "worktree": "/home/claude/rishiii57/rb-worktrees/REQ-PREPRIMARY-CONTENT",
+ "base_branch": "agent-org-handoff",
+ "base_commit": "af436556b841ffc9d6e1c7d0c02b1bf5fd4c00b1",
+ "role": "Data Engineer",
+ "started": "2026-11-09T19:11:15",
+ "qa": [
+  {
+   "round": 1,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r1/VALIDATION.md"
+  },
+  {
+   "round": 2,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r2/VALIDATION.md"
+  },
+  {
+   "round": 3,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r3/VALIDATION.md"
+  },
+  {
+   "round": 4,
+   "verdict": "returned_to_engineering",
+   "report": "agent_org/runs/c01/qa/REQ-PREPRIMARY-CONTENT/r4/VALIDATION.md"
+  }
+ ],
+ "refreshes": [
+  {
+   "at": "2026-11-09T20:57:34",
+   "from_base": "951b5bcee2fad491451181244f6e3e6f901aaa1c",
+   "to_base": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0"
+  },
+  {
+   "at": "2026-11-09T21:30:16",
+   "from_base": "ef4a0beee86ceaf4fb6321f3b2a9ebea6c726cf0",
+   "to_base": "af436556b841ffc9d6e1c7d0c02b1bf5fd4c00b1"
+  }
+ ],
+ "merged": {
+  "at": "2026-11-10T11:13:45",
+  "into": "agent-org-handoff",
+  "commit": "2ebe27df3c85b4e8a5ac20c298ee4b2342bf6b92"
+ }
+}

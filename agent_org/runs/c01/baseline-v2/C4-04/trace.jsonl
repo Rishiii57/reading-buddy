@@ -1,0 +1,11 @@
+{"t": 4.75, "kind": "open_app", "brief": "Khushi, Class 4 (about 9.5 years). Prefers en-IN. Finds most texts too easy."}
+{"t": 4.78, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 6.03, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.06, "kind": "tap", "target": "Grade 41", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.09, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 11.86, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 17.32, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 21.02, "kind": "session_started", "tries": 1}
+{"t": 39.13, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.5 s into a planned 2.2 s thinking pause."}
+{"t": 83.24, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.6 s into a planned 1.9 s thinking pause."}
+{"t": 89.86, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'the' correctly but Buddy asked to practise it (the speech model wrote it differently)."}

@@ -1,0 +1,644 @@
+{
+ "utterances": [
+  {
+   "t": 26.57,
+   "said": "A",
+   "stt": "A",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.38,
+   "said": "said ana walked walked",
+   "stt": "said walked walked",
+   "stt_notes": [
+    "lost 'ana'"
+   ],
+   "words": [
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.81,
+   "said": "said small ant walked all the for floor",
+   "stt": "said small ant walked all the for floor",
+   "stt_notes": [],
+   "words": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.51,
+   "said": "across",
+   "stt": "across",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 64.7,
+   "said": "A see ana walked across",
+   "stt": "A see ana walked across",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 5,
+   "over_buddy": true
+  },
+  {
+   "t": 73.54,
+   "said": "A small ana ant we all the",
+   "stt": "A zmall ama ant we all the",
+   "stt_notes": [
+    "'small' heard as 'zmall'",
+    "'ana' heard as 'ama'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.51,
+   "said": "A small ant walked across tha floor",
+   "stt": "A small ant walked across tha floor",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.64,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 100.27,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 115.25,
+   "said": "A sun ant walked across across",
+   "stt": "A sun ant walked across across",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 122.66,
+   "said": "small",
+   "stt": "small",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 134.51,
+   "said": "A small ant we",
+   "stt": "A zmall ant we",
+   "stt_notes": [
+    "'small' heard as 'zmall'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 26.57,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A"
+   },
+   {
+    "t": 64.7,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A see ana walked across"
+   },
+   {
+    "t": 73.54,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 115.25,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun ant walked across across"
+   },
+   {
+    "t": 134.51,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A zmall ant we"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.38,
+    "target": "small",
+    "said": "said",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said walked walked"
+   },
+   {
+    "t": 50.81,
+    "target": "small",
+    "said": "said small",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 64.7,
+    "target": "small",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A see ana walked across"
+   },
+   {
+    "t": 73.54,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 115.25,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun ant walked across across"
+   },
+   {
+    "t": 122.66,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small",
+    "drill": true
+   },
+   {
+    "t": 134.51,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A zmall ant we"
+   }
+  ],
+  "2": [
+   {
+    "t": 37.38,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said walked walked"
+   },
+   {
+    "t": 50.81,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 64.7,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A see ana walked across"
+   },
+   {
+    "t": 73.54,
+    "target": "ant",
+    "said": "ana ant",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 115.25,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun ant walked across across"
+   },
+   {
+    "t": 134.51,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A zmall ant we"
+   }
+  ],
+  "3": [
+   {
+    "t": 37.38,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "said walked walked"
+   },
+   {
+    "t": 50.81,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 64.7,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A see ana walked across"
+   },
+   {
+    "t": 73.54,
+    "target": "walked",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 115.25,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun ant walked across across"
+   },
+   {
+    "t": 134.51,
+    "target": "walked",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zmall ant we"
+   }
+  ],
+  "4": [
+   {
+    "t": 50.81,
+    "target": "across",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 56.51,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "across",
+    "drill": true
+   },
+   {
+    "t": 64.7,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A see ana walked across"
+   },
+   {
+    "t": 73.54,
+    "target": "across",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 115.25,
+    "target": "across",
+    "said": "across",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun ant walked across across"
+   }
+  ],
+  "5": [
+   {
+    "t": 50.81,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 73.54,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A zmall ama ant we all the"
+   },
+   {
+    "t": 85.51,
+    "target": "the",
+    "said": "tha",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A small ant walked across tha floor"
+   },
+   {
+    "t": 90.64,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 100.27,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the",
+    "drill": true
+   }
+  ],
+  "6": [
+   {
+    "t": 50.81,
+    "target": "floor",
+    "said": "for floor",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "said small ant walked all the for floor"
+   },
+   {
+    "t": 85.51,
+    "target": "floor",
+    "said": "floor",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant walked across tha floor"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 10.87,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 28.67,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... small ant walked",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 37.49,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 50.88,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. across",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 57.42,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 73.63,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 85.89,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. the",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 100.38,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 117.38,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 122.71,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 136.93,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "Let's practise this word together. small",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

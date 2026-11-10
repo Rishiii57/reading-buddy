@@ -1,0 +1,20 @@
+{"t": 13.72, "type": "ready", "message": null}
+{"t": 13.8, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 30.34, "type": "speech"}
+{"t": 32.36, "type": "heard", "text": "મામાનું ઘર કેટલે"}
+{"t": 32.39, "type": "speech"}
+{"t": 32.41, "type": "say", "kind": "echo_line", "text": "દીવો બળે એટલે. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 37.05, "type": "speech"}
+{"t": 38.91, "type": "heard", "text": "દીવો બળે એટલે"}
+{"t": 38.91, "type": "speech"}
+{"t": 39.07, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 39.14, "type": "say", "kind": "echo_line", "text": "દીવો મેં તો દીઠો હવે તું બોલ!", "spans": [[6, 10]]}
+{"t": 47.33, "type": "speech"}
+{"t": 49.68, "type": "heard", "text": "દીવો મેં તો દીઠો"}
+{"t": 49.68, "type": "speech"}
+{"t": 49.68, "type": "say", "kind": "echo_line", "text": "મામો લાગે મીઠો. હવે તું બોલ!", "spans": [[10, 13]]}
+{"t": 52.96, "type": "speech"}
+{"t": 55.25, "type": "heard", "text": "મામો લાગે મીટો મીઠો"}
+{"t": 55.25, "type": "speech"}
+{"t": 55.31, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 55.31, "type": "summary", "summary": {"words_total": 13, "words_read": 13, "words_helped": 0, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 41.6, "words_per_minute": 18.8}}

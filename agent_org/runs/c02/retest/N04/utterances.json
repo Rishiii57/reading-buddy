@@ -1,0 +1,166 @@
+{
+ "utterances": [
+  {
+   "t": 21.83,
+   "said": "મામાનું ઘર ઘર",
+   "stt": "મામાનું ઘર",
+   "stt_notes": [
+    "lost 'ઘર'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 26.49,
+   "said": "મામાણું ઘડ",
+   "stt": "મામાણું ઘડ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 29.86,
+   "said": "મામાણું",
+   "stt": "",
+   "stt_notes": [
+    "lost 'મામાણું'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 34.85,
+   "said": "કેટલે",
+   "stt": "કેટલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.41,
+   "said": "મામાણું",
+   "stt": "",
+   "stt_notes": [
+    "lost 'મામાણું'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 21.83,
+    "target": "મામાનું",
+    "said": "મામાનું",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મામાનું ઘર"
+   },
+   {
+    "t": 26.49,
+    "target": "મામાનું",
+    "said": "મામાણું",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મામાણું ઘડ"
+   },
+   {
+    "t": 29.86,
+    "target": "મામાનું",
+    "said": "મામાણું",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 37.41,
+    "target": "મામાનું",
+    "said": "મામાણું",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   }
+  ],
+  "1": [
+   {
+    "t": 21.83,
+    "target": "ઘર",
+    "said": "ઘર",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મામાનું ઘર"
+   },
+   {
+    "t": 26.49,
+    "target": "ઘર",
+    "said": "ઘડ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મામાણું ઘડ"
+   },
+   {
+    "t": 29.86,
+    "target": "ઘર",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "2": [
+   {
+    "t": 34.85,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "echo",
+    "stt": "કેટલે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.7,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 40.54,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... મામાનું ઘર કેટલે",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ ]
+}

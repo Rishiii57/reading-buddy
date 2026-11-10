@@ -1,0 +1,25 @@
+{"t": 15.9, "type": "ready", "message": null}
+{"t": 15.95, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 37.31, "type": "say", "kind": "stall_phrase", "text": "Listen... A small ant", "spans": [[0, 3]]}
+{"t": 41.19, "type": "speech"}
+{"t": 44.36, "type": "heard", "text": "A small ant"}
+{"t": 44.36, "type": "speech"}
+{"t": 47.72, "type": "say", "kind": "stall_phrase", "text": "Listen... walked across the", "spans": [[3, 6]]}
+{"t": 53.38, "type": "speech"}
+{"t": 55.86, "type": "heard", "text": "walked at"}
+{"t": 55.92, "type": "speech"}
+{"t": 58.37, "type": "speech"}
+{"t": 59.98, "type": "heard", "text": "the"}
+{"t": 59.99, "type": "speech"}
+{"t": 62.78, "type": "speech"}
+{"t": 64.23, "type": "heard", "text": "for"}
+{"t": 64.23, "type": "speech"}
+{"t": 65.18, "type": "speech"}
+{"t": 66.59, "type": "heard", "text": "ia"}
+{"t": 66.59, "type": "speech"}
+{"t": 66.59, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 74.1, "type": "speech"}
+{"t": 77.18, "type": "heard", "text": "come grain grain"}
+{"t": 77.2, "type": "speech"}
+{"t": 77.22, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 81.48, "type": "summary", "summary": {"words_total": 37, "words_read": 0, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 65.5, "words_per_minute": 5.5}}

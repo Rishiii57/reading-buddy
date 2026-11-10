@@ -1,0 +1,81 @@
+{"t": 17.42, "type": "ready", "message": null}
+{"t": 17.56, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 32.33, "type": "speech"}
+{"t": 36.96, "type": "heard", "text": "A ant walked across the floor"}
+{"t": 36.98, "type": "speech"}
+{"t": 37.11, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. small", "spans": [[1, 2]]}
+{"t": 42.39, "type": "speech"}
+{"t": 43.53, "type": "heard", "text": "small"}
+{"t": 43.59, "type": "speech"}
+{"t": 43.6, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 51.08, "type": "speech"}
+{"t": 53.82, "type": "heard", "text": "walked across the for"}
+{"t": 53.82, "type": "speech"}
+{"t": 55.29, "type": "speech"}
+{"t": 56.4, "type": "heard", "text": "fun"}
+{"t": 56.43, "type": "speech"}
+{"t": 56.45, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 60.34, "type": "speech"}
+{"t": 61.55, "type": "heard", "text": "floor"}
+{"t": 61.65, "type": "speech"}
+{"t": 61.66, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. A", "spans": [[0, 1]]}
+{"t": 65.22, "type": "speech"}
+{"t": 66.38, "type": "heard", "text": "all"}
+{"t": 66.38, "type": "speech"}
+{"t": 66.38, "type": "say", "kind": "fix_again", "text": "A", "spans": [[0, 1]]}
+{"t": 69.74, "type": "speech"}
+{"t": 71.06, "type": "heard", "text": "A"}
+{"t": 71.06, "type": "speech"}
+{"t": 71.06, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! small", "spans": [[1, 2]]}
+{"t": 74.34, "type": "speech"}
+{"t": 76.31, "type": "heard", "text": "small"}
+{"t": 76.31, "type": "speech"}
+{"t": 76.31, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! ant", "spans": [[2, 3]]}
+{"t": 82.22, "type": "speech"}
+{"t": 83.25, "type": "heard", "text": "ant"}
+{"t": 83.25, "type": "speech"}
+{"t": 83.25, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 90.26, "type": "speech"}
+{"t": 94.76, "type": "heard", "text": "A snall ant was across the floor"}
+{"t": 94.78, "type": "speech"}
+{"t": 94.81, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. small", "spans": [[1, 2]]}
+{"t": 98.49, "type": "speech"}
+{"t": 99.7, "type": "heard", "text": "small"}
+{"t": 99.7, "type": "speech"}
+{"t": 99.74, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! walked", "spans": [[3, 4]]}
+{"t": 103.82, "type": "speech"}
+{"t": 105.54, "type": "heard", "text": "walked"}
+{"t": 105.57, "type": "speech"}
+{"t": 105.61, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! A small ant walked across the floor. Now you say the whole line.", "spans": [[0, 7]]}
+{"t": 112.33, "type": "speech"}
+{"t": 117.96, "type": "heard", "text": "A small snall and ant walked across the floor"}
+{"t": 117.96, "type": "speech"}
+{"t": 117.97, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 121.8, "type": "speech"}
+{"t": 124.92, "type": "heard", "text": "It can a get"}
+{"t": 125.03, "type": "speech"}
+{"t": 125.67, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 129.62, "type": "speech"}
+{"t": 133.2, "type": "heard", "text": "carried grain red its bed"}
+{"t": 133.36, "type": "speech"}
+{"t": 133.82, "type": "speech"}
+{"t": 140.13, "type": "heard", "text": "is carried a grain of rice on in its back"}
+{"t": 140.13, "type": "speech"}
+{"t": 140.15, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 143.55, "type": "speech"}
+{"t": 145.29, "type": "heard", "text": "It"}
+{"t": 145.29, "type": "speech"}
+{"t": 145.29, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! It carried a grain of rice on its back. Now you say the whole line.", "spans": [[7, 16]]}
+{"t": 152.51, "type": "speech"}
+{"t": 153.68, "type": "heard", "text": "carried"}
+{"t": 153.68, "type": "speech"}
+{"t": 155.36, "type": "speech"}
+{"t": 159.43, "type": "heard", "text": "grain of rice on its back"}
+{"t": 159.62, "type": "speech"}
+{"t": 159.62, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. It", "spans": [[7, 8]]}
+{"t": 163.02, "type": "speech"}
+{"t": 164.32, "type": "heard", "text": "It"}
+{"t": 164.32, "type": "speech"}
+{"t": 164.32, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! a", "spans": [[9, 10]]}
+{"t": 172.16, "type": "say", "kind": "fix_again", "text": "a", "spans": [[9, 10]]}
+{"t": 176.18, "type": "summary", "summary": {"words_total": 37, "words_read": 10, "words_helped": 6, "words_to_practise": ["A", "small", "ant", "walked", "It"], "words_practised": 8, "correction_attempts": 9, "lines_total": 5, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 5, "seconds": 158.8, "words_per_minute": 6.0}}

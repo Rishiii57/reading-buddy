@@ -1,0 +1,18 @@
+{"t": 28.12, "type": "ready", "message": null}
+{"t": 28.25, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 8]]}
+{"t": 46.48, "type": "speech"}
+{"t": 49.5, "type": "heard", "text": "के"}
+{"t": 49.5, "type": "speech"}
+{"t": 54.29, "type": "speech"}
+{"t": 56.16, "type": "heard", "text": "घढ़"}
+{"t": 56.16, "type": "speech"}
+{"t": 61.08, "type": "speech"}
+{"t": 66.67, "type": "heard", "text": "पीछै पीछै ए वगीचा"}
+{"t": 66.67, "type": "speech"}
+{"t": 66.79, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 76.32, "type": "say", "kind": "stall_phrase", "text": "सुनो... मीना के घर", "spans": [[0, 3]]}
+{"t": 81.49, "type": "speech"}
+{"t": 84.57, "type": "heard", "text": "मीणा मीणा"}
+{"t": 84.57, "type": "speech"}
+{"t": 84.57, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 86.78, "type": "summary", "summary": {"words_total": 30, "words_read": 0, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 58.4, "words_per_minute": 3.1}}

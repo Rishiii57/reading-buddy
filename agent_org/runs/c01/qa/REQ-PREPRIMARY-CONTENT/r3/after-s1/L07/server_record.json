@@ -1,0 +1,439 @@
+{
+ "id": "20261109-214439-75bcaf",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 3,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 85.5,
+  "words_per_minute": 6.3
+ },
+ "log": [
+  {
+   "t": 0.055,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.105,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.725,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 24.455,
+   "event": "transcript",
+   "text": "to to"
+  },
+  {
+   "t": 24.455,
+   "event": "uncertain",
+   "text": "to to"
+  },
+  {
+   "t": 24.455,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 27.942,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.137,
+   "event": "transcript",
+   "text": "tree tree the"
+  },
+  {
+   "t": 33.137,
+   "event": "uncertain",
+   "text": "tree tree the"
+  },
+  {
+   "t": 39.344,
+   "event": "transcript",
+   "text": "littl little"
+  },
+  {
+   "t": 39.344,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 43.923,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 43.923,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 46.365,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 48.777,
+   "event": "transcript",
+   "text": "sun"
+  },
+  {
+   "t": 51.895,
+   "event": "transcript",
+   "text": "star"
+  },
+  {
+   "t": 51.895,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 51.895,
+   "event": "echo_slips_accepted",
+   "words": [
+    0,
+    1
+   ]
+  },
+  {
+   "t": 51.895,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 51.895,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 59.123,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 64.554,
+   "event": "transcript",
+   "text": "How I went"
+  },
+  {
+   "t": 64.554,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 66.207,
+   "event": "progress",
+   "to": 7
+  },
+  {
+   "t": 69.083,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 7,
+   "to": 10,
+   "line": 1
+  },
+  {
+   "t": 69.083,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 7,
+   "to": 10
+  },
+  {
+   "t": 72.306,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 77.178,
+   "event": "transcript",
+   "text": "what"
+  },
+  {
+   "t": 77.178,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 84.202,
+   "event": "transcript",
+   "text": "yoa yoa"
+  },
+  {
+   "t": 84.202,
+   "event": "uncertain",
+   "text": "yoa yoa"
+  },
+  {
+   "t": 84.202,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.674,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.725,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 20.974,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.455,
+   "type": "transcript",
+   "text": "to to",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 28.225,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.137,
+   "type": "transcript",
+   "text": "tree tree the",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 35.858,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.344,
+   "type": "transcript",
+   "text": "littl little",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 46.717,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.777,
+   "type": "transcript",
+   "text": "sun",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 49.807,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.895,
+   "type": "transcript",
+   "text": "star",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 59.64,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.554,
+   "type": "transcript",
+   "text": "How I went",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 75.096,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.178,
+   "type": "transcript",
+   "text": "what",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 80.721,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 84.202,
+   "type": "transcript",
+   "text": "yoa yoa",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "to to",
+   "heard": "to to",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "tree tree the",
+   "heard": "tree tree the",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "littl little",
+   "heard": "littl little",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "see",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "sun",
+   "heard": "sun",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "star",
+   "heard": "star",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "How",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "How I went",
+   "heard": "How I went",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "what",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "what",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "what",
+   "heard": "what",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "yoa yoa",
+   "heard": "yoa yoa",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 292
+}

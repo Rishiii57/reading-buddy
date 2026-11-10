@@ -1,0 +1,8 @@
+{"t": 2.18, "kind": "open_app", "brief": "Ayaan, LKG (about 4.5 years). Prefers en-IN. Confuses letters that look alike."}
+{"t": 2.27, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 3.19, "kind": "tap", "target": "The Busy Ant English Grade 2-4 Story 1 m", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.83, "kind": "opened_text", "hash": "#/read/en-ant", "title": "The Busy Ant", "tags": ["English", "Grade 2-4"], "words": 37, "lines": 5}
+{"t": 5.64, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 2-4' text; nothing in the library is marked for Nursery/LKG/UKG."}
+{"t": 9.66, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 9.68, "kind": "tap", "target": "Back", "why": "trying to start reading", "view": "view-reader"}
+{"t": 12.26, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

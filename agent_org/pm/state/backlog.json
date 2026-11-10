@@ -1,0 +1,611 @@
+{
+ "items": {
+  "RC-PREPRIMARY-CONTENT": {
+   "id": "RC-PREPRIMARY-CONTENT",
+   "title": "No reading material for Nursery, LKG and UKG",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P0",
+     "status": "awaiting_human_approval",
+     "agents": 26,
+     "instances": 26,
+     "score": 24.92
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "Use 5-7 common poems used in Indian schools",
+     "scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:15",
+     "note": "Data Engineer started on eng/REQ-PREPRIMARY-CONTENT"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:13",
+     "note": "submitted 54811fcf: 13 traditional public-domain rhymes (en 5, hi 4, gu 4) for Nursery/LKG/UKG; level-aware library (youngest first, bigger rhyme cards, Nursery/LKG/UKG chips); echo reading: Buddy models every line of a pre-primary rhyme"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T20:56:36",
+     "note": "QA round 1: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T20:57:34",
+     "note": "branch refreshed onto integration ef4a0bee"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T20:58:18",
+     "note": "submitted 2249bb97: Round 2: refreshed onto the integration build (conflicts in tutor.py/styles.css/tests resolved keeping both); library split into two shelves: 'Rhymes for little ones' first, then 'Poems and stories'"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T21:29:49",
+     "note": "QA round 2: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T21:30:16",
+     "note": "branch refreshed onto integration af436556"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T21:30:56",
+     "note": "submitted c78f125f: Round 3: refreshed onto integration (consent removal included); pre-primary rhymes use lenient echo reading (slips marked 'helped', no word drills; mid-line slip -> help, not correction) and a 4.5 s mid-line wait"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T21:46:40",
+     "note": "QA round 2: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T21:46:46",
+     "note": "QA round 3: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-10T01:11:50",
+     "note": "submitted b8d73d08: Round 4: shorter echo demonstration (line + 'your turn' only)"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-10T01:28:13",
+     "note": "QA round 4: returned_to_engineering (1/3 criteria)"
+    },
+    {
+     "event": "human_accepted_by_human",
+     "at": "2026-11-10T11:13:43",
+     "by": "user (2026-11-10, chose 'Accept and merge')",
+     "note": "QA r4: all guards pass; coverage 0.155->0.412 (target 0.6), level mismatch 1.0->0.2 (target 0), completion 0->0.1, frustration 2.82->2.36. Remaining gap: non-readers can still tap a Grade text; long intro and talk-over are separate deferred items."
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P1",
+     "status": "awaiting_human_approval",
+     "agents": 5,
+     "instances": 5,
+     "score": 19.73
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P1",
+   "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
+  },
+  "RC-CONSENT-GATE": {
+   "id": "RC-CONSENT-GATE",
+   "title": "Parent-consent box is a dead end for pre-readers and a tick-box any reader can pass",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P0",
+     "status": "awaiting_human_approval",
+     "agents": 9,
+     "instances": 16,
+     "score": 19.45
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "No parent consent needed",
+     "scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:14",
+     "note": "Frontend Engineer started on eng/REQ-CONSENT-GATE"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:14:59",
+     "note": "submitted 39e909bc: Removed the parent-consent dialog (team decision): the mic starts on the first tap; browser permission still applies; About/SETUP updated"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T20:48:10",
+     "note": "QA round 1: returned_to_engineering (2/2 criteria)"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T20:48:41",
+     "note": "branch refreshed onto integration 11256085"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T20:48:51",
+     "note": "submitted cde69d73: Round 2: branch refreshed onto the integration build (spoken onboarding, stall timing, mic fix merged); consent removal unchanged"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T21:14:32",
+     "note": "QA round 2: returned_to_engineering (2/2 criteria)"
+    },
+    {
+     "event": "human_accepted_by_human",
+     "at": "2026-11-09T21:15:08",
+     "by": "team (user directive 2026-11-10: 'no need of parent consent')",
+     "note": "QA r2 returned on one guard (frustration 1.81->2.41). Paired analysis: children reading in both builds 2.78->2.73 (no change); the rise is entirely the 7 previously blocked children now reaching reading and meeting deferred issues. Completion 0.2->0.25, abandonment 0.75->0.6. Reversible."
+    }
+   ],
+   "status": "accepted_by_human",
+   "priority": "P0",
+   "human_scope": "Remove the parent-consent dialog; the microphone starts on the first tap"
+  },
+  "RC-SPOKEN-ONBOARDING": {
+   "id": "RC-SPOKEN-ONBOARDING",
+   "title": "Before a session starts, all guidance is written English; non-readers get no spoken instructions",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P1",
+     "status": "approved",
+     "agents": 35,
+     "instances": 36,
+     "score": 22.04
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T18:37:41",
+     "note": "Frontend Engineer started on eng/REQ-SPOKEN-ONBOARDING"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T18:38:59",
+     "note": "submitted 059b47ce: Buddy speaks a short hint (cached phrase) when a text opens; reader bubbles in the text's language"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T19:38:32",
+     "note": "QA round 1: validated_fixed (1/1 criteria)"
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "validated_fixed",
+     "agents": 1,
+     "instances": 1,
+     "score": 14.54
+    }
+   ],
+   "status": "validated_fixed",
+   "priority": "P2"
+  },
+  "RC-STALL-TIMING": {
+   "id": "RC-STALL-TIMING",
+   "title": "Stall prompt fires during normal thinking pauses of slow and hesitant readers",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P1",
+     "status": "approved",
+     "agents": 20,
+     "instances": 32,
+     "score": 20.03
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T18:37:41",
+     "note": "Backend Engineer started on eng/REQ-STALL-TIMING"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T18:38:19",
+     "note": "submitted 1182cee3: Level-based and adaptive mid-line stall threshold (young texts 3.0 s; learns the reader's resumed pauses, k=1.3, cap 5 s)"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-09T19:13:26",
+     "note": "QA round 1: returned_to_engineering (1/2 criteria)"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:14:32",
+     "note": "submitted 69518f37: Round 2: mid-line stall threshold 3.0 s for all texts (3.4 s for Grade 1/pre-primary); adaptive learning kept on top"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:05:45",
+     "note": "QA round 2: validated_fixed (2/2 criteria)"
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P1",
+     "status": "validated_fixed",
+     "agents": 11,
+     "instances": 18,
+     "score": 19.21
+    }
+   ],
+   "status": "validated_fixed",
+   "priority": "P1"
+  },
+  "RC-MIDLINE-CORRECTION": {
+   "id": "RC-MIDLINE-CORRECTION",
+   "title": "A slip followed by a thinking pause triggers word practice mid-line",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 13,
+     "instances": 16,
+     "score": 18.49
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 3,
+     "instances": 4,
+     "score": 17.2
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-MIC-TOGGLE": {
+   "id": "RC-MIC-TOGGLE",
+   "title": "Tapping the big microphone during a session pauses it",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 19,
+     "instances": 22,
+     "score": 18.82
+    },
+    {
+     "event": "human_approved",
+     "at": "2026-11-09T19:11:06",
+     "by": "team (user, 2026-11-10)",
+     "note": "Fix the mic-tap bug"
+    },
+    {
+     "event": "in_progress",
+     "at": "2026-11-09T19:11:14",
+     "note": "Frontend Engineer started on eng/REQ-MIC-TOGGLE"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:36",
+     "note": "submitted ab461ec4: Mic button no longer pauses a running session: a tap while listening gives a bounce + 'I'm listening!' bubble; tap while paused resumes; Pause button and Escape still pause; no pause icon on hover"
+    },
+    {
+     "event": "awaiting_qa",
+     "at": "2026-11-09T19:13:51",
+     "note": "submitted 50384d0c: keep mic icon visible on hover while listening"
+    },
+    {
+     "event": "validated_fixed",
+     "at": "2026-11-09T20:32:19",
+     "note": "QA round 2: validated_fixed (1/1 criteria)"
+    }
+   ],
+   "status": "validated_fixed",
+   "priority": "P2"
+  },
+  "RC-TALK-OVER-BUDDY": {
+   "id": "RC-TALK-OVER-BUDDY",
+   "title": "What a child says while Buddy is talking is silently discarded",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 26,
+     "instances": 46,
+     "score": 14.56
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 26,
+     "instances": 49,
+     "score": 14.16
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-LONG-INTRO": {
+   "id": "RC-LONG-INTRO",
+   "title": "Buddy's opening talk is long before the child gets a turn",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 35,
+     "instances": 35,
+     "score": 15.03
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 33,
+     "instances": 33,
+     "score": 14.18
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-DRILL-LOOP": {
+   "id": "RC-DRILL-LOOP",
+   "title": "Word practice and line repetition loop on the same word or line",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 3,
+     "instances": 3,
+     "score": 16.68
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 5,
+     "instances": 9,
+     "score": 16.55
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-FALSE-CORRECTION-TUTOR": {
+   "id": "RC-FALSE-CORRECTION-TUTOR",
+   "title": "Correctly read words flagged for practice (tutor/aligner)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 17.18
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 5,
+     "instances": 5,
+     "score": 17.34
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-FALSE-CORRECTION-STT": {
+   "id": "RC-FALSE-CORRECTION-STT",
+   "title": "Correct reading misheard by the speech model (child voices)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "awaiting_human_approval",
+     "agents": 4,
+     "instances": 4,
+     "score": 15.93
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "awaiting_human_approval",
+     "agents": 2,
+     "instances": 3,
+     "score": 14.64
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P2"
+  },
+  "RC-LENIENT-MATCHING": {
+   "id": "RC-LENIENT-MATCHING",
+   "title": "Some misreadings are accepted as correct (vowel length, matras, word endings, small words)",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P3",
+     "status": "awaiting_human_approval",
+     "agents": 10,
+     "instances": 19,
+     "score": 10.91
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "awaiting_human_approval",
+     "agents": 14,
+     "instances": 17,
+     "score": 10.95
+    }
+   ],
+   "status": "awaiting_human_approval",
+   "priority": "P3"
+  },
+  "RC-LANGUAGE-SELECTION": {
+   "id": "RC-LANGUAGE-SELECTION",
+   "title": "Children end up in, or hear, a language they did not choose",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 32,
+     "score": 14.6
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 35,
+     "score": 13.6
+    }
+   ],
+   "status": "deferred",
+   "priority": "P3"
+  },
+  "RC-NAVIGATION": {
+   "id": "RC-NAVIGATION",
+   "title": "Children cannot find a text or leave the reading page by accident",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 12,
+     "instances": 12,
+     "score": 16.8
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P2",
+     "status": "deferred",
+     "agents": 18,
+     "instances": 18,
+     "score": 18.0
+    }
+   ],
+   "status": "deferred",
+   "priority": "P2"
+  },
+  "RC-REPLAY": {
+   "id": "RC-REPLAY",
+   "title": "No way to hear a line again during reading",
+   "first_seen": "c01/baseline",
+   "history": [
+    {
+     "cycle": "c01",
+     "label": "baseline",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 12.53
+    },
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 4,
+     "instances": 4,
+     "score": 11.03
+    }
+   ],
+   "status": "deferred",
+   "priority": "P3"
+  },
+  "RC-RESTART": {
+   "id": "RC-RESTART",
+   "title": "Reading the same text again does not work smoothly",
+   "first_seen": "c02/retest",
+   "history": [
+    {
+     "cycle": "c02",
+     "label": "retest",
+     "priority": "P3",
+     "status": "deferred",
+     "agents": 1,
+     "instances": 1,
+     "score": 13.52
+    }
+   ],
+   "status": "deferred",
+   "priority": "P3"
+  }
+ },
+ "cycles": [
+  {
+   "cycle": "c01",
+   "label": "baseline",
+   "at": "2026-11-09T18:37:11",
+   "agents": 50,
+   "root_causes": 15,
+   "unclassified": 3
+  },
+  {
+   "cycle": "c02",
+   "label": "retest",
+   "at": "2026-11-10T11:37:02",
+   "agents": 50,
+   "root_causes": 14,
+   "unclassified": 4
+  }
+ ]
+}

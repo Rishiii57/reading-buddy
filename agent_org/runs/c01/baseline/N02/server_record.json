@@ -1,0 +1,101 @@
+{
+ "id": "20261109-181816-620b6f",
+ "text_id": "gu-chakli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 23,
+  "words_read": 0,
+  "words_helped": 1,
+  "words_to_practise": [
+   "એક"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 22.8,
+  "words_per_minute": 2.6
+ },
+ "log": [
+  {
+   "t": 0.184,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.306,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.335,
+   "event": "transcript",
+   "text": "એ"
+  },
+  {
+   "t": 18.335,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 20.421,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 20.421,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.003,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.462,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.335,
+   "type": "transcript",
+   "text": "એ",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "એ",
+   "heard": "એ",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 10
+}

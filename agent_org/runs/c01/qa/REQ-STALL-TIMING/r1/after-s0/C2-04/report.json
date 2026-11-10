@@ -1,0 +1,370 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r1-after-s0",
+ "agent_id": "C2-04",
+ "seed": 1527,
+ "persona": {
+  "id": "C2-04",
+  "name": "Kian",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "restart_session",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-chidiya",
+  "title": "चिड़िया का घोंसला",
+  "tags": [
+   "Hindi",
+   "Grade 2-3"
+  ],
+  "words": 30,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 9.74,
+    "details": [
+     "Wanted en-IN but ended up on a hi-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 9.74,
+      "wanted": "en-IN",
+      "got": "hi-IN",
+      "title": "चिड़िया का घोंसला"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 6,
+    "evidence_level": "observed",
+    "first_t": 16.98,
+    "details": [
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in hi-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 16.98,
+      "kind": "intro",
+      "said": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे चिड़िया का घोंसला ध्यान"
+     },
+     {
+      "t": 46.15,
+      "kind": "stall_phrase",
+      "said": "सुनो... पर एक छोटी"
+     },
+     {
+      "t": 58.18,
+      "kind": "fix_word",
+      "said": "चलो, इस शब्द का साथ में अभ्यास करते हैं। रहती"
+     },
+     {
+      "t": 63.89,
+      "kind": "repeat_line",
+      "said": "हाँ! बहुत अच्छे! एक पेड़ पर एक छोटी चिड़िया रहती थी। अब तुम पूरी पंक्ति बोलो।"
+     },
+     {
+      "t": 78.92,
+      "kind": "praise",
+      "said": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।"
+     },
+     {
+      "t": 150.09,
+      "kind": "uncertain",
+      "said": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?"
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.33,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 29.33,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 35.23,
+    "details": [
+     "7 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 35.23,
+      "said": "एक पेड़ पर एक छोठी चिड़िया रहती",
+      "heard": ""
+     },
+     {
+      "t": 45.33,
+      "said": "पर ए छोटी चिरिया रहती ती ती",
+      "heard": "ती"
+     },
+     {
+      "t": 115.87,
+      "said": "बनाया",
+      "heard": ""
+     },
+     {
+      "t": 142.11,
+      "said": "छोटे अंडे थे",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.3,
+  "frustration_events": [
+   {
+    "t": 16.98,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 29.33,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 35.23,
+    "kind": "unheard_speech",
+    "frustration": 1.8
+   },
+   {
+    "t": 35.23,
+    "kind": "progress",
+    "frustration": 1.65
+   },
+   {
+    "t": 38.63,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 45.33,
+    "kind": "unheard_speech",
+    "frustration": 2.3
+   },
+   {
+    "t": 45.33,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 46.15,
+    "kind": "not_understood",
+    "frustration": 2.75,
+    "say_kind": "stall_phrase"
+   },
+   {
+    "t": 48.47,
+    "kind": "progress",
+    "frustration": 2.6
+   },
+   {
+    "t": 57.34,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 58.18,
+    "kind": "not_understood",
+    "frustration": 3.05,
+    "say_kind": "fix_word"
+   },
+   {
+    "t": 63.89,
+    "kind": "not_understood",
+    "frustration": 3.65,
+    "say_kind": "repeat_line"
+   },
+   {
+    "t": 75.63,
+    "kind": "progress",
+    "frustration": 3.5
+   },
+   {
+    "t": 78.05,
+    "kind": "progress",
+    "frustration": 3.35
+   },
+   {
+    "t": 78.22,
+    "kind": "praise",
+    "frustration": 2.95
+   },
+   {
+    "t": 78.92,
+    "kind": "not_understood",
+    "frustration": 3.55,
+    "say_kind": "praise"
+   },
+   {
+    "t": 93.11,
+    "kind": "progress",
+    "frustration": 3.4
+   },
+   {
+    "t": 104.25,
+    "kind": "progress",
+    "frustration": 3.25
+   },
+   {
+    "t": 115.87,
+    "kind": "unheard_speech",
+    "frustration": 4.05
+   },
+   {
+    "t": 115.87,
+    "kind": "progress",
+    "frustration": 3.9
+   },
+   {
+    "t": 119.12,
+    "kind": "progress",
+    "frustration": 3.75
+   },
+   {
+    "t": 119.21,
+    "kind": "praise",
+    "frustration": 3.35
+   },
+   {
+    "t": 132.99,
+    "kind": "progress",
+    "frustration": 3.2
+   },
+   {
+    "t": 142.11,
+    "kind": "unheard_speech",
+    "frustration": 4.0
+   },
+   {
+    "t": 142.11,
+    "kind": "progress",
+    "frustration": 3.85
+   },
+   {
+    "t": 149.28,
+    "kind": "progress",
+    "frustration": 3.7
+   },
+   {
+    "t": 150.09,
+    "kind": "not_understood",
+    "frustration": 4.3,
+    "say_kind": "uncertain"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 2,
+  "interruptions": 0,
+  "unheard_words": 17,
+  "buddy_talk_s": 62.4,
+  "child_talk_s": 31.7,
+  "tired_said": false,
+  "time_to_text_s": 4.9,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 14.1,
+  "intro_s": 19.3,
+  "session_s": 140.9,
+  "words_total": 30,
+  "words_attempted": 21,
+  "words_said_wrong": 1,
+  "corrections": 1,
+  "buddy_turns": 13,
+  "stall_prompts": 7,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 30,
+  "words_read": 2,
+  "words_helped": 19,
+  "words_to_practise": [
+   "रहती"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 7,
+  "corrections": 1,
+  "seconds": 140.8,
+  "words_per_minute": 9.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 4,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 130,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,75 @@
+{
+ "utterances": [
+  {
+   "t": 17.1,
+   "said": "Rain",
+   "stt": "",
+   "stt_notes": [
+    "lost 'Rain'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 28.49,
+   "said": "red rain",
+   "stt": "red raim",
+   "stt_notes": [
+    "'rain' heard as 'raim'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 17.1,
+    "target": "Rain",
+    "said": "Rain",
+    "correct": true,
+    "kind": "echo",
+    "stt": ""
+   },
+   {
+    "t": 28.49,
+    "target": "Rain",
+    "said": "red",
+    "correct": false,
+    "kind": "sub",
+    "stt": "red raim"
+   }
+  ],
+  "1": [
+   {
+    "t": 28.49,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "echo",
+    "stt": "red raim"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.36,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  }
+ ]
+}

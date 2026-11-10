@@ -1,0 +1,256 @@
+{
+ "id": "20261110-113316-a9bbca",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 13,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 46.9,
+  "words_per_minute": 16.6
+ },
+ "log": [
+  {
+   "t": 0.078,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.467,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.503,
+   "event": "transcript",
+   "text": "મામાનું ઘર કેટલે"
+  },
+  {
+   "t": 18.503,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 18.503,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 18.503,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 22.702,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.199,
+   "event": "transcript",
+   "text": "દીવો બળે એટલે"
+  },
+  {
+   "t": 25.199,
+   "event": "progress",
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 25.199,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 25.199,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 25.199,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 25.199,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 29.189,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 35.916,
+   "event": "transcript",
+   "text": "દીવો મેં તો દીઠો"
+  },
+  {
+   "t": 35.916,
+   "event": "progress",
+   "frm": 6,
+   "to": 10
+  },
+  {
+   "t": 35.916,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 35.916,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 38.983,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.555,
+   "event": "transcript",
+   "text": "મામો લાગે મીટો મીઠો"
+  },
+  {
+   "t": 41.555,
+   "event": "progress",
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 41.555,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 41.555,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 41.555,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.628,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.503,
+   "type": "transcript",
+   "text": "મામાનું ઘર કેટલે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 23.325,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.199,
+   "type": "transcript",
+   "text": "દીવો બળે એટલે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 33.622,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.916,
+   "type": "transcript",
+   "text": "દીવો મેં તો દીઠો",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 39.268,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.555,
+   "type": "transcript",
+   "text": "મામો લાગે મીટો મીઠો",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાનું ઘર કેટલે",
+   "heard": "મામાનું ઘર કેટલે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "દીવો બળે એટલે",
+   "heard": "દીવો બળે એટલે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "દીવો મેં તો દીઠો",
+   "heard": "દીવો મેં તો દીઠો",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "મામો લાગે મીટો મીઠો",
+   "heard": "મામો લાગે મીટો મીઠો",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 711
+}

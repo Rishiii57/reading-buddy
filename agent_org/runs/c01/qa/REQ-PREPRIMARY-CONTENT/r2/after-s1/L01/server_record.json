@@ -1,0 +1,673 @@
+{
+ "id": "20261109-214204-82eae3",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 9,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 133.5,
+  "words_per_minute": 7.2
+ },
+ "log": [
+  {
+   "t": 0.018,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.967,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.268,
+   "event": "transcript",
+   "text": "मछली"
+  },
+  {
+   "t": 18.268,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 23.104,
+   "event": "transcript",
+   "text": "जल"
+  },
+  {
+   "t": 23.104,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 27.66,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 27.66,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 32.137,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.495,
+   "event": "transcript",
+   "text": "की"
+  },
+  {
+   "t": 34.495,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 40.68,
+   "event": "transcript",
+   "text": "रानी"
+  },
+  {
+   "t": 40.68,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 47.256,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 47.256,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 47.256,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 47.256,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 52.986,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 56.725,
+   "event": "transcript",
+   "text": "जीबन"
+  },
+  {
+   "t": 56.725,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 66.446,
+   "event": "transcript",
+   "text": "उसका उषका पानी"
+  },
+  {
+   "t": 66.446,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 73.11,
+   "event": "transcript",
+   "text": "हे"
+  },
+  {
+   "t": 73.11,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 73.11,
+   "event": "echo_slips_accepted",
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 73.11,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 73.11,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 73.11,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 73.11,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 75.658,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 88.565,
+   "event": "transcript",
+   "text": "हाथ हाथ लगाओ डर झाएगी"
+  },
+  {
+   "t": 88.565,
+   "event": "progress",
+   "frm": 9,
+   "to": 12
+  },
+  {
+   "t": 91.615,
+   "event": "transcript",
+   "text": "जाएगी"
+  },
+  {
+   "t": 91.615,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 91.615,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 91.615,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 97.592,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 103.088,
+   "event": "transcript",
+   "text": "वाहर वाहर निकालो"
+  },
+  {
+   "t": 103.088,
+   "event": "uncertain",
+   "text": "वाहर वाहर निकालो"
+  },
+  {
+   "t": 106.695,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 13,
+   "to": 16,
+   "line": 3
+  },
+  {
+   "t": 106.695,
+   "event": "prompt",
+   "level": 1,
+   "line": 3,
+   "frm": 13,
+   "to": 16
+  },
+  {
+   "t": 111.179,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 113.602,
+   "event": "transcript",
+   "text": "बाहर"
+  },
+  {
+   "t": 113.602,
+   "event": "progress",
+   "frm": 13,
+   "to": 14
+  },
+  {
+   "t": 119.17,
+   "event": "transcript",
+   "text": "निकालो"
+  },
+  {
+   "t": 119.17,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 126.849,
+   "event": "transcript",
+   "text": "मड़ मर"
+  },
+  {
+   "t": 126.849,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 129.895,
+   "event": "transcript",
+   "text": "झाएगी"
+  },
+  {
+   "t": 129.895,
+   "event": "progress",
+   "frm": 16,
+   "to": 17
+  },
+  {
+   "t": 129.895,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 129.895,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 129.895,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.018,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.216,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.268,
+   "type": "transcript",
+   "text": "मछली",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 21.052,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.104,
+   "type": "transcript",
+   "text": "जल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 32.432,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.495,
+   "type": "transcript",
+   "text": "की",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 38.628,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.68,
+   "type": "transcript",
+   "text": "रानी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 45.178,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 47.256,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 54.674,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.725,
+   "type": "transcript",
+   "text": "जीबन",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 61.534,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.446,
+   "type": "transcript",
+   "text": "उसका उषका पानी",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 71.055,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.11,
+   "type": "transcript",
+   "text": "हे",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 80.803,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 88.565,
+   "type": "transcript",
+   "text": "हाथ हाथ लगाओ डर झाएगी",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 89.555,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.615,
+   "type": "transcript",
+   "text": "जाएगी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 98.176,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.088,
+   "type": "transcript",
+   "text": "वाहर वाहर निकालो",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 111.547,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 113.602,
+   "type": "transcript",
+   "text": "बाहर",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 117.114,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.17,
+   "type": "transcript",
+   "text": "निकालो",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 121.94,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 126.849,
+   "type": "transcript",
+   "text": "मड़ मर",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 127.843,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 129.895,
+   "type": "transcript",
+   "text": "झाएगी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "मछली",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "जल",
+   "heard": "जल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "की",
+   "heard": "की",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "रानी",
+   "heard": "रानी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "जीबन",
+   "heard": "जीबन",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "उसका उषका पानी",
+   "heard": "उसका उषका पानी",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "हे",
+   "heard": "हे",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "हाथ हाथ लगाओ डर झाएगी",
+   "heard": "हाथ हाथ लगाओ डर झाएगी",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "जाएगी",
+   "heard": "जाएगी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "वाहर वाहर निकालो",
+   "heard": "वाहर वाहर निकालो",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "बाहर",
+   "heard": "बाहर",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "निकालो",
+   "heard": "निकालो",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मड़ मर",
+   "heard": "मड़ मर",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "झाएगी",
+   "heard": "झाएगी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 192
+}

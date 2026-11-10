@@ -1,0 +1,253 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "scale-n10",
+ "agent_id": "L01",
+ "seed": 201,
+ "persona": {
+  "id": "L01",
+  "name": "Ishita",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.5,
+  "attention_span_s": 150
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-baarish",
+  "title": "बारिश आई",
+  "tags": [
+   "Hindi",
+   "Grade 1-2"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1-2"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.35,
+    "details": [
+     "LKG child landed on a 'Grade 1-2' text; nothing in the library is marked for Nursery/LKG/UKG."
+    ],
+    "evidence": [
+     {
+      "t": 6.35,
+      "title": "बारिश आई",
+      "grade_tag": "Grade 1-2"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.36,
+    "details": [
+     "On the reading page nothing was said out loud; the only instructions were written in English, which this child cannot read."
+    ],
+    "evidence": [
+     {
+      "t": 6.36,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud."
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 21.91,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 21.91,
+      "talk_s": 12.4
+     }
+    ],
+    "child_quote": "Buddy talked too long.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.39,
+    "details": [
+     "Buddy started talking 2.1 s into a planned 4.27 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 29.39,
+      "paused_s": 2.1,
+      "planned_s": 4.27,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "बारिश आई,"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 32.54,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 32.54,
+      "said": "बादल",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.38,
+    "details": [
+     "Read 'बादल' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 36.38,
+      "word": "बादल",
+      "child_said": "बादल",
+      "speech_model_wrote": "वादल"
+     }
+    ],
+    "child_quote": "But I said it right!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.7,
+  "frustration_events": [
+   {
+    "t": 6.36,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 21.91,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 27.21,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 29.39,
+    "kind": "interrupted_pause",
+    "frustration": 1.85,
+    "paused_s": 2.1
+   },
+   {
+    "t": 32.54,
+    "kind": "unheard_speech",
+    "frustration": 2.65
+   },
+   {
+    "t": 32.54,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 36.38,
+    "kind": "false_correction",
+    "frustration": 3.7,
+    "word": "बादल"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 4,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 1,
+  "unheard_words": 1,
+  "buddy_talk_s": 18.8,
+  "child_talk_s": 4.7,
+  "tired_said": false,
+  "time_to_text_s": 2.4,
+  "intro_s": 14.1,
+  "time_to_first_word_s": 14.1,
+  "session_s": 30.5,
+  "words_total": 17,
+  "words_attempted": 2,
+  "words_said_wrong": 0,
+  "corrections": 1,
+  "buddy_turns": 2,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 0,
+  "words_helped": 1,
+  "words_to_practise": [
+   "बादल"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 30.3,
+  "words_per_minute": 2.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 11,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

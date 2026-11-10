@@ -1,0 +1,15 @@
+{"t": 13.23, "type": "ready", "message": null}
+{"t": 13.25, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 32.86, "type": "speech"}
+{"t": 35.19, "type": "heard", "text": "snall ana"}
+{"t": 35.25, "type": "speech"}
+{"t": 35.25, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 38.87, "type": "speech"}
+{"t": 40.58, "type": "heard", "text": "A"}
+{"t": 40.58, "type": "speech"}
+{"t": 43.32, "type": "say", "kind": "stall_phrase", "text": "Listen... small ant walked", "spans": [[1, 4]]}
+{"t": 46.76, "type": "speech"}
+{"t": 48.95, "type": "heard", "text": "said small"}
+{"t": 48.99, "type": "speech"}
+{"t": 52.02, "type": "say", "kind": "stall_phrase", "text": "Listen... ant walked across", "spans": [[2, 5]]}
+{"t": 53.28, "type": "summary", "summary": {"words_total": 37, "words_read": 1, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 5, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 40.1, "words_per_minute": 7.5}}

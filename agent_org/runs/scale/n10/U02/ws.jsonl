@@ -1,0 +1,22 @@
+{"t": 14.06, "type": "ready", "message": null}
+{"t": 14.11, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read My Little Kite Listen carefully to how I read it. I have a kite of red and blue Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 33.55, "type": "speech"}
+{"t": 35.31, "type": "heard", "text": "he"}
+{"t": 35.41, "type": "speech"}
+{"t": 38.89, "type": "speech"}
+{"t": 42.81, "type": "heard", "text": "kite of red"}
+{"t": 42.81, "type": "speech"}
+{"t": 44.92, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. I", "spans": [[0, 1]]}
+{"t": 48.5, "type": "speech"}
+{"t": 50.26, "type": "heard", "text": "a"}
+{"t": 50.26, "type": "speech"}
+{"t": 50.29, "type": "say", "kind": "fix_again", "text": "I", "spans": [[0, 1]]}
+{"t": 57.8, "type": "speech"}
+{"t": 59.53, "type": "heard", "text": "I"}
+{"t": 59.53, "type": "speech"}
+{"t": 59.54, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! have", "spans": [[1, 2]]}
+{"t": 62.7, "type": "speech"}
+{"t": 64.44, "type": "heard", "text": "have"}
+{"t": 64.44, "type": "speech"}
+{"t": 64.44, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! a", "spans": [[2, 3]]}
+{"t": 67.78, "type": "summary", "summary": {"words_total": 29, "words_read": 3, "words_helped": 3, "words_to_practise": ["I", "have", "a"], "words_practised": 2, "correction_attempts": 3, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 53.7, "words_per_minute": 6.7}}

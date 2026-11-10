@@ -1,0 +1,322 @@
+{
+ "id": "20261110-111632-3a6260",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 0,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 65.5,
+  "words_per_minute": 5.5
+ },
+ "log": [
+  {
+   "t": 0.042,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.079,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.233,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 21.233,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 24.715,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 28.459,
+   "event": "transcript",
+   "text": "A small ant"
+  },
+  {
+   "t": 28.459,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 31.461,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 6,
+   "line": 0
+  },
+  {
+   "t": 31.461,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 36.776,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.696,
+   "event": "transcript",
+   "text": "walked at"
+  },
+  {
+   "t": 39.696,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 43.959,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 43.959,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 48.236,
+   "event": "transcript",
+   "text": "for"
+  },
+  {
+   "t": 48.236,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 50.645,
+   "event": "transcript",
+   "text": "ia"
+  },
+  {
+   "t": 50.645,
+   "event": "uncertain",
+   "text": "for ia"
+  },
+  {
+   "t": 50.645,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 53.914,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 61.288,
+   "event": "transcript",
+   "text": "come grain grain"
+  },
+  {
+   "t": 61.288,
+   "event": "uncertain",
+   "text": "come grain grain"
+  },
+  {
+   "t": 61.288,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 64.582,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 25.319,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.459,
+   "type": "transcript",
+   "text": "A small ant",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 37.366,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.696,
+   "type": "transcript",
+   "text": "walked at",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 42.501,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.959,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 46.779,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.236,
+   "type": "transcript",
+   "text": "for",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 49.182,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.645,
+   "type": "transcript",
+   "text": "ia",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 58.165,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.288,
+   "type": "transcript",
+   "text": "come grain grain",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "A small ant",
+   "heard": "A small ant",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "walked at",
+   "heard": "walked at",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "for",
+   "heard": "for",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ia",
+   "heard": "ia",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "come grain grain",
+   "heard": "come grain grain",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "ia",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 139
+}

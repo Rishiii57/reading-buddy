@@ -1,0 +1,10 @@
+{"t": 1.92, "kind": "open_app", "brief": "Ritika, Class 4 (about 9.5 years). Prefers gu-IN. Reads English better than Gujarati."}
+{"t": 2.0, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.45, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.11, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 11.07, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.94, "kind": "session_started", "tries": 1}
+{"t": 26.16, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 40.0, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'શાળામાં' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 74.45, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 76.8, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}

@@ -1,0 +1,388 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-STALL-TIMING/r2-after-s1",
+ "agent_id": "C3-03",
+ "seed": 2612,
+ "persona": {
+  "id": "C3-03",
+  "name": "Nisha",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-shala",
+  "title": "મારી શાળા",
+  "tags": [
+   "Gujarati",
+   "Grade 3-4"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 11.27,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 11.27,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.15,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 27.15,
+      "talk_s": 12.3
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 56.09,
+    "details": [
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "4 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 56.09,
+      "said": "મારી શાળ વહુ સુંદર",
+      "heard": ""
+     },
+     {
+      "t": 64.28,
+      "said": "મારી શાળા શાળા બહુ સુંદર",
+      "heard": ""
+     },
+     {
+      "t": 80.16,
+      "said": "અમે ત્યા ત્યાં રોજ સાથે રમીએ છીએ",
+      "heard": "સાથે રમીએ છીએ"
+     },
+     {
+      "t": 104.35,
+      "said": "અમે ત્યાં રોજ સાથ રમીએ છીએ",
+      "heard": ""
+     },
+     {
+      "t": 128.98,
+      "said": "મારા શિક્ષક અમને વાર્ત કહે છે",
+      "heard": "અમને વાર્ત કહે છે"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 80.96,
+    "details": [
+     "Read 'અમે' correctly but Buddy asked to practise it.",
+     "Read 'મારા' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 80.96,
+      "word": "અમે",
+      "child_said": "અમે",
+      "speech_model_wrote": "અમે ત્યા ત્યાં રોજ સાથે રમીએ છીએ"
+     },
+     {
+      "t": 129.78,
+      "word": "મારા",
+      "child_said": "મારા",
+      "speech_model_wrote": "મારા શિક્ષક અમને વાર્ત કહે છે"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 3.45,
+  "frustration_events": [
+   {
+    "t": 11.27,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 27.15,
+    "kind": "long_wait",
+    "frustration": 1.0
+   },
+   {
+    "t": 33.03,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 52.33,
+    "kind": "progress",
+    "frustration": 0.7
+   },
+   {
+    "t": 56.09,
+    "kind": "unheard_speech",
+    "frustration": 1.5
+   },
+   {
+    "t": 56.09,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 64.28,
+    "kind": "unheard_speech",
+    "frustration": 2.15
+   },
+   {
+    "t": 64.28,
+    "kind": "progress",
+    "frustration": 2.0
+   },
+   {
+    "t": 68.34,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 68.4,
+    "kind": "praise",
+    "frustration": 1.45
+   },
+   {
+    "t": 74.0,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 76.03,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 76.08,
+    "kind": "praise",
+    "frustration": 0.75
+   },
+   {
+    "t": 80.16,
+    "kind": "unheard_speech",
+    "frustration": 1.55
+   },
+   {
+    "t": 80.16,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 80.96,
+    "kind": "false_correction",
+    "frustration": 2.6,
+    "word": "અમે"
+   },
+   {
+    "t": 85.44,
+    "kind": "praise",
+    "frustration": 2.2
+   },
+   {
+    "t": 93.78,
+    "kind": "praise",
+    "frustration": 1.8
+   },
+   {
+    "t": 104.35,
+    "kind": "unheard_speech",
+    "frustration": 2.6
+   },
+   {
+    "t": 104.35,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 108.06,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 108.06,
+    "kind": "praise",
+    "frustration": 1.9
+   },
+   {
+    "t": 113.47,
+    "kind": "progress",
+    "frustration": 1.75
+   },
+   {
+    "t": 115.25,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 128.98,
+    "kind": "unheard_speech",
+    "frustration": 2.4
+   },
+   {
+    "t": 128.98,
+    "kind": "progress",
+    "frustration": 2.25
+   },
+   {
+    "t": 129.78,
+    "kind": "false_correction",
+    "frustration": 3.45,
+    "word": "મારા"
+   },
+   {
+    "t": 133.82,
+    "kind": "praise",
+    "frustration": 3.05
+   },
+   {
+    "t": 137.95,
+    "kind": "praise",
+    "frustration": 2.65
+   },
+   {
+    "t": 150.74,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 154.41,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 159.41,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 159.42,
+    "kind": "praise",
+    "frustration": 1.8
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 3,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 8,
+  "interruptions": 0,
+  "unheard_words": 21,
+  "buddy_talk_s": 93.2,
+  "child_talk_s": 27.4,
+  "tired_said": false,
+  "time_to_text_s": 2.7,
+  "reader_page_audio_clips": 0,
+  "intro_s": 15.5,
+  "time_to_first_word_s": 15.5,
+  "session_s": 149.5,
+  "words_total": 22,
+  "words_attempted": 22,
+  "words_said_wrong": 2,
+  "corrections": 5,
+  "buddy_turns": 21,
+  "stall_prompts": 0,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 13,
+  "words_helped": 9,
+  "words_to_practise": [
+   "મારી",
+   "બહુ",
+   "અમે",
+   "ત્યાં",
+   "રોજ",
+   "મારા",
+   "શિક્ષક",
+   "અમને",
+   "વાર્તા"
+  ],
+  "words_practised": 9,
+  "correction_attempts": 10,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 5,
+  "seconds": 147.3,
+  "words_per_minute": 9.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 2,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 160,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "id": "20261109-205102-43d1ea",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 1,
+  "words_helped": 1,
+  "words_to_practise": [
+   "patter"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 28.0,
+  "words_per_minute": 4.3
+ },
+ "log": [
+  {
+   "t": 0.012,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 12.511,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.109,
+   "event": "transcript",
+   "text": "Pitter qatter"
+  },
+  {
+   "t": 15.109,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 16.689,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 17.158,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 17.158,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 23.03,
+   "event": "pause"
+  },
+  {
+   "t": 26.603,
+   "event": "resume"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 12.817,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.109,
+   "type": "transcript",
+   "text": "Pitter qatter",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter qatter",
+   "heard": "Pitter qatter",
+   "muted_words": 0,
+   "duration_s": 1.87
+  }
+ ],
+ "tts_offline": 16
+}

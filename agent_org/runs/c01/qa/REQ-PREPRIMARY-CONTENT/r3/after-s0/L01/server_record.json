@@ -1,0 +1,312 @@
+{
+ "id": "20261109-213732-baf740",
+ "text_id": "hi-samandar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 9,
+  "words_read": 6,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 2,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 64.2,
+  "words_per_minute": 8.4
+ },
+ "log": [
+  {
+   "t": 0.13,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.348,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.225,
+   "event": "transcript",
+   "text": "हरा"
+  },
+  {
+   "t": 18.225,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 22.8,
+   "event": "transcript",
+   "text": "समंदर"
+  },
+  {
+   "t": 22.8,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 27.414,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 27.414,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 30.958,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.746,
+   "event": "transcript",
+   "text": "गोपी चंदर"
+  },
+  {
+   "t": 34.746,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 34.746,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 34.746,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 41.098,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.717,
+   "event": "transcript",
+   "text": "वोल"
+  },
+  {
+   "t": 44.717,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 52.284,
+   "event": "transcript",
+   "text": "मेरी मछली"
+  },
+  {
+   "t": 52.284,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 59.32,
+   "event": "transcript",
+   "text": "कितना पानी"
+  },
+  {
+   "t": 59.32,
+   "event": "progress",
+   "frm": 7,
+   "to": 9
+  },
+  {
+   "t": 59.32,
+   "event": "echo_slips_accepted",
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 59.32,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 59.32,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 59.32,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.171,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.225,
+   "type": "transcript",
+   "text": "हरा",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 20.734,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.8,
+   "type": "transcript",
+   "text": "समंदर",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 31.264,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.746,
+   "type": "transcript",
+   "text": "गोपी चंदर",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 42.666,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.717,
+   "type": "transcript",
+   "text": "वोल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 48.797,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.284,
+   "type": "transcript",
+   "text": "मेरी मछली",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 55.84,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.32,
+   "type": "transcript",
+   "text": "कितना पानी",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "हरा",
+   "heard": "हरा",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "समंदर",
+   "heard": "समंदर",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "गोपी चंदर",
+   "heard": "गोपी चंदर",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "वोल",
+   "heard": "वोल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मेरी मछली",
+   "heard": "मेरी मछली",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "कितना पानी",
+   "heard": "कितना पानी",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 106
+}

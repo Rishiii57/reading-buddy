@@ -1,0 +1,357 @@
+{
+ "utterances": [
+  {
+   "t": 31.47,
+   "said": "આવ ડે વડસાદ",
+   "stt": "આવ ડે વડસાદ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 37.68,
+   "said": "આવ રે વરસાદ",
+   "stt": "આવ ડે વરસાદ",
+   "stt_notes": [
+    "'રે' heard as 'ડે'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.12,
+   "said": "ઘેવડિયો પરશાદ",
+   "stt": "ઘેવડિયો પરશાદ",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.94,
+   "said": "ઊની ઊની ઊની",
+   "stt": "ઊણી ઊની ઊની",
+   "stt_notes": [
+    "'ઊની' heard as 'ઊણી'"
+   ],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 56.69,
+   "said": "ઊણી",
+   "stt": "ઊણી",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.5,
+   "said": "ઊણી રોઠલી",
+   "stt": "ઊણી રોટલી",
+   "stt_notes": [
+    "'રોઠલી' heard as 'રોટલી'"
+   ],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.24,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 81.17,
+   "said": "ને કારેલાનું",
+   "stt": "ણે કારેલાનું",
+   "stt_notes": [
+    "'ને' heard as 'ણે'"
+   ],
+   "words": [
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.7,
+   "said": "શાક",
+   "stt": "સાક",
+   "stt_notes": [
+    "'શાક' heard as 'સાક'"
+   ],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.47,
+    "target": "આવ",
+    "said": "આવ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આવ ડે વડસાદ"
+   },
+   {
+    "t": 37.68,
+    "target": "આવ",
+    "said": "આવ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આવ ડે વરસાદ"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.47,
+    "target": "રે",
+    "said": "ડે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "આવ ડે વડસાદ"
+   },
+   {
+    "t": 37.68,
+    "target": "રે",
+    "said": "રે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આવ ડે વરસાદ"
+   }
+  ],
+  "2": [
+   {
+    "t": 31.47,
+    "target": "વરસાદ",
+    "said": "વડસાદ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "આવ ડે વડસાદ"
+   },
+   {
+    "t": 37.68,
+    "target": "વરસાદ",
+    "said": "વરસાદ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આવ ડે વરસાદ"
+   }
+  ],
+  "3": [
+   {
+    "t": 44.12,
+    "target": "ઘેવરિયો",
+    "said": "ઘેવડિયો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઘેવડિયો પરશાદ"
+   }
+  ],
+  "4": [
+   {
+    "t": 44.12,
+    "target": "પરસાદ",
+    "said": "પરશાદ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઘેવડિયો પરશાદ"
+   }
+  ],
+  "5": [
+   {
+    "t": 53.94,
+    "target": "ઊની",
+    "said": "ઊની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊણી ઊની ઊની"
+   },
+   {
+    "t": 56.69,
+    "target": "ઊની",
+    "said": "ઊણી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઊણી"
+   }
+  ],
+  "6": [
+   {
+    "t": 53.94,
+    "target": "ઊની",
+    "said": "ઊની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઊણી ઊની ઊની"
+   },
+   {
+    "t": 64.5,
+    "target": "ઊની",
+    "said": "ઊણી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઊણી રોટલી"
+   }
+  ],
+  "7": [
+   {
+    "t": 64.5,
+    "target": "રોટલી",
+    "said": "રોઠલી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઊણી રોટલી"
+   }
+  ],
+  "8": [
+   {
+    "t": 70.24,
+    "target": "ને",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 81.17,
+    "target": "ને",
+    "said": "ને",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ણે કારેલાનું"
+   }
+  ],
+  "9": [
+   {
+    "t": 81.17,
+    "target": "કારેલાનું",
+    "said": "કારેલાનું",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ણે કારેલાનું"
+   }
+  ],
+  "10": [
+   {
+    "t": 85.7,
+    "target": "શાક",
+    "said": "શાક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "સાક"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.19,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 37.82,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "ઘેવરિયો પરસાદ. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 47.22,
+   "type": "say",
+   "kind": "praise",
+   "text": "બહુ સરસ! વાંચતો રહે.",
+   "spans": []
+  },
+  {
+   "t": 47.28,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "ઊની ઊની રોટલી હવે તું બોલ!",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 64.52,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "ને કારેલાનું શાક. હવે તું બોલ!",
+   "spans": [
+    [
+     8,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 72.39,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ને કારેલાનું શાક.",
+   "spans": [
+    [
+     8,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 86.05,
+   "type": "say",
+   "kind": "finish",
+   "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!",
+   "spans": []
+  }
+ ]
+}

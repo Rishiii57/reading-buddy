@@ -1,0 +1,195 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline-v2",
+ "agent_id": "U04",
+ "seed": 1306,
+ "persona": {
+  "id": "U04",
+  "name": "Riya",
+  "grade": "UKG",
+  "age": 5.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "discover_and_start",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.55,
+  "patience": 2.8,
+  "attention_span_s": 170
+ },
+ "outcome": "could_not_start",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-patang",
+  "title": "મારો પતંગ",
+  "tags": [
+   "Gujarati",
+   "Grade 1"
+  ],
+  "words": 16,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.33,
+    "details": [
+     "UKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 6.33,
+      "title": "મારો પતંગ",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 10.46,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 10.46,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "CONSENT_BLOCKS_CHILD",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 13.02,
+    "details": [
+     "A written grown-ups-only box appeared; the child could not read it and could not start.",
+     "A written grown-ups-only box appeared; the child could not read it and could not start.",
+     "A written grown-ups-only box appeared; the child could not read it and could not start."
+    ],
+    "evidence": [
+     {
+      "t": 13.02,
+      "grade": "UKG",
+      "tapped": ""
+     },
+     {
+      "t": 15.26,
+      "grade": "UKG",
+      "tapped": "Not now"
+     },
+     {
+      "t": 18.55,
+      "grade": "UKG",
+      "tapped": "Not now"
+     }
+    ],
+    "child_quote": "A box came and I didn't know what it said.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "COULD_NOT_START_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 19.06,
+    "details": [
+     "Never managed to start a reading session."
+    ],
+    "evidence": [
+     {
+      "t": 19.06,
+      "tries": 3
+     }
+    ],
+    "child_quote": "It didn't start.",
+    "child_severity": "blocked"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 2.4,
+  "frustration_events": [
+   {
+    "t": 10.46,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 13.02,
+    "kind": "not_understood",
+    "frustration": 1.2,
+    "what": "consent dialog"
+   },
+   {
+    "t": 15.26,
+    "kind": "not_understood",
+    "frustration": 1.8,
+    "what": "consent dialog"
+   },
+   {
+    "t": 18.55,
+    "kind": "not_understood",
+    "frustration": 2.4,
+    "what": "consent dialog"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 8,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 0.0,
+  "child_talk_s": 0.0,
+  "tired_said": false,
+  "time_to_text_s": 2.2,
+  "reader_page_audio_clips": 0,
+  "words_total": 16,
+  "words_attempted": 0,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 0,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": null,
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 2,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-consent.png",
+   "screens/03-consent.png",
+   "screens/04-consent.png",
+   "screens/05-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": null,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

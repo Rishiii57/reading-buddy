@@ -1,0 +1,10 @@
+{"t": 3.15, "kind": "open_app", "brief": "Anvi, LKG (about 4.5 years). Prefers en-IN. Very motivated by stars and praise."}
+{"t": 3.2, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 4.35, "kind": "tap", "target": "વરસાદ Rain Gujarati Grade 1-2 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.57, "kind": "opened_text", "hash": "#/read/gu-varsad", "title": "વરસાદ", "tags": ["Gujarati", "Grade 1-2"], "words": 16, "lines": 4}
+{"t": 6.97, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 6.97, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 11.17, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.67, "kind": "session_started", "tries": 1}
+{"t": 26.43, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 30.16, "kind": "issue", "code": "SESSION_STOPPED_UNEXPECTEDLY", "detail": "The reading stopped (mic state 'idle') without the child ending it."}

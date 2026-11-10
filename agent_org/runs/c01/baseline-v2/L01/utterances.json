@@ -1,0 +1,167 @@
+{
+ "utterances": [
+  {
+   "t": 29.21,
+   "said": "बाधल",
+   "stt": "बाधल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.29,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 44.1,
+   "said": "वादल",
+   "stt": "वादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 49.6,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 60.11,
+   "said": "वादल बादल",
+   "stt": "वादल बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.21,
+    "target": "बादल",
+    "said": "बाधल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल"
+   },
+   {
+    "t": 37.29,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   },
+   {
+    "t": 44.1,
+    "target": "बादल",
+    "said": "वादल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वादल",
+    "drill": true
+   },
+   {
+    "t": 49.6,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल",
+    "drill": true
+   },
+   {
+    "t": 60.11,
+    "target": "बादल",
+    "said": "वादल बादल",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "वादल बादल"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.55,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 32.15,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 44.29,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 49.8,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! बादल गरजे, बारिश आई अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 62.24,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

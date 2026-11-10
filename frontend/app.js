@@ -18,8 +18,22 @@ const LANGS = {
 const ART_FOR = {
   "en-kite": "kite", "gu-patang": "kite", "en-rain": "rain", "hi-baarish": "rain", "gu-varsad": "rain",
   "en-mango": "mango", "en-ant": "ant", "hi-gudiya": "doll", "hi-chidiya": "nest", "gu-chakli": "nest",
-  "hi-bagicha": "garden", "gu-shala": "school",
+  "hi-bagicha": "garden", "gu-shala": "school", "en-rainrain": "rain", "gu-avre": "rain", "hi-samandar": "rain",
 };
+// what Buddy shows on the reading page, in the language of the text (REQ-SPOKEN-ONBOARDING)
+const UI = {
+  "en-IN": { hi: "Hi! I'm Buddy.", start: "Press the big microphone and read the first line out loud.",
+    listening: "I'm listening…", readWord: "Read the highlighted word out loud. Take your time!",
+    turn: "Your turn!", wholeLine: "Read the whole line out loud.", sayWord: "Your turn! Say this word:" },
+  "hi-IN": { hi: "नमस्ते! मैं बडी हूँ।", start: "बड़ा माइक दबाओ और पहली पंक्ति ज़ोर से पढ़ो।",
+    listening: "मैं सुन रहा हूँ…", readWord: "चमकता शब्द ज़ोर से पढ़ो। आराम से!",
+    turn: "अब तुम्हारी बारी!", wholeLine: "पूरी पंक्ति ज़ोर से पढ़ो।", sayWord: "अब तुम्हारी बारी! यह शब्द बोलो:" },
+  "gu-IN": { hi: "નમસ્તે! હું બડી છું.", start: "મોટું માઇક દબાવ અને પહેલી પંક્તિ મોટેથી વાંચ.",
+    listening: "હું સાંભળું છું…", readWord: "ચમકતો શબ્દ મોટેથી વાંચ. આરામથી!",
+    turn: "હવે તારો વારો!", wholeLine: "આખી પંક્તિ મોટેથી વાંચ.", sayWord: "હવે તારો વારો! આ શબ્દ બોલ:" },
+};
+function ui(key) { const L = (app.text && UI[app.text.language]) || UI["en-IN"]; return L[key]; }
+function uiLang() { return app.text ? LANGS[app.text.language].html : null; }
 const COLORS = ["#FFC93C", "#FF7A59", "#FF6FA8", "#2FC48F", "#7B5CFF", "#4FB8FF"];
 
 const app = {
@@ -36,7 +50,10 @@ const app = {
 function storeGet(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 function storeSet(k, v) { try { localStorage.setItem(k, v); } catch (e) { /* storage blocked */ } }
 function esc(s) { return String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c])); }
-function gradeRange(g) { const [a, b] = String(g).split("-").map(Number); return [a, b || a]; }
+// Nursery, LKG and UKG sort before Grade 1 (levels -2, -1, 0)
+const PRE = { Nursery: -2, LKG: -1, UKG: 0 };
+function gradeRange(g) { if (g in PRE) return [PRE[g], PRE[g]]; const [a, b] = String(g).split("-").map(Number); return [a, b || a]; }
+function gradeLabel(g) { return g in PRE ? g : `Grade ${g}`; }
 function minutes(words) { return Math.max(1, Math.round(words / 40)); }
 function artFor(id) { return (Art.scenes[ART_FOR[id]] || Art.scenes.book)(); }
 function toast(msg) {
@@ -123,22 +140,31 @@ function renderLibrary() {
   }
   const texts = app.library.texts[app.lang];
   const count = (g) => texts.filter((t) => { const [a, b] = gradeRange(t.grade); return a <= g && g <= b; }).length;
-  $("gradeChips").innerHTML = [["all", "All", texts.length], ...[1, 2, 3, 4, 5].map((g) => [String(g), `Grade ${g}`, count(g)])]
+  $("gradeChips").innerHTML = [["all", "All", texts.length], ...Object.entries(PRE).map(([k, v]) => [String(v), k, count(v)]),
+    ...[1, 2, 3, 4].map((g) => [String(g), `Grade ${g}`, count(g)])]
     .map(([v, label, n]) => `<button class="chip" data-grade="${v}" aria-pressed="${app.grade === v}">${label}<small>${n}</small></button>`).join("");
   const sel = $("gradeChips").querySelector('[aria-pressed="true"]');
   if (sel) $("gradeChips").scrollLeft = sel.offsetLeft - $("gradeChips").clientWidth / 2 + sel.offsetWidth / 2;
   const shown = app.grade === "all" ? texts : texts.filter((t) => { const [a, b] = gradeRange(t.grade); return a <= +app.grade && +app.grade <= b; });
   const L = LANGS[app.lang];
-  grid.innerHTML = shown.length ? shown.map((t, i) => `
-    <button class="story" data-id="${t.id}" data-cursor="card" style="animation-delay:${i * 0.06}s" aria-label="${esc(t.title_en)}, ${t.type === "poem" ? "poem" : "story"}, grade ${t.grade}">
+  const card = (t, i) => `
+    <button class="story${t.pre_primary ? " story--rhyme" : ""}" data-id="${t.id}" data-cursor="card" style="animation-delay:${i * 0.06}s" aria-label="${esc(t.title_en)}, ${t.pre_primary ? "rhyme" : t.type === "poem" ? "poem" : "story"}, ${gradeLabel(t.grade)}">
       <span class="story-art">${artFor(t.id)}</span>
       <span class="story-title" lang="${L.html}">${esc(t.title)}</span>
       ${t.title_en !== t.title ? `<span class="story-sub">${esc(t.title_en)}</span>` : ""}
-      <span class="tags"><span class="tag tag--${L.tag}">${L.en}</span><span class="tag tag--grade">Grade ${t.grade}</span><span class="tag tag--type">${t.type === "poem" ? "Poem" : "Story"}</span></span>
+      <span class="tags"><span class="tag tag--${L.tag}">${L.en}</span><span class="tag tag--grade">${gradeLabel(t.grade)}</span><span class="tag tag--type">${t.pre_primary ? "Rhyme" : t.type === "poem" ? "Poem" : "Story"}</span></span>
       <span class="story-foot"><svg class="icon"><use href="#i-clock"/></svg> ${minutes(t.words)} min read · ${t.words} words</span>
       <span class="story-go" aria-hidden="true"><svg class="icon"><use href="#i-next"/></svg></span>
-    </button>`).join("")
-    : `<div class="empty">${Art.owl()}<h2>No stories for Grade ${app.grade} yet</h2><p>Try another grade, or pick “All”.</p>
+    </button>`;
+  // two shelves: rhymes for the youngest first (what a small child sees and taps), then poems and stories
+  const rhymes = shown.filter((t) => t.pre_primary), rest = shown.filter((t) => !t.pre_primary);
+  const shelf = (title, items, offset) => items.length
+    ? `<h2 class="shelf-head">${title}</h2>` + items.map((t, i) => card(t, i + offset)).join("") : "";
+  grid.innerHTML = shown.length
+    ? (rhymes.length && rest.length
+      ? shelf("Rhymes for little ones · Nursery, LKG, UKG", rhymes, 0) + shelf("Poems and stories · Grade 1–4", rest, rhymes.length)
+      : shown.map(card).join(""))
+    : `<div class="empty">${Art.owl()}<h2>No stories for ${esc(gradeLabel(Object.keys(PRE).find((k) => String(PRE[k]) === app.grade) || app.grade))} yet</h2><p>Try another grade, or pick “All”.</p>
        <button class="btn btn--sun" data-grade="all">Show all</button></div>`;
 }
 
@@ -185,7 +211,7 @@ async function route() {
   const parts = location.hash.replace(/^#\/?/, "").split("/");
   const [page, arg] = parts;
   if (page !== "read" && app.running) { app.leaving = true; stopSession(); }
-  if (page !== "read") stopListen();
+  if (page !== "read") { stopListen(); stopHint(); }
   switch (page) {
     case "languages":
       showView("languages");
@@ -256,11 +282,39 @@ async function openText(id) {
   $("textTitle").lang = L.html;
   $("rbThumb").innerHTML = artFor(id);
   $("bookArt").innerHTML = artFor(id);
-  $("rbTags").innerHTML = `<span class="tag tag--${L.tag}">${L.en}</span><span class="tag tag--grade">Grade ${app.text.grade}</span>`;
+  $("rbTags").innerHTML = `<span class="tag tag--${L.tag}">${L.en}</span><span class="tag tag--grade">${gradeLabel(app.text.grade)}</span>`;
   $("readerBack").href = `#/library/${app.lang}`;
   $("demoBtn").hidden = !meta?.demo;
   $("micBtn").disabled = false;
   renderPassage();
+  resetReaderUI();
+  speakHint(id);
+}
+
+// Buddy says out loud what to do, once per opened text, for children who can't read the screen yet
+async function speakHint(id) {
+  stopHint();
+  const token = (app.hintToken = {});
+  try {
+    const res = await fetch(`/api/phrase/${app.text.language}/reader_hint`);
+    if (!res.ok) return;
+    const { url, text } = await res.json();
+    await ensureAudio();
+    const buf = await getBuffer(url);
+    if (app.hintToken !== token || app.running || app.listening || app.text?.id !== id) return;
+    setBuddy("talking");
+    bubble(ui("hi"), text, "help", uiLang());
+    const s = app.ctx.createBufferSource();
+    s.buffer = buf;
+    s.connect(app.analyser);
+    app.hintSource = s;
+    s.onended = () => { if (app.hintSource === s) { app.hintSource = null; if (!app.running && !app.listening) setBuddy("idle"); } };
+    s.start();
+  } catch (e) { /* audio blocked or unavailable: the written hint stays */ }
+}
+function stopHint() {
+  app.hintToken = null;
+  if (app.hintSource) { try { app.hintSource.stop(); } catch (e) { /* already stopped */ } app.hintSource = null; }
 }
 
 function renderPassage() {
@@ -362,7 +416,7 @@ function setBuddy(state) {
 function setDock(state, label) {
   $("micDock").dataset.state = state;
   if (label) $("micLabel").textContent = label;
-  const sr = { idle: "Start reading", connecting: "Connecting", listening: "Pause", hearing: "Pause", talking: "Buddy is talking", paused: "Resume", error: "Try again" }[state];
+  const sr = { idle: "Start reading", connecting: "Connecting", listening: "Listening", hearing: "Listening", talking: "Buddy is talking", paused: "Resume", error: "Try again" }[state];
   $("micSr").textContent = sr || "";
 }
 function bubble(label, text, tone = "", lang = null, hold = 0) {
@@ -379,13 +433,13 @@ function bubble(label, text, tone = "", lang = null, hold = 0) {
   if (hold) app.bubbleTimer = setTimeout(() => { if (app.running && !app.tutorSpeaking && !app.paused) listeningBubble(); }, hold);
 }
 function listeningBubble() {
-  bubble("I'm listening…", "Read the highlighted word out loud. Take your time!", "");
+  bubble(ui("listening"), ui("readWord"), "", uiLang());
 }
 
 function resetReaderUI() {
   setDock("idle", "Tap to start reading");
   setBuddy("idle");
-  bubble("Hi! I'm Buddy.", "Press the big microphone and read the first line out loud.");
+  bubble(ui("hi"), ui("start"), "", uiLang());
   $("helpChip").hidden = true;
   $("heardList").innerHTML = "";
   $("heardEmpty").hidden = false;
@@ -675,6 +729,7 @@ const SAY_UI = {
   fix_next: { label: "Yes! Very nice! Next word:", tone: "praise", chip: "Word practice", buddy: "talking" },
   fix_again: { label: "Listen again", tone: "rewind", chip: "Word practice", buddy: "talking" },
   repeat_line: { label: "Now the whole line", tone: "help", chip: "Read the whole line", buddy: "talking" },
+  echo_line: { label: "Listen, then you say it!", tone: "help", chip: "Say it after Buddy", buddy: "talking" },
   praise: { label: "Yay!", tone: "praise", buddy: "happy", party: "small" },
   skip_line: { label: "That's okay!", tone: "rewind", chip: "Moving on", buddy: "talking" },
   break: { label: "Let's take a little break", tone: "", buddy: "sleepy" },
@@ -734,10 +789,10 @@ function yourTurnBubble() {
   const st = app.last;
   const L = LANGS[app.text.language].html;
   if (st && st.mode === "drill" && st.target != null) {
-    bubble("Your turn! Say this word:", app.text.words[st.target].t.replace(/[,.!?;:।]+$/, ""), "help", L);
+    bubble(ui("sayWord"), app.text.words[st.target].t.replace(/[,.!?;:।]+$/, ""), "help", L);
     showChip("Word practice");
   } else if (st && st.repeat_line) {
-    bubble("Your turn!", "Read the whole line out loud.", "help");
+    bubble(ui("turn"), ui("wholeLine"), "help", L);
   } else {
     app.bubbleTimer = setTimeout(() => { if (app.running && !app.tutorSpeaking && !app.paused) listeningBubble(); }, 2600);
   }
@@ -779,28 +834,10 @@ function sendJSON(obj) {
   if (app.ws && app.ws.readyState === 1) app.ws.send(JSON.stringify(obj));
 }
 
-// Part K: a parent or guardian agrees before the microphone is ever used
-function askConsent() {
-  if (storeGet("rb.consent") === "1") return Promise.resolve(true);
-  const dlg = $("consentDlg");
-  $("consentBox").checked = false;
-  $("consentYes").disabled = true;
-  dlg.showModal();
-  return new Promise((resolve) => {
-    $("consentBox").onchange = () => { $("consentYes").disabled = !$("consentBox").checked; };
-    $("consentYes").onclick = () => { storeSet("rb.consent", "1"); dlg.close(); resolve(true); };
-    $("consentNo").onclick = () => { dlg.close(); resolve(false); };
-    dlg.oncancel = () => resolve(false);
-  });
-}
-
 async function startSession(mode) {
   if (app.running || !app.text) return;
-  if (mode === "mic" && !(await askConsent())) {
-    bubble("That's okay!", "A grown-up can allow the microphone any time. You can also watch the Demo reader.", "");
-    return;
-  }
   stopListen();
+  stopHint();
   try {
     await ensureAudio();
   } catch (e) {
@@ -978,6 +1015,7 @@ function onSummary(s) {
 // =====================================================================================
 async function listenFirst() {
   if (app.listening) { stopListen(); return; }
+  stopHint();
   await ensureAudio();
   app.listening = true;
   $("listenBtn").innerHTML = `<svg class="icon"><use href="#i-stop"/></svg> Stop listening`;
@@ -1081,8 +1119,18 @@ $("againBtn").onclick = () => { location.hash = `#/read/${app.summary?.text.id |
 // =====================================================================================
 $("micBtn").onclick = () => {
   if (!app.running) startSession("mic");
-  else if (app.ready && !app.tutorSpeaking) togglePause();
+  else if (app.ready && app.paused) togglePause(); // paused: the big button carries on
+  else if (app.ready && !app.tutorSpeaking) nudgeListening(); // a child taps the mic "to talk": never pause
 };
+
+// Tapping the mic while Buddy is listening only reassures the child; pausing is the Pause button or Escape.
+function nudgeListening() {
+  const dock = $("micDock");
+  dock.classList.remove("is-nudge");
+  void dock.offsetWidth;
+  dock.classList.add("is-nudge");
+  bubble("I'm listening!", "Go ahead, read out loud. I can hear you.", "help", null, 2600);
+}
 $("pauseBtn").onclick = togglePause;
 $("endBtn").onclick = () => stopSession();
 $("demoBtn").onclick = () => startSession("demo");

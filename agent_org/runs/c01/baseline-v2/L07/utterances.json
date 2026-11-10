@@ -1,0 +1,204 @@
+{
+ "utterances": [
+  {
+   "t": 31.98,
+   "said": "ઠપ",
+   "stt": "ઠપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.38,
+   "said": "ઠપ ઠપ",
+   "stt": "ઠપ ઠપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 44.17,
+   "said": "ટપ ટપ",
+   "stt": "ઠપ ટપ",
+   "stt_notes": [
+    "'ટપ' heard as 'ઠપ'"
+   ],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 1
+  },
+  {
+   "t": 52.67,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 57.51,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 62.64,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.98,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઠપ"
+   },
+   {
+    "t": 40.38,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઠપ ઠપ"
+   },
+   {
+    "t": 44.17,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઠપ ટપ",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 52.67,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 57.51,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 62.64,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.29,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. ટપ ટપ ટપ ટપ વરસાદ પડે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 34.15,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. ટપ",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 40.69,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ટપ",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 44.42,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "હા! ખૂબ સરસ! ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 54.35,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 59.5,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "ટપ",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  }
+ ]
+}

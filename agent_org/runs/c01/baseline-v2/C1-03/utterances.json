@@ -1,0 +1,153 @@
+{
+ "utterances": [
+  {
+   "t": 19.79,
+   "said": "ટપ ઠપ",
+   "stt": "ટપ ઠપ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 25.52,
+   "said": "ઠપ",
+   "stt": "ઠપ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 30.71,
+   "said": "ટપ",
+   "stt": "ટપ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.28,
+   "said": "ટપ ટપ",
+   "stt": "ટપ ટપ",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 19.79,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ટપ ઠપ"
+   },
+   {
+    "t": 25.52,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ઠપ"
+   },
+   {
+    "t": 30.71,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ટપ"
+   }
+  ],
+  "1": [
+   {
+    "t": 19.79,
+    "target": "ટપ",
+    "said": "ઠપ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ટપ ઠપ"
+   },
+   {
+    "t": 30.71,
+    "target": "ટપ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ટપ"
+   },
+   {
+    "t": 39.28,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ટપ ટપ"
+   }
+  ],
+  "2": [
+   {
+    "t": 39.28,
+    "target": "ટપ",
+    "said": "ટપ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ટપ ટપ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.84,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. ટપ ટપ ટપ ટપ વરસાદ પડે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 32.95,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ટપ ટપ ટપ",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 41.71,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ટપ વરસાદ પડે",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  }
+ ]
+}

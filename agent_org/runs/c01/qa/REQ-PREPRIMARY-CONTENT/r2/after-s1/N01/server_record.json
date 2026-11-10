@@ -1,0 +1,218 @@
+{
+ "id": "20261109-214200-8b0b39",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 2,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 46.0,
+  "words_per_minute": 5.2
+ },
+ "log": [
+  {
+   "t": 0.034,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.536,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.496,
+   "event": "transcript",
+   "text": "એ"
+  },
+  {
+   "t": 17.496,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 23.97,
+   "event": "transcript",
+   "text": "બિલાડી જાડ"
+  },
+  {
+   "t": 23.97,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 25.584,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 25.584,
+   "event": "echo_slips_accepted",
+   "words": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": 25.584,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 25.584,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 31.585,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 35.374,
+   "event": "transcript",
+   "text": "તેણે"
+  },
+  {
+   "t": 35.374,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 42.473,
+   "event": "transcript",
+   "text": "પહેર પહેર સાડ"
+  },
+  {
+   "t": 42.473,
+   "event": "uncertain",
+   "text": "પહેર પહેર સાડ"
+  },
+  {
+   "t": 42.473,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.766,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.496,
+   "type": "transcript",
+   "text": "એ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 21.127,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.97,
+   "type": "transcript",
+   "text": "બિલાડી જાડ",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 33.644,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.374,
+   "type": "transcript",
+   "text": "તેણે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 38.49,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.473,
+   "type": "transcript",
+   "text": "પહેર પહેર સાડ",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એ",
+   "heard": "એ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "બિલાડી જાડ",
+   "heard": "બિલાડી જાડ",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "તેણે પહેરી",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "તેણે",
+   "heard": "તેણે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "પહેર પહેર સાડ",
+   "heard": "પહેર પહેર સાડ",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 66
+}

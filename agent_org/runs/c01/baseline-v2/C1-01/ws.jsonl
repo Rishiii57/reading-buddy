@@ -1,0 +1,67 @@
+{"t": 14.4, "type": "ready", "message": null}
+{"t": 14.42, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!", "spans": [[0, 5]]}
+{"t": 30.3, "type": "speech"}
+{"t": 33.02, "type": "heard", "text": "falls the run"}
+{"t": 33.02, "type": "speech"}
+{"t": 34.92, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. Pitter", "spans": [[0, 1]]}
+{"t": 39.22, "type": "speech"}
+{"t": 40.7, "type": "heard", "text": "Pitter"}
+{"t": 40.7, "type": "speech"}
+{"t": 40.7, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! patter", "spans": [[1, 2]]}
+{"t": 44.14, "type": "speech"}
+{"t": 45.56, "type": "heard", "text": "patter"}
+{"t": 45.58, "type": "speech"}
+{"t": 45.59, "type": "say", "kind": "fix_next", "text": "Yes! Very nice! rain", "spans": [[4, 5]]}
+{"t": 48.9, "type": "speech"}
+{"t": 51.05, "type": "heard", "text": "ran rain"}
+{"t": 51.05, "type": "speech"}
+{"t": 51.05, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! Pitter patter falls the rain Now you say the whole line.", "spans": [[0, 5]]}
+{"t": 58.94, "type": "speech"}
+{"t": 62.68, "type": "heard", "text": "Pitter patter falls rain"}
+{"t": 62.68, "type": "speech"}
+{"t": 63.55, "type": "speech"}
+{"t": 64.91, "type": "heard", "text": "tha"}
+{"t": 64.92, "type": "speech"}
+{"t": 64.92, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 68.14, "type": "speech"}
+{"t": 71.05, "type": "heard", "text": "tha tha rain"}
+{"t": 71.05, "type": "speech"}
+{"t": 71.97, "type": "speech"}
+{"t": 73.37, "type": "heard", "text": "the"}
+{"t": 73.4, "type": "speech"}
+{"t": 75.41, "type": "say", "kind": "stall_phrase", "text": "Listen... rain", "spans": [[4, 5]]}
+{"t": 78.1, "type": "speech"}
+{"t": 79.48, "type": "heard", "text": "rain"}
+{"t": 79.48, "type": "speech"}
+{"t": 79.57, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 83.24, "type": "speech"}
+{"t": 86.24, "type": "heard", "text": "oa On the"}
+{"t": 86.24, "type": "speech"}
+{"t": 86.24, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 89.62, "type": "speech"}
+{"t": 96.41, "type": "heard", "text": "On On red ana ana went went pane"}
+{"t": 96.42, "type": "speech"}
+{"t": 96.43, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 99.8, "type": "speech"}
+{"t": 102.8, "type": "heard", "text": "ran and"}
+{"t": 102.8, "type": "speech"}
+{"t": 105.14, "type": "speech"}
+{"t": 106.83, "type": "heard", "text": "pane"}
+{"t": 106.83, "type": "speech"}
+{"t": 107.11, "type": "speech"}
+{"t": 108.6, "type": "heard", "text": "On"}
+{"t": 108.6, "type": "speech"}
+{"t": 108.6, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 112.17, "type": "speech"}
+{"t": 115.86, "type": "heard", "text": "the roof went pane"}
+{"t": 115.86, "type": "speech"}
+{"t": 116.73, "type": "speech"}
+{"t": 119.66, "type": "heard", "text": "ana we window"}
+{"t": 119.71, "type": "speech"}
+{"t": 119.71, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 126.27, "type": "speech"}
+{"t": 128.86, "type": "heard", "text": "window pane"}
+{"t": 128.86, "type": "speech"}
+{"t": 128.86, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. On", "spans": [[5, 6]]}
+{"t": 141.79, "type": "say", "kind": "fix_again", "text": "On", "spans": [[5, 6]]}
+{"t": 142.99, "type": "summary", "summary": {"words_total": 24, "words_read": 6, "words_helped": 5, "words_to_practise": ["Pitter", "patter", "rain", "On", "and"], "words_practised": 3, "correction_attempts": 3, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 2, "seconds": 127.7, "words_per_minute": 5.2}}

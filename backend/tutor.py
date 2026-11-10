@@ -42,7 +42,13 @@ _BREAK_WORDS = {"stop", "tired", "break", "enough", "बस", "रुको", "�
 
 @dataclass
 class TutorConfig:
-    stall_mid_s: float = 2.0          # silence after speech end before helping mid-line
+    stall_mid_s: float = 3.0          # silence after speech end before helping mid-line (was 2.0: interrupted thinking pauses)
+    young_stall_mid_s: float = 3.4    # the same for Grade 1 and pre-primary texts: young readers decode slowly
+    echo_stall_mid_s: float = 4.5     # pre-primary rhymes: the child is recalling a line Buddy just said
+    echo_lenient: bool = True         # pre-primary rhymes: slips are 'helped', not drilled (oral repetition is the goal)
+    adaptive_stall: bool = True       # learn the reader's own thinking pauses (REQ-STALL-TIMING)
+    stall_gap_k: float = 1.3          # mid-line limit = k x the median of this reader's resumed pauses...
+    stall_mid_max_s: float = 5.0      # ...but never more than this
     stall_line_start_s: float = 4.0   # longer at a line or verse end (a normal pause)
     stall_text_start_s: float = 6.0   # before the first word
     after_tutor_s: float = 3.5        # give the child longer to start right after Buddy speaks
@@ -106,6 +112,10 @@ class TutorEngine:
         self.log: list[dict] = []
         self.rng = random.Random(seed)
         self.counts = {"prompts": 0, "corrections": 0, "attempts": 0, "practised": 0, "praise": 0, "skips": 0}
+        self.echo = getattr(text, "pre_primary", False)  # pre-readers: Buddy reads every line first
+        self.young = str(text.grade).split("-")[0].strip().lower() in ("1", "0", "nursery", "lkg", "ukg")
+        self.pause_gaps: list[float] = []   # mid-line pauses after which the reader went on by themselves
+        self._gap_open = False
 
     # ----- inputs -------------------------------------------------------------
     def start(self, now: float) -> list[dict]:
@@ -132,9 +142,23 @@ class TutorEngine:
         self._log(now, "resume")
 
     def on_speech_start(self, now: float) -> list[dict]:
+        if self._gap_open and self.mode == "read" and not self.tutor_busy:
+            # the reader paused mid-line and carried on alone: remember how long they needed
+            self.pause_gaps = (self.pause_gaps + [now - self.last_speech_end])[-6:]
+        self._gap_open = False
         self.speaking = True
         self.speech_started_at = now
         return []
+
+    def mid_limit(self) -> float:
+        """How long to wait mid-line before helping: per level, then adapted to this reader's pauses."""
+        cfg = self.cfg
+        base = cfg.echo_stall_mid_s if self.echo else cfg.young_stall_mid_s if self.young else cfg.stall_mid_s
+        if not cfg.adaptive_stall or len(self.pause_gaps) < 2:
+            return base
+        gaps = sorted(self.pause_gaps)
+        med = gaps[len(gaps) // 2] if len(gaps) % 2 else (gaps[len(gaps) // 2 - 1] + gaps[len(gaps) // 2]) / 2
+        return min(cfg.stall_mid_max_s, max(base, cfg.stall_gap_k * med))
 
     def on_transcript(self, text: str, now: float, latency_ms: float = 0.0,
                       duration_ms: float | None = None) -> list[dict]:
@@ -207,7 +231,7 @@ class TutorEngine:
         elif self.p == start and self.stall_level == 0:
             limit = cfg.stall_line_start_s
         else:
-            limit = cfg.stall_mid_s
+            limit = self.mid_limit()
         if just_spoke:
             limit = max(limit, cfg.after_tutor_s)
         if idle < limit:
@@ -269,6 +293,8 @@ class TutorEngine:
                 self.pending_since = self.last_speech_end
                 self.pending_after_reading = True
         if self.p > p_before:
+            start_l, end_l = self._line_range(self.line)
+            self._gap_open = start_l < self.p < end_l  # stopped inside a line: a thinking pause starts
             self.stall_level = 0
             self.free = {j for j in self.free if j >= self.p}
             self.last_activity = max(self.last_activity, now)
@@ -303,10 +329,18 @@ class TutorEngine:
 
     def _check_line(self, now: float) -> list[dict]:
         """The child stopped partway after a slip: practise the words read wrong so far."""
+        if self.echo and self.cfg.echo_lenient:
+            return self._stall(now)  # a rhyme: just help with the next words, no drilling
         return self._start_correction(sorted(self._errors_in_line()), now)
 
     def _finish_line(self, now: float) -> list[dict]:
         errs = sorted(self._errors_in_line())
+        if errs and self.echo and self.cfg.echo_lenient:
+            for j in errs:  # repeated after Buddy, imperfectly: counts as 'with help', never drilled
+                self._mark(j, HELPED)
+            self.line_errors.clear()
+            self._log(now, "echo_slips_accepted", words=errs)
+            errs = []
         if errs:
             return self._start_correction(errs, now)
         L = self.line
@@ -318,11 +352,20 @@ class TutorEngine:
         if self.done:
             return [{"type": "progress"}] + self._finish_actions
         if was_repeat:
-            return [{"type": "progress"}, self._praise(now, "line_done")]
+            return [{"type": "progress"}, self._praise(now, "line_done")] + self._echo_next(now)
         if self.words[end - 1].stanza_end:
             self._set_state("STANZA_COMPLETED", now)
-            return [{"type": "progress"}, self._praise(now, self.rng.choice(["stanza_done", "keep_going"]))]
-        return [{"type": "progress"}]
+            return [{"type": "progress"}, self._praise(now, self.rng.choice(["stanza_done", "keep_going"]))] + self._echo_next(now)
+        return [{"type": "progress"}] + self._echo_next(now)
+
+    def _echo_next(self, now: float) -> list[dict]:
+        """Echo reading for pre-primary rhymes: Buddy says the next line, then the child says it."""
+        if not self.echo or self.done:
+            return []
+        start, end = self._line_range(self.line)
+        self._set_state("TEACHER_DEMONSTRATION", now, line=self.line)
+        # short on purpose: just the line and "your turn" (children talk over long Buddy turns)
+        return [self._say(now, "echo_line", [("span", start, end), ("phrase", "now_you_try")])]
 
     def _next_line(self, now: float) -> None:
         self.line_errors.clear()

@@ -1,0 +1,10 @@
+{"t": 2.79, "kind": "open_app", "brief": "Jiya, Class 1 (about 6.5 years). Prefers en-IN. Gujarati at home; English-medium school."}
+{"t": 2.8, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.66, "kind": "tap", "target": "Baa, Baa, Black Sheep English LKG Rhyme ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.65, "kind": "opened_text", "hash": "#/read/en-baabaa", "title": "Baa, Baa, Black Sheep", "tags": ["English", "LKG"], "words": 15, "lines": 4}
+{"t": 10.21, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.29, "kind": "session_started", "tries": 1}
+{"t": 13.35, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 34.19, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 46.1, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}
+{"t": 78.12, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.5)."}

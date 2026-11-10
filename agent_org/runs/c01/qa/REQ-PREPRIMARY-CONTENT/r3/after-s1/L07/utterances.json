@@ -1,0 +1,362 @@
+{
+ "utterances": [
+  {
+   "t": 32.49,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.22,
+   "said": "to to",
+   "stt": "to to",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.9,
+   "said": "tree tree the",
+   "stt": "tree tree the",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.13,
+   "said": "littl little",
+   "stt": "littl little",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 60.59,
+   "said": "see",
+   "stt": "see",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 63.55,
+   "said": "sun",
+   "stt": "sun",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.66,
+   "said": "star",
+   "stt": "star",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 72.24,
+   "said": "How",
+   "stt": "How",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 79.32,
+   "said": "How I went",
+   "stt": "How I went",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.5,
+   "said": "what",
+   "stt": "what",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 87.83,
+   "said": "what",
+   "stt": "what",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 91.98,
+   "said": "what",
+   "stt": "what",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 98.97,
+   "said": "yoa yoa",
+   "stt": "yoa yoa",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.49,
+    "target": "Twinkle",
+    "said": "the",
+    "correct": false,
+    "kind": "sub",
+    "stt": "the"
+   },
+   {
+    "t": 47.9,
+    "target": "Twinkle",
+    "said": "tree",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tree tree the"
+   }
+  ],
+  "1": [
+   {
+    "t": 39.22,
+    "target": "twinkle",
+    "said": "to",
+    "correct": false,
+    "kind": "sub",
+    "stt": "to to"
+   },
+   {
+    "t": 47.9,
+    "target": "twinkle",
+    "said": "the",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tree tree the"
+   }
+  ],
+  "2": [
+   {
+    "t": 54.13,
+    "target": "little",
+    "said": "littl little",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "littl little"
+   }
+  ],
+  "3": [
+   {
+    "t": 60.59,
+    "target": "star",
+    "said": "see",
+    "correct": false,
+    "kind": "sub",
+    "stt": "see"
+   },
+   {
+    "t": 63.55,
+    "target": "star",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "sun"
+   },
+   {
+    "t": 66.66,
+    "target": "star",
+    "said": "star",
+    "correct": true,
+    "kind": "ok",
+    "stt": "star"
+   }
+  ],
+  "4": [
+   {
+    "t": 72.24,
+    "target": "How",
+    "said": "How",
+    "correct": true,
+    "kind": "ok",
+    "stt": "How"
+   },
+   {
+    "t": 79.32,
+    "target": "How",
+    "said": "How",
+    "correct": true,
+    "kind": "ok",
+    "stt": "How I went"
+   }
+  ],
+  "5": [
+   {
+    "t": 79.32,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "ok",
+    "stt": "How I went"
+   }
+  ],
+  "6": [
+   {
+    "t": 79.32,
+    "target": "wonder",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "How I went"
+   }
+  ],
+  "7": [
+   {
+    "t": 85.5,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "ok",
+    "stt": "what"
+   },
+   {
+    "t": 87.83,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "ok",
+    "stt": "what"
+   },
+   {
+    "t": 91.98,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "ok",
+    "stt": "what"
+   }
+  ],
+  "8": [
+   {
+    "t": 98.97,
+    "target": "you",
+    "said": "yoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "yoa yoa"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.88,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 39.34,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 59.03,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... star",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 66.68,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... How I wonder what you are! Now you try!",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 83.9,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... what you are!",
+   "spans": [
+    [
+     7,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 99.03,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

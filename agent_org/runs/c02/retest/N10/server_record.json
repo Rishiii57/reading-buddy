@@ -1,0 +1,101 @@
+{
+ "id": "20261110-111541-f7dafe",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 1,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 26.2,
+  "words_per_minute": 6.9
+ },
+ "log": [
+  {
+   "t": 0.485,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.061,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.059,
+   "event": "transcript",
+   "text": "મામાનું"
+  },
+  {
+   "t": 19.059,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 23.575,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 23.575,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.059,
+   "type": "transcript",
+   "text": "મામાનું",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાણું",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.45
+  },
+  {
+   "text": "મામાનું",
+   "heard": "મામાનું",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 90
+}

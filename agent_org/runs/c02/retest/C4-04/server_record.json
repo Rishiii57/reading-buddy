@@ -1,0 +1,671 @@
+{
+ "id": "20261110-113357-29dfbc",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 33,
+  "words_helped": 4,
+  "words_to_practise": [
+   "A",
+   "the",
+   "ant",
+   "not"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 5,
+  "lines_completed": 5,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 115.3,
+  "words_per_minute": 19.3
+ },
+ "log": [
+  {
+   "t": 0.011,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.789,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.64,
+   "event": "transcript",
+   "text": "small ant walked across floor"
+  },
+  {
+   "t": 16.64,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 19.495,
+   "event": "transcript",
+   "text": "the floor"
+  },
+  {
+   "t": 19.495,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 19.495,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 19.495,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 24.295,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 24.295,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 24.295,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 32.851,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 36.748,
+   "event": "transcript",
+   "text": "A small ant walked across the floor"
+  },
+  {
+   "t": 36.748,
+   "event": "progress",
+   "frm": 0,
+   "to": 7
+  },
+  {
+   "t": 36.748,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 36.748,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 39.927,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.387,
+   "event": "transcript",
+   "text": "It carried a get grain of of rice on its back"
+  },
+  {
+   "t": 45.387,
+   "event": "progress",
+   "frm": 7,
+   "to": 16
+  },
+  {
+   "t": 45.387,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 45.387,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 45.387,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 48.54,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.446,
+   "event": "transcript",
+   "text": "The rice was bigger than dhe ant"
+  },
+  {
+   "t": 52.446,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 52.446,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    21
+   ]
+  },
+  {
+   "t": 52.446,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 21
+  },
+  {
+   "t": 59.092,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 59.092,
+   "event": "drill_ok",
+   "word": 21
+  },
+  {
+   "t": 59.092,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 65.996,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 66.966,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 71.675,
+   "event": "transcript",
+   "text": "The rice was bigger than the ant"
+  },
+  {
+   "t": 71.675,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 71.675,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 71.675,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 75.783,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 80.424,
+   "event": "transcript",
+   "text": "But the ana did noa give up"
+  },
+  {
+   "t": 80.424,
+   "event": "progress",
+   "frm": 23,
+   "to": 30
+  },
+  {
+   "t": 80.424,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    25,
+    27
+   ]
+  },
+  {
+   "t": 80.424,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 25
+  },
+  {
+   "t": 86.131,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 86.131,
+   "event": "drill_ok",
+   "word": 25
+  },
+  {
+   "t": 86.131,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 27
+  },
+  {
+   "t": 91.138,
+   "event": "transcript",
+   "text": "not"
+  },
+  {
+   "t": 91.138,
+   "event": "drill_ok",
+   "word": 27
+  },
+  {
+   "t": 91.138,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 98.293,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 102.011,
+   "event": "transcript",
+   "text": "But the ant did not give up"
+  },
+  {
+   "t": 102.011,
+   "event": "progress",
+   "frm": 23,
+   "to": 30
+  },
+  {
+   "t": 102.011,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 102.011,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 105.613,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 110.499,
+   "event": "transcript",
+   "text": "It walked walked sun slowly and reached its have home"
+  },
+  {
+   "t": 110.499,
+   "event": "progress",
+   "frm": 30,
+   "to": 37
+  },
+  {
+   "t": 110.499,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 4
+  },
+  {
+   "t": 110.499,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 110.499,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.011,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.937,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.64,
+   "type": "transcript",
+   "text": "small ant walked across floor",
+   "latency": 120,
+   "audio_duration_ms": 2280,
+   "message": null
+  },
+  {
+   "t": 18.037,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.495,
+   "type": "transcript",
+   "text": "the floor",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 23.255,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.295,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 33.186,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.748,
+   "type": "transcript",
+   "text": "A small ant walked across the floor",
+   "latency": 120,
+   "audio_duration_ms": 3120,
+   "message": null
+  },
+  {
+   "t": 40.185,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.387,
+   "type": "transcript",
+   "text": "It carried a get grain of of rice on its back",
+   "latency": 120,
+   "audio_duration_ms": 4780,
+   "message": null
+  },
+  {
+   "t": 48.843,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.446,
+   "type": "transcript",
+   "text": "The rice was bigger than dhe ant",
+   "latency": 120,
+   "audio_duration_ms": 3120,
+   "message": null
+  },
+  {
+   "t": 58.051,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.092,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 66.186,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.966,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 441,
+   "message": null
+  },
+  {
+   "t": 68.134,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 71.675,
+   "type": "transcript",
+   "text": "The rice was bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 3120,
+   "message": null
+  },
+  {
+   "t": 76.883,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.424,
+   "type": "transcript",
+   "text": "But the ana did noa give up",
+   "latency": 120,
+   "audio_duration_ms": 3120,
+   "message": null
+  },
+  {
+   "t": 85.089,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.131,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 90.005,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 91.138,
+   "type": "transcript",
+   "text": "not",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 98.469,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.011,
+   "type": "transcript",
+   "text": "But the ant did not give up",
+   "latency": 120,
+   "audio_duration_ms": 3120,
+   "message": null
+  },
+  {
+   "t": 105.708,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.499,
+   "type": "transcript",
+   "text": "It walked walked sun slowly and reached its have home",
+   "latency": 120,
+   "audio_duration_ms": 4370,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "small ant walked across floor",
+   "heard": "small ant walked across floor",
+   "muted_words": 0,
+   "duration_s": 2.28
+  },
+  {
+   "text": "the floor",
+   "heard": "the floor",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "A small ant walked across the floor",
+   "heard": "A small ant walked across the floor",
+   "muted_words": 0,
+   "duration_s": 3.12
+  },
+  {
+   "text": "It carried a get grain of of rice on its back",
+   "heard": "It carried a get grain of of rice on its back",
+   "muted_words": 0,
+   "duration_s": 4.78
+  },
+  {
+   "text": "The rice was bigger than dhe ant",
+   "heard": "The rice was bigger than dhe ant",
+   "muted_words": 0,
+   "duration_s": 3.12
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "The rice waa was bigger than the ant",
+   "heard": "ant",
+   "muted_words": 7,
+   "duration_s": 3.53
+  },
+  {
+   "text": "The rice was bigger than the ant",
+   "heard": "The rice was bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 3.12
+  },
+  {
+   "text": "But the ana did noa give up",
+   "heard": "But the ana did noa give up",
+   "muted_words": 0,
+   "duration_s": 3.12
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "not",
+   "heard": "not",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "But the ant did not give up",
+   "heard": "But the ant did not give up",
+   "muted_words": 0,
+   "duration_s": 3.12
+  },
+  {
+   "text": "It walked walked sun slowly and reached its have home",
+   "heard": "It walked walked sun slowly and reached its have home",
+   "muted_words": 0,
+   "duration_s": 4.37
+  }
+ ],
+ "tts_offline": 754
+}

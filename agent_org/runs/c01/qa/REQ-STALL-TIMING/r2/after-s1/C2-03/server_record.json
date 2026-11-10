@@ -1,0 +1,1268 @@
+{
+ "id": "20261109-200010-665255",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 16,
+  "words_helped": 7,
+  "words_to_practise": [
+   "carried",
+   "back",
+   "The",
+   "rice",
+   "was",
+   "than",
+   "ant"
+  ],
+  "words_practised": 7,
+  "correction_attempts": 9,
+  "lines_total": 5,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 6,
+  "seconds": 215.1,
+  "words_per_minute": 6.4
+ },
+ "log": [
+  {
+   "t": 0.19,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.5,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.72,
+   "event": "transcript",
+   "text": "A small ant walked across floor"
+  },
+  {
+   "t": 19.72,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 20.85,
+   "event": "pause"
+  },
+  {
+   "t": 23.767,
+   "event": "resume"
+  },
+  {
+   "t": 26.431,
+   "event": "transcript",
+   "text": "the floor"
+  },
+  {
+   "t": 26.431,
+   "event": "progress",
+   "frm": 5,
+   "to": 7
+  },
+  {
+   "t": 26.431,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 34.063,
+   "event": "transcript",
+   "text": "It come and a grain on of rice on back"
+  },
+  {
+   "t": 34.063,
+   "event": "progress",
+   "frm": 7,
+   "to": 14
+  },
+  {
+   "t": 42.164,
+   "event": "transcript",
+   "text": "It carried go of run on is its is its dack"
+  },
+  {
+   "t": 42.164,
+   "event": "uncertain",
+   "text": "back it carried go of run on is its is its dack"
+  },
+  {
+   "t": 42.164,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 45.932,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 46.38,
+   "event": "pause"
+  },
+  {
+   "t": 48.947,
+   "event": "resume"
+  },
+  {
+   "t": 50.837,
+   "event": "transcript",
+   "text": "its"
+  },
+  {
+   "t": 50.837,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 55.009,
+   "event": "transcript",
+   "text": "ball"
+  },
+  {
+   "t": 55.009,
+   "event": "progress",
+   "frm": 15,
+   "to": 16
+  },
+  {
+   "t": 60.964,
+   "event": "transcript",
+   "text": "to rice rice was was bigger to all"
+  },
+  {
+   "t": 60.964,
+   "event": "uncertain",
+   "text": "ball to rice rice was was bigger to all"
+  },
+  {
+   "t": 60.964,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 64.496,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 69.242,
+   "event": "transcript",
+   "text": "The run rice we bed to at"
+  },
+  {
+   "t": 69.242,
+   "event": "uncertain",
+   "text": "the run rice we bed to at"
+  },
+  {
+   "t": 75.154,
+   "event": "transcript",
+   "text": "tree The rice we bigger the the ant"
+  },
+  {
+   "t": 75.154,
+   "event": "correction",
+   "line": 1,
+   "words": [
+    8,
+    15
+   ]
+  },
+  {
+   "t": 75.154,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 8
+  },
+  {
+   "t": 80.037,
+   "event": "transcript",
+   "text": "can"
+  },
+  {
+   "t": 80.037,
+   "event": "drill_miss",
+   "word": 8,
+   "heard": "can"
+  },
+  {
+   "t": 84.468,
+   "event": "transcript",
+   "text": "carried"
+  },
+  {
+   "t": 84.468,
+   "event": "drill_ok",
+   "word": 8
+  },
+  {
+   "t": 84.468,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 15
+  },
+  {
+   "t": 89.145,
+   "event": "transcript",
+   "text": "ball"
+  },
+  {
+   "t": 89.145,
+   "event": "drill_miss",
+   "word": 15,
+   "heard": "ball"
+  },
+  {
+   "t": 93.749,
+   "event": "transcript",
+   "text": "back"
+  },
+  {
+   "t": 93.749,
+   "event": "drill_ok",
+   "word": 15
+  },
+  {
+   "t": 93.749,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 100.898,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 102.172,
+   "event": "transcript",
+   "text": "It"
+  },
+  {
+   "t": 102.172,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 109.957,
+   "event": "transcript",
+   "text": "carried grain of rice on its back"
+  },
+  {
+   "t": 109.957,
+   "event": "progress",
+   "frm": 8,
+   "to": 16
+  },
+  {
+   "t": 109.957,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 109.957,
+   "event": "praise",
+   "phrase": "line_done"
+  },
+  {
+   "t": 113.005,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 117.759,
+   "event": "transcript",
+   "text": "The rice we bigger tree the and"
+  },
+  {
+   "t": 117.759,
+   "event": "progress",
+   "frm": 16,
+   "to": 22
+  },
+  {
+   "t": 120.139,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 120.139,
+   "event": "progress",
+   "frm": 22,
+   "to": 23
+  },
+  {
+   "t": 120.139,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    18,
+    20
+   ]
+  },
+  {
+   "t": 120.139,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 18
+  },
+  {
+   "t": 125.684,
+   "event": "transcript",
+   "text": "was"
+  },
+  {
+   "t": 125.684,
+   "event": "drill_ok",
+   "word": 18
+  },
+  {
+   "t": 125.684,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 20
+  },
+  {
+   "t": 130.349,
+   "event": "transcript",
+   "text": "than"
+  },
+  {
+   "t": 130.349,
+   "event": "drill_ok",
+   "word": 20
+  },
+  {
+   "t": 130.349,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 137.245,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 141.311,
+   "event": "transcript",
+   "text": "The red was bigger than ant"
+  },
+  {
+   "t": 141.311,
+   "event": "progress",
+   "frm": 16,
+   "to": 21
+  },
+  {
+   "t": 143.971,
+   "event": "transcript",
+   "text": "to ant"
+  },
+  {
+   "t": 143.971,
+   "event": "uncertain",
+   "text": "ant to ant"
+  },
+  {
+   "t": 143.971,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 147.444,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 151.04,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 151.04,
+   "event": "progress",
+   "frm": 21,
+   "to": 22
+  },
+  {
+   "t": 155.191,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 155.191,
+   "event": "progress",
+   "frm": 22,
+   "to": 23
+  },
+  {
+   "t": 155.191,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    17
+   ]
+  },
+  {
+   "t": 155.191,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 17
+  },
+  {
+   "t": 161.357,
+   "event": "transcript",
+   "text": "rice"
+  },
+  {
+   "t": 161.357,
+   "event": "drill_ok",
+   "word": 17
+  },
+  {
+   "t": 161.357,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 167.704,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 168.551,
+   "event": "pause"
+  },
+  {
+   "t": 171.002,
+   "event": "resume"
+  },
+  {
+   "t": 175.767,
+   "event": "transcript",
+   "text": "rice was bigger than the ant"
+  },
+  {
+   "t": 175.767,
+   "event": "progress",
+   "frm": 16,
+   "to": 23
+  },
+  {
+   "t": 175.767,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16
+   ]
+  },
+  {
+   "t": 175.767,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  },
+  {
+   "t": 180.48,
+   "event": "transcript",
+   "text": "The"
+  },
+  {
+   "t": 180.48,
+   "event": "drill_ok",
+   "word": 16
+  },
+  {
+   "t": 180.48,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 186.787,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 189.212,
+   "event": "transcript",
+   "text": "The The rice"
+  },
+  {
+   "t": 189.212,
+   "event": "progress",
+   "frm": 16,
+   "to": 18
+  },
+  {
+   "t": 195.345,
+   "event": "transcript",
+   "text": "we bigger than the ant"
+  },
+  {
+   "t": 195.345,
+   "event": "progress",
+   "frm": 18,
+   "to": 23
+  },
+  {
+   "t": 195.345,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    18
+   ]
+  },
+  {
+   "t": 195.345,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 18
+  },
+  {
+   "t": 202.151,
+   "event": "transcript",
+   "text": "was"
+  },
+  {
+   "t": 202.151,
+   "event": "drill_ok",
+   "word": 18
+  },
+  {
+   "t": 202.151,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 208.244,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 212.944,
+   "event": "transcript",
+   "text": "rice was bigger than the and"
+  },
+  {
+   "t": 212.944,
+   "event": "progress",
+   "frm": 16,
+   "to": 22
+  },
+  {
+   "t": 214.602,
+   "event": "progress",
+   "to": 23
+  },
+  {
+   "t": 214.602,
+   "event": "correction",
+   "line": 2,
+   "words": [
+    16,
+    22
+   ]
+  },
+  {
+   "t": 214.602,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 16
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.722,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.72,
+   "type": "transcript",
+   "text": "A small ant walked across floor",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 24.696,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.431,
+   "type": "transcript",
+   "text": "the floor",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 27.88,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.063,
+   "type": "transcript",
+   "text": "It come and a grain on of rice on back",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 35.394,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.164,
+   "type": "transcript",
+   "text": "It carried go of run on is its is its dack",
+   "latency": 120,
+   "audio_duration_ms": 6310,
+   "message": null
+  },
+  {
+   "t": 49.655,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.837,
+   "type": "transcript",
+   "text": "its",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 53.828,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.009,
+   "type": "transcript",
+   "text": "ball",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 55.857,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.964,
+   "type": "transcript",
+   "text": "to rice rice was was bigger to all",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 64.733,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.242,
+   "type": "transcript",
+   "text": "The run rice we bed to at",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 70.087,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 75.154,
+   "type": "transcript",
+   "text": "tree The rice we bigger the the ant",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 78.844,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.037,
+   "type": "transcript",
+   "text": "can",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 83.287,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 84.468,
+   "type": "transcript",
+   "text": "carried",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 87.96,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.145,
+   "type": "transcript",
+   "text": "ball",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 92.517,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 93.749,
+   "type": "transcript",
+   "text": "back",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 100.96,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.172,
+   "type": "transcript",
+   "text": "It",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 105.435,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 109.957,
+   "type": "transcript",
+   "text": "carried grain of rice on its back",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 113.246,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.759,
+   "type": "transcript",
+   "text": "The rice we bigger tree the and",
+   "latency": 120,
+   "audio_duration_ms": 4090,
+   "message": null
+  },
+  {
+   "t": 118.922,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 120.139,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 124.503,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 125.684,
+   "type": "transcript",
+   "text": "was",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 129.166,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.349,
+   "type": "transcript",
+   "text": "than",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 137.351,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 141.311,
+   "type": "transcript",
+   "text": "The red was bigger than ant",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 142.24,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 143.971,
+   "type": "transcript",
+   "text": "to ant",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 149.753,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 151.04,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 154.01,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 155.191,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 160.176,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 161.357,
+   "type": "transcript",
+   "text": "rice",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 171.815,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 175.767,
+   "type": "transcript",
+   "text": "rice was bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 179.299,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 180.48,
+   "type": "transcript",
+   "text": "The",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 186.917,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 189.212,
+   "type": "transcript",
+   "text": "The The rice",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 191.847,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 195.345,
+   "type": "transcript",
+   "text": "we bigger than the ant",
+   "latency": 120,
+   "audio_duration_ms": 2980,
+   "message": null
+  },
+  {
+   "t": 200.969,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 202.151,
+   "type": "transcript",
+   "text": "was",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  },
+  {
+   "t": 208.991,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 212.944,
+   "type": "transcript",
+   "text": "rice was bigger than the and",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "A small ant walked across floor",
+   "heard": "A small ant walked across floor",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "the floor",
+   "heard": "the floor",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "It come and a grain on of rice on back",
+   "heard": "It come and a grain on of rice on back",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "It carried go of run on is its is its dack",
+   "heard": "It carried go of run on is its is its dack",
+   "muted_words": 0,
+   "duration_s": 6.31
+  },
+  {
+   "text": "its",
+   "heard": "its",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ball",
+   "heard": "ball",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "to rice rice was was bigger to all",
+   "heard": "to rice rice was was bigger to all",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "The run rice we bed to at",
+   "heard": "The run rice we bed to at",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "tree The rice we bigger the the ant",
+   "heard": "tree The rice we bigger the the ant",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "can",
+   "heard": "can",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "carried",
+   "heard": "carried",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ball",
+   "heard": "ball",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "back",
+   "heard": "back",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "It",
+   "heard": "It",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "carried grain of rice on its back",
+   "heard": "carried grain of rice on its back",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "The rice we bigger tree the and",
+   "heard": "The rice we bigger tree the and",
+   "muted_words": 0,
+   "duration_s": 4.09
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "was",
+   "heard": "was",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "than",
+   "heard": "than",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "The red was bigger than ant",
+   "heard": "The red was bigger than ant",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "to ant",
+   "heard": "to ant",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice",
+   "heard": "rice",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice was bigger than the ant",
+   "heard": "rice was bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "The",
+   "heard": "The",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "The",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 0.76
+  },
+  {
+   "text": "The The rice",
+   "heard": "The The rice",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "we bigger than the ant",
+   "heard": "we bigger than the ant",
+   "muted_words": 0,
+   "duration_s": 2.98
+  },
+  {
+   "text": "was",
+   "heard": "was",
+   "muted_words": 0,
+   "duration_s": 0.76
+  },
+  {
+   "text": "rice was bigger than the and",
+   "heard": "rice was bigger than the and",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 131
+}

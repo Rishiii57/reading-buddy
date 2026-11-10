@@ -1,0 +1,16 @@
+{"t": 2.44, "kind": "open_app", "brief": "Nisha, Class 3 (about 8.5 years). Prefers gu-IN. Rushes through text."}
+{"t": 2.55, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.59, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.87, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 11.42, "kind": "issue", "code": "NO_SPOKEN_GUIDANCE_BEFORE_START", "detail": "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."}
+{"t": 11.57, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.31, "kind": "session_started", "tries": 1}
+{"t": 26.63, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 65.35, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 68.37, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 80.08, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'ત્યાં' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 94.51, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.3 s into a planned 2.44 s thinking pause."}
+{"t": 101.96, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 2.2 s into a planned 2.02 s thinking pause."}
+{"t": 107.46, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'સાથે' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 107.49, "kind": "abandon", "why": "frustration", "frustration": 4.7}
+{"t": 107.7, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

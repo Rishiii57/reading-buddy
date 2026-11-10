@@ -1,0 +1,528 @@
+{
+ "utterances": [
+  {
+   "t": 35.95,
+   "said": "मीना मीना कै घर के पिछे",
+   "stt": "मीना मीना कै घर के पिछे",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.53,
+   "said": "एक",
+   "stt": "एक",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.34,
+   "said": "वगीचा वगीचा है",
+   "stt": "वगीचा वगीचा है",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.51,
+   "said": "बगीचा",
+   "stt": "बगीचा",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.31,
+   "said": "हे है",
+   "stt": "हे है",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.01,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.2,
+   "said": "उसमें लल पीले फुल खिलथे हैं",
+   "stt": "उसमें लल पीले फुल खिलथे हैं",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.77,
+   "said": "लल",
+   "stt": "लल",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 85.7,
+   "said": "लल",
+   "stt": "लल",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 90.58,
+   "said": "लल",
+   "stt": "लल",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 104.27,
+   "said": "औड़ और",
+   "stt": "औड़",
+   "stt_notes": [
+    "lost 'और'"
+   ],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 109.01,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 113.56,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 35.95,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना मीना कै घर के पिछे"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.95,
+    "target": "के",
+    "said": "कै",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीना मीना कै घर के पिछे"
+   }
+  ],
+  "2": [
+   {
+    "t": 35.95,
+    "target": "घर",
+    "said": "घर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना मीना कै घर के पिछे"
+   }
+  ],
+  "3": [
+   {
+    "t": 35.95,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना मीना कै घर के पिछे"
+   }
+  ],
+  "4": [
+   {
+    "t": 35.95,
+    "target": "पीछे",
+    "said": "पिछे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीना मीना कै घर के पिछे"
+   }
+  ],
+  "5": [
+   {
+    "t": 43.53,
+    "target": "एक",
+    "said": "एक",
+    "correct": true,
+    "kind": "ok",
+    "stt": "एक"
+   }
+  ],
+  "6": [
+   {
+    "t": 53.34,
+    "target": "बगीचा",
+    "said": "वगीचा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वगीचा वगीचा है"
+   },
+   {
+    "t": 58.51,
+    "target": "बगीचा",
+    "said": "बगीचा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बगीचा"
+   }
+  ],
+  "7": [
+   {
+    "t": 53.34,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वगीचा वगीचा है"
+   },
+   {
+    "t": 58.51,
+    "target": "है",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "बगीचा"
+   },
+   {
+    "t": 62.31,
+    "target": "है",
+    "said": "हे है",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "हे है"
+   },
+   {
+    "t": 65.01,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "8": [
+   {
+    "t": 73.2,
+    "target": "उसमें",
+    "said": "उसमें",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   }
+  ],
+  "9": [
+   {
+    "t": 73.2,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   },
+   {
+    "t": 79.77,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल",
+    "drill": true
+   },
+   {
+    "t": 85.7,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल",
+    "drill": true
+   },
+   {
+    "t": 90.58,
+    "target": "लाल",
+    "said": "लल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "लल",
+    "drill": true
+   }
+  ],
+  "10": [
+   {
+    "t": 73.2,
+    "target": "और",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   },
+   {
+    "t": 104.27,
+    "target": "और",
+    "said": "औड़ और",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "औड़",
+    "drill": true
+   },
+   {
+    "t": 109.01,
+    "target": "और",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   },
+   {
+    "t": 113.56,
+    "target": "और",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   }
+  ],
+  "11": [
+   {
+    "t": 73.2,
+    "target": "पीले",
+    "said": "पीले",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   }
+  ],
+  "12": [
+   {
+    "t": 73.2,
+    "target": "फूल",
+    "said": "फुल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   }
+  ],
+  "13": [
+   {
+    "t": 73.2,
+    "target": "खिलते",
+    "said": "खिलथे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   }
+  ],
+  "14": [
+   {
+    "t": 73.2,
+    "target": "हैं",
+    "said": "हैं",
+    "correct": true,
+    "kind": "ok",
+    "stt": "उसमें लल पीले फुल खिलथे हैं"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.87,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 38.13,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... एक बगीचा है।",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 45.79,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बगीचा है।",
+   "spans": [
+    [
+     6,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 53.35,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 73.63,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। लाल",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 79.77,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "लाल",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 85.74,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "लाल",
+   "spans": [
+    [
+     9,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 90.61,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! और",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 104.27,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "और",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 109.51,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "और",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  },
+  {
+   "t": 114.51,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "और",
+   "spans": [
+    [
+     10,
+     11
+    ]
+   ]
+  }
+ ]
+}

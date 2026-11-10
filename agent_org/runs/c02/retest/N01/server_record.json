@@ -1,0 +1,283 @@
+{
+ "id": "20261110-111427-f517ad",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 2,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 56.7,
+  "words_per_minute": 5.3
+ },
+ "log": [
+  {
+   "t": 0.188,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.24,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.078,
+   "event": "transcript",
+   "text": "मछल"
+  },
+  {
+   "t": 19.078,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 20.755,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 26.992,
+   "event": "transcript",
+   "text": "जल रानी रानी"
+  },
+  {
+   "t": 26.992,
+   "event": "restart",
+   "frm": 2,
+   "to": 1
+  },
+  {
+   "t": 26.992,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 31.558,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 31.558,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 35.187,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.719,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 39.719,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 42.295,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.175,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 44.175,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 44.175,
+   "event": "echo_slips_accepted",
+   "words": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": 44.175,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 44.175,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 48.252,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.472,
+   "event": "transcript",
+   "text": "जीव उसक"
+  },
+  {
+   "t": 52.472,
+   "event": "uncertain",
+   "text": "जीव उसक"
+  },
+  {
+   "t": 52.472,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 56.22,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.347,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.078,
+   "type": "transcript",
+   "text": "मछल",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 23.041,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.992,
+   "type": "transcript",
+   "text": "जल रानी रानी",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 42.44,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.175,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 48.308,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.472,
+   "type": "transcript",
+   "text": "जीव उसक",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "मछल",
+   "heard": "मछल",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "जल रानी रानी",
+   "heard": "जल रानी रानी",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "जीव उसक",
+   "heard": "जीव उसक",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 52
+}

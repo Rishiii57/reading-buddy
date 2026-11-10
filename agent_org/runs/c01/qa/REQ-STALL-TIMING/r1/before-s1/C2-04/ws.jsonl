@@ -1,0 +1,33 @@
+{"t": 13.45, "type": "ready", "message": null}
+{"t": 13.58, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 27.51, "type": "speech"}
+{"t": 32.04, "type": "heard", "text": "A small ant walked across the floor"}
+{"t": 32.06, "type": "speech"}
+{"t": 33.09, "type": "speech"}
+{"t": 37.97, "type": "heard", "text": "It carried a grain ran oa ita back"}
+{"t": 37.98, "type": "speech"}
+{"t": 38.94, "type": "speech"}
+{"t": 44.79, "type": "heard", "text": "oa of rice on its its bed back"}
+{"t": 44.96, "type": "speech"}
+{"t": 45.01, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 47.89, "type": "speech"}
+{"t": 49.48, "type": "heard", "text": "its back"}
+{"t": 49.48, "type": "speech"}
+{"t": 50.35, "type": "speech"}
+{"t": 53.19, "type": "heard", "text": "The run was bigger"}
+{"t": 53.23, "type": "speech"}
+{"t": 55.65, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. rice", "spans": [[17, 18]]}
+{"t": 61.38, "type": "speech"}
+{"t": 62.65, "type": "heard", "text": "rice"}
+{"t": 62.65, "type": "speech"}
+{"t": 62.65, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.", "spans": [[16, 23]]}
+{"t": 70.3, "type": "speech"}
+{"t": 73.51, "type": "heard", "text": "The rice was bigger than"}
+{"t": 73.51, "type": "speech"}
+{"t": 75.61, "type": "say", "kind": "stall_phrase", "text": "Listen... the ant.", "spans": [[21, 23]]}
+{"t": 79.57, "type": "speech"}
+{"t": 80.41, "type": "heard", "text": "the"}
+{"t": 80.41, "type": "speech"}
+{"t": 83.01, "type": "say", "kind": "stall_phrase", "text": "Listen... ant.", "spans": [[22, 23]]}
+{"t": 94.67, "type": "say", "kind": "stall_rest", "text": "ant. Now you try!", "spans": [[22, 23]]}
+{"t": 94.77, "type": "summary", "summary": {"words_total": 37, "words_read": 20, "words_helped": 3, "words_to_practise": ["rice"], "words_practised": 1, "correction_attempts": 1, "lines_total": 5, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 1, "seconds": 80.9, "words_per_minute": 17.1}}

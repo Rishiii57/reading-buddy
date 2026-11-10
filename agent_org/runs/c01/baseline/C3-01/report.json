@@ -1,0 +1,279 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline",
+ "agent_id": "C3-01",
+ "seed": 1578,
+ "persona": {
+  "id": "C3-01",
+  "name": "Zoya",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.38,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 27.38,
+      "talk_s": 13.0
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.22,
+    "details": [
+     "Buddy started talking 0.2 s into a planned 2.21 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 36.22,
+      "paused_s": 0.2,
+      "planned_s": 2.21,
+      "line": 1,
+      "buddy_kind": "uncertain",
+      "next_words": "is full of"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 53.93,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 53.93,
+      "said": "the tree ia full of said mangoes",
+      "heard": "ia full of said mangoes"
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 73.71,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 73.71,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 2.0,
+  "frustration_events": [
+   {
+    "t": 27.38,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 32.46,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 35.95,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 36.22,
+    "kind": "interrupted_pause",
+    "frustration": 1.1,
+    "paused_s": 0.2
+   },
+   {
+    "t": 45.52,
+    "kind": "progress",
+    "frustration": 0.95
+   },
+   {
+    "t": 53.93,
+    "kind": "unheard_speech",
+    "frustration": 1.75
+   },
+   {
+    "t": 53.93,
+    "kind": "progress",
+    "frustration": 1.6
+   },
+   {
+    "t": 60.07,
+    "kind": "praise",
+    "frustration": 1.2
+   },
+   {
+    "t": 73.71,
+    "kind": "unexpected_pause",
+    "frustration": 2.0
+   },
+   {
+    "t": 76.48,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 83.09,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 83.43,
+    "kind": "praise",
+    "frustration": 1.3
+   },
+   {
+    "t": 91.64,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 110.22,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 117.94,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 118.0,
+    "kind": "praise",
+    "frustration": 0.45
+   },
+   {
+    "t": 126.01,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 142.95,
+    "kind": "progress",
+    "frustration": 0.15
+   },
+   {
+    "t": 143.24,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 4,
+  "interruptions": 1,
+  "unheard_words": 2,
+  "buddy_talk_s": 68.8,
+  "child_talk_s": 38.4,
+  "tired_said": false,
+  "time_to_text_s": 2.4,
+  "intro_s": 13.4,
+  "time_to_first_word_s": 13.4,
+  "session_s": 135.8,
+  "words_total": 32,
+  "words_attempted": 32,
+  "words_said_wrong": 0,
+  "corrections": 3,
+  "buddy_turns": 14,
+  "stall_prompts": 0,
+  "uncertain_prompts": 3
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 28,
+  "words_helped": 4,
+  "words_to_practise": [
+   "the",
+   "full",
+   "Ravi"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 4,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 130.9,
+  "words_per_minute": 14.7
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 266,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

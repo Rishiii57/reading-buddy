@@ -1,0 +1,23 @@
+{"t": 8.18, "type": "ready", "message": null}
+{"t": 8.19, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 26.1, "type": "speech"}
+{"t": 29.96, "type": "heard", "text": "गड़जे बारिस आ"}
+{"t": 29.98, "type": "speech"}
+{"t": 30.0, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 35.05, "type": "speech"}
+{"t": 39.04, "type": "heard", "text": "बाधल गरझे बारिस"}
+{"t": 39.1, "type": "speech"}
+{"t": 44.72, "type": "say", "kind": "stall_phrase", "text": "सुनो... बादल गरजे", "spans": [[0, 2]]}
+{"t": 48.44, "type": "speech"}
+{"t": 54.43, "type": "heard", "text": "बादल बादल गरजे बारिश बारिश"}
+{"t": 54.43, "type": "speech"}
+{"t": 56.52, "type": "say", "kind": "stall_phrase", "text": "सुनो... आई", "spans": [[3, 4]]}
+{"t": 66.07, "type": "say", "kind": "stall_rest", "text": "आई अब तुम बोलो!", "spans": [[3, 4]]}
+{"t": 68.72, "type": "speech"}
+{"t": 70.52, "type": "heard", "text": "आई"}
+{"t": 70.52, "type": "speech"}
+{"t": 71.66, "type": "speech"}
+{"t": 77.87, "type": "heard", "text": "ठंढी ठंडी हबा भि भि"}
+{"t": 77.87, "type": "speech"}
+{"t": 77.87, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 78.89, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 3, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 0, "seconds": 70.7, "words_per_minute": 3.4}}

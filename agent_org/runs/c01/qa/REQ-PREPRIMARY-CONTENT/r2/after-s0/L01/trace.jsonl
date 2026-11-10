@@ -1,0 +1,15 @@
+{"t": 2.92, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.94, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.49, "kind": "tap", "target": "हरा समंदर Green Sea Hindi Nursery Rhyme ", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.61, "kind": "opened_text", "hash": "#/read/hi-samandar", "title": "हरा समंदर", "tags": ["Hindi", "Nursery"], "words": 9, "lines": 2}
+{"t": 12.23, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.89, "kind": "session_started", "tries": 1}
+{"t": 36.62, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 38.74, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 63.88, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 4.14 s thinking pause."}
+{"t": 74.61, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.7 s into a planned 2.79 s thinking pause."}
+{"t": 99.67, "kind": "tap_mic_to_talk"}
+{"t": 100.02, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 112.43, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 112.44, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 113.45, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}

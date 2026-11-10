@@ -1,0 +1,199 @@
+{
+ "id": "20261110-111456-030d05",
+ "text_id": "gu-shala",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 3,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 47.0,
+  "words_per_minute": 6.4
+ },
+ "log": [
+  {
+   "t": 0.011,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.165,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.74,
+   "event": "transcript",
+   "text": "મારી શાળા શાળા બહુ બહુ"
+  },
+  {
+   "t": 25.74,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 28.753,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 28.753,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 31.895,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 33.907,
+   "event": "transcript",
+   "text": "સુંદર"
+  },
+  {
+   "t": 33.907,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 36.952,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 36.952,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 39.897,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 44.5,
+   "event": "transcript",
+   "text": "છૈ"
+  },
+  {
+   "t": 44.5,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 44.5,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.862,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.74,
+   "type": "transcript",
+   "text": "મારી શાળા શાળા બહુ બહુ",
+   "latency": 120,
+   "audio_duration_ms": 6450,
+   "message": null
+  },
+  {
+   "t": 32.023,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 33.907,
+   "type": "transcript",
+   "text": "સુંદર",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 42.628,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.5,
+   "type": "transcript",
+   "text": "છૈ",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારી શાળા શાળા બહુ બહુ",
+   "heard": "મારી શાળા શાળા બહુ બહુ",
+   "muted_words": 0,
+   "duration_s": 6.45
+  },
+  {
+   "text": "સુંદર",
+   "heard": "સુંદર",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "છૈ",
+   "heard": "છૈ",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 75
+}

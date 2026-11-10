@@ -1,0 +1,7 @@
+{"t": 2.11, "kind": "open_app", "brief": "Nisha, Class 3 (about 8.5 years). Prefers gu-IN. Rushes through text."}
+{"t": 2.2, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.7, "kind": "tap", "target": "વરસાદ Rain Gujarati Grade 1-2 Poem 1 min", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.34, "kind": "opened_text", "hash": "#/read/gu-varsad", "title": "વરસાદ", "tags": ["Gujarati", "Grade 1-2"], "words": 16, "lines": 4}
+{"t": 12.8, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.17, "kind": "session_started", "tries": 1}
+{"t": 27.45, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}

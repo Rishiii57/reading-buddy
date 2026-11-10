@@ -1,0 +1,24 @@
+{"t": 1.96, "kind": "open_app", "brief": "Parth, Class 2 (about 7.5 years). Prefers gu-IN. Uses the app alone."}
+{"t": 2.38, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.4, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 4.43, "kind": "tap", "target": "Grade 22", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.44, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.33, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 12.11, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 13.85, "kind": "tap", "target": "consentBox", "why": "ticking the box", "view": "view-reader"}
+{"t": 14.65, "kind": "tap", "target": "Allow microphone", "why": "allowing the microphone", "view": "view-reader"}
+{"t": 15.65, "kind": "issue", "code": "CONSENT_SELF_APPROVED", "detail": "The parent-consent box was ticked by the child; nothing stops a child from confirming they are the parent."}
+{"t": 17.44, "kind": "session_started", "tries": 1}
+{"t": 26.92, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "4 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 29.74, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 44.9, "kind": "tap_mic_to_talk"}
+{"t": 44.92, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 110.22, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.15 s thinking pause."}
+{"t": 122.04, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "6 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 127.82, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'તેને' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 146.32, "kind": "tap_mic_to_talk"}
+{"t": 146.38, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 167.75, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'ચકલીએ' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 223.36, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'તે' 3 times."}
+{"t": 227.47, "kind": "abandon", "why": "attention", "frustration": 1.9}
+{"t": 227.55, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

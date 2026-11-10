@@ -1,0 +1,906 @@
+{
+ "id": "20261109-183103-c58950",
+ "text_id": "en-mango",
+ "mode": "mic",
+ "summary": {
+  "words_total": 32,
+  "words_read": 12,
+  "words_helped": 15,
+  "words_to_practise": [
+   "under"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 7,
+  "corrections": 1,
+  "seconds": 129.7,
+  "words_per_minute": 12.5
+ },
+ "log": [
+  {
+   "t": 0.213,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.232,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.001,
+   "event": "transcript",
+   "text": "Ravi has"
+  },
+  {
+   "t": 17.001,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 19.021,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 19.021,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  },
+  {
+   "t": 24.632,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.377,
+   "event": "transcript",
+   "text": "a"
+  },
+  {
+   "t": 26.377,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 29.624,
+   "event": "transcript",
+   "text": "mango"
+  },
+  {
+   "t": 29.624,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 31.629,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 0
+  },
+  {
+   "t": 31.629,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 34.406,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 37.25,
+   "event": "transcript",
+   "text": "tree in"
+  },
+  {
+   "t": 37.25,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 39.26,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 6,
+   "to": 8,
+   "line": 0
+  },
+  {
+   "t": 39.26,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 41.868,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.479,
+   "event": "transcript",
+   "text": "his"
+  },
+  {
+   "t": 43.479,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 46.942,
+   "event": "transcript",
+   "text": "garden"
+  },
+  {
+   "t": 46.942,
+   "event": "progress",
+   "frm": 7,
+   "to": 8
+  },
+  {
+   "t": 46.942,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 51.643,
+   "event": "transcript",
+   "text": "Every sunmer summer"
+  },
+  {
+   "t": 51.643,
+   "event": "progress",
+   "frm": 8,
+   "to": 10
+  },
+  {
+   "t": 55.576,
+   "event": "transcript",
+   "text": "the tree"
+  },
+  {
+   "t": 55.576,
+   "event": "progress",
+   "frm": 10,
+   "to": 12
+  },
+  {
+   "t": 61.047,
+   "event": "transcript",
+   "text": "is vull full of"
+  },
+  {
+   "t": 61.047,
+   "event": "progress",
+   "frm": 12,
+   "to": 15
+  },
+  {
+   "t": 63.077,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 15,
+   "to": 17,
+   "line": 1
+  },
+  {
+   "t": 63.077,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 15,
+   "to": 17
+  },
+  {
+   "t": 66.512,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 68.994,
+   "event": "transcript",
+   "text": "sweet mangoes"
+  },
+  {
+   "t": 68.994,
+   "event": "progress",
+   "frm": 15,
+   "to": 17
+  },
+  {
+   "t": 68.994,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 68.994,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 68.994,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 72.196,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 74.97,
+   "event": "transcript",
+   "text": "Ravi shares"
+  },
+  {
+   "t": 74.97,
+   "event": "progress",
+   "frm": 17,
+   "to": 19
+  },
+  {
+   "t": 78.392,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 78.392,
+   "event": "progress",
+   "frm": 19,
+   "to": 20
+  },
+  {
+   "t": 80.457,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 20,
+   "to": 23,
+   "line": 2
+  },
+  {
+   "t": 80.457,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 20,
+   "to": 23
+  },
+  {
+   "t": 83.367,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 85.165,
+   "event": "transcript",
+   "text": "mangoes"
+  },
+  {
+   "t": 85.165,
+   "event": "progress",
+   "frm": 20,
+   "to": 21
+  },
+  {
+   "t": 89.336,
+   "event": "transcript",
+   "text": "with his"
+  },
+  {
+   "t": 89.336,
+   "event": "progress",
+   "frm": 21,
+   "to": 23
+  },
+  {
+   "t": 91.368,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 23,
+   "to": 24,
+   "line": 2
+  },
+  {
+   "t": 91.368,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 23,
+   "to": 24
+  },
+  {
+   "t": 93.516,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 95.292,
+   "event": "transcript",
+   "text": "friends"
+  },
+  {
+   "t": 95.292,
+   "event": "progress",
+   "frm": 23,
+   "to": 24
+  },
+  {
+   "t": 95.292,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 97.823,
+   "event": "transcript",
+   "text": "They"
+  },
+  {
+   "t": 97.823,
+   "event": "progress",
+   "frm": 24,
+   "to": 25
+  },
+  {
+   "t": 102.882,
+   "event": "transcript",
+   "text": "sid under under"
+  },
+  {
+   "t": 102.882,
+   "event": "uncertain",
+   "text": "sid under under"
+  },
+  {
+   "t": 102.882,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 106.461,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 109.301,
+   "event": "transcript",
+   "text": "sit unber"
+  },
+  {
+   "t": 109.301,
+   "event": "progress",
+   "frm": 25,
+   "to": 26
+  },
+  {
+   "t": 110.915,
+   "event": "progress",
+   "to": 27
+  },
+  {
+   "t": 111.384,
+   "event": "correction",
+   "line": 3,
+   "words": [
+    26
+   ]
+  },
+  {
+   "t": 111.384,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 26
+  },
+  {
+   "t": 117.586,
+   "event": "transcript",
+   "text": "under"
+  },
+  {
+   "t": 117.586,
+   "event": "drill_ok",
+   "word": 26
+  },
+  {
+   "t": 117.586,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 124.248,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 128.321,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 24,
+   "to": 27,
+   "line": 3
+  },
+  {
+   "t": 128.321,
+   "event": "prompt",
+   "level": 1,
+   "line": 3,
+   "frm": 24,
+   "to": 27
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.554,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.001,
+   "type": "transcript",
+   "text": "Ravi has",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 24.846,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.377,
+   "type": "transcript",
+   "text": "a",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 28.091,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.624,
+   "type": "transcript",
+   "text": "mango",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 34.808,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.25,
+   "type": "transcript",
+   "text": "tree in",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 41.949,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.479,
+   "type": "transcript",
+   "text": "his",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 45.384,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.942,
+   "type": "transcript",
+   "text": "garden",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 48.292,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.643,
+   "type": "transcript",
+   "text": "Every sunmer summer",
+   "latency": 120,
+   "audio_duration_ms": 2930,
+   "message": null
+  },
+  {
+   "t": 53.135,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.576,
+   "type": "transcript",
+   "text": "the tree",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 56.786,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.047,
+   "type": "transcript",
+   "text": "is vull full of",
+   "latency": 120,
+   "audio_duration_ms": 3840,
+   "message": null
+  },
+  {
+   "t": 66.554,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.994,
+   "type": "transcript",
+   "text": "sweet mangoes",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 72.559,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 74.97,
+   "type": "transcript",
+   "text": "Ravi shares",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 76.426,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.392,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 83.621,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 85.165,
+   "type": "transcript",
+   "text": "mangoes",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 86.892,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.336,
+   "type": "transcript",
+   "text": "with his",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 93.762,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 95.292,
+   "type": "transcript",
+   "text": "friends",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 96.291,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.823,
+   "type": "transcript",
+   "text": "They",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  },
+  {
+   "t": 99.531,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.882,
+   "type": "transcript",
+   "text": "sid under under",
+   "latency": 120,
+   "audio_duration_ms": 2930,
+   "message": null
+  },
+  {
+   "t": 106.791,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 109.301,
+   "type": "transcript",
+   "text": "sit unber",
+   "latency": 120,
+   "audio_duration_ms": 2020,
+   "message": null
+  },
+  {
+   "t": 116.056,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.586,
+   "type": "transcript",
+   "text": "under",
+   "latency": 120,
+   "audio_duration_ms": 1110,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ravi has",
+   "heard": "Ravi has",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "a",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  },
+  {
+   "text": "a",
+   "heard": "a",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "mango",
+   "heard": "mango",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "tree in",
+   "heard": "tree in",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "hiz",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.11
+  },
+  {
+   "text": "his",
+   "heard": "his",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "garden",
+   "heard": "garden",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "Every sunmer summer",
+   "heard": "Every sunmer summer",
+   "muted_words": 0,
+   "duration_s": 2.93
+  },
+  {
+   "text": "the tree",
+   "heard": "the tree",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "is vull full of",
+   "heard": "is vull full of",
+   "muted_words": 0,
+   "duration_s": 3.84
+  },
+  {
+   "text": "sweet mangoes",
+   "heard": "sweet mangoes",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "Ravi shares",
+   "heard": "Ravi shares",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "mangoes",
+   "heard": "mangoes",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "with his",
+   "heard": "with his",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "friends",
+   "heard": "friends",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "They",
+   "heard": "They",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "sid under under",
+   "heard": "sid under under",
+   "muted_words": 0,
+   "duration_s": 2.93
+  },
+  {
+   "text": "sit unber",
+   "heard": "sit unber",
+   "muted_words": 0,
+   "duration_s": 2.02
+  },
+  {
+   "text": "under",
+   "heard": "under",
+   "muted_words": 0,
+   "duration_s": 1.11
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.11
+  }
+ ],
+ "tts_offline": 345
+}

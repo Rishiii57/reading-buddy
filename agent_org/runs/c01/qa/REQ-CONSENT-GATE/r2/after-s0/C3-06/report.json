@@ -1,0 +1,304 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-CONSENT-GATE/r2-after-s0",
+ "agent_id": "C3-06",
+ "seed": 1663,
+ "persona": {
+  "id": "C3-06",
+  "name": "Veer",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "explore_and_read",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-shala",
+  "title": "મારી શાળા",
+  "tags": [
+   "Gujarati",
+   "Grade 3-4"
+  ],
+  "words": 22,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 3-4"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 31.35,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 31.35,
+      "talk_s": 12.0
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 64.02,
+    "details": [
+     "Buddy started talking 3.7 s into a planned 2.41 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 64.02,
+      "paused_s": 3.7,
+      "planned_s": 2.41,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "છે."
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 112.93,
+    "details": [
+     "Read 'અમને' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 112.93,
+      "word": "અમને",
+      "child_said": "અમને",
+      "speech_model_wrote": "મારા શિક્ષક અમણે વાર્તા કહે છે"
+     }
+    ],
+    "child_quote": "I read it right but Buddy heard something else.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 122.16,
+    "details": [
+     "6 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 122.16,
+      "said": "મારા શિક્ષક અમને વાર્તા કહે છે",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "BREAK_REQUEST_IGNORED",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 139.85,
+    "details": [
+     "Said they were tired; Buddy did not offer a break."
+    ],
+    "evidence": [
+     {
+      "t": 139.85,
+      "said": "હું થાકી ગયો",
+      "heard": "હું થાકી"
+     }
+    ],
+    "child_quote": "I said I was tired but Buddy didn't stop.",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 2.0,
+  "frustration_events": [
+   {
+    "t": 31.35,
+    "kind": "long_wait",
+    "frustration": 0.4
+   },
+   {
+    "t": 35.79,
+    "kind": "progress",
+    "frustration": 0.25
+   },
+   {
+    "t": 38.98,
+    "kind": "progress",
+    "frustration": 0.1
+   },
+   {
+    "t": 44.44,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 60.26,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 64.02,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 3.7
+   },
+   {
+    "t": 67.57,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 67.91,
+    "kind": "praise",
+    "frustration": 0.45
+   },
+   {
+    "t": 75.71,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 79.66,
+    "kind": "progress",
+    "frustration": 0.15
+   },
+   {
+    "t": 84.4,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 94.97,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 112.13,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 112.93,
+    "kind": "false_correction",
+    "frustration": 1.2,
+    "word": "અમને"
+   },
+   {
+    "t": 122.16,
+    "kind": "unheard_speech",
+    "frustration": 2.0
+   },
+   {
+    "t": 122.16,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 127.37,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 129.32,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 129.34,
+    "kind": "praise",
+    "frustration": 1.15
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 0,
+  "nav_clicks": 5,
+  "praise_heard": 3,
+  "interruptions": 1,
+  "unheard_words": 6,
+  "buddy_talk_s": 54.5,
+  "child_talk_s": 26.2,
+  "tired_said": true,
+  "time_to_text_s": 6.5,
+  "reader_page_audio_clips": 1,
+  "intro_s": 13.8,
+  "time_to_first_word_s": 13.8,
+  "break_honoured": false,
+  "session_s": 122.2,
+  "words_total": 22,
+  "words_attempted": 22,
+  "words_said_wrong": 0,
+  "corrections": 3,
+  "buddy_turns": 12,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 22,
+  "words_read": 17,
+  "words_helped": 5,
+  "words_to_practise": [
+   "એક",
+   "શિક્ષક",
+   "અમને",
+   "વાર્તા"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 3,
+  "seconds": 113.0,
+  "words_per_minute": 11.7
+ },
+ "ux_scores": {
+  "discoverability": 4,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 124,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

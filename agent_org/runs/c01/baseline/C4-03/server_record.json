@@ -1,0 +1,294 @@
+{
+ "id": "20261109-183306-62256d",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 16,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 38.7,
+  "words_per_minute": 24.8
+ },
+ "log": [
+  {
+   "t": 0.115,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.819,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.986,
+   "event": "transcript",
+   "text": "મારો"
+  },
+  {
+   "t": 15.986,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 19.925,
+   "event": "transcript",
+   "text": "પતંગ લાલ ને પીળો"
+  },
+  {
+   "t": 19.925,
+   "event": "progress",
+   "frm": 1,
+   "to": 5
+  },
+  {
+   "t": 19.925,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 23.507,
+   "event": "transcript",
+   "text": "આકાશે ઊઢે ઊડે ડંગીલો રંગીલો"
+  },
+  {
+   "t": 23.507,
+   "event": "progress",
+   "frm": 5,
+   "to": 8
+  },
+  {
+   "t": 23.507,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 23.507,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 23.507,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 26.016,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 28.132,
+   "event": "transcript",
+   "text": "પવન સાથે નાચે"
+  },
+  {
+   "t": 28.132,
+   "event": "progress",
+   "frm": 8,
+   "to": 11
+  },
+  {
+   "t": 30.494,
+   "event": "transcript",
+   "text": "ગાય"
+  },
+  {
+   "t": 30.494,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 30.494,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 34.271,
+   "event": "transcript",
+   "text": "ઊંચૈ ઊંચે ઊડતો ઝાય જાય"
+  },
+  {
+   "t": 34.271,
+   "event": "progress",
+   "frm": 12,
+   "to": 16
+  },
+  {
+   "t": 34.271,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 34.271,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 34.271,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.937,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.986,
+   "type": "transcript",
+   "text": "મારો",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 17.627,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.925,
+   "type": "transcript",
+   "text": "પતંગ લાલ ને પીળો",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 20.744,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.507,
+   "type": "transcript",
+   "text": "આકાશે ઊઢે ઊડે ડંગીલો રંગીલો",
+   "latency": 120,
+   "audio_duration_ms": 2280,
+   "message": null
+  },
+  {
+   "t": 26.26,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 28.132,
+   "type": "transcript",
+   "text": "પવન સાથે નાચે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  },
+  {
+   "t": 29.452,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.494,
+   "type": "transcript",
+   "text": "ગાય",
+   "latency": 120,
+   "audio_duration_ms": 620,
+   "message": null
+  },
+  {
+   "t": 31.57,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.271,
+   "type": "transcript",
+   "text": "ઊંચૈ ઊંચે ઊડતો ઝાય જાય",
+   "latency": 120,
+   "audio_duration_ms": 2280,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો",
+   "heard": "મારો",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "પતંગ લાલ ને પીળો",
+   "heard": "પતંગ લાલ ને પીળો",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "આકાશે ઊઢે ઊડે ડંગીલો રંગીલો",
+   "heard": "આકાશે ઊઢે ઊડે ડંગીલો રંગીલો",
+   "muted_words": 0,
+   "duration_s": 2.28
+  },
+  {
+   "text": "પવન સાથે નાચે",
+   "heard": "પવન સાથે નાચે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "ગાય",
+   "heard": "ગાય",
+   "muted_words": 0,
+   "duration_s": 0.62
+  },
+  {
+   "text": "ઊંચૈ ઊંચે ઊડતો ઝાય જાય",
+   "heard": "ઊંચૈ ઊંચે ઊડતો ઝાય જાય",
+   "muted_words": 0,
+   "duration_s": 2.28
+  }
+ ],
+ "tts_offline": 350
+}

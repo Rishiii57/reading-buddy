@@ -1,0 +1,340 @@
+{
+ "utterances": [
+  {
+   "t": 26.18,
+   "said": "बादल गरजे बारिश",
+   "stt": "बादल गरजे बारिश",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 30.62,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 34.37,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.01,
+   "said": "ठंडी ठंडी हवा भी",
+   "stt": "ठंडी ठंडी हवा भी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.1,
+   "said": "आ",
+   "stt": "आ",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 42.06,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.1,
+   "said": "मेंडक मेंढक गाते मीठे गाने",
+   "stt": "मेंडक मेंढक गाते मीठे गाने",
+   "stt_notes": [],
+   "words": [
+    9,
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.82,
+   "said": "बच्चे निकले नाव चलाने",
+   "stt": "बच्चे निकले नाव चलाने",
+   "stt_notes": [],
+   "words": [
+    13,
+    14,
+    15,
+    16
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 26.18,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "1": [
+   {
+    "t": 26.18,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "2": [
+   {
+    "t": 26.18,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल गरजे बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 30.62,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   },
+   {
+    "t": 34.37,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   }
+  ],
+  "4": [
+   {
+    "t": 38.01,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी ठंडी हवा भी"
+   }
+  ],
+  "5": [
+   {
+    "t": 38.01,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी ठंडी हवा भी"
+   }
+  ],
+  "6": [
+   {
+    "t": 38.01,
+    "target": "हवा",
+    "said": "हवा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी ठंडी हवा भी"
+   }
+  ],
+  "7": [
+   {
+    "t": 38.01,
+    "target": "भी",
+    "said": "भी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी ठंडी हवा भी"
+   }
+  ],
+  "8": [
+   {
+    "t": 38.01,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ठंडी ठंडी हवा भी"
+   },
+   {
+    "t": 40.1,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "आ"
+   },
+   {
+    "t": 42.06,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   }
+  ],
+  "9": [
+   {
+    "t": 48.1,
+    "target": "मेंढक",
+    "said": "मेंडक मेंढक",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "मेंडक मेंढक गाते मीठे गाने"
+   }
+  ],
+  "10": [
+   {
+    "t": 48.1,
+    "target": "गाते",
+    "said": "गाते",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेंडक मेंढक गाते मीठे गाने"
+   }
+  ],
+  "11": [
+   {
+    "t": 48.1,
+    "target": "मीठे",
+    "said": "मीठे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेंडक मेंढक गाते मीठे गाने"
+   }
+  ],
+  "12": [
+   {
+    "t": 48.1,
+    "target": "गाने",
+    "said": "गाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मेंडक मेंढक गाते मीठे गाने"
+   }
+  ],
+  "13": [
+   {
+    "t": 51.82,
+    "target": "बच्चे",
+    "said": "बच्चे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बच्चे निकले नाव चलाने"
+   }
+  ],
+  "14": [
+   {
+    "t": 51.82,
+    "target": "निकले",
+    "said": "निकले",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बच्चे निकले नाव चलाने"
+   }
+  ],
+  "15": [
+   {
+    "t": 51.82,
+    "target": "नाव",
+    "said": "नाव",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बच्चे निकले नाव चलाने"
+   }
+  ],
+  "16": [
+   {
+    "t": 51.82,
+    "target": "चलाने",
+    "said": "चलाने",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बच्चे निकले नाव चलाने"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 8.23,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 29.94,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... आई",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 42.36,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 52.13,
+   "type": "say",
+   "kind": "finish",
+   "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!",
+   "spans": []
+  }
+ ]
+}

@@ -1,0 +1,283 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r3-after-s0",
+ "agent_id": "L06",
+ "seed": 1221,
+ "persona": {
+  "id": "L06",
+  "name": "Krish",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-rainrain",
+  "title": "Rain, Rain, Go Away",
+  "tags": [
+   "English",
+   "Nursery"
+  ],
+  "words": 13,
+  "lines": 3,
+  "language": "en-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 9.66,
+    "details": [
+     "Wanted gu-IN but ended up on a en-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 9.66,
+      "wanted": "gu-IN",
+      "got": "en-IN",
+      "title": "Rain, Rain, Go Away"
+     }
+    ],
+    "child_quote": "This isn't my language!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 24.8,
+    "details": [
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 24.8,
+      "kind": "intro",
+      "said": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away L"
+     },
+     {
+      "t": 61.98,
+      "kind": "stall_phrase",
+      "said": "Listen... away"
+     },
+     {
+      "t": 68.74,
+      "kind": "echo_line",
+      "said": "Listen... Come again another day Now you try!"
+     }
+    ],
+    "child_quote": "I don't know what Buddy said.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "NO_REPLAY_CONTROL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 37.15,
+    "details": [
+     "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."
+    ],
+    "evidence": [
+     {
+      "t": 37.15,
+      "visible": [
+       "Reading Buddy",
+       "Home",
+       "Library",
+       "About",
+       "Back",
+       "Pause",
+       "End",
+       "Listening"
+      ]
+     }
+    ],
+    "child_quote": "I want to hear it again!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 64.5,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 64.5,
+      "said": "and",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 85.15,
+    "details": [
+     "Buddy started talking 4.7 s into a planned 4.46 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 85.15,
+      "paused_s": 4.7,
+      "planned_s": 4.46,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "another day,"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'Rain' as 'run' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "Rain",
+      "child_said": "run",
+      "kind": "sub",
+      "speech_model_wrote": "rum"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.8,
+  "frustration_events": [
+   {
+    "t": 24.8,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 44.55,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 61.98,
+    "kind": "not_understood",
+    "frustration": 1.05,
+    "say_kind": "stall_phrase"
+   },
+   {
+    "t": 64.5,
+    "kind": "unheard_speech",
+    "frustration": 1.85
+   },
+   {
+    "t": 67.84,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 68.74,
+    "kind": "not_understood",
+    "frustration": 2.3,
+    "say_kind": "echo_line"
+   },
+   {
+    "t": 85.15,
+    "kind": "interrupted_pause",
+    "frustration": 3.3,
+    "paused_s": 4.7
+   },
+   {
+    "t": 88.13,
+    "kind": "dead_click",
+    "frustration": 3.8,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 1,
+  "unheard_words": 1,
+  "buddy_talk_s": 20.0,
+  "child_talk_s": 13.0,
+  "tired_said": false,
+  "time_to_text_s": 4.4,
+  "reader_page_audio_clips": 1,
+  "listen_first_s": 6.9,
+  "intro_s": 12.4,
+  "time_to_first_word_s": 12.4,
+  "session_s": 64.8,
+  "words_total": 13,
+  "words_attempted": 6,
+  "words_said_wrong": 4,
+  "corrections": 0,
+  "buddy_turns": 4,
+  "stall_prompts": 2,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 13,
+  "words_read": 1,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 3,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 65.0,
+  "words_per_minute": 6.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 3,
+  "correction_quality": 5,
+  "completion": 3,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 213,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

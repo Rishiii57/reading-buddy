@@ -1,0 +1,389 @@
+{
+ "id": "20261109-213053-4f11da",
+ "text_id": "en-ant",
+ "mode": "mic",
+ "summary": {
+  "words_total": 37,
+  "words_read": 2,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 5,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 70.6,
+  "words_per_minute": 4.2
+ },
+ "log": [
+  {
+   "t": 0.117,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.211,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.287,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 23.591,
+   "event": "transcript",
+   "text": "ant"
+  },
+  {
+   "t": 29.586,
+   "event": "transcript",
+   "text": "walked at"
+  },
+  {
+   "t": 29.586,
+   "event": "uncertain",
+   "text": "walked at"
+  },
+  {
+   "t": 29.586,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 33.392,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 35.011,
+   "event": "transcript",
+   "text": "see"
+  },
+  {
+   "t": 39.345,
+   "event": "transcript",
+   "text": "ana"
+  },
+  {
+   "t": 45.476,
+   "event": "transcript",
+   "text": "went"
+  },
+  {
+   "t": 49.956,
+   "event": "transcript",
+   "text": "all tha"
+  },
+  {
+   "t": 49.956,
+   "event": "uncertain",
+   "text": "all tha"
+  },
+  {
+   "t": 49.956,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 53.297,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 55.054,
+   "event": "transcript",
+   "text": "A"
+  },
+  {
+   "t": 55.054,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 60.369,
+   "event": "transcript",
+   "text": "said ana"
+  },
+  {
+   "t": 60.369,
+   "event": "uncertain",
+   "text": "said ana"
+  },
+  {
+   "t": 60.369,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 64.047,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 66.121,
+   "event": "transcript",
+   "text": "small"
+  },
+  {
+   "t": 66.121,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 69.182,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 69.182,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 5
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.835,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.287,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 22.132,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.591,
+   "type": "transcript",
+   "text": "ant",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 27.294,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.586,
+   "type": "transcript",
+   "text": "walked at",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 33.547,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.011,
+   "type": "transcript",
+   "text": "see",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 37.874,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.345,
+   "type": "transcript",
+   "text": "ana",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 44.026,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.476,
+   "type": "transcript",
+   "text": "went",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 47.662,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.956,
+   "type": "transcript",
+   "text": "all tha",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 53.6,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.054,
+   "type": "transcript",
+   "text": "A",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 58.077,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.369,
+   "type": "transcript",
+   "text": "said ana",
+   "latency": 120,
+   "audio_duration_ms": 1870,
+   "message": null
+  },
+  {
+   "t": 64.675,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.121,
+   "type": "transcript",
+   "text": "small",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ant",
+   "heard": "ant",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "walked at",
+   "heard": "walked at",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "see",
+   "heard": "see",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "ana",
+   "heard": "ana",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "went",
+   "heard": "went",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "all tha",
+   "heard": "all tha",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "A",
+   "heard": "A",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "said ana",
+   "heard": "said ana",
+   "muted_words": 0,
+   "duration_s": 1.87
+  },
+  {
+   "text": "small",
+   "heard": "small",
+   "muted_words": 0,
+   "duration_s": 1.03
+  }
+ ],
+ "tts_offline": 82
+}

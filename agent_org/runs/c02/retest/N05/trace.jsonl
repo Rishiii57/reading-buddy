@@ -1,0 +1,7 @@
+{"t": 2.62, "kind": "open_app", "brief": "Reyansh, Nursery (about 3.5 years). Prefers hi-IN. Shy; speaks in a whisper."}
+{"t": 2.78, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 4.71, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.4, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 8.8, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
+{"t": 14.05, "kind": "tap", "target": "Back", "why": "trying to start reading", "view": "view-reader"}
+{"t": 17.34, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "Tapped something that left the reading page before starting."}

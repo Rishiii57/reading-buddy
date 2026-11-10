@@ -1,0 +1,370 @@
+{
+ "utterances": [
+  {
+   "t": 27.5,
+   "said": "Ba baa",
+   "stt": "Ba baa",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 33.28,
+   "said": "black sheep",
+   "stt": "black sheep",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.94,
+   "said": "Have yoa",
+   "stt": "Have yoa",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 45.18,
+   "said": "ana any went",
+   "stt": "ana any went",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.2,
+   "said": "any any was",
+   "stt": "any any was",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.66,
+   "said": "any wool",
+   "stt": "any wool",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.98,
+   "said": "Yes sir yes sir",
+   "stt": "Yes sir yes sir",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.28,
+   "said": "Three bags for",
+   "stt": "Three bags for",
+   "stt_notes": [],
+   "words": [
+    12,
+    13,
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.15,
+   "said": "full",
+   "stt": "full",
+   "stt_notes": [],
+   "words": [
+    14
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 27.5,
+    "target": "Baa",
+    "said": "Ba",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Ba baa"
+   }
+  ],
+  "1": [
+   {
+    "t": 27.5,
+    "target": "baa",
+    "said": "baa",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Ba baa"
+   }
+  ],
+  "2": [
+   {
+    "t": 33.28,
+    "target": "black",
+    "said": "black",
+    "correct": true,
+    "kind": "ok",
+    "stt": "black sheep"
+   }
+  ],
+  "3": [
+   {
+    "t": 33.28,
+    "target": "sheep",
+    "said": "sheep",
+    "correct": true,
+    "kind": "ok",
+    "stt": "black sheep"
+   }
+  ],
+  "4": [
+   {
+    "t": 39.94,
+    "target": "Have",
+    "said": "Have",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Have yoa"
+   }
+  ],
+  "5": [
+   {
+    "t": 39.94,
+    "target": "you",
+    "said": "yoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Have yoa"
+   }
+  ],
+  "6": [
+   {
+    "t": 45.18,
+    "target": "any",
+    "said": "ana any",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ana any went"
+   },
+   {
+    "t": 53.2,
+    "target": "any",
+    "said": "any",
+    "correct": true,
+    "kind": "ok",
+    "stt": "any any was"
+   },
+   {
+    "t": 56.66,
+    "target": "any",
+    "said": "any",
+    "correct": true,
+    "kind": "ok",
+    "stt": "any wool"
+   }
+  ],
+  "7": [
+   {
+    "t": 45.18,
+    "target": "wool",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana any went"
+   },
+   {
+    "t": 53.2,
+    "target": "wool",
+    "said": "was",
+    "correct": false,
+    "kind": "sub",
+    "stt": "any any was"
+   },
+   {
+    "t": 56.66,
+    "target": "wool",
+    "said": "wool",
+    "correct": true,
+    "kind": "ok",
+    "stt": "any wool"
+   }
+  ],
+  "8": [
+   {
+    "t": 64.98,
+    "target": "Yes",
+    "said": "Yes",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Yes sir yes sir"
+   }
+  ],
+  "9": [
+   {
+    "t": 64.98,
+    "target": "sir",
+    "said": "sir",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Yes sir yes sir"
+   }
+  ],
+  "10": [
+   {
+    "t": 64.98,
+    "target": "yes",
+    "said": "yes",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Yes sir yes sir"
+   }
+  ],
+  "11": [
+   {
+    "t": 64.98,
+    "target": "sir",
+    "said": "sir",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Yes sir yes sir"
+   }
+  ],
+  "12": [
+   {
+    "t": 74.28,
+    "target": "Three",
+    "said": "Three",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Three bags for"
+   }
+  ],
+  "13": [
+   {
+    "t": 74.28,
+    "target": "bags",
+    "said": "bags",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Three bags for"
+   }
+  ],
+  "14": [
+   {
+    "t": 74.28,
+    "target": "full",
+    "said": "for",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Three bags for"
+   },
+   {
+    "t": 77.15,
+    "target": "full",
+    "said": "full",
+    "correct": true,
+    "kind": "ok",
+    "stt": "full"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.42,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Baa, Baa, Black Sheep Listen carefully to how I read it. Baa, baa, black sheep Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 33.54,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Have you any wool? Now you try!",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 45.28,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 57.06,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Yes sir, yes sir Now you try!",
+   "spans": [
+    [
+     8,
+     12
+    ]
+   ]
+  },
+  {
+   "t": 65.14,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Three bags full. Now you try!",
+   "spans": [
+    [
+     12,
+     15
+    ]
+   ]
+  },
+  {
+   "t": 77.49,
+   "type": "say",
+   "kind": "finish",
+   "text": "Well done! You have finished your poem!",
+   "spans": []
+  }
+ ]
+}

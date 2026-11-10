@@ -1,0 +1,186 @@
+{
+ "utterances": [
+  {
+   "t": 28.94,
+   "said": "એક નાની ચકલી હતી",
+   "stt": "એક નાની ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 4,
+   "over_buddy": true
+  },
+  {
+   "t": 34.43,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.89,
+   "said": "નાની",
+   "stt": "નાની",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.44,
+   "said": "ચકલી",
+   "stt": "ચકલી",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.42,
+   "said": "હતી",
+   "stt": "હતી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.94,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 34.43,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક"
+   }
+  ],
+  "1": [
+   {
+    "t": 28.94,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 43.89,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની"
+   }
+  ],
+  "2": [
+   {
+    "t": 28.94,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 50.44,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ચકલી"
+   }
+  ],
+  "3": [
+   {
+    "t": 28.94,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી હતી"
+   },
+   {
+    "t": 56.42,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "હતી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 16.14,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 36.49,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... નાની ચકલી હતી.",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 46.44,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... ચકલી હતી.",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 52.67,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... હતી.",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{"t": 2.98, "kind": "open_app", "brief": "Diya, Nursery (about 3.5 years). Prefers gu-IN. Speaks only Gujarati at home; wants to hear things twice."}
+{"t": 3.1, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.56, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.07, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 7.33, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 3-4' text, made for children who already read."}
+{"t": 11.88, "kind": "issue", "code": "LISTEN_FIRST_NOT_FOUND", "detail": "Wanted to hear the poem first but could not tell which button does that."}
+{"t": 11.9, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.54, "kind": "session_started", "tries": 1}
+{"t": 26.84, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.26, "kind": "looked_for_replay", "found": []}
+{"t": 29.26, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 29.26, "kind": "tap_mic_to_talk"}
+{"t": 29.37, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.3, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.4 s into a planned 3.78 s thinking pause."}
+{"t": 49.59, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.5 s into a planned 4.85 s thinking pause."}
+{"t": 57.96, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 58.16, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 59.52, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}

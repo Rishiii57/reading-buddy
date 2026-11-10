@@ -1,0 +1,42 @@
+{"t": 13.34, "type": "ready", "message": null}
+{"t": 13.55, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 30.36, "type": "speech"}
+{"t": 36.73, "type": "heard", "text": "એક નાની ચકલી ચકલી"}
+{"t": 36.73, "type": "speech"}
+{"t": 39.76, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... હતી.", "spans": [[3, 4]]}
+{"t": 42.61, "type": "speech"}
+{"t": 44.69, "type": "heard", "text": "હથી"}
+{"t": 44.69, "type": "speech"}
+{"t": 45.7, "type": "speech"}
+{"t": 54.94, "type": "heard", "text": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"}
+{"t": 54.94, "type": "speech"}
+{"t": 54.94, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 59.31, "type": "speech"}
+{"t": 65.42, "type": "heard", "text": "રોજ સબારે ધાણા"}
+{"t": 65.42, "type": "speech"}
+{"t": 66.88, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. હતી.", "spans": [[3, 4]]}
+{"t": 71.33, "type": "speech"}
+{"t": 73.6, "type": "heard", "text": "હથી"}
+{"t": 73.6, "type": "speech"}
+{"t": 73.64, "type": "say", "kind": "fix_again", "text": "હતી.", "spans": [[3, 4]]}
+{"t": 77.21, "type": "speech"}
+{"t": 79.51, "type": "heard", "text": "હતી"}
+{"t": 79.51, "type": "speech"}
+{"t": 79.51, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 4]]}
+{"t": 86.95, "type": "speech"}
+{"t": 89.07, "type": "heard", "text": "એ"}
+{"t": 89.07, "type": "speech"}
+{"t": 92.13, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 97.45, "type": "speech"}
+{"t": 101.01, "type": "heard", "text": "એ એ"}
+{"t": 101.01, "type": "speech"}
+{"t": 101.01, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 104.7, "type": "speech"}
+{"t": 106.6, "type": "heard", "text": "એક"}
+{"t": 106.6, "type": "speech"}
+{"t": 106.68, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 4]]}
+{"t": 113.16, "type": "speech"}
+{"t": 115.19, "type": "heard", "text": "એ"}
+{"t": 115.19, "type": "speech"}
+{"t": 118.35, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 119.08, "type": "summary", "summary": {"words_total": 23, "words_read": 2, "words_helped": 2, "words_to_practise": ["એક", "હતી"], "words_practised": 2, "correction_attempts": 4, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 3, "seconds": 105.9, "words_per_minute": 2.3}}

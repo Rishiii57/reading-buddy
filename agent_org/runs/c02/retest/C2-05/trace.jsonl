@@ -1,0 +1,17 @@
+{"t": 4.62, "kind": "open_app", "brief": "Mahi, Class 2 (about 7.5 years). Prefers hi-IN. Self-corrects a lot."}
+{"t": 4.74, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.68, "kind": "tap", "target": "हिन्दी", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.78, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.94, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 15.21, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 18.87, "kind": "session_started", "tries": 1}
+{"t": 31.21, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 40.22, "kind": "issue", "code": "FALSE_CORRECTION", "detail": "Read 'पर' correctly but Buddy asked to practise it."}
+{"t": 136.23, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.2 s into a planned 2.56 s thinking pause."}
+{"t": 152.1, "kind": "tap_mic_to_talk"}
+{"t": 152.13, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 160.78, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'एक' 3 times."}
+{"t": 189.59, "kind": "tap_mic_to_talk"}
+{"t": 190.74, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 229.08, "kind": "abandon", "why": "attention", "frustration": 0.25}
+{"t": 229.33, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,113 @@
+{
+ "id": "20261110-111414-81f0b4",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 29.0,
+  "words_per_minute": 6.2
+ },
+ "log": [
+  {
+   "t": 0.073,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.518,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.232,
+   "event": "transcript",
+   "text": "કેટલે"
+  },
+  {
+   "t": 27.887,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 27.887,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 20.327,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.232,
+   "type": "transcript",
+   "text": "કેટલે",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાનું ઘર",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 3.95
+  },
+  {
+   "text": "મામાણું ઘડ",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.7
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "કેટલે",
+   "heard": "કેટલે",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 26
+}

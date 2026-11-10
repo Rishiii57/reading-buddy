@@ -1,0 +1,20 @@
+{"t": 21.26, "type": "ready", "message": null}
+{"t": 21.36, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 37.95, "type": "speech"}
+{"t": 40.49, "type": "heard", "text": "एक दो तीन चार"}
+{"t": 40.49, "type": "speech"}
+{"t": 40.6, "type": "say", "kind": "echo_line", "text": "भैया बनो होशियार। अब तुम बोलो!", "spans": [[4, 7]]}
+{"t": 45.25, "type": "speech"}
+{"t": 47.31, "type": "heard", "text": "भैया बणो होसियार"}
+{"t": 47.31, "type": "speech"}
+{"t": 47.36, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 47.4, "type": "say", "kind": "echo_line", "text": "पाँच छह सात आठ अब तुम बोलो!", "spans": [[7, 11]]}
+{"t": 54.52, "type": "speech"}
+{"t": 56.99, "type": "heard", "text": "पँच छह सात आठ"}
+{"t": 56.99, "type": "speech"}
+{"t": 57.04, "type": "say", "kind": "echo_line", "text": "पढ़ो रोज़ तुम पाठ। अब तुम बोलो!", "spans": [[11, 15]]}
+{"t": 60.88, "type": "speech"}
+{"t": 63.45, "type": "heard", "text": "पढ़ो रोज़ तुम पाठ"}
+{"t": 63.45, "type": "speech"}
+{"t": 63.73, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 63.73, "type": "summary", "summary": {"words_total": 15, "words_read": 13, "words_helped": 1, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 42.1, "words_per_minute": 19.9}}

@@ -1,0 +1,747 @@
+{
+ "id": "20261110-012538-87ae24",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 2,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 144.9,
+  "words_per_minute": 3.3
+ },
+ "log": [
+  {
+   "t": 0.115,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.913,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.974,
+   "event": "transcript",
+   "text": "Twinkle the"
+  },
+  {
+   "t": 18.974,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.142,
+   "event": "transcript",
+   "text": "like like"
+  },
+  {
+   "t": 25.142,
+   "event": "uncertain",
+   "text": "like like"
+  },
+  {
+   "t": 25.142,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 28.421,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.809,
+   "event": "transcript",
+   "text": "to"
+  },
+  {
+   "t": 34.943,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 34.943,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 37.551,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.188,
+   "event": "transcript",
+   "text": "to"
+  },
+  {
+   "t": 49.037,
+   "event": "transcript",
+   "text": "littl littl see"
+  },
+  {
+   "t": 49.037,
+   "event": "uncertain",
+   "text": "littl littl see"
+  },
+  {
+   "t": 49.037,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 52.214,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.387,
+   "event": "transcript",
+   "text": "tree"
+  },
+  {
+   "t": 60.042,
+   "event": "transcript",
+   "text": "like"
+  },
+  {
+   "t": 66.152,
+   "event": "transcript",
+   "text": "sun"
+  },
+  {
+   "t": 70.943,
+   "event": "transcript",
+   "text": "to"
+  },
+  {
+   "t": 76.135,
+   "event": "transcript",
+   "text": "look"
+  },
+  {
+   "t": 83.082,
+   "event": "transcript",
+   "text": "sun sun"
+  },
+  {
+   "t": 83.082,
+   "event": "uncertain",
+   "text": "sun sun"
+  },
+  {
+   "t": 83.082,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 86.186,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 88.583,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 96.757,
+   "event": "transcript",
+   "text": "like said said"
+  },
+  {
+   "t": 96.757,
+   "event": "uncertain",
+   "text": "like said said"
+  },
+  {
+   "t": 96.757,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 99.935,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 103.664,
+   "event": "transcript",
+   "text": "to to"
+  },
+  {
+   "t": 103.664,
+   "event": "uncertain",
+   "text": "to to"
+  },
+  {
+   "t": 109.306,
+   "event": "transcript",
+   "text": "like"
+  },
+  {
+   "t": 113.467,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 113.467,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 116.986,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 119.528,
+   "event": "transcript",
+   "text": "twinkle"
+  },
+  {
+   "t": 119.528,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 124.639,
+   "event": "transcript",
+   "text": "little"
+  },
+  {
+   "t": 124.639,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 130.632,
+   "event": "transcript",
+   "text": "star"
+  },
+  {
+   "t": 130.632,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 130.632,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 130.632,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 135.413,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 139.051,
+   "event": "transcript",
+   "text": "hoa How"
+  },
+  {
+   "t": 139.051,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 143.672,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 5,
+   "to": 8,
+   "line": 1
+  },
+  {
+   "t": 143.672,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 5,
+   "to": 8
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.483,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.974,
+   "type": "transcript",
+   "text": "Twinkle the",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 21.659,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.142,
+   "type": "transcript",
+   "text": "like like",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 28.654,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.809,
+   "type": "transcript",
+   "text": "to",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 39.126,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.188,
+   "type": "transcript",
+   "text": "to",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 44.126,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.037,
+   "type": "transcript",
+   "text": "littl littl see",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 52.336,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.387,
+   "type": "transcript",
+   "text": "tree",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 57.982,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.042,
+   "type": "transcript",
+   "text": "like",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 64.099,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.152,
+   "type": "transcript",
+   "text": "sun",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 68.88,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.943,
+   "type": "transcript",
+   "text": "to",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 74.073,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 76.135,
+   "type": "transcript",
+   "text": "look",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 79.602,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 83.082,
+   "type": "transcript",
+   "text": "sun sun",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 86.533,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 88.583,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 91.847,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 96.757,
+   "type": "transcript",
+   "text": "like said said",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 100.184,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.664,
+   "type": "transcript",
+   "text": "to to",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 107.256,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 109.306,
+   "type": "transcript",
+   "text": "like",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 117.477,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 119.528,
+   "type": "transcript",
+   "text": "twinkle",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 122.589,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 124.639,
+   "type": "transcript",
+   "text": "little",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 128.531,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 130.632,
+   "type": "transcript",
+   "text": "star",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 135.568,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 139.051,
+   "type": "transcript",
+   "text": "hoa How",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle the",
+   "heard": "Twinkle the",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "like like",
+   "heard": "like like",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "to",
+   "heard": "to",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "twinkle",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "to",
+   "heard": "to",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "littl littl see",
+   "heard": "littl littl see",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "tree",
+   "heard": "tree",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "like",
+   "heard": "like",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "sun",
+   "heard": "sun",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "to",
+   "heard": "to",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "look",
+   "heard": "look",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "sun sun",
+   "heard": "sun sun",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "like said said",
+   "heard": "like said said",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "to to",
+   "heard": "to to",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "like",
+   "heard": "like",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "see",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "twinkle",
+   "heard": "twinkle",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "little",
+   "heard": "little",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "star",
+   "heard": "star",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "hoa How",
+   "heard": "hoa How",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 177
+}

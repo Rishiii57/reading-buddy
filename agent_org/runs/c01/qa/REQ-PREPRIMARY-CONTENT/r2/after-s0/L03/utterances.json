@@ -1,0 +1,288 @@
+{
+ "utterances": [
+  {
+   "t": 36.56,
+   "said": "એક ણાની",
+   "stt": "એક ણાની",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 42.71,
+   "said": "ચકલી હતી",
+   "stt": "ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.37,
+   "said": "નાની",
+   "stt": "નાની",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 62.61,
+   "said": "એ ણાની ણાની",
+   "stt": "એ ણાની નાની",
+   "stt_notes": [
+    "'ણાની' heard as 'નાની'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.88,
+   "said": "એક નાની ચકલિ હતી",
+   "stt": "એક ણાની ચકલિ હતી",
+   "stt_notes": [
+    "'નાની' heard as 'ણાની'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 81.83,
+   "said": "નાની",
+   "stt": "નાની",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 89.97,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.56,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની"
+   },
+   {
+    "t": 62.61,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ ણાની નાની"
+   },
+   {
+    "t": 73.88,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની ચકલિ હતી"
+   },
+   {
+    "t": 89.97,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "1": [
+   {
+    "t": 36.56,
+    "target": "નાની",
+    "said": "ણાની",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એક ણાની"
+   },
+   {
+    "t": 50.37,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની",
+    "drill": true
+   },
+   {
+    "t": 62.61,
+    "target": "નાની",
+    "said": "ણાની",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ ણાની નાની"
+   },
+   {
+    "t": 73.88,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની ચકલિ હતી"
+   },
+   {
+    "t": 81.83,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની",
+    "drill": true
+   }
+  ],
+  "2": [
+   {
+    "t": 42.71,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ચકલી હતી"
+   },
+   {
+    "t": 73.88,
+    "target": "ચકલી",
+    "said": "ચકલિ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એક ણાની ચકલિ હતી"
+   }
+  ],
+  "3": [
+   {
+    "t": 42.71,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ચકલી હતી"
+   },
+   {
+    "t": 73.88,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની ચકલિ હતી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.53,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 42.94,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. નાની",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 50.72,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 63.4,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 74.57,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. નાની",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 81.96,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 94.16,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... એક નાની ચકલી",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  }
+ ]
+}

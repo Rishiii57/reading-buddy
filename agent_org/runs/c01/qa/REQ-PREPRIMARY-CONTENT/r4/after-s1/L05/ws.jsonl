@@ -1,0 +1,53 @@
+{"t": 15.3, "type": "ready", "message": null}
+{"t": 15.74, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 35.28, "type": "speech"}
+{"t": 41.92, "type": "heard", "text": "मेड़ी मेड़ी गुड़िया"}
+{"t": 41.94, "type": "speech"}
+{"t": 42.0, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 46.12, "type": "speech"}
+{"t": 48.66, "type": "heard", "text": "मेरी"}
+{"t": 48.67, "type": "speech"}
+{"t": 52.24, "type": "say", "kind": "stall_phrase", "text": "सुनो... गुड़िया प्यारी है", "spans": [[1, 4]]}
+{"t": 56.65, "type": "speech"}
+{"t": 59.53, "type": "heard", "text": "गुड़िया"}
+{"t": 59.53, "type": "speech"}
+{"t": 62.68, "type": "say", "kind": "stall_phrase", "text": "सुनो... प्यारी है", "spans": [[2, 4]]}
+{"t": 68.97, "type": "say", "kind": "stall_rest", "text": "प्यारी है अब तुम बोलो!", "spans": [[2, 4]]}
+{"t": 73.33, "type": "speech"}
+{"t": 76.04, "type": "heard", "text": "प्याड़ी"}
+{"t": 76.04, "type": "speech"}
+{"t": 80.83, "type": "speech"}
+{"t": 83.5, "type": "heard", "text": "हे"}
+{"t": 83.5, "type": "speech"}
+{"t": 83.5, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। प्यारी", "spans": [[2, 3]]}
+{"t": 88.58, "type": "speech"}
+{"t": 91.2, "type": "heard", "text": "प्याड़ी"}
+{"t": 91.2, "type": "speech"}
+{"t": 91.2, "type": "say", "kind": "fix_again", "text": "प्यारी", "spans": [[2, 3]]}
+{"t": 94.65, "type": "speech"}
+{"t": 97.37, "type": "heard", "text": "प्यारी"}
+{"t": 97.37, "type": "speech"}
+{"t": 97.37, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 104.05, "type": "speech"}
+{"t": 110.86, "type": "heard", "text": "मेड़ी गुड़िया प्याड़ी"}
+{"t": 110.86, "type": "speech"}
+{"t": 110.86, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 114.62, "type": "speech"}
+{"t": 123.3, "type": "heard", "text": "मेरी मेरी गुड़िया प्यारी"}
+{"t": 123.32, "type": "speech"}
+{"t": 128.32, "type": "speech"}
+{"t": 133.12, "type": "heard", "text": "है है"}
+{"t": 133.12, "type": "speech"}
+{"t": 133.14, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 139.11, "type": "speech"}
+{"t": 142.28, "type": "heard", "text": "हे"}
+{"t": 142.37, "type": "speech"}
+{"t": 142.47, "type": "say", "kind": "praise", "text": "बहुत बढ़िया! चलो अगली पंक्ति पढ़ते हैं।", "spans": []}
+{"t": 148.32, "type": "speech"}
+{"t": 151.04, "type": "heard", "text": "षबसे"}
+{"t": 151.6, "type": "speech"}
+{"t": 156.0, "type": "speech"}
+{"t": 159.46, "type": "heard", "text": "ण्यारी"}
+{"t": 159.47, "type": "speech"}
+{"t": 163.5, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। सबसे", "spans": [[4, 5]]}
+{"t": 164.83, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 6, "words_to_practise": ["प्यारी", "सबसे", "न्यारी"], "words_practised": 1, "correction_attempts": 2, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 2, "seconds": 149.4, "words_per_minute": 2.8}}

@@ -1,0 +1,210 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-SPOKEN-ONBOARDING/r1-before-s1",
+ "agent_id": "C3-02",
+ "seed": 2595,
+ "persona": {
+  "id": "C3-02",
+  "name": "Rohan",
+  "grade": "Class 3",
+  "age": 8.5,
+  "reading_proficiency": "developing",
+  "language_preference": "hi-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.8,
+  "patience": 4.5,
+  "attention_span_s": 240
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-gudiya",
+  "title": "मेरी गुड़िया",
+  "tags": [
+   "Hindi",
+   "Grade 1"
+  ],
+  "words": 17,
+  "lines": 4,
+  "language": "hi-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 10.31,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 10.31,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "It didn't say what to do, it was only writing.",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 0.6,
+  "frustration_events": [
+   {
+    "t": 10.31,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 16.32,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 28.82,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 32.93,
+    "kind": "progress",
+    "frustration": 0.15
+   },
+   {
+    "t": 33.05,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 40.26,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 46.39,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 49.73,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 52.32,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 69.55,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 80.53,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 94.9,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 95.09,
+    "kind": "praise",
+    "frustration": 0.0
+   },
+   {
+    "t": 101.62,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 116.87,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 117.25,
+    "kind": "praise",
+    "frustration": 0.0
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 3,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 4,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 55.5,
+  "child_talk_s": 23.6,
+  "tired_said": false,
+  "time_to_text_s": 1.9,
+  "reader_page_audio_clips": 0,
+  "time_to_first_word_s": 2.2,
+  "intro_s": 12.3,
+  "session_s": 109.5,
+  "words_total": 17,
+  "words_attempted": 17,
+  "words_said_wrong": 0,
+  "corrections": 3,
+  "buddy_turns": 13,
+  "stall_prompts": 0,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 17,
+  "words_read": 14,
+  "words_helped": 3,
+  "words_to_practise": [
+   "लाल",
+   "चुनरी",
+   "गाने"
+  ],
+  "words_practised": 4,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 105.6,
+  "words_per_minute": 9.7
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 4
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 57,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "utterances": [
+  {
+   "t": 39.37,
+   "said": "run",
+   "stt": "rum",
+   "stt_notes": [
+    "'run' heard as 'rum'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.55,
+   "said": "rain",
+   "stt": "rain",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.06,
+   "said": "ga",
+   "stt": "ga",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.51,
+   "said": "all",
+   "stt": "all",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.5,
+   "said": "and",
+   "stt": "ant",
+   "stt_notes": [
+    "'and' heard as 'ant'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 67.84,
+   "said": "away",
+   "stt": "away",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.99,
+   "said": "Com",
+   "stt": "Com",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.18,
+   "said": "at",
+   "stt": "at",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 39.37,
+    "target": "Rain",
+    "said": "run",
+    "correct": false,
+    "kind": "sub",
+    "stt": "rum"
+   }
+  ],
+  "1": [
+   {
+    "t": 44.55,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "rain"
+   }
+  ],
+  "2": [
+   {
+    "t": 50.06,
+    "target": "go",
+    "said": "ga",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ga"
+   }
+  ],
+  "3": [
+   {
+    "t": 56.51,
+    "target": "away",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "all"
+   },
+   {
+    "t": 64.5,
+    "target": "away",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ant"
+   },
+   {
+    "t": 67.84,
+    "target": "away",
+    "said": "away",
+    "correct": true,
+    "kind": "ok",
+    "stt": "away"
+   }
+  ],
+  "4": [
+   {
+    "t": 74.99,
+    "target": "Come",
+    "said": "Com",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Com"
+   }
+  ],
+  "5": [
+   {
+    "t": 80.18,
+    "target": "again",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 22.65,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 61.49,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... away",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 68.08,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Listen... Come again another day Now you try!",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 85.15,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... again another day",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,684 @@
+{
+ "id": "20261109-202038-6482b8",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 0,
+  "words_helped": 5,
+  "words_to_practise": [
+   "Pitter",
+   "falls",
+   "the"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 3,
+  "seconds": 124.1,
+  "words_per_minute": 2.4
+ },
+ "log": [
+  {
+   "t": 0.011,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.312,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.944,
+   "event": "transcript",
+   "text": "the run"
+  },
+  {
+   "t": 17.944,
+   "event": "uncertain",
+   "text": "the run"
+  },
+  {
+   "t": 17.944,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 21.797,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.391,
+   "event": "transcript",
+   "text": "rain"
+  },
+  {
+   "t": 29.272,
+   "event": "transcript",
+   "text": "Pitter patter fish the rain"
+  },
+  {
+   "t": 29.272,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 29.272,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 29.272,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 37.102,
+   "event": "transcript",
+   "text": "falls"
+  },
+  {
+   "t": 37.102,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 37.102,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 43.288,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 48.153,
+   "event": "transcript",
+   "text": "Pitter patter valls tha ran"
+  },
+  {
+   "t": 48.153,
+   "event": "uncertain",
+   "text": "pitter patter valls tha ran"
+  },
+  {
+   "t": 48.153,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 51.267,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 56.094,
+   "event": "transcript",
+   "text": "play patter falls rain"
+  },
+  {
+   "t": 56.094,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 59.13,
+   "event": "transcript",
+   "text": "the rain"
+  },
+  {
+   "t": 59.13,
+   "event": "progress",
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 59.13,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 59.13,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 64.698,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 64.698,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 64.698,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 71.09,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 77.195,
+   "event": "transcript",
+   "text": "play patter falls dhe red"
+  },
+  {
+   "t": 77.195,
+   "event": "uncertain",
+   "text": "play patter falls dhe red"
+  },
+  {
+   "t": 77.195,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 80.355,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 86.836,
+   "event": "transcript",
+   "text": "put Pitter patter falls rain"
+  },
+  {
+   "t": 86.836,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 89.102,
+   "event": "transcript",
+   "text": "the"
+  },
+  {
+   "t": 89.102,
+   "event": "uncertain",
+   "text": "rain the"
+  },
+  {
+   "t": 89.102,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 92.438,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 95.948,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 95.948,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 99.192,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 102.1,
+   "event": "transcript",
+   "text": "tha rain"
+  },
+  {
+   "t": 102.1,
+   "event": "progress",
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 102.1,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 102.1,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 108.949,
+   "event": "transcript",
+   "text": "the the"
+  },
+  {
+   "t": 108.949,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 108.949,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 115.44,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 117.379,
+   "event": "transcript",
+   "text": "run"
+  },
+  {
+   "t": 120.812,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 120.812,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 122.847,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 122.847,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.887,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.944,
+   "type": "transcript",
+   "text": "the run",
+   "latency": 120,
+   "audio_duration_ms": 1620,
+   "message": null
+  },
+  {
+   "t": 22.088,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.391,
+   "type": "transcript",
+   "text": "rain",
+   "latency": 120,
+   "audio_duration_ms": 820,
+   "message": null
+  },
+  {
+   "t": 24.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.272,
+   "type": "transcript",
+   "text": "Pitter patter fish the rain",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 35.708,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.102,
+   "type": "transcript",
+   "text": "falls",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 43.682,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.153,
+   "type": "transcript",
+   "text": "Pitter patter valls tha ran",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 52.355,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.094,
+   "type": "transcript",
+   "text": "play patter falls rain",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 56.955,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.13,
+   "type": "transcript",
+   "text": "the rain",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 63.3,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.698,
+   "type": "transcript",
+   "text": "Pitter",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 72.704,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.195,
+   "type": "transcript",
+   "text": "play patter falls dhe red",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 82.332,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.836,
+   "type": "transcript",
+   "text": "put Pitter patter falls rain",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 87.712,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.102,
+   "type": "transcript",
+   "text": "the",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 99.939,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 102.1,
+   "type": "transcript",
+   "text": "tha rain",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 106.757,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 108.949,
+   "type": "transcript",
+   "text": "the the",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 116.149,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.379,
+   "type": "transcript",
+   "text": "run",
+   "latency": 120,
+   "audio_duration_ms": 810,
+   "message": null
+  },
+  {
+   "t": 119.421,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 120.812,
+   "type": "transcript",
+   "text": "Pitter",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter patter falls the run",
+   "heard": "the run",
+   "muted_words": 3,
+   "duration_s": 4.05
+  },
+  {
+   "text": "put patter for rain",
+   "heard": "rain",
+   "muted_words": 3,
+   "duration_s": 3.28
+  },
+  {
+   "text": "Pitter patter fish the rain",
+   "heard": "Pitter patter fish the rain",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "falls",
+   "heard": "falls",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Pitter patter valls tha ran",
+   "heard": "Pitter patter valls tha ran",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "play patter falls rain",
+   "heard": "play patter falls rain",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "the rain",
+   "heard": "the rain",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "Pitter",
+   "heard": "Pitter",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "play patter falls dhe red",
+   "heard": "play patter falls dhe red",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "put Pitter patter falls rain",
+   "heard": "put Pitter patter falls rain",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "the",
+   "heard": "the",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "tha rain",
+   "heard": "tha rain",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "the the",
+   "heard": "the the",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "put patter falls the run",
+   "heard": "run",
+   "muted_words": 4,
+   "duration_s": 4.05
+  },
+  {
+   "text": "Pitter",
+   "heard": "Pitter",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 63
+}

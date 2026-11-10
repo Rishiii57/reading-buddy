@@ -1,0 +1,14 @@
+{
+ "note": "Which engineering role owns which files. A change touching files outside its owners' areas is flagged at submit time for review, so parallel work does not collide.",
+ "roles": {
+  "AI/ML Engineer": ["backend/tutor.py", "backend/aligner.py", "eval/", "agent_org/audio_eval/"],
+  "Speech AI Engineer": ["backend/gnani.py", "backend/phrases.py", "backend/pregen.py", "content/stt_aliases.json", "cache/tts/", "eval/run_stt.py", "eval/make_testset.py"],
+  "NLP Engineer": ["backend/normalize.py", "backend/aligner.py", "backend/content.py", "backend/tutor.py"],
+  "Backend Engineer": ["backend/main.py", "backend/tutor.py", "backend/sim.py", "tests/"],
+  "Frontend Engineer": ["frontend/"],
+  "Data Engineer": ["content/", "cache/", "eval/testset/", "backend/pregen.py"],
+  "Integration Engineer": ["Dockerfile", "render.yaml", "requirements.txt", "requirements-dev.txt", "backend/main.py", "tests/"]
+ },
+ "always_allowed": ["tests/", "docs/agent-org/", "agent_org/engineering/changes/"],
+ "never": [".env", "render.yaml (deploy needs human approval)"]
+}

@@ -1,0 +1,457 @@
+{
+ "utterances": [
+  {
+   "t": 37.98,
+   "said": "નાની ચકલી હતી",
+   "stt": "નાની ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.02,
+   "said": "એક ણાની નાની ચકલી હથી હતી",
+   "stt": "એક ણાની નાની ચકલી હતી",
+   "stt_notes": [
+    "lost 'હથી'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 4,
+   "over_buddy": true
+  },
+  {
+   "t": 47.55,
+   "said": "એ",
+   "stt": "એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 52.24,
+   "said": "એ",
+   "stt": "એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 57.08,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 67.94,
+   "said": "એક નાની ચકલી",
+   "stt": "નાની ચકલી",
+   "stt_notes": [
+    "lost 'એક'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 71.62,
+   "said": "હથી હથી",
+   "stt": "હથી હથી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.21,
+   "said": "હતી",
+   "stt": "હતી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.83,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 92.68,
+   "said": "એક ણાની ણાની ચકલિ ચકલી હતી હતી",
+   "stt": "ણાની ણાની ચકલિ ચકલી હથી હતી",
+   "stt_notes": [
+    "lost 'એક'",
+    "'હતી' heard as 'હથી'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  },
+  {
+   "t": 99.05,
+   "said": "એક એક",
+   "stt": "એક એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 37.98,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "નાની ચકલી હતી"
+   },
+   {
+    "t": 44.02,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની નાની ચકલી હતી"
+   },
+   {
+    "t": 47.55,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ",
+    "drill": true
+   },
+   {
+    "t": 52.24,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ",
+    "drill": true
+   },
+   {
+    "t": 57.08,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક",
+    "drill": true
+   },
+   {
+    "t": 67.94,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી"
+   },
+   {
+    "t": 82.83,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક",
+    "drill": true
+   },
+   {
+    "t": 92.68,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ણાની ણાની ચકલિ ચકલી હથી હતી"
+   },
+   {
+    "t": 99.05,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક એક"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.98,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી હતી"
+   },
+   {
+    "t": 44.02,
+    "target": "નાની",
+    "said": "ણાની નાની",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "એક ણાની નાની ચકલી હતી"
+   },
+   {
+    "t": 67.94,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી"
+   },
+   {
+    "t": 92.68,
+    "target": "નાની",
+    "said": "ણાની",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ણાની ણાની ચકલિ ચકલી હથી હતી"
+   }
+  ],
+  "2": [
+   {
+    "t": 37.98,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી હતી"
+   },
+   {
+    "t": 44.02,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક ણાની નાની ચકલી હતી"
+   },
+   {
+    "t": 67.94,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી"
+   },
+   {
+    "t": 92.68,
+    "target": "ચકલી",
+    "said": "ચકલિ ચકલી",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ણાની ણાની ચકલિ ચકલી હથી હતી"
+   }
+  ],
+  "3": [
+   {
+    "t": 37.98,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "નાની ચકલી હતી"
+   },
+   {
+    "t": 44.02,
+    "target": "હતી",
+    "said": "હથી હતી",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "એક ણાની નાની ચકલી હતી"
+   },
+   {
+    "t": 71.62,
+    "target": "હતી",
+    "said": "હથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "હથી હથી"
+   },
+   {
+    "t": 77.21,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "હતી"
+   },
+   {
+    "t": 92.68,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ણાની ણાની ચકલિ ચકલી હથી હતી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 19.29,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 37.99,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 44.55,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 47.6,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 52.42,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 58.12,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 71.67,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 77.62,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 82.89,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 92.8,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 105.05,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... નાની ચકલી હતી.",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{"t": 2.97, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 3.02, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.1, "kind": "tap", "target": "એક બિલાડી જાડી A Fat Cat Gujarati LKG Rh", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.47, "kind": "opened_text", "hash": "#/read/gu-biladi", "title": "એક બિલાડી જાડી", "tags": ["Gujarati", "LKG"], "words": 14, "lines": 4}
+{"t": 7.1, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a gu-IN text."}
+{"t": 11.12, "kind": "issue", "code": "LISTEN_FIRST_NOT_FOUND", "detail": "Wanted to hear the poem first but could not tell which button does that."}
+{"t": 11.12, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.42, "kind": "session_started", "tries": 1}
+{"t": 14.42, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 26.63, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 26.95, "kind": "tap_mic_to_talk"}
+{"t": 26.96, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 39.27, "kind": "stuck", "word": "જાડી,", "waited": 2.2}
+{"t": 39.3, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 42.49, "kind": "tap_mic_to_talk"}
+{"t": 42.49, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 51.98, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.9 s into a planned 4.76 s thinking pause."}
+{"t": 51.99, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 52.72, "kind": "abandon", "why": "frustration", "frustration": 3.05}

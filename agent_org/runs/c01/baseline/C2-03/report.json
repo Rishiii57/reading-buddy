@@ -1,0 +1,377 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01-baseline",
+ "agent_id": "C2-03",
+ "seed": 1510,
+ "persona": {
+  "id": "C2-03",
+  "name": "Avni",
+  "grade": "Class 2",
+  "age": 7.5,
+  "reading_proficiency": "developing",
+  "language_preference": "gu-IN",
+  "journey": "make_mistakes",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.75,
+  "patience": 4.2,
+  "attention_span_s": 210
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-chakli",
+  "title": "ચકલી અને દાણા",
+  "tags": [
+   "Gujarati",
+   "Grade 2-3"
+  ],
+  "words": 23,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Grade 2-3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 16.97,
+    "details": [
+     "5 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "7 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 16.97,
+      "said": "એક નાની ચકલિ ચકલી હતી",
+      "heard": ""
+     },
+     {
+      "t": 89.05,
+      "said": "તે રોજ સવારે ધાણા શોધવા જથી",
+      "heard": "રોજ સવારે ધાણા શોધવા જથી"
+     },
+     {
+      "t": 147.3,
+      "said": "દિવસ તેણે ઘણા ઘણા બધ ધાણા દાણા મળ્યા",
+      "heard": "ઘણા બધ ધાણા દાણા મળ્યા"
+     },
+     {
+      "t": 159.13,
+      "said": "એક દિવસ તેને તેને ઘણા બધા દાણા મળ્યા",
+      "heard": ""
+     },
+     {
+      "t": 198.0,
+      "said": "દાણા દાણા મળ્યા",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 25.74,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 25.74,
+      "talk_s": 14.7
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 35.21,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead.",
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 35.21,
+      "bubble": "Press play when you're ready to keep reading."
+     },
+     {
+      "t": 172.02,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the microphone and it paused.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 61.57,
+    "details": [
+     "Buddy started talking 2.2 s into a planned 2.44 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 61.57,
+      "paused_s": 2.2,
+      "planned_s": 2.44,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "રોજ સવારે દાણા"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 92.06,
+    "details": [
+     "Read 'તે' correctly but Buddy asked to practise it."
+    ],
+    "evidence": [
+     {
+      "t": 92.06,
+      "word": "તે",
+      "child_said": "તે",
+      "speech_model_wrote": "તે રોજ સવારે ધાણા શોધવા જથી"
+     }
+    ],
+    "child_quote": "Buddy said I got a word wrong but I read it right.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 4.65,
+  "frustration_events": [
+   {
+    "t": 16.97,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 16.97,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 25.74,
+    "kind": "long_wait",
+    "frustration": 1.05
+   },
+   {
+    "t": 29.15,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 35.21,
+    "kind": "unexpected_pause",
+    "frustration": 1.7
+   },
+   {
+    "t": 51.69,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 51.79,
+    "kind": "praise",
+    "frustration": 1.15
+   },
+   {
+    "t": 59.25,
+    "kind": "progress",
+    "frustration": 1.0
+   },
+   {
+    "t": 61.57,
+    "kind": "interrupted_pause",
+    "frustration": 2.0,
+    "paused_s": 2.2
+   },
+   {
+    "t": 68.93,
+    "kind": "progress",
+    "frustration": 1.85
+   },
+   {
+    "t": 89.05,
+    "kind": "unheard_speech",
+    "frustration": 2.65
+   },
+   {
+    "t": 89.05,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 91.26,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 92.06,
+    "kind": "false_correction",
+    "frustration": 3.55,
+    "word": "તે"
+   },
+   {
+    "t": 96.87,
+    "kind": "praise",
+    "frustration": 3.15
+   },
+   {
+    "t": 117.87,
+    "kind": "progress",
+    "frustration": 3.0
+   },
+   {
+    "t": 117.95,
+    "kind": "praise",
+    "frustration": 2.6
+   },
+   {
+    "t": 128.77,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 135.76,
+    "kind": "praise",
+    "frustration": 2.05
+   },
+   {
+    "t": 147.3,
+    "kind": "unheard_speech",
+    "frustration": 2.85
+   },
+   {
+    "t": 147.3,
+    "kind": "progress",
+    "frustration": 2.7
+   },
+   {
+    "t": 159.13,
+    "kind": "unheard_speech",
+    "frustration": 3.5
+   },
+   {
+    "t": 159.13,
+    "kind": "progress",
+    "frustration": 3.35
+   },
+   {
+    "t": 165.06,
+    "kind": "progress",
+    "frustration": 3.2
+   },
+   {
+    "t": 172.02,
+    "kind": "unexpected_pause",
+    "frustration": 4.0
+   },
+   {
+    "t": 191.08,
+    "kind": "progress",
+    "frustration": 3.85
+   },
+   {
+    "t": 198.0,
+    "kind": "unheard_speech",
+    "frustration": 4.65
+   },
+   {
+    "t": 198.0,
+    "kind": "progress",
+    "frustration": 4.5
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 9,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 4,
+  "interruptions": 1,
+  "unheard_words": 18,
+  "buddy_talk_s": 103.1,
+  "child_talk_s": 42.8,
+  "tired_said": false,
+  "time_to_text_s": 3.9,
+  "time_to_first_word_s": 2.9,
+  "intro_s": 15.2,
+  "session_s": 192.3,
+  "words_total": 23,
+  "words_attempted": 17,
+  "words_said_wrong": 2,
+  "corrections": 6,
+  "buddy_turns": 18,
+  "stall_prompts": 1,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 23,
+  "words_read": 7,
+  "words_helped": 10,
+  "words_to_practise": [
+   "નાની",
+   "તે",
+   "દાણા",
+   "શોધવા",
+   "એક",
+   "દિવસ",
+   "તેને"
+  ],
+  "words_practised": 7,
+  "correction_attempts": 7,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 6,
+  "seconds": 192.2,
+  "words_per_minute": 5.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 2,
+  "correction_quality": 4,
+  "completion": 4,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 213,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

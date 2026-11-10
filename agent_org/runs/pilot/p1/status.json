@@ -1,0 +1,40 @@
+{
+ "started": "2026-11-09T17:57:26",
+ "agents": {
+  "N01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "17:57:27",
+   "outcome": "could_not_start",
+   "issues": 5
+  },
+  "L01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "17:57:27",
+   "outcome": "abandoned_frustration",
+   "issues": 6
+  },
+  "U01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "17:57:27",
+   "outcome": "abandoned_frustration",
+   "issues": 6
+  },
+  "C2-01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "17:57:51",
+   "outcome": "abandoned_frustration",
+   "issues": 6
+  },
+  "C4-01": {
+   "state": "done",
+   "attempt": 1,
+   "since": "17:58:20",
+   "outcome": "completed",
+   "issues": 5
+  }
+ }
+}

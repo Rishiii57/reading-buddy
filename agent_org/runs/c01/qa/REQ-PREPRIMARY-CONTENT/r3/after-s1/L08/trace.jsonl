@@ -1,0 +1,1 @@
+{"t": 0.06, "kind": "harness_error", "error": "Error: Page.goto: net::ERR_CONNECTION_REFUSED at http://127.0.0.1:8802/\nCall log:\n  - navigating to \"http://127.0.0.1:8802/\", waiting until \"domcontentloaded\"\n"}

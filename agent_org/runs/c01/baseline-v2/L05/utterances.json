@@ -1,0 +1,187 @@
+{
+ "utterances": [
+  {
+   "t": 44.22,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.41,
+   "said": "गरजे",
+   "stt": "गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 61.91,
+   "said": "बारिस",
+   "stt": "बारिस",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.59,
+   "said": "आ",
+   "stt": "आ",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.1,
+   "said": "बाड़िश",
+   "stt": "बाड़िश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 105.39,
+   "said": "बारिश बारिश",
+   "stt": "बारिश बारिश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 44.22,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   }
+  ],
+  "1": [
+   {
+    "t": 54.41,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गरजे"
+   }
+  ],
+  "2": [
+   {
+    "t": 61.91,
+    "target": "बारिश",
+    "said": "बारिस",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बारिस"
+   },
+   {
+    "t": 90.1,
+    "target": "बारिश",
+    "said": "बाड़िश",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाड़िश"
+   },
+   {
+    "t": 105.39,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बारिश बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 61.91,
+    "target": "आई",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "बारिस"
+   },
+   {
+    "t": 65.59,
+    "target": "आई",
+    "said": "आ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "आ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 26.03,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 47.7,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 56.39,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बारिश आई",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 67.67,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बारिश",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  }
+ ]
+}

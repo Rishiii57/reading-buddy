@@ -1,0 +1,55 @@
+{
+ "text_id": "gu-varsad",
+ "language": "gu-IN",
+ "variant": "aug_slow",
+ "voice": "Riyaa",
+ "duration": 20.838,
+ "segments": [
+  {
+   "start": 1.25,
+   "end": 4.139,
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "line": 0
+  },
+  {
+   "start": 7.889,
+   "end": 10.334,
+   "words": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "line": 1
+  },
+  {
+   "start": 12.334,
+   "end": 14.777,
+   "words": [
+    10,
+    11,
+    12
+   ],
+   "line": 2
+  },
+  {
+   "start": 15.777,
+   "end": 18.334,
+   "words": [
+    13,
+    14,
+    15
+   ],
+   "line": 3
+  }
+ ],
+ "truth": [],
+ "note": "derived from clean_a by ffmpeg (aug_slow); synthetic voice"
+}

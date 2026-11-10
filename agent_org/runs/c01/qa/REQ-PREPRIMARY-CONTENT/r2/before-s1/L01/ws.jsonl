@@ -1,0 +1,31 @@
+{"t": 12.53, "type": "ready", "message": null}
+{"t": 12.95, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मेरी गुड़िया ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मेरी गुड़िया प्यारी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 27.5, "type": "speech"}
+{"t": 29.52, "type": "heard", "text": "मेरी"}
+{"t": 29.55, "type": "speech"}
+{"t": 33.19, "type": "say", "kind": "stall_phrase", "text": "सुनो... गुड़िया प्यारी है", "spans": [[1, 4]]}
+{"t": 37.0, "type": "speech"}
+{"t": 39.2, "type": "heard", "text": "गुरिया"}
+{"t": 39.2, "type": "speech"}
+{"t": 42.81, "type": "say", "kind": "fix_word", "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। गुड़िया", "spans": [[1, 2]]}
+{"t": 49.07, "type": "speech"}
+{"t": 51.41, "type": "heard", "text": "गुरिया"}
+{"t": 51.41, "type": "speech"}
+{"t": 51.41, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 54.81, "type": "speech"}
+{"t": 56.89, "type": "heard", "text": "गुढ़िया"}
+{"t": 57.16, "type": "speech"}
+{"t": 57.53, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 60.42, "type": "speech"}
+{"t": 62.43, "type": "heard", "text": "गुढ़िया"}
+{"t": 62.43, "type": "speech"}
+{"t": 62.44, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 66.05, "type": "speech"}
+{"t": 69.55, "type": "heard", "text": "गुढ़िया गुढ़िया"}
+{"t": 69.55, "type": "speech"}
+{"t": 69.55, "type": "say", "kind": "fix_again", "text": "गुड़िया", "spans": [[1, 2]]}
+{"t": 73.02, "type": "speech"}
+{"t": 75.78, "type": "heard", "text": "गुड़िया"}
+{"t": 75.85, "type": "speech"}
+{"t": 75.85, "type": "say", "kind": "repeat_line", "text": "हाँ! बहुत अच्छे! मेरी गुड़िया प्यारी है अब तुम पूरी पंक्ति बोलो।", "spans": [[0, 4]]}
+{"t": 77.55, "type": "summary", "summary": {"words_total": 17, "words_read": 1, "words_helped": 3, "words_to_practise": ["गुड़िया"], "words_practised": 1, "correction_attempts": 5, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 1, "seconds": 64.9, "words_per_minute": 3.7}}

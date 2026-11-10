@@ -1,0 +1,385 @@
+{
+ "utterances": [
+  {
+   "t": 33.41,
+   "said": "A sun",
+   "stt": "A sun",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.41,
+   "said": "A",
+   "stt": "A",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 47.36,
+   "said": "small",
+   "stt": "small",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 50.22,
+   "said": "ana ana",
+   "stt": "ana ana",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.39,
+   "said": "ant",
+   "stt": "ant",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.46,
+   "said": "went",
+   "stt": "went",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.72,
+   "said": "all all",
+   "stt": "all all",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 72.67,
+   "said": "we",
+   "stt": "we",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.42,
+   "said": "at the",
+   "stt": "at the",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.03,
+   "said": "went",
+   "stt": "went",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.52,
+   "said": "and",
+   "stt": "and",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 97.12,
+   "said": "tha the fish",
+   "stt": "tha fish",
+   "stt_notes": [
+    "lost 'the'"
+   ],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 104.62,
+   "said": "and across tha the",
+   "stt": "and across tha the",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 110.1,
+   "said": "fish",
+   "stt": "fish",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.41,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A sun"
+   },
+   {
+    "t": 39.41,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A"
+   }
+  ],
+  "1": [
+   {
+    "t": 33.41,
+    "target": "small",
+    "said": "sun",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A sun"
+   },
+   {
+    "t": 47.36,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "small"
+   }
+  ],
+  "2": [
+   {
+    "t": 50.22,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ana ana"
+   },
+   {
+    "t": 55.39,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ant"
+   }
+  ],
+  "3": [
+   {
+    "t": 59.46,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "went"
+   },
+   {
+    "t": 72.67,
+    "target": "walked",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "we"
+   },
+   {
+    "t": 85.03,
+    "target": "walked",
+    "said": "went",
+    "correct": false,
+    "kind": "sub",
+    "stt": "went"
+   }
+  ],
+  "4": [
+   {
+    "t": 65.72,
+    "target": "across",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "all all"
+   },
+   {
+    "t": 79.42,
+    "target": "across",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at the"
+   },
+   {
+    "t": 90.52,
+    "target": "across",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "and"
+   },
+   {
+    "t": 104.62,
+    "target": "across",
+    "said": "and across",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "and across tha the"
+   }
+  ],
+  "5": [
+   {
+    "t": 79.42,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "at the"
+   },
+   {
+    "t": 97.12,
+    "target": "the",
+    "said": "tha the",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "tha fish"
+   },
+   {
+    "t": 104.62,
+    "target": "the",
+    "said": "tha the",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "and across tha the"
+   }
+  ],
+  "6": [
+   {
+    "t": 97.12,
+    "target": "floor",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "tha fish"
+   },
+   {
+    "t": 110.1,
+    "target": "floor",
+    "said": "fish",
+    "correct": false,
+    "kind": "sub",
+    "stt": "fish"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.96,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 33.49,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 42.48,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... small ant walked",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 50.24,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 66.0,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 79.45,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 97.13,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

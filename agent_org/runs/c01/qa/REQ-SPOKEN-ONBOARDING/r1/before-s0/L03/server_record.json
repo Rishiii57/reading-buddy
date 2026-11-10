@@ -1,0 +1,191 @@
+{
+ "id": "20261109-191345-8d3062",
+ "text_id": "gu-shala",
+ "mode": "demo",
+ "summary": {
+  "words_total": 22,
+  "words_read": 1,
+  "words_helped": 2,
+  "words_to_practise": [
+   "મારી",
+   "શાળા"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 1,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 2,
+  "seconds": 46.5,
+  "words_per_minute": 3.9
+ },
+ "log": [
+  {
+   "t": 0.053,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.241,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.413,
+   "event": "transcript",
+   "text": "માડી શાળા બહુ"
+  },
+  {
+   "t": 20.413,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 22.455,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 22.455,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 31.719,
+   "event": "transcript",
+   "text": "મારી મારી"
+  },
+  {
+   "t": 31.719,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 31.719,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 39.27,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 42.868,
+   "event": "transcript",
+   "text": "મારી સાળા"
+  },
+  {
+   "t": 42.868,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 44.477,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 44.879,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 44.879,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.472,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.413,
+   "type": "transcript",
+   "text": "માડી શાળા બહુ",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 28.233,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.719,
+   "type": "transcript",
+   "text": "મારી મારી",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 39.388,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.868,
+   "type": "transcript",
+   "text": "મારી સાળા",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "માડી શાળા બહુ",
+   "heard": "માડી શાળા બહુ",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "મારી મારી",
+   "heard": "મારી મારી",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "મારી સાળા",
+   "heard": "મારી સાળા",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 28
+}

@@ -1,0 +1,7 @@
+{"t": 13.71, "type": "ready", "message": null}
+{"t": 14.47, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tree Listen carefully to how I read it. Ravi has a mango tree in his garden. Now it's your turn. Read it with me!", "spans": [[0, 8]]}
+{"t": 29.82, "type": "speech"}
+{"t": 38.66, "type": "heard", "text": "Ravi Ravi has a mango tree his"}
+{"t": 38.66, "type": "speech"}
+{"t": 40.99, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. in", "spans": [[5, 6]]}
+{"t": 42.07, "type": "summary", "summary": {"words_total": 32, "words_read": 6, "words_helped": 1, "words_to_practise": ["in"], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 28.3, "words_per_minute": 14.9}}

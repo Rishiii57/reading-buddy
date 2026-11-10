@@ -1,0 +1,256 @@
+{
+ "id": "20261110-112116-ace9d8",
+ "text_id": "en-humpty",
+ "mode": "mic",
+ "summary": {
+  "words_total": 26,
+  "words_read": 14,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 70.4,
+  "words_per_minute": 16.2
+ },
+ "log": [
+  {
+   "t": 0.154,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.046,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 23.755,
+   "event": "transcript",
+   "text": "Humpty day sat oa a a wall"
+  },
+  {
+   "t": 23.755,
+   "event": "progress",
+   "frm": 0,
+   "to": 6
+  },
+  {
+   "t": 23.755,
+   "event": "echo_slips_accepted",
+   "words": [
+    1,
+    3
+   ]
+  },
+  {
+   "t": 23.755,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 23.755,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 28.407,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 38.508,
+   "event": "transcript",
+   "text": "Humpty Humpty Dumpty haa haa a a get fall"
+  },
+  {
+   "t": 38.508,
+   "event": "progress",
+   "frm": 6,
+   "to": 12
+  },
+  {
+   "t": 38.508,
+   "event": "echo_slips_accepted",
+   "words": [
+    8,
+    10
+   ]
+  },
+  {
+   "t": 38.508,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 38.508,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 38.508,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 38.508,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 43.69,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 60.967,
+   "event": "transcript",
+   "text": "ala tha king's here and all the king's"
+  },
+  {
+   "t": 60.967,
+   "event": "progress",
+   "frm": 12,
+   "to": 20
+  },
+  {
+   "t": 63.481,
+   "event": "transcript",
+   "text": "men"
+  },
+  {
+   "t": 63.481,
+   "event": "progress",
+   "frm": 20,
+   "to": 21
+  },
+  {
+   "t": 63.481,
+   "event": "echo_slips_accepted",
+   "words": [
+    15
+   ]
+  },
+  {
+   "t": 63.481,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 63.481,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 67.912,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.343,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.755,
+   "type": "transcript",
+   "text": "Humpty day sat oa a a wall",
+   "latency": 120,
+   "audio_duration_ms": 7980,
+   "message": null
+  },
+  {
+   "t": 29.022,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 38.508,
+   "type": "transcript",
+   "text": "Humpty Humpty Dumpty haa haa a a get fall",
+   "latency": 120,
+   "audio_duration_ms": 9067,
+   "message": null
+  },
+  {
+   "t": 51.747,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.967,
+   "type": "transcript",
+   "text": "ala tha king's here and all the king's",
+   "latency": 120,
+   "audio_duration_ms": 8797,
+   "message": null
+  },
+  {
+   "t": 61.8,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.481,
+   "type": "transcript",
+   "text": "men",
+   "latency": 120,
+   "audio_duration_ms": 1257,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Humpty day sat oa a a wall",
+   "heard": "Humpty day sat oa a a wall",
+   "muted_words": 0,
+   "duration_s": 7.98
+  },
+  {
+   "text": "Humpty Humpty Dumpty haa haa a a get fall",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 10.2
+  },
+  {
+   "text": "ala tha king's here and all the king's men",
+   "heard": "men",
+   "muted_words": 0,
+   "duration_s": 11.31
+  }
+ ],
+ "tts_offline": 324
+}

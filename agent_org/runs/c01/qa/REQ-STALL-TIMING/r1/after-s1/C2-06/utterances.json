@@ -1,0 +1,373 @@
+{
+ "utterances": [
+  {
+   "t": 41.54,
+   "said": "એક નાની ચકલી હતી",
+   "stt": "એક નાની હતી",
+   "stt_notes": [
+    "lost 'ચકલી'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.86,
+   "said": "ચકલિ ચકલી હતી",
+   "stt": "ચકલિ ચકલી હતી",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.25,
+   "said": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી",
+   "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.96,
+   "said": "ડોજ",
+   "stt": "ડોજ",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 64.11,
+   "said": "રોજ",
+   "stt": "રોજ",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 78.19,
+   "said": "રોજ સવારે દાણા સોધવા શોધવા જતી",
+   "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી",
+   "stt_notes": [
+    "'રોજ' heard as 'ડોજ'"
+   ],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.65,
+   "said": "તે",
+   "stt": "તે",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 84.4,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 41.54,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની હતી"
+   }
+  ],
+  "1": [
+   {
+    "t": 41.54,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની હતી"
+   }
+  ],
+  "2": [
+   {
+    "t": 41.54,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની હતી"
+   },
+   {
+    "t": 44.86,
+    "target": "ચકલી",
+    "said": "ચકલિ ચકલી",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ચકલિ ચકલી હતી"
+   }
+  ],
+  "3": [
+   {
+    "t": 41.54,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની હતી"
+   },
+   {
+    "t": 44.86,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ચકલિ ચકલી હતી"
+   }
+  ],
+  "4": [
+   {
+    "t": 50.25,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 78.19,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   },
+   {
+    "t": 80.65,
+    "target": "તે",
+    "said": "તે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે"
+   },
+   {
+    "t": 84.4,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "",
+    "drill": true
+   }
+  ],
+  "5": [
+   {
+    "t": 50.25,
+    "target": "રોજ",
+    "said": "રોઝ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 55.96,
+    "target": "રોજ",
+    "said": "ડોજ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડોજ",
+    "drill": true
+   },
+   {
+    "t": 64.11,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રોજ",
+    "drill": true
+   },
+   {
+    "t": 78.19,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   }
+  ],
+  "6": [
+   {
+    "t": 50.25,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 78.19,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   }
+  ],
+  "7": [
+   {
+    "t": 50.25,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 78.19,
+    "target": "દાણા",
+    "said": "દાણા",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   }
+  ],
+  "8": [
+   {
+    "t": 50.25,
+    "target": "શોધવા",
+    "said": "શોદવા શોધવા",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 78.19,
+    "target": "શોધવા",
+    "said": "સોધવા શોધવા",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   }
+  ],
+  "9": [
+   {
+    "t": 50.25,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "તે રોઝ સવારે દાણા શોદવા શોધવા જતી"
+   },
+   {
+    "t": 78.19,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ડોજ સવારે દાણા સોધવા શોધવા જતી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 22.65,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 50.35,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. રોજ",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 55.98,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "રોજ",
+   "spans": [
+    [
+     5,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 64.4,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! તે રોજ સવારે દાણા શોધવા જતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 79.89,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. તે",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "utterances": [
+  {
+   "t": 23.92,
+   "said": "Pitter",
+   "stt": "Pitter",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 31.99,
+   "said": "play play play play",
+   "stt": "play play play play",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.24,
+   "said": "Pitter",
+   "stt": "Pitter",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 23.92,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter"
+   },
+   {
+    "t": 31.99,
+    "target": "Pitter",
+    "said": "play",
+    "correct": false,
+    "kind": "sub",
+    "stt": "play play play play"
+   },
+   {
+    "t": 37.24,
+    "target": "Pitter",
+    "said": "Pitter",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Pitter"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.99,
+    "target": "patter",
+    "said": "play",
+    "correct": false,
+    "kind": "sub",
+    "stt": "play play play play"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.09,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 32.09,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 40.72,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... patter falls the",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  }
+ ]
+}

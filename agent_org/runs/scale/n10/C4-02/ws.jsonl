@@ -1,0 +1,65 @@
+{"t": 9.87, "type": "ready", "message": null}
+{"t": 9.98, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!", "spans": [[0, 7]]}
+{"t": 24.24, "type": "speech"}
+{"t": 28.24, "type": "heard", "text": "A small ana ant walked across the floor"}
+{"t": 28.24, "type": "speech"}
+{"t": 29.13, "type": "speech"}
+{"t": 34.07, "type": "heard", "text": "It carried a grain grain of rice on its back"}
+{"t": 34.1, "type": "speech"}
+{"t": 34.17, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 37.43, "type": "speech"}
+{"t": 41.38, "type": "heard", "text": "tha ran rice was bigger than the ant"}
+{"t": 41.38, "type": "speech"}
+{"t": 41.42, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. The", "spans": [[16, 17]]}
+{"t": 45.96, "type": "speech"}
+{"t": 47.08, "type": "heard", "text": "The"}
+{"t": 47.08, "type": "speech"}
+{"t": 47.08, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.", "spans": [[16, 23]]}
+{"t": 54.51, "type": "speech"}
+{"t": 58.52, "type": "heard", "text": "tha rice waa was bigger than the ant"}
+{"t": 58.56, "type": "speech"}
+{"t": 58.57, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. The", "spans": [[16, 17]]}
+{"t": 62.17, "type": "speech"}
+{"t": 64.17, "type": "heard", "text": "The"}
+{"t": 64.19, "type": "speech"}
+{"t": 64.21, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.", "spans": [[16, 23]]}
+{"t": 70.69, "type": "speech"}
+{"t": 74.04, "type": "heard", "text": "The red was bigger than ant"}
+{"t": 74.09, "type": "speech"}
+{"t": 74.72, "type": "speech"}
+{"t": 75.92, "type": "heard", "text": "the"}
+{"t": 75.98, "type": "speech"}
+{"t": 75.99, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 82.16, "type": "speech"}
+{"t": 82.89, "type": "heard", "text": "the ant"}
+{"t": 82.97, "type": "speech"}
+{"t": 83.0, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. rice", "spans": [[17, 18]]}
+{"t": 88.89, "type": "speech"}
+{"t": 89.96, "type": "heard", "text": "rice"}
+{"t": 90.05, "type": "speech"}
+{"t": 90.05, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! The rice was bigger than the ant. Now you say the whole line.", "spans": [[16, 23]]}
+{"t": 96.3, "type": "speech"}
+{"t": 99.27, "type": "heard", "text": "The red rice was bigger"}
+{"t": 99.27, "type": "speech"}
+{"t": 101.62, "type": "speech"}
+{"t": 102.69, "type": "heard", "text": "than the ant"}
+{"t": 102.78, "type": "speech"}
+{"t": 103.03, "type": "say", "kind": "praise", "text": "Wonderful! Let's move to the next line.", "spans": []}
+{"t": 107.22, "type": "speech"}
+{"t": 112.13, "type": "heard", "text": "But the ana ant did not give ua up"}
+{"t": 112.13, "type": "speech"}
+{"t": 112.99, "type": "speech"}
+{"t": 116.14, "type": "heard", "text": "It walked slowly and reached home"}
+{"t": 116.16, "type": "speech"}
+{"t": 117.11, "type": "speech"}
+{"t": 118.98, "type": "heard", "text": "ita its he"}
+{"t": 118.98, "type": "speech"}
+{"t": 119.02, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 122.27, "type": "speech"}
+{"t": 123.33, "type": "heard", "text": "its"}
+{"t": 123.39, "type": "speech"}
+{"t": 124.83, "type": "speech"}
+{"t": 125.89, "type": "heard", "text": "home"}
+{"t": 125.89, "type": "speech"}
+{"t": 125.93, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 125.93, "type": "summary", "summary": {"words_total": 37, "words_read": 35, "words_helped": 2, "words_to_practise": ["The", "rice"], "words_practised": 3, "correction_attempts": 3, "lines_total": 5, "lines_completed": 5, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 3, "seconds": 116.0, "words_per_minute": 19.1}}

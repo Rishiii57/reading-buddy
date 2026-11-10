@@ -1,0 +1,28 @@
+{"t": 16.69, "type": "ready", "message": null}
+{"t": 17.87, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 39.25, "type": "speech"}
+{"t": 47.0, "type": "heard", "text": "મારી શાળા વહુ સુંદર છે"}
+{"t": 47.0, "type": "speech"}
+{"t": 47.0, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. બહુ", "spans": [[2, 3]]}
+{"t": 52.59, "type": "speech"}
+{"t": 57.06, "type": "heard", "text": "વહુ સુંધર સુંધર"}
+{"t": 57.06, "type": "speech"}
+{"t": 57.06, "type": "say", "kind": "fix_again", "text": "બહુ", "spans": [[2, 3]]}
+{"t": 59.06, "type": "speech"}
+{"t": 61.95, "type": "heard", "text": "બહુ"}
+{"t": 61.95, "type": "speech"}
+{"t": 61.98, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારી શાળા બહુ સુંદર છે. હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 70.04, "type": "speech"}
+{"t": 77.91, "type": "heard", "text": "માડી શાળા બહુ સુંદર છે"}
+{"t": 77.92, "type": "speech"}
+{"t": 77.96, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારી", "spans": [[0, 1]]}
+{"t": 82.44, "type": "speech"}
+{"t": 84.55, "type": "heard", "text": "માડી"}
+{"t": 84.55, "type": "speech"}
+{"t": 84.55, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 89.84, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 93.32, "type": "speech"}
+{"t": 95.37, "type": "heard", "text": "માડી"}
+{"t": 95.37, "type": "speech"}
+{"t": 95.37, "type": "say", "kind": "fix_again", "text": "મારી", "spans": [[0, 1]]}
+{"t": 98.58, "type": "summary", "summary": {"words_total": 22, "words_read": 3, "words_helped": 2, "words_to_practise": ["મારી", "બહુ"], "words_practised": 1, "correction_attempts": 4, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 2, "seconds": 81.7, "words_per_minute": 3.7}}

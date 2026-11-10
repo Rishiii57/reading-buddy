@@ -1,0 +1,155 @@
+{
+ "utterances": [
+  {
+   "t": 32.22,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 42.56,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.6,
+   "said": "આવ",
+   "stt": "આવ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.05,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.69,
+   "said": "રે",
+   "stt": "રે",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.22,
+    "target": "આવ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 42.56,
+    "target": "આવ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 50.6,
+    "target": "આવ",
+    "said": "આવ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "આવ"
+   }
+  ],
+  "1": [
+   {
+    "t": 55.05,
+    "target": "રે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 58.69,
+    "target": "રે",
+    "said": "રે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.6,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 36.63,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... આવ રે વરસાદ",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 43.93,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "આવ રે વરસાદ હવે તું બોલ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 55.14,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... રે વરસાદ",
+   "spans": [
+    [
+     1,
+     3
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,186 @@
+{
+ "utterances": [
+  {
+   "t": 31.06,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.01,
+   "said": "બિલાડી",
+   "stt": "બિલાડી",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.11,
+   "said": "જાડ",
+   "stt": "જાડ",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.45,
+   "said": "તેણ",
+   "stt": "તેણ",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.23,
+   "said": "પહેરી સાડ સાડ",
+   "stt": "પહેરી સાડ સાડ",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 61.88,
+   "said": "પહેર",
+   "stt": "પહેર",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.06,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "echo",
+    "stt": "એક"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.01,
+    "target": "બિલાડી",
+    "said": "બિલાડી",
+    "correct": true,
+    "kind": "echo",
+    "stt": "બિલાડી"
+   }
+  ],
+  "2": [
+   {
+    "t": 40.11,
+    "target": "જાડી",
+    "said": "જાડ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "જાડ"
+   }
+  ],
+  "3": [
+   {
+    "t": 48.45,
+    "target": "તેણે",
+    "said": "તેણ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તેણ"
+   }
+  ],
+  "4": [
+   {
+    "t": 59.23,
+    "target": "પહેરી",
+    "said": "પહેરી",
+    "correct": true,
+    "kind": "echo",
+    "stt": "પહેરી સાડ સાડ"
+   },
+   {
+    "t": 61.88,
+    "target": "પહેરી",
+    "said": "પહેર",
+    "correct": false,
+    "kind": "sub",
+    "stt": "પહેર"
+   }
+  ],
+  "5": [
+   {
+    "t": 59.23,
+    "target": "સાડી",
+    "said": "સાડ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "પહેરી સાડ સાડ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.21,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક બિલાડી જાડી હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 44.71,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... તેણે",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 48.45,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "સાંભળ... તેણે પહેરી સાડી. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 59.6,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "utterances": [
+  {
+   "t": 35.84,
+   "said": "मछली",
+   "stt": "मछली",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 47.71,
+   "said": "मछली",
+   "stt": "मछली",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 51.94,
+   "said": "झल",
+   "stt": "झल",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.13,
+   "said": "कि रानी",
+   "stt": "कि राणी",
+   "stt_notes": [
+    "'रानी' heard as 'राणी'"
+   ],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 2,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 35.84,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली"
+   },
+   {
+    "t": 47.71,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "echo",
+    "stt": "मछली"
+   }
+  ],
+  "1": [
+   {
+    "t": 51.94,
+    "target": "जल",
+    "said": "झल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "झल"
+   }
+  ],
+  "2": [
+   {
+    "t": 51.94,
+    "target": "की",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "झल"
+   },
+   {
+    "t": 62.13,
+    "target": "की",
+    "said": "कि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "कि राणी"
+   }
+  ],
+  "3": [
+   {
+    "t": 62.13,
+    "target": "रानी",
+    "said": "रानी",
+    "correct": true,
+    "kind": "echo",
+    "stt": "कि राणी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 27.32,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 57.16,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... की रानी है",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  }
+ ]
+}

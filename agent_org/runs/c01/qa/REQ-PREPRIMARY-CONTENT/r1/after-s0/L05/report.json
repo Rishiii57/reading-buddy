@@ -1,0 +1,254 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r1-after-s0",
+ "agent_id": "L05",
+ "seed": 1204,
+ "persona": {
+  "id": "L05",
+  "name": "Prisha",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 4.5,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/hi-samandar",
+  "title": "हरा समंदर",
+  "tags": [
+   "Hindi",
+   "Nursery"
+  ],
+  "words": 9,
+  "lines": 2,
+  "language": "hi-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_SPOKEN_GUIDANCE_BEFORE_START",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 13.64,
+    "details": [
+     "On the reading page nothing was said out loud, and the written instructions (English) are not something this child can read."
+    ],
+    "evidence": [
+     {
+      "t": 13.64,
+      "bubble": "Hi! I'm Buddy. Press the big microphone and read the first line out loud.",
+      "audio_clips_heard": 0
+     }
+    ],
+    "child_quote": "Nobody told me what to do.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 47.99,
+    "details": [
+     "Buddy started talking 2.1 s into a planned 5.36 s thinking pause.",
+     "Buddy started talking 1.8 s into a planned 5.69 s thinking pause.",
+     "Buddy started talking 2.2 s into a planned 3.23 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 47.99,
+      "paused_s": 2.1,
+      "planned_s": 5.36,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "मेरी मछली कितना"
+     },
+     {
+      "t": 58.24,
+      "paused_s": 1.8,
+      "planned_s": 5.69,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "कितना पानी?"
+     },
+     {
+      "t": 86.27,
+      "paused_s": 2.2,
+      "planned_s": 3.23,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "मेरी मछली कितना"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 66.71,
+    "details": [
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 66.71,
+      "said": "मेड़ी मछलि कितना",
+      "heard": "कितना"
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MIC_TAP_PAUSED_SESSION",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 69.22,
+    "details": [
+     "Tapped the big microphone to talk; the session paused instead."
+    ],
+    "evidence": [
+     {
+      "t": 69.22,
+      "bubble": "Press play when you're ready to keep reading."
+     }
+    ],
+    "child_quote": "I pressed the mic to talk and it stopped!",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 5.25,
+  "frustration_events": [
+   {
+    "t": 13.64,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "what": "reader page instructions"
+   },
+   {
+    "t": 39.33,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 45.83,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 47.99,
+    "kind": "interrupted_pause",
+    "frustration": 1.3,
+    "paused_s": 2.1
+   },
+   {
+    "t": 58.24,
+    "kind": "interrupted_pause",
+    "frustration": 2.3,
+    "paused_s": 1.8
+   },
+   {
+    "t": 66.71,
+    "kind": "unheard_speech",
+    "frustration": 3.1
+   },
+   {
+    "t": 66.71,
+    "kind": "progress",
+    "frustration": 2.95
+   },
+   {
+    "t": 69.22,
+    "kind": "unexpected_pause",
+    "frustration": 3.75
+   },
+   {
+    "t": 86.27,
+    "kind": "interrupted_pause",
+    "frustration": 4.75,
+    "paused_s": 2.2
+   },
+   {
+    "t": 87.44,
+    "kind": "dead_click",
+    "frustration": 5.25,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 3,
+  "unheard_words": 2,
+  "buddy_talk_s": 34.5,
+  "child_talk_s": 25.0,
+  "tired_said": false,
+  "time_to_text_s": 2.8,
+  "reader_page_audio_clips": 0,
+  "intro_s": 12.0,
+  "time_to_first_word_s": 12.0,
+  "session_s": 72.0,
+  "words_total": 9,
+  "words_attempted": 8,
+  "words_said_wrong": 3,
+  "corrections": 2,
+  "buddy_turns": 7,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 9,
+  "words_read": 4,
+  "words_helped": 4,
+  "words_to_practise": [
+   "बोल",
+   "मेरी"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 2,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 2,
+  "seconds": 72.8,
+  "words_per_minute": 6.6
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 57,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

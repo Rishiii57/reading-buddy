@@ -1,0 +1,462 @@
+{
+ "id": "20261109-213721-c4a5e9",
+ "text_id": "hi-samandar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 9,
+  "words_read": 5,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 2,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 100.3,
+  "words_per_minute": 4.2
+ },
+ "log": [
+  {
+   "t": 0.028,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.539,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.856,
+   "event": "transcript",
+   "text": "हड़ा"
+  },
+  {
+   "t": 17.856,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 22.37,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 22.37,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 25.665,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 30.422,
+   "event": "transcript",
+   "text": "समंदर समंदर"
+  },
+  {
+   "t": 30.422,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 36.024,
+   "event": "transcript",
+   "text": "गोपि"
+  },
+  {
+   "t": 36.024,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 40.794,
+   "event": "transcript",
+   "text": "चंदर"
+  },
+  {
+   "t": 40.794,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 40.794,
+   "event": "echo_slips_accepted",
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 40.794,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 40.794,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 46.943,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 51.106,
+   "event": "transcript",
+   "text": "वोल मेड़ी"
+  },
+  {
+   "t": 51.106,
+   "event": "uncertain",
+   "text": "वोल मेडी"
+  },
+  {
+   "t": 51.106,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 54.668,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 61.322,
+   "event": "transcript",
+   "text": "वोल वोल मेरी मेरी"
+  },
+  {
+   "t": 61.322,
+   "event": "uncertain",
+   "text": "वोल वोल मेरी मेरी"
+  },
+  {
+   "t": 61.322,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 64.942,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 67.361,
+   "event": "transcript",
+   "text": "बोल"
+  },
+  {
+   "t": 67.361,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 72.086,
+   "event": "transcript",
+   "text": "मेड़ी"
+  },
+  {
+   "t": 72.086,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 73.73,
+   "event": "progress",
+   "to": 7
+  },
+  {
+   "t": 79.595,
+   "event": "transcript",
+   "text": "मछलि कितना"
+  },
+  {
+   "t": 79.595,
+   "event": "restart",
+   "frm": 7,
+   "to": 6
+  },
+  {
+   "t": 79.595,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 85.833,
+   "event": "transcript",
+   "text": "पाणी"
+  },
+  {
+   "t": 85.833,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.027,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.352,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.856,
+   "type": "transcript",
+   "text": "हड़ा",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 26.945,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 30.422,
+   "type": "transcript",
+   "text": "समंदर समंदर",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 33.962,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.024,
+   "type": "transcript",
+   "text": "गोपि",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 38.68,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.794,
+   "type": "transcript",
+   "text": "चंदर",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 47.579,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.106,
+   "type": "transcript",
+   "text": "वोल मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 54.989,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.322,
+   "type": "transcript",
+   "text": "वोल वोल मेरी मेरी",
+   "latency": 120,
+   "audio_duration_ms": 5910,
+   "message": null
+  },
+  {
+   "t": 65.311,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 67.361,
+   "type": "transcript",
+   "text": "बोल",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 70.033,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 72.086,
+   "type": "transcript",
+   "text": "मेड़ी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 76.115,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.595,
+   "type": "transcript",
+   "text": "मछलि कितना",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 83.777,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 85.833,
+   "type": "transcript",
+   "text": "पाणी",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "हड़ा",
+   "heard": "हड़ा",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "गोपी",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "समंदर",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "समंदर समंदर",
+   "heard": "समंदर समंदर",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "गोपि",
+   "heard": "गोपि",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "चंदर",
+   "heard": "चंदर",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "वोल मेड़ी",
+   "heard": "वोल मेड़ी",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "वोल वोल मेरी मेरी",
+   "heard": "वोल वोल मेरी मेरी",
+   "muted_words": 0,
+   "duration_s": 5.91
+  },
+  {
+   "text": "बोल",
+   "heard": "बोल",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मेड़ी",
+   "heard": "मेड़ी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "मछलि कितना",
+   "heard": "मछलि कितना",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "पाणी",
+   "heard": "पाणी",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 129
+}

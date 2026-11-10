@@ -1,0 +1,150 @@
+{
+ "utterances": [
+  {
+   "t": 34.19,
+   "said": "बादल गरजे",
+   "stt": "वादल",
+   "stt_notes": [
+    "'बादल' heard as 'वादल'",
+    "lost 'गरजे'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.02,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 43.8,
+   "said": "बाधल",
+   "stt": "बाधल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 49.22,
+   "said": "वादल",
+   "stt": "वादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.19,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वादल"
+   },
+   {
+    "t": 39.02,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   },
+   {
+    "t": 43.8,
+    "target": "बादल",
+    "said": "बाधल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "बाधल",
+    "drill": true
+   },
+   {
+    "t": 49.22,
+    "target": "बादल",
+    "said": "वादल",
+    "correct": false,
+    "kind": "sub",
+    "stt": "वादल",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 34.19,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "वादल"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 16.05,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 36.81,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 44.51,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 49.25,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "बादल",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

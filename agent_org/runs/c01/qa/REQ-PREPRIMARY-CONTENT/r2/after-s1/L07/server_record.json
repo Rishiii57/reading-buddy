@@ -1,0 +1,633 @@
+{
+ "id": "20261109-214417-0a3dcd",
+ "text_id": "en-twinkle",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 9,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 135.6,
+  "words_per_minute": 7.1
+ },
+ "log": [
+  {
+   "t": 0.162,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.503,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 15.963,
+   "event": "transcript",
+   "text": "Twinkle"
+  },
+  {
+   "t": 15.963,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.87,
+   "event": "transcript",
+   "text": "twinkle little star star"
+  },
+  {
+   "t": 25.87,
+   "event": "progress",
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 25.87,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 25.87,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 36.119,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.83,
+   "event": "transcript",
+   "text": "How I I was what"
+  },
+  {
+   "t": 45.83,
+   "event": "progress",
+   "frm": 4,
+   "to": 8
+  },
+  {
+   "t": 51.092,
+   "event": "transcript",
+   "text": "you"
+  },
+  {
+   "t": 51.092,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 57.929,
+   "event": "transcript",
+   "text": "are"
+  },
+  {
+   "t": 57.929,
+   "event": "progress",
+   "frm": 9,
+   "to": 10
+  },
+  {
+   "t": 57.929,
+   "event": "echo_slips_accepted",
+   "words": [
+    6
+   ]
+  },
+  {
+   "t": 57.929,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 57.929,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 57.929,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 57.929,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 61.572,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 71.019,
+   "event": "transcript",
+   "text": "tha"
+  },
+  {
+   "t": 71.019,
+   "event": "restart",
+   "frm": 10,
+   "to": 7
+  },
+  {
+   "t": 73.388,
+   "event": "transcript",
+   "text": "Up"
+  },
+  {
+   "t": 73.388,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 79.917,
+   "event": "transcript",
+   "text": "all"
+  },
+  {
+   "t": 85.678,
+   "event": "transcript",
+   "text": "tha"
+  },
+  {
+   "t": 85.678,
+   "event": "restart",
+   "frm": 11,
+   "to": 7
+  },
+  {
+   "t": 89.316,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 89.316,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 93.852,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 97.474,
+   "event": "transcript",
+   "text": "Up Up"
+  },
+  {
+   "t": 97.474,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 103.512,
+   "event": "transcript",
+   "text": "all all"
+  },
+  {
+   "t": 103.512,
+   "event": "uncertain",
+   "text": "all all"
+  },
+  {
+   "t": 109.721,
+   "event": "transcript",
+   "text": "the the"
+  },
+  {
+   "t": 109.721,
+   "event": "uncertain",
+   "text": "the the"
+  },
+  {
+   "t": 117.41,
+   "event": "transcript",
+   "text": "was so"
+  },
+  {
+   "t": 117.41,
+   "event": "progress",
+   "frm": 11,
+   "to": 15
+  },
+  {
+   "t": 123.191,
+   "event": "transcript",
+   "text": "have"
+  },
+  {
+   "t": 123.191,
+   "event": "restart",
+   "frm": 15,
+   "to": 9
+  },
+  {
+   "t": 126.861,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 13,
+   "line": 2
+  },
+  {
+   "t": 126.861,
+   "event": "prompt",
+   "level": 1,
+   "line": 2,
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 129.732,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 134.792,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 10,
+   "to": 16,
+   "line": 2
+  },
+  {
+   "t": 134.792,
+   "event": "prompt",
+   "level": 2,
+   "line": 2,
+   "frm": 10,
+   "to": 16
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 13.822,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 15.963,
+   "type": "transcript",
+   "text": "Twinkle",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 19.536,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.87,
+   "type": "transcript",
+   "text": "twinkle little star star",
+   "latency": 120,
+   "audio_duration_ms": 5910,
+   "message": null
+  },
+  {
+   "t": 38.051,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.83,
+   "type": "transcript",
+   "text": "How I I was what",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 49.006,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.092,
+   "type": "transcript",
+   "text": "you",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 55.874,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 57.929,
+   "type": "transcript",
+   "text": "are",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 69.072,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 71.019,
+   "type": "transcript",
+   "text": "tha",
+   "latency": 120,
+   "audio_duration_ms": 1530,
+   "message": null
+  },
+  {
+   "t": 71.336,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 73.388,
+   "type": "transcript",
+   "text": "Up",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 77.865,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 79.917,
+   "type": "transcript",
+   "text": "all",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 83.627,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 85.678,
+   "type": "transcript",
+   "text": "tha",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 93.993,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 97.474,
+   "type": "transcript",
+   "text": "Up Up",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 100.026,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 103.512,
+   "type": "transcript",
+   "text": "all all",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 106.204,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 109.721,
+   "type": "transcript",
+   "text": "the the",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 113.93,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 117.41,
+   "type": "transcript",
+   "text": "was so",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 121.14,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 123.191,
+   "type": "transcript",
+   "text": "have",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Twinkle",
+   "heard": "Twinkle",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "twinkle little star star",
+   "heard": "twinkle little star star",
+   "muted_words": 0,
+   "duration_s": 5.91
+  },
+  {
+   "text": "How I I was what",
+   "heard": "How I I was what",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "you",
+   "heard": "you",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "are",
+   "heard": "are",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "above tha",
+   "heard": "tha",
+   "muted_words": 1,
+   "duration_s": 3.06
+  },
+  {
+   "text": "Up",
+   "heard": "Up",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "all",
+   "heard": "all",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "tha",
+   "heard": "tha",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "world",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "Up Up",
+   "heard": "Up Up",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "all all",
+   "heard": "all all",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "the the",
+   "heard": "the the",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "was so",
+   "heard": "was so",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "have",
+   "heard": "have",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "at",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 296
+}

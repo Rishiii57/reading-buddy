@@ -1,0 +1,507 @@
+{
+ "utterances": [
+  {
+   "t": 36.45,
+   "said": "धो धो तीण",
+   "stt": "धो तीण",
+   "stt_notes": [
+    "lost 'धो'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.35,
+   "said": "धो तीन",
+   "stt": "धो तीन",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.27,
+   "said": "चाड़",
+   "stt": "चाड़",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.15,
+   "said": "ए धो तीण चार",
+   "stt": "ए धो तीण चार",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 63.16,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 69.91,
+   "said": "तीण चार चार",
+   "stt": "तीण चार चार",
+   "stt_notes": [],
+   "words": [
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 76.84,
+   "said": "थीन चार",
+   "stt": "थीन चार",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 82.05,
+   "said": "ए तीन चाड़",
+   "stt": "ए तीन चाड़",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 92.57,
+   "said": "ए धो तीण तीण चार",
+   "stt": "ए धो तीण तीण चार",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 100.24,
+   "said": "धो तीन",
+   "stt": "धो तीन",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 106.09,
+   "said": "चाड़",
+   "stt": "चाड़",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 112.28,
+   "said": "ए धो थीन चाड़",
+   "stt": "ए धो थीन चाड़",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.45,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "धो तीण"
+   },
+   {
+    "t": 43.35,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 58.15,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण चार"
+   },
+   {
+    "t": 63.16,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 76.84,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "थीन चार"
+   },
+   {
+    "t": 82.05,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए तीन चाड़"
+   },
+   {
+    "t": 92.57,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण तीण चार"
+   },
+   {
+    "t": 100.24,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 112.28,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो थीन चाड़"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.45,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "धो तीण"
+   },
+   {
+    "t": 43.35,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 58.15,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण चार"
+   },
+   {
+    "t": 69.91,
+    "target": "दो",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "तीण चार चार"
+   },
+   {
+    "t": 76.84,
+    "target": "दो",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "थीन चार"
+   },
+   {
+    "t": 82.05,
+    "target": "दो",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "ए तीन चाड़"
+   },
+   {
+    "t": 92.57,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण तीण चार"
+   },
+   {
+    "t": 100.24,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 112.28,
+    "target": "दो",
+    "said": "धो",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो थीन चाड़"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.45,
+    "target": "तीन",
+    "said": "तीण",
+    "correct": false,
+    "kind": "sub",
+    "stt": "धो तीण"
+   },
+   {
+    "t": 43.35,
+    "target": "तीन",
+    "said": "तीन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 58.15,
+    "target": "तीन",
+    "said": "तीण",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण चार"
+   },
+   {
+    "t": 69.91,
+    "target": "तीन",
+    "said": "तीण",
+    "correct": false,
+    "kind": "sub",
+    "stt": "तीण चार चार"
+   },
+   {
+    "t": 76.84,
+    "target": "तीन",
+    "said": "थीन",
+    "correct": false,
+    "kind": "sub",
+    "stt": "थीन चार"
+   },
+   {
+    "t": 82.05,
+    "target": "तीन",
+    "said": "तीन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए तीन चाड़"
+   },
+   {
+    "t": 92.57,
+    "target": "तीन",
+    "said": "तीण",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो तीण तीण चार"
+   },
+   {
+    "t": 100.24,
+    "target": "तीन",
+    "said": "तीन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "धो तीन"
+   },
+   {
+    "t": 112.28,
+    "target": "तीन",
+    "said": "थीन",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो थीन चाड़"
+   }
+  ],
+  "3": [
+   {
+    "t": 50.27,
+    "target": "चार",
+    "said": "चाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "चाड़"
+   },
+   {
+    "t": 58.15,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए धो तीण चार"
+   },
+   {
+    "t": 69.91,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "तीण चार चार"
+   },
+   {
+    "t": 76.84,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "थीन चार"
+   },
+   {
+    "t": 82.05,
+    "target": "चार",
+    "said": "चाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए तीन चाड़"
+   },
+   {
+    "t": 92.57,
+    "target": "चार",
+    "said": "चार",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ए धो तीण तीण चार"
+   },
+   {
+    "t": 106.09,
+    "target": "चार",
+    "said": "चाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "चाड़"
+   },
+   {
+    "t": 112.28,
+    "target": "चार",
+    "said": "चाड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए धो थीन चाड़"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.78,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे एक दो तीन चार ध्यान से सुनो, मैं कैसे पढ़ता हूँ। एक दो तीन चार अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 36.46,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 58.22,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 70.18,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 82.39,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 92.7,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 112.35,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  }
+ ]
+}

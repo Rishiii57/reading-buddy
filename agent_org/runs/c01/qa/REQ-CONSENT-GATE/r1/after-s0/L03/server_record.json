@@ -1,0 +1,408 @@
+{
+ "id": "20261109-204006-a85ff1",
+ "text_id": "gu-shala",
+ "mode": "mic",
+ "summary": {
+  "words_total": 22,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [
+   "મારી",
+   "શાળા",
+   "બહુ",
+   "સુંદર"
+  ],
+  "words_practised": 3,
+  "correction_attempts": 5,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 3,
+  "seconds": 97.6,
+  "words_per_minute": 3.1
+ },
+ "log": [
+  {
+   "t": 0.369,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.577,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.209,
+   "event": "transcript",
+   "text": "મારી શાળા શાળા વહુ ષુંદર છૈ"
+  },
+  {
+   "t": 27.209,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 27.209,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    2,
+    3
+   ]
+  },
+  {
+   "t": 27.209,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 2
+  },
+  {
+   "t": 34.268,
+   "event": "transcript",
+   "text": "વહુ"
+  },
+  {
+   "t": 34.268,
+   "event": "drill_miss",
+   "word": 2,
+   "heard": "વહુ"
+  },
+  {
+   "t": 36.675,
+   "event": "pause"
+  },
+  {
+   "t": 39.353,
+   "event": "resume"
+  },
+  {
+   "t": 42.529,
+   "event": "transcript",
+   "text": "બહુ"
+  },
+  {
+   "t": 42.529,
+   "event": "drill_ok",
+   "word": 2
+  },
+  {
+   "t": 42.529,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  },
+  {
+   "t": 48.107,
+   "event": "transcript",
+   "text": "સુંદર"
+  },
+  {
+   "t": 48.107,
+   "event": "drill_ok",
+   "word": 3
+  },
+  {
+   "t": 48.107,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 55.461,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 63.396,
+   "event": "transcript",
+   "text": "મારી સાળા બહુ સુંદર છૈ"
+  },
+  {
+   "t": 63.396,
+   "event": "progress",
+   "frm": 0,
+   "to": 5
+  },
+  {
+   "t": 63.396,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 63.396,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 70.006,
+   "event": "transcript",
+   "text": "સાળા"
+  },
+  {
+   "t": 70.006,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "સાળા"
+  },
+  {
+   "t": 78.333,
+   "event": "silence",
+   "word": 1
+  },
+  {
+   "t": 82.154,
+   "event": "transcript",
+   "text": "શાળા"
+  },
+  {
+   "t": 82.154,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 82.154,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 89.197,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 94.662,
+   "event": "transcript",
+   "text": "માડી"
+  },
+  {
+   "t": 94.662,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 96.782,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 96.782,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.015,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.209,
+   "type": "transcript",
+   "text": "મારી શાળા શાળા વહુ ષુંદર છૈ",
+   "latency": 120,
+   "audio_duration_ms": 8770,
+   "message": null
+  },
+  {
+   "t": 32.216,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.268,
+   "type": "transcript",
+   "text": "વહુ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 40.478,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.529,
+   "type": "transcript",
+   "text": "બહુ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 46.056,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.107,
+   "type": "transcript",
+   "text": "સુંદર",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 55.631,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.396,
+   "type": "transcript",
+   "text": "મારી સાળા બહુ સુંદર છૈ",
+   "latency": 120,
+   "audio_duration_ms": 7340,
+   "message": null
+  },
+  {
+   "t": 67.947,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 70.006,
+   "type": "transcript",
+   "text": "સાળા",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 80.103,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 82.154,
+   "type": "transcript",
+   "text": "શાળા",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 92.586,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 94.662,
+   "type": "transcript",
+   "text": "માડી",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારી શાળા શાળા વહુ ષુંદર છૈ",
+   "heard": "મારી શાળા શાળા વહુ ષુંદર છૈ",
+   "muted_words": 0,
+   "duration_s": 8.77
+  },
+  {
+   "text": "વહુ",
+   "heard": "વહુ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "બહુ",
+   "heard": "બહુ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "સુંદર",
+   "heard": "સુંદર",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "મારી સાળા બહુ સુંદર છૈ",
+   "heard": "મારી સાળા બહુ સુંદર છૈ",
+   "muted_words": 0,
+   "duration_s": 7.34
+  },
+  {
+   "text": "સાળા",
+   "heard": "સાળા",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "શાળા",
+   "heard": "શાળા",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "શાળા",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 3.06
+  },
+  {
+   "text": "માડી",
+   "heard": "માડી",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 41
+}

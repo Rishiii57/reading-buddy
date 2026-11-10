@@ -1,0 +1,399 @@
+{
+ "utterances": [
+  {
+   "t": 42.87,
+   "said": "मीणा मीणा के घड़ कै के पीछे",
+   "stt": "मीणा मीणा के घड़ कै पीछे",
+   "stt_notes": [
+    "lost 'के'"
+   ],
+   "words": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 47.85,
+   "said": "ए वगीचा",
+   "stt": "ए वगीचा",
+   "stt_notes": [],
+   "words": [
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.39,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.28,
+   "said": "मीणा",
+   "stt": "मीणा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 66.53,
+   "said": "मीना",
+   "stt": "मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 72.7,
+   "said": "घड़",
+   "stt": "घड़",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 78.57,
+   "said": "घड़",
+   "stt": "घड़",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 84.56,
+   "said": "घर",
+   "stt": "घर",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 95.31,
+   "said": "मीणा",
+   "stt": "मीणा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 105.2,
+   "said": "मीणा",
+   "stt": "मीणा",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 111.47,
+   "said": "मीना",
+   "stt": "मीना",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 42.87,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 62.28,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा"
+   },
+   {
+    "t": 66.53,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना",
+    "drill": true
+   },
+   {
+    "t": 95.31,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा"
+   },
+   {
+    "t": 105.2,
+    "target": "मीना",
+    "said": "मीणा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा",
+    "drill": true
+   },
+   {
+    "t": 111.47,
+    "target": "मीना",
+    "said": "मीना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीना",
+    "drill": true
+   }
+  ],
+  "1": [
+   {
+    "t": 42.87,
+    "target": "के",
+    "said": "के",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   }
+  ],
+  "2": [
+   {
+    "t": 42.87,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   },
+   {
+    "t": 72.7,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घड़",
+    "drill": true
+   },
+   {
+    "t": 78.57,
+    "target": "घर",
+    "said": "घड़",
+    "correct": false,
+    "kind": "sub",
+    "stt": "घड़",
+    "drill": true
+   },
+   {
+    "t": 84.56,
+    "target": "घर",
+    "said": "घर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "घर",
+    "drill": true
+   }
+  ],
+  "3": [
+   {
+    "t": 42.87,
+    "target": "के",
+    "said": "कै के",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   }
+  ],
+  "4": [
+   {
+    "t": 42.87,
+    "target": "पीछे",
+    "said": "पीछे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मीणा मीणा के घड़ कै पीछे"
+   }
+  ],
+  "5": [
+   {
+    "t": 47.85,
+    "target": "एक",
+    "said": "ए",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए वगीचा"
+   },
+   {
+    "t": 56.39,
+    "target": "एक",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ],
+  "6": [
+   {
+    "t": 47.85,
+    "target": "बगीचा",
+    "said": "वगीचा",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ए वगीचा"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.41,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मीना का बगीचा ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मीना के घर के पीछे एक बगीचा है। अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 48.08,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 56.36,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीना",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 66.54,
+   "type": "say",
+   "kind": "fix_next",
+   "text": "हाँ! बहुत अच्छे! घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 72.71,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 78.98,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "घर",
+   "spans": [
+    [
+     2,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 84.63,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मीना के घर के पीछे एक बगीचा है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 98.38,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "चलो, इस शब्द का साथ में अभ्यास करते हैं। मीना",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 105.95,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "मीना",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 111.87,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "हाँ! बहुत अच्छे! मीना के घर के पीछे एक बगीचा है। अब तुम पूरी पंक्ति बोलो।",
+   "spans": [
+    [
+     0,
+     8
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{"t": 2.1, "kind": "open_app", "brief": "Veer, Class 3 (about 8.5 years). Prefers gu-IN. Explores the app without a grown-up."}
+{"t": 2.18, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.13, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 4.3, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.68, "kind": "tap", "target": "Grade 32", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.04, "kind": "tap", "target": "મારી શાળા My School Gujarati Grade 3-4 S", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 11.36, "kind": "opened_text", "hash": "#/read/gu-shala", "title": "મારી શાળા", "tags": ["Gujarati", "Grade 3-4"], "words": 22, "lines": 4}
+{"t": 16.25, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 19.27, "kind": "session_started", "tries": 1}
+{"t": 31.5, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 37.77, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 52.23, "kind": "tap_mic_to_talk"}
+{"t": 52.35, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 104.96, "kind": "issue", "code": "FALSE_CORRECTION_STT", "detail": "Read 'સાથે' correctly but Buddy asked to practise it (the speech model wrote it differently)."}
+{"t": 137.65, "kind": "said_tired", "heard": "હું થાકી ગયો"}
+{"t": 139.19, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 140.08, "kind": "resumed", "after_s": 0.5}
+{"t": 141.83, "kind": "tap_mic_to_talk"}
+{"t": 141.85, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}

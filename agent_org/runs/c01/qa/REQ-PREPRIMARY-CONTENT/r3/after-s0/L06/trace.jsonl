@@ -1,0 +1,19 @@
+{"t": 3.56, "kind": "open_app", "brief": "Krish, LKG (about 4.5 years). Prefers gu-IN. Bilingual Gujarati-Hindi; reads very little yet."}
+{"t": 3.63, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "curious tap", "view": "view-home"}
+{"t": 5.17, "kind": "tap", "target": "Rain, Rain, Go Away English Nursery Rhym", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.94, "kind": "opened_text", "hash": "#/read/en-rainrain", "title": "Rain, Rain, Go Away", "tags": ["English", "Nursery"], "words": 13, "lines": 3}
+{"t": 9.66, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted gu-IN but ended up on a en-IN text."}
+{"t": 13.93, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 22.01, "kind": "listened_first", "seconds": 6.9}
+{"t": 22.07, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 24.79, "kind": "session_started", "tries": 1}
+{"t": 24.8, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 37.15, "kind": "looked_for_replay", "found": []}
+{"t": 37.15, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 61.85, "kind": "stuck", "word": "away,", "waited": 4.5}
+{"t": 61.98, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 64.5, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 68.74, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in en-IN, which this child understands poorly (0.0)."}
+{"t": 85.15, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 4.7 s into a planned 4.46 s thinking pause."}
+{"t": 85.16, "kind": "abandon", "why": "frustration", "frustration": 3.3}
+{"t": 86.3, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

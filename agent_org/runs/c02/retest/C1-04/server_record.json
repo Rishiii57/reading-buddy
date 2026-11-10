@@ -1,0 +1,431 @@
+{
+ "id": "20261110-112337-f34626",
+ "text_id": "en-baabaa",
+ "mode": "mic",
+ "summary": {
+  "words_total": 15,
+  "words_read": 14,
+  "words_helped": 1,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 72.1,
+  "words_per_minute": 12.5
+ },
+ "log": [
+  {
+   "t": 0.217,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.237,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 16.675,
+   "event": "transcript",
+   "text": "Ba baa"
+  },
+  {
+   "t": 16.675,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 22.462,
+   "event": "transcript",
+   "text": "black sheep"
+  },
+  {
+   "t": 22.462,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 22.462,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 22.462,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 26.636,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.081,
+   "event": "transcript",
+   "text": "Have yoa"
+  },
+  {
+   "t": 29.081,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 30.675,
+   "event": "progress",
+   "to": 6
+  },
+  {
+   "t": 34.355,
+   "event": "transcript",
+   "text": "ana any went"
+  },
+  {
+   "t": 34.355,
+   "event": "uncertain",
+   "text": "ana any went"
+  },
+  {
+   "t": 34.355,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 38.734,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.376,
+   "event": "transcript",
+   "text": "any any was"
+  },
+  {
+   "t": 42.376,
+   "event": "uncertain",
+   "text": "any any was"
+  },
+  {
+   "t": 45.837,
+   "event": "transcript",
+   "text": "any wool"
+  },
+  {
+   "t": 45.837,
+   "event": "progress",
+   "frm": 6,
+   "to": 8
+  },
+  {
+   "t": 45.837,
+   "event": "echo_slips_accepted",
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 45.837,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 45.837,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 50.106,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 54.169,
+   "event": "transcript",
+   "text": "Yes sir yes sir"
+  },
+  {
+   "t": 54.169,
+   "event": "progress",
+   "frm": 8,
+   "to": 12
+  },
+  {
+   "t": 54.169,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 54.169,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 60.441,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 63.459,
+   "event": "transcript",
+   "text": "Three bags for"
+  },
+  {
+   "t": 63.459,
+   "event": "progress",
+   "frm": 12,
+   "to": 14
+  },
+  {
+   "t": 66.33,
+   "event": "transcript",
+   "text": "full"
+  },
+  {
+   "t": 66.33,
+   "event": "progress",
+   "frm": 14,
+   "to": 15
+  },
+  {
+   "t": 66.33,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 66.33,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 66.33,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.514,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 16.675,
+   "type": "transcript",
+   "text": "Ba baa",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 20.301,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.462,
+   "type": "transcript",
+   "text": "black sheep",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 26.864,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.081,
+   "type": "transcript",
+   "text": "Have yoa",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 31.422,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.355,
+   "type": "transcript",
+   "text": "ana any went",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 39.44,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.376,
+   "type": "transcript",
+   "text": "any any was",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 43.667,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.837,
+   "type": "transcript",
+   "text": "any wool",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 50.46,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.169,
+   "type": "transcript",
+   "text": "Yes sir yes sir",
+   "latency": 120,
+   "audio_duration_ms": 3280,
+   "message": null
+  },
+  {
+   "t": 60.513,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.459,
+   "type": "transcript",
+   "text": "Three bags for",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 64.94,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.33,
+   "type": "transcript",
+   "text": "full",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Ba baa",
+   "heard": "Ba baa",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "black sheep",
+   "heard": "black sheep",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "Have yoa",
+   "heard": "Have yoa",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "ana any went",
+   "heard": "ana any went",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "any any was",
+   "heard": "any any was",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "any wool",
+   "heard": "any wool",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "Yes sir yes sir",
+   "heard": "Yes sir yes sir",
+   "muted_words": 0,
+   "duration_s": 3.28
+  },
+  {
+   "text": "Three bags for",
+   "heard": "Three bags for",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "full",
+   "heard": "full",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 425
+}

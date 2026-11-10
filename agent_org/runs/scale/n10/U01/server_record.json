@@ -1,0 +1,218 @@
+{
+ "id": "20261109-181441-375446",
+ "text_id": "gu-patang",
+ "mode": "mic",
+ "summary": {
+  "words_total": 16,
+  "words_read": 3,
+  "words_helped": 2,
+  "words_to_practise": [
+   "ને"
+  ],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 1,
+  "seconds": 43.8,
+  "words_per_minute": 6.8
+ },
+ "log": [
+  {
+   "t": 0.052,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.16,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.856,
+   "event": "transcript",
+   "text": "મારો પતંગ લાલ"
+  },
+  {
+   "t": 20.856,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 22.95,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 22.95,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 25.878,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.044,
+   "event": "transcript",
+   "text": "નૈ ને"
+  },
+  {
+   "t": 29.044,
+   "event": "uncertain",
+   "text": "નૈ ને"
+  },
+  {
+   "t": 29.044,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 32.946,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.484,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 36.484,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 39.172,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.155,
+   "event": "transcript",
+   "text": "ણૈ"
+  },
+  {
+   "t": 41.155,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 43.25,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    3
+   ]
+  },
+  {
+   "t": 43.25,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 3
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.476,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.856,
+   "type": "transcript",
+   "text": "મારો પતંગ લાલ",
+   "latency": 120,
+   "audio_duration_ms": 3950,
+   "message": null
+  },
+  {
+   "t": 25.911,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.044,
+   "type": "transcript",
+   "text": "નૈ ને",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  },
+  {
+   "t": 39.243,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.155,
+   "type": "transcript",
+   "text": "ણૈ",
+   "latency": 120,
+   "audio_duration_ms": 1450,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મારો પતંગ લાલ",
+   "heard": "મારો પતંગ લાલ",
+   "muted_words": 0,
+   "duration_s": 3.95
+  },
+  {
+   "text": "નૈ ને",
+   "heard": "નૈ ને",
+   "muted_words": 0,
+   "duration_s": 2.7
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "ણૈ",
+   "heard": "ણૈ",
+   "muted_words": 0,
+   "duration_s": 1.45
+  }
+ ],
+ "tts_offline": 19
+}
