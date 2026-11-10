@@ -1,0 +1,14 @@
+{"t": 12.13, "type": "ready", "message": null}
+{"t": 12.13, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 30.99, "type": "speech"}
+{"t": 37.88, "type": "heard", "text": "મારી શાળા શાળા બહુ બહુ"}
+{"t": 37.88, "type": "speech"}
+{"t": 40.94, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... સુંદર છે.", "spans": [[3, 5]]}
+{"t": 44.21, "type": "speech"}
+{"t": 46.09, "type": "heard", "text": "સુંદર"}
+{"t": 46.09, "type": "speech"}
+{"t": 49.47, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... છે.", "spans": [[4, 5]]}
+{"t": 54.75, "type": "speech"}
+{"t": 57.08, "type": "heard", "text": "છૈ"}
+{"t": 57.08, "type": "speech"}
+{"t": 59.49, "type": "summary", "summary": {"words_total": 22, "words_read": 3, "words_helped": 2, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 47.0, "words_per_minute": 6.4}}

@@ -1,0 +1,120 @@
+{
+ "utterances": [
+  {
+   "t": 30.92,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.21,
+   "said": "ડે વરસાદ વરસાદ",
+   "stt": "ડે વડસાદ વરસાદ",
+   "stt_notes": [
+    "'વરસાદ' heard as 'વડસાદ'"
+   ],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.75,
+   "said": "આબ આબ",
+   "stt": "આબ આબ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 30.92,
+    "target": "આવ",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 54.75,
+    "target": "આવ",
+    "said": "આબ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "આબ આબ"
+   }
+  ],
+  "1": [
+   {
+    "t": 38.21,
+    "target": "રે",
+    "said": "ડે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ડે વડસાદ વરસાદ"
+   }
+  ],
+  "2": [
+   {
+    "t": 38.21,
+    "target": "વરસાદ",
+    "said": "વરસાદ",
+    "correct": true,
+    "kind": "echo",
+    "stt": "ડે વડસાદ વરસાદ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.37,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 38.27,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 48.41,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... આવ રે વરસાદ",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 54.81,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  }
+ ]
+}

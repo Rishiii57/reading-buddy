@@ -1,0 +1,152 @@
+{
+ "id": "20261110-111414-e2f173",
+ "text_id": "gu-avre",
+ "mode": "mic",
+ "summary": {
+  "words_total": 11,
+  "words_read": 0,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 43.6,
+  "words_per_minute": 4.1
+ },
+ "log": [
+  {
+   "t": 0.193,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.888,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.048,
+   "event": "transcript",
+   "text": "ડે વડસાદ વરસાદ"
+  },
+  {
+   "t": 26.048,
+   "event": "uncertain",
+   "text": "ડે વડસાદ વરસાદ"
+  },
+  {
+   "t": 26.048,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 30.14,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 36.193,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 36.193,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 39.168,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 42.58,
+   "event": "transcript",
+   "text": "આબ આબ"
+  },
+  {
+   "t": 42.58,
+   "event": "uncertain",
+   "text": "આબ આબ"
+  },
+  {
+   "t": 42.58,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 21.677,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.048,
+   "type": "transcript",
+   "text": "ડે વડસાદ વરસાદ",
+   "latency": 120,
+   "audio_duration_ms": 3950,
+   "message": null
+  },
+  {
+   "t": 39.455,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 42.58,
+   "type": "transcript",
+   "text": "આબ આબ",
+   "latency": 120,
+   "audio_duration_ms": 2700,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.45
+  },
+  {
+   "text": "ડે વડસાદ વરસાદ",
+   "heard": "ડે વડસાદ વરસાદ",
+   "muted_words": 0,
+   "duration_s": 3.95
+  },
+  {
+   "text": "આબ આબ",
+   "heard": "આબ આબ",
+   "muted_words": 0,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 37
+}

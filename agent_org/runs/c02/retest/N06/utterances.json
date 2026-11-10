@@ -1,0 +1,148 @@
+{
+ "utterances": [
+  {
+   "t": 37.86,
+   "said": "મારી શાળા શાળા બહુ બહુ",
+   "stt": "મારી શાળા શાળા બહુ બહુ",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.02,
+   "said": "સુંદર",
+   "stt": "સુંદર",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 53.81,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.68,
+   "said": "છૈ",
+   "stt": "છૈ",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 37.86,
+    "target": "મારી",
+    "said": "મારી",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મારી શાળા શાળા બહુ બહુ"
+   }
+  ],
+  "1": [
+   {
+    "t": 37.86,
+    "target": "શાળા",
+    "said": "શાળા",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મારી શાળા શાળા બહુ બહુ"
+   }
+  ],
+  "2": [
+   {
+    "t": 37.86,
+    "target": "બહુ",
+    "said": "બહુ",
+    "correct": true,
+    "kind": "echo",
+    "stt": "મારી શાળા શાળા બહુ બહુ"
+   }
+  ],
+  "3": [
+   {
+    "t": 46.02,
+    "target": "સુંદર",
+    "said": "સુંદર",
+    "correct": true,
+    "kind": "echo",
+    "stt": "સુંદર"
+   }
+  ],
+  "4": [
+   {
+    "t": 53.81,
+    "target": "છે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 56.68,
+    "target": "છે",
+    "said": "છૈ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "છૈ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 12.13,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારી શાળા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારી શાળા બહુ સુંદર છે. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 40.94,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... સુંદર છે.",
+   "spans": [
+    [
+     3,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 49.47,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... છે.",
+   "spans": [
+    [
+     4,
+     5
+    ]
+   ]
+  }
+ ]
+}
