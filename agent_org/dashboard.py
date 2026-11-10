@@ -51,6 +51,21 @@ def build() -> Path:
             cards.append(f'<div class="card"><div class="k">{e(k.replace("_", " "))}</div><div class="v">{e(m[k])}</div>{delta}</div>')
         parts.append(f'<h2>Latest study: {e(c["cycle"])} / {e(c["label"])}</h2><p>{a["agents"]} children · app '
                      f'<code>{e(run.get("app_commit", "?"))}</code> · {e(a["generated"])}</p><div class="cards">{"".join(cards)}</div>')
+    # like-for-like comparison: original build re-measured with the final agents vs the improved build
+    fair = [(RUNS / "c01" / "baseline-v2", "original app (re-measured)"), (RUNS / "c02" / "retest", "improved app")]
+    if all((d / "run.json").exists() for d, _ in fair):
+        from . import metrics as M
+        ms = [M.compute([r for r in M.load_reports(d) if r["outcome"] != "harness_error"]) for d, _ in fair]
+        commits = [json.loads((d / "run.json").read_text()).get("app_commit", "") for d, _ in fair]
+        rows = []
+        for k in KEY + ["level_mismatch_rate", "spoken_guidance_gap_rate", "missed_errors_per_agent"]:
+            d = round(ms[1][k] - ms[0][k], 3)
+            good = (d < 0) if (k in LOWER or k in ("level_mismatch_rate", "spoken_guidance_gap_rate", "missed_errors_per_agent")) else (d > 0)
+            rows.append([e(k.replace("_", " ")), e(ms[0][k]), e(ms[1][k]),
+                         f'<span class="{"good" if good else "bad" if d else ""}">{d:+}</span>'])
+        parts.append(f"<h2>Before → after (same 50 children, same seeds, same agents)</h2><p>Original <code>{e(commits[0])}</code> "
+                     f"vs improved <code>{e(commits[1])}</code>. Full write-up: <code>docs/agent-org/AGENT_EVALUATION_REPORT.md</code>.</p>"
+                     + table(["Measure", "Original", "Improved", "Change"], rows))
     # studies table
     rows = []
     for c, a, run in studies:

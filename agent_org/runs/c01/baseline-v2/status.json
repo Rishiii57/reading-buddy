@@ -338,14 +338,18 @@
    "issues": 2
   },
   "C4-05": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:54:30"
+   "since": "11:54:30",
+   "outcome": "completed",
+   "issues": 3
   },
   "C4-06": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:54:30"
+   "since": "11:54:30",
+   "outcome": "completed",
+   "issues": 4
   }
  }
 }

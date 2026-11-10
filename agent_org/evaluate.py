@@ -137,7 +137,15 @@ def main(argv=None):
               ["Cost of a 50-child run", f"{led_a.get('wall_s')} s wall time, Gnani credits {led_a.get('gnani_credits')}, LLM tokens {led_a.get('llm_tokens')}"],
               ["Would-be live STT for the same sessions", f"{led_a.get('stt_stream_s_if_live')} s of audio"],
           ])]
-    L += ["", "## Honest limits", "",
+    L += ["", "## Reading the results", "",
+          "- Biggest gains: finishing a text (Class 1 0 → 83 %, UKG 0 → 38 %), abandonment, coverage, frustration, and the "
+          "complete removal of the mic-tap pause, written-only onboarding and consent dead ends.",
+          "- Worse: misreadings accepted as correct rose. Most of this is intended: pre-primary rhymes now accept imperfect "
+          "repetition (echo reading), and children simply read more words. For Class 2-4 it is REQ-LENIENT-MATCHING (awaiting a "
+          "product decision).",
+          "- Unchanged problems (deferred, next cycle): Buddy's long opening talk, speech lost while Buddy talks, Nursery "
+          "children still not finishing a rhyme, and children leaving the reading page by accident.", ""]
+    L += ["## Honest limits", "",
           "- The children are deterministic, seeded behaviour policies, not people and not LLMs. Their speech and the speech "
           "model's errors are modelled. Findings that depend on real children's voices (accuracy, accent, pitch) need consented "
           "recordings or the credit-spending audio steps in RUN_INSTRUCTIONS.md.",
