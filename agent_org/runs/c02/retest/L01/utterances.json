@@ -1,0 +1,278 @@
+{
+ "utterances": [
+  {
+   "t": 31.65,
+   "said": "हरा समंदर",
+   "stt": "हड़ा",
+   "stt_notes": [
+    "'हरा' heard as 'हड़ा'",
+    "lost 'समंदर'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.12,
+   "said": "समंदर",
+   "stt": "समंदर",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 43.39,
+   "said": "समंदर समंदर",
+   "stt": "समंदर समंदर",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.45,
+   "said": "गोपि",
+   "stt": "गोपि",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 54.33,
+   "said": "चंदर",
+   "stt": "चंदर",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.05,
+   "said": "बोल",
+   "stt": "बोल",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.71,
+   "said": "मेड़ी",
+   "stt": "मेड़ी",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.14,
+   "said": "मछलि",
+   "stt": "",
+   "stt_notes": [
+    "lost 'मछलि'"
+   ],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 81.96,
+   "said": "कितना",
+   "stt": "कितना",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 86.9,
+   "said": "पाणी",
+   "stt": "पाणी",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 31.65,
+    "target": "हरा",
+    "said": "हरा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हड़ा"
+   }
+  ],
+  "1": [
+   {
+    "t": 31.65,
+    "target": "समंदर",
+    "said": "समंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हड़ा"
+   },
+   {
+    "t": 39.12,
+    "target": "समंदर",
+    "said": "समंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "समंदर"
+   },
+   {
+    "t": 43.39,
+    "target": "समंदर",
+    "said": "समंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "समंदर समंदर"
+   }
+  ],
+  "2": [
+   {
+    "t": 49.45,
+    "target": "गोपी",
+    "said": "गोपि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "गोपि"
+   }
+  ],
+  "3": [
+   {
+    "t": 54.33,
+    "target": "चंदर",
+    "said": "चंदर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "चंदर"
+   }
+  ],
+  "4": [
+   {
+    "t": 62.05,
+    "target": "बोल",
+    "said": "बोल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बोल"
+   }
+  ],
+  "5": [
+   {
+    "t": 68.71,
+    "target": "मेरी",
+    "said": "मेड़ी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "मेड़ी"
+   }
+  ],
+  "6": [
+   {
+    "t": 74.14,
+    "target": "मछली",
+    "said": "मछलि",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   }
+  ],
+  "7": [
+   {
+    "t": 81.96,
+    "target": "कितना",
+    "said": "कितना",
+    "correct": true,
+    "kind": "ok",
+    "stt": "कितना"
+   }
+  ],
+  "8": [
+   {
+    "t": 86.9,
+    "target": "पानी",
+    "said": "पाणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पाणी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.39,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 36.3,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... समंदर",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 54.46,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "बोल मेरी मछली कितना पानी? अब तुम बोलो!",
+   "spans": [
+    [
+     4,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 73.89,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... कितना पानी?",
+   "spans": [
+    [
+     7,
+     9
+    ]
+   ]
+  }
+ ]
+}

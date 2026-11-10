@@ -1,0 +1,241 @@
+{
+ "id": "20261110-111755-ca0ca2",
+ "text_id": "gu-avre",
+ "mode": "mic",
+ "summary": {
+  "words_total": 11,
+  "words_read": 1,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 0,
+  "seconds": 48.3,
+  "words_per_minute": 5.0
+ },
+ "log": [
+  {
+   "t": 0.084,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.802,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.041,
+   "event": "transcript",
+   "text": "વરષાદ"
+  },
+  {
+   "t": 19.93,
+   "event": "transcript",
+   "text": "આવ"
+  },
+  {
+   "t": 19.93,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 24.501,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 24.501,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 27.222,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.493,
+   "event": "transcript",
+   "text": "રે"
+  },
+  {
+   "t": 29.493,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 34.624,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 34.624,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 36.977,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 40.231,
+   "event": "transcript",
+   "text": "વરષાદ"
+  },
+  {
+   "t": 40.231,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 45.319,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 45.319,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 47.723,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.968,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.041,
+   "type": "transcript",
+   "text": "વરષાદ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 17.88,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.93,
+   "type": "transcript",
+   "text": "આવ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 27.408,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.493,
+   "type": "transcript",
+   "text": "રે",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 38.178,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 40.231,
+   "type": "transcript",
+   "text": "વરષાદ",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "વરષાદ",
+   "heard": "વરષાદ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "આવ",
+   "heard": "આવ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "રે",
+   "heard": "રે",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "વરસાદ",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "વરષાદ",
+   "heard": "વરષાદ",
+   "muted_words": 0,
+   "duration_s": 1.63
+  }
+ ],
+ "tts_offline": 184
+}

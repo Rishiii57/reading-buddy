@@ -1,0 +1,362 @@
+{
+ "id": "20261110-111939-2f6f5c",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 10,
+  "words_helped": 3,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 74.8,
+  "words_per_minute": 10.4
+ },
+ "log": [
+  {
+   "t": 0.108,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.93,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.054,
+   "event": "transcript",
+   "text": "મામાનું"
+  },
+  {
+   "t": 21.054,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.571,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 25.571,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 28.572,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 32.442,
+   "event": "transcript",
+   "text": "ઘર"
+  },
+  {
+   "t": 32.442,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 37.626,
+   "event": "transcript",
+   "text": "કેટલે"
+  },
+  {
+   "t": 37.626,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 37.626,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 37.626,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 41.639,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 46.51,
+   "event": "transcript",
+   "text": "દીવો વળે એટલે"
+  },
+  {
+   "t": 46.51,
+   "event": "progress",
+   "frm": 3,
+   "to": 6
+  },
+  {
+   "t": 46.51,
+   "event": "echo_slips_accepted",
+   "words": [
+    4
+   ]
+  },
+  {
+   "t": 46.51,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 46.51,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 46.51,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 46.51,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 49.585,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 58.685,
+   "event": "transcript",
+   "text": "દીવો મેં તો દીઠો"
+  },
+  {
+   "t": 58.685,
+   "event": "progress",
+   "frm": 6,
+   "to": 10
+  },
+  {
+   "t": 58.685,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 58.685,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 62.56,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 69.595,
+   "event": "transcript",
+   "text": "મામો લાગે મીઠો"
+  },
+  {
+   "t": 69.595,
+   "event": "progress",
+   "frm": 10,
+   "to": 13
+  },
+  {
+   "t": 69.595,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 69.595,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 69.595,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.365,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.054,
+   "type": "transcript",
+   "text": "મામાનું",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 30.712,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 32.442,
+   "type": "transcript",
+   "text": "ઘર",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 35.895,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.626,
+   "type": "transcript",
+   "text": "કેટલે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 42.557,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 46.51,
+   "type": "transcript",
+   "text": "દીવો વળે એટલે",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 53.611,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 58.685,
+   "type": "transcript",
+   "text": "દીવો મેં તો દીઠો",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 65.644,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.595,
+   "type": "transcript",
+   "text": "મામો લાગે મીઠો",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાણું",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મામાનું",
+   "heard": "મામાનું",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ઘર કેઠલે",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ઘર",
+   "heard": "ઘર",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "કેટલે",
+   "heard": "કેટલે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "દીવો વળે એટલે",
+   "heard": "દીવો વળે એટલે",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "દીવો મેં તો દીઠો",
+   "heard": "દીવો મેં તો દીઠો",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "મામો લાગે મીઠો",
+   "heard": "મામો લાગે મીઠો",
+   "muted_words": 0,
+   "duration_s": 3.53
+  }
+ ],
+ "tts_offline": 261
+}

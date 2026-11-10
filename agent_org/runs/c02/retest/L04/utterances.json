@@ -1,0 +1,296 @@
+{
+ "utterances": [
+  {
+   "t": 34.2,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.34,
+   "said": "A small ant",
+   "stt": "A small ant",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.57,
+   "said": "walked at",
+   "stt": "walked at",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.83,
+   "said": "the",
+   "stt": "the",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.22,
+   "said": "for",
+   "stt": "for",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.53,
+   "said": "ia",
+   "stt": "ia",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.86,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 77.16,
+   "said": "come grain grain",
+   "stt": "come grain grain",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.43,
+   "said": "ia",
+   "stt": "ia",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 34.2,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 44.34,
+    "target": "A",
+    "said": "A",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   }
+  ],
+  "1": [
+   {
+    "t": 44.34,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   }
+  ],
+  "2": [
+   {
+    "t": 44.34,
+    "target": "ant",
+    "said": "ant",
+    "correct": true,
+    "kind": "ok",
+    "stt": "A small ant"
+   }
+  ],
+  "3": [
+   {
+    "t": 55.57,
+    "target": "walked",
+    "said": "walked",
+    "correct": true,
+    "kind": "ok",
+    "stt": "walked at"
+   }
+  ],
+  "4": [
+   {
+    "t": 55.57,
+    "target": "across",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "walked at"
+   }
+  ],
+  "5": [
+   {
+    "t": 59.83,
+    "target": "the",
+    "said": "the",
+    "correct": true,
+    "kind": "ok",
+    "stt": "the"
+   }
+  ],
+  "6": [
+   {
+    "t": 64.22,
+    "target": "floor",
+    "said": "for",
+    "correct": false,
+    "kind": "sub",
+    "stt": "for"
+   }
+  ],
+  "7": [
+   {
+    "t": 66.53,
+    "target": "It",
+    "said": "ia",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ia"
+   },
+   {
+    "t": 70.86,
+    "target": "It",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 79.43,
+    "target": "It",
+    "said": "ia",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ia"
+   }
+  ],
+  "8": [
+   {
+    "t": 77.16,
+    "target": "carried",
+    "said": "come",
+    "correct": false,
+    "kind": "sub",
+    "stt": "come grain grain"
+   }
+  ],
+  "9": [
+   {
+    "t": 77.16,
+    "target": "a",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "come grain grain"
+   }
+  ],
+  "10": [
+   {
+    "t": 77.16,
+    "target": "grain",
+    "said": "grain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "come grain grain"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.95,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 37.31,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... A small ant",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 47.72,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... walked across the",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 66.59,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 77.22,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  }
+ ]
+}

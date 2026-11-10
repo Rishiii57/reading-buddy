@@ -1,0 +1,531 @@
+{
+ "utterances": [
+  {
+   "t": 33.2,
+   "said": "मछली",
+   "stt": "मछली",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.02,
+   "said": "कि",
+   "stt": "कि",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 44.27,
+   "said": "जल",
+   "stt": "जल",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.6,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 62.08,
+   "said": "की",
+   "stt": "",
+   "stt_notes": [
+    "lost 'की'"
+   ],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.54,
+   "said": "कि",
+   "stt": "कि",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 76.98,
+   "said": "राणी",
+   "stt": "ड़ाणी",
+   "stt_notes": [
+    "'राणी' heard as 'ड़ाणी'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 83.86,
+   "said": "है",
+   "stt": "है",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 90.72,
+   "said": "जीवन",
+   "stt": "जीवन",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 97.4,
+   "said": "उषका",
+   "stt": "उषका",
+   "stt_notes": [],
+   "words": [
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 112.7,
+   "said": "पाणी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'पाणी'"
+   ],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 116.53,
+   "said": "पाणी",
+   "stt": "पाणी",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 125.48,
+   "said": "है है",
+   "stt": "है है",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 132.01,
+   "said": "हे",
+   "stt": "हे",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 141.8,
+   "said": "हाथ",
+   "stt": "हात",
+   "stt_notes": [
+    "'हाथ' heard as 'हात'"
+   ],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 148.04,
+   "said": "लगाओ",
+   "stt": "लगाओ",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 154.3,
+   "said": "डर",
+   "stt": "डर",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 161.36,
+   "said": "जाएगी",
+   "stt": "जाएगी",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 33.2,
+    "target": "मछली",
+    "said": "मछली",
+    "correct": true,
+    "kind": "ok",
+    "stt": "मछली"
+   }
+  ],
+  "1": [
+   {
+    "t": 40.02,
+    "target": "जल",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "कि"
+   },
+   {
+    "t": 44.27,
+    "target": "जल",
+    "said": "जल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जल"
+   }
+  ],
+  "2": [
+   {
+    "t": 40.02,
+    "target": "की",
+    "said": "कि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "कि"
+   },
+   {
+    "t": 44.27,
+    "target": "की",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "जल"
+   },
+   {
+    "t": 55.6,
+    "target": "की",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 62.08,
+    "target": "की",
+    "said": "की",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 70.54,
+    "target": "की",
+    "said": "कि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "कि"
+   }
+  ],
+  "3": [
+   {
+    "t": 76.98,
+    "target": "रानी",
+    "said": "राणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ड़ाणी"
+   }
+  ],
+  "4": [
+   {
+    "t": 83.86,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है"
+   }
+  ],
+  "5": [
+   {
+    "t": 90.72,
+    "target": "जीवन",
+    "said": "जीवन",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जीवन"
+   }
+  ],
+  "6": [
+   {
+    "t": 97.4,
+    "target": "उसका",
+    "said": "उषका",
+    "correct": false,
+    "kind": "sub",
+    "stt": "उषका"
+   }
+  ],
+  "7": [
+   {
+    "t": 112.7,
+    "target": "पानी",
+    "said": "पाणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 116.53,
+    "target": "पानी",
+    "said": "पाणी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "पाणी"
+   }
+  ],
+  "8": [
+   {
+    "t": 125.48,
+    "target": "है",
+    "said": "है",
+    "correct": true,
+    "kind": "ok",
+    "stt": "है है"
+   },
+   {
+    "t": 132.01,
+    "target": "है",
+    "said": "हे",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हे"
+   }
+  ],
+  "9": [
+   {
+    "t": 141.8,
+    "target": "हाथ",
+    "said": "हाथ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हात"
+   }
+  ],
+  "10": [
+   {
+    "t": 148.04,
+    "target": "लगाओ",
+    "said": "लगाओ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "लगाओ"
+   }
+  ],
+  "11": [
+   {
+    "t": 154.3,
+    "target": "डर",
+    "said": "डर",
+    "correct": true,
+    "kind": "ok",
+    "stt": "डर"
+   }
+  ],
+  "12": [
+   {
+    "t": 161.36,
+    "target": "जाएगी",
+    "said": "जाएगी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "जाएगी"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.82,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 37.81,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... जल की रानी",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 48.88,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... की रानी है",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 56.52,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "की रानी है अब तुम बोलो!",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 64.28,
+   "type": "say",
+   "kind": "take_time",
+   "text": "आराम से। मैं तुम्हारी मदद के लिए यहीं हूँ।",
+   "spans": []
+  },
+  {
+   "t": 84.1,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "जीवन उसका पानी है। अब तुम बोलो!",
+   "spans": [
+    [
+     5,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 102.63,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... पानी है।",
+   "spans": [
+    [
+     7,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 110.85,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "पानी है। अब तुम बोलो!",
+   "spans": [
+    [
+     7,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 125.76,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 132.14,
+   "type": "say",
+   "kind": "praise",
+   "text": "बहुत अच्छे! पढ़ते रहो।",
+   "spans": []
+  },
+  {
+   "t": 132.14,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "हाथ लगाओ डर जाएगी अब तुम बोलो!",
+   "spans": [
+    [
+     9,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 161.51,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "बाहर निकालो मर जाएगी। अब तुम बोलो!",
+   "spans": [
+    [
+     13,
+     17
+    ]
+   ]
+  }
+ ]
+}

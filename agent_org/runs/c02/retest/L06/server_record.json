@@ -1,0 +1,318 @@
+{
+ "id": "20261110-111754-0ac78b",
+ "text_id": "en-rainrain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 4,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 3,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 66.2,
+  "words_per_minute": 7.3
+ },
+ "log": [
+  {
+   "t": 0.056,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 16.258,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.975,
+   "event": "transcript",
+   "text": "raim rain"
+  },
+  {
+   "t": 19.975,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 24.5,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 24.5,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 27.008,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 31.584,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 31.584,
+   "event": "prompt",
+   "level": 2,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 36.695,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.49,
+   "event": "transcript",
+   "text": "go"
+  },
+  {
+   "t": 39.49,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 44.007,
+   "event": "transcript",
+   "text": "away"
+  },
+  {
+   "t": 44.007,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 44.007,
+   "event": "echo_slips_accepted",
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 44.007,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 44.007,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 47.696,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 52.857,
+   "event": "transcript",
+   "text": "Come again"
+  },
+  {
+   "t": 52.857,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 59.638,
+   "event": "transcript",
+   "text": "another daa"
+  },
+  {
+   "t": 59.638,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 61.248,
+   "event": "progress",
+   "to": 8
+  },
+  {
+   "t": 61.248,
+   "event": "echo_slips_accepted",
+   "words": [
+    7
+   ]
+  },
+  {
+   "t": 61.248,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 61.248,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 65.678,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.49,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.975,
+   "type": "transcript",
+   "text": "raim rain",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  },
+  {
+   "t": 37.44,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.49,
+   "type": "transcript",
+   "text": "go",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 41.923,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.007,
+   "type": "transcript",
+   "text": "away",
+   "latency": 120,
+   "audio_duration_ms": 1630,
+   "message": null
+  },
+  {
+   "t": 47.915,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 52.857,
+   "type": "transcript",
+   "text": "Come again",
+   "latency": 120,
+   "audio_duration_ms": 4490,
+   "message": null
+  },
+  {
+   "t": 56.158,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 59.638,
+   "type": "transcript",
+   "text": "another daa",
+   "latency": 120,
+   "audio_duration_ms": 3060,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "raim rain",
+   "heard": "raim rain",
+   "muted_words": 0,
+   "duration_s": 3.06
+  },
+  {
+   "text": "away",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.63
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "go",
+   "heard": "go",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "away",
+   "heard": "away",
+   "muted_words": 0,
+   "duration_s": 1.63
+  },
+  {
+   "text": "Come again",
+   "heard": "Come again",
+   "muted_words": 0,
+   "duration_s": 4.49
+  },
+  {
+   "text": "another daa",
+   "heard": "another daa",
+   "muted_words": 0,
+   "duration_s": 3.06
+  }
+ ],
+ "tts_offline": 192
+}

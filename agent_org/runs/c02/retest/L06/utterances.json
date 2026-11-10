@@ -1,0 +1,257 @@
+{
+ "utterances": [
+  {
+   "t": 46.23,
+   "said": "Rain rain",
+   "stt": "raim rain",
+   "stt_notes": [
+    "'Rain' heard as 'raim'"
+   ],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.59,
+   "said": "away",
+   "stt": "away",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 58.94,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 65.75,
+   "said": "go",
+   "stt": "go",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.26,
+   "said": "away",
+   "stt": "away",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 79.11,
+   "said": "Come and again",
+   "stt": "Come again",
+   "stt_notes": [
+    "lost 'and'"
+   ],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 85.89,
+   "said": "another daa",
+   "stt": "another daa",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 46.23,
+    "target": "Rain",
+    "said": "Rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "raim rain"
+   }
+  ],
+  "1": [
+   {
+    "t": 46.23,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "raim rain"
+   }
+  ],
+  "2": [
+   {
+    "t": 46.23,
+    "target": "go",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "raim rain"
+   },
+   {
+    "t": 58.94,
+    "target": "go",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 65.75,
+    "target": "go",
+    "said": "go",
+    "correct": true,
+    "kind": "ok",
+    "stt": "go"
+   }
+  ],
+  "3": [
+   {
+    "t": 52.59,
+    "target": "away",
+    "said": "away",
+    "correct": true,
+    "kind": "ok",
+    "stt": "away"
+   },
+   {
+    "t": 70.26,
+    "target": "away",
+    "said": "away",
+    "correct": true,
+    "kind": "ok",
+    "stt": "away"
+   }
+  ],
+  "4": [
+   {
+    "t": 79.11,
+    "target": "Come",
+    "said": "Come",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Come again"
+   }
+  ],
+  "5": [
+   {
+    "t": 79.11,
+    "target": "again",
+    "said": "and again",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "Come again"
+   }
+  ],
+  "6": [
+   {
+    "t": 85.89,
+    "target": "another",
+    "said": "another",
+    "correct": true,
+    "kind": "ok",
+    "stt": "another daa"
+   }
+  ],
+  "7": [
+   {
+    "t": 85.89,
+    "target": "day",
+    "said": "daa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "another daa"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 26.73,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 50.85,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... go away",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 57.96,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "go away Now you try!",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 70.27,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Come again another day Now you try!",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 87.52,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Little children want to play. Now you try!",
+   "spans": [
+    [
+     8,
+     13
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,454 @@
+{
+ "id": "20261110-111943-12f203",
+ "text_id": "hi-ekdo",
+ "mode": "mic",
+ "summary": {
+  "words_total": 15,
+  "words_read": 0,
+  "words_helped": 0,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 104.5,
+  "words_per_minute": 0.0
+ },
+ "log": [
+  {
+   "t": 0.049,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.157,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 22.606,
+   "event": "transcript",
+   "text": "धो तीण"
+  },
+  {
+   "t": 22.606,
+   "event": "uncertain",
+   "text": "धो तीण"
+  },
+  {
+   "t": 22.606,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 26.545,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.741,
+   "event": "transcript",
+   "text": "धो तीन"
+  },
+  {
+   "t": 29.741,
+   "event": "uncertain",
+   "text": "धो तीन"
+  },
+  {
+   "t": 36.656,
+   "event": "transcript",
+   "text": "चाड़"
+  },
+  {
+   "t": 44.488,
+   "event": "transcript",
+   "text": "ए धो तीण चार"
+  },
+  {
+   "t": 44.488,
+   "event": "uncertain",
+   "text": "ए धो तीण चार"
+  },
+  {
+   "t": 44.488,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 47.997,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 56.295,
+   "event": "transcript",
+   "text": "तीण चार चार"
+  },
+  {
+   "t": 56.295,
+   "event": "uncertain",
+   "text": "तीण चार चार"
+  },
+  {
+   "t": 56.295,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 59.82,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 63.225,
+   "event": "transcript",
+   "text": "थीन चार"
+  },
+  {
+   "t": 63.225,
+   "event": "uncertain",
+   "text": "थीन चार"
+  },
+  {
+   "t": 68.435,
+   "event": "transcript",
+   "text": "ए तीन चाड़"
+  },
+  {
+   "t": 68.435,
+   "event": "uncertain",
+   "text": "ए तीन चाड"
+  },
+  {
+   "t": 68.435,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 72.06,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 78.957,
+   "event": "transcript",
+   "text": "ए धो तीण तीण चार"
+  },
+  {
+   "t": 78.957,
+   "event": "uncertain",
+   "text": "ए धो तीण तीण चार"
+  },
+  {
+   "t": 78.957,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 82.49,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 86.554,
+   "event": "transcript",
+   "text": "धो तीन"
+  },
+  {
+   "t": 86.554,
+   "event": "uncertain",
+   "text": "धो तीन"
+  },
+  {
+   "t": 92.474,
+   "event": "transcript",
+   "text": "चाड़"
+  },
+  {
+   "t": 98.67,
+   "event": "transcript",
+   "text": "ए धो थीन चाड़"
+  },
+  {
+   "t": 98.67,
+   "event": "uncertain",
+   "text": "चाड ए धो थीन चाड"
+  },
+  {
+   "t": 98.67,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 102.267,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.383,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 22.606,
+   "type": "transcript",
+   "text": "धो तीण",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 26.9,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.741,
+   "type": "transcript",
+   "text": "धो तीन",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 34.925,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.656,
+   "type": "transcript",
+   "text": "चाड़",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 39.426,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 44.488,
+   "type": "transcript",
+   "text": "ए धो तीण चार",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 52.344,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.295,
+   "type": "transcript",
+   "text": "तीण चार चार",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 60.37,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 63.225,
+   "type": "transcript",
+   "text": "थीन चार",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 64.481,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 68.435,
+   "type": "transcript",
+   "text": "ए तीन चाड़",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 72.154,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 78.957,
+   "type": "transcript",
+   "text": "ए धो तीण तीण चार",
+   "latency": 120,
+   "audio_duration_ms": 5760,
+   "message": null
+  },
+  {
+   "t": 83.115,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 86.554,
+   "type": "transcript",
+   "text": "धो तीन",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 90.743,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.474,
+   "type": "transcript",
+   "text": "चाड़",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 93.593,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 98.67,
+   "type": "transcript",
+   "text": "ए धो थीन चाड़",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "धो तीण",
+   "heard": "धो तीण",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "धो तीन",
+   "heard": "धो तीन",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "चाड़",
+   "heard": "चाड़",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ए धो तीण चार",
+   "heard": "ए धो तीण चार",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "तीण चार चार",
+   "heard": "तीण चार चार",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "थीन चार",
+   "heard": "थीन चार",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "ए तीन चाड़",
+   "heard": "ए तीन चाड़",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "ए धो तीण तीण चार",
+   "heard": "ए धो तीण तीण चार",
+   "muted_words": 0,
+   "duration_s": 5.76
+  },
+  {
+   "text": "धो तीन",
+   "heard": "धो तीन",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "चाड़",
+   "heard": "चाड़",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ए धो थीन चाड़",
+   "heard": "ए धो थीन चाड़",
+   "muted_words": 0,
+   "duration_s": 4.64
+  }
+ ],
+ "tts_offline": 275
+}

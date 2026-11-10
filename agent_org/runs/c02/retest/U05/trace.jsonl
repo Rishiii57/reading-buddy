@@ -1,0 +1,12 @@
+{"t": 3.48, "kind": "open_app", "brief": "Hridaan, UKG (about 5.5 years). Prefers hi-IN. Wants to pick her own story."}
+{"t": 3.59, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.19, "kind": "tap", "target": "एक दो तीन चार One Two Three Four Hindi U", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.39, "kind": "opened_text", "hash": "#/read/hi-ekdo", "title": "एक दो तीन चार", "tags": ["Hindi", "UKG"], "words": 15, "lines": 4}
+{"t": 13.35, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.79, "kind": "session_started", "tries": 1}
+{"t": 28.92, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 51.76, "kind": "tap_mic_to_talk"}
+{"t": 51.92, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 117.4, "kind": "off_task_tap", "target": "Reading Buddy"}
+{"t": 117.47, "kind": "tap", "target": "Reading Buddy", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 118.63, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Reading Buddy' left the reading page."}

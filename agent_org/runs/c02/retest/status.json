@@ -44,9 +44,11 @@
    "issues": 6
   },
   "N07": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:14:48"
+   "since": "11:14:48",
+   "outcome": "abandoned_attention",
+   "issues": 1
   },
   "N08": {
    "state": "done",
@@ -70,9 +72,11 @@
    "issues": 5
   },
   "L01": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:15:49"
+   "since": "11:15:49",
+   "outcome": "ended_early",
+   "issues": 5
   },
   "L02": {
    "state": "done",
@@ -82,47 +86,87 @@
    "issues": 1
   },
   "L03": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:16:14"
+   "since": "11:16:14",
+   "outcome": "ended_early",
+   "issues": 6
   },
   "L04": {
-   "state": "running",
+   "state": "done",
    "attempt": 1,
-   "since": "11:16:15"
+   "since": "11:16:15",
+   "outcome": "abandoned_frustration",
+   "issues": 3
   },
   "L05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:16:42",
+   "outcome": "abandoned_attention",
+   "issues": 3
   },
   "L06": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:17:28",
+   "outcome": "ended_early",
+   "issues": 6
   },
   "L07": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:17:42",
+   "outcome": "ended_early",
+   "issues": 6
   },
   "L08": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:17:56",
+   "outcome": "left_before_start",
+   "issues": 1
   },
   "U01": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:18:14"
   },
   "U02": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:18:53"
   },
   "U03": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:19:05",
+   "outcome": "left_before_start",
+   "issues": 1
   },
   "U04": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:19:25",
+   "outcome": "completed",
+   "issues": 2
   },
   "U05": {
-   "state": "queued"
+   "state": "done",
+   "attempt": 1,
+   "since": "11:19:29",
+   "outcome": "ended_early",
+   "issues": 2
   },
   "U06": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:21:03"
   },
   "U07": {
-   "state": "queued"
+   "state": "running",
+   "attempt": 1,
+   "since": "11:21:34"
   },
   "U08": {
    "state": "queued"

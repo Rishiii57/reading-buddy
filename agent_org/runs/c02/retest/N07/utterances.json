@@ -1,0 +1,354 @@
+{
+ "utterances": [
+  {
+   "t": 32.5,
+   "said": "Twinkle the",
+   "stt": "Twinkle the",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.2,
+   "said": "little",
+   "stt": "little",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 43.38,
+   "said": "star",
+   "stt": "star",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 50.4,
+   "said": "hoa",
+   "stt": "hoa",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 56.49,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 61.99,
+   "said": "I",
+   "stt": "I",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.4,
+   "said": "we what",
+   "stt": "we what",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 74.6,
+   "said": "yoa",
+   "stt": "yoa",
+   "stt_notes": [],
+   "words": [
+    8
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 80.75,
+   "said": "are",
+   "stt": "are",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 99.15,
+   "said": "ua",
+   "stt": "ua",
+   "stt_notes": [],
+   "words": [
+    10
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 105.4,
+   "said": "at at",
+   "stt": "at at",
+   "stt_notes": [],
+   "words": [
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 110.16,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.5,
+    "target": "Twinkle",
+    "said": "Twinkle",
+    "correct": true,
+    "kind": "echo",
+    "stt": "Twinkle the"
+   }
+  ],
+  "1": [
+   {
+    "t": 32.5,
+    "target": "twinkle",
+    "said": "the",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Twinkle the"
+   }
+  ],
+  "2": [
+   {
+    "t": 37.2,
+    "target": "little",
+    "said": "little",
+    "correct": true,
+    "kind": "echo",
+    "stt": "little"
+   }
+  ],
+  "3": [
+   {
+    "t": 43.38,
+    "target": "star",
+    "said": "star",
+    "correct": true,
+    "kind": "echo",
+    "stt": "star"
+   }
+  ],
+  "4": [
+   {
+    "t": 50.4,
+    "target": "How",
+    "said": "hoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "hoa"
+   }
+  ],
+  "5": [
+   {
+    "t": 56.49,
+    "target": "I",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 61.99,
+    "target": "I",
+    "said": "I",
+    "correct": true,
+    "kind": "echo",
+    "stt": "I"
+   }
+  ],
+  "6": [
+   {
+    "t": 68.4,
+    "target": "wonder",
+    "said": "we",
+    "correct": false,
+    "kind": "sub",
+    "stt": "we what"
+   }
+  ],
+  "7": [
+   {
+    "t": 68.4,
+    "target": "what",
+    "said": "what",
+    "correct": true,
+    "kind": "echo",
+    "stt": "we what"
+   }
+  ],
+  "8": [
+   {
+    "t": 74.6,
+    "target": "you",
+    "said": "yoa",
+    "correct": false,
+    "kind": "sub",
+    "stt": "yoa"
+   }
+  ],
+  "9": [
+   {
+    "t": 80.75,
+    "target": "are",
+    "said": "are",
+    "correct": true,
+    "kind": "echo",
+    "stt": "are"
+   }
+  ],
+  "10": [
+   {
+    "t": 99.15,
+    "target": "Up",
+    "said": "ua",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ua"
+   }
+  ],
+  "11": [
+   {
+    "t": 105.4,
+    "target": "above",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at at"
+   }
+  ],
+  "12": [
+   {
+    "t": 110.16,
+    "target": "the",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 14.5,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 43.55,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "How I wonder what you are! Now you try!",
+   "spans": [
+    [
+     4,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 55.49,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... I wonder what",
+   "spans": [
+    [
+     5,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 80.9,
+   "type": "say",
+   "kind": "praise",
+   "text": "Very nice! Keep going.",
+   "spans": []
+  },
+  {
+   "t": 80.91,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Up above the world so high Now you try!",
+   "spans": [
+    [
+     10,
+     16
+    ]
+   ]
+  },
+  {
+   "t": 90.45,
+   "type": "say",
+   "kind": "break",
+   "text": "That's okay. We can take a little break.",
+   "spans": []
+  },
+  {
+   "t": 110.04,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... above the world",
+   "spans": [
+    [
+     11,
+     14
+    ]
+   ]
+  }
+ ]
+}

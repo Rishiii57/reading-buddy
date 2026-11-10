@@ -1,0 +1,15 @@
+{"t": 3.1, "kind": "open_app", "brief": "Riya, UKG (about 5.5 years). Prefers gu-IN. Struggles with joined letters; low frustration tolerance."}
+{"t": 3.1, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.42, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.04, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 11.92, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.85, "kind": "session_started", "tries": 1}
+{"t": 24.62, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 27.95, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 42.53, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "2 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 43.64, "kind": "tap_mic_to_talk"}
+{"t": 43.65, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 76.97, "kind": "tap_mic_to_talk"}
+{"t": 77.08, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 87.39, "kind": "tap_mic_to_talk"}
+{"t": 87.42, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
