@@ -75,9 +75,14 @@
      "event": "awaiting_qa",
      "at": "2026-11-10T01:11:50",
      "note": "submitted b8d73d08: Round 4: shorter echo demonstration (line + 'your turn' only)"
+    },
+    {
+     "event": "returned_to_engineering",
+     "at": "2026-11-10T01:28:13",
+     "note": "QA round 4: returned_to_engineering (1/3 criteria)"
     }
    ],
-   "status": "awaiting_qa",
+   "status": "returned_to_engineering",
    "priority": "P0",
    "human_scope": "Add 5-7 traditional (public-domain) rhymes commonly taught in Indian pre-primary classes across en/hi/gu, marked Nursery/LKG/UKG; Buddy models each line; Hindi/Gujarati text to be checked by a native speaker"
   },

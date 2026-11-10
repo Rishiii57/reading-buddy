@@ -1,0 +1,235 @@
+{
+ "utterances": [
+  {
+   "t": 32.63,
+   "said": "માડો",
+   "stt": "માડો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 44.06,
+   "said": "માડો",
+   "stt": "માડો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 49.39,
+   "said": "માડો",
+   "stt": "માડો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 54.84,
+   "said": "મારો",
+   "stt": "મારો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 68.16,
+   "said": "મારો પથંગ પથંગ",
+   "stt": "માડો પથંગ પથંગ",
+   "stt_notes": [
+    "'મારો' heard as 'માડો'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.05,
+   "said": "માડો",
+   "stt": "મારો",
+   "stt_notes": [
+    "'માડો' heard as 'મારો'"
+   ],
+   "words": [
+    0
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 78.2,
+   "said": "માડો માડો",
+   "stt": "માડો માડો",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 32.63,
+    "target": "મારો",
+    "said": "માડો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડો"
+   },
+   {
+    "t": 44.06,
+    "target": "મારો",
+    "said": "માડો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડો",
+    "drill": true
+   },
+   {
+    "t": 49.39,
+    "target": "મારો",
+    "said": "માડો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડો",
+    "drill": true
+   },
+   {
+    "t": 54.84,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મારો",
+    "drill": true
+   },
+   {
+    "t": 68.16,
+    "target": "મારો",
+    "said": "મારો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "માડો પથંગ પથંગ"
+   },
+   {
+    "t": 70.05,
+    "target": "મારો",
+    "said": "માડો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મારો"
+   },
+   {
+    "t": 78.2,
+    "target": "મારો",
+    "said": "માડો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડો માડો"
+   }
+  ],
+  "1": [
+   {
+    "t": 68.16,
+    "target": "પતંગ",
+    "said": "પથંગ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "માડો પથંગ પથંગ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.73,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 37.21,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારો",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 44.5,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારો",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 49.39,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "મારો",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 55.38,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! મારો પતંગ લાલ ને પીળો હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     5
+    ]
+   ]
+  },
+  {
+   "t": 68.26,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 78.51,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  }
+ ]
+}

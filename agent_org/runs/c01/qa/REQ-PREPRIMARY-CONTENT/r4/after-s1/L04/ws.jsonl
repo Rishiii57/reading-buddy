@@ -1,0 +1,47 @@
+{"t": 13.68, "type": "ready", "message": null}
+{"t": 13.68, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Twinkle, Twinkle, Little Star Listen carefully to how I read it. Twinkle, twinkle, little star Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 28.9, "type": "speech"}
+{"t": 31.11, "type": "heard", "text": "Twinkle twinkle"}
+{"t": 31.11, "type": "speech"}
+{"t": 35.77, "type": "say", "kind": "stall_phrase", "text": "Listen... little star", "spans": [[2, 4]]}
+{"t": 40.32, "type": "speech"}
+{"t": 41.46, "type": "heard", "text": "like"}
+{"t": 41.52, "type": "speech"}
+{"t": 45.01, "type": "speech"}
+{"t": 46.93, "type": "heard", "text": "star"}
+{"t": 46.94, "type": "speech"}
+{"t": 46.94, "type": "say", "kind": "echo_line", "text": "How I wonder what you are! Now you try!", "spans": [[4, 10]]}
+{"t": 51.91, "type": "speech"}
+{"t": 54.47, "type": "heard", "text": "How"}
+{"t": 54.47, "type": "speech"}
+{"t": 57.25, "type": "speech"}
+{"t": 59.43, "type": "heard", "text": "a wonder"}
+{"t": 59.44, "type": "speech"}
+{"t": 62.49, "type": "speech"}
+{"t": 63.99, "type": "heard", "text": "we"}
+{"t": 63.99, "type": "speech"}
+{"t": 66.74, "type": "speech"}
+{"t": 68.13, "type": "heard", "text": "you"}
+{"t": 68.13, "type": "speech"}
+{"t": 71.08, "type": "speech"}
+{"t": 72.53, "type": "heard", "text": "ara"}
+{"t": 72.53, "type": "speech"}
+{"t": 74.61, "type": "speech"}
+{"t": 76.12, "type": "heard", "text": "went"}
+{"t": 76.12, "type": "speech"}
+{"t": 80.62, "type": "speech"}
+{"t": 82.85, "type": "heard", "text": "you ara"}
+{"t": 82.85, "type": "speech"}
+{"t": 83.85, "type": "speech"}
+{"t": 87.68, "type": "heard", "text": "ara are ara are"}
+{"t": 87.69, "type": "speech"}
+{"t": 87.69, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}
+{"t": 91.34, "type": "speech"}
+{"t": 92.91, "type": "heard", "text": "ara"}
+{"t": 92.91, "type": "speech"}
+{"t": 96.1, "type": "speech"}
+{"t": 97.42, "type": "heard", "text": "ua"}
+{"t": 97.43, "type": "speech"}
+{"t": 97.51, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 97.63, "type": "say", "kind": "echo_line", "text": "Up above the world so high Now you try!", "spans": [[10, 16]]}
+{"t": 108.52, "type": "summary", "summary": {"words_total": 22, "words_read": 6, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 2, "lines_skipped": [], "finished": false, "prompts": 1, "corrections": 0, "seconds": 94.9, "words_per_minute": 6.3}}

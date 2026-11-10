@@ -1,0 +1,15 @@
+{"t": 2.83, "kind": "open_app", "brief": "Ishita, LKG (about 4.5 years). Prefers hi-IN. Knows a few Hindi letters; mixes up letters that look or sound alike."}
+{"t": 2.84, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.74, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.04, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 7.56, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 11.67, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.51, "kind": "session_started", "tries": 1}
+{"t": 26.86, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 36.86, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.4 s into a planned 3.46 s thinking pause."}
+{"t": 40.09, "kind": "tap_mic_to_talk"}
+{"t": 40.11, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 46.76, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.2 s into a planned 3.67 s thinking pause."}
+{"t": 61.85, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'गरजे' 3 times."}
+{"t": 77.73, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.8 s into a planned 3.69 s thinking pause."}
+{"t": 77.79, "kind": "abandon", "why": "frustration", "frustration": 3.8}

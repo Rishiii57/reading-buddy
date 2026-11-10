@@ -1,0 +1,490 @@
+{
+ "utterances": [
+  {
+   "t": 36.69,
+   "said": "એક નાની ચકલી ચકલી",
+   "stt": "એક નાની ચકલી ચકલી",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.39,
+   "said": "હથી",
+   "stt": "હતી",
+   "stt_notes": [
+    "'હથી' heard as 'હતી'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  },
+  {
+   "t": 44.66,
+   "said": "હથી",
+   "stt": "હથી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.9,
+   "said": "થે ડોજ સવારે ધાણા શોદવા જતી જતી",
+   "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી",
+   "stt_notes": [
+    "'શોદવા' heard as 'શોદબા'"
+   ],
+   "words": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 64.21,
+   "said": "રોજ સબારે ધાણા",
+   "stt": "રોજ સબારે ધાણા",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 73.38,
+   "said": "હથી",
+   "stt": "હથી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 75.79,
+   "said": "હતી",
+   "stt": "",
+   "stt_notes": [
+    "lost 'હતી'"
+   ],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 79.24,
+   "said": "હતી",
+   "stt": "હતી",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 89.0,
+   "said": "એ",
+   "stt": "એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 96.82,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 100.95,
+   "said": "એ એ",
+   "stt": "એ એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 106.36,
+   "said": "એક",
+   "stt": "એક",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "drill": true,
+   "muted_words": 0
+  },
+  {
+   "t": 115.19,
+   "said": "એ",
+   "stt": "એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.69,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી ચકલી"
+   },
+   {
+    "t": 89.0,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ"
+   },
+   {
+    "t": 96.82,
+    "target": "એક",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 100.95,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ એ",
+    "drill": true
+   },
+   {
+    "t": 106.36,
+    "target": "એક",
+    "said": "એક",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક",
+    "drill": true
+   },
+   {
+    "t": 115.19,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.69,
+    "target": "નાની",
+    "said": "નાની",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી ચકલી"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.69,
+    "target": "ચકલી",
+    "said": "ચકલી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એક નાની ચકલી ચકલી"
+   }
+  ],
+  "3": [
+   {
+    "t": 41.39,
+    "target": "હતી",
+    "said": "હથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "હતી"
+   },
+   {
+    "t": 44.66,
+    "target": "હતી",
+    "said": "હથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "હથી"
+   },
+   {
+    "t": 73.38,
+    "target": "હતી",
+    "said": "હથી",
+    "correct": false,
+    "kind": "sub",
+    "stt": "હથી",
+    "drill": true
+   },
+   {
+    "t": 75.79,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": ""
+   },
+   {
+    "t": 79.24,
+    "target": "હતી",
+    "said": "હતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "હતી",
+    "drill": true
+   }
+  ],
+  "4": [
+   {
+    "t": 55.9,
+    "target": "તે",
+    "said": "થે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   },
+   {
+    "t": 64.21,
+    "target": "તે",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "રોજ સબારે ધાણા"
+   }
+  ],
+  "5": [
+   {
+    "t": 55.9,
+    "target": "રોજ",
+    "said": "ડોજ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   },
+   {
+    "t": 64.21,
+    "target": "રોજ",
+    "said": "રોજ",
+    "correct": true,
+    "kind": "ok",
+    "stt": "રોજ સબારે ધાણા"
+   }
+  ],
+  "6": [
+   {
+    "t": 55.9,
+    "target": "સવારે",
+    "said": "સવારે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   },
+   {
+    "t": 64.21,
+    "target": "સવારે",
+    "said": "સબારે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "રોજ સબારે ધાણા"
+   }
+  ],
+  "7": [
+   {
+    "t": 55.9,
+    "target": "દાણા",
+    "said": "ધાણા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   },
+   {
+    "t": 64.21,
+    "target": "દાણા",
+    "said": "ધાણા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "રોજ સબારે ધાણા"
+   }
+  ],
+  "8": [
+   {
+    "t": 55.9,
+    "target": "શોધવા",
+    "said": "શોદવા",
+    "correct": false,
+    "kind": "sub",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   }
+  ],
+  "9": [
+   {
+    "t": 55.9,
+    "target": "જતી",
+    "said": "જતી",
+    "correct": true,
+    "kind": "ok",
+    "stt": "થે ડોજ સવારે ધાણા શોદબા જતી જતી"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.55,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 39.76,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... હતી.",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 54.94,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?",
+   "spans": []
+  },
+  {
+   "t": 66.88,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. હતી.",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 73.64,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "હતી.",
+   "spans": [
+    [
+     3,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 79.51,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 92.13,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 101.01,
+   "type": "say",
+   "kind": "fix_again",
+   "text": "એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  },
+  {
+   "t": 106.68,
+   "type": "say",
+   "kind": "repeat_line",
+   "text": "હા! ખૂબ સરસ! એક નાની ચકલી હતી. હવે તું આખી પંક્તિ બોલ.",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 118.35,
+   "type": "say",
+   "kind": "fix_word",
+   "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક",
+   "spans": [
+    [
+     0,
+     1
+    ]
+   ]
+  }
+ ]
+}

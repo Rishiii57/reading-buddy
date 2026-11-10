@@ -1,0 +1,118 @@
+{
+ "utterances": [
+  {
+   "t": 29.75,
+   "said": "એ",
+   "stt": "એ",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 36.26,
+   "said": "બિલાડી જાડ",
+   "stt": "બિલાડી જાડ",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 46.66,
+   "said": "તેણ",
+   "stt": "તેણ",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 29.75,
+    "target": "એક",
+    "said": "એ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "એ"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.26,
+    "target": "બિલાડી",
+    "said": "બિલાડી",
+    "correct": true,
+    "kind": "echo",
+    "stt": "બિલાડી જાડ"
+   }
+  ],
+  "2": [
+   {
+    "t": 36.26,
+    "target": "જાડી",
+    "said": "જાડ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "બિલાડી જાડ"
+   }
+  ],
+  "3": [
+   {
+    "t": 46.66,
+    "target": "તેણે",
+    "said": "તેણ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "તેણ"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 11.72,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક બિલાડી જાડી હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 38.81,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "તેણે પહેરી સાડી. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 51.95,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "સાંભળ... પહેરી સાડી.",
+   "spans": [
+    [
+     4,
+     6
+    ]
+   ]
+  }
+ ]
+}

@@ -1,0 +1,276 @@
+{
+ "id": "20261110-012002-fe168f",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 0,
+  "words_helped": 5,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 63.2,
+  "words_per_minute": 4.7
+ },
+ "log": [
+  {
+   "t": 0.536,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.147,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.358,
+   "event": "transcript",
+   "text": "मछल मछल"
+  },
+  {
+   "t": 20.358,
+   "event": "uncertain",
+   "text": "मछल मछल"
+  },
+  {
+   "t": 20.358,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 23.855,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 26.401,
+   "event": "transcript",
+   "text": "जल"
+  },
+  {
+   "t": 32.135,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 0,
+   "to": 3,
+   "line": 0
+  },
+  {
+   "t": 32.135,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 35.5,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 41.776,
+   "event": "transcript",
+   "text": "मछली मछली झल"
+  },
+  {
+   "t": 41.776,
+   "event": "uncertain",
+   "text": "मछली मछली झल"
+  },
+  {
+   "t": 41.776,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 46.07,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 48.555,
+   "event": "transcript",
+   "text": "मछल"
+  },
+  {
+   "t": 48.555,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 50.234,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 54.784,
+   "event": "transcript",
+   "text": "की"
+  },
+  {
+   "t": 54.784,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 59.305,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 59.305,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 62.609,
+   "event": "state",
+   "state": "CHILD_READING"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.508,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.358,
+   "type": "transcript",
+   "text": "मछल मछल",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 24.769,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 26.401,
+   "type": "transcript",
+   "text": "जल",
+   "latency": 120,
+   "audio_duration_ms": 1210,
+   "message": null
+  },
+  {
+   "t": 36.705,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 41.776,
+   "type": "transcript",
+   "text": "मछली मछली झल",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 46.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 48.555,
+   "type": "transcript",
+   "text": "मछल",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 53.051,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.784,
+   "type": "transcript",
+   "text": "की",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "मछल मछल",
+   "heard": "मछल मछल",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "मछली जल",
+   "heard": "जल",
+   "muted_words": 1,
+   "duration_s": 2.42
+  },
+  {
+   "text": "मछली मछली झल",
+   "heard": "मछली मछली झल",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "मछल",
+   "heard": "मछल",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "की",
+   "heard": "की",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 64
+}

@@ -1,0 +1,191 @@
+{
+ "id": "20261110-012313-a633b9",
+ "text_id": "gu-biladi",
+ "mode": "mic",
+ "summary": {
+  "words_total": 14,
+  "words_read": 1,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 43.6,
+  "words_per_minute": 6.9
+ },
+ "log": [
+  {
+   "t": 0.266,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.436,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.407,
+   "event": "transcript",
+   "text": "એ"
+  },
+  {
+   "t": 18.407,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 24.92,
+   "event": "transcript",
+   "text": "બિલાડી જાડ"
+  },
+  {
+   "t": 24.92,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 26.503,
+   "event": "progress",
+   "to": 3
+  },
+  {
+   "t": 26.503,
+   "event": "echo_slips_accepted",
+   "words": [
+    0,
+    2
+   ]
+  },
+  {
+   "t": 26.503,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 26.503,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 31.087,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 35.317,
+   "event": "transcript",
+   "text": "તેણ"
+  },
+  {
+   "t": 35.317,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 40.365,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 6,
+   "line": 1
+  },
+  {
+   "t": 40.365,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 4,
+   "to": 6
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.675,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.407,
+   "type": "transcript",
+   "text": "એ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 22.073,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.92,
+   "type": "transcript",
+   "text": "બિલાડી જાડ",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 33.585,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 35.317,
+   "type": "transcript",
+   "text": "તેણ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "એ",
+   "heard": "એ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "બિલાડી જાડ",
+   "heard": "બિલાડી જાડ",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "તેણ",
+   "heard": "તેણ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 43
+}

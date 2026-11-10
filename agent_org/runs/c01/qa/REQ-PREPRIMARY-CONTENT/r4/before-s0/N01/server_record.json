@@ -1,0 +1,588 @@
+{
+ "id": "20261110-011212-48b737",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [
+   "बादल",
+   "गरजे"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 3,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 2,
+  "seconds": 123.2,
+  "words_per_minute": 1.9
+ },
+ "log": [
+  {
+   "t": 0.019,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 15.778,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 19.432,
+   "event": "transcript",
+   "text": "बाद बाद"
+  },
+  {
+   "t": 19.432,
+   "event": "uncertain",
+   "text": "बाद बाद"
+  },
+  {
+   "t": 19.432,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 23.338,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 25.492,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 25.492,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 31.68,
+   "event": "transcript",
+   "text": "गरझ गरज"
+  },
+  {
+   "t": 31.68,
+   "event": "uncertain",
+   "text": "गरझ गरज"
+  },
+  {
+   "t": 31.68,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 35.504,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 39.017,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 39.017,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 41.497,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 45.608,
+   "event": "transcript",
+   "text": "गरज"
+  },
+  {
+   "t": 45.608,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 49.107,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    1
+   ]
+  },
+  {
+   "t": 49.107,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 55.364,
+   "event": "transcript",
+   "text": "गरज"
+  },
+  {
+   "t": 55.364,
+   "event": "drill_miss",
+   "word": 1,
+   "heard": "गरज"
+  },
+  {
+   "t": 61.86,
+   "event": "transcript",
+   "text": "गरजे गरजे"
+  },
+  {
+   "t": 61.86,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 61.86,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 68.449,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 71.654,
+   "event": "transcript",
+   "text": "बाद गरजे"
+  },
+  {
+   "t": 71.654,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 75.086,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 75.086,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 81.118,
+   "event": "transcript",
+   "text": "मैं थक गया"
+  },
+  {
+   "t": 81.118,
+   "event": "break_requested"
+  },
+  {
+   "t": 89.532,
+   "event": "resume"
+  },
+  {
+   "t": 92.137,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 92.137,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 92.137,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 98.639,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 101.726,
+   "event": "transcript",
+   "text": "बादल गरजे"
+  },
+  {
+   "t": 101.726,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 105.16,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 105.16,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 108.414,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  },
+  {
+   "t": 110.224,
+   "event": "transcript",
+   "text": "बारिश"
+  },
+  {
+   "t": 110.224,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 114.457,
+   "event": "transcript",
+   "text": "आ"
+  },
+  {
+   "t": 118.957,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 118.957,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 121.913,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.591,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 19.432,
+   "type": "transcript",
+   "text": "बाद बाद",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 23.662,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.492,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 28.817,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 31.68,
+   "type": "transcript",
+   "text": "गरझ गरज",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 43.876,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 45.608,
+   "type": "transcript",
+   "text": "गरज",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 53.634,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.364,
+   "type": "transcript",
+   "text": "गरज",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 58.992,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 61.86,
+   "type": "transcript",
+   "text": "गरजे गरजे",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 68.812,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 71.654,
+   "type": "transcript",
+   "text": "बाद गरजे",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 79.497,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 81.118,
+   "type": "transcript",
+   "text": "मैं थक गया",
+   "latency": 120,
+   "audio_duration_ms": 1200,
+   "message": null
+  },
+  {
+   "t": 90.399,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 92.137,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 98.871,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 101.726,
+   "type": "transcript",
+   "text": "बादल गरजे",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 108.493,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 110.224,
+   "type": "transcript",
+   "text": "बारिश",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 112.727,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 114.457,
+   "type": "transcript",
+   "text": "आ",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.31
+  },
+  {
+   "text": "बाद बाद",
+   "heard": "बाद बाद",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "गरझ गरज",
+   "heard": "गरझ गरज",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "गरज",
+   "heard": "गरज",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "गरज",
+   "heard": "गरज",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "गरजे गरजे",
+   "heard": "गरजे गरजे",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "बाद गरजे",
+   "heard": "बाद गरजे",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "मैं थक गया",
+   "heard": "मैं थक गया",
+   "muted_words": 0,
+   "duration_s": 1.2
+  },
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "बादल गरजे",
+   "heard": "बादल गरजे",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "बारिश",
+   "heard": "बारिश",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "आ",
+   "heard": "आ",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 74
+}

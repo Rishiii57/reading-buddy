@@ -1,0 +1,17 @@
+{"t": 3.63, "kind": "open_app", "brief": "Shaurya, LKG (about 4.5 years). Prefers hi-IN. Gets tired after a minute of reading."}
+{"t": 3.65, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.65, "kind": "tap", "target": "एक दो तीन चार One Two Three Four Hindi U", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.58, "kind": "opened_text", "hash": "#/read/hi-ekdo", "title": "एक दो तीन चार", "tags": ["Hindi", "UKG"], "words": 15, "lines": 4}
+{"t": 11.09, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.06, "kind": "session_started", "tries": 1}
+{"t": 26.47, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 68.65, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 93.54, "kind": "said_tired", "heard": "मैं थक गया"}
+{"t": 94.82, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 95.68, "kind": "resumed", "after_s": 0.5}
+{"t": 98.27, "kind": "tap_mic_to_talk"}
+{"t": 98.29, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 107.7, "kind": "tap_mic_to_talk"}
+{"t": 107.73, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 129.07, "kind": "abandon", "why": "attention", "frustration": 0.0}
+{"t": 129.15, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

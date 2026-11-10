@@ -1,0 +1,233 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-before-s1",
+ "agent_id": "L04",
+ "seed": 2187,
+ "persona": {
+  "id": "L04",
+  "name": "Vivaan",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 2.5,
+  "attention_span_s": 90
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-rain",
+  "title": "The Rain Song",
+  "tags": [
+   "English",
+   "Grade 1"
+  ],
+  "words": 24,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 7.37,
+    "details": [
+     "LKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 7.37,
+      "title": "The Rain Song",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 20.82,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 20.82,
+      "said": "Pitter",
+      "heard": ""
+     },
+     {
+      "t": 47.63,
+      "said": "Pitter Pitter patter",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 29.87,
+    "details": [
+     "Buddy started talking 3.5 s into a planned 4.13 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 29.87,
+      "paused_s": 3.5,
+      "planned_s": 4.13,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "patter falls the"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   },
+   {
+    "code": "FALSE_CORRECTION_STT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 36.84,
+    "details": [
+     "Read 'Pitter' correctly but Buddy asked to practise it (the speech model wrote it differently)."
+    ],
+    "evidence": [
+     {
+      "t": 36.84,
+      "word": "Pitter",
+      "child_said": "Pitter",
+      "speech_model_wrote": "qitter"
+     }
+    ],
+    "child_quote": "But I said it right!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that."
+  ],
+  "frustration_peak": 3.1,
+  "frustration_events": [
+   {
+    "t": 20.82,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 20.82,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 26.23,
+    "kind": "progress",
+    "frustration": 0.5
+   },
+   {
+    "t": 29.87,
+    "kind": "interrupted_pause",
+    "frustration": 1.5,
+    "paused_s": 3.5
+   },
+   {
+    "t": 36.25,
+    "kind": "praise",
+    "frustration": 1.1
+   },
+   {
+    "t": 36.84,
+    "kind": "false_correction",
+    "frustration": 2.3,
+    "word": "Pitter"
+   },
+   {
+    "t": 47.63,
+    "kind": "unheard_speech",
+    "frustration": 3.1
+   },
+   {
+    "t": 47.63,
+    "kind": "progress",
+    "frustration": 2.95
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 1,
+  "unheard_words": 4,
+  "buddy_talk_s": 16.7,
+  "child_talk_s": 4.8,
+  "tired_said": false,
+  "time_to_text_s": 2.7,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 5.5,
+  "intro_s": 10.4,
+  "session_s": 38.7,
+  "words_total": 24,
+  "words_attempted": 2,
+  "words_said_wrong": 0,
+  "corrections": 1,
+  "buddy_turns": 4,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 24,
+  "words_read": 0,
+  "words_helped": 2,
+  "words_to_practise": [
+   "Pitter",
+   "patter"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 38.9,
+  "words_per_minute": 3.1
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 4,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 40,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

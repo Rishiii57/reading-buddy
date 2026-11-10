@@ -1,0 +1,298 @@
+{
+ "utterances": [
+  {
+   "t": 46.87,
+   "said": "बादल",
+   "stt": "बादल",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 59.33,
+   "said": "गरजे",
+   "stt": "गरजे",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 68.6,
+   "said": "बारिश",
+   "stt": "बारिश",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 75.62,
+   "said": "आई",
+   "stt": "आई",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 81.19,
+   "said": "ठंढी टंडी",
+   "stt": "ठंढी टंडी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 84.86,
+   "said": "ठंढी",
+   "stt": "",
+   "stt_notes": [
+    "lost 'ठंढी'"
+   ],
+   "words": [
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": true
+  },
+  {
+   "t": 90.1,
+   "said": "ठंढी ठंढी",
+   "stt": "ठंढी ठंढी",
+   "stt_notes": [],
+   "words": [
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 98.66,
+   "said": "हवा भि",
+   "stt": "हवा भि",
+   "stt_notes": [],
+   "words": [
+    6,
+    7
+   ],
+   "muted_words": 2,
+   "over_buddy": false
+  },
+  {
+   "t": 108.91,
+   "said": "ठंडी",
+   "stt": "ठंडी",
+   "stt_notes": [],
+   "words": [
+    4
+   ],
+   "muted_words": 1,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 46.87,
+    "target": "बादल",
+    "said": "बादल",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बादल"
+   }
+  ],
+  "1": [
+   {
+    "t": 59.33,
+    "target": "गरजे",
+    "said": "गरजे",
+    "correct": true,
+    "kind": "ok",
+    "stt": "गरजे"
+   }
+  ],
+  "2": [
+   {
+    "t": 68.6,
+    "target": "बारिश",
+    "said": "बारिश",
+    "correct": true,
+    "kind": "ok",
+    "stt": "बारिश"
+   }
+  ],
+  "3": [
+   {
+    "t": 75.62,
+    "target": "आई",
+    "said": "आई",
+    "correct": true,
+    "kind": "ok",
+    "stt": "आई"
+   }
+  ],
+  "4": [
+   {
+    "t": 81.19,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी टंडी"
+   },
+   {
+    "t": 84.86,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": ""
+   },
+   {
+    "t": 90.1,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी ठंढी"
+   },
+   {
+    "t": 108.91,
+    "target": "ठंडी",
+    "said": "ठंडी",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ठंडी"
+   }
+  ],
+  "5": [
+   {
+    "t": 81.19,
+    "target": "ठंडी",
+    "said": "टंडी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी टंडी"
+   },
+   {
+    "t": 90.1,
+    "target": "ठंडी",
+    "said": "ठंढी",
+    "correct": false,
+    "kind": "sub",
+    "stt": "ठंढी ठंढी"
+   }
+  ],
+  "6": [
+   {
+    "t": 98.66,
+    "target": "हवा",
+    "said": "हवा",
+    "correct": true,
+    "kind": "ok",
+    "stt": "हवा भि"
+   }
+  ],
+  "7": [
+   {
+    "t": 98.66,
+    "target": "भी",
+    "said": "भि",
+    "correct": false,
+    "kind": "sub",
+    "stt": "हवा भि"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 25.37,
+   "type": "say",
+   "kind": "intro",
+   "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे बारिश आई ध्यान से सुनो, मैं कैसे पढ़ता हूँ। बादल गरजे, बारिश आई अब तुम्हारी बारी। मेरे साथ पढ़ो!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 50.28,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... गरजे",
+   "spans": [
+    [
+     1,
+     2
+    ]
+   ]
+  },
+  {
+   "t": 62.83,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... बारिश आई",
+   "spans": [
+    [
+     2,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 81.27,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?",
+   "spans": []
+  },
+  {
+   "t": 94.22,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "सुनो... ठंडी ठंडी हवा",
+   "spans": [
+    [
+     4,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 102.57,
+   "type": "say",
+   "kind": "stall_rest",
+   "text": "ठंडी ठंडी हवा भी आई। अब तुम बोलो!",
+   "spans": [
+    [
+     4,
+     9
+    ]
+   ]
+  },
+  {
+   "t": 112.23,
+   "type": "say",
+   "kind": "take_time",
+   "text": "आराम से। मैं तुम्हारी मदद के लिए यहीं हूँ।",
+   "spans": []
+  }
+ ]
+}

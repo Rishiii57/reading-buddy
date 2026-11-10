@@ -1,0 +1,21 @@
+{"t": 24.49, "type": "ready", "message": null}
+{"t": 24.88, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 38.4, "type": "speech"}
+{"t": 41.94, "type": "heard", "text": "run rain"}
+{"t": 41.94, "type": "speech"}
+{"t": 46.42, "type": "say", "kind": "stall_phrase", "text": "Listen... go away", "spans": [[2, 4]]}
+{"t": 50.95, "type": "speech"}
+{"t": 53.02, "type": "heard", "text": "go"}
+{"t": 53.03, "type": "speech"}
+{"t": 56.61, "type": "speech"}
+{"t": 58.34, "type": "heard", "text": "avay"}
+{"t": 58.34, "type": "speech"}
+{"t": 64.78, "type": "say", "kind": "stall_phrase", "text": "Listen... Come", "spans": [[4, 5]]}
+{"t": 70.83, "type": "speech"}
+{"t": 73.04, "type": "heard", "text": "Com"}
+{"t": 73.44, "type": "speech"}
+{"t": 73.45, "type": "say", "kind": "echo_line", "text": "Come again another day Now you try!", "spans": [[4, 8]]}
+{"t": 77.34, "type": "speech"}
+{"t": 80.84, "type": "heard", "text": "and all"}
+{"t": 80.87, "type": "speech"}
+{"t": 80.9, "type": "say", "kind": "uncertain", "text": "I didn't quite hear that. Can you read it again?", "spans": []}

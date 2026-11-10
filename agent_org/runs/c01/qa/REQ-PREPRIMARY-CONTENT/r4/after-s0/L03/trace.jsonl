@@ -1,0 +1,18 @@
+{"t": 2.98, "kind": "open_app", "brief": "Aadhya, LKG (about 4.5 years). Prefers gu-IN. Guesses words from the picture or first letter."}
+{"t": 3.0, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "curious tap", "view": "view-home"}
+{"t": 4.16, "kind": "tap", "target": "ચકલી અને દાણા The Sparrow and the Grains", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.46, "kind": "opened_text", "hash": "#/read/gu-chakli", "title": "ચકલી અને દાણા", "tags": ["Gujarati", "Grade 2-3"], "words": 23, "lines": 4}
+{"t": 8.9, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "LKG child landed on a 'Grade 2-3' text, made for children who already read."}
+{"t": 12.94, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.09, "kind": "session_started", "tries": 1}
+{"t": 28.43, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 29.25, "kind": "tap_mic_to_talk"}
+{"t": 29.25, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 41.39, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 58.33, "kind": "tap_mic_to_talk"}
+{"t": 58.34, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 67.2, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 1.8 s into a planned 2.38 s thinking pause."}
+{"t": 92.19, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.1 s into a planned 3.43 s thinking pause."}
+{"t": 118.42, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.2 s into a planned 3.86 s thinking pause."}
+{"t": 118.5, "kind": "abandon", "why": "frustration", "frustration": 3.6}
+{"t": 118.91, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

@@ -1,0 +1,27 @@
+{"t": 13.07, "type": "ready", "message": null}
+{"t": 13.73, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મારો પતંગ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મારો પતંગ લાલ ને પીળો હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 5]]}
+{"t": 30.58, "type": "speech"}
+{"t": 32.79, "type": "heard", "text": "માડો"}
+{"t": 32.79, "type": "speech"}
+{"t": 37.21, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. મારો", "spans": [[0, 1]]}
+{"t": 42.01, "type": "speech"}
+{"t": 44.5, "type": "heard", "text": "માડો"}
+{"t": 44.5, "type": "speech"}
+{"t": 44.5, "type": "say", "kind": "fix_again", "text": "મારો", "spans": [[0, 1]]}
+{"t": 47.33, "type": "speech"}
+{"t": 49.39, "type": "heard", "text": "માડો"}
+{"t": 49.39, "type": "speech"}
+{"t": 49.39, "type": "say", "kind": "fix_again", "text": "મારો", "spans": [[0, 1]]}
+{"t": 52.82, "type": "speech"}
+{"t": 55.37, "type": "heard", "text": "મારો"}
+{"t": 55.38, "type": "speech"}
+{"t": 55.38, "type": "say", "kind": "repeat_line", "text": "હા! ખૂબ સરસ! મારો પતંગ લાલ ને પીળો હવે તું આખી પંક્તિ બોલ.", "spans": [[0, 5]]}
+{"t": 63.29, "type": "speech"}
+{"t": 68.2, "type": "heard", "text": "માડો પથંગ પથંગ"}
+{"t": 68.2, "type": "speech"}
+{"t": 68.26, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 74.73, "type": "speech"}
+{"t": 78.51, "type": "heard", "text": "માડો માડો"}
+{"t": 78.51, "type": "speech"}
+{"t": 78.51, "type": "say", "kind": "uncertain", "text": "મને બરાબર સંભળાયું નહીં. ફરીથી વાંચીશ?", "spans": []}
+{"t": 79.75, "type": "summary", "summary": {"words_total": 16, "words_read": 0, "words_helped": 1, "words_to_practise": ["મારો"], "words_practised": 1, "correction_attempts": 3, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 66.6, "words_per_minute": 0.9}}

@@ -1,0 +1,221 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-after-s0",
+ "agent_id": "N02",
+ "seed": 1000,
+ "persona": {
+  "id": "N02",
+  "name": "Anaya",
+  "grade": "Nursery",
+  "age": 3.5,
+  "reading_proficiency": "pre_reader",
+  "language_preference": "hi-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.4,
+  "patience": 3.0,
+  "attention_span_s": 110
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-biladi",
+  "title": "એક બિલાડી જાડી",
+  "tags": [
+   "Gujarati",
+   "LKG"
+  ],
+  "words": 14,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "LKG"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 6.0,
+    "details": [
+     "Wanted hi-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 6.0,
+      "wanted": "hi-IN",
+      "got": "gu-IN",
+      "title": "એક બિલાડી જાડી"
+     }
+    ],
+    "child_quote": "This isn't my language!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 3,
+    "evidence_level": "observed",
+    "first_t": 12.73,
+    "details": [
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 12.73,
+      "kind": "intro",
+      "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી "
+     },
+     {
+      "t": 33.95,
+      "kind": "stall_phrase",
+      "said": "સાંભળ... એક બિલાડી જાડી"
+     },
+     {
+      "t": 57.34,
+      "kind": "echo_line",
+      "said": "તેણે પહેરી સાડી. હવે તું બોલ!"
+     }
+    ],
+    "child_quote": "I don't know what Buddy said.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 26.6,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 26.6,
+      "said": "વિલાડી",
+      "heard": ""
+     },
+     {
+      "t": 33.89,
+      "said": "બિલાડી",
+      "heard": ""
+     }
+    ],
+    "child_quote": "I said it but Buddy didn't hear me!",
+    "child_severity": "confusing"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.6,
+  "frustration_events": [
+   {
+    "t": 12.73,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 26.6,
+    "kind": "unheard_speech",
+    "frustration": 1.4
+   },
+   {
+    "t": 33.89,
+    "kind": "unheard_speech",
+    "frustration": 2.2
+   },
+   {
+    "t": 33.89,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 33.95,
+    "kind": "not_understood",
+    "frustration": 2.65,
+    "say_kind": "stall_phrase"
+   },
+   {
+    "t": 41.57,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 57.34,
+    "kind": "not_understood",
+    "frustration": 3.1,
+    "say_kind": "echo_line"
+   },
+   {
+    "t": 58.85,
+    "kind": "dead_click",
+    "frustration": 3.6,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 0,
+  "unheard_words": 2,
+  "buddy_talk_s": 16.0,
+  "child_talk_s": 9.9,
+  "tired_said": false,
+  "time_to_text_s": 2.8,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 12.0,
+  "intro_s": 14.4,
+  "session_s": 47.7,
+  "words_total": 14,
+  "words_attempted": 4,
+  "words_said_wrong": 3,
+  "corrections": 0,
+  "buddy_turns": 4,
+  "stall_prompts": 2,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 14,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 2,
+  "corrections": 0,
+  "seconds": 47.8,
+  "words_per_minute": 5.0
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 50,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

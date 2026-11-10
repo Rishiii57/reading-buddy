@@ -1,0 +1,15 @@
+{"t": 10.44, "type": "ready", "message": null}
+{"t": 10.53, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું એક બિલાડી જાડી ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક બિલાડી જાડી હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 32.44, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... એક બિલાડી જાડી", "spans": [[0, 3]]}
+{"t": 38.73, "type": "speech"}
+{"t": 41.62, "type": "heard", "text": "એ બિલાડી"}
+{"t": 41.68, "type": "speech"}
+{"t": 44.62, "type": "speech"}
+{"t": 46.49, "type": "heard", "text": "જારી"}
+{"t": 46.49, "type": "speech"}
+{"t": 51.38, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... તેણે", "spans": [[3, 4]]}
+{"t": 54.36, "type": "speech"}
+{"t": 56.86, "type": "heard", "text": "થેણે"}
+{"t": 56.9, "type": "speech"}
+{"t": 56.9, "type": "say", "kind": "echo_line", "text": "તેણે પહેરી સાડી. હવે તું બોલ!", "spans": [[3, 6]]}
+{"t": 58.3, "type": "summary", "summary": {"words_total": 14, "words_read": 0, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 47.8, "words_per_minute": 5.0}}

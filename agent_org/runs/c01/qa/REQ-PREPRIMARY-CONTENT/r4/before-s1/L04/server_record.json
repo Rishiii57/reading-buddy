@@ -1,0 +1,195 @@
+{
+ "id": "20261110-011720-2e4cbd",
+ "text_id": "en-rain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 24,
+  "words_read": 0,
+  "words_helped": 2,
+  "words_to_practise": [
+   "Pitter",
+   "patter"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 0,
+  "corrections": 1,
+  "seconds": 38.9,
+  "words_per_minute": 3.1
+ },
+ "log": [
+  {
+   "t": 0.084,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 12.746,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 14.296,
+   "event": "transcript",
+   "text": "qitter"
+  },
+  {
+   "t": 14.296,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 15.908,
+   "event": "progress",
+   "to": 2
+  },
+  {
+   "t": 17.742,
+   "event": "correction",
+   "line": 0,
+   "words": [
+    0,
+    1
+   ]
+  },
+  {
+   "t": 17.742,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 0
+  },
+  {
+   "t": 24.409,
+   "event": "transcript",
+   "text": "Pitter"
+  },
+  {
+   "t": 24.409,
+   "event": "drill_ok",
+   "word": 0
+  },
+  {
+   "t": 24.409,
+   "event": "state",
+   "state": "INDIVIDUAL_WORD_CORRECTION",
+   "word": 1
+  },
+  {
+   "t": 29.464,
+   "event": "transcript",
+   "text": "patter"
+  },
+  {
+   "t": 29.464,
+   "event": "drill_ok",
+   "word": 1
+  },
+  {
+   "t": 29.464,
+   "event": "state",
+   "state": "COMPLETE_LINE_DEMONSTRATION",
+   "line": 0
+  },
+  {
+   "t": 35.561,
+   "event": "state",
+   "state": "COMPLETE_LINE_REPETITION"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 12.844,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 14.296,
+   "type": "transcript",
+   "text": "qitter",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 22.953,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 24.409,
+   "type": "transcript",
+   "text": "Pitter",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  },
+  {
+   "t": 28.012,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.464,
+   "type": "transcript",
+   "text": "patter",
+   "latency": 120,
+   "audio_duration_ms": 1030,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Pitter",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 1.03
+  },
+  {
+   "text": "qitter",
+   "heard": "qitter",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter",
+   "heard": "Pitter",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "patter",
+   "heard": "patter",
+   "muted_words": 0,
+   "duration_s": 1.03
+  },
+  {
+   "text": "Pitter Pitter patter",
+   "heard": "",
+   "muted_words": 3,
+   "duration_s": 2.7
+  }
+ ],
+ "tts_offline": 40
+}

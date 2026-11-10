@@ -1,0 +1,20 @@
+{"t": 2.62, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 2.89, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.84, "kind": "tap", "target": "मछली जल की रानी है The Fish Is the Queen", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 6.02, "kind": "opened_text", "hash": "#/read/hi-machhli", "title": "मछली जल की रानी है", "tags": ["Hindi", "Nursery"], "words": 17, "lines": 4}
+{"t": 6.57, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a hi-IN text."}
+{"t": 10.85, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 21.36, "kind": "listened_first", "seconds": 7.5}
+{"t": 22.87, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 27.1, "kind": "session_started", "tries": 1}
+{"t": 36.86, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 39.75, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 46.05, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 0.8 s into a planned 2.84 s thinking pause."}
+{"t": 51.22, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 57.12, "kind": "stuck", "word": "मछली", "waited": 5.6}
+{"t": 60.43, "kind": "tap_mic_to_talk"}
+{"t": 60.43, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 84.46, "kind": "stuck", "word": "रानी", "waited": 4.0}
+{"t": 87.53, "kind": "off_task_tap", "target": "End"}
+{"t": 87.53, "kind": "tap", "target": "End", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 88.74, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'End' left the reading page."}

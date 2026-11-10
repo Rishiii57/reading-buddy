@@ -1,0 +1,364 @@
+{
+ "id": "20261110-011338-b5f1dc",
+ "text_id": "hi-baarish",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 1,
+  "words_helped": 8,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 87.6,
+  "words_per_minute": 6.2
+ },
+ "log": [
+  {
+   "t": 0.095,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 18.493,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 21.625,
+   "event": "transcript",
+   "text": "बादल"
+  },
+  {
+   "t": 21.625,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 25.066,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 2,
+   "line": 0
+  },
+  {
+   "t": 25.066,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 28.635,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.138,
+   "event": "transcript",
+   "text": "गरजे"
+  },
+  {
+   "t": 34.138,
+   "event": "progress",
+   "frm": 1,
+   "to": 2
+  },
+  {
+   "t": 37.565,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 2,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 37.565,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 40.702,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 43.415,
+   "event": "transcript",
+   "text": "बारिश"
+  },
+  {
+   "t": 43.415,
+   "event": "progress",
+   "frm": 2,
+   "to": 3
+  },
+  {
+   "t": 50.439,
+   "event": "transcript",
+   "text": "आई"
+  },
+  {
+   "t": 50.439,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 50.439,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 56.006,
+   "event": "transcript",
+   "text": "ठंढी टंडी"
+  },
+  {
+   "t": 56.006,
+   "event": "uncertain",
+   "text": "ठंढी टंडी"
+  },
+  {
+   "t": 56.006,
+   "event": "state",
+   "state": "UNCERTAIN_AUDIO"
+  },
+  {
+   "t": 59.645,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 64.91,
+   "event": "transcript",
+   "text": "ठंढी ठंढी"
+  },
+  {
+   "t": 64.91,
+   "event": "uncertain",
+   "text": "ठंढी ठंढी"
+  },
+  {
+   "t": 68.542,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 7,
+   "line": 1
+  },
+  {
+   "t": 68.542,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 4,
+   "to": 7
+  },
+  {
+   "t": 72.35,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 77.38,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 77.38,
+   "event": "prompt",
+   "level": 2,
+   "line": 1,
+   "frm": 4,
+   "to": 9
+  },
+  {
+   "t": 82.026,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 87.034,
+   "event": "take_time"
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 18.982,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 21.625,
+   "type": "transcript",
+   "text": "बादल",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 31.439,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.138,
+   "type": "transcript",
+   "text": "गरजे",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 40.79,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 43.415,
+   "type": "transcript",
+   "text": "बारिश",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 47.814,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 50.439,
+   "type": "transcript",
+   "text": "आई",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 51.319,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 56.006,
+   "type": "transcript",
+   "text": "ठंढी टंडी",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  },
+  {
+   "t": 60.29,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 64.91,
+   "type": "transcript",
+   "text": "ठंढी ठंढी",
+   "latency": 120,
+   "audio_duration_ms": 4200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "बादल",
+   "heard": "बादल",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "गरजे",
+   "heard": "गरजे",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "बारिश",
+   "heard": "बारिश",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "आई",
+   "heard": "आई",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ठंढी टंडी",
+   "heard": "ठंढी टंडी",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "ठंढी ठंढी",
+   "heard": "ठंढी ठंढी",
+   "muted_words": 0,
+   "duration_s": 4.2
+  },
+  {
+   "text": "हवा भि",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 4.2
+  },
+  {
+   "text": "ठंडी",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 2.2
+  }
+ ],
+ "tts_offline": 93
+}

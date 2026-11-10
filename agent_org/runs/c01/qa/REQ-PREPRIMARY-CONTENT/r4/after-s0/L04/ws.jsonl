@@ -1,0 +1,33 @@
+{"t": 13.4, "type": "ready", "message": null}
+{"t": 13.41, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Rain Song Listen carefully to how I read it. Pitter patter falls the rain Now it's your turn. Read it with me!", "spans": [[0, 5]]}
+{"t": 28.75, "type": "speech"}
+{"t": 30.23, "type": "heard", "text": "Pitter"}
+{"t": 30.28, "type": "speech"}
+{"t": 33.8, "type": "say", "kind": "stall_phrase", "text": "Listen... patter falls the", "spans": [[1, 4]]}
+{"t": 37.65, "type": "speech"}
+{"t": 39.25, "type": "heard", "text": "patter"}
+{"t": 39.25, "type": "speech"}
+{"t": 43.47, "type": "say", "kind": "stall_phrase", "text": "Listen... falls the rain", "spans": [[2, 5]]}
+{"t": 46.55, "type": "speech"}
+{"t": 48.16, "type": "heard", "text": "falls"}
+{"t": 48.48, "type": "speech"}
+{"t": 51.23, "type": "speech"}
+{"t": 52.76, "type": "heard", "text": "the"}
+{"t": 52.98, "type": "speech"}
+{"t": 56.02, "type": "speech"}
+{"t": 57.48, "type": "heard", "text": "rain"}
+{"t": 57.51, "type": "speech"}
+{"t": 58.34, "type": "speech"}
+{"t": 59.9, "type": "heard", "text": "oa"}
+{"t": 59.9, "type": "speech"}
+{"t": 64.94, "type": "say", "kind": "fix_word", "text": "Let's practise this word together. On", "spans": [[5, 6]]}
+{"t": 69.2, "type": "speech"}
+{"t": 71.44, "type": "heard", "text": "oa"}
+{"t": 71.46, "type": "speech"}
+{"t": 71.53, "type": "say", "kind": "fix_again", "text": "On", "spans": [[5, 6]]}
+{"t": 74.71, "type": "speech"}
+{"t": 76.22, "type": "heard", "text": "On"}
+{"t": 76.22, "type": "speech"}
+{"t": 76.22, "type": "say", "kind": "repeat_line", "text": "Yes! Very nice! On the roof and window pane. Now you say the whole line.", "spans": [[5, 11]]}
+{"t": 87.49, "type": "say", "kind": "stall_phrase", "text": "Listen... On the roof", "spans": [[5, 8]]}
+{"t": 89.75, "type": "summary", "summary": {"words_total": 24, "words_read": 1, "words_helped": 7, "words_to_practise": ["On"], "words_practised": 1, "correction_attempts": 2, "lines_total": 4, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 3, "corrections": 1, "seconds": 75.9, "words_per_minute": 6.3}}

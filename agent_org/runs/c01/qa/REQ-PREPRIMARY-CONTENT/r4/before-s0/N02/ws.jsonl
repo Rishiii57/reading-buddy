@@ -1,0 +1,8 @@
+{"t": 11.42, "type": "ready", "message": null}
+{"t": 11.79, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું ચકલી અને દાણા ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. એક નાની ચકલી હતી. હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 4]]}
+{"t": 27.29, "type": "speech"}
+{"t": 29.27, "type": "heard", "text": "એ"}
+{"t": 29.27, "type": "speech"}
+{"t": 33.3, "type": "say", "kind": "fix_word", "text": "ચાલો, આ શબ્દનો સાથે અભ્યાસ કરીએ. એક", "spans": [[0, 1]]}
+{"t": 43.17, "type": "say", "kind": "fix_again", "text": "એક", "spans": [[0, 1]]}
+{"t": 46.09, "type": "summary", "summary": {"words_total": 23, "words_read": 0, "words_helped": 1, "words_to_practise": ["એક"], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 0, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 1, "seconds": 34.5, "words_per_minute": 1.7}}

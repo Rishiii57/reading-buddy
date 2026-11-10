@@ -1,0 +1,373 @@
+{
+ "id": "20261110-012126-7b5ccd",
+ "text_id": "hi-machhli",
+ "mode": "mic",
+ "summary": {
+  "words_total": 17,
+  "words_read": 2,
+  "words_helped": 7,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 5,
+  "corrections": 0,
+  "seconds": 84.5,
+  "words_per_minute": 6.4
+ },
+ "log": [
+  {
+   "t": 0.017,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 17.177,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.243,
+   "event": "transcript",
+   "text": "मछली"
+  },
+  {
+   "t": 20.243,
+   "event": "progress",
+   "frm": 0,
+   "to": 1
+  },
+  {
+   "t": 27.013,
+   "event": "transcript",
+   "text": "कि"
+  },
+  {
+   "t": 31.102,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 1,
+   "to": 4,
+   "line": 0
+  },
+  {
+   "t": 31.102,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 1,
+   "to": 4
+  },
+  {
+   "t": 34.826,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 37.841,
+   "event": "transcript",
+   "text": "कि"
+  },
+  {
+   "t": 37.841,
+   "event": "progress",
+   "frm": 1,
+   "to": 3
+  },
+  {
+   "t": 42.398,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 3,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 42.398,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 3,
+   "to": 5
+  },
+  {
+   "t": 46.458,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 49.487,
+   "event": "transcript",
+   "text": "रानी"
+  },
+  {
+   "t": 49.487,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 54.518,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 4,
+   "to": 5,
+   "line": 0
+  },
+  {
+   "t": 54.518,
+   "event": "prompt",
+   "level": 1,
+   "line": 0,
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 57.543,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 60.36,
+   "event": "transcript",
+   "text": "है"
+  },
+  {
+   "t": 60.36,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 60.36,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 60.36,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 64.611,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 69.05,
+   "event": "transcript",
+   "text": "जीवन"
+  },
+  {
+   "t": 69.05,
+   "event": "progress",
+   "frm": 5,
+   "to": 6
+  },
+  {
+   "t": 74.122,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 6,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 74.122,
+   "event": "prompt",
+   "level": 1,
+   "line": 1,
+   "frm": 6,
+   "to": 9
+  },
+  {
+   "t": 77.931,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 83.023,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 6,
+   "to": 9,
+   "line": 1
+  },
+  {
+   "t": 83.023,
+   "event": "prompt",
+   "level": 2,
+   "line": 1,
+   "frm": 6,
+   "to": 9
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 17.606,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.243,
+   "type": "transcript",
+   "text": "मछली",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 24.39,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.013,
+   "type": "transcript",
+   "text": "कि",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 35.208,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 37.841,
+   "type": "transcript",
+   "text": "कि",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 46.713,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.487,
+   "type": "transcript",
+   "text": "रानी",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 57.738,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.36,
+   "type": "transcript",
+   "text": "है",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  },
+  {
+   "t": 66.428,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 69.05,
+   "type": "transcript",
+   "text": "जीवन",
+   "latency": 120,
+   "audio_duration_ms": 2200,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "मछली",
+   "heard": "मछली",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "कि",
+   "heard": "कि",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "रानी",
+   "heard": "",
+   "muted_words": 1,
+   "duration_s": 2.2
+  },
+  {
+   "text": "कि",
+   "heard": "कि",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "रानी",
+   "heard": "रानी",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "है",
+   "heard": "है",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "जीबन उशका",
+   "heard": "",
+   "muted_words": 2,
+   "duration_s": 4.2
+  },
+  {
+   "text": "जीवन",
+   "heard": "जीवन",
+   "muted_words": 0,
+   "duration_s": 2.2
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 2.2
+  }
+ ],
+ "tts_offline": 131
+}

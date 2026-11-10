@@ -1,0 +1,144 @@
+{
+ "utterances": [
+  {
+   "t": 28.8,
+   "said": "",
+   "stt": "",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 35.07,
+   "said": "small ana",
+   "stt": "snall ana",
+   "stt_notes": [
+    "'small' heard as 'snall'"
+   ],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.21,
+   "said": "A",
+   "stt": "A",
+   "stt_notes": [],
+   "words": [
+    0
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.91,
+   "said": "said small",
+   "stt": "said small",
+   "stt_notes": [],
+   "words": [
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 28.8,
+    "target": "A",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": ""
+   },
+   {
+    "t": 40.21,
+    "target": "A",
+    "said": "A",
+    "correct": false,
+    "kind": "sub",
+    "stt": "A"
+   }
+  ],
+  "1": [
+   {
+    "t": 35.07,
+    "target": "small",
+    "said": "small",
+    "correct": true,
+    "kind": "ok",
+    "stt": "snall ana"
+   },
+   {
+    "t": 48.91,
+    "target": "small",
+    "said": "said small",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "said small"
+   }
+  ],
+  "2": [
+   {
+    "t": 35.07,
+    "target": "ant",
+    "said": "ana",
+    "correct": false,
+    "kind": "sub",
+    "stt": "snall ana"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.25,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read The Busy Ant Listen carefully to how I read it. A small ant walked across the floor. Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     7
+    ]
+   ]
+  },
+  {
+   "t": 35.25,
+   "type": "say",
+   "kind": "uncertain",
+   "text": "I didn't quite hear that. Can you read it again?",
+   "spans": []
+  },
+  {
+   "t": 43.32,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... small ant walked",
+   "spans": [
+    [
+     1,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 52.02,
+   "type": "say",
+   "kind": "stall_phrase",
+   "text": "Listen... ant walked across",
+   "spans": [
+    [
+     2,
+     5
+    ]
+   ]
+  }
+ ]
+}

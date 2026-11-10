@@ -1,0 +1,227 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-after-s0",
+ "agent_id": "L04",
+ "seed": 1187,
+ "persona": {
+  "id": "L04",
+  "name": "Vivaan",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "en-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 2.5,
+  "attention_span_s": 90
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-rain",
+  "title": "The Rain Song",
+  "tags": [
+   "English",
+   "Grade 1"
+  ],
+  "words": 24,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 1"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 8.79,
+    "details": [
+     "LKG child landed on a 'Grade 1' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 8.79,
+      "title": "The Rain Song",
+      "grade_tag": "Grade 1"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 33.81,
+    "details": [
+     "Buddy started talking 3.6 s into a planned 3.92 s thinking pause.",
+     "Buddy started talking 4.2 s into a planned 4.24 s thinking pause.",
+     "Buddy started talking 0.7 s into a planned 4.49 s thinking pause.",
+     "Buddy started talking 0.6 s into a planned 4.35 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 33.81,
+      "paused_s": 3.6,
+      "planned_s": 3.92,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "patter falls the"
+     },
+     {
+      "t": 43.47,
+      "paused_s": 4.2,
+      "planned_s": 4.24,
+      "line": 0,
+      "buddy_kind": "stall_phrase",
+      "next_words": "falls the rain,"
+     },
+     {
+      "t": 65.01,
+      "paused_s": 0.7,
+      "planned_s": 4.49,
+      "line": 1,
+      "buddy_kind": "fix_word",
+      "next_words": "roof and window"
+     },
+     {
+      "t": 87.51,
+      "paused_s": 0.6,
+      "planned_s": 4.35,
+      "line": 1,
+      "buddy_kind": "stall_phrase",
+      "next_words": "roof and window"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [],
+  "frustration_peak": 3.9,
+  "frustration_events": [
+   {
+    "t": 30.2,
+    "kind": "progress",
+    "frustration": 0.0
+   },
+   {
+    "t": 33.81,
+    "kind": "interrupted_pause",
+    "frustration": 1.0,
+    "paused_s": 3.6
+   },
+   {
+    "t": 38.91,
+    "kind": "progress",
+    "frustration": 0.85
+   },
+   {
+    "t": 43.47,
+    "kind": "interrupted_pause",
+    "frustration": 1.85,
+    "paused_s": 4.2
+   },
+   {
+    "t": 48.0,
+    "kind": "progress",
+    "frustration": 1.7
+   },
+   {
+    "t": 52.61,
+    "kind": "progress",
+    "frustration": 1.55
+   },
+   {
+    "t": 57.47,
+    "kind": "progress",
+    "frustration": 1.4
+   },
+   {
+    "t": 65.01,
+    "kind": "interrupted_pause",
+    "frustration": 2.4,
+    "paused_s": 0.7
+   },
+   {
+    "t": 87.51,
+    "kind": "interrupted_pause",
+    "frustration": 3.4,
+    "paused_s": 0.6
+   },
+   {
+    "t": 89.96,
+    "kind": "dead_click",
+    "frustration": 3.9,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 6,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 0,
+  "interruptions": 4,
+  "unheard_words": 0,
+  "buddy_talk_s": 29.6,
+  "child_talk_s": 8.2,
+  "tired_said": false,
+  "time_to_text_s": 3.0,
+  "reader_page_audio_clips": 1,
+  "intro_s": 11.8,
+  "time_to_first_word_s": 12.6,
+  "session_s": 75.4,
+  "words_total": 24,
+  "words_attempted": 7,
+  "words_said_wrong": 2,
+  "corrections": 1,
+  "buddy_turns": 7,
+  "stall_prompts": 3,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 24,
+  "words_read": 1,
+  "words_helped": 7,
+  "words_to_practise": [
+   "On"
+  ],
+  "words_practised": 1,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 1,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 3,
+  "corrections": 1,
+  "seconds": 75.9,
+  "words_per_minute": 6.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 1,
+  "correction_quality": 5,
+  "completion": 2,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 105,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

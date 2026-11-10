@@ -1,0 +1,294 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c01/qa/REQ-PREPRIMARY-CONTENT/r4-before-s0",
+ "agent_id": "L06",
+ "seed": 1221,
+ "persona": {
+  "id": "L06",
+  "name": "Krish",
+  "grade": "LKG",
+  "age": 4.5,
+  "reading_proficiency": "emergent",
+  "language_preference": "gu-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.5,
+  "patience": 3.3,
+  "attention_span_s": 140
+ },
+ "outcome": "abandoned_frustration",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-mango",
+  "title": "Ravi and the Mango Tree",
+  "tags": [
+   "English",
+   "Grade 3"
+  ],
+  "words": 32,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "Grade 3"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 12.84,
+    "details": [
+     "Wanted gu-IN but ended up on a en-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 12.84,
+      "wanted": "gu-IN",
+      "got": "en-IN",
+      "title": "Ravi and the Mango Tree"
+     }
+    ],
+    "child_quote": "This isn't my language!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "NO_TEXT_FOR_MY_LEVEL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 12.84,
+    "details": [
+     "LKG child landed on a 'Grade 3' text, made for children who already read."
+    ],
+    "evidence": [
+     {
+      "t": 12.84,
+      "title": "Ravi and the Mango Tree",
+      "grade_tag": "Grade 3"
+     }
+    ],
+    "child_quote": "The words were too hard. I can't read those yet.",
+    "child_severity": "blocked"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 33.75,
+    "details": [
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 33.75,
+      "kind": "intro",
+      "said": "Hello! Welcome to Reading Buddy! Today we're going to read Ravi and the Mango Tr"
+     },
+     {
+      "t": 50.57,
+      "kind": "fix_word",
+      "said": "Let's practise this word together. Ravi"
+     },
+     {
+      "t": 56.39,
+      "kind": "fix_next",
+      "said": "Yes! Very nice! has"
+     },
+     {
+      "t": 62.44,
+      "kind": "repeat_line",
+      "said": "Yes! Very nice! Ravi has a mango tree in his garden. Now you say the whole line."
+     },
+     {
+      "t": 75.61,
+      "kind": "stall_phrase",
+      "said": "Listen... has a mango"
+     }
+    ],
+    "child_quote": "I don't know what Buddy said.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "NO_REPLAY_CONTROL",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 45.23,
+    "details": [
+     "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."
+    ],
+    "evidence": [
+     {
+      "t": 45.23,
+      "visible": [
+       "Reading Buddy",
+       "Home",
+       "Library",
+       "About",
+       "Back",
+       "Pause",
+       "End",
+       "Listening"
+      ]
+     }
+    ],
+    "child_quote": "I want to hear it again!",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 50.56,
+    "details": [
+     "Buddy started talking 2.9 s into a planned 3.62 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 50.56,
+      "paused_s": 2.9,
+      "planned_s": 3.62,
+      "line": 0,
+      "buddy_kind": "fix_word",
+      "next_words": "has a mango"
+     }
+    ],
+    "child_quote": "Buddy talked when I was thinking!",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "Buddy said yay! I liked that.",
+   "Buddy helped me with the hard word."
+  ],
+  "frustration_peak": 3.8,
+  "frustration_events": [
+   {
+    "t": 33.75,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 50.56,
+    "kind": "interrupted_pause",
+    "frustration": 1.6,
+    "paused_s": 2.9
+   },
+   {
+    "t": 50.57,
+    "kind": "not_understood",
+    "frustration": 2.2,
+    "say_kind": "fix_word"
+   },
+   {
+    "t": 55.8,
+    "kind": "praise",
+    "frustration": 1.8
+   },
+   {
+    "t": 56.39,
+    "kind": "not_understood",
+    "frustration": 2.4,
+    "say_kind": "fix_next"
+   },
+   {
+    "t": 62.44,
+    "kind": "not_understood",
+    "frustration": 3.0,
+    "say_kind": "repeat_line"
+   },
+   {
+    "t": 71.54,
+    "kind": "progress",
+    "frustration": 2.85
+   },
+   {
+    "t": 75.55,
+    "kind": "progress",
+    "frustration": 2.7
+   },
+   {
+    "t": 75.61,
+    "kind": "not_understood",
+    "frustration": 3.3,
+    "say_kind": "stall_phrase"
+   },
+   {
+    "t": 77.21,
+    "kind": "dead_click",
+    "frustration": 3.8,
+    "target": "End"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 1,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 1,
+  "unheard_words": 0,
+  "buddy_talk_s": 24.4,
+  "child_talk_s": 4.9,
+  "tired_said": false,
+  "time_to_text_s": 4.3,
+  "reader_page_audio_clips": 1,
+  "listen_first_s": 12.9,
+  "intro_s": 11.5,
+  "time_to_first_word_s": 11.5,
+  "session_s": 45.0,
+  "words_total": 32,
+  "words_attempted": 2,
+  "words_said_wrong": 0,
+  "corrections": 1,
+  "buddy_turns": 5,
+  "stall_prompts": 1,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 32,
+  "words_read": 0,
+  "words_helped": 4,
+  "words_to_practise": [
+   "Ravi",
+   "has"
+  ],
+  "words_practised": 2,
+  "correction_attempts": 2,
+  "lines_total": 4,
+  "lines_completed": 0,
+  "lines_skipped": [],
+  "finished": false,
+  "prompts": 1,
+  "corrections": 1,
+  "seconds": 45.4,
+  "words_per_minute": 5.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 1,
+  "enjoyment": 1
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-abandon.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 92,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

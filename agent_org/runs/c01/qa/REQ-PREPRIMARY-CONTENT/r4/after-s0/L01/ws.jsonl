@@ -1,0 +1,27 @@
+{"t": 11.54, "type": "ready", "message": null}
+{"t": 11.55, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे हरा समंदर ध्यान से सुनो, मैं कैसे पढ़ता हूँ। हरा समंदर, गोपी चंदर अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 4]]}
+{"t": 26.52, "type": "speech"}
+{"t": 28.72, "type": "heard", "text": "हड़ा"}
+{"t": 28.73, "type": "speech"}
+{"t": 31.27, "type": "speech"}
+{"t": 36.35, "type": "heard", "text": "समंदर समंदर गोपी"}
+{"t": 36.47, "type": "speech"}
+{"t": 38.82, "type": "speech"}
+{"t": 40.9, "type": "heard", "text": "चंदर"}
+{"t": 40.91, "type": "speech"}
+{"t": 40.98, "type": "say", "kind": "echo_line", "text": "बोल मेरी मछली कितना पानी? अब तुम बोलो!", "spans": [[4, 9]]}
+{"t": 50.9, "type": "say", "kind": "stall_phrase", "text": "सुनो... बोल मेरी मछली", "spans": [[4, 7]]}
+{"t": 54.81, "type": "speech"}
+{"t": 56.99, "type": "heard", "text": "वोल"}
+{"t": 56.99, "type": "speech"}
+{"t": 60.73, "type": "speech"}
+{"t": 62.74, "type": "heard", "text": "मेरी"}
+{"t": 62.74, "type": "speech"}
+{"t": 67.28, "type": "say", "kind": "stall_phrase", "text": "सुनो... मछली कितना पानी?", "spans": [[6, 9]]}
+{"t": 70.99, "type": "speech"}
+{"t": 74.48, "type": "heard", "text": "मछलि किथना"}
+{"t": 74.5, "type": "speech"}
+{"t": 78.3, "type": "speech"}
+{"t": 80.42, "type": "heard", "text": "पाणी"}
+{"t": 80.56, "type": "speech"}
+{"t": 108.21, "type": "summary", "summary": {"words_total": 9, "words_read": 3, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 2, "lines_completed": 1, "lines_skipped": [], "finished": false, "prompts": 2, "corrections": 0, "seconds": 96.7, "words_per_minute": 5.6}}

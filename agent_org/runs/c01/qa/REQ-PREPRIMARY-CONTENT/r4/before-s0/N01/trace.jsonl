@@ -1,0 +1,23 @@
+{"t": 2.1, "kind": "open_app", "brief": "Aarav, Nursery (about 3.5 years). Prefers en-IN. Cannot read yet. Copies words he has just heard."}
+{"t": 2.2, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.29, "kind": "tap", "target": "बारिश आई The Rain Came Hindi Grade 1-2 P", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.92, "kind": "opened_text", "hash": "#/read/hi-baarish", "title": "बारिश आई", "tags": ["Hindi", "Grade 1-2"], "words": 17, "lines": 4}
+{"t": 6.21, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a hi-IN text."}
+{"t": 6.21, "kind": "issue", "code": "NO_TEXT_FOR_MY_LEVEL", "detail": "Nursery child landed on a 'Grade 1-2' text, made for children who already read."}
+{"t": 10.46, "kind": "tap", "target": "Listen first", "why": "wants to hear it first", "view": "view-reader"}
+{"t": 19.91, "kind": "listened_first", "seconds": 8.5}
+{"t": 19.92, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 22.3, "kind": "session_started", "tries": 1}
+{"t": 31.34, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 34.75, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 59.29, "kind": "stuck", "word": "गरजे,", "waited": 2.2}
+{"t": 62.17, "kind": "tap_mic_to_talk"}
+{"t": 62.46, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 69.63, "kind": "stuck", "word": "बारिश", "waited": 2.9}
+{"t": 95.68, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.9 s into a planned 4.26 s thinking pause."}
+{"t": 101.26, "kind": "said_tired", "heard": "मैं थक गया"}
+{"t": 109.47, "kind": "tap", "target": "Resume", "why": "trying to carry on", "view": "view-reader"}
+{"t": 110.37, "kind": "resumed", "after_s": 6.5}
+{"t": 127.16, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 5.1 s into a planned 4.06 s thinking pause."}
+{"t": 142.66, "kind": "abandon", "why": "attention", "frustration": 2.45}
+{"t": 143.16, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}
