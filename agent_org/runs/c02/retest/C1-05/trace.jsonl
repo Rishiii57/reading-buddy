@@ -1,0 +1,17 @@
+{"t": 2.75, "kind": "open_app", "brief": "Om, Class 1 (about 6.5 years). Prefers hi-IN. Confident Hindi reader for his age."}
+{"t": 2.87, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 4.0, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-languages)", "view": "view-languages"}
+{"t": 5.62, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 7.89, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 8.08, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted hi-IN but ended up on a gu-IN text."}
+{"t": 12.51, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.55, "kind": "session_started", "tries": 1}
+{"t": 15.62, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 24.89, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 27.7, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 38.13, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 39.45, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 41.03, "kind": "tap_mic_to_talk"}
+{"t": 41.06, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 45.91, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}
+{"t": 68.37, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in gu-IN, which this child understands poorly (0.0)."}

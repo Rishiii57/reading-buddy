@@ -1,0 +1,368 @@
+{
+ "utterances": [
+  {
+   "t": 24.88,
+   "said": "મામાણું ઘર કેટલે",
+   "stt": "મામાણું ઘર કેટલે",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2
+   ],
+   "muted_words": 3,
+   "over_buddy": true
+  },
+  {
+   "t": 30.46,
+   "said": "મામાનું",
+   "stt": "મામાણું",
+   "stt_notes": [
+    "'મામાનું' heard as 'મામાણું'"
+   ],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 33.75,
+   "said": "કેટલે",
+   "stt": "કેટલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 37.22,
+   "said": "ઘર કેટલે",
+   "stt": "ઘર કેટલે",
+   "stt_notes": [],
+   "words": [
+    1,
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 39.45,
+   "said": "દીવો",
+   "stt": "દીવો",
+   "stt_notes": [],
+   "words": [
+    3
+   ],
+   "muted_words": 1,
+   "over_buddy": true
+  },
+  {
+   "t": 45.06,
+   "said": "દીવો વળે એટલે",
+   "stt": "દીવો વળે એટલે",
+   "stt_notes": [],
+   "words": [
+    3,
+    4,
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.86,
+   "said": "દીવો મૈં મેં તો ધીઠો",
+   "stt": "દીવો મૈં મેં તો ધીઠો",
+   "stt_notes": [],
+   "words": [
+    6,
+    7,
+    8,
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 58.26,
+   "said": "દીઠો",
+   "stt": "દીઠો",
+   "stt_notes": [],
+   "words": [
+    9
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 67.08,
+   "said": "મામૌ લાગે મીઠો",
+   "stt": "મામૌ લાગે મીઠો",
+   "stt_notes": [],
+   "words": [
+    10,
+    11,
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 24.88,
+    "target": "મામાનું",
+    "said": "મામાણું",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મામાણું ઘર કેટલે"
+   },
+   {
+    "t": 30.46,
+    "target": "મામાનું",
+    "said": "મામાનું",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાણું"
+   }
+  ],
+  "1": [
+   {
+    "t": 24.88,
+    "target": "ઘર",
+    "said": "ઘર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાણું ઘર કેટલે"
+   },
+   {
+    "t": 30.46,
+    "target": "ઘર",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "મામાણું"
+   },
+   {
+    "t": 37.22,
+    "target": "ઘર",
+    "said": "ઘર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઘર કેટલે"
+   }
+  ],
+  "2": [
+   {
+    "t": 24.88,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાણું ઘર કેટલે"
+   },
+   {
+    "t": 33.75,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "કેટલે"
+   },
+   {
+    "t": 37.22,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "ઘર કેટલે"
+   }
+  ],
+  "3": [
+   {
+    "t": 39.45,
+    "target": "દીવો",
+    "said": "દીવો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો"
+   },
+   {
+    "t": 45.06,
+    "target": "દીવો",
+    "said": "દીવો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો વળે એટલે"
+   }
+  ],
+  "4": [
+   {
+    "t": 45.06,
+    "target": "બળે",
+    "said": "વળે",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીવો વળે એટલે"
+   }
+  ],
+  "5": [
+   {
+    "t": 45.06,
+    "target": "એટલે",
+    "said": "એટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો વળે એટલે"
+   }
+  ],
+  "6": [
+   {
+    "t": 55.86,
+    "target": "દીવો",
+    "said": "દીવો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો મૈં મેં તો ધીઠો"
+   }
+  ],
+  "7": [
+   {
+    "t": 55.86,
+    "target": "મેં",
+    "said": "મૈં મેં",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "દીવો મૈં મેં તો ધીઠો"
+   }
+  ],
+  "8": [
+   {
+    "t": 55.86,
+    "target": "તો",
+    "said": "તો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો મૈં મેં તો ધીઠો"
+   }
+  ],
+  "9": [
+   {
+    "t": 55.86,
+    "target": "દીઠો",
+    "said": "ધીઠો",
+    "correct": false,
+    "kind": "sub",
+    "stt": "દીવો મૈં મેં તો ધીઠો"
+   },
+   {
+    "t": 58.26,
+    "target": "દીઠો",
+    "said": "દીઠો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીઠો"
+   }
+  ],
+  "10": [
+   {
+    "t": 67.08,
+    "target": "મામો",
+    "said": "મામૌ",
+    "correct": false,
+    "kind": "sub",
+    "stt": "મામૌ લાગે મીઠો"
+   }
+  ],
+  "11": [
+   {
+    "t": 67.08,
+    "target": "લાગે",
+    "said": "લાગે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામૌ લાગે મીઠો"
+   }
+  ],
+  "12": [
+   {
+    "t": 67.08,
+    "target": "મીઠો",
+    "said": "મીઠો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામૌ લાગે મીઠો"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 13.58,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 37.33,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "દીવો બળે એટલે. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 45.09,
+   "type": "say",
+   "kind": "praise",
+   "text": "બહુ સરસ! વાંચતો રહે.",
+   "spans": []
+  },
+  {
+   "t": 45.09,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "દીવો મેં તો દીઠો હવે તું બોલ!",
+   "spans": [
+    [
+     6,
+     10
+    ]
+   ]
+  },
+  {
+   "t": 58.28,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "મામો લાગે મીઠો. હવે તું બોલ!",
+   "spans": [
+    [
+     10,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 67.12,
+   "type": "say",
+   "kind": "finish",
+   "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!",
+   "spans": []
+  }
+ ]
+}

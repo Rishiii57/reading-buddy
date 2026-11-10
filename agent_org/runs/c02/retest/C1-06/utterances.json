@@ -1,0 +1,157 @@
+{
+ "utterances": [
+  {
+   "t": 36.13,
+   "said": "મામાનું ઘર ઘર",
+   "stt": "મામાનું ઘર ઘર",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 41.73,
+   "said": "કેટલે",
+   "stt": "કેટલે",
+   "stt_notes": [],
+   "words": [
+    2
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 48.92,
+   "said": "દીવો બળે બળે",
+   "stt": "દીવો બળે બળે",
+   "stt_notes": [],
+   "words": [
+    3,
+    4
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 52.83,
+   "said": "એટલે",
+   "stt": "એટલે",
+   "stt_notes": [],
+   "words": [
+    5
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 36.13,
+    "target": "મામાનું",
+    "said": "મામાનું",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાનું ઘર ઘર"
+   }
+  ],
+  "1": [
+   {
+    "t": 36.13,
+    "target": "ઘર",
+    "said": "ઘર",
+    "correct": true,
+    "kind": "ok",
+    "stt": "મામાનું ઘર ઘર"
+   }
+  ],
+  "2": [
+   {
+    "t": 41.73,
+    "target": "કેટલે",
+    "said": "કેટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "કેટલે"
+   }
+  ],
+  "3": [
+   {
+    "t": 48.92,
+    "target": "દીવો",
+    "said": "દીવો",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો બળે બળે"
+   }
+  ],
+  "4": [
+   {
+    "t": 48.92,
+    "target": "બળે",
+    "said": "બળે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "દીવો બળે બળે"
+   }
+  ],
+  "5": [
+   {
+    "t": 52.83,
+    "target": "એટલે",
+    "said": "એટલે",
+    "correct": true,
+    "kind": "ok",
+    "stt": "એટલે"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.12,
+   "type": "say",
+   "kind": "intro",
+   "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. મામાનું ઘર કેટલે હવે તારો વારો. મારી સાથે વાંચ!",
+   "spans": [
+    [
+     0,
+     3
+    ]
+   ]
+  },
+  {
+   "t": 42.57,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "દીવો બળે એટલે. હવે તું બોલ!",
+   "spans": [
+    [
+     3,
+     6
+    ]
+   ]
+  },
+  {
+   "t": 52.95,
+   "type": "say",
+   "kind": "praise",
+   "text": "બહુ સરસ! વાંચતો રહે.",
+   "spans": []
+  },
+  {
+   "t": 52.95,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "દીવો મેં તો દીઠો હવે તું બોલ!",
+   "spans": [
+    [
+     6,
+     10
+    ]
+   ]
+  }
+ ]
+}

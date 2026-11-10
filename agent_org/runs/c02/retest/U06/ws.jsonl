@@ -1,0 +1,19 @@
+{"t": 12.26, "type": "ready", "message": null}
+{"t": 12.42, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Humpty Dumpty Listen carefully to how I read it. Humpty Dumpty sat on a wall Now it's your turn. Read it with me!", "spans": [[0, 6]]}
+{"t": 27.63, "type": "speech"}
+{"t": 36.06, "type": "heard", "text": "Humpty day sat oa a a wall"}
+{"t": 36.06, "type": "speech"}
+{"t": 36.07, "type": "say", "kind": "echo_line", "text": "Humpty Dumpty had a great fall. Now you try!", "spans": [[6, 12]]}
+{"t": 41.27, "type": "speech"}
+{"t": 50.95, "type": "heard", "text": "Humpty Humpty Dumpty haa haa a a get fall"}
+{"t": 50.95, "type": "speech"}
+{"t": 50.95, "type": "say", "kind": "praise", "text": "Very nice! Keep going.", "spans": []}
+{"t": 50.95, "type": "say", "kind": "echo_line", "text": "All the king's horses and all the king's men Now you try!", "spans": [[12, 21]]}
+{"t": 64.4, "type": "speech"}
+{"t": 73.22, "type": "heard", "text": "ala tha king's here and all the king's"}
+{"t": 73.22, "type": "speech"}
+{"t": 74.34, "type": "speech"}
+{"t": 75.8, "type": "heard", "text": "men"}
+{"t": 75.87, "type": "speech"}
+{"t": 75.98, "type": "say", "kind": "echo_line", "text": "Couldn't put Humpty together again. Now you try!", "spans": [[21, 26]]}
+{"t": 82.69, "type": "summary", "summary": {"words_total": 26, "words_read": 14, "words_helped": 5, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 3, "lines_skipped": [], "finished": false, "prompts": 0, "corrections": 0, "seconds": 70.4, "words_per_minute": 16.2}}

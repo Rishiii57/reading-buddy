@@ -1,0 +1,19 @@
+{"t": 2.21, "kind": "open_app", "brief": "Kian, Class 2 (about 7.5 years). Prefers en-IN. Loses his place."}
+{"t": 2.27, "kind": "tap", "target": "Start Reading", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.15, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "curious tap", "view": "view-languages"}
+{"t": 4.16, "kind": "tap", "target": "चिड़िया का घोंसला The Sparrow's Nest Hin", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.36, "kind": "opened_text", "hash": "#/read/hi-chidiya", "title": "चिड़िया का घोंसला", "tags": ["Hindi", "Grade 2-3"], "words": 30, "lines": 4}
+{"t": 8.98, "kind": "issue", "code": "WRONG_LANGUAGE_TEXT", "detail": "Wanted en-IN but ended up on a hi-IN text."}
+{"t": 13.43, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.8, "kind": "session_started", "tries": 1}
+{"t": 15.83, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 28.23, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 38.3, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 46.17, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 59.13, "kind": "issue", "code": "INTERRUPTED_WHILE_THINKING", "detail": "Buddy started talking 3.3 s into a planned 2.09 s thinking pause."}
+{"t": 63.63, "kind": "tap_mic_to_talk"}
+{"t": 63.82, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 66.96, "kind": "issue", "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD", "detail": "Buddy spoke in hi-IN, which this child understands poorly (0.0)."}
+{"t": 73.82, "kind": "issue", "code": "SAME_WORD_ASKED_AGAIN_AND_AGAIN", "detail": "Asked to say 'पर' 3 times."}
+{"t": 77.17, "kind": "abandon", "why": "frustration", "frustration": 4.2}
+{"t": 78.1, "kind": "tap", "target": "End", "why": "stopping", "view": "view-reader"}

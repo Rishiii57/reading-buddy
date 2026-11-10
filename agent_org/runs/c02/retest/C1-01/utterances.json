@@ -1,0 +1,328 @@
+{
+ "utterances": [
+  {
+   "t": 27.58,
+   "said": "Rain rain ga all",
+   "stt": "Rain rain ga all",
+   "stt_notes": [],
+   "words": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "muted_words": 4,
+   "over_buddy": true
+  },
+  {
+   "t": 33.49,
+   "said": "Rain rain",
+   "stt": "Rain rain",
+   "stt_notes": [],
+   "words": [
+    0,
+    1
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 38.28,
+   "said": "at",
+   "stt": "at",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 40.54,
+   "said": "away",
+   "stt": "away",
+   "stt_notes": [],
+   "words": [
+    2,
+    3
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 49.58,
+   "said": "Come again and",
+   "stt": "Come again and",
+   "stt_notes": [],
+   "words": [
+    4,
+    5,
+    6
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 55.08,
+   "said": "day",
+   "stt": "day",
+   "stt_notes": [],
+   "words": [
+    7
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 66.34,
+   "said": "Little children want ta to",
+   "stt": "Little children want ta to",
+   "stt_notes": [],
+   "words": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  },
+  {
+   "t": 70.29,
+   "said": "play",
+   "stt": "play",
+   "stt_notes": [],
+   "words": [
+    12
+   ],
+   "muted_words": 0,
+   "over_buddy": false
+  }
+ ],
+ "attempts": {
+  "0": [
+   {
+    "t": 27.58,
+    "target": "Rain",
+    "said": "Rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Rain rain ga all"
+   },
+   {
+    "t": 33.49,
+    "target": "Rain",
+    "said": "Rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Rain rain"
+   }
+  ],
+  "1": [
+   {
+    "t": 27.58,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Rain rain ga all"
+   },
+   {
+    "t": 33.49,
+    "target": "rain",
+    "said": "rain",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Rain rain"
+   }
+  ],
+  "2": [
+   {
+    "t": 27.58,
+    "target": "go",
+    "said": "ga",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Rain rain ga all"
+   },
+   {
+    "t": 38.28,
+    "target": "go",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "at"
+   },
+   {
+    "t": 40.54,
+    "target": "go",
+    "said": null,
+    "correct": false,
+    "kind": "skip",
+    "stt": "away"
+   }
+  ],
+  "3": [
+   {
+    "t": 27.58,
+    "target": "away",
+    "said": "all",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Rain rain ga all"
+   },
+   {
+    "t": 38.28,
+    "target": "away",
+    "said": "at",
+    "correct": false,
+    "kind": "sub",
+    "stt": "at"
+   },
+   {
+    "t": 40.54,
+    "target": "away",
+    "said": "away",
+    "correct": true,
+    "kind": "ok",
+    "stt": "away"
+   }
+  ],
+  "4": [
+   {
+    "t": 49.58,
+    "target": "Come",
+    "said": "Come",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Come again and"
+   }
+  ],
+  "5": [
+   {
+    "t": 49.58,
+    "target": "again",
+    "said": "again",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Come again and"
+   }
+  ],
+  "6": [
+   {
+    "t": 49.58,
+    "target": "another",
+    "said": "and",
+    "correct": false,
+    "kind": "sub",
+    "stt": "Come again and"
+   }
+  ],
+  "7": [
+   {
+    "t": 55.08,
+    "target": "day",
+    "said": "day",
+    "correct": true,
+    "kind": "ok",
+    "stt": "day"
+   }
+  ],
+  "8": [
+   {
+    "t": 66.34,
+    "target": "Little",
+    "said": "Little",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Little children want ta to"
+   }
+  ],
+  "9": [
+   {
+    "t": 66.34,
+    "target": "children",
+    "said": "children",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Little children want ta to"
+   }
+  ],
+  "10": [
+   {
+    "t": 66.34,
+    "target": "want",
+    "said": "want",
+    "correct": true,
+    "kind": "ok",
+    "stt": "Little children want ta to"
+   }
+  ],
+  "11": [
+   {
+    "t": 66.34,
+    "target": "to",
+    "said": "ta to",
+    "correct": true,
+    "kind": "self_corrected",
+    "stt": "Little children want ta to"
+   }
+  ],
+  "12": [
+   {
+    "t": 70.29,
+    "target": "play",
+    "said": "play",
+    "correct": true,
+    "kind": "ok",
+    "stt": "play"
+   }
+  ]
+ },
+ "buddy_said": [
+  {
+   "t": 15.3,
+   "type": "say",
+   "kind": "intro",
+   "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!",
+   "spans": [
+    [
+     0,
+     4
+    ]
+   ]
+  },
+  {
+   "t": 41.43,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Come again another day Now you try!",
+   "spans": [
+    [
+     4,
+     8
+    ]
+   ]
+  },
+  {
+   "t": 57.23,
+   "type": "say",
+   "kind": "echo_line",
+   "text": "Little children want to play. Now you try!",
+   "spans": [
+    [
+     8,
+     13
+    ]
+   ]
+  },
+  {
+   "t": 70.83,
+   "type": "say",
+   "kind": "finish",
+   "text": "Well done! You have finished your poem!",
+   "spans": []
+  }
+ ]
+}

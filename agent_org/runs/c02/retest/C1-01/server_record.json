@@ -1,0 +1,349 @@
+{
+ "id": "20261110-112222-dcd8df",
+ "text_id": "en-rainrain",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 9,
+  "words_helped": 4,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 3,
+  "lines_completed": 3,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 59.8,
+  "words_per_minute": 13.0
+ },
+ "log": [
+  {
+   "t": 0.028,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 13.732,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 18.222,
+   "event": "transcript",
+   "text": "Rain rain"
+  },
+  {
+   "t": 18.222,
+   "event": "progress",
+   "frm": 0,
+   "to": 2
+  },
+  {
+   "t": 23.056,
+   "event": "transcript",
+   "text": "at"
+  },
+  {
+   "t": 25.309,
+   "event": "transcript",
+   "text": "away"
+  },
+  {
+   "t": 25.309,
+   "event": "progress",
+   "frm": 2,
+   "to": 4
+  },
+  {
+   "t": 25.309,
+   "event": "echo_slips_accepted",
+   "words": [
+    2
+   ]
+  },
+  {
+   "t": 25.309,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 25.309,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 30.714,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 34.351,
+   "event": "transcript",
+   "text": "Come again and"
+  },
+  {
+   "t": 34.351,
+   "event": "progress",
+   "frm": 4,
+   "to": 6
+  },
+  {
+   "t": 39.852,
+   "event": "transcript",
+   "text": "day"
+  },
+  {
+   "t": 39.852,
+   "event": "restart",
+   "frm": 6,
+   "to": 3
+  },
+  {
+   "t": 41.48,
+   "event": "progress",
+   "to": 8
+  },
+  {
+   "t": 41.48,
+   "event": "echo_slips_accepted",
+   "words": [
+    4,
+    5,
+    6
+   ]
+  },
+  {
+   "t": 41.48,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 41.48,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 46.319,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 51.112,
+   "event": "transcript",
+   "text": "Little children want ta to"
+  },
+  {
+   "t": 51.112,
+   "event": "progress",
+   "frm": 8,
+   "to": 12
+  },
+  {
+   "t": 55.066,
+   "event": "transcript",
+   "text": "play"
+  },
+  {
+   "t": 55.066,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 55.066,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 55.066,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 55.066,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 16.058,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 18.222,
+   "type": "transcript",
+   "text": "Rain rain",
+   "latency": 120,
+   "audio_duration_ms": 1740,
+   "message": null
+  },
+  {
+   "t": 21.662,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 23.056,
+   "type": "transcript",
+   "text": "at",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 23.918,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 25.309,
+   "type": "transcript",
+   "text": "away",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 31.421,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 34.351,
+   "type": "transcript",
+   "text": "Come again and",
+   "latency": 120,
+   "audio_duration_ms": 2510,
+   "message": null
+  },
+  {
+   "t": 38.461,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 39.852,
+   "type": "transcript",
+   "text": "day",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  },
+  {
+   "t": 46.638,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 51.112,
+   "type": "transcript",
+   "text": "Little children want ta to",
+   "latency": 120,
+   "audio_duration_ms": 4050,
+   "message": null
+  },
+  {
+   "t": 53.675,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 55.066,
+   "type": "transcript",
+   "text": "play",
+   "latency": 120,
+   "audio_duration_ms": 970,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "Rain rain ga all",
+   "heard": "",
+   "muted_words": 4,
+   "duration_s": 3.28
+  },
+  {
+   "text": "Rain rain",
+   "heard": "Rain rain",
+   "muted_words": 0,
+   "duration_s": 1.74
+  },
+  {
+   "text": "at",
+   "heard": "at",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "away",
+   "heard": "away",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Come again and",
+   "heard": "Come again and",
+   "muted_words": 0,
+   "duration_s": 2.51
+  },
+  {
+   "text": "day",
+   "heard": "day",
+   "muted_words": 0,
+   "duration_s": 0.97
+  },
+  {
+   "text": "Little children want ta to",
+   "heard": "Little children want ta to",
+   "muted_words": 0,
+   "duration_s": 4.05
+  },
+  {
+   "text": "play",
+   "heard": "play",
+   "muted_words": 0,
+   "duration_s": 0.97
+  }
+ ],
+ "tts_offline": 360
+}

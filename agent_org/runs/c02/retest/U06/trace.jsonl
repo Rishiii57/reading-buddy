@@ -1,0 +1,14 @@
+{"t": 2.05, "kind": "open_app", "brief": "Tara, UKG (about 5.5 years). Prefers en-IN. Uses a tablet daily; explores."}
+{"t": 2.38, "kind": "tap", "target": "A B C English Fun poems and passages in ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 3.86, "kind": "tap", "target": "Humpty Dumpty English UKG Rhyme 1 min re", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 5.72, "kind": "opened_text", "hash": "#/read/en-humpty", "title": "Humpty Dumpty", "tags": ["English", "UKG"], "words": 26, "lines": 4}
+{"t": 12.04, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 14.55, "kind": "session_started", "tries": 1}
+{"t": 26.76, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 62.58, "kind": "tap_mic_to_talk"}
+{"t": 63.05, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 80.39, "kind": "tap_mic_to_talk"}
+{"t": 80.42, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}
+{"t": 82.22, "kind": "off_task_tap", "target": "Home"}
+{"t": 82.26, "kind": "tap", "target": "Home", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 83.25, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Home' left the reading page."}

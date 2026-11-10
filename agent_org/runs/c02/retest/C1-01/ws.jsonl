@@ -1,0 +1,27 @@
+{"t": 15.25, "type": "ready", "message": null}
+{"t": 15.3, "type": "say", "kind": "intro", "text": "Hello! Welcome to Reading Buddy! Today we're going to read Rain, Rain, Go Away Listen carefully to how I read it. Rain, rain, go away Now it's your turn. Read it with me!", "spans": [[0, 4]]}
+{"t": 31.35, "type": "speech"}
+{"t": 33.55, "type": "heard", "text": "Rain rain"}
+{"t": 33.64, "type": "speech"}
+{"t": 36.89, "type": "speech"}
+{"t": 38.55, "type": "heard", "text": "at"}
+{"t": 38.55, "type": "speech"}
+{"t": 39.14, "type": "speech"}
+{"t": 40.6, "type": "heard", "text": "away"}
+{"t": 41.39, "type": "speech"}
+{"t": 41.43, "type": "say", "kind": "echo_line", "text": "Come again another day Now you try!", "spans": [[4, 8]]}
+{"t": 46.76, "type": "speech"}
+{"t": 49.73, "type": "heard", "text": "Come again and"}
+{"t": 49.76, "type": "speech"}
+{"t": 53.78, "type": "speech"}
+{"t": 55.08, "type": "heard", "text": "day"}
+{"t": 55.11, "type": "speech"}
+{"t": 57.23, "type": "say", "kind": "echo_line", "text": "Little children want to play. Now you try!", "spans": [[8, 13]]}
+{"t": 61.87, "type": "speech"}
+{"t": 66.37, "type": "heard", "text": "Little children want ta to"}
+{"t": 66.37, "type": "speech"}
+{"t": 68.92, "type": "speech"}
+{"t": 70.46, "type": "heard", "text": "play"}
+{"t": 70.51, "type": "speech"}
+{"t": 70.83, "type": "say", "kind": "finish", "text": "Well done! You have finished your poem!", "spans": []}
+{"t": 70.97, "type": "summary", "summary": {"words_total": 13, "words_read": 9, "words_helped": 4, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 3, "lines_completed": 3, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 55.1, "words_per_minute": 14.2}}

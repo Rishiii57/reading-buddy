@@ -1,0 +1,236 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "C1-04",
+ "seed": 1442,
+ "persona": {
+  "id": "C1-04",
+  "name": "Jiya",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "en-IN",
+  "journey": "listen_then_read",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/en-baabaa",
+  "title": "Baa, Baa, Black Sheep",
+  "tags": [
+   "English",
+   "LKG"
+  ],
+  "words": 15,
+  "lines": 4,
+  "language": "en-IN",
+  "grade_tag": "LKG"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 13.35,
+    "details": [
+     "Buddy spoke in en-IN, which this child understands poorly (0.5).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.5).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.5).",
+     "Buddy spoke in en-IN, which this child understands poorly (0.5)."
+    ],
+    "evidence": [
+     {
+      "t": 13.35,
+      "kind": "intro",
+      "said": "Hello! Welcome to Reading Buddy! Today we're going to read Baa, Baa, Black Sheep"
+     },
+     {
+      "t": 34.19,
+      "kind": "echo_line",
+      "said": "Have you any wool? Now you try!"
+     },
+     {
+      "t": 46.1,
+      "kind": "uncertain",
+      "said": "I didn't quite hear that. Can you read it again?"
+     },
+     {
+      "t": 78.12,
+      "kind": "finish",
+      "said": "Well done! You have finished your poem!"
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'Baa' as 'Ba' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "Baa",
+      "child_said": "Ba",
+      "kind": "sub",
+      "speech_model_wrote": "Ba baa"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 1.2,
+  "frustration_events": [
+   {
+    "t": 13.35,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 27.5,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 33.28,
+    "kind": "progress",
+    "frustration": 0.3
+   },
+   {
+    "t": 34.19,
+    "kind": "not_understood",
+    "frustration": 0.9,
+    "say_kind": "echo_line"
+   },
+   {
+    "t": 39.94,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 45.18,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 46.1,
+    "kind": "not_understood",
+    "frustration": 1.2,
+    "say_kind": "uncertain"
+   },
+   {
+    "t": 53.2,
+    "kind": "progress",
+    "frustration": 1.05
+   },
+   {
+    "t": 56.66,
+    "kind": "progress",
+    "frustration": 0.9
+   },
+   {
+    "t": 64.98,
+    "kind": "progress",
+    "frustration": 0.75
+   },
+   {
+    "t": 74.28,
+    "kind": "progress",
+    "frustration": 0.6
+   },
+   {
+    "t": 77.15,
+    "kind": "progress",
+    "frustration": 0.45
+   },
+   {
+    "t": 77.49,
+    "kind": "praise",
+    "frustration": 0.05
+   },
+   {
+    "t": 78.12,
+    "kind": "not_understood",
+    "frustration": 0.65,
+    "say_kind": "finish"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 3,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 1,
+  "interruptions": 0,
+  "unheard_words": 0,
+  "buddy_talk_s": 32.3,
+  "child_talk_s": 18.7,
+  "tired_said": false,
+  "time_to_text_s": 2.0,
+  "reader_page_audio_clips": 1,
+  "intro_s": 12.0,
+  "time_to_first_word_s": 12.0,
+  "session_s": 72.6,
+  "words_total": 15,
+  "words_attempted": 15,
+  "words_said_wrong": 2,
+  "corrections": 0,
+  "buddy_turns": 6,
+  "stall_prompts": 0,
+  "uncertain_prompts": 1
+ },
+ "tutor_summary": {
+  "words_total": 15,
+  "words_read": 14,
+  "words_helped": 1,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 66.3,
+  "words_per_minute": 13.6
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 5,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 3
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 425,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

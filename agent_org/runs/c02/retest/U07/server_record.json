@@ -1,0 +1,531 @@
+{
+ "id": "20261110-112147-3391b8",
+ "text_id": "gu-mamanughar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 13,
+  "words_read": 10,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 1,
+  "corrections": 0,
+  "seconds": 92.6,
+  "words_per_minute": 7.8
+ },
+ "log": [
+  {
+   "t": 0.017,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.551,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 20.255,
+   "event": "transcript",
+   "text": "મામાનું ઘડ ઘર કેટલે"
+  },
+  {
+   "t": 20.255,
+   "event": "progress",
+   "frm": 0,
+   "to": 3
+  },
+  {
+   "t": 20.255,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 20.255,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 24.997,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 29.618,
+   "event": "transcript",
+   "text": "દીવો"
+  },
+  {
+   "t": 29.618,
+   "event": "progress",
+   "frm": 3,
+   "to": 4
+  },
+  {
+   "t": 36.146,
+   "event": "transcript",
+   "text": "બળે એઠલે"
+  },
+  {
+   "t": 36.146,
+   "event": "progress",
+   "frm": 4,
+   "to": 5
+  },
+  {
+   "t": 37.819,
+   "event": "progress",
+   "to": 6
+  },
+  {
+   "t": 37.819,
+   "event": "echo_slips_accepted",
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 37.819,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 37.819,
+   "event": "state",
+   "state": "STANZA_COMPLETED"
+  },
+  {
+   "t": 37.819,
+   "event": "praise",
+   "phrase": "keep_going"
+  },
+  {
+   "t": 37.819,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 2
+  },
+  {
+   "t": 41.409,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 49.753,
+   "event": "transcript",
+   "text": "ધીવો મૈં મૈં"
+  },
+  {
+   "t": 49.753,
+   "event": "uncertain",
+   "text": "ધીવો મૈં મૈં"
+  },
+  {
+   "t": 54.472,
+   "event": "transcript",
+   "text": "દીઠો"
+  },
+  {
+   "t": 54.472,
+   "event": "progress",
+   "frm": 6,
+   "to": 7
+  },
+  {
+   "t": 60.391,
+   "event": "transcript",
+   "text": "મેં તો દીઠો દીઠો"
+  },
+  {
+   "t": 60.391,
+   "event": "progress",
+   "frm": 7,
+   "to": 10
+  },
+  {
+   "t": 60.391,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 2
+  },
+  {
+   "t": 60.391,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 3
+  },
+  {
+   "t": 64.177,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 66.325,
+   "event": "transcript",
+   "text": "મામો"
+  },
+  {
+   "t": 66.325,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 71.987,
+   "event": "transcript",
+   "text": "મીઠો"
+  },
+  {
+   "t": 71.987,
+   "event": "restart",
+   "frm": 11,
+   "to": 3
+  },
+  {
+   "t": 77.614,
+   "event": "transcript",
+   "text": "મામૌ મીટો"
+  },
+  {
+   "t": 77.614,
+   "event": "progress",
+   "frm": 10,
+   "to": 11
+  },
+  {
+   "t": 80.405,
+   "event": "transcript",
+   "text": "લાગે"
+  },
+  {
+   "t": 80.405,
+   "event": "progress",
+   "frm": 11,
+   "to": 12
+  },
+  {
+   "t": 84.993,
+   "event": "state",
+   "state": "STALL_PROMPT",
+   "frm": 12,
+   "to": 13,
+   "line": 3
+  },
+  {
+   "t": 84.993,
+   "event": "prompt",
+   "level": 1,
+   "line": 3,
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 87.21,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 89.282,
+   "event": "transcript",
+   "text": "મીઠો"
+  },
+  {
+   "t": 89.282,
+   "event": "progress",
+   "frm": 12,
+   "to": 13
+  },
+  {
+   "t": 89.282,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 3
+  },
+  {
+   "t": 89.282,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 89.282,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.001,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 15.169,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 20.255,
+   "type": "transcript",
+   "text": "મામાનું ઘડ ઘર કેટલે",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 27.867,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.618,
+   "type": "transcript",
+   "text": "દીવો",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 33.303,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 36.146,
+   "type": "transcript",
+   "text": "બળે એઠલે",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 45.803,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 49.753,
+   "type": "transcript",
+   "text": "ધીવો મૈં મૈં",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 52.736,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 54.472,
+   "type": "transcript",
+   "text": "દીઠો",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 55.33,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 60.391,
+   "type": "transcript",
+   "text": "મેં તો દીઠો દીઠો",
+   "latency": 120,
+   "audio_duration_ms": 4640,
+   "message": null
+  },
+  {
+   "t": 64.594,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 66.325,
+   "type": "transcript",
+   "text": "મામો",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 69.134,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 71.987,
+   "type": "transcript",
+   "text": "મીઠો",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 73.663,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 77.614,
+   "type": "transcript",
+   "text": "મામૌ મીટો",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 78.468,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 80.405,
+   "type": "transcript",
+   "text": "લાગે",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  },
+  {
+   "t": 87.543,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 89.282,
+   "type": "transcript",
+   "text": "મીઠો",
+   "latency": 120,
+   "audio_duration_ms": 1310,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "મામાનું ઘડ ઘર કેટલે",
+   "heard": "મામાનું ઘડ ઘર કેટલે",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "દીવો",
+   "heard": "દીવો",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "બળે એઠલે",
+   "heard": "બળે એઠલે",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "ધીવો મૈં મૈં",
+   "heard": "ધીવો મૈં મૈં",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "દીઠો",
+   "heard": "દીઠો",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મેં તો દીઠો દીઠો",
+   "heard": "મેં તો દીઠો દીઠો",
+   "muted_words": 0,
+   "duration_s": 4.64
+  },
+  {
+   "text": "મામો",
+   "heard": "મામો",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મીઠો",
+   "heard": "મીઠો",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "મામૌ મીટો",
+   "heard": "મામૌ મીટો",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "લાગે",
+   "heard": "લાગે",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "",
+   "heard": "",
+   "muted_words": 0,
+   "duration_s": 1.31
+  },
+  {
+   "text": "મીઠો",
+   "heard": "મીઠો",
+   "muted_words": 0,
+   "duration_s": 1.31
+  }
+ ],
+ "tts_offline": 357
+}

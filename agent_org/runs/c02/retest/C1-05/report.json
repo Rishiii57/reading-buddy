@@ -1,0 +1,316 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "C1-05",
+ "seed": 1459,
+ "persona": {
+  "id": "C1-05",
+  "name": "Om",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "hi-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": false,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-mamanughar",
+  "title": "મામાનું ઘર કેટલે",
+  "tags": [
+   "Gujarati",
+   "Nursery"
+  ],
+  "words": 13,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "Nursery"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "WRONG_LANGUAGE_TEXT",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 8.08,
+    "details": [
+     "Wanted hi-IN but ended up on a gu-IN text."
+    ],
+    "evidence": [
+     {
+      "t": 8.08,
+      "wanted": "hi-IN",
+      "got": "gu-IN",
+      "title": "મામાનું ઘર કેટલે"
+     }
+    ],
+    "child_quote": "I wanted a poem in my language but got a different one.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "BUDDY_LANGUAGE_NOT_UNDERSTOOD",
+    "count": 4,
+    "evidence_level": "observed",
+    "first_t": 15.62,
+    "details": [
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0).",
+     "Buddy spoke in gu-IN, which this child understands poorly (0.0)."
+    ],
+    "evidence": [
+     {
+      "t": 15.62,
+      "kind": "intro",
+      "said": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું મામાનું ઘર કેટલે ધ્યાનથ"
+     },
+     {
+      "t": 38.13,
+      "kind": "echo_line",
+      "said": "દીવો બળે એટલે. હવે તું બોલ!"
+     },
+     {
+      "t": 45.91,
+      "kind": "praise",
+      "said": "બહુ સરસ! વાંચતો રહે."
+     },
+     {
+      "t": 68.37,
+      "kind": "finish",
+      "said": "શાબાશ! તેં તારી કવિતા પૂરી કરી!"
+     }
+    ],
+    "child_quote": "Buddy talked in a language I don't really know.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 2,
+    "evidence_level": "observed",
+    "first_t": 24.88,
+    "details": [
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 24.89,
+      "said": "મામાણું ઘર કેટલે",
+      "heard": ""
+     },
+     {
+      "t": 39.45,
+      "said": "દીવો",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "LONG_TUTOR_TALK",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 27.7,
+    "details": [
+     "Buddy talked for over 12 s in one go before the child could read."
+    ],
+    "evidence": [
+     {
+      "t": 27.7,
+      "talk_s": 12.1
+     }
+    ],
+    "child_quote": "Buddy talks a lot before I get to read.",
+    "child_severity": "annoying"
+   },
+   {
+    "code": "MISSED_ERROR",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": null,
+    "details": [
+     "Read 'મામો' as 'મામૌ' and it was marked as read correctly."
+    ],
+    "evidence": [
+     {
+      "word": "મામો",
+      "child_said": "મામૌ",
+      "kind": "sub",
+      "speech_model_wrote": "મામૌ લાગે મીઠો"
+     }
+    ],
+    "child_quote": "",
+    "child_severity": "annoying"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!"
+  ],
+  "frustration_peak": 2.6,
+  "frustration_events": [
+   {
+    "t": 15.62,
+    "kind": "not_understood",
+    "frustration": 0.6,
+    "say_kind": "intro"
+   },
+   {
+    "t": 24.89,
+    "kind": "unheard_speech",
+    "frustration": 1.4
+   },
+   {
+    "t": 24.89,
+    "kind": "progress",
+    "frustration": 1.25
+   },
+   {
+    "t": 27.7,
+    "kind": "long_wait",
+    "frustration": 1.65
+   },
+   {
+    "t": 30.46,
+    "kind": "progress",
+    "frustration": 1.5
+   },
+   {
+    "t": 33.75,
+    "kind": "progress",
+    "frustration": 1.35
+   },
+   {
+    "t": 37.22,
+    "kind": "progress",
+    "frustration": 1.2
+   },
+   {
+    "t": 38.13,
+    "kind": "not_understood",
+    "frustration": 1.8,
+    "say_kind": "echo_line"
+   },
+   {
+    "t": 39.45,
+    "kind": "unheard_speech",
+    "frustration": 2.6
+   },
+   {
+    "t": 39.45,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 45.06,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 45.09,
+    "kind": "praise",
+    "frustration": 1.9
+   },
+   {
+    "t": 45.91,
+    "kind": "not_understood",
+    "frustration": 2.5,
+    "say_kind": "praise"
+   },
+   {
+    "t": 55.86,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 58.26,
+    "kind": "progress",
+    "frustration": 2.2
+   },
+   {
+    "t": 67.08,
+    "kind": "progress",
+    "frustration": 2.05
+   },
+   {
+    "t": 67.12,
+    "kind": "praise",
+    "frustration": 1.65
+   },
+   {
+    "t": 68.37,
+    "kind": "not_understood",
+    "frustration": 2.25,
+    "say_kind": "finish"
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 3,
+  "praise_heard": 2,
+  "interruptions": 0,
+  "unheard_words": 4,
+  "buddy_talk_s": 28.2,
+  "child_talk_s": 12.3,
+  "tired_said": false,
+  "time_to_text_s": 4.3,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 7.5,
+  "intro_s": 13.6,
+  "session_s": 59.5,
+  "words_total": 13,
+  "words_attempted": 13,
+  "words_said_wrong": 2,
+  "corrections": 0,
+  "buddy_turns": 6,
+  "stall_prompts": 0,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 13,
+  "words_read": 11,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 54.0,
+  "words_per_minute": 14.5
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 4,
+  "interruption_load": 4,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 420,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

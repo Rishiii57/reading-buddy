@@ -1,0 +1,8 @@
+{"t": 5.01, "kind": "open_app", "brief": "Yash, UKG (about 5.5 years). Prefers gu-IN. Low confidence, reads very softly."}
+{"t": 5.13, "kind": "tap", "target": "Picked ગુજરાતી Lovely poems and stories ", "why": "looking for something to read (view-home)", "view": "view-home"}
+{"t": 5.96, "kind": "tap", "target": "મામાનું ઘર કેટલે How Far Is Uncle's Hous", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 8.26, "kind": "opened_text", "hash": "#/read/gu-mamanughar", "title": "મામાનું ઘર કેટલે", "tags": ["Gujarati", "Nursery"], "words": 13, "lines": 4}
+{"t": 12.58, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 15.21, "kind": "session_started", "tries": 1}
+{"t": 38.06, "kind": "tap_mic_to_talk"}
+{"t": 38.5, "kind": "tap", "target": "Listening", "why": "tapping the microphone to talk", "view": "view-reader"}

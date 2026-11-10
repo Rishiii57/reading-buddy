@@ -1,0 +1,193 @@
+{
+ "id": "20261110-112508-5d72ec",
+ "text_id": "hi-samandar",
+ "mode": "mic",
+ "summary": {
+  "words_total": 9,
+  "words_read": 7,
+  "words_helped": 2,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 2,
+  "lines_completed": 2,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 0,
+  "corrections": 0,
+  "seconds": 33.3,
+  "words_per_minute": 16.2
+ },
+ "log": [
+  {
+   "t": 0.015,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION"
+  },
+  {
+   "t": 14.628,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 17.64,
+   "event": "transcript",
+   "text": "हड़ा समंदर गोपी चंदर"
+  },
+  {
+   "t": 17.64,
+   "event": "progress",
+   "frm": 0,
+   "to": 4
+  },
+  {
+   "t": 17.64,
+   "event": "echo_slips_accepted",
+   "words": [
+    0
+   ]
+  },
+  {
+   "t": 17.64,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 0
+  },
+  {
+   "t": 17.64,
+   "event": "state",
+   "state": "TEACHER_DEMONSTRATION",
+   "line": 1
+  },
+  {
+   "t": 22.701,
+   "event": "state",
+   "state": "CHILD_READING"
+  },
+  {
+   "t": 27.494,
+   "event": "transcript",
+   "text": "बोल बोल मेड़ी मछली कितना"
+  },
+  {
+   "t": 27.494,
+   "event": "progress",
+   "frm": 4,
+   "to": 8
+  },
+  {
+   "t": 29.574,
+   "event": "transcript",
+   "text": "पानी"
+  },
+  {
+   "t": 29.574,
+   "event": "progress",
+   "frm": 8,
+   "to": 9
+  },
+  {
+   "t": 29.574,
+   "event": "echo_slips_accepted",
+   "words": [
+    5
+   ]
+  },
+  {
+   "t": 29.574,
+   "event": "state",
+   "state": "LINE_COMPLETED",
+   "line": 1
+  },
+  {
+   "t": 29.574,
+   "event": "state",
+   "state": "SESSION_COMPLETED",
+   "skipped": []
+  },
+  {
+   "t": 29.574,
+   "event": "finish",
+   "skipped": []
+  }
+ ],
+ "stt_events": [
+  {
+   "t": 0.0,
+   "type": "connected",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": "simulated STT ready"
+  },
+  {
+   "t": 14.794,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 17.64,
+   "type": "transcript",
+   "text": "हड़ा समंदर गोपी चंदर",
+   "latency": 120,
+   "audio_duration_ms": 2420,
+   "message": null
+  },
+  {
+   "t": 23.535,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 27.494,
+   "type": "transcript",
+   "text": "बोल बोल मेड़ी मछली कितना",
+   "latency": 120,
+   "audio_duration_ms": 3530,
+   "message": null
+  },
+  {
+   "t": 28.39,
+   "type": "speech_start",
+   "text": null,
+   "latency": null,
+   "audio_duration_ms": null,
+   "message": null
+  },
+  {
+   "t": 29.574,
+   "type": "transcript",
+   "text": "पानी",
+   "latency": 120,
+   "audio_duration_ms": 760,
+   "message": null
+  }
+ ],
+ "utterances": [
+  {
+   "text": "हड़ा समंदर गोपी चंदर",
+   "heard": "हड़ा समंदर गोपी चंदर",
+   "muted_words": 0,
+   "duration_s": 2.42
+  },
+  {
+   "text": "बोल बोल मेड़ी मछली कितना",
+   "heard": "बोल बोल मेड़ी मछली कितना",
+   "muted_words": 0,
+   "duration_s": 3.53
+  },
+  {
+   "text": "पानी",
+   "heard": "पानी",
+   "muted_words": 0,
+   "duration_s": 0.76
+  }
+ ],
+ "tts_offline": 459
+}

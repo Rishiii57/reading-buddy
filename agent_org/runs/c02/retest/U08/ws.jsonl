@@ -1,0 +1,39 @@
+{"t": 14.26, "type": "ready", "message": null}
+{"t": 14.3, "type": "say", "kind": "intro", "text": "नमस्ते! रीडिंग बडी में तुम्हारा स्वागत है! आज हम पढ़ेंगे मछली जल की रानी है ध्यान से सुनो, मैं कैसे पढ़ता हूँ। मछली जल की रानी है अब तुम्हारी बारी। मेरे साथ पढ़ो!", "spans": [[0, 5]]}
+{"t": 32.0, "type": "speech"}
+{"t": 35.63, "type": "heard", "text": "जल कि ड़ानी"}
+{"t": 35.67, "type": "speech"}
+{"t": 36.7, "type": "speech"}
+{"t": 38.52, "type": "heard", "text": "रानी"}
+{"t": 38.54, "type": "speech"}
+{"t": 40.67, "type": "speech"}
+{"t": 43.52, "type": "heard", "text": "हे है"}
+{"t": 43.52, "type": "speech"}
+{"t": 43.56, "type": "say", "kind": "uncertain", "text": "मैं ठीक से सुन नहीं पाया। क्या तुम फिर से पढ़ोगे?", "spans": []}
+{"t": 47.35, "type": "speech"}
+{"t": 49.09, "type": "heard", "text": "है"}
+{"t": 49.11, "type": "speech"}
+{"t": 49.12, "type": "say", "kind": "echo_line", "text": "जीवन उसका पानी है। अब तुम बोलो!", "spans": [[5, 9]]}
+{"t": 53.27, "type": "speech"}
+{"t": 58.36, "type": "heard", "text": "जीवन उसका पाणी पानी"}
+{"t": 58.36, "type": "speech"}
+{"t": 61.05, "type": "speech"}
+{"t": 62.89, "type": "heard", "text": "है"}
+{"t": 62.89, "type": "speech"}
+{"t": 62.91, "type": "say", "kind": "praise", "text": "बहुत अच्छे! पढ़ते रहो।", "spans": []}
+{"t": 62.91, "type": "say", "kind": "echo_line", "text": "हाथ लगाओ डर जाएगी अब तुम बोलो!", "spans": [[9, 13]]}
+{"t": 70.33, "type": "speech"}
+{"t": 73.44, "type": "heard", "text": "डर जाएगी"}
+{"t": 73.45, "type": "speech"}
+{"t": 73.46, "type": "say", "kind": "echo_line", "text": "बाहर निकालो मर जाएगी। अब तुम बोलो!", "spans": [[13, 17]]}
+{"t": 77.39, "type": "speech"}
+{"t": 80.29, "type": "heard", "text": "वाहर वाहर"}
+{"t": 80.34, "type": "speech"}
+{"t": 83.05, "type": "speech"}
+{"t": 88.14, "type": "heard", "text": "निकालो मर मर झाएगी"}
+{"t": 88.16, "type": "speech"}
+{"t": 89.08, "type": "speech"}
+{"t": 94.06, "type": "heard", "text": "बाहर निकालो मर जाएगी"}
+{"t": 94.11, "type": "speech"}
+{"t": 94.19, "type": "say", "kind": "finish", "text": "शाबाश! तुमने अपनी कविता पूरी कर ली!", "spans": []}
+{"t": 94.19, "type": "summary", "summary": {"words_total": 17, "words_read": 14, "words_helped": 1, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 0, "corrections": 0, "seconds": 79.8, "words_per_minute": 11.3}}

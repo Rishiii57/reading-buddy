@@ -1,0 +1,14 @@
+{"t": 3.45, "kind": "open_app", "brief": "Pari, UKG (about 5.5 years). Prefers hi-IN. Repeats words while thinking."}
+{"t": 4.92, "kind": "tap", "target": "हिन्दी सुंदर कविताएँ और कहानियाँ हिंदी म", "why": "curious tap", "view": "view-home"}
+{"t": 7.01, "kind": "tap", "target": "मछली जल की रानी है The Fish Is the Queen", "why": "looking for something to read (view-library)", "view": "view-library"}
+{"t": 9.17, "kind": "opened_text", "hash": "#/read/hi-machhli", "title": "मछली जल की रानी है", "tags": ["Hindi", "Nursery"], "words": 17, "lines": 4}
+{"t": 14.03, "kind": "tap", "target": "Start reading", "why": "trying to start reading", "view": "view-reader"}
+{"t": 16.61, "kind": "session_started", "tries": 1}
+{"t": 30.46, "kind": "issue", "code": "LONG_TUTOR_TALK", "detail": "Buddy talked for over 12 s in one go before the child could read."}
+{"t": 35.56, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "1 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 36.63, "kind": "looked_for_replay", "found": []}
+{"t": 36.63, "kind": "issue", "code": "NO_REPLAY_CONTROL", "detail": "Wanted Buddy to read the line again, but there is no button for that while reading ('Listen first' is switched off during a session)."}
+{"t": 73.44, "kind": "issue", "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS", "detail": "3 word(s) the child said were not heard because Buddy was talking or the session was paused."}
+{"t": 97.34, "kind": "off_task_tap", "target": "Back"}
+{"t": 97.36, "kind": "tap", "target": "Back", "why": "curious tap during reading", "view": "view-reader"}
+{"t": 98.19, "kind": "issue", "code": "LEFT_READING_BY_ACCIDENT", "detail": "A curious tap on 'Back' left the reading page."}

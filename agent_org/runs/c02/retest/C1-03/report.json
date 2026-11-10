@@ -1,0 +1,287 @@
+{
+ "schema": "reading-buddy.child-report.v1",
+ "run_id": "c02-retest",
+ "agent_id": "C1-03",
+ "seed": 1425,
+ "persona": {
+  "id": "C1-03",
+  "name": "Dev",
+  "grade": "Class 1",
+  "age": 6.5,
+  "reading_proficiency": "early",
+  "language_preference": "gu-IN",
+  "journey": "read_whole_poem",
+  "grown_up_setup": true,
+  "technology_familiarity": 0.65,
+  "patience": 4.0,
+  "attention_span_s": 190
+ },
+ "outcome": "completed",
+ "harness_error": null,
+ "text": {
+  "hash": "#/read/gu-avre",
+  "title": "આવ રે વરસાદ",
+  "tags": [
+   "Gujarati",
+   "LKG"
+  ],
+  "words": 11,
+  "lines": 4,
+  "language": "gu-IN",
+  "grade_tag": "LKG"
+ },
+ "experience": {
+  "issues": [
+   {
+    "code": "SPEECH_IGNORED_WHILE_BUDDY_TALKS",
+    "count": 5,
+    "evidence_level": "observed",
+    "first_t": 17.76,
+    "details": [
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "3 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "2 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused.",
+     "1 word(s) the child said were not heard because Buddy was talking or the session was paused."
+    ],
+    "evidence": [
+     {
+      "t": 17.76,
+      "said": "આવ",
+      "heard": ""
+     },
+     {
+      "t": 28.18,
+      "said": "આબ રે વરસાદ",
+      "heard": ""
+     },
+     {
+      "t": 48.29,
+      "said": "વરસાધ વરસાદ",
+      "heard": ""
+     },
+     {
+      "t": 73.47,
+      "said": "પરસાદ",
+      "heard": ""
+     },
+     {
+      "t": 102.44,
+      "said": "કારેલાનું",
+      "heard": ""
+     }
+    ],
+    "child_quote": "Buddy didn't hear me when I was talking.",
+    "child_severity": "confusing"
+   },
+   {
+    "code": "INTERRUPTED_WHILE_THINKING",
+    "count": 1,
+    "evidence_level": "observed",
+    "first_t": 53.99,
+    "details": [
+     "Buddy started talking 3.4 s into a planned 3.49 s thinking pause."
+    ],
+    "evidence": [
+     {
+      "t": 53.99,
+      "paused_s": 3.4,
+      "planned_s": 3.49,
+      "line": 0,
+      "buddy_kind": "take_time",
+      "next_words": "વરસાદ,"
+     }
+    ],
+    "child_quote": "I was just thinking and Buddy jumped in.",
+    "child_severity": "upsetting"
+   }
+  ],
+  "positives": [
+   "I liked it when Buddy said well done.",
+   "I finished the whole poem!",
+   "When I got stuck Buddy told me the words."
+  ],
+  "frustration_peak": 3.3,
+  "frustration_events": [
+   {
+    "t": 17.76,
+    "kind": "unheard_speech",
+    "frustration": 0.8
+   },
+   {
+    "t": 17.76,
+    "kind": "progress",
+    "frustration": 0.65
+   },
+   {
+    "t": 28.18,
+    "kind": "unheard_speech",
+    "frustration": 1.45
+   },
+   {
+    "t": 28.18,
+    "kind": "progress",
+    "frustration": 1.3
+   },
+   {
+    "t": 32.76,
+    "kind": "progress",
+    "frustration": 1.15
+   },
+   {
+    "t": 48.29,
+    "kind": "unheard_speech",
+    "frustration": 1.95
+   },
+   {
+    "t": 48.29,
+    "kind": "progress",
+    "frustration": 1.8
+   },
+   {
+    "t": 53.99,
+    "kind": "interrupted_pause",
+    "frustration": 2.8,
+    "paused_s": 3.4
+   },
+   {
+    "t": 60.66,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 66.67,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 73.47,
+    "kind": "unheard_speech",
+    "frustration": 3.3
+   },
+   {
+    "t": 73.47,
+    "kind": "progress",
+    "frustration": 3.15
+   },
+   {
+    "t": 76.13,
+    "kind": "progress",
+    "frustration": 3.0
+   },
+   {
+    "t": 76.35,
+    "kind": "praise",
+    "frustration": 2.6
+   },
+   {
+    "t": 85.04,
+    "kind": "progress",
+    "frustration": 2.45
+   },
+   {
+    "t": 89.96,
+    "kind": "progress",
+    "frustration": 2.3
+   },
+   {
+    "t": 92.61,
+    "kind": "progress",
+    "frustration": 2.15
+   },
+   {
+    "t": 102.44,
+    "kind": "unheard_speech",
+    "frustration": 2.95
+   },
+   {
+    "t": 102.44,
+    "kind": "progress",
+    "frustration": 2.8
+   },
+   {
+    "t": 105.53,
+    "kind": "progress",
+    "frustration": 2.65
+   },
+   {
+    "t": 110.51,
+    "kind": "progress",
+    "frustration": 2.5
+   },
+   {
+    "t": 115.97,
+    "kind": "progress",
+    "frustration": 2.35
+   },
+   {
+    "t": 115.97,
+    "kind": "praise",
+    "frustration": 1.95
+   }
+  ]
+ },
+ "metrics": {
+  "clicks": 5,
+  "dead_clicks": 0,
+  "nav_clicks": 2,
+  "praise_heard": 2,
+  "interruptions": 1,
+  "unheard_words": 8,
+  "buddy_talk_s": 34.1,
+  "child_talk_s": 31.5,
+  "tired_said": false,
+  "time_to_text_s": 2.3,
+  "reader_page_audio_clips": 1,
+  "time_to_first_word_s": 2.5,
+  "intro_s": 15.4,
+  "session_s": 109.5,
+  "words_total": 11,
+  "words_attempted": 11,
+  "words_said_wrong": 0,
+  "corrections": 0,
+  "buddy_turns": 11,
+  "stall_prompts": 4,
+  "uncertain_prompts": 0
+ },
+ "tutor_summary": {
+  "words_total": 11,
+  "words_read": 5,
+  "words_helped": 6,
+  "words_to_practise": [],
+  "words_practised": 0,
+  "correction_attempts": 0,
+  "lines_total": 4,
+  "lines_completed": 4,
+  "lines_skipped": [],
+  "finished": true,
+  "prompts": 4,
+  "corrections": 0,
+  "seconds": 104.5,
+  "words_per_minute": 6.3
+ },
+ "ux_scores": {
+  "discoverability": 5,
+  "guidance": 5,
+  "interruption_load": 3,
+  "correction_quality": 5,
+  "completion": 5,
+  "enjoyment": 2
+ },
+ "artefacts": {
+  "screens": [
+   "screens/00-home.png",
+   "screens/01-reader.png",
+   "screens/02-summary.png",
+   "screens/03-end.png"
+  ],
+  "trace": "trace.jsonl",
+  "ws": "ws.jsonl",
+  "utterances": "utterances.json",
+  "server_record": "server_record.json"
+ },
+ "simulation_notes": {
+  "tts_placeholder_clips": 455,
+  "speech": "simulated STT (zero credits); child speech and recognition errors are modelled"
+ }
+}

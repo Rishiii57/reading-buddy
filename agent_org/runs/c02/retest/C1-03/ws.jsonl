@@ -1,0 +1,43 @@
+{"t": 11.47, "type": "ready", "message": null}
+{"t": 11.62, "type": "say", "kind": "intro", "text": "નમસ્તે! રીડિંગ બડીમાં તારું સ્વાગત છે! આજે આપણે વાંચીશું આવ રે વરસાદ ધ્યાનથી સાંભળ, હું કેવી રીતે વાંચું છું. આવ રે વરસાદ હવે તારો વારો. મારી સાથે વાંચ!", "spans": [[0, 3]]}
+{"t": 31.03, "type": "speech"}
+{"t": 32.76, "type": "heard", "text": "આવ"}
+{"t": 32.76, "type": "speech"}
+{"t": 37.59, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... રે વરસાદ", "spans": [[1, 3]]}
+{"t": 45.6, "type": "say", "kind": "stall_rest", "text": "રે વરસાદ હવે તું બોલ!", "spans": [[1, 3]]}
+{"t": 53.57, "type": "say", "kind": "take_time", "text": "આરામથી. હું તારી મદદ માટે અહીં જ છું.", "spans": []}
+{"t": 57.81, "type": "speech"}
+{"t": 60.66, "type": "heard", "text": "રે વરસાદ"}
+{"t": 60.66, "type": "speech"}
+{"t": 60.69, "type": "say", "kind": "echo_line", "text": "ઘેવરિયો પરસાદ. હવે તું બોલ!", "spans": [[3, 5]]}
+{"t": 63.8, "type": "speech"}
+{"t": 66.77, "type": "heard", "text": "ઘેવરિયો ઘેવરિયો"}
+{"t": 66.77, "type": "speech"}
+{"t": 72.49, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... પરસાદ.", "spans": [[4, 5]]}
+{"t": 74.31, "type": "speech"}
+{"t": 76.2, "type": "heard", "text": "પરસાદ"}
+{"t": 76.35, "type": "speech"}
+{"t": 76.35, "type": "say", "kind": "praise", "text": "બહુ સરસ! વાંચતો રહે.", "spans": []}
+{"t": 76.35, "type": "say", "kind": "echo_line", "text": "ઊની ઊની રોટલી હવે તું બોલ!", "spans": [[5, 8]]}
+{"t": 83.31, "type": "speech"}
+{"t": 85.07, "type": "heard", "text": "ઊની"}
+{"t": 85.07, "type": "speech"}
+{"t": 87.25, "type": "speech"}
+{"t": 90.07, "type": "heard", "text": "ઊની ડોટલી"}
+{"t": 90.18, "type": "speech"}
+{"t": 91.14, "type": "speech"}
+{"t": 92.64, "type": "heard", "text": "રોટલી"}
+{"t": 92.65, "type": "speech"}
+{"t": 92.92, "type": "say", "kind": "echo_line", "text": "ને કારેલાનું શાક. હવે તું બોલ!", "spans": [[8, 11]]}
+{"t": 101.07, "type": "say", "kind": "stall_phrase", "text": "સાંભળ... ને કારેલાનું શાક.", "spans": [[8, 11]]}
+{"t": 103.95, "type": "speech"}
+{"t": 105.56, "type": "heard", "text": "ને"}
+{"t": 105.59, "type": "speech"}
+{"t": 108.82, "type": "speech"}
+{"t": 110.52, "type": "heard", "text": "કારેલાનું"}
+{"t": 110.52, "type": "speech"}
+{"t": 114.21, "type": "speech"}
+{"t": 115.97, "type": "heard", "text": "શાક"}
+{"t": 115.97, "type": "speech"}
+{"t": 115.97, "type": "say", "kind": "finish", "text": "શાબાશ! તેં તારી કવિતા પૂરી કરી!", "spans": []}
+{"t": 115.97, "type": "summary", "summary": {"words_total": 11, "words_read": 5, "words_helped": 6, "words_to_practise": [], "words_practised": 0, "correction_attempts": 0, "lines_total": 4, "lines_completed": 4, "lines_skipped": [], "finished": true, "prompts": 4, "corrections": 0, "seconds": 104.5, "words_per_minute": 6.3}}
